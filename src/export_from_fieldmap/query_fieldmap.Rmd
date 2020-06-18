@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(RODBC)
 library(kableExtra)
+library(DT)
 ```
 
 # Database names
@@ -964,8 +965,9 @@ check_missing_data_openhab <- check_missing_data %>%
     select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, coordinates_record, cover_species_record, structure_opebhab_record) 
 
 check_missing_data_openhab %>%
-    kable() %>%
-    kable_styling()
+    datatable(filter = "top",
+            rownames = FALSE)
+
 
 ```
 
@@ -990,8 +992,8 @@ check_missing_data_openhab2 <- check_missing_data %>%
     select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, structure_opebhab_record) 
 
 check_missing_data_openhab2 %>%
-    kable() %>%
-    kable_styling()
+    datatable(filter = "top",
+            rownames = FALSE)
 ```
 
 
@@ -1028,8 +1030,8 @@ check_missing_data_foresthab <- check_missing_data %>%
     select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, dendro_record, a2_record, a3a4_record) 
 
 check_missing_data_foresthab %>%
-    kable() %>%
-    kable_styling()
+  datatable(filter = "top",
+            rownames = FALSE)
 
 ```
 
@@ -1054,8 +1056,8 @@ check_missing_data_foresthab2 <- check_missing_data %>%
     select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, dendro_record, a2_record, a3a4_record) 
 
 check_missing_data_foresthab2 %>%
-    kable() %>%
-    kable_styling()
+  datatable(filter = "top",
+            rownames = FALSE)
 ```
 
 
