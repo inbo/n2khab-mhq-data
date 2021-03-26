@@ -58,7 +58,7 @@ coverscales <- scales_orig %>%
 
 ## Functions to access open habitat fieldmap database
 
-```{r}
+```{r v5_getaccessOpenHabFMdb}
 
 get_status_openhab <- function(db = db_fieldmap_openhab){
 
@@ -490,7 +490,7 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
 ```
 
 
-```{r LG_getaccesOpenHabFMdb}
+```{r v7_getaccessOpenHabFMdb}
 
 #get status wil zegggen : afgewerkt of niet volgens grid_points (v7 : nog terreinwerk nodig of niet)
 
@@ -1462,16 +1462,16 @@ check_missing_data_openhab <- check_missing_data %>%
 
 check_missing_data_openhab %>%
     datatable(filter = "top",
-            rownames = FALSE)
+            rownames = FALSE, options = list(pageLength = 30))
 
 
 ```
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 # corrections -> to be changed in database!
 
 change_geen_habitat <- check_missing_data_openhab %>%
-  filter(type_observed_circle == "geen habitat (akker, houtkant, tuin,...)" & is.na(info_status_fieldwork))
+   filter(type_observed_circle == "geen habitat (akker, houtkant, tuin,...)" & is.na(info_status_fieldwork))
 
 sample_status <- sample_status %>%
   mutate(info_status_fieldwork = ifelse(plot_id %in% change_geen_habitat$plot_id, "Geen opname : geen doelhabitat", as.character(info_status_fieldwork)))
@@ -1481,30 +1481,33 @@ sample_status <- sample_status %>%
 
 ## Not measured open habitat plot with data
 
-A plot is regarded as not measured when 'status_fieldwork' = 'nee' or when 'info_status_fieldwork' is not NA.
+A plot is regarded as not measured when 'status_fieldwork' = 'nee' or when 'info_status_fieldwork' is not NA (untill version v5 db open). 
+A plot is regarded as not measured when 'targethabitat' = 'onbekend' or 'nee' or targethabitat = 'ja' and ('status_fieldwork_opnameuitgevoe' = 'geen opname gevraagd' or 'geen opname uitgevoerd' or 'opname gedeeltelijk uitgevoerd'). 
 
 Possible actions:
 
 - When all vegetation and structure records are recorded:
-    - set 'info_status_fieldwork' to NA
+    - set 'info_status_fieldwork' to NA (v5)
+    - adjust 'info_status_fieldwork_nogtw' and 'status_fieldwork_opnameuitgevoe'
 
 - When vegetation and structure records are partially recorded:
-    - check 'info_status_fieldwork' 
+    - check 'info_status_fieldwork' (v5) or info_status_fieldwork_nogtw (v7)
 
 ```{r}
 check_missing_data_openhab2 <- check_missing_data %>%
     filter(db == "openhab" | is.na(db)) %>%
-    filter(!lsvi_measurement | status_fieldwork == "nee" | is.na(status_fieldwork)) %>%
+  #  filter(!lsvi_measurement | status_fieldwork == "nee" | is.na(status_fieldwork)) %>%
+    filter( targethabitat != 'ja' |  (targethabitat == 'ja' & status_fieldwork_opnameuitgevoe %in% c("Geen opname gevraagd", "Geen opname uitgevoerd", "Opname gedeeltelijk uitgevoerd")) ) %>%
     filter(cover_species_record |
                structure_openhab_record) %>%
-    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, structure_openhab_record) 
+    select(plot_id, status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, remark, type_observed_circle, date_assessment, cover_species_record, structure_openhab_record) 
 
 check_missing_data_openhab2 %>%
     datatable(filter = "top",
             rownames = FALSE)
 ```
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 # corrections -> to be changed in database!
 
 change_status_fieldwork_ja <- check_missing_data_openhab2 %>%
@@ -1516,14 +1519,14 @@ sample_status <- sample_status %>%
 
 ```
 
-## Plots with status_fieldwork == "nee" & info_status_fieldwork == "Geen opname : geen doelhabitat"
+## v5 - Plots with status_fieldwork == "nee" & info_status_fieldwork == "Geen opname : geen doelhabitat"
 
 Possible actions:
 
 - Set status_fieldwork = "ja"
 - Set info_status_fieldwork = "Geen (volledig) terreinbezoek uitgevoerd"
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 check_missing_data_openhab3 <- check_missing_data %>%
     filter(db == "openhab" | is.na(db)) %>%
     filter(status_fieldwork == "nee" & info_status_fieldwork == "Geen opname : geen doelhabitat") %>%
@@ -1534,11 +1537,29 @@ check_missing_data_openhab3 %>%
             rownames = FALSE)
 ```
 
-```{r}
+```{r eval=FALSE, include=FALSE}
 # corrections -> to be changed in database!
 
 sample_status <- sample_status %>%
   mutate(status_fieldwork = ifelse(plot_id %in% check_missing_data_openhab3$plot_id, "ja", as.character(status_fieldwork)))
+
+```
+
+## v7 - Plots and targethabitat
+
+```{r}
+
+targetYes <- check_missing_data %>%
+    filter(targethabitat == 'ja') %>%
+    group_by(status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, assessment_source, inaccessible, lsvi_measurement, completed) %>%
+    summarise(count = n()) %>%
+    ungroup()
+
+targetNo <- check_missing_data %>%
+    filter(targethabitat != 'ja') %>%
+    group_by(status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, assessment_source, inaccessible, lsvi_measurement, completed) %>%
+    summarise(count = n()) %>%
+    ungroup()
 
 ```
 
