@@ -26,8 +26,12 @@ library(DT)
 
 ```{r}
 
-db_fieldmap_foresthab <- "../../data/database_forest_2020-06-04/FIELDMAPDATA_BOSHAB_F_V2020_QC202004.FDB"
-db_fieldmap_openhab <- "../../data/database_heath6510_2020-06-12/FIELDMAPDATA_MASTER_NAT2000_F_V5.FDB"
+#db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
+
+#In formaat, compatibel met FM
+db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/BOSHAB_F_v2020_MASTER/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
+db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/FIELDMAPDATA_MASTER_NAT2000_F_V7.FDB"
+
 ```
 
 # Dabase access function
@@ -485,13 +489,453 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
 
 ```
 
+
+```{r LG_getaccesOpenHabFMdb}
+
+#get status wil zegggen : afgewerkt of niet volgens grid_points (v7 : nog terreinwerk nodig of niet)
+
+get_status_openhab <- function(db = db_fieldmap_openhab){
+
+query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
+    Grid_points.Ranking as plot_id,
+    Grid_points.Add_date as date_status,
+    Grid_points.SingleID as sampling_unit_code,
+    YesNo.Value1 as TargetHabitat,
+    QINVAV.Value1 as status_fieldwork_OpnameUitgevoerd,
+    QINVAV_EXTRA.Value1 as info_status_fieldwork_nogTW,
+    Grid_points.Remark as remark
+    FROM Grid_points 
+    LEFT JOIN qFieldteam ON Grid_points.Fieldteam = qFieldteam.ID
+    LEFT JOIN QINVAV_EXTRA ON Grid_points.INFO_STATUS_FIELDWORK = QINVAV_EXTRA.ID
+    LEFT JOIN QINVAV ON Grid_points.INVAVAILABLE = QINVAV.ID
+    LEFT JOIN YesNo ON Grid_points.TARGETHABITAT = YesNo.ID;"
+
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+ gridpoints_orig <- sqlQuery(connect_db, query_gridpoints)
+ 
+ colnames(gridpoints_orig) <- str_to_lower(colnames(gridpoints_orig))
+ 
+ # selectie van punten die zijn afgewerkt v5--staus_fw = afgewerkt (ja/nee) --> v7 Info_status_fieldwerk : opname volledig/gedeeltelijk/niet afgewerkt
+ gridpoints <- gridpoints_orig %>%
+    #filter(!is.na(status_fieldwork))
+     filter(info_status_fieldwork_nogtw != 'to do/geen reden/vergeten' & !is.na(info_status_fieldwork_nogtw)) # 8 : to do/vergeten
+  odbcClose(connect_db)
+
+  return(gridpoints)
+}
+
+get_type_observed_openhab <- function(db = db_fieldmap_openhab){
+
+  query_type_observed_circle <- "
+  SELECT
+  Standdescription.IDPlots as plot_id,
+  Standdescription.ID as segment_id,
+  Standdescription.Add_date as date_standdescription,
+  Standdescription.Area_m2 as area_m2,
+  qHABITAT.Value1 as type_observed_circle
+  FROM Standdescription LEFT JOIN qHABITAT ON Standdescription.HABITAT = qHABITAT.ID;
+  "
+  
+  query_type_observed_square <- "
+  SELECT
+  VegPQ.IDPlots as plot_id,
+  qHABITAT.Value1 as type_observed_square
+  FROM VegPQ LEFT JOIN qHABITAT ON VegPQ.HAB1 = qHABITAT.ID;
+  "
+
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  type_observed_circle_orig <- sqlQuery(connect_db, query_type_observed_circle, stringsAsFactors = FALSE)
+  type_observed_square_orig <- sqlQuery(connect_db, query_type_observed_square, stringsAsFactors = FALSE)
+  
+  odbcClose(connect_db)
+
+  colnames(type_observed_circle_orig) <- str_to_lower(colnames(type_observed_circle_orig))
+  colnames(type_observed_square_orig) <- str_to_lower(colnames(type_observed_square_orig))
+  
+  type_observed_square <- type_observed_square_orig %>%
+      filter(!is.na(type_observed_square))
+  
+  type_observed <- type_observed_circle_orig %>%
+    full_join(type_observed_square, by = c("plot_id")) %>%
+    mutate(type_observed_circle = ifelse(nchar(type_observed_circle) %in% c(7, 8),
+                                         gsub(" ", "_", type_observed_circle),
+                                         type_observed_circle),
+           type_observed_square = ifelse(nchar(type_observed_square) %in% c(7, 8),
+                                         gsub(" ", "_", type_observed_square),
+                                         type_observed_square))
+
+  result <- type_observed
+
+  return(result)
+}
+
+get_cover_veglayers_openhab <- function(db = db_fieldmap_openhab){
+
+  query_cover_veglayers <- "
+  SELECT
+  VegPQ.IDPlots as plot_id,
+  VegPQ.ID as segment_id,
+  VegPQ.Licheneslayer,
+  VegPQ.Sphagnumlayer,
+  VegPQ.OtherMosslayer,
+  VegPQ.Herblayer,
+  VegPQ.Shrublayer,
+  VegPQ.Treelayer,
+  VegPQ.Shrub_and_Treelayer as shrub_treelayer,
+  VegPQ.Litter
+  FROM VegPQ;"
+
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  cover_veglayers_orig <- sqlQuery(connect_db, query_cover_veglayers, stringsAsFactors = FALSE)
+  
+  odbcClose(connect_db)
+
+  colnames(cover_veglayers_orig) <- str_to_lower(colnames(cover_veglayers_orig))
+  
+  cover_veglayers <- cover_veglayers_orig %>%
+    mutate(mosslayer = sphagnumlayer + othermosslayer) %>%
+    gather(mosslayer, herblayer, shrublayer, treelayer, shrub_treelayer, licheneslayer, sphagnumlayer, othermosslayer, litter, key = "layer", value = "cover") %>%
+    arrange(plot_id)
+
+  return(cover_veglayers)
+
+}
+
+
+get_cover_species_openhab <- function(db = db_fieldmap_openhab){
+
+  query_herblayer<-"
+  SELECT Herblayer.IDPlots as plot_id,
+  Herblayer.Species as name_id,
+  qVEG_HerbSpecies.Value1 as name_nl,
+  qVEG_HerbSpeciesScientific.Value1 as name_sc,
+  Herblayer.Coverage_date1 as class_id,
+  qLondo.Value1 as cover_description
+  FROM Herblayer
+  LEFT JOIN qVEG_HerbSpecies ON Herblayer.Species = qVEG_HerbSpecies.ID
+  LEFT JOIN qVEG_HerbSpeciesScientific ON Herblayer.Species_scientific = qVEG_HerbSpeciesScientific.ID
+  LEFT JOIN qLondo ON Herblayer.Coverage_date1 = qLondo.ID;
+  "
+
+  query_shrublayer <- "
+  SELECT Shrublayer.IDPlots as plot_id,
+  Shrublayer.Species as name_id,
+  qVEG_TreeSpecies.Value1 as name_nl,
+  qVEG_TreeSpeciesScientific.Value1 as name_sc,
+  Shrublayer.Coverage as class_id,
+  qLondo.Value1 as cover_description
+  FROM Shrublayer
+  LEFT JOIN qVEG_TreeSpecies ON Shrublayer.Species = qVEG_TreeSpecies.ID
+  LEFT JOIN qVEG_TreeSpeciesScientific ON Shrublayer.Species_Scientific = qVEG_TreeSpeciesScientific.ID
+  LEFT JOIN qLondo ON Shrublayer.Coverage = qLondo.ID;
+  "
+
+  query_treelayer <- "
+  SELECT Treelayer.IDPlots as plot_id,
+  Treelayer.Species as name_id,
+  qVEG_TreeSpecies.Value1 as name_nl,
+  qVEG_TreeSpeciesScientific.Value1 as name_sc,
+  Treelayer.Coverage as class_id,
+  qLondo.Value1 as cover_description
+  FROM Treelayer
+  LEFT JOIN qVEG_TreeSpecies ON Treelayer.Species = qVEG_TreeSpecies.ID
+  LEFT JOIN qVEG_TreeSpeciesScientific ON Treelayer.Species_Scientific = qVEG_TreeSpeciesScientific.ID
+  LEFT JOIN qLondo ON Treelayer.Coverage = qLondo.ID;
+  "
+
+  query_mosslayer <- "
+  SELECT Mosslayer.IDPlots as plot_id,
+  Mosslayer.Species as name_id,
+  qVEG_MossSpecies.Value1 as name_nl,
+  qVEG_MossSpeciesScientific.Value1 as name_sc,
+  Mosslayer.Coverage as class_id,
+  qLondo.Value1 as cover_description
+  FROM Mosslayer
+  LEFT JOIN qVEG_MossSpecies ON Mosslayer.Species = qVEG_MossSpecies.ID
+  LEFT JOIN qVEG_MossSpeciesScientific ON Mosslayer.Species_Scientific = qVEG_MossSpeciesScientific.ID
+  LEFT JOIN qLondo ON Mosslayer.Coverage = qLondo.ID;
+  "
+
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  herblayer_orig <- sqlQuery(connect_db, query_herblayer, stringsAsFactors = FALSE)
+  shrublayer_orig <- sqlQuery(connect_db, query_shrublayer, stringsAsFactors = FALSE)
+  treelayer_orig <- sqlQuery(connect_db, query_treelayer, stringsAsFactors = FALSE)
+  mosslayer_orig <- sqlQuery(connect_db, query_mosslayer, stringsAsFactors = FALSE)
+
+  odbcClose(connect_db)
+
+  colnames(herblayer_orig) <- str_to_lower(colnames(herblayer_orig))
+  colnames(shrublayer_orig) <- str_to_lower(colnames(shrublayer_orig))
+  colnames(treelayer_orig) <- str_to_lower(colnames(treelayer_orig))
+  colnames(mosslayer_orig) <- str_to_lower(colnames(mosslayer_orig))
+  
+   herblayer <- herblayer_orig %>%
+     mutate(layer = "herblayer")
+
+   shrublayer <- shrublayer_orig %>%
+     mutate(layer = "shrublayer")
+
+   treelayer <- treelayer_orig %>%
+     mutate(layer = "treelayer")
+
+   mosslayer <- mosslayer_orig %>%
+     mutate(layer = "mosslayer")
+
+  # coverscales <- read_vc(file = "coverscales_mhq", root = "../../data")
+   
+  veglayers <- bind_rows(herblayer, shrublayer, treelayer, mosslayer) %>%
+    filter(!is.na(name_id)) %>%
+    mutate(coverscale_name = "Londo") %>%
+    left_join(coverscales, by = c("coverscale_name", "class_id", "cover_description")) %>%
+    select(plot_id, layer, name_nl, name_sc, coverscale_name, cover_description, cover_mean) %>%
+    arrange(plot_id, layer, name_sc)
+    
+  return(veglayers)
+
+}
+
+get_measurements_heath_circle <- function(db = db_fieldmap_openhab){
+
+  query_structurevar_heath<- "SELECT
+  SiteDescription_HEIDE.IDPlots as plot_id,
+SiteDescription_HEIDE.Edit_date as date_sitedescription,
+  SiteDescription_HEIDE.Shrub_and_Treelayer_18m,
+  SiteDescription_HEIDE.Sphagnumlayer,
+  SiteDescription_HEIDE.Campylopus_introflexus,
+  SiteDescription_HEIDE.LowShrublayer,
+  SiteDescription_HEIDE.Brushwood,
+  SiteDescription_HEIDE.Herbs,
+  SiteDescription_HEIDE.Calluna_phase_pioneer,
+  SiteDescription_HEIDE.Calluna_phase_devel,
+  SiteDescription_HEIDE.Calluna_phase_climax,
+  SiteDescription_HEIDE.Calluna_phase_degen,
+  SiteDescription_HEIDE.Pioneer_phase_open_soil,
+  SiteDescription_HEIDE.Pioneer_Coryn_Aira,
+  SiteDescription_HEIDE.Pioneer_Mos,
+  SiteDescription_HEIDE.Pioneer_Lichenen
+  FROM SiteDescription_HEIDE;"
+  
+
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  structure_vars <- sqlQuery(connect_db, query_structurevar_heath, stringsAsFactors = FALSE)
+
+  odbcClose(connect_db)
+  
+  colnames(structure_vars) <- str_to_lower(colnames(structure_vars))
+  
+  #coverscales <- read_vc(file = "coverscales_mhq", root = "../../data")
+
+# uitgezonderd bedekking van struik+boomlaag worden alle bedekkingen via BMS-schaal bepaald
+  structure_var_bms <- structure_vars %>%
+    select(-shrub_and_treelayer_18m) %>%
+    gather(-plot_id, -date_sitedescription, key = "structure_var", value = "class_id") %>%
+    mutate(coverscale_name = "Beheermonitoringsschaal") %>%
+      left_join(coverscales, by = c("coverscale_name","class_id")) %>%
+      select(plot_id, structure_var, coverscale_name, cover_description, cover_mean) %>%
+      mutate(structure_var = tolower(structure_var))
+  
+  structure_var_cover <- structure_vars %>%
+      mutate(structure_var = "shrub_treelayer") %>%
+      select(plot_id, structure_var, cover = shrub_and_treelayer_18m)
+      
+
+# alle records als bedekking uitgedrukt
+  structure_vars_long <- bind_rows(structure_var_bms,
+                                   structure_var_cover) %>%
+      arrange(plot_id, structure_var)
+
+  return(structure_vars_long)
+
+}
+
+
+get_measurements_heath_circle_old <- function(db = db_fieldmap_openhab){
+
+  query_structurevar_heath<- "SELECT
+  SiteDescription_HEIDE.IDPlots as plot_id,
+  SiteDescription_HEIDE.Shrub_and_Treelayer_18m,
+  SiteDescription_HEIDE.Sphagnumlayer,
+  SiteDescription_HEIDE.Campylopus_introflexus,
+  SiteDescription_HEIDE.LowShrublayer,
+  SiteDescription_HEIDE.Brushwood,
+  SiteDescription_HEIDE.Herbs,
+  SiteDescription_HEIDE.Calluna_phase_pioneer,
+  SiteDescription_HEIDE.Calluna_phase_devel,
+  SiteDescription_HEIDE.Calluna_phase_climax,
+  SiteDescription_HEIDE.Calluna_phase_degen,
+  SiteDescription_HEIDE.Pioneer_phase_open_soil,
+  SiteDescription_HEIDE.Pioneer_Coryn_Aira,
+  SiteDescription_HEIDE.Pioneer_Mos,
+  SiteDescription_HEIDE.Pioneer_Lichenen
+  FROM SiteDescription_HEIDE;"
+  
+
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  structure_vars <- sqlQuery(connect_db, query_structurevar_heath, stringsAsFactors = FALSE)
+
+  odbcClose(connect_db)
+  
+  #coverscales <- read_vc(file = "coverscales_mhq", root = "../../data")
+  
+# uitgezonderd bedekking van struik+boomlaag worden alle bedekkingen via tansley-schaal bepaald
+  structure_var_tansley <- structure_vars %>%
+    select(plot_id, LowShrublayer, starts_with("Calluna")) %>%
+    gather(-plot_id, key = "structure_var", value = "class_id") %>%
+    mutate(coverscale_name = "Tansley") %>%
+    left_join(coverscales, by = c("coverscale_name","class_id")) %>%
+    select(plot_id, structure_var, coverscale_name, cover_description, cover_mean) %>%
+    mutate(structure_var = tolower(structure_var))
+  
+  structure_var_cover <- structure_vars %>%
+    select(-LowShrublayer, -starts_with("Calluna")) %>%
+    gather(-plot_id, key = "structure_var", value = "cover")
+      
+
+# alle records als bedekking uitgedrukt
+  structure_vars_long <- bind_rows(structure_var_tansley,
+                                   structure_var_cover) %>%
+      arrange(plot_id, structure_var)
+
+  return(structure_vars_long)
+
+}
+
+
+get_measurements_6510_circle <- function(db = db_fieldmap_openhab){
+
+  query_StructurePlot6510 <- "SELECT
+  SiteDescription_6510.IDPlots as plot_id,
+  SiteDescription_6510.Shrub_and_Treelayer_18m
+  FROM SiteDescription_6510"
+
+   if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  structure_vars_orig <- sqlQuery(connect_db, query_StructurePlot6510)
+
+  odbcClose(connect_db)
+  
+  colnames(structure_vars_orig) <- str_to_lower(colnames(structure_vars_orig))
+  
+  structure_vars <- structure_vars_orig %>%
+      mutate(structure_var = "shrub_treelayer") %>%
+      select(plot_id , structure_var, cover = shrub_and_treelayer_18m)
+      
+  
+  return(structure_vars)
+}
+
+get_date_openhab <- function(db = db_fieldmap_openhab){
+
+  query_date <- "SELECT
+  Observer_date.IDPlots as plot_id,
+  Observer_date.Add_date as date_assessment
+  FROM Observer_date"
+
+   if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  date_assessments_orig <- sqlQuery(connect_db, query_date)
+  
+  odbcClose(connect_db)
+  
+  colnames(date_assessments_orig) <- str_to_lower(colnames(date_assessments_orig))
+  
+  date_assessments <- date_assessments_orig %>%
+      mutate(date_assessment = as.Date(date_assessment, format = "%Y-%m-%d"))
+      
+  return(date_assessments)
+}
+
+get_coordinates_openhab <- function(db = db_fieldmap_openhab){
+
+  query_coord <- "SELECT
+  GPS_REF.IDPlots,
+  GPS_REF.SingleID as plot_id,
+  GPS_REF.X_m as x_measured,
+  GPS_REF.Y_m as y_measured
+  FROM GPS_REF"
+
+    if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  coordinates <- sqlQuery(connect_db, query_coord) %>%
+      filter(!is.na(PLOT_ID))
+
+  odbcClose(connect_db)
+  
+  colnames(coordinates) <- str_to_lower(colnames(coordinates))
+  
+  return(coordinates)
+}
+
+```
+
+
 ## Functions to access forest hab fieldmap database
 
 ```{r}
 
 get_status_foresthab <- function(db = db_fieldmap_foresthab){
 
-query_status <- "SELECT G.idplots,
+query_status <- "SELECT G.idplots as navplot_id,
         G.plot_id, 
         G.add_date AS date_status,
         G.status_fieldwork, 
@@ -514,8 +958,8 @@ colnames(gridpoints_orig) <- str_to_lower(colnames(gridpoints_orig))
 
 gridpoints <- gridpoints_orig %>%
     filter(!is.na(status_fieldwork)) %>%
-    mutate(status_fieldwork = ifelse(status_fieldwork == 0, "nee", 
-                                     ifelse(status_fieldwork == 1, "ja")))
+    mutate(status_fieldwork = ifelse(status_fieldwork == 2, "nee", 
+                                     ifelse(status_fieldwork == 1, "ja", "onbepaald")))
 
 odbcClose(connect_db)
 
@@ -690,6 +1134,7 @@ get_date_foresthab <- function(db = db_fieldmap_foresthab){
 get_coordinates_foresthab <- function(db = db_fieldmap_foresthab){
 
   query_coord <- "SELECT
+  Plots_Forest_Inventory.IDPlots,
   Plots_Forest_Inventory.Plotnr as plot_id,
   Plots_Forest_Inventory.X_m as x_measured,
   Plots_Forest_Inventory.Y_m as y_measured
@@ -798,18 +1243,22 @@ sample_status_foresthab <- get_status_foresthab() %>%
 sample_status <- bind_rows(sample_status_openhab, 
                            sample_status_foresthab)
 
+# sample_status <- sample_status_openhab
+
 check <- sample_status %>%
     group_by(plot_id) %>%
     mutate(n = n()) %>%
     ungroup() %>%
-    filter(n > 1)
+    filter(n > 1) # dit zijn plots die in 2 bewegingen zijn afgewerkt - geen fout in data
 
 sample_status <- sample_status %>%
     group_by(plot_id, sampling_unit_code, db) %>%
-    summarise(date_status = min(date_status),
-              status_fieldwork = unique(status_fieldwork),
-              info_status_fieldwork = unique(info_status_fieldwork),
-              remark = str_c(remark, collapse = "+")) %>%
+    summarise(date_status = min(date_status)
+              #status_fieldwork = unique(status_fieldwork),
+              , targethabitat = unique(targethabitat)
+              , status_fieldwork_opnameuitgevoe = unique(status_fieldwork_opnameuitgevoe)
+              , info_status_fieldwork_nogtw = unique(info_status_fieldwork_nogtw)
+              , remark = str_c(remark, collapse = "+")) %>%
     ungroup()
 
 # type_observed
@@ -914,36 +1363,79 @@ check_coordinates_double <- coordinates %>%
   filter(n > 1)
   
 
+# check_missing_data <- sample_status %>%
+#     full_join(type_observed_plot, by = "plot_id") %>%
+#     full_join(date_assessment_plot, by = "plot_id") %>%
+#     mutate(assessment_source = ifelse(status_fieldwork == "ja", "field assessment",
+#                                   ifelse(status_fieldwork == "nee", NA, NA)),
+#            inaccessible = ifelse(!is.na(info_status_fieldwork) & info_status_fieldwork == "Geen opname : tijdelijk nt toeg", "short term", 
+#                                   ifelse(info_status_fieldwork %in% c("Geen opname : permanent nt toegankelijk", "Geen opname : geen toelating"), "long term", NA)),
+#            lsvi_measurement = ifelse(assessment_source == "field assessment",
+#                                 ifelse(!is.na(info_status_fieldwork) & info_status_fieldwork == "Geen opname : geen doelhabitat", FALSE, TRUE),
+#                                 NA),
+#            lsvi_measurement = ifelse(inaccessible %in% c("short term", "long term"), FALSE, lsvi_measurement),
+#            assessment_source = ifelse(inaccessible %in% c("short term", "long term"), NA, assessment_source),
+#            completed = ifelse(lsvi_measurement,
+#                               ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork == "Geen (volledig) terreinbezoek uitgevoerd", FALSE, TRUE),
+#                               NA),
+#            coordinates_record = plot_id %in% coordinates$plot_id,
+#            cover_species_record = plot_id %in% cover_species$plot_id,
+#            cover_veglayers_record = plot_id %in% cover_veglayers_plot$plot_id,
+#            a3a4_record = ifelse(db == "foresthab", plot_id %in% trees_a3a4$plot_id, NA),
+#            a2_record = ifelse(db == "foresthab", plot_id %in% trees_a2$plot_id, NA),
+#            logs_record = ifelse(db == "foresthab", plot_id %in% logs$plot_id, NA),
+#            dendro_record = a3a4_record | a2_record | logs_record,
+#            structure_openhab_record = ifelse(db == "openhab" | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
+#   mutate(plot_id = as.character(plot_id))
+
 check_missing_data <- sample_status %>%
     full_join(type_observed_plot, by = "plot_id") %>%
     full_join(date_assessment_plot, by = "plot_id") %>%
-    mutate(assessment_source = ifelse(status_fieldwork == "ja", "field assessment",
-                                  ifelse(status_fieldwork == "nee", NA, NA)),
-           inaccessible = ifelse(!is.na(info_status_fieldwork) & info_status_fieldwork == "Geen opname : tijdelijk nt toeg", "short term", 
-                                  ifelse(info_status_fieldwork %in% c("Geen opname : permanent nt toegankelijk", "Geen opname : geen toelating"), "long term", NA)),
-           lsvi_measurement = ifelse(assessment_source == "field assessment",
-                                ifelse(!is.na(info_status_fieldwork) & info_status_fieldwork == "Geen opname : geen doelhabitat", FALSE, TRUE),
-                                NA),
-           lsvi_measurement = ifelse(inaccessible %in% c("short term", "long term"), FALSE, lsvi_measurement),
-           assessment_source = ifelse(inaccessible %in% c("short term", "long term"), NA, assessment_source),
-           completed = ifelse(lsvi_measurement,
-                              ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork == "Geen (volledig) terreinbezoek uitgevoerd", FALSE, TRUE),
-                              NA),
-           coordinates_record = plot_id %in% coordinates$plot_id,
-           cover_species_record = plot_id %in% cover_species$plot_id,
-           cover_veglayers_record = plot_id %in% cover_veglayers_plot$plot_id,
-           a3a4_record = ifelse(db == "foresthab", plot_id %in% trees_a3a4$plot_id, NA),
-           a2_record = ifelse(db == "foresthab", plot_id %in% trees_a2$plot_id, NA),
-           logs_record = ifelse(db == "foresthab", plot_id %in% logs$plot_id, NA),
-           dendro_record = a3a4_record | a2_record | logs_record,
-           structure_openhab_record = ifelse(db == "openhab" | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
+  #opname uitgevoerd cfr invav
+    mutate( assessment_source = ifelse(targethabitat %in% c("ja", "nee")
+                                          , "field assessment", NA)
+            
+           , inaccessible = ifelse(!is.na(info_status_fieldwork_nogtw ) 
+                                   & info_status_fieldwork_nogtw %in% c("opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)"
+                                          , "tijdelijk geen toestemming/geen toegang (eigenaar/hond/vee)"), "short term", 
+                                  
+                                   ifelse(info_status_fieldwork_nogtw %in% c("opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)"
+                                           , "geen toestemming/geen toegang (eigenaar/hond/vee)"), "long term", NA))
+           
+           , lsvi_measurement = ifelse(assessment_source == "field assessment" & 
+                                         !(info_status_fieldwork_nogtw  %in% c("te hoge RANKING", "voldoende opnames beschikbaar", "opname nog niet 100% klaar")),
+                                ifelse(!is.na(targethabitat) & targethabitat == "ja", TRUE, FALSE),
+                                FALSE)
+           
+           , lsvi_measurement = ifelse(inaccessible %in% c("short term", "long term"), FALSE, lsvi_measurement)
+           
+         #  , assessment_source = ifelse(inaccessible %in% c("short term", "long term"), NA, assessment_source)
+           
+           , completed = ifelse(lsvi_measurement,
+                              ifelse(!is.na(info_status_fieldwork_nogtw) &  info_status_fieldwork_nogtw != "100% afgewerkt", FALSE, TRUE),NA)
+           
+           , coordinates_record = plot_id %in% coordinates$plot_id
+           , cover_species_record = plot_id %in% cover_species$plot_id
+           , cover_veglayers_record = plot_id %in% cover_veglayers_plot$plot_id
+           , a3a4_record = ifelse(db == "foresthab", plot_id %in% trees_a3a4$plot_id, NA)
+           , a2_record = ifelse(db == "foresthab", plot_id %in% trees_a2$plot_id, NA)
+           , logs_record = ifelse(db == "foresthab", plot_id %in% logs$plot_id, NA)
+           , dendro_record = a3a4_record | a2_record | logs_record
+           , structure_openhab_record = ifelse(db == "openhab" | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
   mutate(plot_id = as.character(plot_id))
-    
+
+
+t <- check_missing_data %>%
+    select(plot_id, sampling_unit_code, db, targethabitat, status_fieldwork_opnameuitgevoe,info_status_fieldwork_nogtw
+           , assessment_source, inaccessible, lsvi_measurement, completed, remark)
+
+
 ```
 
 ## Measured open habitat plot with missing data 
 
-A plot is regarded as measured when 'status_fieldwork' = 'ja' and 'info_status_fieldwork' = NA.
+A plot is regarded as measured when 'status_fieldwork' = 'ja' and 'info_status_fieldwork' = NA (untill version v5 db open). 
+A plot is regarded as measured when targethabitat = "ja" and status_fieldwork_nogtw = "100% afgewerkt" (v7 db open).
 
 Possible actions:
 
@@ -966,7 +1458,7 @@ check_missing_data_openhab <- check_missing_data %>%
                !coordinates_record |
                !cover_species_record |
                !structure_openhab_record) %>%
-    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, coordinates_record, cover_species_record, structure_openhab_record) 
+    select(plot_id, status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, remark, type_observed_circle, date_assessment, coordinates_record, cover_species_record, structure_openhab_record) 
 
 check_missing_data_openhab %>%
     datatable(filter = "top",
