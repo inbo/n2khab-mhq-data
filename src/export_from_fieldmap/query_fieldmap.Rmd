@@ -492,7 +492,9 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
 
 ```{r v7_getaccessOpenHabFMdb}
 
-#get status wil zegggen : afgewerkt of niet volgens grid_points (v7 : nog terreinwerk nodig of niet)
+# targethabitat : doelhabitat waargenomen on field of niet
+# status_fieldwork : INVAV : er is een opname gedaan (volledig of gedeeltelijk) of niet
+# info_status_fieldwerk : detail over al dan niet opname (bv geen opname want niet toeg, of omdat er geen nodig was)
 
 get_status_openhab <- function(db = db_fieldmap_openhab){
 
@@ -501,8 +503,8 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     Grid_points.Add_date as date_status,
     Grid_points.SingleID as sampling_unit_code,
     YesNo.Value1 as TargetHabitat,
-    QINVAV.Value1 as status_fieldwork_OpnameUitgevoerd,
-    QINVAV_EXTRA.Value1 as info_status_fieldwork_nogTW,
+    QINVAV.Value1 as status_fieldwork,
+    QINVAV_EXTRA.Value1 as info_status_fieldwork,
     Grid_points.Remark as remark
     FROM Grid_points 
     LEFT JOIN qFieldteam ON Grid_points.Fieldteam = qFieldteam.ID
@@ -522,10 +524,10 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
  
  colnames(gridpoints_orig) <- str_to_lower(colnames(gridpoints_orig))
  
- # selectie van punten die zijn afgewerkt v5--staus_fw = afgewerkt (ja/nee) --> v7 Info_status_fieldwerk : opname volledig/gedeeltelijk/niet afgewerkt
+ # selectie van punten die zijn afgewerkt v5--status_fw = afgewerkt (ja/nee) --> v7 Info_status_fieldwerk : opname volledig/gedeeltelijk/niet afgewerkt
  gridpoints <- gridpoints_orig %>%
     #filter(!is.na(status_fieldwork))
-     filter(info_status_fieldwork_nogtw != 'to do/geen reden/vergeten' & !is.na(info_status_fieldwork_nogtw)) # 8 : to do/vergeten
+     filter(info_status_fieldwork != 'to do/geen reden/vergeten' & !is.na(info_status_fieldwork)) # 8 : to do/vergeten
   odbcClose(connect_db)
 
   return(gridpoints)
@@ -1240,6 +1242,8 @@ sample_status_openhab <- get_status_openhab() %>%
 sample_status_foresthab <- get_status_foresthab() %>%
     mutate(db = "foresthab")
 
+colnames(sample_status_openhab); colnames(sample_status_foresthab)
+
 sample_status <- bind_rows(sample_status_openhab, 
                            sample_status_foresthab)
 
@@ -1254,10 +1258,9 @@ check <- sample_status %>%
 sample_status <- sample_status %>%
     group_by(plot_id, sampling_unit_code, db) %>%
     summarise(date_status = min(date_status)
-              #status_fieldwork = unique(status_fieldwork),
+              , status_fieldwork = unique(status_fieldwork)
               , targethabitat = unique(targethabitat)
-              , status_fieldwork_opnameuitgevoe = unique(status_fieldwork_opnameuitgevoe)
-              , info_status_fieldwork_nogtw = unique(info_status_fieldwork_nogtw)
+              , info_status_fieldwork = unique(info_status_fieldwork)
               , remark = str_c(remark, collapse = "+")) %>%
     ungroup()
 
@@ -1363,7 +1366,7 @@ check_coordinates_double <- coordinates %>%
   filter(n > 1)
   
 
-# check_missing_data <- sample_status %>%
+# v5 - check_missing_data <- sample_status %>%
 #     full_join(type_observed_plot, by = "plot_id") %>%
 #     full_join(date_assessment_plot, by = "plot_id") %>%
 #     mutate(assessment_source = ifelse(status_fieldwork == "ja", "field assessment",
@@ -1395,15 +1398,15 @@ check_missing_data <- sample_status %>%
     mutate( assessment_source = ifelse(targethabitat %in% c("ja", "nee")
                                           , "field assessment", NA)
             
-           , inaccessible = ifelse(!is.na(info_status_fieldwork_nogtw ) 
-                                   & info_status_fieldwork_nogtw %in% c("opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)"
+           , inaccessible = ifelse(!is.na(info_status_fieldwork) 
+                                   & info_status_fieldwork %in% c("opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)"
                                           , "tijdelijk geen toestemming/geen toegang (eigenaar/hond/vee)"), "short term", 
                                   
-                                   ifelse(info_status_fieldwork_nogtw %in% c("opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)"
+                                   ifelse(info_status_fieldwork %in% c("opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)"
                                            , "geen toestemming/geen toegang (eigenaar/hond/vee)"), "long term", NA))
            
            , lsvi_measurement = ifelse(assessment_source == "field assessment" & 
-                                         !(info_status_fieldwork_nogtw  %in% c("te hoge RANKING", "voldoende opnames beschikbaar", "opname nog niet 100% klaar")),
+                                         !(info_status_fieldwork  %in% c("te hoge RANKING", "voldoende opnames beschikbaar", "opname nog niet 100% klaar")),
                                 ifelse(!is.na(targethabitat) & targethabitat == "ja", TRUE, FALSE),
                                 FALSE)
            
@@ -1412,7 +1415,7 @@ check_missing_data <- sample_status %>%
          #  , assessment_source = ifelse(inaccessible %in% c("short term", "long term"), NA, assessment_source)
            
            , completed = ifelse(lsvi_measurement,
-                              ifelse(!is.na(info_status_fieldwork_nogtw) &  info_status_fieldwork_nogtw != "100% afgewerkt", FALSE, TRUE),NA)
+                              ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork != "100% afgewerkt", FALSE, TRUE),NA)
            
            , coordinates_record = plot_id %in% coordinates$plot_id
            , cover_species_record = plot_id %in% cover_species$plot_id
@@ -1426,7 +1429,7 @@ check_missing_data <- sample_status %>%
 
 
 t <- check_missing_data %>%
-    select(plot_id, sampling_unit_code, db, targethabitat, status_fieldwork_opnameuitgevoe,info_status_fieldwork_nogtw
+    select(plot_id, sampling_unit_code, db, targethabitat, status_fieldwork,info_status_fieldwork
            , assessment_source, inaccessible, lsvi_measurement, completed, remark)
 
 
@@ -1458,7 +1461,7 @@ check_missing_data_openhab <- check_missing_data %>%
                !coordinates_record |
                !cover_species_record |
                !structure_openhab_record) %>%
-    select(plot_id, status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, remark, type_observed_circle, date_assessment, coordinates_record, cover_species_record, structure_openhab_record) 
+    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, coordinates_record, cover_species_record, structure_openhab_record) 
 
 check_missing_data_openhab %>%
     datatable(filter = "top",
@@ -1497,10 +1500,10 @@ Possible actions:
 check_missing_data_openhab2 <- check_missing_data %>%
     filter(db == "openhab" | is.na(db)) %>%
   #  filter(!lsvi_measurement | status_fieldwork == "nee" | is.na(status_fieldwork)) %>%
-    filter( targethabitat != 'ja' |  (targethabitat == 'ja' & status_fieldwork_opnameuitgevoe %in% c("Geen opname gevraagd", "Geen opname uitgevoerd", "Opname gedeeltelijk uitgevoerd")) ) %>%
+    filter( targethabitat != 'ja' |  (targethabitat == 'ja' & status_fieldwork %in% c("Geen opname gevraagd", "Geen opname uitgevoerd", "Opname gedeeltelijk uitgevoerd")) ) %>%
     filter(cover_species_record |
                structure_openhab_record) %>%
-    select(plot_id, status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, remark, type_observed_circle, date_assessment, cover_species_record, structure_openhab_record) 
+    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, structure_openhab_record) 
 
 check_missing_data_openhab2 %>%
     datatable(filter = "top",
@@ -1547,19 +1550,23 @@ sample_status <- sample_status %>%
 
 ## v7 - Plots and targethabitat
 
-```{r}
+```{r summaryOpen}
 
 targetYes <- check_missing_data %>%
     filter(targethabitat == 'ja') %>%
-    group_by(status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, assessment_source, inaccessible, lsvi_measurement, completed) %>%
+    group_by(targethabitat, status_fieldwork, info_status_fieldwork, assessment_source, inaccessible, lsvi_measurement, completed) %>%
     summarise(count = n()) %>%
     ungroup()
 
 targetNo <- check_missing_data %>%
     filter(targethabitat != 'ja') %>%
-    group_by(status_fieldwork_opnameuitgevoe, info_status_fieldwork_nogtw, assessment_source, inaccessible, lsvi_measurement, completed) %>%
+    group_by(targethabitat, status_fieldwork, info_status_fieldwork, assessment_source, inaccessible, lsvi_measurement, completed) %>%
     summarise(count = n()) %>%
     ungroup()
+
+rbind(targetYes, targetNo) %>%
+    datatable(filter = "top",
+            rownames = FALSE)
 
 ```
 
