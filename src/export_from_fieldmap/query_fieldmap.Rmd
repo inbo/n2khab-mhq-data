@@ -24,13 +24,18 @@ library(DT)
 
 # Database names
 
-```{r}
+```{r dbINBO, eval=FALSE, include=FALSE}
 
-#db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
+db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
+db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/FIELDMAPDATA_MASTER_NAT2000_F_V7.FDB"
+
+```
+
+```{r dbANB}
 
 #In formaat, compatibel met FM
 db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/BOSHAB_F_v2020_MASTER/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
-db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/FIELDMAPDATA_MASTER_NAT2000_F_V7.FDB"
+db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/MASTER_NAT2000_F_V7/FIELDMAPDATA_MASTER_NAT2000_F_V7.FDB"
 
 ```
 
@@ -38,7 +43,7 @@ db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/FIELDMAPDATA_MA
 
 ## Scales used for vegetation assessments
 
-```{r}
+```{r scales}
 
 scales_orig <- read.csv2("../../data/cover_scales.csv", stringsAsFactors = FALSE)
 
@@ -1431,6 +1436,7 @@ check_missing_data <- sample_status %>%
 t <- check_missing_data %>%
     select(plot_id, sampling_unit_code, db, targethabitat, status_fieldwork,info_status_fieldwork
            , assessment_source, inaccessible, lsvi_measurement, completed, remark)
+
 
 
 ```
