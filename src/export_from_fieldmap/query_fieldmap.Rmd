@@ -63,7 +63,7 @@ coverscales <- scales_orig %>%
 
 ## Functions to access open habitat fieldmap database
 
-```{r v5_getaccessOpenHabFMdb}
+```{r v5_getaccessOpenHabFMdb, eval=FALSE, include=FALSE}
 
 get_status_openhab <- function(db = db_fieldmap_openhab){
 
@@ -938,7 +938,7 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
 
 ## Functions to access forest hab fieldmap database
 
-```{r}
+```{r AccessForest}
 
 get_status_foresthab <- function(db = db_fieldmap_foresthab){
 
@@ -1238,7 +1238,7 @@ get_logs <- function(db = db_fieldmap_foresthab){
 
 # Access data
 
-```{r}
+```{r AccessData}
 
 # sample_status
 sample_status_openhab <- get_status_openhab() %>%
@@ -1344,7 +1344,7 @@ coordinates  <- get_coordinates_openhab() %>%
 
 # Check missing data
 
-```{r}
+```{r MissingData}
 
 type_observed_plot <- type_observed %>%
     group_by(plot_id) %>%
@@ -1435,7 +1435,7 @@ check_missing_data <- sample_status %>%
 
 t <- check_missing_data %>%
     select(plot_id, sampling_unit_code, db, targethabitat, status_fieldwork,info_status_fieldwork
-           , assessment_source, inaccessible, lsvi_measurement, completed, remark)
+           , assessment_source, inaccessible, lsvi_measurement, completed, remark, structure_openhab_record)
 
 
 
@@ -1444,7 +1444,8 @@ t <- check_missing_data %>%
 ## Measured open habitat plot with missing data 
 
 A plot is regarded as measured when 'status_fieldwork' = 'ja' and 'info_status_fieldwork' = NA (untill version v5 db open). 
-A plot is regarded as measured when targethabitat = "ja" and status_fieldwork_nogtw = "100% afgewerkt" (v7 db open).
+
+A plot is regarded as measured when targethabitat = "ja" and status_fieldwork = "100% afgewerkt" (v7 db open).
 
 Possible actions:
 
@@ -1491,18 +1492,19 @@ sample_status <- sample_status %>%
 ## Not measured open habitat plot with data
 
 A plot is regarded as not measured when 'status_fieldwork' = 'nee' or when 'info_status_fieldwork' is not NA (untill version v5 db open). 
-A plot is regarded as not measured when 'targethabitat' = 'onbekend' or 'nee' or targethabitat = 'ja' and ('status_fieldwork_opnameuitgevoe' = 'geen opname gevraagd' or 'geen opname uitgevoerd' or 'opname gedeeltelijk uitgevoerd'). 
+
+A plot is regarded as not measured when 'targethabitat' = 'onbekend' or 'nee' or targethabitat = 'ja' and ('status_fieldwork' = 'geen opname gevraagd' or 'geen opname uitgevoerd' or 'opname gedeeltelijk uitgevoerd'). 
 
 Possible actions:
 
 - When all vegetation and structure records are recorded:
     - set 'info_status_fieldwork' to NA (v5)
-    - adjust 'info_status_fieldwork_nogtw' and 'status_fieldwork_opnameuitgevoe'
+    - adjust 'info_status_fieldwork' and 'status_fieldwork'
 
 - When vegetation and structure records are partially recorded:
-    - check 'info_status_fieldwork' (v5) or info_status_fieldwork_nogtw (v7)
+    - check 'info_status_fieldwork' 
 
-```{r}
+```{r missingDataOpen2}
 check_missing_data_openhab2 <- check_missing_data %>%
     filter(db == "openhab" | is.na(db)) %>%
   #  filter(!lsvi_measurement | status_fieldwork == "nee" | is.na(status_fieldwork)) %>%
@@ -1597,7 +1599,7 @@ Possible actions:
     - Add date assessment
 
 
-```{r}
+```{r MissingDataForest}
 check_missing_data_foresthab <- check_missing_data %>%
     filter(db == "foresthab") %>%
     filter(lsvi_measurement) %>%
@@ -1626,7 +1628,7 @@ Possible actions:
 - When vegetation and structure records are partially recorded:
     - check 'info_status_fieldwork' 
 
-```{r}
+```{r MissingDataForest2}
 check_missing_data_foresthab2 <- check_missing_data %>%
     filter(db == "foresthab") %>%
     filter(!lsvi_measurement | status_fieldwork == "nee") %>%
@@ -1641,7 +1643,7 @@ check_missing_data_foresthab2 %>%
 
 ## Plots with status_fieldwork == "nee" & info_status_fieldwork == "Geen opname : geen doelhabitat"
 
-```{r}
+```{r MissingDataForest3}
 check_missing_data_foresthab3 <- check_missing_data %>%
     filter(db == "foresthab" | is.na(db)) %>%
     filter(status_fieldwork == "nee" & info_status_fieldwork == "Geen opname : geen doelhabitat") %>%
@@ -1654,7 +1656,7 @@ check_missing_data_foresthab3 %>%
 
 # Write result to .csv file
 
-```{r}
+```{r write}
 
 setwd("../../output/")
 
