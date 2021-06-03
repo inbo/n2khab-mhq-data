@@ -20,6 +20,7 @@ library(tidyverse)
 library(RODBC)
 library(kableExtra)
 library(DT)
+library(n2khab)
 ```
 
 # Database names
@@ -945,7 +946,7 @@ get_status_foresthab <- function(db = db_fieldmap_foresthab){
 query_status <- "SELECT G.idplots as navplot_id,
         G.plot_id, 
         G.add_date AS date_status,
-        G.status_fieldwork, 
+        G.status_fieldwork,
         Q.value1 AS info_status_fieldwork,
         G.veg_done, 
         G.reg_done, 
@@ -955,8 +956,7 @@ query_status <- "SELECT G.idplots as navplot_id,
         G.remark, 
         G.remark4 
         FROM grid_points G
-        LEFT JOIN qinfo_status_fieldwork Q
-        ON G.info_status_fieldwork = Q.id"    
+        LEFT JOIN qinfo_status_fieldwork Q ON G.info_status_fieldwork = Q.id"    
 
 connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db_fieldmap_foresthab))
 
@@ -1477,14 +1477,17 @@ check_missing_data_openhab %>%
 
 ```
 
+
 ```{r eval=FALSE, include=FALSE}
 # corrections -> to be changed in database!
 
 change_geen_habitat <- check_missing_data_openhab %>%
    filter(type_observed_circle == "geen habitat (akker, houtkant, tuin,...)" & is.na(info_status_fieldwork))
 
+
 sample_status <- sample_status %>%
-  mutate(info_status_fieldwork = ifelse(plot_id %in% change_geen_habitat$plot_id, "Geen opname : geen doelhabitat", as.character(info_status_fieldwork)))
+  mutate(status_fieldwork = ifelse(plot_id == "1287030", "nee", as.character(status_fieldwork)),
+         info_status_fieldwork = ifelse(plot_id == "1287030", "Geen (volledig) terreinbezoek uitgevoerd", as.character(info_status_fieldwork)))
 
 ```
 
@@ -1518,15 +1521,19 @@ check_missing_data_openhab2 %>%
             rownames = FALSE)
 ```
 
+
 ```{r eval=FALSE, include=FALSE}
 # corrections -> to be changed in database!
 
 change_status_fieldwork_ja <- check_missing_data_openhab2 %>%
   filter(status_fieldwork == "nee" | is.na(status_fieldwork))
 
-sample_status <- sample_status %>%
-  mutate(status_fieldwork = ifelse(plot_id %in% change_status_fieldwork_ja$plot_id, "ja", as.character(status_fieldwork)),
-         info_status_fieldwork = ifelse(plot_id == "1287030", "Geen (volledig) terreinbezoek uitgevoerd", as.character(info_status_fieldwork)))
+# change_status_fieldwork_ja <- check_missing_data_openhab2 %>%
+#   filter(status_fieldwork == "nee" | is.na(status_fieldwork))
+# 
+# sample_status <- sample_status %>%
+#   mutate(status_fieldwork = ifelse(plot_id %in% change_status_fieldwork_ja$plot_id, "ja", as.character(status_fieldwork)),
+#          info_status_fieldwork = ifelse(plot_id == "1287030", "Geen (volledig) terreinbezoek uitgevoerd", as.character(info_status_fieldwork)))
 
 ```
 
@@ -1547,6 +1554,7 @@ check_missing_data_openhab3 %>%
     datatable(filter = "top",
             rownames = FALSE)
 ```
+
 
 ```{r eval=FALSE, include=FALSE}
 # corrections -> to be changed in database!
@@ -1655,6 +1663,7 @@ check_missing_data_foresthab3 %>%
 ```
 
 # Write result to .csv file
+
 
 ```{r write}
 
