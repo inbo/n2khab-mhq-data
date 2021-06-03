@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 output/
+raw/
+db_local/
+*.html
