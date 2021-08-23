@@ -37,6 +37,18 @@ db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/FIELDMAPDATA_MA
 db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/BOSHAB_F_v2020_MASTER/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
 db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/MASTER_NAT2000_F_V7/FIELDMAPDATA_MASTER_NAT2000_F_V7.FDB"
 
+if (!file.exists(db_fieldmap_foresthab)) {
+  
+  stop(cat("Fieldmap database for forest habitat types not found."))
+  
+}
+
+if (!file.exists(db_fieldmap_openhab)) {
+  
+  stop(cat("Fieldmap database for open habitat types not found."))
+  
+}
+
 ```
 
 # Dabase access function
