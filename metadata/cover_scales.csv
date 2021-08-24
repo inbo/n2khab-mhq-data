@@ -6,14 +6,15 @@ CoverVeglayers;3;;12,5 - 25 %;18,75;12,5;25
 CoverVeglayers;4;;25 - 50 %;37,5;25;50
 CoverVeglayers;5;;50 - 75 %;62,5;50;75
 CoverVeglayers;6;;75 - 100 %;87,5;75;100
-Beheermonitoringsschaal;0;ZS;Zeer schaars;0,5;0;5
-Beheermonitoringsschaal;1;S;Schaars;1;0;5
-Beheermonitoringsschaal;2;WT;Weinig talrijk;1,5;0;5
-Beheermonitoringsschaal;3;T;Talrijk;3;0;5
-Beheermonitoringsschaal;4;B;Bedekkend;15;5;25
-Beheermonitoringsschaal;5;KB;Kwartbedekkend;37,5;25;50
-Beheermonitoringsschaal;6;HB;Halfbedekkend;62,5;50;75
-Beheermonitoringsschaal;7;D;Dominant;87,5;75;100
+Beheermonitoringsschaal;0;A;Afwezig;0;0;0
+Beheermonitoringsschaal;101;ZS;Zeer schaars;0,5;0;5
+Beheermonitoringsschaal;102;S;Schaars;1;0;5
+Beheermonitoringsschaal;103;WT;Weinig talrijk;1,5;0;5
+Beheermonitoringsschaal;104;T;Talrijk;3;0;5
+Beheermonitoringsschaal;105;B;Bedekkend;15;5;25
+Beheermonitoringsschaal;106;KB;Kwartbedekkend;37,5;25;50
+Beheermonitoringsschaal;107;HB;Halfbedekkend;62,5;50;75
+Beheermonitoringsschaal;108;D;Dominant;87,5;75;100
 Braun-Blanquet;1;;r       : < 5 % (1 - 2 );0,25;0;5
 Braun-Blanquet;2;;+      : < 5 % (3 - 20);1;0;5
 Braun-Blanquet;3;;1      : < 5 % (20 - 100);2,25;0;5
