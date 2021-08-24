@@ -1234,18 +1234,18 @@ if (!dir.exists(path)) {
 }
 
 write_vc(sample_status, "sample_status", root = path,  sorting = "plot_id")
-write_vc(type_observed_corr, "type_observed", sorting = c("plot_id", "segment_id", "type_observed_circle", "type_observed_square"), strict = FALSE)
-write_vc(cover_veglayers, "cover_veglayers", sorting = c("plot_id", "segment_id", "layer"), strict = FALSE)
-write_vc(cover_species, "cover_species", sorting = c("plot_id", "layer", "name_nl"), strict = FALSE)
-write_vc(structure_vars, "structure_vars", sorting = c("plot_id", "segment_id", "structure_var"), strict = FALSE)
-write_vc(date_assessment, "date_assessment", sorting = "plot_id")
-write_vc(coordinates, "coordinates", sorting = "plot_id")
-write_vc(trees_a3a4, "trees_a3a4", sorting = c("plot_id", "segment_id"))
-write_vc(trees_a2, "trees_a2", sorting = c("plot_id", "name_nl"), strict = FALSE)
-write_vc(logs, "logs", sorting = c("plot_id", "idline_intersect_method"))
-write_vc(check_missing_data, "data_overview", sorting = "plot_id")
-write_vc(check_missing_data_foresthab, "check_missing_data_foresthab", sorting = "plot_id")
-write_vc(check_missing_data_openhab, "check_missing_data_openhab", sorting = "plot_id")
+write_vc(type_observed_corr, "type_observed", root = path,  sorting = c("plot_id", "segment_id", "type_observed_circle", "type_observed_square"), strict = FALSE)
+write_vc(cover_veglayers, "cover_veglayers", root = path,  sorting = c("plot_id", "segment_id", "layer"), strict = FALSE)
+write_vc(cover_species, "cover_species", root = path,  sorting = c("plot_id", "layer", "name_nl"), strict = FALSE)
+write_vc(structure_vars, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "structure_var"), strict = FALSE)
+write_vc(date_assessment, "date_assessment", root = path,  sorting = "plot_id")
+write_vc(coordinates, "coordinates", root = path,  sorting = "plot_id")
+write_vc(trees_a3a4, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id"))
+write_vc(trees_a2, "trees_a2", root = path,  sorting = c("plot_id", "name_nl"), strict = FALSE)
+write_vc(logs, "logs", root = path,  sorting = c("plot_id", "idline_intersect_method"))
+write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id")
+write_vc(check_missing_data_foresthab, root = path,  "check_missing_data_foresthab", sorting = "plot_id")
+write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
 
 
 
