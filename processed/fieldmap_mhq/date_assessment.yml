@@ -1,0 +1,18 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: a888acb86667e947ab5fd2c2a56dd81093624e36
+  data_hash: b5ca7fb98b1c474c67359ee85ed6fb700d43dd66
+plot_id:
+  class: integer
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
+date_vegetation:
+  class: Date
+  origin: '1970-01-01'
+date_dendro:
+  class: Date
+  origin: '1970-01-01'

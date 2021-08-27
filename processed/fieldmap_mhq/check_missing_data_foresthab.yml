@@ -1,0 +1,28 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: 62ec3f6d0f8ba60d8c7707471e5c77ba73db913f
+  data_hash: 5fc11239eb7d2c21d936e98b79658da0d9274243
+plot_id:
+  class: character
+status_fieldwork:
+  class: character
+info_status_fieldwork:
+  class: character
+remark:
+  class: character
+type_observed_circle:
+  class: character
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
+cover_species_record:
+  class: logical
+dendro_record:
+  class: logical
+a2_record:
+  class: logical
+a3a4_record:
+  class: logical

@@ -1,0 +1,23 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  - type_observed_circle
+  - type_observed_square
+  hash: 0dea824cb4161746aead27fb3a393ae4e8cb3fb4
+  data_hash: e562f44cef5cbc80824179246f23de7594be8f8c
+plot_id:
+  class: integer
+type_observed_circle:
+  class: character
+type_observed_square:
+  class: character
+landuse:
+  class: character
+segment_id:
+  class: integer
+type_observed_cover_circle:
+  class: numeric
