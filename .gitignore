@@ -2,8 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-output/
 raw/
-processed/
 *.html
-.Rproj.user
