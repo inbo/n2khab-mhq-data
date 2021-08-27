@@ -4,5 +4,6 @@
 .Ruserdata
 output/
 raw/
-db_local/
+processed/
 *.html
+.Rproj.user
