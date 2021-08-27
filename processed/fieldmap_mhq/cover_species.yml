@@ -1,0 +1,24 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - layer
+  - name_nl
+  hash: e8dd8c8a813a06bde4feffa273614e4dadc2c21e
+  data_hash: 7599b0d15af0e0247825cde16c58862183e743df
+plot_id:
+  class: integer
+layer:
+  class: character
+name_nl:
+  class: character
+name_sc:
+  class: character
+coverscale_name:
+  class: character
+cover_description:
+  class: character
+cover_mean:
+  class: numeric

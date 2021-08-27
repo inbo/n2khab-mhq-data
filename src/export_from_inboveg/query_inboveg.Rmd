@@ -78,7 +78,7 @@ qualifiers_mhq <- bind_rows(get_inboveg_qualifiers(connection = connection_inbov
 
 ```{r, eval= update}
 
-path <- str_c(fileman_up("n2khab-mhq-data"), "/raw")
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
 
 if (!dir.exists(path)) {
     
@@ -86,7 +86,7 @@ if (!dir.exists(path)) {
     
 }
 
-path <- str_c(fileman_up("n2khab-mhq-data"), "/raw/inboveg_mhq_terr")
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_terr")
 
 if (!dir.exists(path)) {
     
@@ -94,10 +94,10 @@ if (!dir.exists(path)) {
     
 }
 
-write_vc(classif_mhq, "classif_mhq", root = path,  sorting = c("recording_givid", "type_observed"), strict = FALSE)
-write_vc(header_mhq, "header_mhq", root = path,  sorting = c("recording_givid"), strict = FALSE)
-write_vc(qualifiers_mhq, "structure_mhq", root = path,  sorting = c("recording_givid", "structure_var"))
-write_vc(recordings_mhq, "vegetation_mhq", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
+write_vc(classif_mhq, "classif_mhq_terr", root = path,  sorting = c("recording_givid", "type_observed"), strict = FALSE)
+write_vc(header_mhq, "header_mhq_terr", root = path,  sorting = c("recording_givid"), strict = FALSE)
+write_vc(qualifiers_mhq, "structure_mhq_terr", root = path,  sorting = c("recording_givid", "structure_var"))
+write_vc(recordings_mhq, "vegetation_mhq_terr", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
 ```
 
 # Query INBOVEG aquatic habitat types
@@ -146,7 +146,7 @@ qualifiers_mhq <- bind_rows(get_inboveg_qualifiers(connection = connection_inbov
 
 ```{r, eval= update}
 
-path <- str_c(fileman_up("n2khab-mhq-data"), "/raw")
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
 
 if (!dir.exists(path)) {
     
@@ -154,7 +154,7 @@ if (!dir.exists(path)) {
     
 }
 
-path <- str_c(fileman_up("n2khab-mhq-data"), "/raw/inboveg_mhq_aq")
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
 
 if (!dir.exists(path)) {
     
@@ -162,8 +162,8 @@ if (!dir.exists(path)) {
     
 }
 
-write_vc(classif_mhq, "classif_mhq", root = path,  sorting = c("recording_givid", "type_observed"), strict = FALSE)
-write_vc(header_mhq, "header_mhq", root = path,  sorting = c("recording_givid"), strict = FALSE)
-write_vc(qualifiers_mhq, "structure_mhq", root = path,  sorting = c("recording_givid", "var"))
-write_vc(recordings_mhq, "vegetation_mhq", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
+write_vc(classif_mhq, "classif_mhq_aq", root = path,  sorting = c("recording_givid", "type_observed"), strict = FALSE)
+write_vc(header_mhq, "header_mhq_aq", root = path,  sorting = c("recording_givid"), strict = FALSE)
+write_vc(qualifiers_mhq, "structure_mhq_aq", root = path,  sorting = c("recording_givid", "var"))
+write_vc(recordings_mhq, "vegetation_mhq_aq", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
 ```

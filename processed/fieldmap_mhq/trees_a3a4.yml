@@ -1,0 +1,27 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  hash: 01b162111c0c5f2657fefb707cbad5542d367bb8
+  data_hash: 25509b20a70e6feda1c16f0f7815229d7e3ec217
+plot_id:
+  class: integer
+segment_id:
+  class: integer
+perimeter_cm:
+  class: integer
+dbh_mm:
+  class: integer
+height_m:
+  class: numeric
+name_nl:
+  class: character
+status_tree:
+  class: character
+coppice_individual:
+  class: character
+intact_tree:
+  class: character

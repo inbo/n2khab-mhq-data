@@ -1,0 +1,26 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: b00f28f07e304c560b608d546fb03ca3da179e01
+  data_hash: 3da758dc4cdb613f122611c5685c8c3713967444
+plot_id:
+  class: character
+status_fieldwork:
+  class: character
+info_status_fieldwork:
+  class: character
+remark:
+  class: character
+type_observed_circle:
+  class: character
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
+coordinates_record:
+  class: logical
+cover_species_record:
+  class: logical
+structure_openhab_record:
+  class: logical
