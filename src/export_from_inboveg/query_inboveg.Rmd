@@ -166,4 +166,5 @@ write_vc(classif_mhq, "classif_mhq_aq", root = path,  sorting = c("recording_giv
 write_vc(header_mhq, "header_mhq_aq", root = path,  sorting = c("recording_givid"), strict = FALSE)
 write_vc(qualifiers_mhq, "structure_mhq_aq", root = path,  sorting = c("recording_givid", "var"))
 write_vc(recordings_mhq, "vegetation_mhq_aq", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
+# test
 ```
