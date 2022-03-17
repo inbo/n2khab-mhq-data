@@ -1,0 +1,207 @@
+---
+title: "data cleanup of survey HT3260 (inboveg database)"
+author: "An Leyssen"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+# library(odbc)
+# library(inbodb) # niet nodig?
+library(git2rdata)
+library(n2khab)
+```
+
+# import data
+
+```{r}
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
+
+classif_mhq_aq <- read_vc("classif_mhq_aq", root = path)
+header_mhq_aq <- read_vc("header_mhq_aq", root = path)
+structure_mhq_aq <- read_vc("structure_mhq_aq", root = path)
+sitequal_mhq_aq <- read_vc("sitequal_mhq_aq", root = path)
+layerqual_mhq_aq <- read_vc("layerqual_mhq_aq", root = path) 
+vegetation_mhq_aq <- read_vc("vegetation_mhq_aq", root = path)
+
+# to do bij qualifiers_m_mhq: opvolgen of Q3Code %in% c("SStr", "SDiep") ondertussen een Q3Description heeft
+
+```
+
+# filter survey HT3260
+
+```{r}
+this_survey <- "HT3260"
+
+classif_3260 <- classif_mhq_aq %>% filter(survey == this_survey)
+header_3260 <- header_mhq_aq %>% filter(survey == this_survey)
+structure_3260 <- structure_mhq_aq %>% filter(survey == this_survey)
+sitequal_3260 <- sitequal_mhq_aq %>% filter(survey == this_survey)
+layerqual_3260 <-  layerqual_mhq_aq %>% filter(survey == this_survey)
+vegetation_3260 <- vegetation_mhq_aq %>% filter(survey == this_survey)
+```
+
+# data controle 
+
+```{r, eval = FALSE}
+this_sample <- "Dommel_14"
+
+header_sel <- header_3260 %>% filter(str_detect(user_reference, this_sample))
+
+classif_sel <- classif_3260  %>% semi_join(header_sel, by = "recording_givid")
+structure_sel <- structure_3260  %>% semi_join(header_sel, by = "recording_givid")
+sitequal_sel <- sitequal_3260  %>% semi_join(header_sel, by = "recording_givid")
+layerqual_sel <- layerqual_3260  %>% semi_join(header_sel, by = "recording_givid")
+vegetation_sel <- vegetation_3260  %>% semi_join(header_sel, by = "recording_givid")
+
+# is ok; alles zit erin
+```
+
+# data cleaning
+
+the dataset is rearranged into:
+- header data  
+- site data  
+- vegetation data  
+@Toon: ok?
+
+## header
+= collection of header, classif and site qualifiers (betrouwbaarheid + reden geen opname)
+```{r}
+details_no_survey <- sitequal_3260 %>% 
+  filter(!(is.na(comment))) %>% 
+  select(recording_givid, comment_no_survey = comment) 
+
+sitequal <- sitequal_3260 %>% 
+  select(-comment, -value_code) %>%
+  mutate(var = case_when(
+    str_detect(value, "Betrouwbaarheid opname:") ~ "reliability",
+    str_detect(value, "Geen opname:") ~ "reason_no_survey")) %>% 
+  spread(key = var, value = value) %>% 
+  left_join(details_no_survey, by = "recording_givid")
+
+header <- header_3260 %>% 
+  left_join(select(classif_3260, recording_givid, type_observed, classif_key), 
+            by = "recording_givid") %>% 
+  left_join(sitequal, by = c("survey", "recording_givid", "user_reference"))
+
+```
+
+## site
+= collection of structure and layer qualifiers
+
+structure
+```{r}
+structure_3260 %>% select(var_code) %>% distinct()
+
+var_class <- c("profl", "profr", "peil") # peil partim waterpeil
+var_num_elu <- c("dwars", "peil", "artif", "turbi") 
+        # peil partim stroomsnelheid; 
+        # artif: partim lengte van c("Brug", "Bodemplaat of -val", "Duiker")
+        # turbi: partim Secchi
+var_num <- c("schab", "schao") 
+var_multiple <- c("beh", "orgma", "artif", "turbi", "wijze")
+
+structure_class <- structure_3260 %>% 
+  filter(var_code %in% var_class,
+         !(var_value_code %in% c("SDiep", "SStr"))) %>% # exclude data stroomsnelheid (=numeric)
+  select(survey, recording_givid, user_reference, var, value_class = var_description_or_value)
+  
+structure_num_elu <- structure_3260 %>% 
+  filter(var_code %in% var_num_elu) %>% 
+  mutate(value_num = as.numeric(str_replace(value, ",", "\\.")),
+         var = ifelse(is.na(var_description_or_value), var_value_code, var_description_or_value)) %>% 
+  filter(!is.na(value_num)) %>% 
+  select(survey, recording_givid, user_reference, var, value_num)
+
+# tmp - to do: opvolgen of NA's in description aangevuld zijn
+structure_3260 %>% 
+  filter(is.na(var_description_or_value),
+         !(var_value_code %in% c("SDiep", "SStr"))) %>% 
+  select(survey, recording_givid, user_reference, var_value_code, var_description_or_value) # 1 record
+
+structure_num <- structure_3260 %>% 
+  filter(var_code %in% var_num) %>% 
+  mutate(value_num = as.numeric(var_description_or_value)) %>% 
+  select(survey, recording_givid, user_reference, var, value_num)
+  
+structure_multiple <- structure_3260 %>% 
+  filter(var_code %in% var_multiple,
+         !(var_description_or_value %in% c("Secchi-diepte in m", "Secchi-diepte meer dan (m)"))) %>%
+  select(survey, recording_givid, user_reference, var, value_class = var_description_or_value)
+# to do: wijze hoort mss bij header; maar is multiple value (max 3)
+
+structure <- bind_rows(structure_class, structure_multiple, structure_num_elu, structure_num)
+
+```
+
+layerqual
+```{r}
+layerqual_3260 %>% 
+  select(value, value_perc) %>% 
+  arrange(value) %>% distinct()
+# to do: 0,1 in inboveg laten aanpassen, want levert NA op
+
+layerqual <- layerqual_3260 %>% 
+  mutate(value_num = as.numeric(value_perc)) %>% 
+  select(survey, recording_givid, user_reference, var, value_num)
+# values < 1% are converted to 0.5 %
+
+```
+
+combined: site = structure + layer
+```{r}
+site <- bind_rows(structure, layerqual)
+  
+```
+
+@Toon: opbouw data.frame 'site' ok? of value_num & value_class te combineren?
+
+## vegetation
+rearrangement of vegetation
+```{r}
+vegetation_3260 %>% 
+  filter(is.na(name_scientific)) %>% 
+  count(name_original) %>% arrange(name_original)
+
+# soorten te groeperen: to do (later)
+#   Callitriche 'obtusangula/platycarpa' groep en Callitriche platycarpa/obtusangula  
+#   darmwier   en Enteromorpha sp.
+# gras (poaceae, vegetatief, niet gedetermineerd),   gras vegetatief en Poaceae, poaceae
+# mos en mos niet gedetermineerd
+# Salix 'alba' groep en Salix smalbladig en wilg smal
+
+vegetation <- vegetation_3260 %>% 
+  mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific)) %>% 
+  select(survey, recording_givid, name, phenology_code, species_cover_code, species_cover, scale) %>% 
+  distinct() # tmp - to do opvolgen of dubbels eruit zijn
+
+```
+
+# data export
+
+```{r}
+write_vc(header, "HT3260_header", root = path, sorting = c("recording_givid"))
+write_vc(site, "HT3260_site", root = path, sorting = c("recording_givid", "var", "value_class"))
+write_vc(vegetation, "HT3260_vegetation", root = path, sorting = c("recording_givid", "name", "phenology_code"))
+# to do: of als csv?
+```
+
+dataverkenning met figuren in dit script of een apart script? @Toon
+@Toon: naamgeving van dataframes ok & logisch?
+
+<!-- LSVI-bepaling in apart script -->
