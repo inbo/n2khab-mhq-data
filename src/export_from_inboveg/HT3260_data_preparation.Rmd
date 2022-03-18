@@ -20,10 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, warning = FALSE, message = FALSE}
 library(tidyverse)
-# library(odbc)
-# library(inbodb) # niet nodig?
 library(git2rdata)
-library(n2khab)
 ```
 
 # import data
@@ -178,8 +175,17 @@ vegetation_3260 %>%
   filter(is.na(name_scientific)) %>% 
   count(name_original) %>% arrange(name_original)
 
+sel_species <- c("Enteromorpha sp.")
+sel_species <- c("Salix 'alba' groep")
+sel_species <- c("Poaceae", "poaceae")
+
+vegetation_3260 %>% 
+  filter(name_original %in% sel_species) %>% 
+  left_join(select(header, recording_givid, user_reference), by = "recording_givid") %>% 
+  select(recording_givid, user_reference, name_original, species_cover_code) 
+  
 # soorten te groeperen: to do (later)
-#   Callitriche 'obtusangula/platycarpa' groep en Callitriche platycarpa/obtusangula  
+#   Callitriche 'obtusangula/platycarpa' groep en Callitriche platycarpa/obtusangula   -
 #   darmwier   en Enteromorpha sp.
 # gras (poaceae, vegetatief, niet gedetermineerd),   gras vegetatief en Poaceae, poaceae
 # mos en mos niet gedetermineerd
@@ -204,4 +210,88 @@ write_vc(vegetation, "HT3260_vegetation", root = path, sorting = c("recording_gi
 dataverkenning met figuren in dit script of een apart script? @Toon
 @Toon: naamgeving van dataframes ok & logisch?
 
-<!-- LSVI-bepaling in apart script -->
+# data exploration
+
+## graphs
+
+```{r}
+# value_num
+site %>% 
+  filter(!is.na(value_num)) %>% 
+  ggplot(aes(x = value_num)) + 
+  geom_histogram() +
+  facet_wrap(~var, scales = "free")
+
+# value_class
+site %>% 
+  filter(!is.na(value_class)) %>% 
+  ggplot(aes(x = value_class)) + 
+  geom_bar() +
+  facet_grid(var~., scales = "free") +
+  coord_flip()
+```
+
+## NA values
+
+```{r}
+site_num_breed <- site %>% 
+  select(-value_class) %>% 
+  filter(!is.na(value_num)) %>% 
+  spread(var, value_num) %>% 
+  arrange(recording_givid)
+
+site_class_breed <- site %>% 
+  select(-value_num) %>% 
+  filter(!is.na(value_class)) %>% 
+  group_by(recording_givid, var) %>% 
+  count() %>% 
+  spread(var, n) %>% 
+  arrange(recording_givid)
+
+data_breed <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "survey", "user_reference")) %>% 
+  left_join(site_class_breed, by = c("recording_givid")) %>% 
+  filter(is.na(reason_no_survey)) # remove sites not suitable for monitoring
+write.csv2(data_breed, paste0(path, "data_breed.csv"))
+
+N_dataset <- nrow(data_breed)
+summary_dataset <- data_breed %>% 
+  gather("var", "value", 
+         -recording_givid, -survey, -user_reference, -location, -reason_no_survey,
+         na.rm = TRUE) %>% 
+  group_by(var) %>% 
+  summarise(number = n(),  
+            sd = sd(value),
+            ratio_NA = 1- (number/N_dataset))
+
+ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
+  geom_point() 
+
+```
+
+## no survey
+
+```{r}
+no_survey <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "survey", "user_reference")) %>% 
+  left_join(site_class_breed, by = c("recording_givid")) %>% 
+  filter(!is.na(reason_no_survey)|type_observed %in% c("0", "-9")) %>% 
+  select(user_reference, type_observed, reason_no_survey, comment_no_survey,
+         Duiker, Brug, `Bodemplaat of -val`, `schaduw boom en struik`, 
+         `schaduw oevervegetatie`)
+
+no_survey %>% count(type_observed)
+no_survey %>% count(reason_no_survey)
+no_survey %>% count(comment_no_survey)
+no_survey %>% filter((`schaduw boom en struik` > 30)|(`schaduw oevervegetatie`> 30)) %>% count()
+no_survey %>% filter(((Duiker > 10)|(Brug > 10))|(`Bodemplaat of -val`> 30)) %>% count()  
+
+```
+
+## accompanying species (top 10)
+
+```{r}
+vegetation %>% count(name) %>% arrange(desc(n)) %>% top_n(10)
+```
+
+<!-- LSVI-bepaling in apart script - to do -->
