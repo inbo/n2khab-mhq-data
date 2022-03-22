@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, warning = FALSE, message = FALSE}
 library(tidyverse)
 library(git2rdata)
+library(n2khab)
 ```
 
 # import data
@@ -71,13 +72,13 @@ vegetation_sel <- vegetation_3260  %>% semi_join(header_sel, by = "recording_giv
 # data cleaning
 
 the dataset is rearranged into:
-- header data  
-- site data  
+- header data 
+- site characteristics  
 - vegetation data  
-@Toon: ok?
 
-## header
+## header data
 = collection of header, classif and site qualifiers (betrouwbaarheid + reden geen opname)
+alternatieve naam: 'assessments' of 'visits' (to do)
 ```{r}
 details_no_survey <- sitequal_3260 %>% 
   filter(!(is.na(comment))) %>% 
@@ -89,16 +90,30 @@ sitequal <- sitequal_3260 %>%
     str_detect(value, "Betrouwbaarheid opname:") ~ "reliability",
     str_detect(value, "Geen opname:") ~ "reason_no_survey")) %>% 
   spread(key = var, value = value) %>% 
+  mutate(reliability = str_remove(reliability, "Betrouwbaarheid opname: ")) %>% 
   left_join(details_no_survey, by = "recording_givid")
 
 header <- header_3260 %>% 
   left_join(select(classif_3260, recording_givid, type_observed, classif_key), 
             by = "recording_givid") %>% 
+  mutate(type_observed = factor(type_observed, 
+                                  levels = c("-9", "0", "3260"),
+                                  labels = c("gh", "unknown", "3260"))) %>% 
   left_join(sitequal, by = c("survey", "recording_givid", "user_reference"))
 
 ```
 
-## site
+type_observed: 
+0: niet genoteerd = unknown
+-9: geen habitat (gh) 
+
+to do (later): veld toevoegen 'survey' of 'measured' (TRUE/FALSE) dat aangeeft of er al dan niet een opname is gebeurd
+
+to do (later): 'reason_no_survey': 'Geen opname:' weglaten in records. Voor locaties die in schaduw liggen geef je aan dat ze niet toegankelijk zijn. Klinkt nogal raar. Ik zou dat explicieter formuleren: bv. 'Niet geschikt voor biotische opname (schaduw)'. Maar misschien is dat niet evident om dat in de INBOVEG databank aan te passen.
+
+to do: verwijziging naar veldprotocol
+
+## site characteristics
 = collection of structure and layer qualifiers
 
 structure
@@ -106,29 +121,32 @@ structure
 structure_3260 %>% select(var_code) %>% distinct()
 
 var_class <- c("profl", "profr", "peil") # peil partim waterpeil
-var_num_elu <- c("dwars", "peil", "artif", "turbi") 
+var_num_elu <- c("dwars", "peil", "turbi") 
         # peil partim stroomsnelheid; 
-        # artif: partim lengte van c("Brug", "Bodemplaat of -val", "Duiker")
         # turbi: partim Secchi
 var_num <- c("schab", "schao") 
 var_multiple <- c("beh", "orgma", "artif", "turbi", "wijze")
+var_stroomsnelheid <- c("SDiep", "SStr")
 
 structure_class <- structure_3260 %>% 
   filter(var_code %in% var_class,
-         !(var_value_code %in% c("SDiep", "SStr"))) %>% # exclude data stroomsnelheid (=numeric)
+         !(var_value_code %in% var_stroomsnelheid)) %>% # exclude data stroomsnelheid (=numeric)
   select(survey, recording_givid, user_reference, var, value_class = var_description_or_value)
-  
+
 structure_num_elu <- structure_3260 %>% 
   filter(var_code %in% var_num_elu) %>% 
   mutate(value_num = as.numeric(str_replace(value, ",", "\\.")),
-         var = ifelse(is.na(var_description_or_value), var_value_code, var_description_or_value)) %>% 
+         var_description_or_value = case_when(
+           var_value_code == "SDiep" ~ "diepte stroomsnelheid (m)",
+           var_value_code == "SStr" ~ "stroomsnelheid (m/s)", 
+           TRUE ~ var_description_or_value)) %>% # to do: schrap indien dit in description in inboveg is aangevuld
   filter(!is.na(value_num)) %>% 
   select(survey, recording_givid, user_reference, var, value_num)
 
 # tmp - to do: opvolgen of NA's in description aangevuld zijn
 structure_3260 %>% 
   filter(is.na(var_description_or_value),
-         !(var_value_code %in% c("SDiep", "SStr"))) %>% 
+         !(var_value_code %in% var_stroomsnelheid)) %>% 
   select(survey, recording_givid, user_reference, var_value_code, var_description_or_value) # 1 record
 
 structure_num <- structure_3260 %>% 
@@ -136,15 +154,38 @@ structure_num <- structure_3260 %>%
   mutate(value_num = as.numeric(var_description_or_value)) %>% 
   select(survey, recording_givid, user_reference, var, value_num)
   
+structure_artif_m <- structure_3260 %>% 
+  filter(var_code == "artif",
+        var_description_or_value %in% c("Brug", "Bodemplaat of -val", "Duiker")) %>% 
+  mutate(value_num = ifelse(value == "<1", 0.5, as.numeric(str_replace(value, ",", "\\.")))) %>% 
+  select(-value)
+
 structure_multiple <- structure_3260 %>% 
   filter(var_code %in% var_multiple,
          !(var_description_or_value %in% c("Secchi-diepte in m", "Secchi-diepte meer dan (m)"))) %>%
-  select(survey, recording_givid, user_reference, var, value_class = var_description_or_value)
+  left_join(structure_artif_m, by = c("survey", "recording_givid", "user_reference", "var_code", 
+                                      "var", "var_value_code", "var_description_or_value")) %>% 
+  select(survey, recording_givid, user_reference, var, value_class = var_description_or_value,
+         value_num)
 # to do: wijze hoort mss bij header; maar is multiple value (max 3)
+
+# to do: unit in aparte kolom?
+
+# to do: reduceren van "Secchi-diepte in m" & Secchi-diepte meer dan (m)" tot 1 record
+# idem voor "Slib meer dan (m)" & "Diepte meer dan (m)"
 
 structure <- bind_rows(structure_class, structure_multiple, structure_num_elu, structure_num)
 
 ```
+
+beschrijving van enkele variabelen:
+- SDiep: diepte stroomsnelheidsbepaling (m)
+- SStr: stroomsnelheid (m/s)
+- Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol xxx)
+- Secchi-diepte meer dan (m): indien exacte bepaling niet mogelijk is, wordt dit genoteerd als > x m (vnl owv veiligheid; zie protocol)
+- Slib meer dan (m): indien exacte bepaling slibdikte niet mogelijk is (owv veiligheid), wordt dit genoteerd als > x m
+- Diepte meer dan (m): indien exacte bepaling waterdiepte niet mogelijk is (owv veiligheid), wordt dit genoteerd als > x m
+
 
 layerqual
 ```{r}
@@ -153,16 +194,25 @@ layerqual_3260 %>%
   arrange(value) %>% distinct()
 # to do: 0,1 in inboveg laten aanpassen, want levert NA op
 
+var_submerse_vegetatie <- c("geen submerse vegetatie", 
+                        "grotendeels opgevuld met submerse vegetatie", 
+                        "submerse vegetatie frequent tot talrijk", 
+                        "submerse vegetatie schaars")
+
 layerqual <- layerqual_3260 %>% 
-  mutate(value_num = as.numeric(value_perc)) %>% 
-  select(survey, recording_givid, user_reference, var, value_num)
-# values < 1% are converted to 0.5 %
+  mutate(value_num = as.numeric(value_perc),
+         value_class = ifelse(var %in% var_submerse_vegetatie, var, NA),
+         var = ifelse(var %in% var_submerse_vegetatie, "submerse vegetatie", var)) %>% 
+  select(survey, recording_givid, user_reference, var, value_class, value_num)
+# values < 1% are converted to 0.5 % (via value_perc)
 
 ```
 
-combined: site = structure + layer
+combined: site_characteristics = structure + layer
 ```{r}
-site <- bind_rows(structure, layerqual)
+site_characteristics <- bind_rows(structure, layerqual) %>%
+    mutate(var = str_to_lower(var),
+                 value_class = str_to_lower(value_class))
   
 ```
 
@@ -202,7 +252,7 @@ vegetation <- vegetation_3260 %>%
 
 ```{r}
 write_vc(header, "HT3260_header", root = path, sorting = c("recording_givid"))
-write_vc(site, "HT3260_site", root = path, sorting = c("recording_givid", "var", "value_class"))
+write_vc(site_characteristics, "HT3260_site_characteristics", root = path, sorting = c("recording_givid", "var", "value_class"))
 write_vc(vegetation, "HT3260_vegetation", root = path, sorting = c("recording_givid", "name", "phenology_code"))
 # to do: of als csv?
 ```
@@ -216,14 +266,14 @@ dataverkenning met figuren in dit script of een apart script? @Toon
 
 ```{r}
 # value_num
-site %>% 
+site_characteristics %>% 
   filter(!is.na(value_num)) %>% 
   ggplot(aes(x = value_num)) + 
   geom_histogram() +
   facet_wrap(~var, scales = "free")
 
 # value_class
-site %>% 
+site_characteristics %>% 
   filter(!is.na(value_class)) %>% 
   ggplot(aes(x = value_class)) + 
   geom_bar() +
@@ -234,13 +284,13 @@ site %>%
 ## NA values
 
 ```{r}
-site_num_breed <- site %>% 
+site_num_breed <- site_characteristics %>% 
   select(-value_class) %>% 
   filter(!is.na(value_num)) %>% 
   spread(var, value_num) %>% 
   arrange(recording_givid)
 
-site_class_breed <- site %>% 
+site_class_breed <- site_characteristics %>% 
   select(-value_num) %>% 
   filter(!is.na(value_class)) %>% 
   group_by(recording_givid, var) %>% 
