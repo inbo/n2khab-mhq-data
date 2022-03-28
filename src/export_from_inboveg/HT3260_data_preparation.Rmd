@@ -1,0 +1,426 @@
+---
+title: "data cleanup of survey HT3260 (inboveg database)"
+author: "An Leyssen"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(git2rdata)
+library(n2khab)
+```
+
+# import data
+
+```{r}
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
+
+classif_mhq_aq <- read_vc("classif_mhq_aq", root = path)
+header_mhq_aq <- read_vc("header_mhq_aq", root = path)
+structure_mhq_aq <- read_vc("structure_mhq_aq", root = path)
+sitequal_mhq_aq <- read_vc("sitequal_mhq_aq", root = path)
+layerqual_mhq_aq <- read_vc("layerqual_mhq_aq", root = path) 
+vegetation_mhq_aq <- read_vc("vegetation_mhq_aq", root = path)
+
+# to do bij qualifiers_m_mhq.Rmd: 
+# opvolgen of Q3Code %in% c("SStr", "SDiep") ondertussen een Q3Description heeft
+# opmerkingen uit inboveg toevoegen aan header (maar wellicht niet mogelijk via bestaande functies?)
+
+```
+
+# filter survey HT3260
+
+```{r}
+this_survey <- "HT3260"
+
+classif_3260 <- classif_mhq_aq %>% filter(survey == this_survey)
+header_3260 <- header_mhq_aq %>% filter(survey == this_survey)
+structure_3260 <- structure_mhq_aq %>% filter(survey == this_survey)
+sitequal_3260 <- sitequal_mhq_aq %>% filter(survey == this_survey)
+layerqual_3260 <-  layerqual_mhq_aq %>% filter(survey == this_survey)
+vegetation_3260 <- vegetation_mhq_aq %>% filter(survey == this_survey)
+```
+
+# data cleaning
+
+the dataset is rearranged into:  
+- header data 
+- site characteristics  
+- vegetation data  
+
+## header data
+= collection of header, classif and site qualifiers (betrouwbaarheid + reden geen opname)
+
+```{r}
+details_no_survey <- sitequal_3260 %>% 
+  filter(!(is.na(comment))) %>% 
+  select(recording_givid, comment_not_measured = comment) 
+
+sitequal <- sitequal_3260 %>% 
+  select(-comment, -value_code) %>%
+  mutate(var = case_when(
+    str_detect(value, "Betrouwbaarheid opname:") ~ "reliability",
+    str_detect(value, "Geen opname:") ~ "reason_no_survey")) %>% 
+  spread(key = var, value = value) %>% 
+  left_join(details_no_survey, by = "recording_givid") %>% 
+  mutate(reliability = str_remove(reliability, "Betrouwbaarheid opname: "),
+         reason_no_survey = str_remove(reason_no_survey, "Geen opname: "),
+         reason_no_survey = str_replace(reason_no_survey, "niet toegankelijk", "ongeschikt"), 
+         comment_not_measured = ifelse(is.na(comment_not_measured),
+                                      reason_no_survey,
+                                      paste0(reason_no_survey, "; ", comment_not_measured)))
+
+# identify recording_givid with no or partial measurements
+no_structure <- anti_join(header_3260, structure_3260, by = "recording_givid") 
+no_layers <- anti_join(header_3260, layerqual_3260, by = "recording_givid") 
+no_vegetation <- anti_join(header_3260, vegetation_3260, by = "recording_givid") 
+no_survey <- bind_rows(no_structure, no_layers, no_vegetation) %>% 
+  distinct() 
+
+header <- header_3260 %>% 
+  left_join(select(classif_3260, recording_givid, type_observed, classif_key), 
+            by = "recording_givid") %>% 
+  mutate(type_observed = factor(type_observed, 
+                                  levels = c("-9", "0", "3260"),
+                                  labels = c("gh", "unknown", "3260"))) %>% 
+  left_join(sitequal, by = c("survey", "recording_givid", "user_reference")) %>% 
+  mutate(suitable_mhq = ifelse(test = (type_observed == "3260" & is.na(reason_no_survey)), 
+                          yes = TRUE,
+                          no = FALSE),
+         measured = ifelse(test = recording_givid %in% no_survey$recording_givid,
+                         yes = FALSE,
+                         no = TRUE)) %>% 
+  select(recording_givid, survey, user_reference, location, date = vague_date_begin, 
+         latitude, longitude, type_observed, reliability, suitable_mhq, measured, comment_not_measured)
+
+```
+
+type_observed:  
+0: niet genoteerd; unknown  
+-9: geen habitat; gh  
+
+'measured' (TRUE/FALSE): geeft aan of er al dan niet een opname is gebeurd; een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
+
+suitable_mhq (TRUE/FALSE): TRUE indien type observed = 3260 EN reason no survey is niet opgegeven  
+
+comment_not_measured = permanent ongeschikt e.d.  
+
+overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
+
+## site characteristics
+= collection of structure and layer qualifiers  
+
+### structure
+```{r}
+var_class <- c("profl", "profr", "peil") # peil partim waterpeil
+var_num_elu <- c("dwars", "peil", "turbi", "vlek") 
+        # peil partim stroomsnelheid; 
+        # turbi: partim Secchi
+var_num <- c("schab", "schao") 
+var_multiple <- c("beh", "orgma", "artif", "turbi", "wijze")
+var_stroomsnelheid <- c("SDiep", "SStr")
+var_minimum <- c("SlibX", "DiepX", "SeccX")
+
+structure_class <- structure_3260 %>% 
+  filter(var_code %in% var_class,
+         !(var_value_code %in% var_stroomsnelheid)) %>% # exclude data stroomsnelheid (=numeric)
+  select(survey, recording_givid, user_reference, var, value_class = var_description_or_value)
+
+structure_minimum <- structure_3260 %>% 
+  filter(var_value_code %in% var_minimum) %>% 
+  mutate(value_tmp = as.numeric(str_replace(value, ",", "\\."))) %>% 
+  filter(!is.na(value_tmp)) %>% 
+  mutate(value_class = paste0(">", value_tmp),
+         var = case_when(
+           var_value_code == "SlibX" ~ "Slibdikte in meter",
+           var_value_code == "DiepX" ~ "Diepte in meter", 
+           var_value_code == "SeccX" ~ "Secchi-diepte in m")) %>% 
+  select(survey, recording_givid, user_reference, var, value_class)
+
+structure_num_elu <- structure_3260 %>% 
+  filter(var_code %in% var_num_elu, 
+         !(var_value_code %in% var_minimum)) %>% 
+  mutate(value_num = as.numeric(str_replace(value, ",", "\\.")),
+         var = case_when(
+           var_value_code == "SDiep" ~ "diepte stroomsnelheid (m)",
+           var_value_code == "SStr" ~ "stroomsnelheid (m/s)", 
+           TRUE ~ var_description_or_value)) %>% # to do: schrap indien dit in description in inboveg is aangevuld
+  filter(!is.na(value_num)) %>% 
+  select(survey, recording_givid, user_reference, var, value_num)
+
+structure_num <- structure_3260 %>% 
+  filter(var_code %in% var_num) %>% 
+  mutate(value_num = as.numeric(var_description_or_value)) %>% 
+  select(survey, recording_givid, user_reference, var, value_num)
+  
+structure_artif_m <- structure_3260 %>% 
+  filter(var_code == "artif",
+        var_description_or_value %in% c("Brug", "Bodemplaat of -val", "Duiker")) %>% 
+  mutate(value_num = ifelse(value == "<1", 0.5, as.numeric(str_replace(value, ",", "\\.")))) %>% 
+  select(survey, recording_givid, user_reference, var_description_or_value, value_num)
+
+structure_multiple <- structure_3260 %>% 
+  filter(var_code %in% var_multiple,
+         !(var_description_or_value %in% c("Secchi-diepte in m", "Secchi-diepte meer dan (m)"))) %>%
+  left_join(structure_artif_m, by = c("survey", "recording_givid", "user_reference", 
+                                      "var_description_or_value")) %>% 
+  select(survey, recording_givid, user_reference, var, value_class = var_description_or_value,
+         value_num) 
+
+# to do: unit in aparte kolom (later)
+
+structure <- bind_rows(structure_class, structure_multiple, structure_num_elu, 
+                       structure_num, structure_minimum)
+```
+
+beschrijving van enkele variabelen:  
+- SDiep: diepte stroomsnelheidsbepaling (m)  
+- SStr: stroomsnelheid (m/s)  
+- Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)  
+- Secchi-diepte meer dan (m): indien exacte bepaling niet mogelijk is, wordt dit genoteerd als > x m (vnl owv veiligheid; zie protocol)  
+- Slib meer dan (m): indien exacte bepaling slibdikte niet mogelijk is (owv veiligheid), wordt dit genoteerd als > x m  
+- Diepte meer dan (m): indien exacte bepaling waterdiepte niet mogelijk is (owv veiligheid), wordt dit genoteerd als > x m  
+
+controle - tmp
+```{r, eval=FALSE}
+# tmp - to do: opvolgen of NA's in description aangevuld zijn
+structure_3260 %>% 
+  filter(is.na(var_description_or_value),
+         !(var_value_code %in% var_stroomsnelheid)) %>% 
+  select(survey, recording_givid, user_reference, var_value_code, var_description_or_value) # 1 record
+
+```
+
+### layerqual
+```{r}
+var_submerse_vegetatie <- c("geen submerse vegetatie", 
+                        "grotendeels opgevuld met submerse vegetatie", 
+                        "submerse vegetatie frequent tot talrijk", 
+                        "submerse vegetatie schaars")
+
+layerqual <- layerqual_3260 %>% 
+  mutate(value_num = as.numeric(value_perc),
+         var = ifelse(var %in% var_submerse_vegetatie, paste0("submerse vegetatie: ", var), var)) %>% 
+  select(survey, recording_givid, user_reference, var, value_num)
+# values < 1% are converted to 0.5 % (via value_perc)
+```
+
+controle - tmp
+```{r, eval=FALSE}
+layerqual_3260 %>% 
+  select(value, value_perc) %>% 
+  arrange(value) %>% distinct()
+# to do (opvolgen): 0,1 al aangepast in inboveg door Pieter, want levert NA op
+
+```
+
+
+### combined
+= site_characteristics = structure + layer
+```{r}
+site_characteristics <- bind_rows(structure, layerqual) %>%
+    mutate(var = str_to_lower(var),
+                 value_class = str_to_lower(value_class))
+  
+```
+
+
+## vegetation
+rearrangement of vegetation
+```{r}
+vegetation <- vegetation_3260 %>% 
+  mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific)) %>% 
+  select(survey, recording_givid, name, phenology_code, species_cover_code, species_cover, scale) %>% 
+  distinct() # tmp - to do opvolgen of dubbels eruit zijn
+
+# to do (later): nagaan of Nederlandse naam beschikbaar is in inboveg (@ Sofie of Pieter) 
+
+```
+
+controle - tmp
+```{r, eval=FALSE}
+# lijst my taxa 
+vegetation_3260 %>% 
+  filter(is.na(name_scientific)) %>% 
+  count(name_original) %>% 
+  arrange(name_original)
+
+sel_species <- c("Enteromorpha sp.")
+sel_species <- c("Salix 'alba' groep")
+sel_species <- c("Poaceae", "poaceae")
+
+vegetation_3260 %>% 
+  filter(name_original %in% sel_species) %>% 
+  left_join(select(header, recording_givid, user_reference), by = "recording_givid") %>% 
+  select(recording_givid, user_reference, name_original, species_cover_code) 
+  
+# soorten van 'my taxa' uniformiseren want identiek: to do (opvolgen; @ Pieter gevraagd)
+#   Callitriche 'obtusangula/platycarpa' groep en Callitriche platycarpa/obtusangula   -
+#   darmwier   en Enteromorpha sp.
+# gras (poaceae, vegetatief, niet gedetermineerd),   gras vegetatief en Poaceae, poaceae
+# mos en mos niet gedetermineerd
+# Salix 'alba' groep en Salix smalbladig en wilg smal
+
+# check of er nog dubbels zijn in vegetation
+ vegetation %>%
+    group_by(recording_givid,  name, phenology_code) %>%
+    filter(n() > 1)
+
+```
+
+
+# data controle 
+##  input
+```{r, eval = FALSE}
+this_sample <- "Dommel_14"
+
+header_sel <- header_3260 %>% filter(str_detect(user_reference, this_sample))
+
+classif_sel <- classif_3260  %>% semi_join(header_sel, by = "recording_givid")
+structure_sel <- structure_3260  %>% semi_join(header_sel, by = "recording_givid")
+sitequal_sel <- sitequal_3260  %>% semi_join(header_sel, by = "recording_givid")
+layerqual_sel <- layerqual_3260  %>% semi_join(header_sel, by = "recording_givid")
+vegetation_sel <- vegetation_3260  %>% semi_join(header_sel, by = "recording_givid")
+
+# is ok; alles zit erin
+
+```
+
+##  output
+
+```{r, eval = FALSE}
+header_sel <- header %>%  
+  filter(str_detect(user_reference, this_sample))
+
+site_characteristics_sel <- site_characteristics %>% semi_join(header_sel, by = "recording_givid")
+vegetation_sel <- vegetation %>% semi_join(header_sel, by = "recording_givid")
+
+# is ok; alles zit erin
+
+```
+
+# data export
+
+```{r}
+write_vc(header, "HT3260_header", root = path, 
+         sorting = c("recording_givid"), , strict = FALSE)
+write_vc(site_characteristics, "HT3260_site_characteristics", root = path, 
+         sorting = c("recording_givid", "var", "value_class"), strict = FALSE)
+write_vc(vegetation, "HT3260_vegetation", root = path, 
+         sorting = c("recording_givid", "name", "phenology_code"))
+```
+
+# data exploration
+
+## graphs
+
+```{r}
+# value_num
+site_characteristics %>% 
+  filter(!is.na(value_num),
+         !is.na(var)) %>% # to do: weghalen indien NA van AntGr_03_20170718 is opgelost
+  ggplot(aes(x = value_num)) + 
+  geom_histogram() +
+  facet_wrap(~var, scales = "free")
+
+# value_class
+site_characteristics %>% 
+  filter(!is.na(value_class)) %>% 
+  ggplot(aes(x = value_class)) + 
+  geom_bar() +
+  facet_grid(var~., scales = "free") +
+  coord_flip()
+```
+
+## NA values
+
+```{r}
+site_num_breed <- site_characteristics %>% 
+  filter(!is.na(value_num)) %>% 
+  mutate(var = ifelse(is.na(value_class), var, paste(var, value_class))) %>% 
+  # omweg owv aanpassing art substr in 1 record
+  select(-value_class) %>% 
+  spread(var, value_num) %>% 
+  arrange(recording_givid)
+
+site_class_breed <- site_characteristics %>% 
+  select(-value_num) %>% 
+  filter(!is.na(value_class)) %>% 
+  group_by(recording_givid, var) %>% 
+  count() %>% 
+  spread(var, n) %>% 
+  arrange(recording_givid) %>% 
+  select(-`diepte in meter`, -`secchi-diepte in m`, -`slibdikte in meter`) 
+  # omweg owv slibdikte in meter.y
+
+data_breed <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "survey", "user_reference")) %>% 
+  left_join(site_class_breed, by = c("recording_givid")) %>% 
+  filter(suitable_mhq == TRUE) # remove sites not suitable for monitoring
+
+N_dataset <- nrow(data_breed)
+summary_dataset <- data_breed %>% 
+  gather("var", "value", 
+         -recording_givid, -survey, -user_reference, -location, -date, 
+         -latitude, -longitude, -suitable_mhq, -measured, -comment_not_measured,
+         na.rm = TRUE) %>% 
+  group_by(var) %>% 
+  summarise(number = n(),  
+            sd = sd(value),
+            ratio_NA = 1- (number/N_dataset))
+
+ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
+  geom_point() 
+
+```
+
+## not measured
+
+```{r}
+not_measured <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "survey", "user_reference")) %>% 
+  filter(measured == FALSE|suitable_mhq == FALSE) %>% 
+  select(user_reference, type_observed, suitable_mhq, measured, comment_not_measured,
+         `artificiële structuren duiker`, `artificiële structuren brug`, 
+         `artificiële structuren bodemplaat of -val`, `schaduw boom en struik`, 
+         `schaduw oevervegetatie`)
+
+not_measured %>% 
+  count(type_observed)
+not_measured %>% 
+  count(comment_not_measured)
+not_measured %>% 
+  filter((`schaduw boom en struik` > 30)|(`schaduw oevervegetatie`> 30)) %>% 
+  count()
+not_measured %>% 
+  filter(((`artificiële structuren duiker` > 10)|
+          (`artificiële structuren brug` > 10))|
+          (`artificiële structuren bodemplaat of -val`> 10)) %>% 
+  count()  
+
+```
+
+## accompanying species (top 10)
+
+```{r}
+vegetation %>% 
+  count(name) %>% 
+  arrange(desc(n)) %>% 
+  top_n(10)
+```
+
+<!-- LSVI-bepaling in apart script - to do -->

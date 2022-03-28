@@ -140,7 +140,8 @@ qualifiers_m_mhq <- get_inboveg_qualifier(connection = connection_inboveg,
                                         survey_name = surveys, multiple = TRUE,
                                         qualifier_type = "MQ") %>%
     select(survey = Name, recording_givid = RecordingGivid, user_reference = UserReference, 
-           var_code = Q2Code, var = Q2Description, var_description_or_value = Q3Description, 
+           var_code = Q2Code, var = Q2Description, 
+           var_value_code = Q3Code, var_description_or_value = Q3Description, 
            value = Elucidation) %>%
     mutate(var_code = tolower(var_code), var = tolower(var)) %>% 
     filter(!(value %in% c("NA", "n/a")))  
@@ -148,9 +149,9 @@ qualifiers_m_mhq <- get_inboveg_qualifier(connection = connection_inboveg,
 qualifiers_s_mhq <- get_inboveg_qualifier(connection = connection_inboveg,
                                  survey_name = surveys, multiple = TRUE, 
                                  qualifier_type = "SQ") %>% 
-  mutate(var = "betrouwbaarheid") %>% 
   select(survey = Name, recording_givid = RecordingGivid, user_reference = UserReference, 
-         var, value = Q1Description, remark = Elucidation)
+         value_code = Q1Code, value = Q1Description, 
+         comment = Elucidation)
   
 qualifiers_l_mhq <- get_inboveg_layer_cover(connection = connection_inboveg, 
                                        survey_name = surveys,
