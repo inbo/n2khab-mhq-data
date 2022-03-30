@@ -211,9 +211,15 @@ beschrijving van enkele variabelen:
 - SDiep: diepte stroomsnelheidsbepaling (m)   
 - SStr: stroomsnelheid (m/s)  
 - Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)  
-- Secchi-diepte meer dan (m): indien exacte bepaling niet mogelijk is, wordt dit genoteerd als > x m (vnl owv veiligheid; zie protocol)  
-- Slib meer dan (m): indien exacte bepaling slibdikte niet mogelijk is (owv veiligheid), wordt dit genoteerd als > x m  
-- Diepte meer dan (m): indien exacte bepaling waterdiepte niet mogelijk is (owv veiligheid), wordt dit genoteerd als > x m  
+
+beschrijving van kolommen:  
+- var_code: code van variabele  
+- var: naam van gemeten variabele
+- value: waarde van meting of klasse (tekstveld)
+- value_numeric: numerieke waarde van value
+- is_above_LOQ & is_below_LOQ: LOQ = limit of Quantification; indien een meting niet exact kan bepaald worden, wordt aangeduid dat de variabele minstens of maximaal een bepaalde waarde heeft. Bijvoorbeeld in de Grensmaas, waar het niet veilig is om al wadend de waterdiepte te bepalen wordt tijdens de veldopname genoteerd dat de waterdiepte minstens 1.5 m diep is; is_above_LOQ is een TRUE/FALSE-veld & zal in dit geval TRUE zijn; idem voor Secchi-diepte en Slib-diepte  
+- is_numeric: TRUE voor variabelen met numerieke waarden (genoteerd in value_numeric) of FALSE voor klasse-variabelen  
+- unit: eenheid van meting
 
 controle - tmp
 ```{r, eval=FALSE}
@@ -266,7 +272,18 @@ layerqual_3260 %>%
 ```{r}
 site_characteristics <- bind_rows(structure, layerqual) %>%
     mutate(var = str_to_lower(var),
-                 value = str_to_lower(value))
+           var = str_remove(var, 
+                             paste(c(" \\(m\\)", " \\(m²\\)", " in meter", " in m", " \\(m/s\\)"), 
+                                   collapse = "|")),
+           value = str_to_lower(value)) 
+```
+
+controle - tmp
+```{r, eval=FALSE}
+site_characteristics %>% 
+  select(var) %>% 
+  arrange(var) %>% distinct()
+# to do: vereenvoudigen van variabelen-naam "manier waarop de opname gemaakt is", "helderheid van de waterkolom", ...
 ```
 
 
