@@ -1,0 +1,170 @@
+---
+title: "data exploration of survey HT3260"
+author: "An Leyssen"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+library(git2rdata)
+library(n2khab)
+```
+
+# import data
+
+```{r}
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
+
+header <- read_vc("HT3260_header", root = path)
+site_characteristics <- read_vc("HT3260_site_characteristics", root = path)
+vegetation <- read_vc("HT3260_vegetation", root = path)
+```
+
+
+# data exploration
+
+## structuur dataset
+
+### header
+```{r}
+header %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+### site_characteristics
+```{r}
+site_characteristics %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+### vegetation
+```{r}
+vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+
+## graphs
+
+### numeric variables
+```{r}
+site_characteristics %>% 
+  filter(is_numeric == TRUE,
+         !is.na(var)) %>% # to do: weghalen indien NA van AntGr_03_20170718 is opgelost
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>% 
+  ggplot(aes(x = value_numeric)) + 
+  geom_histogram() +
+  facet_wrap(~var, scales = "free")
+```
+
+--> verdeling zoals verwacht
+
+### class variables
+```{r}
+site_characteristics %>% 
+  filter(is_numeric == FALSE) %>% 
+  ggplot(aes(x = value)) + 
+  geom_bar() +
+  facet_grid(var~., scales = "free") +
+  coord_flip()
+```
+
+--> de meeste meetpunten hebben geen artificiële structuur, geen beheer gekend, natuurlijke oever met helling tussen 45°-90°, bodemzicht, normaal waterpeil en zijn al wadend geïnventariseerd.
+
+## NA values
+
+bepaling aantal NA voor locaties die geschikt zijn voor de habitatkwaliteitsmonitoring
+```{r}
+site_num_breed <- site_characteristics %>% 
+  filter(is_numeric == TRUE,
+         !is.na(var)) %>% # owv NA wegwerken
+  select(recording_givid, user_reference, var, value_numeric) %>% 
+  spread(var, value_numeric) %>% 
+  arrange(recording_givid)
+
+site_class_breed <- site_characteristics %>% 
+  filter(is_numeric == FALSE) %>%  
+  group_by(recording_givid, var) %>% 
+  count() %>% 
+  spread(var, n) %>% 
+  arrange(recording_givid) 
+
+data_breed <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "user_reference")) %>% 
+  left_join(site_class_breed, by = c("recording_givid")) %>% 
+  filter(suitable_mhq == TRUE) # remove sites not suitable for monitoring
+
+N_dataset <- nrow(data_breed)
+summary_dataset <- data_breed %>% 
+  gather("var", "value", 
+         -recording_givid, -survey, -user_reference, -location, -date, 
+         -latitude, -longitude, -suitable_mhq, -measured, -comment_not_measured,
+         na.rm = TRUE) %>% 
+  group_by(var) %>% 
+  summarise(number = n(),  
+            sd = sd(value),
+            ratio_NA = 1- (number/N_dataset))
+
+ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
+  geom_point() 
+```
+
+- stroomsnelheid slechts 2 jaar gemeten  (sinds 2020)  
+- Secchi-diepte veel NA: indien bodemzicht → geen Secchi genoteerd → ok  
+- veel NA bij % submerse vegetatie: 0 opgenomen als NA in 2015 en 2016; rest is ok (evt aanvullen in inboveg)  
+- aantal elementen het eerste jaar niet gemeten:  betrouwbaarheid, onderscheid schaduw boom/oever en beheer  
+- verschil NA's bij dominant oeverprofiel LO versus RO: door   
+conclusie: geen problemen
+
+
+## not measured
+
+voornaamse reden dat een locatie niet weerhouden wordt in het meetnet:
+```{r}
+not_measured <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "user_reference")) %>% 
+  filter(measured == FALSE|suitable_mhq == FALSE) %>% 
+  select(user_reference, type_observed, suitable_mhq, measured, comment_not_measured,
+         `lengte duiker`, `lengte brug`, 
+         `lengte bodemplaat of -val`, `schaduw boom en struik`, 
+         `schaduw oevervegetatie`)
+
+not_measured %>% 
+  count(type_observed)
+not_measured %>% 
+  count(comment_not_measured)
+not_measured %>% 
+  filter((`schaduw boom en struik` > 30)|(`schaduw oevervegetatie`> 30)) %>% 
+  count()
+not_measured %>% 
+  filter(((`lengte duiker` > 10)|
+          (`lengte brug` > 10))|
+          (`lengte bodemplaat of -val`> 10)) %>% 
+  count()  
+```
+
+reden in volgorde van belang: geen habitat > teveel schaduw  > overwelving/bodemplaat > droogval > ontoegankelijk (overlap!)
+
+## accompanying species (top 10)
+
+```{r}
+vegetation %>% 
+  count(name) %>% 
+  arrange(desc(n)) %>% 
+  top_n(10)
+```
