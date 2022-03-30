@@ -151,8 +151,10 @@ structure_num_elu <- structure_3260 %>%
          var = var_description_or_value, value) %>% 
   mutate(var = case_when(
            var_code == "SDiep" ~ "diepte stroomsnelheid (m)", 
-           var_code == "SStr" ~ "stroomsnelheid (m/s)", 
-           # to do: schrap indien dit in description in inboveg is aangevuld voor SDiep & SStr
+           var_code == "SStr" ~ "stroomsnelheid (m/s)", # to do: schrap indien dit in description in inboveg is aangevuld voor SDiep & SStr
+           var_code == "DiepX" ~ "Diepte in meter", 
+           var_code == "SeccX" ~ "Secchi-diepte in m",
+           var_code == "SlibX" ~ "Slibdikte in meter",
          TRUE ~ var),
          value = case_when(
            var_code %in% var_minimum ~ paste0(">", value),
