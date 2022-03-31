@@ -1,0 +1,175 @@
+---
+title: "calculation of LSVI of survey HT3260"
+author: "An Leyssen"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+library(git2rdata)
+library(n2khab)
+library(LSVI)
+maakConnectiePool()
+```
+
+# import data
+
+```{r}
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
+
+header <- read_vc("HT3260_header", root = path)
+site_characteristics <- read_vc("HT3260_site_characteristics", root = path)
+vegetation <- read_vc("HT3260_vegetation", root = path)
+```
+to do(mss): link maken met monitoring3260_SVZ.xlsx, want soms meerdere bezoeken per jaar??
+
+
+# invoervereisten LSVI-rekenmodule habitattype 3260 (versie 3)
+
+```{r}
+invoervereisten <- geefInvoervereisten(Versie = "Versie 3", 
+                    Habitattype = "3260") 
+invoervereisten %>% 
+  kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+
+# data omvormen naar vereiste structuur
+
+## data_habitat
+```{r}
+data_habitat <- header %>% 
+  filter(suitable_mhq == TRUE) %>% 
+  select(ID = recording_givid, survey, user_reference, location, date, latitude, 
+         longitude, type_observed, reliability, Habitattype = type_observed)  
+```
+
+## data_voorwaarden
+```{r}
+rel_var <- c("vhel", "viex", "veui", "MaxGr")
+Criterium <- c("Structuur", "Verstoring", "Verstoring", "Structuur")
+Indicator <- c("verticale structuur", "invasieve exoten", "eutrofiëring", "horizontale structuur")
+Voorwaarde <- c("bedekking helofyten", "bedekking invasieve exoten", 
+                "bedekking eutrofiëring", "grootste vegetatievlek in m²")
+Type <- c("Percentage", "Percentage", "Percentage", "Decimaal getal")
+
+invoervereisten_join <- data.frame(rel_var, Criterium, Indicator, Voorwaarde, Type) %>% 
+  mutate(Invoertype = NA)
+# to do: niet zo elegant; @Toon betere suggestie?
+
+data_voorwaarden <- site_characteristics %>% 
+  semi_join(data_habitat, by = c("recording_givid" = "ID")) %>% 
+  filter(var_code %in% rel_var) %>% 
+  left_join(invoervereisten_join, by = c("var_code" = "rel_var")) %>% 
+  select(ID = recording_givid, Criterium, Indicator, Voorwaarde, 
+         Waarde = value_numeric, Type, Invoertype, Eenheid = unit)
+```
+
+## data_soortenkenmerken
+```{r}
+# omweg om soorten met verschillende groeivormen te omzeilen:
+cde_species_cover <- vegetation %>% 
+  select(species_cover_code, species_cover) %>% 
+  distinct() %>% 
+  mutate(species_cover_2 = case_when(
+    species_cover_code == "r" ~ 0.1,
+    TRUE ~ species_cover))
+  
+data_soortenkenmerken <- vegetation %>% 
+  mutate(species_cover_2 = case_when(
+    species_cover_code == "r" ~ 0.1,
+    TRUE ~ species_cover)) %>% 
+  group_by(recording_givid, name) %>% 
+  summarise(max_species_cover = max(species_cover_2)) %>% 
+  left_join(cde_species_cover, by = c("max_species_cover" = "species_cover_2")) %>% 
+  select(-max_species_cover) %>% 
+  ungroup()  %>% # tot hier omweg voor verschillende bedekkingen door verschillende groeivormen
+  filter(!((recording_givid == "IV2017103112000004")&
+          (name == "Callitriche 'obtusangula/platycarpa' groep"))) %>% 
+  # @toon: filter omdat ik anders "Error in invoercontroleData_soortenKenmerken(Data_soortenKenmerken, ConnectieLSVIhabitats,  : Voor opname IV2017103112000004 is/zijn de soort(en) 'Callitriche', 'Callitriche 'obtusangula/platycarpa' groep' meermaals opgegeven voor de NA" krijg --> ???
+  mutate(name = case_when(
+    name == "Potamogeton obtusifolius/berchtoldii" ~ "Potamogeton obtusifolius",
+    TRUE ~ name)) %>% 
+  # dit zijn beide typische soorten en mogen niet genegeerd worden in de LSVI-berekening
+  semi_join(data_habitat, by = c("recording_givid" = "ID")) %>% 
+  select(ID = recording_givid, Kenmerk = name, Waarde = species_cover_code) %>%
+  mutate(Vegetatielaag = NA, TypeKenmerk = "soort_Latijn", Type = "Categorie",
+         Invoertype = "TANSLEY (LEYSSEN)", Eenheid = NA)
+
+# @Toon: weet jij een simpelere methode om de maximale bedekking van soorten met meerdere groeivorm te selecteren, want anders geeft berekenLSVIbasis() een error
+```
+
+
+# berekening LSVI
+
+```{r}
+resultaat <- berekenLSVIbasis(
+  Versie = "Versie 3",
+  Kwaliteitsniveau = "1",
+  Data_habitat = data_habitat,
+  Data_voorwaarden = data_voorwaarden,
+  Data_soortenKenmerken = data_soortenkenmerken,
+  Aggregatiemethode = "RapportageHR",
+  na.rm = TRUE)
+
+ResDetail <- resultaat$Resultaat_detail
+ResCrit <- resultaat$Resultaat_criterium
+ResInd <- resultaat$Resultaat_indicator
+ResGlob <- resultaat$Resultaat_globaal
+
+ResKT <- ResDetail %>%
+  select(ID, survey, user_reference, location, date, latitude, Habitattype, 
+         reliability, Versie, Voorwaarde, Status_voorwaarde) %>%
+  spread(key = Voorwaarde, value = Status_voorwaarde)
+```
+to do: warnings in detail bekijken
+
+
+# resultaat
+```{r}
+resultaat_tabel <- ResKT %>% 
+  select(location, date, Versie, `aantal sleutelsoorten frequent`:`grootste vegetatievlek in m²`) 
+resultaat_tabel %>% 
+  kable() %>% 
+  column_spec(4, color = ifelse(resultaat_tabel[4] == TRUE, "green", "red")) %>%  
+  column_spec(5, color = ifelse(resultaat_tabel[5] == TRUE, "green", "red")) %>%  
+  column_spec(6, color = ifelse(resultaat_tabel[6] == TRUE, "green", "red")) %>% 
+  column_spec(7, color = ifelse(resultaat_tabel[7] == TRUE, "green", "red")) %>% 
+  column_spec(8, color = ifelse(resultaat_tabel[8] == TRUE, "green", "red")) %>% 
+  column_spec(9, color = ifelse(resultaat_tabel[9] == TRUE, "green", "red")) %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px", height = "800px")
+```
+
+
+# export resultaten 
+
+```{r}
+# to do: aanpassen naar write_vc?
+# write_vc(ResDetail, "HT3260_ResDetail", root = path, 
+#          sorting = c("ID"), strict = FALSE)
+
+write.csv2(ResDetail, paste0(path, "/HT3260_ResultaatLSVI_detail.csv"))
+write.csv2(ResCrit, paste0(path, "/HT3260_ResultaatLSVI_criteria.csv"))
+write.csv2(ResInd, paste0(path, "/HT3260_ResultaatLSVI_indicatoren.csv"))
+write.csv2(ResGlob, paste0(path, "/HT3260_ResultaatLSVI_globaal.csv"))
+
+write.csv2(ResKT, paste0(path, "/HT3260_ResultaatLSVI_kruistabel.csv"))
+```
+
+to do: export vergelijken met vorige rapportage voor enkele voorbeelden
