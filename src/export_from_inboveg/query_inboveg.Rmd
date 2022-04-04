@@ -157,7 +157,7 @@ qualifiers_l_mhq <- get_inboveg_layer_cover(connection = connection_inboveg,
                                        survey_name = surveys,
                                        multiple = TRUE) %>% 
   select(survey = Name, recording_givid = RecordingGivid, user_reference = UserReference,
-         var = LayerDescription, value = CoverCode, value_perc = Percentage)
+         var_code = LayerCode, var = LayerDescription, value = CoverCode, value_perc = Percentage)
 
 dbDisconnect(connection_inboveg)
 ```
@@ -191,7 +191,7 @@ write_vc(qualifiers_m_mhq, "structure_mhq_aq", root = path,
 write_vc(qualifiers_s_mhq, "sitequal_mhq_aq", root = path,  
          sorting = c("recording_givid")) 
 write_vc(qualifiers_l_mhq, "layerqual_mhq_aq", root = path,  
-         sorting = c("recording_givid", "var")) 
+         sorting = c("recording_givid", "var"), strict = FALSE) 
 write_vc(recordings_mhq, "vegetation_mhq_aq", root = path,  
          sorting = c("recording_givid", "layer_code", "name_scientific"))
 ```
