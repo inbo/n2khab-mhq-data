@@ -8,7 +8,7 @@
   - type_observed_circle
   - type_observed_square
   hash: 0dea824cb4161746aead27fb3a393ae4e8cb3fb4
-  data_hash: e562f44cef5cbc80824179246f23de7594be8f8c
+  data_hash: a5f5a752d721da0fff72062ef2102c9b494c7fc7
 plot_id:
   class: integer
 type_observed_circle:

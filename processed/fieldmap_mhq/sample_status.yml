@@ -3,8 +3,8 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 5eb697893ac65cfceea88978923f65390630a18b
-  data_hash: 9308b361df06ad1a90c8bd31178adc539378b075
+  hash: 564dd9e48ee972c1d491e361d251c9b68393ba46
+  data_hash: 7001f8e047a2383f1e94eb80bcc3f18ad3a1e18e
 plot_id:
   class: integer
 sampling_unit_code:
@@ -23,3 +23,17 @@ info_status_fieldwork:
   class: character
 remark:
   class: character
+navplot_id:
+  class: integer
+veg_done:
+  class: integer
+reg_done:
+  class: integer
+dendro_done:
+  class: integer
+info_springveg:
+  class: character
+springveg:
+  class: integer
+remark4:
+  class: logical

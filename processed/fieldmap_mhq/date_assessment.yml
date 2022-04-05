@@ -4,7 +4,7 @@
   NA string: NA
   sorting: plot_id
   hash: a888acb86667e947ab5fd2c2a56dd81093624e36
-  data_hash: b5ca7fb98b1c474c67359ee85ed6fb700d43dd66
+  data_hash: 71dc367bc64ba13dee6de18ce8f9111b11e42741
 plot_id:
   class: integer
 date_assessment:

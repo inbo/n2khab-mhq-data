@@ -7,7 +7,7 @@
   - segment_id
   - layer
   hash: 7fa71aca464f96db836d702fdfd75862515033c7
-  data_hash: 8bc6ccd9e906d8da9f51a84cf0d953cef8e06584
+  data_hash: 2326bf0de48f3dc17fcb3fa437d6e6d9a55e2f09
 plot_id:
   class: integer
 segment_id:
