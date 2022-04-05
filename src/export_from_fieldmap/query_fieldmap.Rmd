@@ -964,17 +964,46 @@ check <- coordinates %>%
   filter(n > 1) # check plot 12710
 ```
 
+
+# Check type observed
+
+The type in the center of the plot determines if the sampling unit should be measured or not.
+
+The type is recorded in the square plot and the circle plot.
+
+We assume that the type in the center of the plot corresponds with the type recorded in the square plot. If the type in the square plot is missing, we assume that the type corresponds with the type recorded in the circle plot. If the circle plot is a mixed plot we assume that the segment with the lowest number contains the center of the plot.
+
+```{r}
+type_observed_plot <- type_observed_corr %>%
+  mutate(type_observed_circle_description = str_c(ifelse(is.na(type_observed_cover_circle), "?", type_observed_cover_circle), "% ", type_observed_circle)) %>%
+  group_by(plot_id) %>%
+  mutate(type_observed_circle_description = str_c(type_observed_circle_description, collapse = "; "),
+         mixed_plot = n() > 1) %>%
+  slice_min(order_by = segment_id, n = 1) %>%
+  ungroup() %>%
+  mutate(type_observed = ifelse(!is.na(type_observed_square), type_observed_square, type_observed_circle))
+
+check_type <- type_observed_plot %>%
+  filter(mixed_plot) 
+```
+
+In the table below we check the cases when the cover in the square plot is not recorded and when the circle plot is mixed.
+
+```{r}
+check_type %>%
+    select(plot_id, type_observed, type_observed_circle_description) %>%
+    datatable(filter = "top",
+            rownames = FALSE)
+```
+
+
+
 # Check missing data
 
 ```{r MissingData}
 
-type_observed_plot <- type_observed %>%
-    group_by(plot_id) %>%
-    summarise(type_observed_circle = str_c(type_observed_circle, collapse = " + ")) %>%
-    ungroup() %>%
-    filter(!is.na(type_observed_circle))
-  
 
+  
 cover_veglayers_plot <- cover_veglayers %>%
     group_by(plot_id) %>%
     summarise(cover_veglayer_recorded = sum(!is.na(cover_mean) | !is.na(cover)) > 0) %>%
@@ -992,7 +1021,7 @@ check_coordinates_double <- coordinates %>%
   ungroup() %>%
   filter(n > 1)
 
-check_missing_data <- sample_status %>%
+assessments_overview <- sample_status %>%
     full_join(type_observed_plot, by = "plot_id") %>%
     full_join(date_assessment_plot, by = "plot_id") %>%
   #opname uitgevoerd cfr invav
