@@ -32,7 +32,7 @@ The fieldmap databases can be found in [this google drive folder](https://drive.
 An overview of the different versions of the fieldmap databases can be found in [this google sheet](https://docs.google.com/spreadsheets/d/1Ty_xH0hGVhVgAxZDAah3hsxXkdgmcdWhQZQY5AfUskM/edit#gid=0). 
 
 
-```{r }
+```{r dbINBO}
 
 db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
 db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
@@ -53,6 +53,12 @@ if (!file.exists(db_fieldmap_openhab)) {
 
 ```
 
+
+```{r dbANB, eval = FALSE}
+#In formaat, compatibel met FM
+db_fieldmap_foresthab <- "../../data/database_forest_2021-03-30/BOSHAB_F_v2020_MASTER/FIELDMAPDATA_BOSHAB_F_V2020_MASTER.FDB"
+db_fieldmap_openhab <- "../../data/database_heath6510_2021-03-30/MASTER_NAT2000_F_V7/FIELDMAPDATA_MASTER_NAT2000_F_V7.FDB"
+```
 
 # Functions for querying the database
 
