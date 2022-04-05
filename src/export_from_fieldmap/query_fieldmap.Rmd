@@ -1027,7 +1027,7 @@ check_coordinates_double <- coordinates %>%
   ungroup() %>%
   filter(n > 1)
 
-assessments_overview <- sample_status %>%
+check_missing_data <- sample_status %>%
     full_join(type_observed_plot, by = "plot_id") %>%
     full_join(date_assessment_plot, by = "plot_id") %>%
   #opname uitgevoerd cfr invav
