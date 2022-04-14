@@ -61,8 +61,7 @@ vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "80
 ### numeric variables
 ```{r}
 site_characteristics %>% 
-  filter(is_numeric == TRUE,
-         !is.na(var)) %>% # to do: weghalen indien NA van AntGr_03_20170718 is opgelost
+  filter(is_numeric == TRUE) %>% 
   mutate(value_calc = case_when(
     is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
@@ -91,8 +90,7 @@ site_characteristics %>%
 bepaling aantal NA voor locaties die geschikt zijn voor de habitatkwaliteitsmonitoring
 ```{r}
 site_num_breed <- site_characteristics %>% 
-  filter(is_numeric == TRUE,
-         !is.na(var)) %>% # owv NA wegwerken
+  filter(is_numeric == TRUE) %>%
   select(recording_givid, user_reference, var, value_numeric) %>% 
   spread(var, value_numeric) %>% 
   arrange(recording_givid)
@@ -113,7 +111,8 @@ N_dataset <- nrow(data_breed)
 summary_dataset <- data_breed %>% 
   gather("var", "value", 
          -recording_givid, -survey, -user_reference, -location, -date, 
-         -latitude, -longitude, -suitable_mhq, -measured, -comment_not_measured,
+         -latitude, -longitude, -type_observed, - reliability, -suitable_mhq, 
+         -measured, -comment_not_measured,
          na.rm = TRUE) %>% 
   group_by(var) %>% 
   summarise(number = n(),  
@@ -127,9 +126,10 @@ ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
 - stroomsnelheid slechts 2 jaar gemeten  (sinds 2020)  
 - Secchi-diepte veel NA: indien bodemzicht → geen Secchi genoteerd → ok  
 - veel NA bij % submerse vegetatie: 0 opgenomen als NA in 2015 en 2016; rest is ok (evt aanvullen in inboveg)  
-- aantal elementen het eerste jaar niet gemeten:  betrouwbaarheid, onderscheid schaduw boom/oever en beheer  
-- verschil NA's bij dominant oeverprofiel LO versus RO: door   
-conclusie: geen problemen
+- aantal kenmerken niet gemeten tijdens het eerste meetjaar:  betrouwbaarheid, onderscheid schaduw boom/oever en beheer  
+- verschil NA's bij dominant oeverprofiel LO versus RO: in de Grensmaas wordt enkel het Vlaamse deel geïnventariseerd (linkeroever; niet de rechteroever)    
+
+**conclusie**: geen problemen
 
 
 ## not measured
