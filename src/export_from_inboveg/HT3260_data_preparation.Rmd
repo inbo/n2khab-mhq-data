@@ -20,6 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, warning = FALSE, message = FALSE}
 library(tidyverse)
+library(kableExtra)
 library(git2rdata)
 library(n2khab)
 ```
@@ -36,10 +37,8 @@ sitequal_mhq_aq <- read_vc("sitequal_mhq_aq", root = path)
 layerqual_mhq_aq <- read_vc("layerqual_mhq_aq", root = path) 
 vegetation_mhq_aq <- read_vc("vegetation_mhq_aq", root = path)
 
-# to do bij qualifiers_m_mhq.Rmd: 
-# opvolgen of Q3Code %in% c("SStr", "SDiep") ondertussen een Q3Description heeft
+# to do (later) bij query_inboveg.Rmd: 
 # opmerkingen uit inboveg toevoegen aan header (maar wellicht niet mogelijk via bestaande functies?)
-
 ```
 
 # filter survey HT3260
@@ -58,12 +57,13 @@ vegetation_3260 <- vegetation_mhq_aq %>% filter(survey == this_survey)
 # data cleaning
 
 the dataset is rearranged into:  
-- header data 
+- header data  
 - site characteristics  
 - vegetation data  
+<!-- to do: check waarom layout opsomming niet ok is -->
 
 ## header data
-= collection of header, classif and site qualifiers (betrouwbaarheid + reden geen opname)
+= collection of header, classif and site qualifiers (reliability + reason no survey)
 
 ```{r}
 details_no_survey <- sitequal_3260 %>% 
@@ -109,27 +109,29 @@ header <- header_3260 %>%
 
 ```
 
-type_observed:  
-0: niet genoteerd; unknown  
--9: geen habitat; gh  
-
-'measured' (TRUE/FALSE): geeft aan of er al dan niet een opname is gebeurd; een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
-
-suitable_mhq (TRUE/FALSE): TRUE indien type observed = 3260 EN reason no survey is niet opgegeven  
-
-comment_not_measured = permanent ongeschikt e.d.  
+beschrijving van enkele kolommen:  
+- type_observed: unknown (0: niet genoteerd); gh (-9, geen habitat); 3260 (habitat type 3260)  
+- reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
+- measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
+- suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed = 3260 EN reason_no_survey is niet opgegeven  
+- comment_not_measured: opmerking over reden waarom van een veldlocatie geen opname is gemaakt (bvb permanent ongeschikt e.d.)  
 
 overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
+
+```{r}
+header %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
 
 ## site characteristics
 = collection of structure and layer qualifiers  
 
 ### structure
 ```{r}
-var_class <- c("profl", "profr", "peil") # peil partim waterpeil
+var_class <- c("profl", "profr", "peil") # peil: partim waterpeil
 var_multiple <- c("beh", "orgma", "artif", "turbi", "wijze") # turbi: excl Secchi
 var_num_elu <- c("dwars", "peil", "turbi", "vlek") 
-        # peil partim stroomsnelheid; 
+        # peil: partim stroomsnelheid; 
         # turbi: partim Secchi
 var_num <- c("schab", "schao") 
 var_minimum <- c("SlibX", "DiepX", "SeccX") # = minimum x m
@@ -150,8 +152,6 @@ structure_num_elu <- structure_3260 %>%
   select(survey, recording_givid, user_reference, var_code = var_value_code, 
          var = var_description_or_value, value) %>% 
   mutate(var = case_when(
-           var_code == "SDiep" ~ "diepte stroomsnelheid (m)", 
-           var_code == "SStr" ~ "stroomsnelheid (m/s)", # to do: schrap indien dit in description in inboveg is aangevuld voor SDiep & SStr
            var_code == "DiepX" ~ "Diepte in meter", 
            var_code == "SeccX" ~ "Secchi-diepte in m",
            var_code == "SlibX" ~ "Slibdikte in meter",
@@ -208,27 +208,19 @@ structure <- bind_rows(structure_class_multiple, structure_num_elu,
 ```
 
 beschrijving van enkele variabelen:  
-- SDiep: diepte stroomsnelheidsbepaling (m)   
+- SDiep: diepte (stroom)snelheidsbepaling (m)   
 - SStr: stroomsnelheid (m/s)  
 - Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)  
+overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
 
 beschrijving van kolommen:  
 - var_code: code van variabele  
 - var: naam van gemeten variabele
-- value: waarde van meting of klasse (tekstveld)
+- is_numeric: TRUE voor kwantitatieve variabelen (value_numeric) of FALSE voor categorische variabelen  
+- value: gemeten waarde van de variabele; zowel kwantitatieve als kwalitatieve metingen als tekst
 - value_numeric: numerieke waarde van value
-- is_above_LOQ & is_below_LOQ: LOQ = limit of Quantification; indien een meting niet exact kan bepaald worden, wordt aangeduid dat de variabele minstens of maximaal een bepaalde waarde heeft. Bijvoorbeeld in de Grensmaas, waar het niet veilig is om al wadend de waterdiepte te bepalen wordt tijdens de veldopname genoteerd dat de waterdiepte minstens 1.5 m diep is; is_above_LOQ is een TRUE/FALSE-veld & zal in dit geval TRUE zijn; idem voor Secchi-diepte en Slib-diepte  
-- is_numeric: TRUE voor variabelen met numerieke waarden (genoteerd in value_numeric) of FALSE voor klasse-variabelen  
-- unit: eenheid van meting
-
-controle - tmp
-```{r, eval=FALSE}
-# tmp - to do: opvolgen of NA's in description aangevuld zijn
-structure_3260 %>% 
-  filter(is.na(var_description_or_value),
-         !(var_value_code %in% var_stroomsnelheid)) %>% 
-  select(survey, recording_givid, user_reference, var_value_code, var_description_or_value) # 1 record
-```
+- is_above_LOQ & is_below_LOQ: LOQ = limit of quantification; indien een meting niet exact kan bepaald worden, wordt aangeduid dat de variabele minstens of maximaal een bepaalde waarde heeft. Bijvoorbeeld in de Grensmaas, waar het niet veilig is om al wadend de waterdiepte te bepalen wordt tijdens de veldopname genoteerd dat de waterdiepte minstens 1.5 m diep is; is_above_LOQ is een TRUE/FALSE-veld & zal in dit geval TRUE zijn; idem voor secchi-diepte en slib-diepte  
+- unit: eenheid van meting  
 
 ### layerqual
 ```{r}
@@ -258,14 +250,8 @@ layerqual <- layerqual_3260 %>%
          unit = "%")
 ```
 
-controle - tmp
-```{r, eval=FALSE}
-layerqual_3260 %>% 
-  select(value, value_perc) %>% 
-  arrange(value) %>% distinct()
-# to do (opvolgen): 0,1 al aangepast in inboveg door Pieter
-```
-
+submerse vegetatie: de bedekking van het geheel aan ondergedoken waterplanten wordt ingeschat op een schaal van 0 (geen ondergedoken vegetatie) tot 3 (waterkolom volledig opgevuld). Het percentage van het 100 m-segment dat vertegenwoordigd wordt door elke submerse vegetatieontwikkelingsklasse wordt genoteerd.  
+overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
 
 ### combined
 = site_characteristics = structure + layer
@@ -276,14 +262,11 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
                              paste(c(" \\(m\\)", " \\(m²\\)", " in meter", " in m", " \\(m/s\\)"), 
                                    collapse = "|")),
            value = str_to_lower(value)) 
+# to do (later): vereenvoudigen van variabelen-naam "manier waarop de opname gemaakt is", "helderheid van de waterkolom", ...
 ```
 
-controle - tmp
-```{r, eval=FALSE}
-site_characteristics %>% 
-  select(var) %>% 
-  arrange(var) %>% distinct()
-# to do: vereenvoudigen van variabelen-naam "manier waarop de opname gemaakt is", "helderheid van de waterkolom", ...
+```{r}
+site_characteristics %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
 ```
 
 
@@ -292,40 +275,15 @@ rearrangement of vegetation
 ```{r}
 vegetation <- vegetation_3260 %>% 
   mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific)) %>% 
-  select(survey, recording_givid, name, phenology_code, species_cover_code, species_cover, scale) %>% 
-  distinct() # to do opvolgen of dubbels eruit zijn
+  select(survey, recording_givid, name, phenology_code, species_cover_code, species_cover, scale)
 
 # to do (later): nagaan of Nederlandse naam beschikbaar is in inboveg (@ Sofie of Pieter) 
 ```
 
-controle - tmp
-```{r, eval=FALSE}
-# lijst my taxa 
-vegetation_3260 %>% 
-  filter(is.na(name_scientific)) %>% 
-  count(name_original) %>% 
-  arrange(name_original)
+Sommige taxa zijn een groepering van soorten en hebben geen wetenschappelijke naam in INBOVEG. Voor de ontbrekende namen bij name_scientific, wordt de name_original overgenomen in de 'name'.  
 
-sel_species <- c("Enteromorpha sp.")
-sel_species <- c("Salix 'alba' groep")
-sel_species <- c("Poaceae", "poaceae")
-
-vegetation_3260 %>% 
-  filter(name_original %in% sel_species) %>% 
-  left_join(select(header, recording_givid, user_reference), by = "recording_givid") %>% 
-  select(recording_givid, user_reference, name_original, species_cover_code) 
-  
-# soorten van 'my taxa' uniformiseren want identiek: to do voor 2017 en 2018 (opvolgen; @ Pieter gevraagd)
-#   Callitriche 'obtusangula/platycarpa' groep en Callitriche platycarpa/obtusangula   -
-#   darmwier   en Enteromorpha sp.
-# gras (poaceae, vegetatief, niet gedetermineerd),   gras vegetatief en Poaceae, poaceae
-# mos en mos niet gedetermineerd
-# Salix 'alba' groep en Salix smalbladig en wilg smal
-
-# check of er nog dubbels zijn in vegetation
- vegetation %>%
-    group_by(recording_givid,  name, phenology_code) %>%
-    filter(n() > 1)
+```{r}
+vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
 ```
 
 
@@ -341,9 +299,9 @@ structure_sel <- structure_3260  %>% semi_join(header_sel, by = "recording_givid
 sitequal_sel <- sitequal_3260  %>% semi_join(header_sel, by = "recording_givid")
 layerqual_sel <- layerqual_3260  %>% semi_join(header_sel, by = "recording_givid")
 vegetation_sel <- vegetation_3260  %>% semi_join(header_sel, by = "recording_givid")
-
-# is ok; alles zit erin
 ```
+
+dit is ok; alles zit erin
 
 ##  output
 
@@ -353,15 +311,15 @@ header_sel <- header %>%
 
 site_characteristics_sel <- site_characteristics %>% semi_join(header_sel, by = "recording_givid")
 vegetation_sel <- vegetation %>% semi_join(header_sel, by = "recording_givid")
-
-# is ok; alles zit erin
 ```
+
+dit is ok; alles zit erin
 
 # data export
 
 ```{r}
 write_vc(header, "HT3260_header", root = path, 
-         sorting = c("recording_givid"), , strict = FALSE)
+         sorting = c("recording_givid"), strict = FALSE)
 write_vc(site_characteristics, "HT3260_site_characteristics", root = path, 
          sorting = c("recording_givid", "var", "value"), strict = FALSE)
 write_vc(vegetation, "HT3260_vegetation", root = path, 
