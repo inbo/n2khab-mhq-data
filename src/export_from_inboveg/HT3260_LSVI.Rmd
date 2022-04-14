@@ -36,7 +36,7 @@ header <- read_vc("HT3260_header", root = path)
 site_characteristics <- read_vc("HT3260_site_characteristics", root = path)
 vegetation <- read_vc("HT3260_vegetation", root = path)
 ```
-to do(mss): link maken met monitoring3260_SVZ.xlsx, want soms meerdere bezoeken per jaar??
+to do (later): link maken met monitoring3260_SVZ.xlsx, want soms meerdere bezoeken per jaar
 
 
 # invoervereisten LSVI-rekenmodule habitattype 3260 (versie 3)
@@ -57,6 +57,10 @@ data_habitat <- header %>%
   filter(suitable_mhq == TRUE) %>% 
   select(ID = recording_givid, survey, user_reference, location, date, latitude, 
          longitude, type_observed, reliability, Habitattype = type_observed)  
+```
+
+```{r}
+data_habitat %>% head() %>% kable() %>% kable_styling()
 ```
 
 ## data_voorwaarden
@@ -80,6 +84,10 @@ data_voorwaarden <- site_characteristics %>%
          Waarde = value_numeric, Type, Invoertype, Eenheid = unit)
 ```
 
+```{r}
+data_voorwaarden %>% head() %>% kable() %>% kable_styling()
+```
+
 ## data_soortenkenmerken
 ```{r}
 # omweg om soorten met verschillende groeivormen te omzeilen:
@@ -99,9 +107,6 @@ data_soortenkenmerken <- vegetation %>%
   left_join(cde_species_cover, by = c("max_species_cover" = "species_cover_2")) %>% 
   select(-max_species_cover) %>% 
   ungroup()  %>% # tot hier omweg voor verschillende bedekkingen door verschillende groeivormen
-  filter(!((recording_givid == "IV2017103112000004")&
-          (name == "Callitriche 'obtusangula/platycarpa' groep"))) %>% 
-  # @toon: filter omdat ik anders "Error in invoercontroleData_soortenKenmerken(Data_soortenKenmerken, ConnectieLSVIhabitats,  : Voor opname IV2017103112000004 is/zijn de soort(en) 'Callitriche', 'Callitriche 'obtusangula/platycarpa' groep' meermaals opgegeven voor de NA" krijg --> ???
   mutate(name = case_when(
     name == "Potamogeton obtusifolius/berchtoldii" ~ "Potamogeton obtusifolius",
     TRUE ~ name)) %>% 
@@ -112,6 +117,10 @@ data_soortenkenmerken <- vegetation %>%
          Invoertype = "TANSLEY (LEYSSEN)", Eenheid = NA)
 
 # @Toon: weet jij een simpelere methode om de maximale bedekking van soorten met meerdere groeivorm te selecteren, want anders geeft berekenLSVIbasis() een error
+```
+
+```{r}
+data_soortenkenmerken %>% head() %>% kable() %>% kable_styling() 
 ```
 
 
@@ -126,10 +135,19 @@ resultaat <- berekenLSVIbasis(
   Data_soortenKenmerken = data_soortenkenmerken,
   Aggregatiemethode = "RapportageHR",
   na.rm = TRUE)
+```
 
-ResDetail <- resultaat$Resultaat_detail
+warning messages:  
+1. volgende soortnamen niet teruggevonden in de databank --> dit zijn 'mijn taxa' uit inboveg (meestal aggregaten); deze warning mag genegeerd worden, omdat de % verstoringsindicatoren rechtstreeks opgegeven worden (uitgezonderd Potamogeton obtusifolius/berchtoldii; want typische soort)  
+2. aggregatetie van bedekkingen door NA's = idem; zie 1  
+3. Data_soortenKenmerken --> Vegetatielaag niet ingevuld; geen probleem, wordt niet gebruikt in LSVI-bepaling
+
+```{r}
+ResDetail <- resultaat$Resultaat_detail %>% 
+  select(-`Habitattype.y`)# bug in berekenLSVIbasis()?
 ResCrit <- resultaat$Resultaat_criterium
-ResInd <- resultaat$Resultaat_indicator
+ResInd <- resultaat$Resultaat_indicator %>% 
+  select(-`Habitattype.y`)# bug in berekenLSVIbasis()?
 ResGlob <- resultaat$Resultaat_globaal
 
 ResKT <- ResDetail %>%
@@ -137,7 +155,6 @@ ResKT <- ResDetail %>%
          reliability, Versie, Voorwaarde, Status_voorwaarde) %>%
   spread(key = Voorwaarde, value = Status_voorwaarde)
 ```
-to do: warnings in detail bekijken
 
 
 # resultaat
@@ -153,23 +170,26 @@ resultaat_tabel %>%
   column_spec(8, color = ifelse(resultaat_tabel[8] == TRUE, "green", "red")) %>% 
   column_spec(9, color = ifelse(resultaat_tabel[9] == TRUE, "green", "red")) %>% 
   kable_styling() %>% 
-  scroll_box(width = "800px", height = "800px")
+  scroll_box(height = "500px")
 ```
 
 
 # export resultaten 
 
 ```{r}
-# to do: aanpassen naar write_vc?
-# write_vc(ResDetail, "HT3260_ResDetail", root = path, 
-#          sorting = c("ID"), strict = FALSE)
-
 write.csv2(ResDetail, paste0(path, "/HT3260_ResultaatLSVI_detail.csv"))
 write.csv2(ResCrit, paste0(path, "/HT3260_ResultaatLSVI_criteria.csv"))
 write.csv2(ResInd, paste0(path, "/HT3260_ResultaatLSVI_indicatoren.csv"))
 write.csv2(ResGlob, paste0(path, "/HT3260_ResultaatLSVI_globaal.csv"))
 
 write.csv2(ResKT, paste0(path, "/HT3260_ResultaatLSVI_kruistabel.csv"))
-```
 
-to do: export vergelijken met vorige rapportage voor enkele voorbeelden
+write_vc(ResDetail, "HT3260_ResDetail", root = path, strict = FALSE,
+         sorting = c("ID", "user_reference", "Criterium", "Indicator", "Voorwaarde"))
+write_vc(ResCrit, "HT3260_ResCrit", root = path, strict = FALSE,
+         sorting = c("ID", "Criterium"))
+write_vc(ResInd, "HT3260_ResInd", root = path, strict = FALSE,
+         sorting = c("ID", "Criterium", "Indicator"))
+write_vc(ResGlob, "HT3260_ResGlob", root = path, strict = FALSE,
+         sorting = c("ID"))
+```
