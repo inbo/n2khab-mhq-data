@@ -990,7 +990,24 @@ type_observed_plot <- type_observed_corr %>%
 
 check_type <- type_observed_plot %>%
   filter(mixed_plot) 
+
+check_unique_type <- type_observed_plot %>%
+  group_by(plot_id) %>%
+  filter(n_distinct(type_observed) > 1)
+
+type_observed_plot <- type_observed_plot %>%
+  filter(!(plot_id == 659794 & type_observed == "infrastructuur"))
 ```
+
+Check plot below!
+
+```{r}
+check_unique_type %>%
+  datatable(filter = "top",
+            rownames = FALSE)
+```
+
+
 
 In the table below we check the cases when the cover in the square plot is not recorded and when the circle plot is mixed.
 
@@ -1059,8 +1076,12 @@ check_missing_data <- sample_status_most_recent %>%
 
 assessments_openhab <- check_missing_data %>%
   filter(db == "openhab") %>%
-    select(plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
+  mutate(date_assessment = if_else(is.na(date_assessment), as.Date(date_status), date_assessment)) %>%
+    select(plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
 
+check <- assessments_openhab %>%
+  group_by(sampling_unit_code) %>%
+  filter(n() > 1 )
 
 ```
 
@@ -1275,7 +1296,7 @@ write_vc(trees_a3a4, "trees_a3a4", root = path,  sorting = c("plot_id", "segment
 write_vc(trees_a2, "trees_a2", root = path,  sorting = c("plot_id", "name_nl"), strict = FALSE)
 write_vc(logs, "logs", root = path,  sorting = c("plot_id", "idline_intersect_method"))
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id")
-write_vc(assessments_openhab, root = path,  "assessments_openhab", sorting = "plot_id")
+write_vc(assessments_openhab, root = path,  "assessments_openhab", sorting = "plot_id", strict = FALSE)
 write_vc(check_missing_data_foresthab, root = path,  "check_missing_data_foresthab", sorting = "plot_id")
 write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
 
