@@ -56,13 +56,15 @@ vegetation_3260 <- vegetation_mhq_aq %>% filter(survey == this_survey)
 
 # data cleaning
 
-the dataset is rearranged into:  
-- header data  
-- site characteristics  
-- vegetation data  
-<!-- to do: check waarom layout opsomming niet ok is -->
+the dataset is rearranged into:
+
+* header data  
+* site characteristics  
+* vegetation data  
+
 
 ## header data
+
 = collection of header, classif and site qualifiers (reliability + reason no survey)
 
 ```{r}
@@ -110,11 +112,12 @@ header <- header_3260 %>%
 ```
 
 beschrijving van enkele kolommen:  
-- type_observed: unknown (0: niet genoteerd); gh (-9, geen habitat); 3260 (habitat type 3260)  
-- reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
-- measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
-- suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed = 3260 EN reason_no_survey is niet opgegeven  
-- comment_not_measured: opmerking over reden waarom van een veldlocatie geen opname is gemaakt (bvb permanent ongeschikt e.d.)  
+
+* type_observed: unknown (0: niet genoteerd); gh (-9, geen habitat); 3260 (habitat type 3260)  
+* reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
+* measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
+* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed = 3260 EN reason_no_survey is niet opgegeven  
+* comment_not_measured: opmerking over reden waarom van een veldlocatie geen opname is gemaakt (bvb permanent ongeschikt e.d.)  
 
 overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
 
@@ -122,8 +125,8 @@ overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)
 header %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
 ```
 
-
 ## site characteristics
+
 = collection of structure and layer qualifiers  
 
 ### structure
@@ -208,19 +211,21 @@ structure <- bind_rows(structure_class_multiple, structure_num_elu,
 ```
 
 beschrijving van enkele variabelen:  
-- SDiep: diepte (stroom)snelheidsbepaling (m)   
-- SStr: stroomsnelheid (m/s)  
-- Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)  
+
+* SDiep: diepte (stroom)snelheidsbepaling (m)   
+* SStr: stroomsnelheid (m/s)  
+* Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)  
 overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
 
 beschrijving van kolommen:  
-- var_code: code van variabele  
-- var: naam van gemeten variabele
-- is_numeric: TRUE voor kwantitatieve variabelen (value_numeric) of FALSE voor categorische variabelen  
-- value: gemeten waarde van de variabele; zowel kwantitatieve als kwalitatieve metingen als tekst
-- value_numeric: numerieke waarde van value
-- is_above_LOQ & is_below_LOQ: LOQ = limit of quantification; indien een meting niet exact kan bepaald worden, wordt aangeduid dat de variabele minstens of maximaal een bepaalde waarde heeft. Bijvoorbeeld in de Grensmaas, waar het niet veilig is om al wadend de waterdiepte te bepalen wordt tijdens de veldopname genoteerd dat de waterdiepte minstens 1.5 m diep is; is_above_LOQ is een TRUE/FALSE-veld & zal in dit geval TRUE zijn; idem voor secchi-diepte en slib-diepte  
-- unit: eenheid van meting  
+
+* var_code: code van variabele  
+* var: naam van gemeten variabele
+* is_numeric: TRUE voor kwantitatieve variabelen (value_numeric) of FALSE voor categorische variabelen  
+* value: gemeten waarde van de variabele; zowel kwantitatieve als kwalitatieve metingen als tekst
+* value_numeric: numerieke waarde van value
+* is_above_LOQ & is_below_LOQ: LOQ = limit of quantification; indien een meting niet exact kan bepaald worden, wordt aangeduid dat de variabele minstens of maximaal een bepaalde waarde heeft. Bijvoorbeeld in de Grensmaas, waar het niet veilig is om al wadend de waterdiepte te bepalen wordt tijdens de veldopname genoteerd dat de waterdiepte minstens 1.5 m diep is; is_above_LOQ is een TRUE/FALSE-veld & zal in dit geval TRUE zijn; idem voor secchi-diepte en slib-diepte  
+* unit: eenheid van meting  
 
 ### layerqual
 ```{r}
@@ -251,10 +256,13 @@ layerqual <- layerqual_3260 %>%
 ```
 
 submerse vegetatie: de bedekking van het geheel aan ondergedoken waterplanten wordt ingeschat op een schaal van 0 (geen ondergedoken vegetatie) tot 3 (waterkolom volledig opgevuld). Het percentage van het 100 m-segment dat vertegenwoordigd wordt door elke submerse vegetatieontwikkelingsklasse wordt genoteerd.  
+
 overige kenmerken en interpretaties van variabelen: zie veldprotocol (SVP-403)  
 
 ### combined
+
 = site_characteristics = structure + layer
+
 ```{r}
 site_characteristics <- bind_rows(structure, layerqual) %>%
     mutate(var = str_to_lower(var),
@@ -271,7 +279,9 @@ site_characteristics %>% head() %>% kable() %>% kable_styling() %>% scroll_box(w
 
 
 ## vegetation
+
 rearrangement of vegetation
+
 ```{r}
 vegetation <- vegetation_3260 %>% 
   mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific)) %>% 
@@ -286,9 +296,10 @@ Sommige taxa zijn een groepering van soorten en hebben geen wetenschappelijke na
 vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
 ```
 
-
 # data controle 
+
 ##  input
+
 ```{r, eval = FALSE}
 this_sample <- "Dommel_14"
 
