@@ -1421,6 +1421,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 91122	1	shrublayer	0	NA	NA
 91122	1	sphagnumlayer	0	NA	NA
 91122	1	treelayer	0	NA	NA
+91186	1	herblayer	100	NA	NA
+91186	1	licheneslayer	0	NA	NA
+91186	1	litter	2	NA	NA
+91186	1	mosslayer	0	NA	NA
+91186	1	othermosslayer	0	NA	NA
+91186	1	shrub_treelayer	0	NA	NA
+91186	1	shrublayer	0	NA	NA
+91186	1	sphagnumlayer	0	NA	NA
+91186	1	treelayer	0	NA	NA
 91410	1	herblayer	80	NA	NA
 91410	1	licheneslayer	0	NA	NA
 91410	1	litter	0	NA	NA
@@ -1742,6 +1751,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 116434	1	shrublayer	0	NA	NA
 116434	1	sphagnumlayer	0	NA	NA
 116434	1	treelayer	0	NA	NA
+116518	1	herblayer	100	NA	NA
+116518	1	licheneslayer	0	NA	NA
+116518	1	litter	1	NA	NA
+116518	1	mosslayer	1	NA	NA
+116518	1	othermosslayer	1	NA	NA
+116518	1	shrub_treelayer	0	NA	NA
+116518	1	shrublayer	0	NA	NA
+116518	1	sphagnumlayer	0	NA	NA
+116518	1	treelayer	0	NA	NA
 116946	1	herblayer	0	NA	NA
 116946	1	licheneslayer	0	NA	NA
 116946	1	litter	0	NA	NA
@@ -1849,6 +1867,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 124382	1	shrublayer	0	NA	NA
 124382	1	sphagnumlayer	0	NA	NA
 124382	1	treelayer	0	NA	NA
+124806	1	herblayer	100	NA	NA
+124806	1	licheneslayer	NA	NA	NA
+124806	1	litter	NA	NA	NA
+124806	1	mosslayer	NA	NA	NA
+124806	1	othermosslayer	1	NA	NA
+124806	1	shrub_treelayer	0	NA	NA
+124806	1	shrublayer	0	NA	NA
+124806	1	sphagnumlayer	NA	NA	NA
+124806	1	treelayer	0	NA	NA
 125394	1	herblayer	90	NA	NA
 125394	1	licheneslayer	0	NA	NA
 125394	1	litter	3	NA	NA
@@ -1885,6 +1912,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 127218	1	shrublayer	0	NA	NA
 127218	1	sphagnumlayer	0	NA	NA
 127218	1	treelayer	0	NA	NA
+127622	1	herblayer	100	NA	NA
+127622	1	licheneslayer	0	NA	NA
+127622	1	litter	1	NA	NA
+127622	1	mosslayer	2	NA	NA
+127622	1	othermosslayer	2	NA	NA
+127622	1	shrub_treelayer	0	NA	NA
+127622	1	shrublayer	0	NA	NA
+127622	1	sphagnumlayer	0	NA	NA
+127622	1	treelayer	0	NA	NA
 127710	1	herblayer	91	NA	NA
 127710	1	licheneslayer	1	NA	NA
 127710	1	litter	15	NA	NA
@@ -2047,6 +2083,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 146265	2	mosslayer	NA	NA	NA
 146265	2	shrublayer	NA	NA	NA
 146265	2	treelayer	NA	NA	NA
+146486	1	herblayer	100	NA	NA
+146486	1	licheneslayer	0	NA	NA
+146486	1	litter	2	NA	NA
+146486	1	mosslayer	10	NA	NA
+146486	1	othermosslayer	10	NA	NA
+146486	1	shrub_treelayer	0	NA	NA
+146486	1	shrublayer	0	NA	NA
+146486	1	sphagnumlayer	0	NA	NA
+146486	1	treelayer	0	NA	NA
 147174	1	herblayer	NA	75 - 100 %	87.5
 147174	1	mosslayer	NA	5 - 12,5 %	8.75
 147174	1	shrublayer	NA	12,5 - 25 %	18.75
@@ -2715,15 +2760,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 218086	1	shrublayer	0	NA	NA
 218086	1	sphagnumlayer	0	NA	NA
 218086	1	treelayer	10	NA	NA
-218162	1	herblayer	NA	NA	NA
-218162	1	licheneslayer	NA	NA	NA
-218162	1	litter	NA	NA	NA
-218162	1	mosslayer	NA	NA	NA
-218162	1	othermosslayer	NA	NA	NA
-218162	1	shrub_treelayer	NA	NA	NA
-218162	1	shrublayer	NA	NA	NA
-218162	1	sphagnumlayer	NA	NA	NA
-218162	1	treelayer	NA	NA	NA
+218162	1	herblayer	100	NA	NA
+218162	1	licheneslayer	0	NA	NA
+218162	1	litter	1	NA	NA
+218162	1	mosslayer	3	NA	NA
+218162	1	othermosslayer	3	NA	NA
+218162	1	shrub_treelayer	0	NA	NA
+218162	1	shrublayer	0	NA	NA
+218162	1	sphagnumlayer	0	NA	NA
+218162	1	treelayer	0	NA	NA
 218322	1	herblayer	100	NA	NA
 218322	1	licheneslayer	1	NA	NA
 218322	1	litter	0	NA	NA
@@ -3188,6 +3233,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 271446	1	mosslayer	NA	25 - 50 %	37.5
 271446	1	shrublayer	NA	75 - 100 %	87.5
 271446	1	treelayer	NA	75 - 100 %	87.5
+271782	1	herblayer	100	NA	NA
+271782	1	licheneslayer	0	NA	NA
+271782	1	litter	1	NA	NA
+271782	1	mosslayer	1	NA	NA
+271782	1	othermosslayer	1	NA	NA
+271782	1	shrub_treelayer	0	NA	NA
+271782	1	shrublayer	1	NA	NA
+271782	1	sphagnumlayer	0	NA	NA
+271782	1	treelayer	0	NA	NA
 272850	1	herblayer	100	NA	NA
 272850	1	licheneslayer	0	NA	NA
 272850	1	litter	100	NA	NA
@@ -3215,6 +3269,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 275830	1	shrublayer	NA	NA	NA
 275830	1	sphagnumlayer	0	NA	NA
 275830	1	treelayer	1	NA	NA
+277158	1	herblayer	100	NA	NA
+277158	1	licheneslayer	0	NA	NA
+277158	1	litter	3	NA	NA
+277158	1	mosslayer	80	NA	NA
+277158	1	othermosslayer	80	NA	NA
+277158	1	shrub_treelayer	0	NA	NA
+277158	1	shrublayer	0	NA	NA
+277158	1	sphagnumlayer	0	NA	NA
+277158	1	treelayer	0	NA	NA
 277214	1	herblayer	95	NA	NA
 277214	1	licheneslayer	0	NA	NA
 277214	1	litter	60	NA	NA
@@ -3326,15 +3389,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 289746	1	shrublayer	0	NA	NA
 289746	1	sphagnumlayer	0	NA	NA
 289746	1	treelayer	0	NA	NA
-290098	1	herblayer	NA	NA	NA
-290098	1	licheneslayer	NA	NA	NA
-290098	1	litter	NA	NA	NA
-290098	1	mosslayer	NA	NA	NA
-290098	1	othermosslayer	NA	NA	NA
-290098	1	shrub_treelayer	NA	NA	NA
-290098	1	shrublayer	NA	NA	NA
-290098	1	sphagnumlayer	NA	NA	NA
-290098	1	treelayer	NA	NA	NA
+290098	1	herblayer	100	NA	NA
+290098	1	licheneslayer	0	NA	NA
+290098	1	litter	2	NA	NA
+290098	1	mosslayer	0	NA	NA
+290098	1	othermosslayer	0	NA	NA
+290098	1	shrub_treelayer	0	NA	NA
+290098	1	shrublayer	0	NA	NA
+290098	1	sphagnumlayer	0	NA	NA
+290098	1	treelayer	0	NA	NA
 290870	1	herblayer	94	NA	NA
 290870	1	licheneslayer	0	NA	NA
 290870	1	litter	1	NA	NA
@@ -3357,6 +3420,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 293598	1	shrublayer	0	NA	NA
 293598	1	sphagnumlayer	0	NA	NA
 293598	1	treelayer	0	NA	NA
+294198	1	herblayer	100	NA	NA
+294198	1	licheneslayer	0	NA	NA
+294198	1	litter	0	NA	NA
+294198	1	mosslayer	90	NA	NA
+294198	1	othermosslayer	90	NA	NA
+294198	1	shrub_treelayer	8	NA	NA
+294198	1	shrublayer	8	NA	NA
+294198	1	sphagnumlayer	0	NA	NA
+294198	1	treelayer	0	NA	NA
 294610	1	herblayer	100	NA	NA
 294610	1	licheneslayer	0	NA	NA
 294610	1	litter	100	NA	NA
@@ -3501,6 +3573,15 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean
 313305	1	mosslayer	NA	5 - 12,5 %	8.75
 313305	1	shrublayer	NA	5 - 12,5 %	8.75
 313305	1	treelayer	NA	75 - 100 %	87.5
+313990	1	herblayer	100	NA	NA
+313990	1	licheneslayer	0	NA	NA
+313990	1	litter	4	NA	NA
+313990	1	mosslayer	3	NA	NA
+313990	1	othermosslayer	3	NA	NA
+313990	1	shrub_treelayer	0	NA	NA
+313990	1	shrublayer	0	NA	NA
+313990	1	sphagnumlayer	0	NA	NA
+313990	1	treelayer	0	NA	NA
 314802	1	herblayer	0	NA	NA
 314802	1	licheneslayer	0	NA	NA
 314802	1	litter	0	NA	NA

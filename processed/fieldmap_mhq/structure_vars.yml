@@ -7,7 +7,7 @@
   - segment_id
   - structure_var
   hash: b8917885734ae48f606b99505e811bbd02fa859e
-  data_hash: ca0584af5789a10d6f8a60a99dd454bc7c1ada7b
+  data_hash: ce9e1b08165bda0b7fa6ded304306290528050ee
 plot_id:
   class: integer
 segment_id:
