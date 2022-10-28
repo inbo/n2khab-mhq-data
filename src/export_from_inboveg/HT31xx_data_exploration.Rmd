@@ -1,0 +1,158 @@
+---
+title: "data exploration of survey HT31xx"
+author: "An Leyssen"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+library(git2rdata)
+library(n2khab)
+```
+
+# import data
+
+```{r}
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
+
+header <- read_vc("HT31xx_header", root = path)
+site_characteristics <- read_vc("HT31xx_site_characteristics", root = path)
+vegetation <- read_vc("HT31xx_vegetation", root = path)
+```
+
+
+# data exploration
+
+## structuur dataset
+
+### header
+```{r}
+header %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+### site_characteristics
+```{r}
+site_characteristics %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+### vegetation
+```{r}
+vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+```
+
+## graphs
+
+### numeric variables
+```{r}
+site_characteristics %>% 
+  filter(is_numeric == TRUE) %>% 
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>% 
+  ggplot(aes(x = value_calc)) + # to do: aanpassen in HT3260_data_exploration script
+  geom_histogram() +
+  facet_wrap(~var_code, scales = "free")
+```
+
+### class variables
+```{r}
+site_characteristics %>% 
+  filter(is_numeric == FALSE) %>% 
+  ggplot(aes(x = value)) + 
+  geom_bar() +
+  facet_grid(var_code~., scales = "free") +
+  coord_flip()
+```
+
+### maximale diepte versus diepteklasse
+```{r}
+site_characteristics %>% 
+  filter(var_code %in% c("diepte_max", "diept")) %>%
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>%
+  mutate(value_calc = ifelse((is_numeric == FALSE), value, value_calc)) %>% 
+  select(user_reference, var_code, value_calc) %>% 
+  spread(var_code, value_calc) %>% 
+  filter(!is.na(diepte_max)) %>% 
+  mutate(diepte_max = as.numeric(diepte_max)) %>% 
+  ggplot(aes(x = diept, y = diepte_max)) + 
+  geom_boxplot() +
+  geom_hline(yintercept = c(2, 4, 6), color = "red", linetype = "dashed") +
+  coord_flip()
+```
+
+to do: 
+check max diepte van 75m in lage diepteklasse & in klasse 2-4m één met kleinere maximale diepte
+
+## NA values
+
+bepaling aantal NA voor locaties die geschikt zijn voor de habitatkwaliteitsmonitoring
+```{r}
+site_num_breed <- site_characteristics %>% 
+  filter(is_numeric == TRUE) %>%
+  select(recording_givid, user_reference, var_code, value_numeric) %>% 
+  filter(!(user_reference %in% c("AN_ZAM_003_3150_17", "LI_SAH_001_3130n_18"))) %>% 
+# foutmelding door dubbels Secchi AN_ZAM_003_3150_17 (wellicht ander seizoen ook ingevoerd) en LI_SAH_001_3130n_18
+  # tmp verwijderd om te testen (to do structureel oplossen)
+  spread(var_code, value_numeric) %>% 
+  arrange(recording_givid)
+
+site_class_breed <- site_characteristics %>% 
+  filter(is_numeric == FALSE) %>%  
+  group_by(recording_givid, var_code) %>% 
+  count() %>% 
+  spread(var_code, n) %>% 
+  arrange(recording_givid) 
+
+data_breed <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "user_reference")) %>% 
+  left_join(site_class_breed, by = c("recording_givid")) %>% 
+  filter(suitable_mhq == TRUE) %>%  # remove sites not suitable for monitoring
+  arrange(type_observed)
+
+N_dataset <- nrow(data_breed)
+summary_dataset <- data_breed %>% 
+  gather("var", "value", 
+         -recording_givid, -survey, -user_reference, -location, -date, 
+         -latitude, -longitude, -type_observed, reliability, -suitable_mhq, 
+         -measured, 
+         na.rm = TRUE) %>% 
+  group_by(var, type_observed) %>% 
+  summarise(number = n(),  
+            sd = sd(value),
+            ratio_NA = 1- (number/N_dataset))
+
+ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
+  geom_point() + 
+  facet_wrap(~type_observed)
+```
+
+to do: check output
+
+
+## accompanying species (top 10)
+
+```{r}
+vegetation %>% 
+  count(name) %>% 
+  arrange(desc(n)) %>% 
+  top_n(10)
+```
