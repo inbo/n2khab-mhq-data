@@ -99,8 +99,9 @@ site_characteristics %>%
   coord_flip()
 ```
 
-to do: 
-check max diepte van 75m in lage diepteklasse & in klasse 2-4m één met kleinere maximale diepte
+te checken (to do: opvolgen):   
+- check max diepte van 75m in lage diepteklasse  
+- in klasse 2-4m één met kleinere maximale diepte (AN_DVH_007_3130n_17)  
 
 ## NA values
 
@@ -145,7 +146,10 @@ ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
   facet_wrap(~type_observed)
 ```
 
-to do: check output
+conclusie:  
+- % sleutelsoorten niet altijd ingevuld (maar niet nodig voor LSVI-berekening)  
+- maximale diepte niet overal genoteerd (nodig voor LSVI-berekening?)  
+- ter info: verticale structuur zit bij 3130 na niet bij 'verst' --> zit bij HabVl!  
 
 
 ## accompanying species (top 10)
