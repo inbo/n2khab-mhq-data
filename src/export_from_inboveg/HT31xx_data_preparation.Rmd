@@ -70,10 +70,11 @@ sitequal <- sitequal_31xx %>%
   mutate(reliability = str_remove(reliability, "Betrouwbaarheid opname: "))
 
 # identify recording_givid with no or partial measurements
+no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") # to do: 2 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") # geen; ok!
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") # geen; ok
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") # to do: 2 opnames: op te volgen
-no_survey <- bind_rows(no_structure, no_layers, no_vegetation) %>% 
+no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
   distinct() 
 
 stilstaande_typen <- c("3110", "3130_aom", "3130_na", "3140", "3150", "3160")
@@ -371,7 +372,7 @@ layerqual_sel <- layerqual_31xx  %>% semi_join(header_sel, by = "recording_givid
 vegetation_sel <- vegetation_31xx  %>% semi_join(header_sel, by = "recording_givid")
 ```
 
-to do: check output
+ziet er ok uit  
 
 ##  output
 
@@ -384,7 +385,7 @@ vegetation_sel <- vegetation %>%
   semi_join(header_sel, by = "recording_givid")
 ```
 
-to do: check output
+ziet er ok uit
 
 # data export
 
