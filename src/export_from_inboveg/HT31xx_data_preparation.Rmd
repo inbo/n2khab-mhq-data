@@ -66,7 +66,7 @@ the dataset is rearranged into:
 
 ```{r}
 sitequal <- sitequal_31xx %>% 
-  select(-comment, -value_code, reliability = value) %>% # afwijkend tov HT3260 want geen info over "geen opname"
+  select(-comment, -value_code, reliability = value) %>% 
   mutate(reliability = str_remove(reliability, "Betrouwbaarheid opname: "))
 
 # identify recording_givid with no or partial measurements
@@ -125,7 +125,6 @@ var_num_1 <- c("diept")
 var_num_2 <- c("Seccd", "Secch", "Schom", "HabVl", "Helo") 
   # numerieke variabelen, afgeleid van var_value_code
 
-# to do: check Q1Code en Q1Description van ander seizoen???
 ```
 
 ```{r, eval=FALSE}
@@ -175,7 +174,7 @@ structure_num_1 <- structure_31xx %>%
                            collapse = "|"))) %>% 
             # meting "max = ?" weglaten
             # "Mogelijk" = Mogelijk iets meer dan 2m = opmerking --> weglaten
-            # to do: als er niet max= voor staat --> check of dit ook maximale diepte is 
+            # ter info: als er niet 'max=' voor staat; dan gaat dit ook over de maximale diepte
   mutate(var2 = "diepte_max",
          var_description_or_value = "maximale diepte",
          value2 = str_remove(value, "max= |Max= |max = |max. |max "),# max verwijderen
@@ -263,7 +262,7 @@ structure <- bind_rows(structure_class, structure_num_1,
 beschrijving van enkele variabelen:  
 
 * Seccd: Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)
-* Secch: maximale waterdiepte van plaats waar Secchidiepte werd bepaald
+* Secch: waterdiepte van plaats waar Secchidiepte werd gemeten
 * ... (nog aan te vullen)
 
 beschrijving van kolommen:  
