@@ -65,7 +65,7 @@ site_characteristics %>%
     is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>% 
-  ggplot(aes(x = value_calc)) + # to do: aanpassen in HT3260_data_exploration script
+  ggplot(aes(x = value_calc)) + 
   geom_histogram() +
   facet_wrap(~var_code, scales = "free")
 ```
@@ -103,6 +103,21 @@ te checken (to do: opvolgen):
 - check max diepte van 75m in lage diepteklasse  
 - in klasse 2-4m één met kleinere maximale diepte (AN_DVH_007_3130n_17)  
 
+### Secchi-diepte versus diepte Secchibepaling
+```{r}
+site_characteristics %>% 
+  filter(var_code %in% c("Secch", "Seccd")) %>%
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>%
+  select(user_reference, var_code, value_calc) %>% 
+  spread(var_code, value_calc) %>% 
+  ggplot(aes(x = Secch, y = Seccd)) + 
+  geom_point() +
+  geom_abline(slope = 1, color = "red", linetype = "dashed") 
+```
+
 ## NA values
 
 bepaling aantal NA voor locaties die geschikt zijn voor de habitatkwaliteitsmonitoring
@@ -110,9 +125,6 @@ bepaling aantal NA voor locaties die geschikt zijn voor de habitatkwaliteitsmoni
 site_num_breed <- site_characteristics %>% 
   filter(is_numeric == TRUE) %>%
   select(recording_givid, user_reference, var_code, value_numeric) %>% 
-  filter(!(user_reference %in% c("AN_ZAM_003_3150_17", "LI_SAH_001_3130n_18"))) %>% 
-# foutmelding door dubbels Secchi AN_ZAM_003_3150_17 (wellicht ander seizoen ook ingevoerd) en LI_SAH_001_3130n_18
-  # tmp verwijderd om te testen (to do structureel oplossen)
   spread(var_code, value_numeric) %>% 
   arrange(recording_givid)
 
@@ -152,7 +164,8 @@ conclusie:
 - ter info: verticale structuur zit bij 3130 na niet bij 'verst' --> zit bij HabVl!  
 
 
-## accompanying species (top 10)
+## vegetation
+### accompanying species (top 10)
 
 ```{r}
 vegetation %>% 
@@ -160,3 +173,21 @@ vegetation %>%
   arrange(desc(n)) %>% 
   top_n(10)
 ```
+
+### *Chara hispida* versus *Chara major*
+
+*Chara major* is de oude naam van *Chara hispida*. In de inboveg-standaard-lijst die gebruikt wordt in de survey HT31xx_LSVI_StilstaandeWateren is nog de oude benaming *'Chara major'* opgenomen. Zijn er opnames in inboveg die *Chara major* bevatten?
+```{r}
+vegetation %>% 
+  filter(str_detect(name, "Chara major"))
+```
+Het resultaat is nul. Dus: nee, *Chara major* is niet als dusdanig ingevoerd. De taxa zijn allemaal opgenomen als *Chara hispida* L. (=my taxa).
+
+Welke opnames bevatten Chara hispida?
+```{r}
+vegetation %>% 
+  filter(str_detect(name, "Chara hispida")) %>% 
+  left_join(header, by = "recording_givid") %>% 
+  select(location, user_reference, name, species_cover_code)
+```
+--> deze te checken bij LSVI-berekening: wordt dit correct doorgerekend bij de sleutelsoorten (to do)?
