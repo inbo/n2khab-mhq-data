@@ -191,3 +191,38 @@ vegetation %>%
   select(location, user_reference, name, species_cover_code)
 ```
 --> deze te checken bij LSVI-berekening: wordt dit correct doorgerekend bij de sleutelsoorten (to do)?
+
+### check: verschillende bedekkingen per soort 
+Zijn er verschillende bedekkingen per soort voor een opname?
+```{r}
+vegetation %>% 
+  select(recording_givid, name, species_cover_code) %>% 
+  distinct() %>% 
+  group_by(recording_givid, name) %>% 
+  count() %>% 
+  filter(n>1)
+```
+
+```{r}
+vegetation %>% 
+  filter(recording_givid == "IV2018082008201439", 
+         name == "Agrostis canina L.") %>% 
+  left_join(header, by = "recording_givid") %>% 
+  kable() %>% kable_styling() 
+```
+
+```{r}
+vegetation %>% 
+  filter(recording_givid == "IV2020100110560092", 
+         name == "Phragmites australis (Cav.) Steud.") %>% 
+  left_join(header, by = "recording_givid") %>% 
+  kable() %>% kable_styling()
+```
+
+```{r}
+vegetation %>% 
+  filter(recording_givid == "IV2021102610593198", 
+         name == "Juncus effusus L.") %>% 
+  left_join(header, by = "recording_givid") %>% 
+  kable() %>% kable_styling() 
+```
