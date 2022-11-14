@@ -160,10 +160,8 @@ data_soortenkenmerken <- vegetation %>%
     # Chara hispida L. wordt niet herkend door berekenLSVIbasis; 
     # de oude naam Chara major wordt nog gebruikt 
     # --> to do: laten aanpassen in databank achter LSVI-rekenmodule
-    name == "draadwier" ~ "Draadwier", 
     # omvormen naar taxanamen die wel herkend worden door LSVI-rekenmodule
     name == "Warnstorfia fluitans (Hedw.) Loeske" ~ "Warnstorfia fluitans groep",
-    name == "kroossoorten" ~ "Lemna",
     name == "Enteromorpha spec." ~ "Enteromorpha",
     TRUE ~ name)) %>%
   semi_join(data_habitat, by = c("recording_givid" = "ID")) %>% 
