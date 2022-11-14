@@ -39,7 +39,8 @@ vegetation <- read_vc("HT31xx_vegetation", root = path)
 to do (later): link maken met xls met svz van monitoring
 
 
-# invoervereisten LSVI-rekenmodule stilstaande wateren (versie 3)
+# invoervereisten en soortenlijsten LSVI-rekenmodule 
+voor stilstaande wateren (versie 3)
 
 ```{r}
 invoervereisten <- geefInvoervereisten(Versie = "Versie 3", 
@@ -47,6 +48,10 @@ invoervereisten <- geefInvoervereisten(Versie = "Versie 3",
 
 invoervereisten %>% 
   kable() %>% kable_styling() %>% scroll_box(width = "800px")
+
+soortenlijsten <- geefSoortenlijst(Versie = "Versie 3",
+                                   Habitattype = c("3110", "3130", "3140", "3150", "3160"),
+                                   Taxonlijsttype = "alle")
 ```
 
 to do (later): 2190a toevoegen
@@ -104,7 +109,6 @@ site_characteristics_join <- site_characteristics %>%
   mutate(var_code = ifelse((var_code == "VZuSS" & recording_givid %in% sites_3160$ID),
                              "Vzuur", var_code)) %>% 
   # vervang de code van VZuSS door Vzuur, naar analogie met de rest
-  # controle: AN_KAL_007_3160_16 VZuSS 1 Vzuur 10 --> eind Vzuur = 1 (is ok)
   left_join(invoervereisten_join, by = c("var_code" = "rel_var"))
 
 data_voorwaarden_num <- site_characteristics_join %>% 
@@ -152,8 +156,15 @@ eruit <- c("IV2018082008201439", "IV2020100110560092", "IV2021102610593198")
 data_soortenkenmerken <- vegetation %>% 
   filter(!(recording_givid %in% eruit)) %>% # to do: schrappen indien niet meer relevant
   mutate(name = case_when(
-    name == "Chara hispida L." ~ "Chara hispida",
-    # Chara hispida L. wordt niet herkend door berekenLSVIbasis; er wordt aangeraden auteursnaam te verwijderen
+    name == "Chara hispida L." ~ "Chara major",
+    # Chara hispida L. wordt niet herkend door berekenLSVIbasis; 
+    # de oude naam Chara major wordt nog gebruikt 
+    # --> to do: laten aanpassen in databank achter LSVI-rekenmodule
+    name == "draadwier" ~ "Draadwier", 
+    # omvormen naar taxanamen die wel herkend worden door LSVI-rekenmodule
+    name == "Warnstorfia fluitans (Hedw.) Loeske" ~ "Warnstorfia fluitans groep",
+    name == "kroossoorten" ~ "Lemna",
+    name == "Enteromorpha spec." ~ "Enteromorpha",
     TRUE ~ name)) %>%
   semi_join(data_habitat, by = c("recording_givid" = "ID")) %>% 
   select(ID = recording_givid, Kenmerk = name, Waarde = species_cover_code) %>%
@@ -183,7 +194,7 @@ Warning messages:
 1. Problem while computing `Canonicalname = berekenCanonicalname(.data$Kenmerk)`.
 ℹ rgbif::parsenames() is deprecated since rgbif 3.7.3, use rgbif::name_parse() instead.--> aan Els door te geven (to do)  
 2. In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
-  Volgende soortnamen zijn niet teruggevonden in de databank: draadwier, Warnstorfia fluitans (Hedw.) Loeske, kroossoorten, Enteromorpha spec., Chara hispida.  Check de spelling en/of laat de auteursnaam weg bij genera. --> **Chara hispida wordt niet herkend = probleem, want is een typische soort, dus bedekkingen tellen mee --> to do**  
+  Volgende soortnamen zijn niet teruggevonden in de databank: draadwier, Warnstorfia fluitans (Hedw.) Loeske, kroossoorten, Enteromorpha spec., Chara hispida.  Check de spelling en/of laat de auteursnaam weg bij genera. --> **Chara hispida wordt niet herkend = probleem, want is een typische soort, dus bedekkingen tellen mee --> to do opvolgen; voorlopig veranderd naar oude naam Chara major**  --> overige soorten ook vervangen; dus deze warning wordt niet meer getoond
 3. In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
   Voor opname IV2017032009171774 zijn in de NA de synoniemen 'draadwier' en 'kroossoorten' beschouwd als eenzelfde taxon met aggregatie van de bedekkingen (rekening houdend met gedeeltelijke overlap); ... --> foute aggregatie; maar effectieve bedekkingen zijn opgegeven, dus te negeren  
 4: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
@@ -247,6 +258,17 @@ resultaat_tabel %>%
   kable_styling() %>% 
   scroll_box(height = "500px")
 # to do (later): code opmaak inkorten
+
+
+```
+
+figuur eindoordeel per locatie
+```{r}
+ResGlob %>% 
+  mutate(Habitattype = as.factor(Habitattype), 
+         Status2 = ifelse(Status == T, "gunstig", "ongunstig")) %>% 
+  ggplot(aes(x = Habitattype, fill = Status2)) +
+  geom_bar()
 ```
 
 
