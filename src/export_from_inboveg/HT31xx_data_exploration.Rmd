@@ -190,7 +190,7 @@ vegetation %>%
   left_join(header, by = "recording_givid") %>% 
   select(location, user_reference, name, species_cover_code)
 ```
---> deze te checken bij LSVI-berekening: wordt dit correct doorgerekend bij de sleutelsoorten (to do)?
+--> deze te checken bij LSVI-berekening: wordt dit correct doorgerekend bij de sleutelsoorten (ok; voor de LSVI-rekenmodule wordt deze vervangen door oude naam *Chara major*, waardoor de LSVI-berekening correct verloopt)?
 
 ### check: verschillende bedekkingen per soort 
 Zijn er verschillende bedekkingen per soort voor een opname?
@@ -226,3 +226,24 @@ vegetation %>%
   left_join(header, by = "recording_givid") %>% 
   kable() %>% kable_styling() 
 ```
+
+### check: voor habitattype 3160
+Zijn zowel "Vzuur", "VZuSS","Eutro" als "EutSS" ingevuld?
+```{r}
+header_3160 <- header %>% 
+  filter(type_observed == "3160")
+  
+verstoring_3160 <- site_characteristics %>% 
+  semi_join(header_3160, by = "user_reference") %>% 
+  filter(var_code %in% c("Vzuur", "VZuSS","Eutro", "EutSS")) %>% 
+  select(user_reference, var_code, value) %>% 
+  spread(var_code, value)  
+```
+
+```{r}
+verstoring_3160 %>% kable() %>% kable_styling() 
+```
+
+--> NA bij AN_SNE_001_3160_15, LI_HEU_001_3160_15, LI_TEU_002_3160_14, LI_ZPB_001_2020 (to do: opvolgen)  
+--> check: EutrSS < Eutro --> is ok   
+--> check: VZuSS < Vzuur --> is ok  
