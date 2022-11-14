@@ -70,7 +70,7 @@ sitequal <- sitequal_31xx %>%
   mutate(reliability = str_remove(reliability, "Betrouwbaarheid opname: "))
 
 # identify recording_givid with no or partial measurements
-no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") # to do: 2 opnames: op te volgen
+no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") # to do: 1 opname: op te volgen (2190)
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") # geen; ok!
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") # geen; ok
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") # to do: 2 opnames: op te volgen
@@ -145,7 +145,7 @@ structure_class <- structure_31xx %>%
          !(var_value_code %in% c("Schom")), # exclude data schommeling (peil)
          !(var_value_code %in% c("HabVl", "Helo", "Isoet", "ander", "25"))) %>%  
             # exclude opgaande vegetatie en hogere groeivormen dan isoe (verst)
-  # to do: 31xx_lsvi_vertikalestructuur; code 25 --> wat is dit? voorlopig geschapt
+  # to do: 31xx_lsvi_vertikalestructuur; code 25 --> wat is dit? voorlopig geschrapt
   mutate(var_code2 = case_when(
             var_value_code == "7140o" ~ "7140o",
             TRUE ~ var_code),
@@ -190,7 +190,7 @@ structure_num_1 <- structure_31xx %>%
          var = var_description_or_value, value = value2, value_numeric)  
 ```
 
-mogelijke probleemgevallen (tmp)
+mogelijke probleemgevallen
 ```{r}
 structure_num_1 %>% 
   filter(is.na(value_numeric)) %>% 
@@ -228,7 +228,7 @@ structure_num_2 <- structure_31xx %>%
 
 ```
 
-mogelijke probleemgevallen (tmp)
+mogelijke probleemgevallen
 ```{r}
 structure_num_2 %>% 
   filter(is.na(value_numeric)) %>% 
@@ -336,18 +336,18 @@ rearrangement of vegetation
 vegetation <- vegetation_31xx %>% 
   mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific),
          name = case_when(
-           name_original %in% c("draadwier", "Draadwier spec.") ~ "draadwier",
+           name_original %in% c("draadwier", "Draadwier spec.") ~ "Draadwier",
            name_original %in% 
              c("Hydrodictyon reticulatum (Linnaeus) Bory", 
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
            name_original %in% 
              c("kroossoorten", 
-               "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "kroossoorten",
-            TRUE ~ name_original)) %>% # synoniemen van my taxa oplossen
+               "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
+            TRUE ~ name_original)) %>% 
+  # synoniemen van my taxa oplossen & deze veranderen zodat deze leesbaar zijn door LSVI-rekenmodule 
   select(survey, recording_givid, name, phenology_code, species_cover_code, 
          species_cover, scale) %>% 
   distinct()  # sommige soorten staan er anders dubbel in omdat ze aan verschillende verstoringslagen zijn gekoppeld: Agrostis canina, ...
-# to do: check of Chara hispida L. (=eigen taxa) correct wordt doorgerekend in LSVI-module
 
 ```
 
