@@ -387,7 +387,17 @@ vegetation_sel <- vegetation %>%
 ```
 
 ziet er ok uit
-
+doublerecords_site_characteristics <- site_characteristics %>%
+  group_by(recording_givid, var, value) %>%
+  mutate(n_records = n()) %>%
+  ungroup() %>%
+  filter(n_records > 1)
+  
+  doublerecords_vegetation <- vegetation %>%
+  group_by(recording_givid, name, phenology_code) %>%
+  mutate(n_records = n()) %>%
+  ungroup() %>%
+  filter(n_records > 1)
 # data export
 
 ```{r}
