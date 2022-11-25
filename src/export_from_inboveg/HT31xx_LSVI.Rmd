@@ -47,7 +47,9 @@ invoervereisten <- geefInvoervereisten(Versie = "Versie 3",
                     Habitattype = c("3110", "3130", "3140", "3150", "3160")) 
 
 invoervereisten %>% 
-  kable() %>% kable_styling() %>% scroll_box(width = "800px")
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
 
 soortenlijsten <- geefSoortenlijst(Versie = "Versie 3",
                                    Habitattype = c("3110", "3130", "3140", "3150", "3160"),
@@ -68,7 +70,10 @@ data_habitat <- header %>%
 ```
 
 ```{r}
-data_habitat %>% head() %>% kable() %>% kable_styling()
+data_habitat %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling()
 ```
 
 ## data_voorwaarden
@@ -97,6 +102,7 @@ invoervereisten_join <- data.frame(rel_var, Criterium, Indicator, Voorwaarde,
                                    Type) %>% 
   mutate(Invoertype = NA)
 # to do: niet zo elegant; @Toon of @Els: betere suggestie?
+# suggestie Toon: var in HT31xx_data_prep direct veranderen in Voorwaarde (to do later)
 
 sites_3160 <- data_habitat %>% 
   filter(Habitattype == "3160")
@@ -144,12 +150,15 @@ data_voorwaarden <- add_row(data_voorwaarden_num, data_voorwaarden_class)
 voor de horizontale structuur (horst) wordt een waarde verwacht in de LSVI-rekenmodule. Tijdens veldwerk wordt dit echter in klassen genoteerd; als tussenoplossing wordt voorlopig het midden van de klassengrenzen gebruikt in de rekenmodule.
 
 ```{r}
-data_voorwaarden %>% head() %>% kable() %>% kable_styling()
+data_voorwaarden %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling()
 ```
 
 ## data_soortenkenmerken
 ```{r}
-# de volgende opnames er even uit laten (meerdere verschillende bedekkingen per opname) 
+# de volgende opnames er even uit laten (verschillende bedekkingen per soort) 
 # to do: opvolgen & evt max per soort nemen --> zie script HT3260
 eruit <- c("IV2018082008201439", "IV2020100110560092", "IV2021102610593198")
 
@@ -171,12 +180,17 @@ data_soortenkenmerken <- vegetation %>%
 ```
 
 ```{r}
-data_soortenkenmerken %>% head() %>% kable() %>% kable_styling() 
+data_soortenkenmerken %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() 
 ```
 
 
 # berekening LSVI
 
+Voorlopig wordt hierbij de 1-out-all-out-aggregatiemethode doorgerekend. 
+Voor de rapportage dient dit gewijzigd te worden naar RapportageHR (to do later)
 ```{r}
 resultaat <- berekenLSVIbasis(
   Versie = "Versie 3",
@@ -193,8 +207,7 @@ Warning messages:
 ℹ rgbif::parsenames() is deprecated since rgbif 3.7.3, use rgbif::name_parse() instead.--> aan Els door te geven (to do)  
 2. In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
   Volgende soortnamen zijn niet teruggevonden in de databank: draadwier, Warnstorfia fluitans (Hedw.) Loeske, kroossoorten, Enteromorpha spec., Chara hispida.  Check de spelling en/of laat de auteursnaam weg bij genera. --> **Chara hispida wordt niet herkend = probleem, want is een typische soort, dus bedekkingen tellen mee --> to do opvolgen; voorlopig veranderd naar oude naam Chara major**  --> overige soorten ook vervangen; dus deze warning wordt niet meer getoond
-3. In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
-  Voor opname IV2017032009171774 zijn in de NA de synoniemen 'draadwier' en 'kroossoorten' beschouwd als eenzelfde taxon met aggregatie van de bedekkingen (rekening houdend met gedeeltelijke overlap); ... --> foute aggregatie; maar effectieve bedekkingen zijn opgegeven, dus te negeren  
+3: call dbDisconnect() when finished working with a connection
 4: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
   Bij Data_soortenKenmerken is niet voor alle soorten de kolom Vegetatielaag ingevuld --> Vegetatielaag niet ingevuld; geen probleem, wordt niet gebruikt in LSVI-bepaling
 5: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  ... :
@@ -209,10 +222,10 @@ Warning messages:
 
 ```{r}
 ResDetail <- resultaat$Resultaat_detail %>% 
-  select(-`Habitattype.y`)# bug in berekenLSVIbasis()?
+  select(-`Habitattype.y`)# bug in berekenLSVIbasis()? @Els
 ResCrit <- resultaat$Resultaat_criterium
 ResInd <- resultaat$Resultaat_indicator %>% 
-  select(-`Habitattype.y`)# bug in berekenLSVIbasis()?
+  select(-`Habitattype.y`)# bug in berekenLSVIbasis()? @Els
 ResGlob <- resultaat$Resultaat_globaal
 
 ResKT <- ResDetail %>%
@@ -256,8 +269,6 @@ resultaat_tabel %>%
   kable_styling() %>% 
   scroll_box(height = "500px")
 # to do (later): code opmaak inkorten
-
-
 ```
 
 figuur eindoordeel per locatie
