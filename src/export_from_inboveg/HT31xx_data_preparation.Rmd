@@ -68,15 +68,19 @@ the dataset is rearranged into:
 sitequal <- sitequal_31xx %>% 
   select(-comment, -value_code, reliability = value) %>% 
   mutate(reliability = str_remove(reliability, "Betrouwbaarheid opname: "))
+```
 
-# identify recording_givid with no or partial measurements
+identify recording_givid with no or partial measurements
+```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") # to do: 1 opname: op te volgen (2190)
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") # geen; ok!
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") # geen; ok
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") # to do: 2 opnames: op te volgen
 no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
-  distinct() 
+  distinct()
+```
 
+```{r}
 stilstaande_typen <- c("3110", "3130_aom", "3130_na", "3140", "3150", "3160")
 # to do: in oog houden dat 2190a erbij moet komen
 
@@ -97,6 +101,7 @@ header <- header_31xx %>%
          latitude, longitude, type_observed, reliability, suitable_mhq, measured)
 ```
 
+
 beschrijving van enkele kolommen:  
 
 * type_observed: gh (-9, geen habitat); `r stilstaande_typen`  
@@ -105,7 +110,11 @@ beschrijving van enkele kolommen:
 * measured (TRUE/FALSE): geeft aan of er al dan niet een vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
 
 ```{r}
-header %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+header %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
 ```
 
 
@@ -124,7 +133,6 @@ var_num_1 <- c("diept")
   # numerieke variabelen, afgeleid van var_code (= info voor maximale diepte)
 var_num_2 <- c("Seccd", "Secch", "Schom", "HabVl", "Helo") 
   # numerieke variabelen, afgeleid van var_value_code
-
 ```
 
 ```{r, eval=FALSE}
@@ -136,6 +144,7 @@ structure_31xx %>%
   spread(var_description_or_value, value)
 # --> ja, dus "ander" en "Isoet" kunnen weggelaten worden
 ```
+
 
 #### structure - klassen
 ```{r}
@@ -156,10 +165,9 @@ structure_class <- structure_31xx %>%
             var_value_code == "7140o" ~ value,
             TRUE ~ var_value_code)) %>% 
   select(survey, recording_givid, user_reference, var_code = var_code2, var = var2, 
-         value = val2) %>% 
+         value = val2, value_description = var_description_or_value) %>% 
   mutate(value_numeric = NA, is_below_LOQ = FALSE, is_above_LOQ = FALSE, 
          is_numeric = FALSE, unit = "class")
-# to do (later; Pieter VdB): veel NA bij var_description_or_value, terwijl var_value_code is ingevuld
 ```
 
 #### structure - numeriek (in var_code)
@@ -185,9 +193,10 @@ structure_num_1 <- structure_31xx %>%
          value2 = str_remove(value2, "m"),
             # eenheid m verwijderen; oppassen dat er geen ander woord met m wordt gewist
          value_numeric = str_remove(value2, "[<>]"),
-         value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))) %>% 
+         value_numeric = as.numeric(str_replace(value_numeric, ",", "\\.")),
+         value_description = NA) %>% 
   select(survey, recording_givid, user_reference, var_code = var2, 
-         var = var_description_or_value, value = value2, value_numeric)  
+         var = var_description_or_value, value = value2, value_description, value_numeric)  
 ```
 
 mogelijke probleemgevallen
@@ -218,13 +227,14 @@ structure_num_2 <- structure_31xx %>%
          !(value == ""),
          !str_detect(value, 
                      paste(c("Niet genoteerd", "\\?"), collapse = "|"))) %>% 
-  mutate(value = case_when(
-           value == "0-x-1" ~ "<1",
-           TRUE ~ value), 
-         value_numeric = str_remove(value, "[<>]"),
+  mutate(value_description = NA,
+         value_numeric = case_when(
+           value == "0-x-1" ~ "0.5",
+           value == "<1" ~ "0.5",
+           TRUE ~ str_remove(value, "[<>]")),
          value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))) %>% 
   select(survey, recording_givid, user_reference, var_code = var_value_code, 
-         var = var_description_or_value, value, value_numeric)  
+         var = var_description_or_value, value, value_description, value_numeric)  
 
 ```
 
@@ -241,8 +251,10 @@ indien er probleemgevallen zijn, worden deze voorlopig in de volgende stap gewis
 ```{r}
 structure_num_2 <- structure_num_2 %>%  
   filter(!is.na(value_numeric)) %>% 
-  mutate(is_below_LOQ = ifelse(test = str_starts(value, "<"),
-                               yes = TRUE, no = FALSE), 
+  mutate(is_below_LOQ = case_when(
+            value == "<1" ~ FALSE,
+            str_starts(value, "<") ~ TRUE,
+            TRUE ~ FALSE), 
          is_above_LOQ = ifelse(test = str_starts(value, ">"),
                                yes = TRUE, no = FALSE), 
          is_numeric = TRUE, 
@@ -253,8 +265,7 @@ structure_num_2 <- structure_num_2 %>%
 
 
 ```{r}
-structure <- bind_rows(structure_class, structure_num_1, 
-                       structure_num_2)
+structure <- bind_rows(structure_class, structure_num_1, structure_num_2)
 ```
 
 
@@ -283,17 +294,14 @@ layerqual <- layerqual_31xx %>%
            var == "Isoëtiden (3110)" ~ "isoetiden_3110",
            var == "Verzuring beperkte lijst 3160" ~ "verzuring_3160", 
            TRUE ~ var),
-         value = case_when(
-           value == "0-x-1" ~ "<1",
-           TRUE ~ value),
-         value_numeric = str_remove(value, "[<>]"),
-         value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))
-         ) %>% 
-  select(survey, recording_givid, user_reference, var_code, var, value, value_numeric) %>% 
-  mutate(is_below_LOQ = ifelse(test = str_starts(value, "<"),
-                               yes = TRUE, no = FALSE), 
-         is_above_LOQ = ifelse(test = str_starts(value, ">"),
-                               yes = TRUE, no = FALSE), 
+         value_numeric = case_when(
+           value == "0-x-1" ~ 0.5,
+           TRUE ~ as.numeric(value)),
+         value_description = NA) %>% 
+  select(survey, recording_givid, user_reference, var_code, var, value, 
+         value_description, value_numeric) %>% 
+  mutate(is_below_LOQ = FALSE, 
+         is_above_LOQ = FALSE, 
          is_numeric = TRUE,
          unit = "%")
 ```
@@ -311,13 +319,50 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
            var = str_remove(var, 
                              paste(c(" \\(\\%\\)", " in meter", " in m"), 
                                    collapse = "|")),
+           var = str_remove(var, "31xx_lsvi_|31xx_"),
            value = str_to_lower(value)) 
-# to do (later): toevoegen van beschrijving van klassen?
+# to do (later): if you use de 'Voorwaarde'-name in the LSVI-database for 'var' you do 
+# not have to change it afterwards when calculating LSVI. 
+```
 
+replace NA in var en value_description 
+```{r}
+# to do: moet eigenlijk opgelost worden in INBOVEG
+tbl_var <- site_characteristics %>% 
+  select(var_code, var2 = var) %>% 
+  filter(!is.na(var2)) %>% 
+  distinct()
+
+tbl_value_description <- site_characteristics %>% 
+  select(value, vd2 = value_description) %>% 
+  filter(!is.na(vd2)) %>% 
+  distinct()
+
+site_characteristics <- site_characteristics %>%  
+  left_join(tbl_var, by = "var_code") %>% 
+  mutate(var = var2) %>% 
+  select(-var2) %>% 
+  left_join(tbl_value_description, by = "value") %>% 
+  mutate(value_description = vd2) %>% 
+  select(-vd2) 
 ```
 
 ```{r}
-site_characteristics %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+site_characteristics %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
+```
+
+controle dubbele records site characteristics
+```{r}
+doublerecords_site_characteristics <- site_characteristics %>%
+  group_by(recording_givid, var_code, value) %>%
+  mutate(n_records = n()) %>%
+  ungroup() %>%
+  filter(n_records > 1)
+doublerecords_site_characteristics
 ```
 
 
@@ -354,8 +399,24 @@ vegetation <- vegetation_31xx %>%
 Sommige taxa zijn een groepering van soorten en hebben geen wetenschappelijke naam in INBOVEG. Voor de ontbrekende namen bij name_scientific, wordt de name_original overgenomen in de 'name'.
 
 ```{r}
-vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+vegetation %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
 ```
+
+controle dubbele records vegetation
+```{r}
+doublerecords_vegetation <- vegetation %>%
+  group_by(recording_givid, name, phenology_code) %>%
+  mutate(n_records = n()) %>%
+  ungroup() %>%
+  filter(n_records > 1)
+doublerecords_vegetation
+# to do: opvolgen
+```
+
 
 # data controle 
 
@@ -364,8 +425,8 @@ vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "80
 ```{r, eval = FALSE}
 this_sample <- "LI_HEU_004_3160_20"
 
-header_sel <- header_31xx %>% filter(str_detect(user_reference, this_sample))
-
+header_sel <- header_31xx %>% 
+  filter(str_detect(user_reference, this_sample))
 classif_sel <- classif_31xx  %>% semi_join(header_sel, by = "recording_givid")
 structure_sel <- structure_31xx  %>% semi_join(header_sel, by = "recording_givid")
 sitequal_sel <- sitequal_31xx  %>% semi_join(header_sel, by = "recording_givid")
@@ -387,17 +448,8 @@ vegetation_sel <- vegetation %>%
 ```
 
 ziet er ok uit
-doublerecords_site_characteristics <- site_characteristics %>%
-  group_by(recording_givid, var, value) %>%
-  mutate(n_records = n()) %>%
-  ungroup() %>%
-  filter(n_records > 1)
-  
-  doublerecords_vegetation <- vegetation %>%
-  group_by(recording_givid, name, phenology_code) %>%
-  mutate(n_records = n()) %>%
-  ungroup() %>%
-  filter(n_records > 1)
+
+
 # data export
 
 ```{r}
