@@ -42,17 +42,29 @@ vegetation <- read_vc("HT31xx_vegetation", root = path)
 
 ### header
 ```{r}
-header %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+header %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
 ```
 
 ### site_characteristics
 ```{r}
-site_characteristics %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+site_characteristics %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
 ```
 
 ### vegetation
 ```{r}
-vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
+vegetation %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
 ```
 
 ## graphs
@@ -67,16 +79,16 @@ site_characteristics %>%
     TRUE ~ value_numeric)) %>% 
   ggplot(aes(x = value_calc)) + 
   geom_histogram() +
-  facet_wrap(~var_code, scales = "free")
+  facet_wrap(~var, scales = "free")
 ```
 
 ### class variables
 ```{r}
 site_characteristics %>% 
   filter(is_numeric == FALSE) %>% 
-  ggplot(aes(x = value)) + 
+  ggplot(aes(x = value_description)) + 
   geom_bar() +
-  facet_grid(var_code~., scales = "free") +
+  facet_grid(var~., scales = "free") +
   coord_flip()
 ```
 
@@ -89,11 +101,11 @@ site_characteristics %>%
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>%
   mutate(value_calc = ifelse((is_numeric == FALSE), value, value_calc)) %>% 
-  select(user_reference, var_code, value_calc) %>% 
-  spread(var_code, value_calc) %>% 
-  filter(!is.na(diepte_max)) %>% 
-  mutate(diepte_max = as.numeric(diepte_max)) %>% 
-  ggplot(aes(x = diept, y = diepte_max)) + 
+  select(user_reference, var, value_calc) %>% 
+  spread(var, value_calc) %>% 
+  filter(!is.na(`maximale diepte`)) %>% 
+  mutate(maximale_diepte = as.numeric(`maximale diepte`)) %>% 
+  ggplot(aes(x = diepteklasse, y = maximale_diepte)) + 
   geom_boxplot() +
   geom_hline(yintercept = c(2, 4, 6), color = "red", linetype = "dashed") +
   coord_flip()
@@ -111,9 +123,9 @@ site_characteristics %>%
     is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>%
-  select(user_reference, var_code, value_calc) %>% 
-  spread(var_code, value_calc) %>% 
-  ggplot(aes(x = Secch, y = Seccd)) + 
+  select(user_reference, var, value_calc) %>% 
+  spread(var, value_calc) %>% 
+  ggplot(aes(x = `diepte van secchibepaling`, y = `secchi-diepte`)) + 
   geom_point() +
   geom_abline(slope = 1, color = "red", linetype = "dashed") 
 ```
@@ -241,7 +253,10 @@ verstoring_3160 <- site_characteristics %>%
 ```
 
 ```{r}
-verstoring_3160 %>% kable() %>% kable_styling() 
+verstoring_3160 %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(height = "800px")
 ```
 
 --> NA bij AN_SNE_001_3160_15, LI_HEU_001_3160_15, LI_TEU_002_3160_14, LI_ZPB_001_2020 (to do: opvolgen)  
