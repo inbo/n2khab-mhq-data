@@ -55,7 +55,6 @@ soortenlijsten <- geefSoortenlijst(Versie = "Versie 3",
                                    Habitattype = c("3110", "3130", "3140", "3150", "3160"),
                                    Taxonlijsttype = "alle")
 ```
-
 to do (later): 2190a toevoegen
 
 
@@ -81,11 +80,8 @@ data_habitat %>%
 ```{r}
 rel_var <- c("horst", "7140o", "Helo", "HabVl", "verst", 
              "Eutro", "Invas", "Vzuur", "chara")
-Criterium <- c("Structuur", "Structuur", "Structuur", "Structuur", "Structuur", 
-               "Verstoring", "Verstoring", "Verstoring", 
-               "Vegetatie")
-Indicator <- c("horizontale structuur", "horizontale structuur", 
-               "verticale structuur", "verticale structuur", "verticale structuur", 
+Criterium <- c(rep("Structuur", 5), rep("Verstoring", 3), "Vegetatie")
+Indicator <- c(rep("horizontale structuur", 2), rep("verticale structuur", 3),
                "eutrofiëring", "invasieve exoten", "verzuring", 
                "sleutelsoorten")
 Voorwaarde <- c("grootste vegetatievlek in m²", "contact met 7110 of 7140_oli",
@@ -101,7 +97,6 @@ Type <- c("Decimaal getal", "Ja/nee",
 invoervereisten_join <- data.frame(rel_var, Criterium, Indicator, Voorwaarde, 
                                    Type) %>% 
   mutate(Invoertype = NA)
-# to do: niet zo elegant; @Toon of @Els: betere suggestie?
 # suggestie Toon: var in HT31xx_data_prep direct veranderen in Voorwaarde (to do later)
 
 sites_3160 <- data_habitat %>% 
@@ -123,21 +118,23 @@ data_voorwaarden_num <- site_characteristics_join %>%
     is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>%
+  mutate(value_calc = as.character(value_calc)) %>% 
+  # omdat omzetting van g10m² naar interval zorgt voor characters 
   select(ID = recording_givid, Criterium, Indicator, Voorwaarde, 
          Waarde = value_calc, Type, Invoertype, Eenheid = unit)
 
 data_voorwaarden_class <- site_characteristics_join %>% 
   filter(is_numeric == FALSE) %>%
   mutate(Waarde = case_when(
-    (var_code == "horst" & value == "g10m²") ~ 15, # to do: laten aanpassen in LSVI-rekenmodule
-    (var_code == "horst" & value == "10m2") ~ 5,
-    (var_code == "horst" & value == "1m2") ~ 0.5,
-    (var_code == "chara" & value == "49ss") ~ 0,
-    (var_code == "chara" & value == "51ss") ~ 1,
-    (var_code == "7140o" & value == "ja") ~ 1,
-    (var_code == "7140o" & value == "nee") ~ 0,
-    (var_code == "verst" & value == "gisoe")~ 1,
-    (var_code == "verst" & value == "kisoe") ~ 0),
+    (var_code == "horst" & value == "g10m²") ~ "10.01-20", 
+    (var_code == "horst" & value == "10m2") ~ "1-10", 
+    (var_code == "horst" & value == "1m2") ~ "0-0.99", 
+    (var_code == "chara" & value == "49ss") ~ "0",
+    (var_code == "chara" & value == "51ss") ~ "1",
+    (var_code == "7140o" & value == "ja") ~ "1",
+    (var_code == "7140o" & value == "nee") ~ "0",
+    (var_code == "verst" & value == "gisoe") ~ "1",
+    (var_code == "verst" & value == "kisoe") ~ "0"),
     Eenheid = NA) %>% 
   filter(!is.na(Waarde)) %>% 
   select(ID = recording_givid, Criterium, Indicator, Voorwaarde, 
@@ -167,11 +164,14 @@ data_soortenkenmerken <- vegetation %>%
   mutate(name = case_when(
     name == "Chara hispida L." ~ "Chara major",
     # Chara hispida L. wordt niet herkend door berekenLSVIbasis; 
-    # de oude naam Chara major wordt nog gebruikt 
-    # --> to do: laten aanpassen in databank achter LSVI-rekenmodule
-    # omvormen naar taxanamen die wel herkend worden door LSVI-rekenmodule
+    # door omzetting naar de oude naam Chara major wordt dit wel correct doorgerekend; 
+    # to do (later) aanpassing in inboveg-survey: 
+    # 1/ toevoeging Chara hispida aan Futon-lijst of 
+    # juiste Futon-lijst toevoegen aan survey (Sophie V./Pieter VdB); 
+    # 2/ daarna aanpassen in LSVI-rekenmodule (Els L.)
     name == "Warnstorfia fluitans (Hedw.) Loeske" ~ "Warnstorfia fluitans groep",
     name == "Enteromorpha spec." ~ "Enteromorpha",
+    # omvormen naar taxanamen die wel herkend worden door LSVI-rekenmodule
     TRUE ~ name)) %>%
   semi_join(data_habitat, by = c("recording_givid" = "ID")) %>% 
   select(ID = recording_givid, Kenmerk = name, Waarde = species_cover_code) %>%
@@ -204,10 +204,7 @@ resultaat <- berekenLSVIbasis(
 
 Warning messages:
 1. Problem while computing `Canonicalname = berekenCanonicalname(.data$Kenmerk)`.
-ℹ rgbif::parsenames() is deprecated since rgbif 3.7.3, use rgbif::name_parse() instead.--> aan Els door te geven (to do)  
-2. In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
-  Volgende soortnamen zijn niet teruggevonden in de databank: draadwier, Warnstorfia fluitans (Hedw.) Loeske, kroossoorten, Enteromorpha spec., Chara hispida.  Check de spelling en/of laat de auteursnaam weg bij genera. --> **Chara hispida wordt niet herkend = probleem, want is een typische soort, dus bedekkingen tellen mee --> to do opvolgen; voorlopig veranderd naar oude naam Chara major**  --> overige soorten ook vervangen; dus deze warning wordt niet meer getoond
-3: call dbDisconnect() when finished working with a connection
+ℹ rgbif::parsenames() is deprecated since rgbif 3.7.3, use rgbif::name_parse() instead.--> aan Els doorgegeven  
 4: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
   Bij Data_soortenKenmerken is niet voor alle soorten de kolom Vegetatielaag ingevuld --> Vegetatielaag niet ingevuld; geen probleem, wordt niet gebruikt in LSVI-bepaling
 5: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  ... :
@@ -216,16 +213,16 @@ Warning messages:
   - <IV2021103012423456, Structuur, horizontale structuur, grootste vegetatievlek in m²> 
   --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd  
 6: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  ... :
-  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli (VoorwaardeID 1964) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456. Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur en Voorwaarde = contact met 7110 of 7140_oli. --> missing values; aan te vullen door Jo/Kevin (to do)  
+  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli (VoorwaardeID 1964) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456. Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur en Voorwaarde = contact met 7110 of 7140_oli. --> missing values; aan te vullen door Jo/Kevin (to do opvolgen)  
 7-11: In min(.data$Verschilscore, na.rm = na.rm) :
   no non-missing arguments to min; returning Inf --> te negeren
 
 ```{r}
 ResDetail <- resultaat$Resultaat_detail %>% 
-  select(-`Habitattype.y`)# bug in berekenLSVIbasis()? @Els
+  select(-`Habitattype.y`)# kolomnaam gebruikt voor zowel habitattype als -subtype
 ResCrit <- resultaat$Resultaat_criterium
 ResInd <- resultaat$Resultaat_indicator %>% 
-  select(-`Habitattype.y`)# bug in berekenLSVIbasis()? @Els
+  select(-`Habitattype.y`)# kolomnaam gebruikt voor zowel habitattype als -subtype
 ResGlob <- resultaat$Resultaat_globaal
 
 ResKT <- ResDetail %>%
@@ -239,7 +236,8 @@ ResKT <- ResDetail %>%
 # resultaat
 ```{r}
 resultaat_tabel <- ResKT %>% 
-  select(location, Habitattype, date, Versie, `% begroeid met opgaande vegetatie`:`kranswiervelden voor > = 50 % sleutelsoorten`) 
+  select(location, Habitattype, date, Versie, 
+         `% begroeid met opgaande vegetatie`:`kranswiervelden voor > = 50 % sleutelsoorten`) 
 resultaat_tabel %>% 
   kable() %>% 
   column_spec(5, background = ifelse(is.na(resultaat_tabel[5]), "white", 
