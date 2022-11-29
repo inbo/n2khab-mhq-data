@@ -66,7 +66,7 @@ site_characteristics %>%
     is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>% 
-  ggplot(aes(x = value_numeric)) + 
+  ggplot(aes(x = value_calc)) + 
   geom_histogram() +
   facet_wrap(~var, scales = "free")
 ```

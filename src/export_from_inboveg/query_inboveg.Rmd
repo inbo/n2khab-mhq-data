@@ -143,6 +143,7 @@ recordings_mhq <- get_inboveg_recording(connection = connection_inboveg,
 qualifiers_m_mhq <- get_inboveg_qualifier(connection = connection_inboveg, 
                                         survey_name = surveys, multiple = TRUE,
                                         qualifier_type = "MQ") %>%
+    filter(Q1Code %in% c("A", "B")) %>% # select only present and recent measurements (no winter observations)
     select(survey = Name, recording_givid = RecordingGivid, user_reference = UserReference, 
            var_code = Q2Code, var = Q2Description, 
            var_value_code = Q3Code, var_description_or_value = Q3Description, 

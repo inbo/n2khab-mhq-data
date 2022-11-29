@@ -1,0 +1,264 @@
+---
+title: "data exploration of survey HT31xx"
+author: "An Leyssen"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(kableExtra)
+library(git2rdata)
+library(n2khab)
+```
+
+# import data
+
+```{r}
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
+
+header <- read_vc("HT31xx_header", root = path)
+site_characteristics <- read_vc("HT31xx_site_characteristics", root = path)
+vegetation <- read_vc("HT31xx_vegetation", root = path)
+```
+
+
+# data exploration
+
+## structuur dataset
+
+### header
+```{r}
+header %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
+```
+
+### site_characteristics
+```{r}
+site_characteristics %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
+```
+
+### vegetation
+```{r}
+vegetation %>% 
+  head() %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(width = "800px")
+```
+
+## graphs
+
+### numeric variables
+```{r}
+site_characteristics %>% 
+  filter(is_numeric == TRUE) %>% 
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>% 
+  ggplot(aes(x = value_calc)) + 
+  geom_histogram() +
+  facet_wrap(~var, scales = "free")
+```
+
+### class variables
+```{r}
+site_characteristics %>% 
+  filter(is_numeric == FALSE) %>% 
+  ggplot(aes(x = value_description)) + 
+  geom_bar() +
+  facet_grid(var~., scales = "free") +
+  coord_flip()
+```
+
+### maximale diepte versus diepteklasse
+```{r}
+site_characteristics %>% 
+  filter(var_code %in% c("diepte_max", "diept")) %>%
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>%
+  mutate(value_calc = ifelse((is_numeric == FALSE), value, value_calc)) %>% 
+  select(user_reference, var, value_calc) %>% 
+  spread(var, value_calc) %>% 
+  filter(!is.na(`maximale diepte`)) %>% 
+  mutate(maximale_diepte = as.numeric(`maximale diepte`)) %>% 
+  ggplot(aes(x = diepteklasse, y = maximale_diepte)) + 
+  geom_boxplot() +
+  geom_hline(yintercept = c(2, 4, 6), color = "red", linetype = "dashed") +
+  coord_flip()
+```
+
+te checken (to do: opvolgen):   
+- check max diepte van 75m in lage diepteklasse  
+- in klasse 2-4m één met kleinere maximale diepte (AN_DVH_007_3130n_17)  
+
+### Secchi-diepte versus diepte Secchibepaling
+```{r}
+site_characteristics %>% 
+  filter(var_code %in% c("Secch", "Seccd")) %>%
+  mutate(value_calc = case_when(
+    is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
+    is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
+    TRUE ~ value_numeric)) %>%
+  select(user_reference, var, value_calc) %>% 
+  spread(var, value_calc) %>% 
+  ggplot(aes(x = `diepte van secchibepaling`, y = `secchi-diepte`)) + 
+  geom_point() +
+  geom_abline(slope = 1, color = "red", linetype = "dashed") 
+```
+
+## NA values
+
+bepaling aantal NA voor locaties die geschikt zijn voor de habitatkwaliteitsmonitoring
+```{r}
+site_num_breed <- site_characteristics %>% 
+  filter(is_numeric == TRUE) %>%
+  select(recording_givid, user_reference, var_code, value_numeric) %>% 
+  spread(var_code, value_numeric) %>% 
+  arrange(recording_givid)
+
+site_class_breed <- site_characteristics %>% 
+  filter(is_numeric == FALSE) %>%  
+  group_by(recording_givid, var_code) %>% 
+  count() %>% 
+  spread(var_code, n) %>% 
+  arrange(recording_givid) 
+
+data_breed <- header %>% 
+  left_join(site_num_breed, by = c("recording_givid", "user_reference")) %>% 
+  left_join(site_class_breed, by = c("recording_givid")) %>% 
+  filter(suitable_mhq == TRUE) %>%  # remove sites not suitable for monitoring
+  arrange(type_observed)
+
+N_dataset <- nrow(data_breed)
+summary_dataset <- data_breed %>% 
+  gather("var", "value", 
+         -recording_givid, -survey, -user_reference, -location, -date, 
+         -latitude, -longitude, -type_observed, reliability, -suitable_mhq, 
+         -measured, 
+         na.rm = TRUE) %>% 
+  group_by(var, type_observed) %>% 
+  summarise(number = n(),  
+            sd = sd(value),
+            ratio_NA = 1- (number/N_dataset))
+
+ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
+  geom_point() + 
+  facet_wrap(~type_observed)
+```
+
+conclusie:  
+- % sleutelsoorten niet altijd ingevuld (maar niet nodig voor LSVI-berekening)  
+- maximale diepte niet overal genoteerd (nodig voor LSVI-berekening?)  
+- ter info: verticale structuur zit bij 3130 na niet bij 'verst' --> zit bij HabVl!  
+
+
+## vegetation
+### accompanying species (top 10)
+
+```{r}
+vegetation %>% 
+  count(name) %>% 
+  arrange(desc(n)) %>% 
+  top_n(10)
+```
+
+### *Chara hispida* versus *Chara major*
+
+*Chara major* is de oude naam van *Chara hispida*. In de inboveg-standaard-lijst die gebruikt wordt in de survey HT31xx_LSVI_StilstaandeWateren is nog de oude benaming *'Chara major'* opgenomen. Zijn er opnames in inboveg die *Chara major* bevatten?
+```{r}
+vegetation %>% 
+  filter(str_detect(name, "Chara major"))
+```
+Het resultaat is nul. Dus: nee, *Chara major* is niet als dusdanig ingevoerd. De taxa zijn allemaal opgenomen als *Chara hispida* L. (=my taxa).
+
+Welke opnames bevatten Chara hispida?
+```{r}
+vegetation %>% 
+  filter(str_detect(name, "Chara hispida")) %>% 
+  left_join(header, by = "recording_givid") %>% 
+  select(location, user_reference, name, species_cover_code)
+```
+--> deze te checken bij LSVI-berekening: wordt dit correct doorgerekend bij de sleutelsoorten (ok; voor de LSVI-rekenmodule wordt deze vervangen door oude naam *Chara major*, waardoor de LSVI-berekening correct verloopt)?
+
+### check: verschillende bedekkingen per soort 
+Zijn er verschillende bedekkingen per soort voor een opname?
+```{r}
+vegetation %>% 
+  select(recording_givid, name, species_cover_code) %>% 
+  distinct() %>% 
+  group_by(recording_givid, name) %>% 
+  count() %>% 
+  filter(n>1)
+```
+
+```{r}
+vegetation %>% 
+  filter(recording_givid == "IV2018082008201439", 
+         name == "Agrostis canina L.") %>% 
+  left_join(header, by = "recording_givid") %>% 
+  kable() %>% kable_styling() 
+```
+
+```{r}
+vegetation %>% 
+  filter(recording_givid == "IV2020100110560092", 
+         name == "Phragmites australis (Cav.) Steud.") %>% 
+  left_join(header, by = "recording_givid") %>% 
+  kable() %>% kable_styling()
+```
+
+```{r}
+vegetation %>% 
+  filter(recording_givid == "IV2021102610593198", 
+         name == "Juncus effusus L.") %>% 
+  left_join(header, by = "recording_givid") %>% 
+  kable() %>% kable_styling() 
+```
+
+### check: voor habitattype 3160
+Zijn zowel "Vzuur", "VZuSS","Eutro" als "EutSS" ingevuld?
+```{r}
+header_3160 <- header %>% 
+  filter(type_observed == "3160")
+  
+verstoring_3160 <- site_characteristics %>% 
+  semi_join(header_3160, by = "user_reference") %>% 
+  filter(var_code %in% c("Vzuur", "VZuSS","Eutro", "EutSS")) %>% 
+  select(user_reference, var_code, value) %>% 
+  spread(var_code, value)  
+```
+
+```{r}
+verstoring_3160 %>% 
+  kable() %>% 
+  kable_styling() %>% 
+  scroll_box(height = "800px")
+```
+
+--> NA bij AN_SNE_001_3160_15, LI_HEU_001_3160_15, LI_TEU_002_3160_14, LI_ZPB_001_2020 (to do: opvolgen)  
+--> check: EutrSS < Eutro --> is ok   
+--> check: VZuSS < Vzuur --> is ok  
