@@ -1,0 +1,25 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  - type_observed_circle
+  - type_observed_square
+  hash: a3c0b10431706759171bb12b63bbd2daf566a216
+  data_hash: 10d6900c99c03d4f46347bd50ab65be0d6177785
+plot_id:
+  class: integer
+segment_id:
+  class: integer
+date_standdescription:
+  class: POSIXct
+  origin: 1970-01-01 00:00:00
+  timezone: UTC
+type_observed_circle:
+  class: character
+type_observed_square:
+  class: character
+type_observed_cover_circle:
+  class: numeric

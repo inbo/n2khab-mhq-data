@@ -1,0 +1,27 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: a5218a3c838d61005c843d6c87d8e59ee9bba4ef
+  data_hash: 507d3dbc371542b9c7d42b5395366139a0895649
+navplot_id:
+  class: integer
+plot_id:
+  class: integer
+date_status:
+  class: POSIXct
+  origin: 1970-01-01 00:00:00
+  timezone: UTC
+sampling_unit_code:
+  class: character
+targethabitat:
+  class: character
+status_fieldwork:
+  class: character
+info_status_fieldwork:
+  class: character
+remark:
+  class: character
+db:
+  class: character

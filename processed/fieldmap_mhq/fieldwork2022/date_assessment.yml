@@ -1,0 +1,12 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: 4814fae9de2cfde0514de84e93fd94b3045de2a0
+  data_hash: 3a84d7a5c578cfd53aa1400c79cb2892b490d674
+plot_id:
+  class: integer
+date_assessment:
+  class: Date
+  origin: '1970-01-01'

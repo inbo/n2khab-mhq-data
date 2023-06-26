@@ -1,0 +1,729 @@
+plot_id	segment_id	structure_var	coverscale_name	cover_description	cover_mean	cover
+2610	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+2610	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+2610	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+2610	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+2610	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+2610	1	campylopus_introflexus	Beheermonitoringsschaal	schaars	1	NA
+2610	1	herbs	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+2610	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+2610	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+2610	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+2610	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+2610	1	pioneer_phase_open_soil	Beheermonitoringsschaal	talrijk	3	NA
+2610	1	shrub_treelayer	NA	NA	NA	10
+2610	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+4434	NA	shrub_treelayer	NA	NA	NA	0
+8893	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+8893	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+8893	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+8893	1	calluna_phase_devel	Beheermonitoringsschaal	bedekkend	15	NA
+8893	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+8893	1	campylopus_introflexus	Beheermonitoringsschaal	schaars	1	NA
+8893	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+8893	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+8893	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+8893	1	pioneer_lichenen	Beheermonitoringsschaal	talrijk	3	NA
+8893	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+8893	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+8893	1	shrub_treelayer	NA	NA	NA	1
+8893	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+9938	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+9938	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+9938	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+9938	1	calluna_phase_devel	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+9938	1	calluna_phase_pioneer	Beheermonitoringsschaal	talrijk	3	NA
+9938	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+9938	1	herbs	Beheermonitoringsschaal	talrijk	3	NA
+9938	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+9938	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+9938	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+9938	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+9938	1	pioneer_phase_open_soil	Beheermonitoringsschaal	zeer schaars	0.5	NA
+9938	1	shrub_treelayer	NA	NA	NA	0
+9938	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+11218	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+11218	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+11218	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+11218	1	shrub_treelayer	NA	NA	NA	15
+11218	1	sphagnumlayer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+12274	1	brushwood	Beheermonitoringsschaal	talrijk	3	NA
+12274	1	calluna_phase_climax	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+12274	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+12274	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+12274	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+12274	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+12274	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+12274	1	lowshrublayer	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+12274	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+12274	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+12274	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+12274	1	pioneer_phase_open_soil	Beheermonitoringsschaal	zeer schaars	0.5	NA
+12274	1	shrub_treelayer	NA	NA	NA	45
+12274	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+18546	NA	shrub_treelayer	NA	NA	NA	12
+20178	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+20178	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+20178	1	calluna_phase_degen	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+20178	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+20178	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+20178	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+20178	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+20178	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+20178	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+20178	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+20178	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+20178	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+20178	1	shrub_treelayer	NA	NA	NA	1
+20178	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	herbs	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+23538	1	lowshrublayer	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+23538	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+23538	1	shrub_treelayer	NA	NA	NA	60
+23538	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+23762	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+23762	1	calluna_phase_climax	Beheermonitoringsschaal	schaars	1	NA
+23762	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+23762	1	calluna_phase_devel	Beheermonitoringsschaal	bedekkend	15	NA
+23762	1	calluna_phase_pioneer	Beheermonitoringsschaal	talrijk	3	NA
+23762	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+23762	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+23762	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+23762	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+23762	1	pioneer_lichenen	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+23762	1	pioneer_mos	Beheermonitoringsschaal	schaars	1	NA
+23762	1	pioneer_phase_open_soil	Beheermonitoringsschaal	talrijk	3	NA
+23762	1	shrub_treelayer	NA	NA	NA	0
+23762	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+26322	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+26322	1	calluna_phase_climax	Beheermonitoringsschaal	dominant	87.5	NA
+26322	1	calluna_phase_degen	Beheermonitoringsschaal	talrijk	3	NA
+26322	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+26322	1	calluna_phase_pioneer	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+26322	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+26322	1	herbs	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+26322	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+26322	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+26322	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+26322	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+26322	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+26322	1	shrub_treelayer	NA	NA	NA	0
+26322	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+28370	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+28370	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+28370	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+28370	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+28370	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+28370	1	pioneer_phase_open_soil	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+28370	1	shrub_treelayer	NA	NA	NA	35
+28370	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+28658	1	brushwood	Beheermonitoringsschaal	schaars	1	NA
+28658	1	calluna_phase_climax	Beheermonitoringsschaal	talrijk	3	NA
+28658	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+28658	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+28658	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+28658	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+28658	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+28658	1	lowshrublayer	Beheermonitoringsschaal	talrijk	3	NA
+28658	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+28658	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+28658	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+28658	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+28658	1	shrub_treelayer	NA	NA	NA	45
+28658	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+29406	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+29406	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+29406	1	calluna_phase_degen	Beheermonitoringsschaal	talrijk	3	NA
+29406	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+29406	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+29406	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+29406	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+29406	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+29406	1	pioneer_coryn_aira	Beheermonitoringsschaal	bedekkend	15	NA
+29406	1	pioneer_lichenen	Beheermonitoringsschaal	talrijk	3	NA
+29406	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+29406	1	pioneer_phase_open_soil	Beheermonitoringsschaal	schaars	1	NA
+29406	1	shrub_treelayer	NA	NA	NA	3
+29406	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	brushwood	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+30290	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+30290	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+30290	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+30290	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+30290	1	shrub_treelayer	NA	NA	NA	25
+30290	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	calluna_phase_devel	Beheermonitoringsschaal	bedekkend	15	NA
+32466	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+32466	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+32466	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+32466	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+32466	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+32466	1	pioneer_phase_open_soil	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+32466	1	shrub_treelayer	NA	NA	NA	0
+32466	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+34514	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+34514	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+34514	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+34514	1	calluna_phase_devel	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+34514	1	calluna_phase_pioneer	Beheermonitoringsschaal	talrijk	3	NA
+34514	1	campylopus_introflexus	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+34514	1	herbs	Beheermonitoringsschaal	talrijk	3	NA
+34514	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+34514	1	pioneer_coryn_aira	Beheermonitoringsschaal	schaars	1	NA
+34514	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+34514	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+34514	1	pioneer_phase_open_soil	Beheermonitoringsschaal	schaars	1	NA
+34514	1	shrub_treelayer	NA	NA	NA	1
+34514	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+38545	NA	shrub_treelayer	NA	NA	NA	0
+38610	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+38610	1	calluna_phase_climax	Beheermonitoringsschaal	talrijk	3	NA
+38610	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+38610	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+38610	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+38610	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+38610	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+38610	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+38610	1	pioneer_coryn_aira	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+38610	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+38610	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+38610	1	pioneer_phase_open_soil	Beheermonitoringsschaal	bedekkend	15	NA
+38610	1	shrub_treelayer	NA	NA	NA	7
+38610	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	brushwood	Beheermonitoringsschaal	schaars	1	NA
+40146	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	calluna_phase_devel	Beheermonitoringsschaal	zeer schaars	0.5	NA
+40146	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+40146	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+40146	1	lowshrublayer	Beheermonitoringsschaal	schaars	1	NA
+40146	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+40146	1	shrub_treelayer	NA	NA	NA	25
+40146	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+41814	NA	shrub_treelayer	NA	NA	NA	45
+43858	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+43858	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+43858	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+43858	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+43858	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+43858	1	campylopus_introflexus	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+43858	1	herbs	Beheermonitoringsschaal	afwezig	0	NA
+43858	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+43858	1	pioneer_coryn_aira	Beheermonitoringsschaal	bedekkend	15	NA
+43858	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+43858	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+43858	1	pioneer_phase_open_soil	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+43858	1	shrub_treelayer	NA	NA	NA	0.5
+43858	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+44626	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+44626	1	calluna_phase_climax	Beheermonitoringsschaal	dominant	87.5	NA
+44626	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+44626	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+44626	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+44626	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+44626	1	herbs	Beheermonitoringsschaal	talrijk	3	NA
+44626	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+44626	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+44626	1	pioneer_lichenen	Beheermonitoringsschaal	talrijk	3	NA
+44626	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+44626	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+44626	1	shrub_treelayer	NA	NA	NA	1
+44626	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+45790	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+45790	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+45790	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+45790	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+45790	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+45790	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+45790	1	herbs	Beheermonitoringsschaal	talrijk	3	NA
+45790	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+45790	1	pioneer_coryn_aira	Beheermonitoringsschaal	talrijk	3	NA
+45790	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+45790	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+45790	1	pioneer_phase_open_soil	Beheermonitoringsschaal	talrijk	3	NA
+45790	1	shrub_treelayer	NA	NA	NA	37
+45790	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+47446	NA	shrub_treelayer	NA	NA	NA	50
+62174	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+62174	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	campylopus_introflexus	Beheermonitoringsschaal	zeer schaars	0.5	NA
+62174	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+62174	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+62174	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+62174	1	shrub_treelayer	NA	NA	NA	40
+62174	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+66006	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+66006	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+66006	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+66006	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+66006	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+66006	1	campylopus_introflexus	Beheermonitoringsschaal	zeer schaars	0.5	NA
+66006	1	herbs	Beheermonitoringsschaal	schaars	1	NA
+66006	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+66006	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+66006	1	pioneer_lichenen	Beheermonitoringsschaal	dominant	87.5	NA
+66006	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+66006	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+66006	1	shrub_treelayer	NA	NA	NA	0.1
+66006	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+72690	1	calluna_phase_degen	Beheermonitoringsschaal	talrijk	3	NA
+72690	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	herbs	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+72690	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+72690	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+72690	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+72690	1	pioneer_phase_open_soil	Beheermonitoringsschaal	zeer schaars	0.5	NA
+72690	1	shrub_treelayer	NA	NA	NA	25
+72690	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+75474	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+75474	1	calluna_phase_climax	Beheermonitoringsschaal	dominant	87.5	NA
+75474	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+75474	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+75474	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+75474	1	campylopus_introflexus	Beheermonitoringsschaal	NA	NA	NA
+75474	1	herbs	Beheermonitoringsschaal	talrijk	3	NA
+75474	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+75474	1	pioneer_coryn_aira	Beheermonitoringsschaal	schaars	1	NA
+75474	1	pioneer_lichenen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+75474	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+75474	1	pioneer_phase_open_soil	Beheermonitoringsschaal	schaars	1	NA
+75474	1	shrub_treelayer	NA	NA	NA	10
+75474	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+76754	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+76754	1	calluna_phase_climax	Beheermonitoringsschaal	dominant	87.5	NA
+76754	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+76754	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+76754	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+76754	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+76754	1	herbs	Beheermonitoringsschaal	talrijk	3	NA
+76754	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+76754	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+76754	1	pioneer_lichenen	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+76754	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+76754	1	pioneer_phase_open_soil	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+76754	1	shrub_treelayer	NA	NA	NA	2
+76754	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+79986	NA	shrub_treelayer	NA	NA	NA	7
+90846	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+90846	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+90846	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+90846	1	calluna_phase_devel	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+90846	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+90846	1	campylopus_introflexus	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+90846	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+90846	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+90846	1	pioneer_coryn_aira	Beheermonitoringsschaal	bedekkend	15	NA
+90846	1	pioneer_lichenen	Beheermonitoringsschaal	talrijk	3	NA
+90846	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+90846	1	pioneer_phase_open_soil	Beheermonitoringsschaal	bedekkend	15	NA
+90846	1	shrub_treelayer	NA	NA	NA	30
+90846	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+94942	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+94942	1	calluna_phase_climax	Beheermonitoringsschaal	dominant	87.5	NA
+94942	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+94942	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+94942	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+94942	1	campylopus_introflexus	Beheermonitoringsschaal	schaars	1	NA
+94942	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+94942	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+94942	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+94942	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+94942	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+94942	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+94942	1	shrub_treelayer	NA	NA	NA	0
+94942	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+96978	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+96978	1	calluna_phase_climax	Beheermonitoringsschaal	dominant	87.5	NA
+96978	1	calluna_phase_degen	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+96978	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+96978	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+96978	1	campylopus_introflexus	Beheermonitoringsschaal	schaars	1	NA
+96978	1	herbs	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+96978	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+96978	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+96978	1	pioneer_lichenen	Beheermonitoringsschaal	talrijk	3	NA
+96978	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+96978	1	pioneer_phase_open_soil	Beheermonitoringsschaal	talrijk	3	NA
+96978	1	shrub_treelayer	NA	NA	NA	35
+96978	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+98002	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+98002	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+98002	1	calluna_phase_degen	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+98002	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+98002	1	calluna_phase_pioneer	Beheermonitoringsschaal	talrijk	3	NA
+98002	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+98002	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+98002	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+98002	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+98002	1	pioneer_lichenen	Beheermonitoringsschaal	talrijk	3	NA
+98002	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+98002	1	pioneer_phase_open_soil	Beheermonitoringsschaal	schaars	1	NA
+98002	1	shrub_treelayer	NA	NA	NA	0
+98002	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+99521	NA	shrub_treelayer	NA	NA	NA	0
+100050	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	calluna_phase_climax	Beheermonitoringsschaal	zeer schaars	0.5	NA
+100050	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	herbs	Beheermonitoringsschaal	schaars	1	NA
+100050	1	lowshrublayer	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+100050	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+100050	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+100050	1	shrub_treelayer	NA	NA	NA	0.4
+100050	1	sphagnumlayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+102098	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+102098	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+102098	1	calluna_phase_degen	Beheermonitoringsschaal	bedekkend	15	NA
+102098	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+102098	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+102098	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+102098	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+102098	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+102098	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+102098	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+102098	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+102098	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+102098	1	shrub_treelayer	NA	NA	NA	20
+102098	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	herbs	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+105458	1	lowshrublayer	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+105458	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+105458	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+105458	1	pioneer_phase_open_soil	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+105458	1	shrub_treelayer	NA	NA	NA	2
+105458	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+111326	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+111326	1	calluna_phase_climax	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+111326	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+111326	1	calluna_phase_devel	Beheermonitoringsschaal	dominant	87.5	NA
+111326	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+111326	1	campylopus_introflexus	Beheermonitoringsschaal	dominant	87.5	NA
+111326	1	herbs	Beheermonitoringsschaal	schaars	1	NA
+111326	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+111326	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+111326	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+111326	1	pioneer_mos	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+111326	1	pioneer_phase_open_soil	Beheermonitoringsschaal	zeer schaars	0.5	NA
+111326	1	shrub_treelayer	NA	NA	NA	0
+111326	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	calluna_phase_devel	Beheermonitoringsschaal	schaars	1	NA
+117202	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+117202	1	lowshrublayer	Beheermonitoringsschaal	schaars	1	NA
+117202	1	pioneer_coryn_aira	Beheermonitoringsschaal	zeer schaars	0.5	NA
+117202	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+117202	1	shrub_treelayer	NA	NA	NA	2
+117202	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+118441	NA	shrub_treelayer	NA	NA	NA	35
+122578	1	brushwood	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+122578	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+122578	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+122578	1	calluna_phase_devel	Beheermonitoringsschaal	bedekkend	15	NA
+122578	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+122578	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+122578	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+122578	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+122578	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+122578	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+122578	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+122578	1	pioneer_phase_open_soil	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+122578	1	shrub_treelayer	NA	NA	NA	4
+122578	1	sphagnumlayer	Beheermonitoringsschaal	bedekkend	15	NA
+124278	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+124278	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+124278	1	calluna_phase_degen	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+124278	1	calluna_phase_devel	Beheermonitoringsschaal	zeer schaars	0.5	NA
+124278	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+124278	1	campylopus_introflexus	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+124278	1	herbs	Beheermonitoringsschaal	zeer schaars	0.5	NA
+124278	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+124278	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+124278	1	pioneer_lichenen	Beheermonitoringsschaal	schaars	1	NA
+124278	1	pioneer_mos	Beheermonitoringsschaal	dominant	87.5	NA
+124278	1	pioneer_phase_open_soil	Beheermonitoringsschaal	bedekkend	15	NA
+124278	1	shrub_treelayer	NA	NA	NA	0
+124278	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+128657	NA	shrub_treelayer	NA	NA	NA	0
+128722	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	calluna_phase_climax	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+128722	1	calluna_phase_degen	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+128722	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	herbs	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	lowshrublayer	Beheermonitoringsschaal	dominant	87.5	NA
+128722	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	pioneer_mos	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+128722	1	shrub_treelayer	NA	NA	NA	20
+128722	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+144094	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+144094	1	calluna_phase_climax	Beheermonitoringsschaal	talrijk	3	NA
+144094	1	calluna_phase_degen	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+144094	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+144094	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+144094	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+144094	1	herbs	Beheermonitoringsschaal	dominant	87.5	NA
+144094	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+144094	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+144094	1	pioneer_lichenen	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+144094	1	pioneer_mos	Beheermonitoringsschaal	talrijk	3	NA
+144094	1	pioneer_phase_open_soil	Beheermonitoringsschaal	talrijk	3	NA
+144094	1	shrub_treelayer	NA	NA	NA	1
+144094	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+151250	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+151250	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+151250	1	calluna_phase_degen	Beheermonitoringsschaal	talrijk	3	NA
+151250	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+151250	1	calluna_phase_pioneer	Beheermonitoringsschaal	talrijk	3	NA
+151250	1	campylopus_introflexus	Beheermonitoringsschaal	zeer schaars	0.5	NA
+151250	1	herbs	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+151250	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+151250	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+151250	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+151250	1	pioneer_mos	Beheermonitoringsschaal	bedekkend	15	NA
+151250	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+151250	1	shrub_treelayer	NA	NA	NA	0
+151250	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+151318	NA	shrub_treelayer	NA	NA	NA	0
+162790	NA	shrub_treelayer	NA	NA	NA	15
+206134	NA	shrub_treelayer	NA	NA	NA	0
+229362	1	brushwood	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+229362	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+229362	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+229362	1	calluna_phase_devel	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+229362	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+229362	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+229362	1	herbs	Beheermonitoringsschaal	afwezig	0	NA
+229362	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+229362	1	pioneer_coryn_aira	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+229362	1	pioneer_lichenen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+229362	1	pioneer_mos	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+229362	1	pioneer_phase_open_soil	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+229362	1	shrub_treelayer	NA	NA	NA	0.6
+229362	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+236370	1	brushwood	Beheermonitoringsschaal	zeer schaars	0.5	NA
+236370	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+236370	1	calluna_phase_degen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+236370	1	calluna_phase_devel	Beheermonitoringsschaal	talrijk	3	NA
+236370	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+236370	1	campylopus_introflexus	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+236370	1	herbs	Beheermonitoringsschaal	afwezig	0	NA
+236370	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+236370	1	pioneer_coryn_aira	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+236370	1	pioneer_lichenen	Beheermonitoringsschaal	bedekkend	15	NA
+236370	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+236370	1	pioneer_phase_open_soil	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+236370	1	shrub_treelayer	NA	NA	NA	3
+236370	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+238578	1	brushwood	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+238578	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+238578	1	calluna_phase_degen	Beheermonitoringsschaal	schaars	1	NA
+238578	1	calluna_phase_devel	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+238578	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+238578	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+238578	1	herbs	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+238578	1	lowshrublayer	Beheermonitoringsschaal	bedekkend	15	NA
+238578	1	pioneer_coryn_aira	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+238578	1	pioneer_lichenen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+238578	1	pioneer_mos	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+238578	1	pioneer_phase_open_soil	Beheermonitoringsschaal	bedekkend	15	NA
+238578	1	shrub_treelayer	NA	NA	NA	30
+238578	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+243846	NA	shrub_treelayer	NA	NA	NA	0
+258390	NA	shrub_treelayer	NA	NA	NA	0
+274002	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+274002	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+274002	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+274002	1	calluna_phase_devel	Beheermonitoringsschaal	zeer schaars	0.5	NA
+274002	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+274002	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+274002	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+274002	1	lowshrublayer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+274002	1	pioneer_coryn_aira	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+274002	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+274002	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+274002	1	pioneer_phase_open_soil	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+274002	1	shrub_treelayer	NA	NA	NA	1
+274002	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+306130	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+306130	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+306130	1	calluna_phase_degen	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+306130	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+306130	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+306130	1	campylopus_introflexus	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+306130	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+306130	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+306130	1	pioneer_coryn_aira	Beheermonitoringsschaal	schaars	1	NA
+306130	1	pioneer_lichenen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+306130	1	pioneer_mos	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+306130	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+306130	1	shrub_treelayer	NA	NA	NA	45
+306130	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+308098	NA	shrub_treelayer	NA	NA	NA	75
+321169	NA	shrub_treelayer	NA	NA	NA	0
+327153	NA	shrub_treelayer	NA	NA	NA	0
+333385	NA	shrub_treelayer	NA	NA	NA	0
+370386	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+370386	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+370386	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+370386	1	calluna_phase_devel	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+370386	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+370386	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+370386	1	herbs	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+370386	1	lowshrublayer	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+370386	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+370386	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+370386	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+370386	1	pioneer_phase_open_soil	Beheermonitoringsschaal	afwezig	0	NA
+370386	1	shrub_treelayer	NA	NA	NA	0
+370386	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	herbs	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	lowshrublayer	Beheermonitoringsschaal	afwezig	0	NA
+386422	1	pioneer_coryn_aira	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+386422	1	pioneer_lichenen	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+386422	1	pioneer_mos	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+386422	1	pioneer_phase_open_soil	Beheermonitoringsschaal	zeer schaars	0.5	NA
+386422	1	shrub_treelayer	NA	NA	NA	25
+386422	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+386674	NA	shrub_treelayer	NA	NA	NA	0
+445266	1	brushwood	Beheermonitoringsschaal	schaars	1	NA
+445266	1	calluna_phase_climax	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+445266	1	calluna_phase_degen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+445266	1	calluna_phase_devel	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+445266	1	calluna_phase_pioneer	Beheermonitoringsschaal	schaars	1	NA
+445266	1	campylopus_introflexus	Beheermonitoringsschaal	talrijk	3	NA
+445266	1	herbs	Beheermonitoringsschaal	afwezig	0	NA
+445266	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+445266	1	pioneer_coryn_aira	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+445266	1	pioneer_lichenen	Beheermonitoringsschaal	weinig talrijk	1.5	NA
+445266	1	pioneer_mos	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+445266	1	pioneer_phase_open_soil	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+445266	1	shrub_treelayer	NA	NA	NA	20
+445266	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+452066	NA	shrub_treelayer	NA	NA	NA	0
+528582	NA	shrub_treelayer	NA	NA	NA	1
+556006	NA	shrub_treelayer	NA	NA	NA	0
+589110	NA	shrub_treelayer	NA	NA	NA	5
+605493	NA	shrub_treelayer	NA	NA	NA	0
+636561	NA	shrub_treelayer	NA	NA	NA	0
+643970	NA	shrub_treelayer	NA	NA	NA	0
+676914	NA	shrub_treelayer	NA	NA	NA	0
+677174	NA	shrub_treelayer	NA	NA	NA	0
+720369	NA	shrub_treelayer	NA	NA	NA	0
+792209	NA	shrub_treelayer	NA	NA	NA	0
+845457	NA	shrub_treelayer	NA	NA	NA	0
+853714	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+853714	1	calluna_phase_climax	Beheermonitoringsschaal	bedekkend	15	NA
+853714	1	calluna_phase_degen	Beheermonitoringsschaal	bedekkend	15	NA
+853714	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+853714	1	calluna_phase_pioneer	Beheermonitoringsschaal	afwezig	0	NA
+853714	1	campylopus_introflexus	Beheermonitoringsschaal	afwezig	0	NA
+853714	1	herbs	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+853714	1	lowshrublayer	Beheermonitoringsschaal	kwartbedekkend	37.5	NA
+853714	1	pioneer_coryn_aira	Beheermonitoringsschaal	afwezig	0	NA
+853714	1	pioneer_lichenen	Beheermonitoringsschaal	zeer schaars	0.5	NA
+853714	1	pioneer_mos	Beheermonitoringsschaal	zeer schaars	0.5	NA
+853714	1	pioneer_phase_open_soil	Beheermonitoringsschaal	schaars	1	NA
+853714	1	shrub_treelayer	NA	NA	NA	2
+853714	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	brushwood	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	calluna_phase_climax	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	calluna_phase_degen	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	calluna_phase_devel	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	calluna_phase_pioneer	Beheermonitoringsschaal	zeer schaars	0.5	NA
+863826	1	campylopus_introflexus	Beheermonitoringsschaal	bedekkend	15	NA
+863826	1	herbs	Beheermonitoringsschaal	bedekkend	15	NA
+863826	1	lowshrublayer	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	pioneer_coryn_aira	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+863826	1	pioneer_lichenen	Beheermonitoringsschaal	afwezig	0	NA
+863826	1	pioneer_mos	Beheermonitoringsschaal	halfbedekkend	62.5	NA
+863826	1	pioneer_phase_open_soil	Beheermonitoringsschaal	bedekkend	15	NA
+863826	1	shrub_treelayer	NA	NA	NA	0.3
+863826	1	sphagnumlayer	Beheermonitoringsschaal	afwezig	0	NA
+919185	NA	shrub_treelayer	NA	NA	NA	0
+968217	NA	shrub_treelayer	NA	NA	NA	0
+984721	NA	shrub_treelayer	NA	NA	NA	0
+1152657	NA	shrub_treelayer	NA	NA	NA	0
+1177233	NA	shrub_treelayer	NA	NA	NA	0
+1280278	NA	shrub_treelayer	NA	NA	NA	0
+1487746	NA	shrub_treelayer	NA	NA	NA	1
+1569666	NA	shrub_treelayer	NA	NA	NA	1
+1618818	NA	shrub_treelayer	NA	NA	NA	2
+2867990	NA	shrub_treelayer	NA	NA	NA	0
+3068802	NA	shrub_treelayer	NA	NA	NA	0

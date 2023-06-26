@@ -1,0 +1,18 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  - layer
+  hash: 576e2a197e801aaac77d7ccffb11069ec1a86ab1
+  data_hash: 805c5a1a6b6a85132720fd3a0917f89a131290a8
+plot_id:
+  class: integer
+segment_id:
+  class: integer
+layer:
+  class: character
+cover:
+  class: integer

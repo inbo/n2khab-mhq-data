@@ -1,0 +1,36 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: 7acf3d3364e7dfa6ac1cb3361ec340af88cf6fc7
+  data_hash: e9a8eb827ea6e5d247e49eca5ed08d955dd4ca4f
+plot_id:
+  class: character
+sampling_unit_code:
+  class: character
+targethabitat:
+  class: character
+status_fieldwork:
+  class: character
+info_status_fieldwork:
+  class: character
+assessment_source:
+  class: character
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
+inaccessible:
+  class: logical
+not_measurable:
+  class: character
+type_observed:
+  class: character
+lsvi_measurement:
+  class: logical
+remark:
+  class: character
+structure_openhab_record:
+  class: logical
+cover_species_record:
+  class: logical
