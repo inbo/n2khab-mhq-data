@@ -91,6 +91,9 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     Grid_points.Ranking as plot_id,
     Grid_points.Add_date as date_status,
     Grid_points.SingleID as sampling_unit_code,
+    Grid_points.Habt1,
+    Grid_points.habsubt1,
+    Grid_points.EXTRA_SUBT,
     YesNo.Value1 as TargetHabitat,
     QINVAV.Value1 as status_fieldwork,
     QINVAV_EXTRA.Value1 as info_status_fieldwork,
@@ -670,6 +673,7 @@ check_coordinates_double <- coordinates %>%
   filter(n > 1)
 
 check_missing_data <- sample_status %>%
+  select(-habt1, -habsubt1) %>%
     filter(!is.na(plot_id)) %>%
   filter(!is.na(targethabitat)) %>%
     full_join(type_observed_plot, by = "plot_id") %>%
@@ -683,13 +687,7 @@ check_missing_data <- sample_status %>%
             not_measurable = ifelse(!is.na(info_status_fieldwork) 
                                    & info_status_fieldwork %in% c("opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)"), "short term", 
                                   ifelse(info_status_fieldwork %in% c("opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)"), "long term", NA)),
-            lsvi_measurement = ifelse(assessment_source == "field assessment" & 
-                                         !(info_status_fieldwork  %in% c("te hoge RANKING", "voldoende opnames beschikbaar", "opname nog niet 100% klaar")),
-                                ifelse(!is.na(targethabitat) & targethabitat == "ja", TRUE, FALSE),
-                                FALSE), 
-            lsvi_measurement = ifelse(inaccessible %in% c("short term", "long term") | not_measurable %in% c("short term", "long term"), FALSE, lsvi_measurement), 
-            # assessment_source = ifelse(inaccessible %in% c("short term", "long term"), NA, assessment_source)
-           
+            lsvi_measurement = info_status_fieldwork == "100% afgewerkt",
            , completed = ifelse(lsvi_measurement,
                               ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork != "100% afgewerkt", FALSE, TRUE),NA), 
          coordinates_record = plot_id %in% coordinates$plot_id, 
@@ -702,14 +700,17 @@ check_missing_data <- sample_status %>%
          structure_openhab_record = ifelse(db == "openhab" | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
   mutate(plot_id = as.character(plot_id))
 
+sample_status <- sample_status %>%
+  select(-habt1, -habsubt1) %>%
+  filter(remark != "opname door INBO ikv verdroging" | is.na(remark))
 
 assessments_openhab <- check_missing_data %>%
   filter(db == "openhab") %>%
-  mutate(date_assessment = if_else(is.na(date_assessment), as.Date(date_status), date_assessment)) %>%
+  filter(remark != "opname door INBO ikv verdroging" | is.na(remark)) %>%
     select(plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
 
 check <- assessments_openhab %>%
-  group_by(sampling_unit_code) %>%
+  group_by(plot_id) %>%
   filter(n() > 1 )
 
 ```
@@ -774,7 +775,39 @@ check_missing_data_openhab2 %>%
     datatable(filter = "top",
             rownames = FALSE)
 ```
+## Not measurable plots
 
+In the table below an overview of the unmeasurable plots.
+
++ Plots 100297, 297201, 231702 seem to be 'temporarily unmeasurable' instead of 'unmeasurable'. A measurment before the of mowing might be possible.
++ Assessment date is missing for 3 plots.
+
+```{r}
+not_measurable <- assessments_openhab %>%
+  filter(str_detect(info_status_fieldwork, "opname onmogelijk"))
+
+not_measurable %>%
+  select(plot_id, targethabitat, status_fieldwork, info_status_fieldwork,  date_assessment, remark) %>%
+  datatable(filter = "top",
+            rownames = FALSE)
+```
+
+```{r}
+# to be changed in database
+
+sample_status <- sample_status %>%
+  mutate(info_status_fieldwork = ifelse(plot_id %in% c(100297, 297201, 231702),
+                                        "opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)",
+                                        info_status_fieldwork))
+
+assessments_openhab <- assessments_openhab %>%
+  mutate(not_measurable = ifelse(plot_id %in% c(100297, 297201, 231702),
+                                        "short term",
+                                        not_measurable),
+         assessment_source = ifelse(plot_id %in% c(100297, 297201, 231702),
+                                        "field assessment",
+                                        assessment_source))
+```
 
 
 ## Overview of assessments
@@ -840,5 +873,178 @@ write_vc(assessments_openhab, root = path,  "assessments_openhab", sorting = "pl
 write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
 
 
+```
+# Update .vc file
+
+```{r, eval = FALSE}
+date_assessment_old <- read_vc(file = "date_assessment", root = "../../processed/fieldmap_mhq")
+
+check_overlap <- date_assessment %>%
+  semi_join(date_assessment_old, by = c("plot_id", "date_assessment"))
+
+check_double_assess <- date_assessment_old %>%
+  group_by(plot_id) %>%
+  filter(n() > 1)
+
+# plot_id / assessment_date is unique for all records; should be in all tables when updating
+
+# sample_status
+
+sample_status_old <- read_vc(file = "sample_status", root = "../../processed/fieldmap_mhq") %>%
+  left_join(select(date_assessment_old, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything()) %>%
+  mutate(date_status = as.Date(date_status, format = "%Y-%m-%d"),
+         date_assessment = if_else(is.na(date_assessment), date_status, date_assessment)) %>%
+  filter(!is.na(plot_id))
+
+sample_status_old_select <- sample_status_old %>%
+  group_by(plot_id) %>%
+  filter(date_status == max(date_status)) %>%
+  ungroup() %>%
+  select(-navplot_id, -veg_done, -reg_done, -dendro_done, -remark4, -springveg, -info_springveg) %>%
+  filter(!(plot_id == "1296105" & is.na(remark)))
+
+check_double <- sample_status_old_select %>%
+  group_by((plot_id)) %>%
+  filter(n() > 1)
+
+# bij bos nog verouderde categorieën --> aanpassen
+sample_status_old_forest <- sample_status_old_select %>%
+  filter(db == "foresthab") %>%
+  mutate(status_fieldwork = ifelse(is.na(info_status_fieldwork), "Opname volledig uitgevoerd",
+                                ifelse(info_status_fieldwork == "Geen opname : geen doelhabitat", "Niet van toepassing",
+                                        ifelse(info_status_fieldwork %in% c("Geen opname : geen toelating",
+                                                                            "Geen opname : permanent nt toegankelijk",
+                                                                            "Geen opname : tijdelijk nt toeg"), "Geen opname uitgevoerd",
+                                               ifelse(info_status_fieldwork == "Geen (volledig) terreinbezoek uitgevoerd", "Opname gedeeltelijk uitgevoerd", NA)))),
+         info_status_fieldwork = ifelse(is.na(info_status_fieldwork), "100% afgewerkt",
+                                       ifelse(info_status_fieldwork == "Geen opname : geen doelhabitat", "nvt - geen doelhabitat", 
+                                            ifelse(info_status_fieldwork %in% c("Geen opname : geen toelating", "Geen opname : permanent nt toegankelijk"), "geen toestemming/geen toegang (eigenaar/hond/vee)",
+                                                   ifelse(info_status_fieldwork == "Geen opname : tijdelijk nt toeg", "opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)", "opname nog niet 100% klaar")))))
+
+sample_status_old <- sample_status_old_select %>%
+  filter(db == "openhab") %>%
+  bind_rows(sample_status_old_forest)
+
+sample_status_new <- sample_status %>%
+  left_join(date_assessment) %>%
+   mutate(date_status = as.Date(date_status, format = "%Y-%m-%d"),
+         date_assessment = if_else(is.na(date_assessment), date_status, date_assessment)) %>%
+  select(plot_id, date_assessment, everything()) %>%
+  select(-extra_subt)
+
+sample_status_update <- sample_status_old %>%
+  bind_rows(sample_status_new) %>%
+  arrange(date_assessment)
+
+check <- sample_status_update %>%
+  group_by(plot_id) %>%
+  filter(n() > 1)
+
+write_vc(sample_status_update, file = "sample_status", root = "../../processed/fieldmap_mhq", sorting = c("plot_id", "date_assessment"), strict = FALSE)
+
+# type_observed
+
+type_observed_old <- read_vc(file = "type_observed", root = "../../processed/fieldmap_mhq")  %>%
+  inner_join(select(sample_status_old_select, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+type_observed_new <- type_observed %>%
+  inner_join(select(sample_status_new, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything()) %>%
+  select(-date_standdescription)
+
+type_observed_update <- type_observed_old %>%
+  bind_rows(type_observed_new)
+
+check <- type_observed_update %>%
+  group_by(plot_id, segment_id, date_assessment) %>%
+  filter(n() > 1)
+
+type_observed_update <- type_observed_update %>%
+  filter(!(plot_id == 659794 & type_observed_square == "infrastructuur"))
+
+write_vc(type_observed_update, file = "type_observed", root = "../../processed/fieldmap_mhq",
+         sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
+
+# cover species
+
+cover_species_old <-  read_vc(file = "cover_species", root = "../../processed/fieldmap_mhq")  %>%
+  inner_join(select(sample_status_old, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+cover_species_new <- cover_species %>%
+  inner_join(select(sample_status_new, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+cover_species_update <- cover_species_old %>%
+  bind_rows(cover_species_new)
+
+check <- cover_species_update %>%
+  group_by(plot_id) %>%
+  filter(n_distinct(date_assessment) > 1)
+
+check_missing_cover <- cover_species_new %>%
+  filter(is.na(cover_mean))
+
+write_vc(cover_species_update, file = "cover_species", root = "../../processed/fieldmap_mhq",
+         sorting = c("plot_id", "date_assessment", "layer", "name_nl"), strict = FALSE)
+
+# cover veglayers
+
+cover_veglayers_old <-  read_vc(file = "cover_veglayers", root = "../../processed/fieldmap_mhq")  %>%
+  inner_join(select(sample_status_old, plot_id, date_assessment, status_fieldwork, info_status_fieldwork), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+cover_veglayers_new <- cover_veglayers %>%
+  inner_join(select(sample_status_new, plot_id, date_assessment, status_fieldwork, info_status_fieldwork), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+cover_veglayers_update <- cover_veglayers_old %>%
+  bind_rows(cover_veglayers_new) %>%
+  select(-status_fieldwork, -info_status_fieldwork)
+
+check <- cover_veglayers_update %>%
+  group_by(plot_id) %>%
+  filter(n_distinct(date_assessment) > 1)
+
+check_missing_cover <- cover_veglayers_new %>%
+  group_by(plot_id, info_status_fieldwork) %>%
+  summarise(all_na = all(is.na(cover)),
+            some_na = any(is.na(cover)),
+            n_missing = sum(is.na(cover))) %>%
+  ungroup() %>%
+  filter(all_na | some_na)
+
+check_missing_cover_old <- cover_veglayers_old %>%
+  group_by(plot_id, info_status_fieldwork) %>%
+  summarise(all_na = all(is.na(cover) & is.na(cover_mean)),
+            some_na = any(is.na(cover) & is.na(cover_mean)),
+            n_missing = sum(is.na(cover) & is.na(cover_mean))) %>%
+  ungroup() %>%
+  filter(all_na | some_na)
+
+write_vc(cover_veglayers_update, file = "cover_veglayers", root = "../../processed/fieldmap_mhq",
+         sorting = c("plot_id", "segment_id", "date_assessment", "layer"), strict = FALSE)
+
+# structure vars
+
+structure_vars_old <-  read_vc(file = "structure_vars", root = "../../processed/fieldmap_mhq")  %>%
+  inner_join(select(sample_status_old, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+structure_vars_new <- structure_vars %>%
+  inner_join(select(sample_status_new, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+structure_vars_update <- structure_vars_old %>%
+  bind_rows(structure_vars_new)
+
+check <- structure_vars_update %>%
+  group_by(plot_id) %>%
+  filter(n_distinct(date_assessment) > 1)
+
+write_vc(structure_vars_update, file = "structure_vars", root = "../../processed/fieldmap_mhq",
+         sorting = c("plot_id", "segment_id", "date_assessment", "structure_var"), strict = FALSE)
 ```
 
