@@ -1,13 +1,14 @@
 ..generic:
-  git2rdata: 0.3.1
+  git2rdata: 0.4.0
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - segment_id
+  - date_assessment
   - structure_var
-  hash: b8917885734ae48f606b99505e811bbd02fa859e
-  data_hash: ce9e1b08165bda0b7fa6ded304306290528050ee
+  hash: 23d32a4fdb6bd5ad8badcfb908c76b1f101db941
+  data_hash: 2d48818319e60092a20c87f581d82f742d12ff1b
 plot_id:
   class: integer
 segment_id:
@@ -22,3 +23,6 @@ cover_mean:
   class: numeric
 cover:
   class: numeric
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
