@@ -1,1057 +1,1160 @@
-plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observed_cover_circle
-457	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-734	4010	4010	NA	1	100
-990	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-2182	geen habitat 	NA	bos	1	100
-2198	9160	NA	bos	1	73
-2198	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	2	27
-2610	4030	4030	NA	1	100
-2742	91E0_vo	NA	bos	1	100
-3026	4030	4030	NA	1	98
-3026	infrastructuur	4030	NA	2	2
-3894	9120	NA	bos	1	100
-3970	9160	NA	bos	1	99
-3970	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	2	1
-4242	geen habitat 	NA	NA	1	100
-4729	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-4945	9130_end	NA	bos	1	100
-5046	onbekend	NA	NA	1	NA
-5046	NA	NA	NA	2	100
-5330	2310	2310	NA	1	100
-5422	4 : heide- en struikvegetaties	4030	NA	1	100
-5702	geen habitat 	NA	bos	1	100
-6110	geen habitat 	NA	NA	1	100
-6182	6510	6510_hua	NA	1	100
-6278	9160	NA	bos	1	100
-6962	onbekend	onbekend	NA	1	100
-7078	geen habitat 	NA	bos	1	100
-7145	9160	NA	bos	1	100
-7401	geen habitat 	NA	NA	1	100
-7785	9190	NA	bos	1	100
-8121	91E0_vc	NA	bos	1	100
-8217	9130_end	NA	bos	1	100
-8550	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-8786	4030	4030	NA	1	100
-8893	2310	2310	NA	1	100
-9078	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-9169	9120	NA	NA	1	100
-9262	9120	NA	bos	1	100
-9641	NA	NA	NA	1	100
-9657	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-9938	4030	4030	NA	1	100
-10354	9160	NA	bos	1	100
-10513	9130_end	NA	bos	1	100
-10706	2310	2310	NA	1	100
-10774	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-10834	geen habitat 	NA	NA	1	100
-10841	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-11126	9120	NA	bos	1	58
-11126	geen habitat 	NA	andere (stort, grondwinning,…)	2	42
-11218	4010	4010	NA	1	100
-11481	9130_end	NA	bos	1	100
-11742	4010	4010	NA	1	100
-11865	91E0_vc	NA	bos	1	100
-12274	4030	4030	NA	1	100
-12409	geen habitat 	NA	bos	1	100
-12470	91E0_vm	NA	bos	1	100
-12710	9120	NA	bos	1	100
-13022	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-13686	4030	4030	NA	1	100
-14161	geen habitat 	NA	NA	1	100
-14457	geen habitat 	NA	bos	1	100
-15070	4010	4010	NA	1	100
-15150	geen habitat 	NA	NA	1	100
-15465	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-15478	geen habitat 	NA	bos	1	100
-15782	91E0_vc	NA	bos	1	100
-16633	91E0_vc	NA	bos	1	96
-16633	geen habitat 	NA	water (poel, vijver, beek)	2	4
-18290	9160	NA	bos	1	62
-18290	geen habitat 	NA	akker	2	38
-18546	6510_hu	6510_hu	NA	1	89
-18546	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	11
-18898	9190	NA	bos	1	71
-18898	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	2	13
-18898	geen habitat 	NA	bos	3	16
-19158	geen habitat 	NA	NA	1	100
-19762	9190	NA	bos	1	100
-20178	2310	2310	NA	1	100
-20217	6510_hu	6510_hu	NA	1	100
-20274	9160	NA	bos	1	100
-20406	4030	4030	NA	1	100
-20470	91E0_vm	NA	bos	1	100
-20614	9120	NA	bos	1	100
-21025	9130_end	NA	bos	1	100
-21430	4030	4030	NA	1	77
-21430	geen habitat (akker, houtkant, tuin,...)	4030	NA	2	23
-21714	2330_bu	2330_bu	NA	1	100
-22290	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-22726	9160	NA	bos	1	100
-23238	9160	NA	bos	1	100
-23257	9130	NA	bos	1	75
-23257	91E0_vc	NA	bos	2	25
-23385	9130_end	NA	bos	1	100
-23538	4010	4010	NA	1	100
-23762	2310	2310	NA	1	100
-24450	onbekend	NA	NA	1	100
-26262	geen habitat 	NA	NA	1	100
-26322	4030	4030	NA	1	100
-26393	91E0_vc	NA	bos	1	100
-26822	9160	NA	bos	1	100
-27090	2310	2310	NA	1	100
-27474	9190	NA	bos	1	100
-27602	4030	4030	NA	1	100
-27954	NA	NA	NA	1	100
-28126	4010	4010	NA	1	100
-28370	2310	2310	NA	1	87
-28370	9 : bossen	2310	NA	2	13
-28546	9130	NA	bos	1	100
-28658	4030	4030	NA	1	100
-28902	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-29202	NA	NA	NA	1	100
-29406	2310	2330_bu	NA	1	100
-29558	geen habitat 	NA	NA	1	100
-29622	2310	2310	NA	1	70
-29622	infrastructuur	2310	NA	2	16
-29622	2330	2310	NA	3	14
-30153	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-31297	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-31401	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-31414	91E0_vo	NA	bos	1	100
-31797	geen habitat (akker, houtkant, tuin,...)	infrastructuur	NA	1	100
-32466	2310	2310	NA	1	100
-32681	NA	NA	NA	1	100
-33502	4030	4030	NA	1	100
-33718	2330_bu	2330_bu	NA	1	100
-34002	geen habitat (akker, houtkant, tuin,...)	onbekend	NA	1	100
-34514	2310	2310	NA	1	100
-35090	4010	4010	NA	1	100
-35113	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-35361	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-35794	2310	2310	NA	1	79
-35794	infrastructuur	2310	NA	2	21
-36774	9120	NA	bos	1	100
-37033	NA	NA	NA	1	100
-37330	4030	4030	NA	1	100
-37798	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-38006	geen habitat 	NA	NA	1	100
-38098	2310	2310	NA	1	84
-38098	infrastructuur	2310	NA	2	16
-38545	6510_hua	6510_hua	NA	1	100
-40054	4010	4010	NA	1	100
-40146	4030	4030	NA	1	73
-40146	infrastructuur	4030	NA	2	27
-41814	6510_hu	6510_hu	NA	1	64
-41814	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	27
-41814	6 : (half) natuurlijke graslanden	6510_hu	NA	3	9
-42706	geen habitat 	NA	NA	1	100
-42934	4030	4030	NA	1	100
-43230	4010	4010	NA	1	100
-43566	4030	4030	NA	1	100
-43858	2330_bu	2330_bu	NA	1	100
-44626	4030	4030	NA	1	100
-45526	91E0_vo	NA	bos	1	100
-45790	2310	2310	NA	1	100
-46006	4030	4030	NA	1	100
-46662	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	3	28
-46662	6510_hu	6510_hu	NA	4	72
-47446	6510_hu	6510_hu	NA	1	54
-47446	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	46
-47666	4030	4030	NA	1	100
-50102	4030	4030	NA	1	100
-53126	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-53561	91E0_vc	NA	bos	1	4
-53561	9130_end	NA	bos	2	50
-53561	91E0_va	NA	bos	3	46
-53970	91E0_vm	NA	bos	1	100
-54482	4030	4030	NA	1	100
-54994	4030	4030	NA	1	100
-55058	2330_bu	2330_bu	NA	1	100
-59858	2310	2310	NA	1	100
-60894	4030	4010	NA	1	100
-61522	onbekend	onbekend	NA	1	100
-62141	4010	4010	NA	1	80
-62141	onbekend	4010	NA	2	20
-62174	2310	2310	NA	1	100
-62697	onbekend	onbekend	NA	1	100
-63270	6510_hu	6510_hu	NA	1	58
-63270	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	42
-63921	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-65234	4010	4010	NA	1	100
-65522	4010	4010	NA	1	100
-66006	2310	2310	NA	1	100
-66270	4010	4010	NA	1	100
-67161	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-68562	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-69097	NA	NA	NA	1	100
-69385	onbekend	onbekend	NA	1	100
-69558	infrastructuur	infrastructuur	NA	1	100
-70582	geen habitat (akker, houtkant, tuin,...)	infrastructuur	NA	1	100
-70866	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-71902	4010	4010	NA	1	100
-72690	4030	4030	NA	1	100
-75126	onbekend	NA	NA	1	100
-75474	4030	4030	NA	1	100
-76242	4010	4010	NA	1	80
-76242	infrastructuur	4010	NA	2	20
-76294	9130	NA	NA	1	100
-76754	2310	2310	NA	1	100
-77278	4010	4010	NA	1	100
-77394	4030	4030	NA	1	100
-78294	6510_hu	6510_hu	NA	1	100
-78558	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-79089	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-79986	6510_hu	6510_hu	NA	1	69
-79986	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	31
-81374	4010	4010	NA	1	100
-81638	geen habitat 	NA	NA	1	100
-81985	2330	2310	NA	1	100
-82222	4030	4030	NA	1	92
-82222	infrastructuur	4030	NA	2	8
-82654	4010	4010	NA	1	100
-82870	9 : bossen	9 : bossen	NA	1	100
-84946	2310	2310	NA	1	100
-85529	91E0_vo	NA	bos	1	68
-85529	geen habitat 	NA	grasland	2	32
-85714	infrastructuur	NA	NA	1	100
-85890	91E0_vc	NA	bos	1	72
-85890	9160	NA	bos	2	21
-85890	geen habitat 	NA	water (poel, vijver, beek)	3	2
-85890	geen habitat 	NA	grasland	4	5
-87250	4010	4010	NA	1	100
-88274	9190	NA	bos	1	67
-88274	geen habitat 	NA	bos	2	33
-89310	NA	NA	NA	1	100
-90846	2310	2310	NA	1	100
-91122	4030	4030	NA	1	57
-91122	infrastructuur	4030	NA	2	10
-91122	9 : bossen	4030	NA	3	32
-91186	6510_hu	6510_hu	NA	1	100
-91410	4030	4030	NA	1	100
-91446	onbekend	onbekend	NA	1	100
-91510	2330_bu	2330_bu	NA	1	100
-91614	4010	4010	NA	1	100
-92126	4030	4030	NA	1	100
-92382	4030	4030	NA	1	91
-92382	3 : zoetwaterhabitats	4030	NA	2	9
-93138	2310	2310	NA	1	100
-94194	9 : bossen	NA	NA	1	100
-94942	4010	4010	NA	1	100
-95158	2310	2310	NA	1	72
-95158	infrastructuur	2310	NA	2	28
-95218	4030	4030	NA	1	100
-95710	4010	4010	NA	1	98
-95710	onbekend	4010	NA	2	2
-96217	91E0_vc	NA	bos	1	5
-96217	9130_end	NA	bos	2	95
-96978	2310	2310	NA	1	100
-98002	2310	2310	NA	1	100
-98705	NA	NA	NA	1	100
-99521	6510_hu	6510_hu	NA	1	56
-99521	infrastructuur	6510_hu	NA	2	44
-100050	4010	4010	NA	1	76
-100050	2310	4010	NA	2	24
-100297	6510_hu	6510_hu	NA	0	18
-100297	infrastructuur	6510_hu	NA	1	22
-100297	onbekend	6510_hu	NA	2	60
-100626	4030	4010	NA	1	100
-102098	2310	2310	NA	1	100
-103350	onbekend	infrastructuur	NA	1	100
-103609	91E0_vc	NA	bos	1	40
-103609	9130_end	NA	bos	2	60
-103634	4030	4030	NA	1	100
-104342	91E0_vc	NA	bos	1	100
-105006	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-105682	2310	2310	NA	1	100
-106614	4010	4010	NA	1	100
-111326	4010	4010	NA	1	100
-111918	4030	4030	NA	1	100
-112850	4030	4030	NA	1	100
-112889	9130	NA	NA	1	100
-114386	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-114654	9 : bossen	9 : bossen	NA	1	100
-115334	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-115422	2310	2310	NA	1	100
-115638	4030	4030	NA	1	100
-116434	2310	2310	NA	1	100
-116518	6510_hu	6510_hu	NA	1	100
-116946	9 : bossen	NA	NA	1	100
-117202	2310	2310	NA	1	100
-117878	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-118441	6510_hu	6510_hu	NA	1	12
-118441	6510	6510_hu	NA	2	26
-118441	infrastructuur	6510_hu	NA	3	20
-118441	onbekend	6510_hu	NA	4	42
-120018	4010	4010	NA	1	100
-120110	4010	4010	NA	1	100
-120530	4030	4030	NA	1	100
-121042	91E0_vo	NA	bos	1	100
-121734	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-122578	4010	4010	NA	1	73
-122578	infrastructuur	4010	NA	2	13
-122578	9 : bossen	4010	NA	3	14
-123614	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-124278	2310	2310	NA	1	100
-124382	4010	4010	NA	1	100
-124806	6510_hu	6510_hu	NA	1	100
-125394	2310	2310	NA	1	100
-125998	4030	4030	NA	1	87
-125998	onbekend	4030	NA	2	13
-126430	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-127218	6510_hu	6510_hu	NA	1	100
-127622	6510_hu	6510_hu	NA	1	100
-127710	4 : heide- en struikvegetaties	2310	NA	1	100
-128350	onbekend	onbekend	NA	1	100
-128786	4030	4030	NA	1	100
-129234	4010	4010	NA	1	100
-131806	4010	4010	NA	1	100
-131958	NA	NA	NA	1	100
-132818	91E0_vm	NA	bos	1	77
-132818	geen habitat 	NA	heide	2	23
-134098	2310	2310	NA	1	100
-136402	4030	4030	NA	1	100
-136466	6510_hus	6510_hus	NA	1	100
-136697	91E0_vc	NA	bos	1	100
-137401	91E0_va	NA	bos	1	100
-138226	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-139577	geen habitat 	NA	bos	1	100
-140006	9190	NA	bos	1	100
-140374	geen habitat 	NA	NA	1	100
-141778	4010	4010	NA	1	100
-143382	6510_hu	6510_hu	NA	0	92
-143382	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	8
-143602	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-144094	2310	2310	NA	1	100
-146265	91E0_vc	NA	bos	1	89
-146265	geen habitat 	NA	NA	2	11
-146486	6510_hu	6510_hu	NA	1	100
-147174	9190	NA	bos	1	100
-148406	4030	4030	NA	1	100
-149225	NA	NA	NA	1	100
-150902	91F0	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-150962	onbekend	onbekend	NA	1	100
-151250	2310	2310	NA	1	100
-151318	6510_hu	6510_hu	NA	1	100
-151350	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-151830	infrastructuur	infrastructuur	NA	1	100
-152769	onbekend	NA	NA	1	100
-152786	2310	2310	NA	1	70
-152786	2330_bu	2310	NA	2	30
-154834	2330_bu	2330_bu	NA	1	100
-155346	91E0_vo	NA	bos - kapvlakte	1	100
-156382	2310	2310	NA	1	100
-158002	2310	2310	NA	1	100
-159314	4030	4030	NA	1	100
-159401	NA	NA	NA	1	100
-159414	91E0_vo	NA	bos	1	83
-159414	9120	NA	bos	2	17
-160374	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-160694	4030	4030	NA	1	100
-162749	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-162790	6510_hu	6510_hu	NA	1	69
-162790	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	31
-162898	onbekend	onbekend	NA	1	100
-163513	geen habitat 	NA	bos	1	100
-163538	2310	2310	NA	1	100
-164793	91E0_vc	NA	bos	1	18
-164793	9130_end	NA	bos	2	80
-164793	geen habitat 	NA	akker	3	2
-165586	4030	4030	NA	1	100
-165913	91E0_vc	NA	bos	1	78
-165913	geen habitat 	NA	NA	2	22
-166102	2310	2310	NA	1	100
-167286	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-167606	geen habitat 	NA	NA	1	100
-168886	4030	4030	NA	1	100
-169170	4030	4030	NA	1	100
-170206	4030	4030	NA	1	100
-170834	2330_bu	2330_bu	NA	1	100
-174546	2310	2310	NA	1	100
-175698	4030	4030	NA	1	100
-176862	4010	4010	NA	1	100
-177078	2330_bu	2330_bu	NA	1	100
-177778	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-179922	2330_dw	2330_dw	NA	1	100
-179922	2310	2330_dw	NA	2	NA
-181234	4030	4030	NA	1	100
-182054	6510_hu	6510_hu	NA	1	100
-182482	4030	4030	NA	1	100
-183593	NA	NA	NA	1	100
-183734	6510_hu	6510_hu	NA	1	100
-185822	4030	4030	NA	1	100
-186850	6510_hu	6510_hu	NA	1	100
-188022	91E0_vo	NA	bos	1	100
-190162	4030	4030	NA	1	100
-190802	NA	NA	NA	1	100
-190902	6510_hu	6510_hu	NA	1	57
-190902	9 : bossen	6510_hu	NA	2	43
-191442	2310	2310	NA	1	100
-191442	2330_bu	2310	NA	2	47
-191698	4030	4030	NA	1	100
-191966	4030	4030	NA	1	100
-193246	4010	4010	NA	1	100
-195046	9120	NA	NA	1	100
-196022	91E0_vo	NA	bos	1	100
-196306	2310	2310	NA	1	100
-198137	91E0_vc	NA	bos	1	100
-199122	2310	2310	NA	1	100
-200630	4030	4030	NA	1	100
-200850	9190	NA	bos	1	100
-201689	91E0_vc	NA	bos	1	93
-201689	geen habitat 	NA	water (poel, vijver, beek)	2	7
-201938	NA	NA	NA	1	100
-205113	9130_end	NA	bos	1	100
-205501	4030	4030	NA	1	100
-206134	6510_hu	6510_hu	NA	1	80
-206134	infrastructuur	6510_hu	NA	2	20
-206546	2310	2310	NA	1	100
-207314	2310	2310	NA	1	100
-208134	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-208350	4010	4010	NA	1	100
-211193	91E0_vc	NA	bos	1	100
-212062	4030	4030	NA	1	100
-213138	91E0_vo	NA	bos	1	100
-213302	onbekend	onbekend	NA	1	100
-213726	4 : heide- en struikvegetaties	4010	NA	1	100
-213942	2330_bu	2330_bu	NA	1	100
-216018	4010	4010	NA	1	100
-216118	6510_hu	6510_hu	NA	1	100
-216438	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-216786	2310	2310	NA	1	100
-216786	2330_bu	2310	NA	2	8
-216798	9 : bossen	NA	NA	1	100
-217014	4030	4030	NA	1	100
-217049	geen habitat 	NA	NA	1	100
-218038	infrastructuur	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-218086	6510_hu	6510	NA	1	100
-218086	9 : bossen	6510	NA	2	40
-218162	6510_hu	6510_hu	NA	1	100
-218322	4030	4030	NA	1	100
-218834	geen habitat 	NA	NA	1	100
-219446	4030	4030	NA	1	100
-219694	91E0_vo	NA	bos	1	100
-220786	6510_huk	6510_huk	NA	1	100
-222194	4030	4030	NA	1	100
-222377	NA	NA	NA	1	100
-223570	onbekend	onbekend	NA	1	100
-224726	9160	NA	NA	1	100
-224850	4030	4030	NA	1	100
-225910	2330_bu	2330_bu	NA	1	100
-226014	4030	4030	NA	1	100
-226230	2330_bu	2330_bu	NA	1	26
-226230	4030	2330_bu	NA	2	74
-226606	4030	4030	NA	1	100
-229074	4010	4010	NA	1	100
-229074	2310	4010	NA	2	39
-230110	4010	4010	NA	1	100
-230930	91E0_vo	NA	bos	1	100
-231702	6510_hus	6510_hus	NA	1	89
-231702	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	1
-231702	onbekend	6510_hus	NA	3	10
-233398	4010	4010	NA	1	100
-233938	9 : bossen	NA	NA	1	100
-234297	91E0_vc	NA	bos	1	100
-234974	4030	4030	NA	1	100
-235822	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-236370	2330_bu	2330_bu	NA	1	100
-236530	4010	4010	NA	1	100
-236657	6510_hu	6510_hu	NA	1	100
-236754	2310	2310	NA	1	100
-237970	91E0_vo	NA	bos	1	100
-238313	NA	NA	NA	1	100
-238454	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-238902	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-239838	4030	4030	NA	1	100
-240466	2310	2310	NA	1	100
-240914	onbekend	NA	NA	1	100
-241234	4030	4030	NA	1	94
-241234	infrastructuur	4030	NA	2	6
-241650	4030	4030	NA	1	100
-242398	2310	2310	NA	1	100
-243698	4010	4010	NA	1	100
-243846	6510_hu	6510_hu	NA	1	100
-245458	2310	2310	NA	1	100
-248402	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	1	100
-248946	9160	NA	NA	1	100
-249846	91E0_vm	NA	NA	1	100
-251090	4010	4010	NA	1	100
-253593	91E0_vc	NA	bos	1	100
-255350	NA	NA	NA	1	100
-255826	6 : (half) natuurlijke graslanden	NA	NA	1	100
-256978	2310	2310	NA	1	100
-257081	91E0_vc	NA	bos	1	100
-258390	6510_hu	6510_hu	NA	1	100
-258782	2310	2310	NA	1	100
-260082	91E0_vo	NA	bos	1	100
-260306	4030	4030	NA	1	100
-261854	4010	4010	NA	1	100
-262038	geen habitat 	NA	NA	1	100
-262130	91E0_vo	NA	NA	1	100
-264566	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-265170	4010	4010	NA	1	100
-266294	2310	2310	NA	1	100
-266834	4030	4030	NA	1	67
-266834	9 : bossen	4030	NA	2	33
-267190	4030	4030	NA	1	100
-267222	NA	NA	NA	1	100
-267474	4030	4030	NA	1	100
-267513	91E0_vc	NA	bos	1	100
-269298	4010	4010	NA	1	100
-270034	geen habitat 	NA	NA	1	100
-271446	91E0_vo	NA	bos	1	100
-271782	6510_hus	6510_hu	NA	1	100
-272569	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-272850	4030	4030	NA	1	100
-275382	2310	2310	NA	1	100
-275830	4030	4030	NA	1	100
-277158	6510_hu	6510_hu	NA	1	100
-277214	4010	4010	NA	1	100
-277225	NA	NA	NA	1	100
-279146	NA	NA	NA	1	100
-279478	4010	4030	NA	1	100
-281554	2310	2310	NA	1	100
-281554	2330_bu	2310	NA	2	24
-282322	4030	4030	NA	1	68
-282322	2310	4030	NA	2	32
-282678	2310	2310	NA	1	100
-282793	onbekend	NA	NA	1	100
-284729	91E0_vc	NA	bos	1	100
-285906	2310	2310	NA	1	100
-289078	2330_bu	2330_bu	NA	1	100
-289234	2310	2310	NA	1	100
-289513	NA	NA	NA	1	100
-289746	2310	2310	NA	1	100
-290098	6510_hu	6510_hu	NA	1	100
-290870	2310	2310	NA	1	100
-292585	NA	NA	NA	1	100
-293598	4010	4010	NA	1	100
-294198	6510_hu	6510_hu	NA	1	100
-294610	2310	2310	NA	1	73
-294610	2330	2310	NA	2	14
-295862	2330_bu	2330_bu	NA	1	22
-295862	6 : (half) natuurlijke graslanden	2330_bu	NA	2	38
-295862	2310	2330_bu	NA	3	40
-296193	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-296658	4010	4010	NA	1	100
-296658	2330_dw	4010	NA	2	19
-296658	2310	4010	NA	3	30
-297234	2310	2310	NA	1	100
-298918	91E0_vn	NA	bos	1	100
-298937	91E0_vc	NA	bos	1	43
-298937	9130_end	NA	bos	2	25
-298937	geen habitat 	NA	water (poel, vijver, beek)	3	31
-300242	2310	2310	NA	1	100
-300534	91E0_vm	NA	bos	1	100
-302006	geen habitat 	NA	bos	1	100
-302290	2310	2310	NA	1	100
-304338	2310	2310	NA	1	100
-304850	4010	4010	NA	1	100
-306130	2310	2310	NA	1	100
-308098	6510_huk	6510_huk	NA	1	83
-308098	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	17
-310994	2310	2310	NA	1	100
-311282	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-311602	91E0_vo	NA	bos	1	76
-311602	geen habitat 	NA	bos	2	24
-312553	NA	NA	NA	1	100
-313305	91E0_vc	NA	bos	1	100
-313990	6510_hu	6510_hu	NA	1	100
-314802	onbekend	onbekend	NA	1	100
-315062	91E0_vo	NA	bos	1	100
-315318	2310	2310	NA	1	100
-315705	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-316114	91E0_vm	NA	NA	1	100
-316601	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-316626	4030	4030	NA	1	100
-317202	2330_bu	2330_bu	NA	1	100
-320902	91E0_vm	NA	bos	1	100
-322002	4010	4010	NA	1	100
-324318	2330_bu	2330_bu	NA	1	100
-327153	6510_hus	6510_hua	NA	1	73
-327153	6430_mr	6510_hua	NA	2	27
-330194	4010	4010	NA	1	100
-330706	2310	2310	NA	1	100
-330985	NA	NA	NA	1	100
-331702	2310	2310	NA	1	76
-331702	geen habitat (akker, houtkant, tuin,...)	2310	NA	2	24
-332726	4030	4030	NA	1	100
-333010	4030	4030	NA	1	100
-333385	6510_hu	6510_hu	NA	1	54
-333385	infrastructuur	6510_hu	NA	2	46
-335337	NA	NA	NA	1	100
-337270	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-337321	NA	NA	NA	1	100
-338386	2330_bu	2330_bu	NA	1	100
-338386	2310	2330_bu	NA	2	37
-338898	4010	4010	NA	1	100
-338898	2310	4010	NA	2	26
-340702	2310	2310	NA	1	100
-342750	4010	4010	NA	1	100
-344798	4010	4010	NA	1	100
-345014	2330_bu	2330_bu	NA	1	100
-346246	91E0_vm	NA	bos	1	100
-347090	2310	2310	NA	1	100
-347090	4010	2310	NA	2	10
-347858	4010	4010	NA	1	100
-349433	91E0_va	NA	bos	1	100
-357086	4010	4010	NA	1	100
-358610	4030	NA	NA	1	100
-359134	4010	4010	NA	1	100
-359449	geen habitat 	NA	NA	1	100
-359574	4030	2310	NA	1	100
-360146	2310	2310	NA	1	100
-361398	2330_bu	2330_bu	NA	1	100
-366225	6510_hua	6510_hua	NA	1	100
-372702	onbekend	NA	NA	1	100
-377522	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-380638	4010	4010	NA	1	100
-381350	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-381673	NA	NA	NA	1	100
-381878	4030	4030	NA	1	100
-385758	9 : bossen	9 : bossen	NA	1	100
-386422	2330_bu	2330_bu	NA	1	100
-386674	6510_hu	6510_hu	NA	1	83
-386674	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	17
-387538	2310	2310	NA	1	100
-389854	4030	NA	NA	1	100
-390801	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-391154	4010	4010	NA	1	100
-392342	2330_bu	2330_bu	NA	1	100
-392617	NA	NA	NA	1	100
-393950	4010	4010	NA	1	100
-394962	4010	4010	NA	1	100
-397238	4030	4030	NA	1	100
-398529	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	35
-398529	infrastructuur	6510_hu	NA	2	34
-398529	6510_hu	6510_hu	NA	3	31
-398546	2310	2310	NA	1	100
-398921	geen habitat (akker, houtkant, tuin,...)	onbekend	NA	1	100
-402418	9 : bossen	NA	NA	1	100
-409654	6510_hu	6510_hu	NA	1	84
-409654	9 : bossen	6510_hu	NA	2	16
-411446	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-416454	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-416998	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-417142	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-419538	7140_oli	NA	NA	1	100
-425385	NA	NA	NA	1	100
-425457	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-428057	91E0_vc	NA	bos	1	100
-429553	6 : (half) natuurlijke graslanden	6 : (half) natuurlijke graslanden	NA	1	100
-430713	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-431314	2330_bu	2330_bu	NA	1	100
-431494	91E0_vo	NA	bos	1	100
-433362	2310	2310	NA	1	100
-439922	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-442354	onbekend	onbekend	NA	1	100
-445266	2330_bu	2330_bu	NA	1	60
-445266	9 : bossen	2330_bu	NA	2	40
-446777	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-447209	NA	NA	NA	1	100
-450905	geen habitat 	NA	NA	1	100
-452066	6510	6510	NA	1	NA
-452066	infrastructuur	6510	NA	2	NA
-452066	geen habitat (akker, houtkant, tuin,...)	6510	NA	3	NA
-458194	2330_dw	2330_dw	NA	1	84
-458194	infrastructuur	2330_dw	NA	2	16
-458462	2310	2310	NA	1	100
-459222	2310	2310	NA	1	100
-463798	2310	2310	NA	1	100
-463833	91E0_vc	NA	bos	1	100
-466745	91E0_vc	NA	bos	1	100
-467257	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-468953	geen habitat 	NA	NA	1	100
-472889	91E0_vc	NA	bos	1	100
-473337	91E0_vc	NA	bos	1	100
-473833	NA	NA	NA	1	100
-476086	2330	2310	NA	1	32
-476086	2310	2310	NA	2	68
-477734	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-478889	NA	NA	NA	1	100
-480466	4030	4030	NA	1	100
-488054	2310	2310	NA	1	100
-488374	4030	4030	NA	1	100
-490998	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-491126	NA	NA	NA	1	100
-492470	4030	4030	NA	1	29
-492470	2330_bu	4030	NA	2	63
-492470	onbekend	4030	NA	3	8
-498514	2310	2310	NA	1	100
-498994	NA	NA	NA	1	100
-499129	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-501046	6510_hu	6510_hu	NA	1	100
-502610	2310	2310	NA	1	100
-503414	2330_bu	2330_bu	NA	1	100
-504542	2310	2310	NA	1	100
-515737	geen habitat 	NA	NA	1	100
-516441	91E0_vc	NA	bos	1	100
-520582	9120	NA	bos	1	100
-521090	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-523346	NA	NA	NA	1	100
-526898	2330_bu	2330_bu	NA	1	100
-528582	6510_hu	6510_hu	NA	1	73
-528582	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	27
-529334	4030	4030	NA	1	100
-541718	NA	NA	NA	1	100
-542834	NA	NA	NA	1	100
-546002	2310	2310	NA	1	100
-549254	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-551218	2310	2310	NA	1	100
-552537	91E0_vc	NA	bos	1	100
-556006	6510	6510_hu	NA	1	100
-558006	2330_bu	2330_bu	NA	1	76
-558006	onbekend	2330_bu	NA	2	24
-568146	9 : bossen	NA	NA	1	100
-570886	9130	NA	bos	1	100
-572934	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-576033	6510_hu	6510_hu	NA	1	54
-576033	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	46
-577849	onbekend - niet toegankelijk/weigering	NA	NA	1	100
-579958	2310	2310	NA	1	100
-583030	2330_bu	2330_bu	NA	1	100
-585810	onbekend	onbekend	NA	1	100
-589110	6510_hu	6510_hu	NA	1	100
-589698	6510	6510	NA	1	59
-589698	onbekend	6510	NA	2	41
-594870	4030	4030	NA	1	100
-602846	2330_bu	2330_bu	NA	1	100
-604274	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-605493	6510_hu	6510_hu	NA	1	53
-605493	infrastructuur	6510_hu	NA	2	47
-608550	6510_hu	6510_hu	NA	1	100
-612246	91E0_vm	NA	NA	1	100
-616665	91E0_vc	NA	bos	1	100
-624918	onbekend	onbekend	NA	1	100
-631129	geen habitat 	NA	NA	1	100
-635830	2310	2310	NA	1	100
-636561	6510_hus	6510_hus	NA	1	100
-638046	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-642482	infrastructuur	infrastructuur	NA	1	100
-642585	91E0_vc	NA	bos	1	100
-643970	6510	6510	NA	1	100
-648566	2330_bu	2330_bu	NA	1	100
-654873	geen habitat 	NA	NA	1	100
-656246	2330_bu	2330_bu	NA	1	100
-659330	onbekend	onbekend	NA	1	100
-659382	2330_bu	2330_bu	NA	1	100
-659794	6510_hu	6510_hu	NA	1	55
-659794	6510_hu	infrastructuur	NA	1	55
-659794	onbekend	6510_hu	NA	2	31
-659794	onbekend	infrastructuur	NA	2	31
-659794	infrastructuur	6510_hu	NA	3	14
-659794	infrastructuur	infrastructuur	NA	3	14
-673590	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-674070	onbekend	onbekend	NA	1	100
-676914	6510_hu	6510_hu	NA	1	100
-677174	6510_hu	6510_hu	NA	1	100
-684982	2310	2310	NA	1	100
-695122	9 : bossen	NA	NA	1	100
-714198	2330_bu	2330_bu	NA	1	100
-714230	2330_bu	2330_bu	NA	1	100
-720369	6510_hua	6510_hua	NA	1	100
-738230	2330_bu	2330_bu	NA	1	100
-742610	2330_bu	2330_bu	NA	1	100
-744742	6510_huk	6510_huk	NA	1	99
-744742	91F0	6510_huk	NA	2	1
-750198	2330_bu	2330_bu	NA	1	100
-750518	2330_bu	2330_bu	NA	1	100
-750646	6 : (half) natuurlijke graslanden	NA	NA	1	100
-751337	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-764754	2310	NA	NA	1	100
-766686	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-790454	2310	NA	NA	1	100
-791478	onbekend	onbekend	NA	1	100
-803766	2330_bu	2330_bu	NA	1	100
-808146	2330_bu	2330_bu	NA	1	100
-808722	2330_bu	2330_bu	NA	1	100
-816054	2310	2310	NA	1	100
-818673	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-821462	2330_bu	2330_bu	NA	1	100
-828626	9 : bossen	NA	NA	1	100
-830290	2310	NA	NA	1	100
-832386	6510_huk	6510_huk	NA	1	100
-837842	geen habitat (akker, houtkant, tuin,...)	91F0	NA	1	100
-845457	6510_hua	6510_hua	NA	1	100
-857281	6510_hu	6510_hu	NA	0	65
-857281	infrastructuur	6510_hu	NA	1	35
-863169	6510_hu	6510_hu	NA	0	36
-863169	onbekend	6510_hu	NA	1	64
-870694	6510_huk	6510_huk	NA	1	100
-877942	2330	2330_bu	NA	1	100
-881590	2330	2330	NA	1	100
-884022	6510_hu	6510_hu	NA	1	100
-884342	2330_bu	2330_bu	NA	1	100
-886994	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-901945	6510	NA	NA	1	100
-905190	6510_hu	6510_hu	NA	1	100
-915089	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-923209	6510_hu	6510_hu	NA	1	100
-934506	9 : bossen	9 : bossen	NA	1	100
-934838	2330_bu	2330_bu	NA	1	100
-937682	2330_bu	4030	NA	1	100
-938262	6510_hu	6510_hu	NA	1	100
-941682	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-943538	onbekend	onbekend	NA	1	100
-947126	4030	4030	NA	1	100
-961362	9 : bossen	NA	NA	1	100
-963294	2330_bu	2330_bu	NA	1	100
-968217	6510_hua	6510_hua	NA	1	100
-976246	2310	2310	NA	1	100
-980625	6510_hua	6510_hus	NA	1	100
-983510	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-987062	2310	NA	NA	1	100
-988817	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-998709	6510_hus	6510_hu	NA	1	100
-1000374	4010	4030	NA	1	100
-1003230	2330_bu	2330_bu	NA	1	100
-1007490	6510	6510	NA	1	100
-1012662	4030	4030	NA	1	100
-1018841	6510_hu	6510_hu	NA	1	100
-1020370	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1023282	6510	6510	NA	1	100
-1026898	9 : bossen	NA	NA	1	100
-1027026	2310	NA	NA	1	100
-1042034	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1043410	2330_bu	2330_bu	NA	1	100
-1048049	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1052582	6510_hu	6510_hu	NA	1	100
-1053622	2330_bu	2330_bu	NA	1	100
-1056722	9 : bossen	NA	NA	1	100
-1062514	6510_hu	6510_hu	NA	1	100
-1065910	2330_bu	2330_bu	NA	1	100
-1068793	6510_hu	6510_hu	NA	1	100
-1076854	2330_bu	2330_bu	NA	1	100
-1078198	4030	4030	NA	1	100
-1080817	onbekend	onbekend	NA	1	100
-1085366	2330_bu	2330_bu	NA	1	68
-1085366	9 : bossen	2330_bu	NA	2	32
-1092434	2330_bu	2330_bu	NA	1	100
-1097222	6510_hu	6510_hu	NA	1	100
-1099986	91F0	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1110750	2330_bu	2330_bu	NA	1	100
-1114582	2330_bu	2330_bu	NA	1	100
-1119158	2310	2310	NA	1	100
-1119506	6510_hus	6510_hus	NA	1	100
-1131446	2330_bu	2330_bu	NA	1	100
-1132838	6510_hu	6510_hu	NA	1	100
-1140086	2330_bu	2330_bu	NA	1	100
-1143734	4030	4030	NA	1	100
-1152657	6510_hua	6510_huk	NA	1	100
-1163750	6510_hu	6510_hu	NA	1	100
-1172854	2330_bu	2330_bu	NA	1	100
-1175794	6510_hu	6510_hu	NA	1	110
-1175794	infrastructuur	6510_hu	NA	2	8
-1180534	2330	2330_bu	NA	1	100
-1185042	6510_hu	6510_hu	NA	1	100
-1196982	2330_bu	2330_bu	NA	1	100
-1201345	6510_hu	6510_hu	NA	1	100
-1205598	onbekend	onbekend	NA	1	100
-1208950	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1209270	2330	2330	NA	1	100
-1213150	4030	2330_bu	NA	1	100
-1214742	onbekend	onbekend	NA	1	100
-1227910	6510_hu	6510_hu	NA	1	100
-1234130	4030	4030	NA	1	100
-1246865	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1250770	2330_bu	2330_bu	NA	1	100
-1259822	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1260481	6510_hu	6510_hu	NA	1	100
-1262518	4030	4030	NA	1	100
-1266738	6510_hu	6510_hu	NA	1	60
-1266738	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	NA
-1269030	6510_huk	6510_huk	NA	1	NA
-1269030	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	100
-1271122	6510_hu	6510_hu	NA	1	100
-1271122	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	27
-1272114	2330_dw	2330_dw	NA	1	43
-1272114	infrastructuur	2330_dw	NA	2	27
-1272114	9 : bossen	2330_dw	NA	3	30
-1274486	2330_bu	2330_bu	NA	1	100
-1274806	4030	4030	NA	1	100
-1280278	6510_hus	6510_hus	NA	1	100
-1284946	2330_bu	2330_bu	NA	1	100
-1285330	2330_bu	2330	NA	1	100
-1287030	2330_bu	2330_bu	NA	1	100
-1287030	6 : (half) natuurlijke graslanden	2330_bu	NA	2	100
-1296105	9 : bossen	NA	NA	1	100
-1297718	2330_bu	2330_bu	NA	1	100
-1300962	6510_hu	6510_hu	NA	1	100
-1303926	2330_bu	2330_bu	NA	1	100
-1311190	9 : bossen	9 : bossen	NA	1	100
-1313142	2330_bu	2330_bu	NA	1	100
-1315766	4030	4010	NA	1	100
-1328054	2330_bu	2330_bu	NA	1	100
-1328710	6510_hu	6510_hu	NA	1	100
-1340342	2310	2310	NA	1	100
-1344438	4030	4030	NA	1	77
-1344438	2330_bu	4030	NA	2	23
-1350866	2330_bu	2330_bu	NA	1	100
-1353078	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1355014	6510_hu	6510_hu	NA	1	100
-1365778	NA	NA	NA	1	100
-1375542	6510_hu	6510_hu	NA	1	100
-1380278	2310	2310	NA	1	100
-1381302	2310	2310	NA	1	100
-1381569	6510_hu	6510_hu	NA	1	100
-1390706	6510_hu	6510_hu	NA	1	100
-1397810	6510	6510	NA	1	100
-1402230	2330_bu	2330_bu	NA	1	100
-1405382	6510_hu	6510_hu	NA	1	100
-1405878	2330	2330	NA	1	100
-1407698	2330_bu	2330_bu	NA	1	100
-1409974	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1422046	2330_bu	2330_bu	NA	1	100
-1426969	1 : Kusthabitats en halofytenvegetaties	1 : Kusthabitats en halofytenvegetaties	NA	0	100
-1442745	6510_hu	6510_hu	NA	1	100
-1447497	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1454814	2330_bu	2330_bu	NA	1	100
-1470918	6510_hu	6510_hu	NA	1	100
-1471094	2330_bu	2330_bu	NA	1	100
-1474033	6510_hus	6510_hus	NA	1	100
-1478129	6510_hua	6510_hua	NA	1	100
-1479890	2330_bu	2330_bu	NA	1	100
-1487746	6510_huk	6510_huk	NA	1	59
-1487746	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	41
-1487798	2310	2310	NA	1	100
-1500498	6510_huk	6510_huk	NA	1	100
-1500534	2330_bu	2330_bu	NA	1	100
-1501490	2330_bu	2330_bu	NA	1	100
-1504306	6510_hu	6510_hu	NA	1	100
-1506770	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1512322	6510_hu	6510	NA	1	70
-1512322	9 : bossen	6510	NA	2	30
-1512374	4030	4030	NA	1	100
-1512530	6510_hu	6510_hu	NA	1	100
-1529025	6510_hu	6510_hu	NA	1	100
-1533266	6510_hu	6510_hu	NA	1	100
-1533266	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	35
-1535001	6510_hu	6510_hu	NA	1	100
-1536630	2330_bu	2330_bu	NA	1	100
-1536950	4030	4030	NA	1	100
-1542626	6510_hu	6510_hus	NA	1	100
-1547090	2330_bu	2330_bu	NA	1	100
-1547570	6510_hu	6510_hu	NA	1	100
-1549622	6510_hu	6510_hu	NA	1	100
-1558738	2330_bu	2330_bu	NA	1	100
-1562998	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1566070	2330_bu	2330_bu	NA	1	100
-1566166	2330_bu	2330_bu	NA	1	100
-1569666	6510_huk	6510_huk	NA	1	65
-1569666	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	35
-1590198	4030	4030	NA	1	100
-1594578	2330_bu	2330_bu	NA	1	100
-1599794	4010	4010	NA	1	100
-1606582	2330_bu	2330_bu	NA	1	100
-1618818	6510_huk	6510_huk	NA	1	100
-1625522	onbekend	onbekend	NA	1	100
-1628534	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1631606	2330_bu	2330_bu	NA	1	100
-1635038	2330_bu	2330_bu	NA	1	100
-1659862	2330_bu	2330_bu	NA	1	100
-1684406	2310	2310	NA	1	100
-1685137	6510_hua	6510_hua	NA	1	100
-1702514	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1708982	2330_bu	2330_bu	NA	1	100
-1709266	2330_bu	2330_bu	NA	1	100
-1713026	onbekend	NA	NA	1	100
-1714306	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1743698	2330_bu	2330_bu	NA	1	100
-1762774	2330_bu	2330_bu	NA	1	100
-1775058	2330_bu	2330_bu	NA	1	100
-1786474	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1786806	2330_bu	2330_bu	NA	1	100
-1789878	4010	4010	NA	1	100
-1793318	6510_huk	6510_huk	NA	1	61
-1793318	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	39
-1820185	6510_hu	6510_hu	NA	1	100
-1835906	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-1875842	onbekend	NA	NA	1	100
-1885721	6510_hua	6510_hua	NA	1	100
-1905938	6510	6510	NA	1	64
-1905938	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	36
-1910194	onbekend	onbekend	NA	1	100
-1939058	2310	2310	NA	1	100
-1956702	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-1971474	6510_hus	6510_hus	NA	1	100
-1985970	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-2007238	6 : (half) natuurlijke graslanden	6 : (half) natuurlijke graslanden	NA	1	100
-2037393	6510_hua	6510_hua	NA	1	100
-2114226	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-2155394	onbekend	NA	NA	1	100
-2201202	6510_huk	6510_huk	NA	1	100
-2233618	6510_hus	6510_hus	NA	1	100
-2299537	6510_hua	6510_hua	NA	1	100
-2328854	6510_hus	6510_hus	NA	1	89
-2328854	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	11
-2383474	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-2410009	6510_hua	6510_hua	NA	1	100
-2440689	6510_hua	6510_hua	NA	1	100
-2495762	6510_hus	6510_hus	NA	1	100
-2645426	6510_huk	6510_huk	NA	1	100
-2733713	6510_hua	6510_hua	NA	1	100
-2841894	6510_huk	6510_huk	NA	1	100
-2867990	6510_hus	6510_hus	NA	1	93
-2867990	onbekend	6510_hus	NA	2	7
-2891673	6510_hua	6510_hua	NA	1	100
-2911526	6510_huk	6510_hus	NA	1	100
-2934297	6510_hu	6510_hu	NA	1	100
-2942609	6510_hua	6510_hua	NA	1	100
-2954514	6510_hus	6510_hus	NA	1	100
-2967065	6510_hua	6510_hua	NA	1	100
-3068802	6510_huk	6510_huk	NA	1	100
-3077777	6510_hua	6510_hua	NA	1	100
-3120562	6510_huk	6510_huk	NA	1	100
-3132850	6510_huk	6510_huk	NA	1	100
-3153026	6510_huk	6510_huk	NA	1	100
-3163010	6510_huk	6510_huk	NA	1	100
-3170178	6510_huk	6510_huk	NA	1	100
-3173042	6510_huk	6510_huk	NA	1	100
-3366786	6510_huk	6510_huk	NA	1	100
-3432322	6510	6510	NA	1	74
-3432322	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	26
-3511922	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100
-3564894	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-3612546	6510_huk	6510_huk	NA	1	100
-3612546	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	5
-3811458	6510_huk	6510_huk	NA	1	100
-3821746	6510_huk	6510_huk	NA	1	100
-3829634	6510	6510	NA	1	100
-3906994	6510_huk	6510_huk	NA	1	100
-3956146	6510_huk	6510_huk	NA	1	100
-4003090	6510_hus	6510_hus	NA	1	93
-4003090	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	7
-4122918	6510_huk	6510_huk	NA	1	100
-4256642	6510_huk	6510_huk	NA	1	100
-4330770	6510_hus	6510_hus	NA	1	100
-4346754	6510_hu	6510	NA	1	57
-4346754	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	43
-4351326	6510_hus	6510_hus	NA	1	100
-4390190	onbekend	NA	NA	1	100
-4417666	6510_huk	6510_huk	NA	1	100
-4417666	9 : bossen	6510_huk	NA	2	15
-4502402	6510_huk	6510_huk	NA	1	100
-4502402	infrastructuur	6510_huk	NA	2	NA
-4633474	6510_huk	6510_huk	NA	1	100
-4868374	6510_hus	6510_hus	NA	1	100
-5313810	6510_hus	6510_hus	NA	1	100
-5474582	6510_hus	6510_hus	NA	1	100
-5474582	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	100
-6151006	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100
-6165778	6510_hus	6510_hus	NA	1	100
-6201542	6510_hus	6510_hus	NA	1	100
-6427922	6510_hus	6510_hus	NA	1	100
-6448478	6510_hus	6510_hus	NA	1	100
-6523158	6510_hu	6510_hus	NA	1	100
-6690066	6510_hus	6510_hua	NA	1	100
-7062294	6510_hus	6510_hus	NA	1	100
-7148818	6510_hus	6510_hus	NA	1	100
-7738642	6510_hus	6510_hus	NA	1	100
-7759198	6510_hus	6510_hus	NA	1	100
-8525074	6510_hu	6510_hu	NA	1	100
-8669462	6510_hus	6510_hus	NA	1	100
-9245970	6510_hus	6510_hus	NA	1	100
-9508114	6510_hus	6510_hus	NA	1	100
-10622226	6510_hus	6510_hus	NA	1	100
-10717462	6510_hus	6510_hus	NA	1	100
-11343122	6510_hus	6510_hus	NA	1	100
-12457234	6510_hus	6510_hus	NA	1	100
+plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observed_cover_circle	date_assessment
+457	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16226
+734	4010	4010	NA	1	100	17123
+990	onbekend - niet toegankelijk/weigering	NA	NA	1	100	16540
+2182	geen habitat 	NA	bos	1	100	16540
+2198	9160	NA	bos	1	73	16546
+2198	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	2	27	16546
+2610	4030	4030	NA	1	100	16307
+2610	4030	4030	NA	1	100	19235
+2742	91E0_vo	NA	bos	1	100	16604
+3026	4030	4030	NA	1	98	16322
+3026	infrastructuur	4030	NA	2	2	16322
+3894	9120	NA	bos	1	100	16545
+3970	9160	NA	bos	1	99	16576
+3970	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	2	1	16576
+4242	geen habitat 	NA	NA	1	100	16540
+4434	6510_hu	6510_hu	NA	1	100	19151
+4729	onbekend - niet toegankelijk/weigering	NA	NA	1	100	16540
+4945	9130_end	NA	bos	1	100	17277
+5046	onbekend	NA	NA	1	NA	16318
+5046	NA	NA	NA	2	100	16318
+5330	2310	2310	NA	1	100	16329
+5422	4 : heide- en struikvegetaties	4030	NA	1	100	17102
+5702	geen habitat 	NA	bos	1	100	16573
+6110	geen habitat 	NA	NA	1	100	16540
+6182	6510	6510_hua	NA	1	100	16226
+6278	9160	NA	bos	1	100	16562
+6962	onbekend	onbekend	NA	1	100	16209
+7078	geen habitat 	NA	bos	1	100	16540
+7145	9160	NA	bos	1	100	16553
+7401	geen habitat 	NA	NA	1	100	16540
+7785	9190	NA	bos	1	100	16573
+8121	91E0_vc	NA	bos	1	100	16554
+8217	9130_end	NA	bos	1	100	17288
+8550	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16226
+8786	4030	4030	NA	1	100	16325
+8786	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	19237
+8893	2310	2310	NA	1	100	16316
+8893	2310	2310	NA	1	100	19249
+9078	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17122
+9169	9120	NA	NA	1	100	16540
+9262	9120	NA	bos	1	100	17067
+9641	NA	NA	NA	1	100	16540
+9657	onbekend - niet toegankelijk/weigering	NA	NA	1	100	16540
+9938	4030	4030	NA	1	100	16314
+9938	4030	4030	NA	1	100	19228
+10354	9160	NA	bos	1	100	16575
+10513	9130_end	NA	bos	1	100	18001
+10706	2310	2310	NA	1	100	16587
+10774	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+10834	geen habitat 	NA	NA	1	100	16540
+10841	onbekend - niet toegankelijk/weigering	NA	NA	1	100	16540
+11126	9120	NA	bos	1	58	16584
+11126	geen habitat 	NA	andere (stort, grondwinning,…)	2	42	16584
+11218	4010	4010	NA	1	100	16323
+11218	4010	4010	NA	1	100	19251
+11481	9130_end	NA	bos	1	100	17998
+11742	4010	4010	NA	1	100	17101
+11865	91E0_vc	NA	bos	1	100	16554
+12274	4030	4030	NA	1	100	16304
+12274	4030	4030	NA	1	100	19235
+12409	geen habitat 	NA	bos	1	100	16540
+12470	91E0_vm	NA	bos	1	100	16597
+12710	9120	NA	bos	1	100	17704
+13022	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16315
+13686	4030	4030	NA	1	100	16688
+14161	geen habitat 	NA	NA	1	100	17646
+14457	geen habitat 	NA	bos	1	100	17714
+15070	4010	4010	NA	1	100	16612
+15150	geen habitat 	NA	NA	1	100	16574
+15465	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293
+15478	geen habitat 	NA	bos	1	100	16540
+15782	91E0_vc	NA	bos	1	100	16562
+16633	91E0_vc	NA	bos	1	96	16559
+16633	geen habitat 	NA	water (poel, vijver, beek)	2	4	16559
+18290	9160	NA	bos	1	62	17990
+18290	geen habitat 	NA	akker	2	38	17990
+18546	6510_hu	6510_hu	NA	1	89	16226
+18546	6510_hu	6510_hu	NA	1	100	19152
+18546	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	11	16226
+18898	9190	NA	bos	1	71	17991
+18898	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	2	13	17991
+18898	geen habitat 	NA	bos	3	16	17991
+19158	geen habitat 	NA	NA	1	100	16540
+19762	9190	NA	bos	1	100	17994
+20178	2310	2310	NA	1	100	16321
+20178	2310	2310	NA	1	100	19242
+20217	6510_hu	6510_hu	NA	1	100	16952
+20274	9160	NA	bos	1	100	17990
+20406	4030	4030	NA	1	100	16329
+20470	91E0_vm	NA	bos	1	100	17990
+20614	9120	NA	bos	1	100	17709
+21025	9130_end	NA	bos	1	100	18002
+21430	4030	4030	NA	1	77	16322
+21430	geen habitat (akker, houtkant, tuin,...)	4030	NA	2	23	16322
+21714	2330_bu	2330_bu	NA	1	100	16332
+22290	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17735
+22726	9160	NA	bos	1	100	17710
+23238	9160	NA	bos	1	100	17711
+23257	9130	NA	bos	1	75	16621
+23257	91E0_vc	NA	bos	2	25	16621
+23385	9130_end	NA	bos	1	100	17687
+23538	4010	4010	NA	1	100	16307
+23538	4010	4010	NA	1	100	19236
+23762	2310	2310	NA	1	100	16324
+23762	4030	4030	NA	1	100	19242
+24450	onbekend	NA	NA	1	100	16226
+26262	geen habitat 	NA	NA	1	100	17646
+26322	4030	4030	NA	1	100	16315
+26322	4030	4030	NA	1	100	19228
+26393	91E0_vc	NA	bos	1	100	17269
+26822	9160	NA	bos	1	100	17710
+27090	2310	2310	NA	1	100	16587
+27474	9190	NA	bos	1	100	17989
+27602	4030	4030	NA	1	100	16322
+27954	NA	NA	NA	1	100	16972
+28126	4010	4010	NA	1	100	17085
+28370	2310	2310	NA	1	87	16310
+28370	4030	4030	NA	1	100	19234
+28370	9 : bossen	2310	NA	2	13	16310
+28546	9130	NA	bos	1	100	18002
+28658	4030	4030	NA	1	100	16303
+28658	4030	4030	NA	1	100	19235
+28902	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16217
+29202	NA	NA	NA	1	100	16190
+29406	2310	2330_bu	NA	1	100	16303
+29406	2310	2310	NA	1	100	19249
+29558	geen habitat 	NA	NA	1	100	17646
+29622	2310	2310	NA	1	70	16321
+29622	infrastructuur	2310	NA	2	16	16321
+29622	2330	2310	NA	3	14	16321
+30153	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16226
+30290	4030	4030	NA	1	100	19264
+31297	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16223
+31401	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+31414	91E0_vo	NA	bos	1	100	17988
+31797	geen habitat (akker, houtkant, tuin,...)	infrastructuur	NA	1	100	16231
+32466	2310	2310	NA	1	100	16324
+32466	2310	2310	NA	1	100	19241
+32681	NA	NA	NA	1	100	16540
+33502	4030	4030	NA	1	100	17094
+33718	2330_bu	2330_bu	NA	1	100	16315
+34002	geen habitat (akker, houtkant, tuin,...)	onbekend	NA	1	100	16330
+34514	2310	2310	NA	1	100	16310
+34514	2310	2310	NA	1	100	19234
+35090	4010	4010	NA	1	100	16702
+35113	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+35361	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+35794	2310	2310	NA	1	79	16324
+35794	infrastructuur	2310	NA	2	21	16324
+36774	9120	NA	bos	1	100	17708
+37033	NA	NA	NA	1	100	16540
+37330	4030	4030	NA	1	100	16310
+37798	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16212
+38006	geen habitat 	NA	NA	1	100	16540
+38098	2310	2310	NA	1	84	16330
+38098	infrastructuur	2310	NA	2	16	16330
+38545	6510_hua	6510_hua	NA	1	100	16220
+38545	6510_hua	6510_hua	NA	1	100	19143
+38610	2330	2310	NA	1	100	19255
+40054	4010	4010	NA	1	100	17133
+40146	4030	4030	NA	1	73	16321
+40146	4 : heide- en struikvegetaties	4 : heide- en struikvegetaties	NA	1	100	19241
+40146	infrastructuur	4030	NA	2	27	16321
+41814	6510_hu	6510_hu	NA	1	64	16232
+41814	6510_hu	6510_hu	NA	1	100	19145
+41814	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	27	16232
+41814	6 : (half) natuurlijke graslanden	6510_hu	NA	3	9	16232
+42706	geen habitat 	NA	NA	1	100	16540
+42934	4030	4030	NA	1	100	16323
+43230	4010	4010	NA	1	100	17126
+43566	4030	4030	NA	1	100	16611
+43858	2330_bu	2330_bu	NA	1	100	16310
+43858	2330_bu	2330_bu	NA	1	100	19237
+44626	4030	4030	NA	1	100	16304
+44626	4030	4030	NA	1	100	19236
+45526	91E0_vo	NA	bos	1	100	16658
+45790	2310	2310	NA	1	100	16304
+45790	2310	2310	NA	1	100	19248
+46006	4030	4030	NA	1	100	16322
+46662	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	3	28	16968
+46662	6510_hu	6510_hu	NA	4	72	16968
+47446	6510_hu	6510_hu	NA	1	54	16234
+47446	6510_hu	6510_hu	NA	1	100	19145
+47446	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	46	16234
+47666	4030	4030	NA	1	100	17347
+50102	4030	4030	NA	1	100	16315
+53126	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16211
+53561	91E0_vc	NA	bos	1	4	16563
+53561	9130_end	NA	bos	2	50	16563
+53561	91E0_va	NA	bos	3	46	16563
+53970	91E0_vm	NA	bos	1	100	18373
+54482	4030	4030	NA	1	100	16335
+54994	4030	4030	NA	1	100	16311
+55058	2330_bu	2330_bu	NA	1	100	16324
+59858	2310	2310	NA	1	100	16587
+60894	4030	4010	NA	1	100	17126
+61522	onbekend	onbekend	NA	1	100	16232
+62141	4010	4010	NA	1	80	17100
+62141	onbekend	4010	NA	2	20	17100
+62174	2310	2310	NA	1	100	16316
+62174	2310	2310	NA	1	100	19249
+62697	onbekend	onbekend	NA	1	100	16212
+63270	6510_hu	6510_hu	NA	1	58	16227
+63270	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	42	16227
+63921	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16239
+65234	4010	4010	NA	1	100	16315
+65522	4010	4010	NA	1	100	16302
+66006	2310	2310	NA	1	100	16339
+66006	2310	2310	NA	1	100	19265
+66270	4010	4010	NA	1	100	17099
+67161	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16213
+68562	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16587
+69097	NA	NA	NA	1	100	16540
+69385	onbekend	onbekend	NA	1	100	16238
+69558	infrastructuur	infrastructuur	NA	1	100	16329
+70582	geen habitat (akker, houtkant, tuin,...)	infrastructuur	NA	1	100	16318
+70866	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16328
+71902	4010	4010	NA	1	100	17081
+72690	4030	4030	NA	1	100	16302
+72690	4030	4030	NA	1	100	19236
+75126	onbekend	NA	NA	1	100	16687
+75474	4030	4030	NA	1	100	16314
+75474	4030	4030	NA	1	100	19228
+76242	4010	4010	NA	1	80	16322
+76242	infrastructuur	4010	NA	2	20	16322
+76294	9130	NA	NA	1	100	16540
+76754	2310	2310	NA	1	100	16323
+76754	2310	2310	NA	1	100	19251
+77278	4010	4010	NA	1	100	17135
+77394	4030	4030	NA	1	100	16304
+78294	6510_hu	6510_hu	NA	1	100	16955
+78558	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293
+79089	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16232
+79986	6510_hu	6510_hu	NA	1	69	16224
+79986	6510_hu	6510_hu	NA	1	100	19152
+79986	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	31	16224
+81374	4010	4010	NA	1	100	17101
+81638	geen habitat 	NA	NA	1	100	16540
+81985	2330	2310	NA	1	100	16293
+82222	4030	4030	NA	1	92	17095
+82222	infrastructuur	4030	NA	2	8	17095
+82654	4010	4010	NA	1	100	17130
+82870	9 : bossen	9 : bossen	NA	1	100	17403
+84946	2310	2310	NA	1	100	16587
+85529	91E0_vo	NA	bos	1	68	16581
+85529	geen habitat 	NA	grasland	2	32	16581
+85714	infrastructuur	NA	NA	1	100	16324
+85890	91E0_vc	NA	bos	1	72	16576
+85890	9160	NA	bos	2	21	16576
+85890	geen habitat 	NA	water (poel, vijver, beek)	3	2	16576
+85890	geen habitat 	NA	grasland	4	5	16576
+87250	4010	4010	NA	1	100	17364
+88274	9190	NA	bos	1	67	16588
+88274	geen habitat 	NA	bos	2	33	16588
+89310	NA	NA	NA	1	100	17343
+90846	2310	2310	NA	1	100	16301
+90846	2310	2310	NA	1	100	19248
+91122	4030	4030	NA	1	57	17350
+91122	infrastructuur	4030	NA	2	10	17350
+91122	9 : bossen	4030	NA	3	32	17350
+91186	6510_hu	6510_hu	NA	1	100	18793
+91410	4030	4030	NA	1	100	17071
+91446	onbekend	onbekend	NA	1	100	16233
+91510	2330_bu	2330_bu	NA	1	100	16687
+91614	4010	4010	NA	1	100	17788
+92126	4030	4030	NA	1	100	17760
+92382	4030	4030	NA	1	91	17081
+92382	3 : zoetwaterhabitats	4030	NA	2	9	17081
+93138	2310	2310	NA	1	100	16322
+94194	9 : bossen	NA	NA	1	100	17373
+94942	4010	4010	NA	1	100	16303
+94942	4030	4030	NA	1	100	19248
+95158	2310	2310	NA	1	72	16322
+95158	infrastructuur	2310	NA	2	28	16322
+95218	4030	4030	NA	1	100	17283
+95710	4010	4010	NA	1	98	17140
+95710	onbekend	4010	NA	2	2	17140
+96217	91E0_vc	NA	bos	1	5	16568
+96217	9130_end	NA	bos	2	95	16568
+96978	2310	2310	NA	1	100	16314
+96978	2310	2310	NA	1	100	19226
+98002	2310	2310	NA	1	100	16324
+98002	2310	2310	NA	1	100	19242
+98705	NA	NA	NA	1	100	16940
+99521	6510_hu	6510_hu	NA	1	56	16224
+99521	6510_hu	6510_hu	NA	1	100	19145
+99521	infrastructuur	6510_hu	NA	2	44	16224
+100050	4010	4010	NA	1	76	16314
+100050	4010	4010	NA	1	100	19235
+100050	2310	4010	NA	2	24	16314
+100297	6510_hu	6510_hu	NA	0	18	16959
+100297	infrastructuur	6510_hu	NA	1	22	16959
+100297	NA	NA	NA	1	100	19146
+100297	onbekend	6510_hu	NA	2	60	16959
+100626	4030	4010	NA	1	100	17354
+102098	2310	2310	NA	1	100	16324
+102098	4030	4030	NA	1	100	19241
+103350	onbekend	infrastructuur	NA	1	100	16323
+103609	91E0_vc	NA	bos	1	40	16552
+103609	9130_end	NA	bos	2	60	16552
+103634	4030	4030	NA	1	100	17746
+104342	91E0_vc	NA	bos	1	100	16548
+105006	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17102
+105458	4010	4010	NA	1	100	19263
+105682	2310	2310	NA	1	100	16321
+105682	9 : bossen	9 : bossen	NA	1	100	19242
+106614	4010	4010	NA	1	100	17122
+111326	4010	4010	NA	1	100	16301
+111326	4030	4030	NA	1	100	19248
+111918	4030	4030	NA	1	100	17779
+112850	4030	4030	NA	1	100	17738
+112889	9130	NA	NA	1	100	16540
+114386	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16587
+114654	9 : bossen	9 : bossen	NA	1	100	17763
+115334	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17786
+115422	2310	2310	NA	1	100	16609
+115638	4030	4030	NA	1	100	17401
+116434	2310	2310	NA	1	100	17751
+116518	6510_hu	6510_hu	NA	1	100	18795
+116946	9 : bossen	NA	NA	1	100	16324
+117202	2310	2310	NA	1	100	16323
+117202	2310	2310	NA	1	100	19251
+117878	onbekend - niet toegankelijk/weigering	NA	NA	1	100	16540
+118441	6510_hu	6510_hu	NA	1	12	16965
+118441	6510_hu	6510_hu	NA	1	100	19152
+118441	6510	6510_hu	NA	2	26	16965
+118441	infrastructuur	6510_hu	NA	3	20	16965
+118441	onbekend	6510_hu	NA	4	42	16965
+120018	4010	4010	NA	1	100	16328
+120110	4010	4010	NA	1	100	16337
+120530	4030	4030	NA	1	100	17374
+121042	91E0_vo	NA	bos	1	100	16589
+121734	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16211
+122578	4010	4010	NA	1	73	16311
+122578	4010	4010	NA	1	100	19234
+122578	infrastructuur	4010	NA	2	13	16311
+122578	9 : bossen	4010	NA	3	14	16311
+123614	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293
+124278	2310	2310	NA	1	100	16336
+124278	2310	2330	NA	1	100	19265
+124382	4010	4010	NA	1	100	17086
+124806	6510_hu	6510_hu	NA	1	100	18788
+125394	2310	2310	NA	1	100	16587
+125998	4030	4030	NA	1	87	17098
+125998	onbekend	4030	NA	2	13	17098
+126430	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17085
+127218	6510_hu	6510_hu	NA	1	100	16209
+127218	NA	NA	NA	1	100	19117
+127622	6510_hu	6510_hu	NA	1	100	18788
+127710	4 : heide- en struikvegetaties	2310	NA	1	100	17121
+128350	onbekend	onbekend	NA	1	100	16223
+128657	6510_hua	6510_hua	NA	1	100	19163
+128722	4030	4030	NA	1	100	19255
+128786	4030	4030	NA	1	100	17730
+129234	4010	4010	NA	1	100	16324
+131806	4010	4010	NA	1	100	17094
+132818	91E0_vm	NA	bos	1	77	18374
+132818	geen habitat 	NA	heide	2	23	18374
+134098	2310	2310	NA	1	100	16322
+136402	4030	4030	NA	1	100	16329
+136466	6510_hus	6510_hus	NA	1	100	16967
+136697	91E0_vc	NA	bos	1	100	16561
+137401	91E0_va	NA	bos	1	100	16540
+138226	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17351
+139577	geen habitat 	NA	bos	1	100	16540
+140006	9190	NA	bos	1	100	16597
+140374	geen habitat 	NA	NA	1	100	16540
+141778	4010	4010	NA	1	100	17745
+143382	6510_hu	6510_hu	NA	0	92	16951
+143382	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	8	16951
+143602	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16209
+144094	2310	2310	NA	1	100	16316
+144094	2310	2330	NA	1	100	19249
+146265	91E0_vc	NA	bos	1	89	16552
+146265	geen habitat 	NA	NA	2	11	16552
+146486	6510_hu	6510_hu	NA	1	100	18787
+147174	9190	NA	bos	1	100	16596
+148406	4030	4030	NA	1	100	17402
+149225	NA	NA	NA	1	100	16540
+150902	91F0	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17078
+150962	onbekend	onbekend	NA	1	100	16212
+151250	2310	2310	NA	1	100	16321
+151250	4030	4030	NA	1	100	19241
+151318	6510_hu	6510_hu	NA	1	100	17693
+151318	6510_hu	6510_hu	NA	1	100	19136
+151350	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17660
+151830	infrastructuur	infrastructuur	NA	1	100	16224
+152769	onbekend	NA	NA	1	100	16224
+152786	2310	2310	NA	1	70	16332
+152786	2330_bu	2310	NA	2	30	16332
+154834	2330_bu	2330_bu	NA	1	100	17744
+155346	91E0_vo	NA	bos - kapvlakte	1	100	16590
+156382	2310	2310	NA	1	100	17414
+158002	2310	2310	NA	1	100	17347
+159314	4030	4030	NA	1	100	17372
+159401	NA	NA	NA	1	100	16540
+159414	91E0_vo	NA	bos	1	83	16604
+159414	9120	NA	bos	2	17	16604
+160374	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17735
+160694	4030	4030	NA	1	100	17757
+162749	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	18030
+162790	6510_hu	6510_hu	NA	1	69	16213
+162790	6510_hu	6510_hu	NA	1	100	19146
+162790	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	31	16213
+162898	onbekend	onbekend	NA	1	100	16211
+163513	geen habitat 	NA	bos	1	100	16540
+163538	2310	2310	NA	1	100	17742
+164793	91E0_vc	NA	bos	1	18	16553
+164793	9130_end	NA	bos	2	80	16553
+164793	geen habitat 	NA	akker	3	2	16553
+165586	4030	4030	NA	1	100	17751
+165913	91E0_vc	NA	bos	1	78	16932
+165913	geen habitat 	NA	NA	2	22	16932
+166102	2310	2310	NA	1	100	17777
+167286	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17074
+167606	geen habitat 	NA	NA	1	100	16540
+168886	4030	4030	NA	1	100	17767
+169170	4030	4030	NA	1	100	17745
+170206	4030	4030	NA	1	100	17416
+170834	2330_bu	2330_bu	NA	1	100	17354
+174546	2310	2310	NA	1	100	17746
+175698	4030	4030	NA	1	100	17372
+176862	4010	4010	NA	1	100	17414
+177078	2330_bu	2330_bu	NA	1	100	16323
+177778	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16224
+179922	2330_dw	2330_dw	NA	1	100	17744
+179922	2310	2330_dw	NA	2	NA	17744
+181234	4030	4030	NA	1	100	17350
+182054	6510_hu	6510_hu	NA	1	100	17674
+182482	4030	4030	NA	1	100	17737
+183593	NA	NA	NA	1	100	16540
+183734	6510_hu	6510_hu	NA	1	100	17688
+186850	6510_hu	6510_hu	NA	1	100	17702
+188022	91E0_vo	NA	bos	1	100	16588
+190162	4030	4030	NA	1	100	17374
+190802	NA	NA	NA	1	100	16540
+190902	6510_hu	6510_hu	NA	1	57	17688
+190902	9 : bossen	6510_hu	NA	2	43	17688
+191442	2310	2310	NA	1	100	17749
+191442	2330_bu	2310	NA	2	47	17749
+191698	4030	4030	NA	1	100	17375
+191966	4030	4030	NA	1	100	17781
+193246	4010	4010	NA	1	100	18116
+195046	9120	NA	NA	1	100	16540
+196022	91E0_vo	NA	bos	1	100	17983
+196306	2310	2310	NA	1	100	17746
+198137	91E0_vc	NA	bos	1	100	16567
+199122	2310	2310	NA	1	100	17750
+200630	4030	4030	NA	1	100	17743
+200850	9190	NA	bos	1	100	17646
+201689	91E0_vc	NA	bos	1	93	16820
+201689	geen habitat 	NA	water (poel, vijver, beek)	2	7	16820
+201938	NA	NA	NA	1	100	17738
+205113	9130_end	NA	bos	1	100	16540
+205501	4030	4030	NA	1	100	17394
+206134	6510_hu	6510_hu	NA	1	80	16233
+206134	6510_hu	6510_hu	NA	1	100	19124
+206134	infrastructuur	6510_hu	NA	2	20	16233
+206546	2310	2310	NA	1	100	17752
+207314	2310	2310	NA	1	100	17746
+208134	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16210
+208350	4010	4010	NA	1	100	17416
+211193	91E0_vc	NA	bos	1	100	16573
+212062	4030	4030	NA	1	100	17814
+213138	91E0_vo	NA	bos	1	100	17995
+213302	onbekend	onbekend	NA	1	100	16234
+213726	4 : heide- en struikvegetaties	4010	NA	1	100	18109
+213942	2330_bu	2330_bu	NA	1	100	16318
+216018	4010	4010	NA	1	100	17745
+216118	6510_hu	6510_hu	NA	1	100	17676
+216438	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17078
+216786	2310	2310	NA	1	100	17742
+216786	2330_bu	2310	NA	2	8	17742
+216798	9 : bossen	NA	NA	1	100	17415
+217014	4030	4030	NA	1	100	17750
+217049	geen habitat 	NA	NA	1	100	16540
+218038	infrastructuur	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17753
+218086	6510_hu	6510	NA	1	100	18059
+218086	9 : bossen	6510	NA	2	40	18059
+218162	6510_hu	6510_hu	NA	1	100	18793
+218322	4030	4030	NA	1	100	16332
+218834	geen habitat 	NA	NA	1	100	16540
+219446	4030	4030	NA	1	100	17788
+219694	91E0_vo	NA	bos	1	100	17666
+220786	6510_huk	6510_huk	NA	1	100	16969
+222194	4030	4030	NA	1	100	17361
+222377	NA	NA	NA	1	100	16540
+223570	onbekend	onbekend	NA	1	100	16210
+224726	9160	NA	NA	1	100	16540
+224850	4030	4030	NA	1	100	17372
+225910	2330_bu	2330_bu	NA	1	100	16336
+226014	4030	4030	NA	1	100	18071
+226230	2330_bu	2330_bu	NA	1	26	16321
+226230	4030	2330_bu	NA	2	74	16321
+226606	4030	4030	NA	1	100	17798
+229074	4010	4010	NA	1	100	17744
+229074	2310	4010	NA	2	39	17744
+229362	2330_dw	2330_dw	NA	1	100	19263
+230110	4010	4010	NA	1	100	17757
+230930	91E0_vo	NA	bos	1	100	16608
+231702	6510_hus	6510_hus	NA	1	89	16217
+231702	NA	NA	NA	1	100	19117
+231702	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	1	16217
+231702	onbekend	6510_hus	NA	3	10	16217
+233398	4010	4010	NA	1	100	17751
+233938	9 : bossen	NA	NA	1	100	17353
+234297	91E0_vc	NA	bos	1	100	16561
+234974	4030	4030	NA	1	100	17795
+235822	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17802
+236370	2330_bu	2330_bu	NA	1	100	16309
+236370	2330_bu	2330_bu	NA	1	100	19237
+236530	4010	4010	NA	1	100	17350
+236657	6510_hu	6510_hu	NA	1	100	18417
+236754	2310	2310	NA	1	100	17743
+237970	91E0_vo	NA	bos	1	100	17995
+238313	NA	NA	NA	1	100	16540
+238454	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16293
+238578	2330_dw	2330_dw	NA	1	100	19263
+238902	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16233
+239838	4030	4030	NA	1	100	17416
+240466	2310	2310	NA	1	100	17357
+240914	onbekend	NA	NA	1	100	17359
+241234	4030	4030	NA	1	94	17372
+241234	infrastructuur	4030	NA	2	6	17372
+241650	4030	4030	NA	1	100	17373
+242398	2310	2310	NA	1	100	17399
+243698	4010	4010	NA	1	100	17351
+243846	6510_hu	6510_hu	NA	1	100	16212
+243846	6510_hu	6510_hu	NA	1	100	19145
+245458	2310	2310	NA	1	100	17744
+248402	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	1	100	16540
+248946	9160	NA	NA	1	100	16540
+249846	91E0_vm	NA	NA	1	100	16540
+251090	4010	4010	NA	1	100	17785
+253593	91E0_vc	NA	bos	1	100	17269
+255826	6 : (half) natuurlijke graslanden	NA	NA	1	100	17361
+256978	2310	2310	NA	1	100	17749
+257081	91E0_vc	NA	bos	1	100	16553
+258390	6510_hu	6510_hu	NA	1	100	16752
+258390	6510_hu	6510_hu	NA	1	100	19145
+258782	2310	2310	NA	1	100	17756
+260082	91E0_vo	NA	bos	1	100	17997
+260306	4030	4030	NA	1	100	17739
+261854	4010	4010	NA	1	100	18113
+262038	geen habitat 	NA	NA	1	100	16540
+262130	91E0_vo	NA	NA	1	100	17646
+264566	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293
+265170	4010	4010	NA	1	100	17749
+266294	2310	2310	NA	1	100	17786
+266834	4030	4030	NA	1	67	17361
+266834	9 : bossen	4030	NA	2	33	17361
+267190	4030	4030	NA	1	100	16321
+267474	4030	4030	NA	1	100	17744
+267513	91E0_vc	NA	bos	1	100	17715
+269298	4010	4010	NA	1	100	17351
+270034	geen habitat 	NA	NA	1	100	17646
+271446	91E0_vo	NA	bos	1	100	18019
+271782	6510_hus	6510_hu	NA	1	100	18792
+272569	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+272850	4030	4030	NA	1	100	17745
+274002	2330_dw	2330_dw	NA	1	100	19264
+275382	2310	2310	NA	1	100	17752
+275830	4030	4030	NA	1	100	17360
+277158	6510_hu	6510_hu	NA	1	100	18786
+277214	4010	4010	NA	1	100	17763
+277225	NA	NA	NA	1	100	16540
+279478	4010	4030	NA	1	100	16316
+281554	2310	2310	NA	1	100	17745
+281554	2330_bu	2310	NA	2	24	17745
+282322	4030	4030	NA	1	68	17375
+282322	2310	4030	NA	2	32	17375
+282678	2310	2310	NA	1	100	17786
+282793	onbekend	NA	NA	1	100	16948
+284729	91E0_vc	NA	bos	1	100	16553
+285906	2310	2310	NA	1	100	17743
+289078	2330_bu	2330_bu	NA	1	100	17788
+289234	2310	2310	NA	1	100	17746
+289513	NA	NA	NA	1	100	16540
+289746	2310	2310	NA	1	100	17749
+290098	6510_hu	6510_hu	NA	1	100	18794
+290870	2310	2310	NA	1	100	17788
+292585	NA	NA	NA	1	100	16540
+293598	4010	4010	NA	1	100	18120
+294198	6510_hu	6510_hu	NA	1	100	18786
+294610	2310	2310	NA	1	73	17742
+294610	2330	2310	NA	2	14	17742
+295862	2330_bu	2330_bu	NA	1	22	16316
+295862	6 : (half) natuurlijke graslanden	2330_bu	NA	2	38	16316
+295862	2310	2330_bu	NA	3	40	16316
+296193	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+296658	4010	4010	NA	1	100	17751
+296658	2330_dw	4010	NA	2	19	17751
+296658	2310	4010	NA	3	30	17751
+297201	NA	NA	NA	1	100	19117
+297234	2310	2310	NA	1	100	17353
+298918	91E0_vn	NA	bos	1	100	17709
+298937	91E0_vc	NA	bos	1	43	16554
+298937	9130_end	NA	bos	2	25	16554
+298937	geen habitat 	NA	water (poel, vijver, beek)	3	31	16554
+300242	2310	2310	NA	1	100	17746
+300534	91E0_vm	NA	bos	1	100	17751
+301846	NA	NA	NA	1	100	19144
+302006	geen habitat 	NA	bos	1	100	17988
+302290	2310	2310	NA	1	100	17743
+304338	2310	2310	NA	1	100	16335
+304850	4010	4010	NA	1	100	17374
+306130	2310	2310	NA	1	100	16323
+306130	2310	2310	NA	1	100	19251
+308098	6510_huk	6510_huk	NA	1	83	16212
+308098	6510_hu	6510_hu	NA	1	63.6	19146
+308098	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	17	16212
+308098	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	36.4	19146
+310994	2310	2310	NA	1	100	17744
+311282	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16209
+311602	91E0_vo	NA	bos	1	76	17987
+311602	geen habitat 	NA	bos	2	24	17987
+312553	NA	NA	NA	1	100	16540
+313305	91E0_vc	NA	bos	1	100	17976
+313990	6510_hu	6510_hu	NA	1	100	18789
+314802	onbekend	onbekend	NA	1	100	16223
+315062	91E0_vo	NA	bos	1	100	17989
+315318	2310	2310	NA	1	100	17785
+315705	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+316114	91E0_vm	NA	NA	1	100	17646
+316601	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+316626	4030	4030	NA	1	100	17751
+317202	2330_bu	2330_bu	NA	1	100	17736
+320902	91E0_vm	NA	bos	1	100	17717
+321169	6510_hua	6510_hua	NA	1	100	19166
+322002	4010	4010	NA	1	100	17745
+324318	2330_bu	2330_bu	NA	1	100	17396
+327153	6510_hus	6510_hua	NA	1	73	16967
+327153	6510_hua	6510_hua	NA	1	100	19167
+327153	6430_mr	6510_hua	NA	2	27	16967
+330194	4010	4010	NA	1	100	17749
+330706	2310	2310	NA	1	100	17745
+330985	NA	NA	NA	1	100	16540
+331702	2310	2310	NA	1	76	16329
+331702	geen habitat (akker, houtkant, tuin,...)	2310	NA	2	24	16329
+332726	4030	4030	NA	1	100	16318
+333010	4030	4030	NA	1	100	17744
+333385	6510_hu	6510_hu	NA	1	54	16231
+333385	6510_hu	6510_hu	NA	1	100	19145
+333385	infrastructuur	6510_hu	NA	2	46	16231
+335337	NA	NA	NA	1	100	16540
+337270	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293
+337321	NA	NA	NA	1	100	16540
+338386	2330_bu	2330_bu	NA	1	100	17746
+338386	2310	2330_bu	NA	2	37	17746
+338898	4010	4010	NA	1	100	17750
+338898	2310	4010	NA	2	26	17750
+340702	2310	2310	NA	1	100	17399
+342750	4010	4010	NA	1	100	18117
+344798	4010	4010	NA	1	100	18109
+345014	2330_bu	2330_bu	NA	1	100	17408
+346246	91E0_vm	NA	bos	1	100	17708
+347090	2310	2310	NA	1	100	17745
+347090	4010	2310	NA	2	10	17745
+347858	4010	4010	NA	1	100	17742
+349433	91E0_va	NA	bos	1	100	17716
+357086	4010	4010	NA	1	100	18074
+358610	4030	NA	NA	1	100	16324
+359134	4010	4010	NA	1	100	18117
+359449	geen habitat 	NA	NA	1	100	17646
+359574	4030	2310	NA	1	100	17417
+360146	2310	2310	NA	1	100	17742
+361398	2330_bu	2330_bu	NA	1	100	16315
+366225	6510_hua	6510_hua	NA	1	100	16220
+366225	infrastructuur	infrastructuur	NA	1	100	19143
+370386	4030	4030	NA	1	100	19255
+372702	onbekend	NA	NA	1	100	16335
+377522	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16190
+380638	4010	4010	NA	1	100	18116
+381350	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16212
+381673	NA	NA	NA	1	100	16540
+381878	4030	4030	NA	1	100	17753
+385758	9 : bossen	9 : bossen	NA	1	100	18110
+386422	2330_bu	2330_bu	NA	1	100	16336
+386422	2330_bu	2330_bu	NA	1	100	19265
+386674	6510_hu	6510_hu	NA	1	83	16223
+386674	6510_hu	6510_hu	NA	1	91.4	19153
+386674	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	17	16223
+386674	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	8.6	19153
+387538	2310	2310	NA	1	100	17744
+389854	4030	NA	NA	1	100	18068
+390801	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+391154	4010	4010	NA	1	100	17350
+392342	2330_bu	2330_bu	NA	1	100	17417
+392617	NA	NA	NA	1	100	16540
+393950	4010	4010	NA	1	100	18067
+394962	4010	4010	NA	1	100	17381
+397238	4030	4030	NA	1	100	17742
+398529	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	35	16223
+398529	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	19145
+398529	infrastructuur	6510_hu	NA	2	34	16223
+398529	6510_hu	6510_hu	NA	3	31	16223
+398546	2310	2310	NA	1	100	16328
+398921	geen habitat (akker, houtkant, tuin,...)	onbekend	NA	1	100	16224
+402418	9 : bossen	NA	NA	1	100	17372
+409654	6510_hu	6510_hu	NA	1	84	16217
+409654	6510_hu	6510_hu	NA	1	100	19144
+409654	9 : bossen	6510_hu	NA	2	16	16217
+409654	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	NA	19144
+411446	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16234
+416454	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16232
+416998	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16217
+417142	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17378
+419538	7140_oli	NA	NA	1	100	17374
+425385	NA	NA	NA	1	100	16540
+425457	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16239
+428057	91E0_vc	NA	bos	1	100	18043
+429553	6 : (half) natuurlijke graslanden	6 : (half) natuurlijke graslanden	NA	1	100	16239
+430713	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16210
+431314	2330_bu	2330_bu	NA	1	100	16330
+431494	91E0_vo	NA	bos	1	100	17707
+433362	2310	2310	NA	1	100	16321
+439922	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16224
+442354	onbekend	onbekend	NA	1	100	16209
+445266	2330_bu	2330_bu	NA	1	60	16309
+445266	2330_bu	2330_bu	NA	1	100	19237
+445266	9 : bossen	2330_bu	NA	2	40	16309
+446777	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+447209	NA	NA	NA	1	100	16540
+450905	geen habitat 	NA	NA	1	100	17646
+452066	6510	6510	NA	1	NA	16232
+452066	6510_hu	6510_hu	NA	1	66.2	19153
+452066	infrastructuur	6510	NA	2	NA	16232
+452066	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	33.8	19153
+452066	geen habitat (akker, houtkant, tuin,...)	6510	NA	3	NA	16232
+458194	2330_dw	2330_dw	NA	1	84	17353
+458194	infrastructuur	2330_dw	NA	2	16	17353
+458462	2310	2310	NA	1	100	16315
+459222	2310	2310	NA	1	100	16339
+463798	2310	2310	NA	1	100	16322
+463833	91E0_vc	NA	bos	1	100	18011
+466745	91E0_vc	NA	bos	1	100	17680
+467257	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+468953	geen habitat 	NA	NA	1	100	17646
+472889	91E0_vc	NA	bos	1	100	17949
+473337	91E0_vc	NA	bos	1	100	17715
+473833	NA	NA	NA	1	100	16540
+476086	2330	2310	NA	1	32	16317
+476086	2310	2310	NA	2	68	16317
+477734	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16227
+478889	NA	NA	NA	1	100	16540
+480466	4030	4030	NA	1	100	16335
+488054	2310	2310	NA	1	100	16336
+488374	4030	4030	NA	1	100	16321
+490998	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293
+492470	4030	4030	NA	1	29	16317
+492470	2330_bu	4030	NA	2	63	16317
+492470	onbekend	4030	NA	3	8	16317
+498514	2310	2310	NA	1	100	16309
+499129	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+501046	6510_hu	6510_hu	NA	1	100	16217
+501046	6 : (half) natuurlijke graslanden	NA	NA	1	100	19144
+502610	2310	2310	NA	1	100	17357
+503414	2330_bu	2330_bu	NA	1	100	17079
+504542	2310	2310	NA	1	100	17063
+515737	geen habitat 	NA	NA	1	100	17646
+516441	91E0_vc	NA	bos	1	100	17687
+520582	9120	NA	bos	1	100	17707
+521090	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16231
+523346	NA	NA	NA	1	100	16540
+526898	2330_bu	2330_bu	NA	1	100	17347
+528582	6510_hu	6510_hu	NA	1	73	16232
+528582	6510_hu	6510_hu	NA	1	78.3	19146
+528582	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	27	16232
+528582	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	21.7	19146
+529334	4030	4030	NA	1	100	17409
+541718	NA	NA	NA	1	100	16540
+542834	NA	NA	NA	1	100	16973
+546002	2310	2310	NA	1	100	17364
+549254	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16211
+551218	2310	2310	NA	1	100	17345
+552537	91E0_vc	NA	bos	1	100	17668
+556006	6510	6510_hu	NA	1	100	16213
+556006	6510_hu	6510_hu	NA	1	100	19146
+558006	2330_bu	2330_bu	NA	1	76	17401
+558006	onbekend	2330_bu	NA	2	24	17401
+568146	9 : bossen	NA	NA	1	100	17357
+570886	9130	NA	bos	1	100	17716
+572934	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16210
+576033	6510_hu	6510_hu	NA	1	54	16976
+576033	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	46	16976
+577849	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17646
+579958	2310	2310	NA	1	100	17072
+583030	2330_bu	2330_bu	NA	1	100	17073
+585810	onbekend	onbekend	NA	1	100	16211
+589110	6510_hu	6510_hu	NA	1	100	16233
+589110	6510_hu	6510_hu	NA	1	100	19144
+589698	6510	6510	NA	1	59	16225
+589698	onbekend	NA	NA	1	100	19150
+589698	onbekend	6510	NA	2	41	16225
+594870	4030	4030	NA	1	100	17764
+602846	2330_bu	2330_bu	NA	1	100	17077
+604274	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16226
+605493	6510_hu	6510_hu	NA	1	53	16227
+605493	6510_hu	6510_hu	NA	1	100	19146
+605493	infrastructuur	6510_hu	NA	2	47	16227
+608550	6510_hu	6510_hu	NA	1	100	16975
+612246	91E0_vm	NA	NA	1	100	18024
+616665	91E0_vc	NA	bos	1	100	17673
+624918	onbekend	onbekend	NA	1	100	16224
+631129	geen habitat 	NA	NA	1	100	17646
+635830	2310	2310	NA	1	100	17760
+636561	6510_hus	6510_hus	NA	1	100	16961
+636561	6510_hus	6510_hua	NA	1	100	19143
+638046	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16958
+642482	infrastructuur	infrastructuur	NA	1	100	16223
+642585	91E0_vc	NA	bos	1	100	17941
+643970	6510	6510	NA	1	100	16231
+643970	6510_hu	6510_hu	NA	1	100	19146
+648566	2330_bu	2330_bu	NA	1	100	17073
+654873	geen habitat 	NA	NA	1	100	17646
+656246	2330_bu	2330_bu	NA	1	100	17079
+659330	onbekend	onbekend	NA	1	100	16223
+659382	2330_bu	2330_bu	NA	1	100	17367
+659794	6510_hu	6510_hu	NA	1	55	16210
+659794	onbekend	6510_hu	NA	2	31	16210
+659794	infrastructuur	6510_hu	NA	3	14	16210
+673590	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16951
+674070	onbekend	onbekend	NA	1	100	16224
+676914	6510_hu	6510_hu	NA	1	100	16218
+676914	6510_hu	6510_hu	NA	1	100	19146
+677174	6510_hu	6510_hu	NA	1	100	16233
+677174	6510_hu	6510_hu	NA	1	100	19144
+684982	2310	2310	NA	1	100	17752
+695122	9 : bossen	NA	NA	1	100	17354
+714198	2330_bu	2330_bu	NA	1	100	17088
+714230	2330_bu	2330_bu	NA	1	100	17072
+720369	6510_hua	6510_hua	NA	1	100	16232
+720369	6510_hua	6510_hua	NA	1	100	19166
+738230	2330_bu	2330_bu	NA	1	100	17407
+742610	2330_bu	2330_bu	NA	1	100	17364
+744742	6510_huk	6510_huk	NA	1	99	16974
+744742	91F0	6510_huk	NA	2	1	16974
+750198	2330_bu	2330_bu	NA	1	100	17732
+750518	2330_bu	2330_bu	NA	1	100	17408
+750646	6 : (half) natuurlijke graslanden	NA	NA	1	100	17354
+751337	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16968
+764754	2310	NA	NA	1	100	17360
+766686	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17065
+790454	2310	NA	NA	1	100	17367
+791478	onbekend	onbekend	NA	1	100	17408
+792209	6510_hua	6510_hua	NA	1	100	19143
+803766	2330_bu	2330_bu	NA	1	100	17403
+808146	2330_bu	2330_bu	NA	1	100	17364
+808722	2330_bu	2330_bu	NA	1	100	17731
+816054	2310	2310	NA	1	100	17767
+818673	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16239
+821462	2330_bu	2330_bu	NA	1	100	17095
+828626	9 : bossen	NA	NA	1	100	17364
+830290	2310	NA	NA	1	100	17357
+832386	6510_huk	6510_huk	NA	1	100	16225
+837842	geen habitat (akker, houtkant, tuin,...)	91F0	NA	1	100	17077
+845457	6510_hua	6510_hua	NA	1	100	16961
+845457	6510_hus	6510_hua	NA	1	100	19163
+853714	4030	4030	NA	1	100	19255
+857281	6510_hu	6510_hu	NA	0	65	16959
+857281	infrastructuur	6510_hu	NA	1	35	16959
+863169	6510_hu	6510_hu	NA	0	36	16960
+863169	onbekend	6510_hu	NA	1	64	16960
+863826	2330_dw	2330_dw	NA	1	100	19264
+870694	6510_huk	6510_huk	NA	1	100	16974
+877942	2330	2330_bu	NA	1	100	17074
+881590	2330	2330	NA	1	100	17756
+884022	6510_hu	6510_hu	NA	1	100	17680
+884342	2330_bu	2330_bu	NA	1	100	17079
+886994	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17077
+901945	6510	NA	NA	1	100	17660
+905190	6510_hu	6510_hu	NA	1	100	17688
+915089	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+919185	6510_hua	6510_hua	NA	1	100	19143
+923209	6510_hu	6510_hu	NA	1	100	17695
+934506	9 : bossen	9 : bossen	NA	1	100	17354
+934838	2330_bu	2330_bu	NA	1	100	17401
+937682	2330_bu	4030	NA	1	100	17375
+938262	6510_hu	6510_hu	NA	1	100	17690
+941682	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16223
+943538	onbekend	onbekend	NA	1	100	16223
+947126	4030	4030	NA	1	100	17757
+961362	9 : bossen	NA	NA	1	100	17360
+963294	2330_bu	2330_bu	NA	1	100	17063
+968217	6510_hua	6510_hua	NA	1	100	16953
+968217	6510_hu	6510_hua	NA	1	100	19144
+976246	2310	2310	NA	1	100	17072
+980625	6510_hua	6510_hus	NA	1	100	16961
+983510	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17098
+984721	6510_hua	6510_hua	NA	1	100	19166
+987062	2310	NA	NA	1	100	17367
+988817	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+998709	6510_hus	6510_hu	NA	1	100	18411
+1000374	4010	4030	NA	1	100	17406
+1003230	2330_bu	2330_bu	NA	1	100	17059
+1007490	6510	6510	NA	1	100	16226
+1012662	4030	4030	NA	1	100	17765
+1018841	6510_hu	6510_hu	NA	1	100	18408
+1020370	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17353
+1023282	6510	6510	NA	1	100	17693
+1026898	9 : bossen	NA	NA	1	100	17357
+1027026	2310	NA	NA	1	100	17375
+1042034	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16223
+1043410	2330_bu	2330_bu	NA	1	100	17375
+1048049	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16239
+1052582	6510_hu	6510_hu	NA	1	100	17682
+1053622	2330_bu	2330_bu	NA	1	100	17407
+1056722	9 : bossen	NA	NA	1	100	17354
+1062514	6510_hu	6510_hu	NA	1	100	18409
+1065910	2330_bu	2330_bu	NA	1	100	17378
+1068793	6510_hu	6510_hu	NA	1	100	18409
+1076854	2330_bu	2330_bu	NA	1	100	17078
+1078198	4030	4030	NA	1	100	17765
+1080817	onbekend	onbekend	NA	1	100	16239
+1085366	2330_bu	2330_bu	NA	1	68	17367
+1085366	9 : bossen	2330_bu	NA	2	32	17367
+1092434	2330_bu	2330_bu	NA	1	100	17357
+1097222	6510_hu	6510_hu	NA	1	100	17687
+1099986	91F0	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17077
+1110750	2330_bu	2330_bu	NA	1	100	17077
+1114582	2330_bu	2330_bu	NA	1	100	17778
+1119158	2310	2310	NA	1	100	17407
+1119506	6510_hus	6510_hus	NA	1	100	16966
+1131446	2330_bu	2330_bu	NA	1	100	17403
+1132838	6510_hu	6510_hu	NA	1	100	17674
+1140086	2330_bu	2330_bu	NA	1	100	17372
+1143734	4030	4030	NA	1	100	17757
+1152657	6510_hua	6510_huk	NA	1	100	16220
+1152657	6510_hua	6510_hua	NA	1	100	19143
+1163750	6510_hu	6510_hu	NA	1	100	17676
+1172854	2330_bu	2330_bu	NA	1	100	17372
+1175794	6510_hu	6510_hu	NA	1	110	17693
+1175794	infrastructuur	6510_hu	NA	2	8	17693
+1177233	6510_hua	6510_hua	NA	1	100	19163
+1180534	2330	2330_bu	NA	1	100	18121
+1185042	6510_hu	6510_hu	NA	1	100	18400
+1196982	2330_bu	2330_bu	NA	1	100	17402
+1201345	6510_hu	6510_hu	NA	1	100	17695
+1205598	onbekend	onbekend	NA	1	100	16223
+1208950	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17735
+1209270	2330	2330	NA	1	100	17759
+1213150	4030	2330_bu	NA	1	100	17392
+1214742	onbekend	onbekend	NA	1	100	16224
+1227910	6510_hu	6510_hu	NA	1	100	17681
+1234130	4030	4030	NA	1	100	17751
+1246865	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16190
+1250770	2330_bu	2330_bu	NA	1	100	17353
+1259822	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17802
+1260481	6510_hu	6510_hu	NA	1	100	17690
+1262518	4030	4030	NA	1	100	17406
+1266738	6510_hu	6510_hu	NA	1	60	17693
+1266738	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	NA	17693
+1269030	6510_huk	6510_huk	NA	1	NA	16973
+1269030	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	100	16973
+1271122	6510_hu	6510_hu	NA	1	100	17700
+1271122	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	27	17700
+1272114	2330_dw	2330_dw	NA	1	43	17346
+1272114	infrastructuur	2330_dw	NA	2	27	17346
+1272114	9 : bossen	2330_dw	NA	3	30	17346
+1274486	2330_bu	2330_bu	NA	1	100	17731
+1274806	4030	4030	NA	1	100	17766
+1280278	6510_hus	6510_hus	NA	1	100	16217
+1280278	6510_hus	6510_hus	NA	1	100	19136
+1284946	2330_bu	2330_bu	NA	1	100	17360
+1285330	2330_bu	2330	NA	1	100	17743
+1287030	2330_bu	2330_bu	NA	1	100	18121
+1287030	6 : (half) natuurlijke graslanden	2330_bu	NA	2	100	18121
+1296105	9 : bossen	NA	NA	1	100	17660
+1297718	2330_bu	2330_bu	NA	1	100	17791
+1300962	6510_hu	6510_hu	NA	1	100	17702
+1303926	2330_bu	2330_bu	NA	1	100	17361
+1311190	9 : bossen	9 : bossen	NA	1	100	17778
+1313142	2330_bu	2330_bu	NA	1	100	17374
+1315766	4030	4010	NA	1	100	17409
+1328054	2330_bu	2330_bu	NA	1	100	17400
+1328710	6510_hu	6510_hu	NA	1	100	17688
+1340342	2310	2310	NA	1	100	17785
+1344438	4030	4030	NA	1	77	17375
+1344438	2330_bu	4030	NA	2	23	17375
+1350866	2330_bu	2330_bu	NA	1	100	17743
+1353078	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17374
+1355014	6510_hu	6510_hu	NA	1	100	17688
+1365778	NA	NA	NA	1	100	17736
+1375542	6510_hu	6510_hu	NA	1	100	17680
+1380278	2310	2310	NA	1	100	17743
+1381302	2310	2310	NA	1	100	17763
+1381569	6510_hu	6510_hu	NA	1	100	17688
+1390706	6510_hu	6510_hu	NA	1	100	18410
+1397810	6510	6510	NA	1	100	17689
+1402230	2330_bu	2330_bu	NA	1	100	17373
+1405382	6510_hu	6510_hu	NA	1	100	17687
+1405878	2330	2330	NA	1	100	17759
+1407698	2330_bu	2330_bu	NA	1	100	17381
+1409974	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17375
+1422046	2330_bu	2330_bu	NA	1	100	17414
+1426969	1 : Kusthabitats en halofytenvegetaties	1 : Kusthabitats en halofytenvegetaties	NA	0	100	16940
+1442745	6510_hu	6510_hu	NA	1	100	18065
+1447497	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17689
+1454814	2330_bu	2330_bu	NA	1	100	17415
+1470918	6510_hu	6510_hu	NA	1	100	17687
+1471094	2330_bu	2330_bu	NA	1	100	17735
+1474033	6510_hus	6510_hus	NA	1	100	17696
+1478129	6510_hua	6510_hua	NA	1	100	17674
+1479890	2330_bu	2330_bu	NA	1	100	17745
+1487746	6510_huk	6510_huk	NA	1	59	16224
+1487746	6510_huk	6510_huk	NA	1	54.5	19146
+1487746	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	41	16224
+1487746	9 : bossen	6510_huk	NA	2	45.5	19146
+1487798	2310	2310	NA	1	100	17737
+1500498	6510_huk	6510_huk	NA	1	100	17700
+1500534	2330_bu	2330_bu	NA	1	100	17373
+1501490	2330_bu	2330_bu	NA	1	100	17346
+1504306	6510_hu	6510_hu	NA	1	100	17689
+1506770	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17344
+1512322	6510_hu	6510	NA	1	70	18066
+1512322	9 : bossen	6510	NA	2	30	18066
+1512374	4030	4030	NA	1	100	17756
+1512530	6510_hu	6510_hu	NA	1	100	17701
+1529025	6510_hu	6510_hu	NA	1	100	17689
+1533266	6510_hu	6510_hu	NA	1	100	17700
+1533266	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	35	17700
+1535001	6510_hu	6510_hu	NA	1	100	18408
+1536630	2330_bu	2330_bu	NA	1	100	17732
+1536950	4030	4030	NA	1	100	17766
+1542626	6510_hu	6510_hus	NA	1	100	17702
+1547090	2330_bu	2330_bu	NA	1	100	17360
+1547570	6510_hu	6510_hu	NA	1	100	17693
+1549622	6510_hu	6510_hu	NA	1	100	17680
+1558738	2330_bu	2330_bu	NA	1	100	17736
+1562998	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17360
+1566070	2330_bu	2330_bu	NA	1	100	17373
+1566166	2330_bu	2330_bu	NA	1	100	17456
+1569666	6510_huk	6510_huk	NA	1	65	16213
+1569666	6510_huk	6510_huk	NA	1	57.4	19150
+1569666	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	35	16213
+1569666	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	42.6	19150
+1590198	4030	4030	NA	1	100	17375
+1594578	2330_bu	2330_bu	NA	1	100	17744
+1599794	4010	4010	NA	1	100	17346
+1606582	2330_bu	2330_bu	NA	1	100	17400
+1618818	6510_huk	6510_huk	NA	1	100	16224
+1618818	6510_huk	6510_huk	NA	1	100	19146
+1625522	onbekend	onbekend	NA	1	100	16223
+1628534	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17360
+1631606	2330_bu	2330_bu	NA	1	100	17372
+1635038	2330_bu	2330_bu	NA	1	100	17399
+1659862	2330_bu	2330_bu	NA	1	100	17812
+1684406	2310	2310	NA	1	100	17760
+1685137	6510_hua	6510_hua	NA	1	100	17674
+1702514	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16223
+1708982	2330_bu	2330_bu	NA	1	100	17409
+1709266	2330_bu	2330_bu	NA	1	100	17742
+1713026	onbekend	NA	NA	1	100	16226
+1714306	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16212
+1743698	2330_bu	2330_bu	NA	1	100	17354
+1762774	2330_bu	2330_bu	NA	1	100	17395
+1775058	2330_bu	2330_bu	NA	1	100	17353
+1786474	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17352
+1786806	2330_bu	2330_bu	NA	1	100	17406
+1789878	4010	4010	NA	1	100	17750
+1793318	6510_huk	6510_huk	NA	1	61	16974
+1793318	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	39	16974
+1820185	6510_hu	6510_hu	NA	1	100	17693
+1835906	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16212
+1875842	onbekend	NA	NA	1	100	16225
+1885721	6510_hua	6510_hua	NA	1	100	18051
+1905938	6510	6510	NA	1	64	16961
+1905938	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	36	16961
+1910194	onbekend	onbekend	NA	1	100	16223
+1939058	2310	2310	NA	1	100	16940
+1956702	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16958
+1971474	6510_hus	6510_hus	NA	1	100	16960
+1985970	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16212
+2007238	6 : (half) natuurlijke graslanden	6 : (half) natuurlijke graslanden	NA	1	100	16232
+2037393	6510_hua	6510_hua	NA	1	100	18052
+2114226	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16212
+2155394	onbekend	NA	NA	1	100	16226
+2201202	6510_huk	6510_huk	NA	1	100	18409
+2233618	6510_hus	6510_hus	NA	1	100	16962
+2299537	6510_hua	6510_hua	NA	1	100	18052
+2328854	6510_hus	6510_hus	NA	1	89	16217
+2328854	6510_hus	6510_hus	NA	1	94	19142
+2328854	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	11	16217
+2328854	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	6	19142
+2383474	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	18408
+2410009	6510_hua	6510_hua	NA	1	100	18053
+2440689	6510_hua	6510_hua	NA	1	100	17696
+2495762	6510_hus	6510_hus	NA	1	100	16966
+2645426	6510_huk	6510_huk	NA	1	100	17690
+2733713	6510_hua	6510_hua	NA	1	100	18052
+2841894	6510_huk	6510_huk	NA	1	100	17673
+2867990	6510_hus	6510_hus	NA	1	93	16212
+2867990	6510_hus	6510_hus	NA	1	96.7	19145
+2867990	onbekend	6510_hus	NA	2	7	16212
+2867990	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	3.3	19145
+2891673	6510_hua	6510_hua	NA	1	100	18418
+2911526	6510_huk	6510_hus	NA	1	100	18408
+2934297	6510_hu	6510_hu	NA	1	100	17693
+2942609	6510_hua	6510_hua	NA	1	100	18052
+2954514	6510_hus	6510_hus	NA	1	100	16962
+2967065	6510_hua	6510_hua	NA	1	100	17694
+3068802	6510_huk	6510_huk	NA	1	100	17718
+3068802	6510_huk	6510_huk	NA	1	100	19146
+3077777	6510_hua	6510_hua	NA	1	100	18415
+3120562	6510_huk	6510_huk	NA	1	100	17693
+3132850	6510_huk	6510_huk	NA	1	100	18410
+3153026	6510_huk	6510_huk	NA	1	100	18404
+3163010	6510_huk	6510_huk	NA	1	100	17709
+3170178	6510_huk	6510_huk	NA	1	100	18066
+3173042	6510_huk	6510_huk	NA	1	100	18415
+3366786	6510_huk	6510_huk	NA	1	100	18066
+3432322	6510	6510	NA	1	74	18066
+3432322	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	26	18066
+3511922	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	18408
+3564894	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16197
+3612546	6510_huk	6510_huk	NA	1	100	17718
+3612546	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	5	17718
+3811458	6510_huk	6510_huk	NA	1	100	17690
+3821746	6510_huk	6510_huk	NA	1	100	17694
+3829634	6510	6510	NA	1	100	18065
+3906994	6510_huk	6510_huk	NA	1	100	17690
+3956146	6510_huk	6510_huk	NA	1	100	17693
+4003090	6510_hus	6510_hus	NA	1	93	16961
+4003090	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	7	16961
+4122918	6510_huk	6510_huk	NA	1	100	17669
+4256642	6510_huk	6510_huk	NA	1	100	17710
+4330770	6510_hus	6510_hus	NA	1	100	18409
+4346754	6510_hu	6510	NA	1	57	18065
+4346754	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	43	18065
+4351326	6510_hus	6510_hus	NA	1	100	17673
+4390190	onbekend	NA	NA	1	100	18030
+4417666	6510_huk	6510_huk	NA	1	100	17709
+4417666	9 : bossen	6510_huk	NA	2	15	17709
+4502402	6510_huk	6510_huk	NA	1	100	17710
+4502402	infrastructuur	6510_huk	NA	2	NA	17710
+4633474	6510_huk	6510_huk	NA	1	100	17710
+4868374	6510_hus	6510_hus	NA	1	100	17690
+5313810	6510_hus	6510_hus	NA	1	100	18401
+5474582	6510_hus	6510_hus	NA	1	100	18031
+5474582	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	100	18031
+6151006	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16958
+6165778	6510_hus	6510_hus	NA	1	100	18401
+6201542	6510_hus	6510_hus	NA	1	100	18039
+6427922	6510_hus	6510_hus	NA	1	100	18051
+6448478	6510_hus	6510_hus	NA	1	100	17675
+6523158	6510_hu	6510_hus	NA	1	100	18032
+6690066	6510_hus	6510_hua	NA	1	100	18052
+7062294	6510_hus	6510_hus	NA	1	100	18031
+7148818	6510_hus	6510_hus	NA	1	100	17694
+7738642	6510_hus	6510_hus	NA	1	100	18052
+7759198	6510_hus	6510_hus	NA	1	100	17676
+8525074	6510_hu	6510_hu	NA	1	100	18051
+8669462	6510_hus	6510_hus	NA	1	100	17693
+9245970	6510_hus	6510_hus	NA	1	100	18409
+9508114	6510_hus	6510_hus	NA	1	100	18408
+10622226	6510_hus	6510_hus	NA	1	100	17696
+10717462	6510_hus	6510_hus	NA	1	100	18032
+11343122	6510_hus	6510_hus	NA	1	100	18408
+12457234	6510_hus	6510_hus	NA	1	100	18400

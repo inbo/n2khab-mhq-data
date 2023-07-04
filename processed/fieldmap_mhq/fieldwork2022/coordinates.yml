@@ -1,0 +1,15 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: 5b7ee629d503560c11df516605701d9bc0c50047
+  data_hash: 1b7e500f6cc0e2bb52463ff981b004f92176e37c
+plot_id:
+  class: character
+x_measured:
+  class: numeric
+y_measured:
+  class: numeric
+point_code:
+  class: character

@@ -1,14 +1,13 @@
 ..generic:
-  git2rdata: 0.3.1
+  git2rdata: 0.4.0
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - segment_id
-  - type_observed_circle
-  - type_observed_square
-  hash: 0dea824cb4161746aead27fb3a393ae4e8cb3fb4
-  data_hash: a5f5a752d721da0fff72062ef2102c9b494c7fc7
+  - date_assessment
+  hash: ee08042e5db8130af8dfe5c2f8bfe835cd4d7cb4
+  data_hash: 9cba2524ee6959349054fc3029514d9051c4bce5
 plot_id:
   class: integer
 type_observed_circle:
@@ -21,3 +20,6 @@ segment_id:
   class: integer
 type_observed_cover_circle:
   class: numeric
+date_assessment:
+  class: Date
+  origin: '1970-01-01'

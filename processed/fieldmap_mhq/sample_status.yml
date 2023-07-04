@@ -1,10 +1,12 @@
 ..generic:
-  git2rdata: 0.3.1
+  git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  sorting: plot_id
-  hash: 564dd9e48ee972c1d491e361d251c9b68393ba46
-  data_hash: 7001f8e047a2383f1e94eb80bcc3f18ad3a1e18e
+  sorting:
+  - plot_id
+  - date_assessment
+  hash: ce189d49e4fdf7f08a4afdf0f26597e006e02902
+  data_hash: 54493648528ec44ece6bd7126b48529af2d8fabb
 plot_id:
   class: integer
 sampling_unit_code:
@@ -12,9 +14,8 @@ sampling_unit_code:
 db:
   class: character
 date_status:
-  class: POSIXct
-  origin: 1970-01-01 00:00:00
-  timezone: UTC
+  class: Date
+  origin: '1970-01-01'
 status_fieldwork:
   class: character
 targethabitat:
@@ -25,15 +26,6 @@ remark:
   class: character
 navplot_id:
   class: integer
-veg_done:
-  class: integer
-reg_done:
-  class: integer
-dendro_done:
-  class: integer
-info_springveg:
-  class: character
-springveg:
-  class: integer
-remark4:
-  class: logical
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
