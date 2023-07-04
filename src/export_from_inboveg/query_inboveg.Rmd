@@ -35,7 +35,7 @@ update <- TRUE
  
 connection_inboveg <- connect_inbo_dbase(database_name = "D0010_00_Cydonia")
 
-mhq_terr_surveys <- c("N2000meetnet_Grasland", "N2000meetnet_Moerassen", "N2000meetnet_Grasland_BHM", "N2000meetnet_Moeras_BHM", "N2000meetnet_Duinen_BHM", "N2000_Duinen_Fieldapp", "N2000meetnet_Bos_91E0_sf", "N2000meetnet_Heide_BHM", "N2000meetnet_Heide_BHM_2022", "N2000_grasland_fieldapp_18", "N2000_grasland_fieldapp_3")
+mhq_terr_surveys <- c("N2000meetnet_Grasland", "N2000meetnet_Moerassen", "N2000meetnet_Grasland_BHM", "N2000meetnet_Moeras_BHM", "N2000meetnet_Duinen_BHM", "N2000_Duinen_Fieldapp", "N2000meetnet_Bos_91E0_sf", "N2000meetnet_Heide_BHM", "N2000meetnet_Heide_BHM_2022", "N2000_6510_droogte")
 
 classif_mhq <- get_inboveg_classification(connection = connection_inboveg, survey_name = mhq_terr_surveys, collect = TRUE, multiple = TRUE) %>%
     select(recording_givid = RecordingGivid, survey = Name, type_observed = Classif, classif_type = ActionGroup, classif_key = ListName, type_cover = Cover) %>%
