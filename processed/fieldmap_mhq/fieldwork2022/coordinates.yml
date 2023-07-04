@@ -3,13 +3,13 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 06461c4f928f27182fbbed2e462be80aca01b832
-  data_hash: 514adca188398b8e39295fd17e9af8d283d4bdf3
-idplots:
-  class: integer
+  hash: 5b7ee629d503560c11df516605701d9bc0c50047
+  data_hash: 1b7e500f6cc0e2bb52463ff981b004f92176e37c
 plot_id:
-  class: integer
+  class: character
 x_measured:
   class: numeric
 y_measured:
   class: numeric
+point_code:
+  class: character

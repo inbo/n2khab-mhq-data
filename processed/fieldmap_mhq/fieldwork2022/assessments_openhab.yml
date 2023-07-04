@@ -3,11 +3,9 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 7acf3d3364e7dfa6ac1cb3361ec340af88cf6fc7
-  data_hash: e9a8eb827ea6e5d247e49eca5ed08d955dd4ca4f
+  hash: 81106a34867f6e2976e0673c50d8cbb20fc539b1
+  data_hash: 37985fb883402ccbd9556dd0c5982aabd1ad85a0
 plot_id:
-  class: character
-sampling_unit_code:
   class: character
 targethabitat:
   class: character
@@ -34,3 +32,13 @@ structure_openhab_record:
   class: logical
 cover_species_record:
   class: logical
+point_code:
+  class: character
+x_measured:
+  class: numeric
+y_measured:
+  class: numeric
+x_orig:
+  class: numeric
+y_orig:
+  class: numeric

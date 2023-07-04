@@ -1,133 +1,119 @@
-plot_id	sampling_unit_code	targethabitat	status_fieldwork	info_status_fieldwork	assessment_source	date_assessment	inaccessible	not_measurable	type_observed	lsvi_measurement	remark	structure_openhab_record	cover_species_record
-100050	100050_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4010	1	NA	1	1
-100297	100297_2	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	NA	19146	NA	long term	NA	0	gemaaid	0	0
-102098	102098_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4030	1	NA	1	1
-105458	105458_1	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	4010	0	NA	1	1
-105682	105682_1	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19242	NA	NA	9 : bossen	0	NA	0	0
-111326	111326_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	4030	1	NA	1	1
-11218	11218_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	4010	1	NA	1	1
-1152657	1152657_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	moest voor huk?	1	1
-117202	117202_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1
-1177233	1177233_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19163	NA	NA	6510_hua	1	NA	1	1
-118441	118441_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19152	NA	NA	6510_hu	1	NA	1	1
-120110	120110_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-122578	122578_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19234	NA	NA	4010	1	NA	1	1
-12274	12274_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1
-124278	124278_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19265	NA	NA	2330	1	NA	1	1
-127218	127218_2	ja	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	19117	NA	long term	NA	0	geen ontvangst RTK = onder hoogspanningskabels en Nederlands internet 	0	0
-1280278	1280278_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19136	NA	NA	6510_hus	1	NA	1	1
-128657	128657_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19163	NA	NA	6510_hua	1	NA	1	1
-128722	128722_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	4030	1	NA	1	1
-136402	136402_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-144094	144094_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2330	1	NA	1	1
-1487746	1487746_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_huk	1	NA	1	1
-151250	151250_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4030	1	NA	1	1
-151318	151318_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19136	NA	NA	6510_hu	1	6510_hu	1	1
-1569666	1569666_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19150	NA	NA	6510_huk	1	NA	1	1
-1618818	1618818_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_huk	1	gemaaid geweest	1	1
-162790	162790_2	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	0	"geen sleutelsoort in de plot
+plot_id	targethabitat	status_fieldwork	info_status_fieldwork	assessment_source	date_assessment	inaccessible	not_measurable	type_observed	lsvi_measurement	remark	structure_openhab_record	cover_species_record	point_code	x_measured	y_measured	x_orig	y_orig
+100050	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4010	1	NA	1	1	100050_1	224989.615	188910.105	224989.65	188910.05
+100297	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	NA	19146	NA	long term	NA	0	gemaaid	0	0	100297_2	93983.373	194600.675	93983.57	194600.56
+102098	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4030	1	NA	1	1	102098_1	224477.589	192718.122	224477.59	192718.12
+105458	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	4010	1	NA	1	1	105458_1	239613.604	180142.11	239613.59	180142.11
+105682	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19242	NA	NA	9 : bossen	0	NA	0	0	105682_1	225437.192	194287.683	225437.59	194286.1
+111326	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	4030	1	NA	1	1	111326_1	155069.539	231854.103	155069.52	231854
+11218	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	4010	1	NA	1	1	11218_1	230078.308	194510.759	230077.56	194510.1
+1152657	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	moest voor huk?	1	1	1152657_2	37885.207	183942.93	37886.16	183945.95
+117202	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1	117202_1	229948.286	193581.585	229949.58	193582.05
+1177233	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19163	NA	NA	6510_hua	1	NA	1	1	1177233_1	36445.492	182830.089	36445.59	182830.11
+118441	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19152	NA	NA	6510_hu	1	NA	1	1	118441_1	127069.585	191565.952	127069.61	191566
+122578	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19234	NA	NA	4010	1	NA	1	1	122578_1	NA	NA	223677.58	190446.1
+12274	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1	12274_1	NA	NA	239965.59	185454.11
+124278	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19265	NA	NA	2330	1	NA	1	1	124278_1	214109.726	216238.179	214109.65	216238.18
+127218	ja	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	NA	NA	long term	NA	0	geen ontvangst RTK = onder hoogspanningskabels en Nederlands internet 	0	0	127218_2	NA	NA	236382.53	174962
+1280278	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19136	NA	NA	6510_hus	1	NA	1	1	1280278_2	NA	NA	164510.1	187183.09
+128657	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19163	NA	NA	6510_hua	1	NA	1	1	128657_1	36413.48	182958.149	36413.59	182958.11
+128722	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	4030	1	NA	1	1	128722_1	226685.588	186318.136	226685.59	186318.11
+144094	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2330	1	NA	1	1	144094_1	153181.891	231726.763	153181.84	231726.67
+1487746	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_huk	1	NA	1	1	1487746_2	NA	NA	254623.22	159730.89
+151250	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4030	1	NA	1	1	151250_1	224445.611	193870.17	224445.54	193870.16
+151318	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19136	NA	NA	6510_hu	1	6510_hu	1	1	151318_1	NA	NA	159069.56	190222.05
+1569666	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19150	NA	NA	6510_huk	1	NA	1	1	1569666_2	NA	NA	253855.23	159314.92
+1618818	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_huk	1	gemaaid geweest	1	1	1618818_2	NA	NA	254719.18	159378.94
+162790	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	"geen sleutelsoort in de plot
 
 
-"	1	1
-18546	18546_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19152	NA	NA	6510_hu	1	begraasd	1	1
-20178	20178_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	2310	1	NA	1	1
-206134	206134_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19124	NA	NA	6510_hu	1	NA	1	1
-218322	218322_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-229362	229362_1	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	2330_dw	0	NA	1	1
-231702	231702_1	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	NA	19117	NA	long term	NA	0	gemaaid (op 31/05/22)	0	0
-2328854	2328854_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19142	NA	NA	6510_hus	1	NA	0	1
-23538	23538_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4010	1	NA	1	1
-236370	236370_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1
-23762	23762_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	4030	1	NA	1	1
-238578	238578_1	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	2330_dw	0	NA	1	1
-243846	243846_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1
-258390	258390_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1
-2610	2610_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1
-26322	26322_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19228	NA	NA	4030	1	NA	1	1
-274002	274002_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	2330_dw	1	NA	1	1
-27602	27602_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-28370	28370_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19234	NA	NA	4030	1	NA	1	1
-28658	28658_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1
-2867990	2867990_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hus	1	Geen pimpernel gezien	1	1
-29406	29406_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1
-297201	297201_1	ja	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	19117	NA	long term	NA	0	terreinwerk eerder uitvoeren	0	0
-301846	301846_1	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19144	NA	NA	NA	0	Brandnetelruigte	0	0
-3026	3026_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-30290	30290_1	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	4030	0	NA	1	1
-306130	306130_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1
-3068802	3068802_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_huk	1	NA	1	1
-308098	308098_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1
-321169	321169_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19166	NA	NA	6510_hua	1	NA	1	1
-32466	32466_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	2310	1	NA	1	1
-327153	327153_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19167	NA	NA	6510_hua	1	NA	1	1
-333385	333385_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1
-34514	34514_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19234	NA	NA	2310	1	NA	1	1
-366225	366225_2	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19143	NA	NA	infrastructuur	0	"zou een bestaand meetpunt moeten zijn maar ligt en lag op betonweg.
+"	1	1	162790_2	205438.222	183632.704	205438.2	183632.77
+18546	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19152	NA	NA	6510_hu	1	begraasd	1	1	18546_2	NA	NA	229727.01	163889.89
+20178	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	2310	1	NA	1	1	20178_1	223997.722	193678.068	223997.62	193678.13
+206134	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19124	NA	NA	6510_hu	1	NA	1	1	206134_2	192126.063	188880.39	192126	188880.31
+229362	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	2330_dw	1	NA	1	1	229362_1	240029.613	182926.05	239997.6	182926.1
+231702	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	NA	NA	NA	long term	NA	0	gemaaid (op 31/05/22)	0	0	231702_1	NA	NA	164414.03	187247.08
+2328854	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19142	NA	NA	6510_hus	1	NA	0	1	2328854_2	NA	NA	164446.04	187183.26
+23538	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4010	1	NA	1	1	23538_1	NA	NA	240637.72	181550.16
+236370	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1	236370_1	NA	NA	236637.59	195854.11
+23762	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	4030	1	NA	1	1	23762_1	226109.689	194286.142	226109.62	194286.12
+238578	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	2330_dw	1	NA	1	1	238578_1	238525.595	183950.059	238525.59	183950.11
+243846	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1	243846_2	185566.406	180848.004	185566.26	180847.98
+258390	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1	258390_2	184349.898	190320.018	184349.96	190319.96
+2610	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1	2610_1	NA	NA	228701.59	183310.17
+26322	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19228	NA	NA	4030	1	NA	1	1	26322_1	222973.677	188302.115	222973.64	188302.12
+274002	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	2330_dw	1	NA	1	1	274002_1	237501.482	187214.092	237501.59	187214.11
+28370	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19234	NA	NA	4030	1	NA	1	1	28370_1	NA	NA	224925.62	189998.19
+28658	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1	28658_1	NA	NA	240317.63	185614.12
+2867990	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hus	1	Geen pimpernel gezien	1	1	2867990_1	NA	NA	155038.04	186414.8
+29406	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1	29406_1	154397.575	232526.238	154397.52	232526.16
+297201	ja	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	NA	NA	long term	NA	0	terreinwerk eerder uitvoeren	0	0	297201_1	NA	NA	43229.6	198062.1
+301846	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19144	NA	NA	NA	0	Brandnetelruigte	0	0	301846_1	NA	NA	160797.6	188974.1
+30290	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	4030	1	NA	1	1	30290_1	240541.717	187054.136	240541.59	187054.11
+306130	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1	306130_1	229980.882	195533.976	229981.57	195534.14
+3068802	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_huk	1	NA	1	1	3068802_1	NA	NA	255005.6	159086.11
+308098	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1	308098_2	NA	NA	254527.19	159602.62
+321169	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19166	NA	NA	6510_hua	1	NA	1	1	321169_1	35901.553	183822.157	35997.59	183886.11
+32466	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	2310	1	NA	1	1	32466_1	224797.693	193358.065	224797.61	193358.16
+327153	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19167	NA	NA	6510_hua	1	NA	1	1	327153_2	44156.048	187657.347	44156	187657.35
+333385	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1	333385_2	87933.457	204588.159	87933.36	204588.07
+34514	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19234	NA	NA	2310	1	NA	1	1	34514_1	NA	NA	225277.54	189806.12
+366225	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19143	NA	NA	infrastructuur	0	"zou een bestaand meetpunt moeten zijn maar ligt en lag op betonweg.
 
 
-"	0	0
-370386	370386_1	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	4030	0	NA	1	1
-37330	37330_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-38545	38545_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1
-38610	38610_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	2310	1	NA	1	1
-386422	386422_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19265	NA	NA	2330_bu	1	NA	1	1
-386674	386674_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19153	NA	NA	6510_hu	1	NA	1	1
-398529	398529_3	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19145	NA	NA	geen habitat (akker, houtkant, tuin,...)	0	"braammassief?
-"	0	0
-40146	40146_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4 : heide- en struikvegetaties	1	NA	1	1
-409654	409654_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hu	1	NA	0	1
-41814	41814_2	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	0	"mest geinjecteerd?
-"	1	1
-42934	42934_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-43858	43858_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1
-4434	4434_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19151	NA	NA	6510_hu	1	NA	1	1
-445266	445266_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1
-44626	44626_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4030	1	NA	1	1
-452066	452066_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19153	NA	NA	6510_hu	1	NA	1	1
-45790	45790_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	2310	1	NA	1	1
-46006	46006_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-47446	47446_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1
-501046	501046_2	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19144	NA	NA	6 : (half) natuurlijke graslanden	0	"bramenkoepel in wastine
+"	0	0	366225_2	NA	NA	37677.55	183736.45
+370386	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	4030	1	NA	1	1	370386_1	224573.656	188078.088	224541.59	188142.11
+38545	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1	38545_2	37918.344	183977.86	37918.27	183977.96
+38610	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	2310	1	NA	1	1	38610_1	224573.631	186798.164	224573.59	186798.11
+386422	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19265	NA	NA	2330_bu	1	NA	1	1	386422_1	214333.588	216334.166	214333.62	216334.14
+386674	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19153	NA	NA	6510_hu	1	NA	1	1	386674_2	NA	NA	224638.49	165554.39
+398529	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19145	NA	NA	geen habitat (akker, houtkant, tuin,...)	0	"braammassief?
+"	0	0	398529_3	86366.029	203532.75	86365.38	203531.97
+40146	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4 : heide- en struikvegetaties	1	NA	1	1	40146_1	224797.59	195022.223	224797.57	195022.14
+409654	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hu	1	NA	0	1	409654_2	197054.042	190128.572	197054.03	190128.57
+41814	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	"mest geinjecteerd?
+"	1	1	41814_2	176797.824	191919.858	176797.8	191919.6
+43858	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1	43858_1	NA	NA	237149.6	195662.2
+4434	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19151	NA	NA	6510_hu	1	NA	1	1	4434_1	NA	NA	247997.6	188686.1
+445266	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1	445266_1	NA	NA	236797.6	196078.1
+44626	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4030	1	NA	1	1	44626_1	NA	NA	238205.6	186638.1
+452066	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19153	NA	NA	6510_hu	1	NA	1	1	452066_2	NA	NA	251645.3	206418.7
+45790	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	2310	1	NA	1	1	45790_1	154428.703	231821.112	154429.7	231822.2
+47446	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1	47446_2	184126.006	189199.823	184126	189199.9
+501046	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19144	NA	NA	6 : (half) natuurlijke graslanden	0	"bramenkoepel in wastine
 
-"	0	0
-528582	528582_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1
-54482	54482_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-54994	54994_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-556006	556006_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	" herk de sfad beerbosstraat
-"	1	1
-589110	589110_2	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hu	0	geen s]eute]soort	1	1
-589698	589698_4	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19150	NA	NA	onbekend	0	NA	0	0
-605493	605493_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1
-62174	62174_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1
-636561	636561_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1
-643970	643970_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1
-65234	65234_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-65522	65522_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-659794	659794_2	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19152	NA	NA	geen habitat (akker, houtkant, tuin,...)	0	Ingezaaid met engels raaigras.	0	0
-66006	66006_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19265	NA	NA	2310	1	NA	1	1
-676914	676914_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	"netelbroekstraat
+"	0	0	501046_2	NA	NA	193182	189104.4
+528582	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1	528582_1	NA	NA	161918.2	182063
+556006	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	" herk de sfad beerbosstraat
+"	1	1	556006_2	205342.201	182864.786	205342.2	182864.8
+589110	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hu	1	geen s]eute]soort	1	1	589110_2	189470.035	187504.179	189470	187504.1
+589698	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19150	NA	NA	onbekend	0	NA	0	0	589698_4	NA	NA	258271	159185.8
+605493	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1	605493_2	77596.562	227371.659	77596.57	227371.6
+62174	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1	62174_1	154109.789	231981.895	154109.7	231981.9
+636561	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1	636561_2	37599.123	183721.302	37598.17	183721.8
+643970	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	NA	1	1	643970_2	NA	NA	254942.9	159186.6
+659794	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19152	NA	NA	geen habitat (akker, houtkant, tuin,...)	0	Ingezaaid met engels raaigras.	0	0	659794_2	NA	NA	247742	188082.6
+66006	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19265	NA	NA	2310	1	NA	1	1	66006_1	177725.542	217902.122	177725.6	217902.1
+676914	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19146	NA	NA	6510_hu	1	"netelbroekstraat
 
-"	1	1
-677174	677174_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hu	1	NA	1	1
-720369	720369_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19166	NA	NA	6510_hua	1	NA	1	1
-72690	72690_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4030	1	NA	1	1
-75474	75474_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19228	NA	NA	4030	1	NA	1	1
-76242	76242_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-76754	76754_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1
-77394	77394_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19125	NA	NA	NA	1	opname door INBO ikv verdroging	0	0
-792209	792209_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1
-79986	79986_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19152	NA	NA	6510_hu	1	NA	1	1
-845457	845457_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19163	NA	NA	6510_hua	1	NA	1	1
-853714	853714_1	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	4030	0	NA	1	1
-863826	863826_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	2330_dw	1	NA	1	1
-8786	8786_1	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19237	NA	NA	geen habitat (akker, houtkant, tuin,...)	0	NA	0	0
-8893	8893_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1
-90846	90846_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	2310	1	NA	1	1
-919185	919185_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1
-94942	94942_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	4030	1	NA	1	1
-968217	968217_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hua	1	NA	1	1
-96978	96978_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19226	NA	NA	2310	1	NA	1	1
-98002	98002_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	2310	1	NA	1	1
-984721	984721_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19166	NA	NA	6510_hua	1	NA	1	1
-9938	9938_1	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19228	NA	NA	4030	1	NA	1	1
-99521	99521_2	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1
+"	1	1	676914_2	NA	NA	220862.6	175281.4
+677174	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hu	1	NA	1	1	677174_2	190941.925	188496.238	190942	188496.2
+720369	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19166	NA	NA	6510_hua	1	NA	1	1	720369_2	43646.092	186890.164	43646.06	186890.1
+72690	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4030	1	NA	1	1	72690_1	NA	NA	239325.5	181326.1
+75474	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19228	NA	NA	4030	1	NA	1	1	75474_1	223197.626	189358.072	223197.6	189358.1
+76754	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1	76754_1	230269.709	194702.111	230269.6	194702.1
+792209	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1	792209_1	37213.621	183790.127	37213.59	183790.1
+79986	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19152	NA	NA	6510_hu	1	NA	1	1	79986_2	NA	NA	228639.1	163377.6
+845457	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19163	NA	NA	6510_hua	1	NA	1	1	845457_1	36253.69	183918.042	36253.59	183918.1
+853714	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19255	NA	NA	4030	1	NA	1	1	853714_1	224957.639	188174.075	224925.6	188174.1
+863826	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	2330_dw	1	NA	1	1	863826_1	237597.561	187246.194	237597.6	187246.1
+8786	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19237	NA	NA	geen habitat (akker, houtkant, tuin,...)	0	NA	0	0	8786_1	NA	NA	242749.6	192974.1
+8893	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1	8893_1	152797.566	232782.214	152797.6	232782.1
+90846	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	2310	1	NA	1	1	90846_1	155389.746	231534.944	155389.8	231534.9
+919185	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19143	NA	NA	6510_hua	1	NA	1	1	919185_1	36317.72	183086.153	36317.59	183086.1
+94942	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19248	NA	NA	4030	1	NA	1	1	94942_1	154685.599	231918.164	154685.5	231918.2
+968217	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19144	NA	NA	6510_hua	1	NA	1	1	968217_1	94205.606	168686.208	94205.59	168686.1
+96978	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19226	NA	NA	2310	1	NA	1	1	96978_1	222365.721	188686.064	222365.6	188686.1
+98002	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	2310	1	NA	1	1	98002_1	225245.651	193934.116	225245.6	193934.1
+984721	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19166	NA	NA	6510_hua	1	NA	1	1	984721_1	36221.461	183758.098	36221.59	183758.1
+9938	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19228	NA	NA	4030	1	NA	1	1	9938_1	223645.621	189070.088	223645.6	189070.1
+99521	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hu	1	NA	1	1	99521_2	87069.536	204268.002	87069.41	204268

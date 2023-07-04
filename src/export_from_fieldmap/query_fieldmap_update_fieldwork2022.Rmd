@@ -90,9 +90,9 @@ get_status_openhab <- function(db = db_fieldmap_openhab){
 query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     Grid_points.Ranking as plot_id,
     Grid_points.Add_date as date_status,
-    Grid_points.SingleID as sampling_unit_code,
-    Grid_points.x_m,
-    Grid_points.y_m,
+    Grid_points.SingleID as point_code,
+    Grid_points.x_m as x_orig,
+    Grid_points.y_m as y_orig,
     Grid_points.Habt1,
     Grid_points.habsubt1,
     Grid_points.EXTRA_SUBT,
@@ -511,7 +511,7 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
 
   query_coord <- "SELECT
   GPS_REF.IDPlots,
-  GPS_REF.SingleID as plot_id,
+  GPS_REF.uniekeid as point_code,
   GPS_REF.X_m as x_measured,
   GPS_REF.Y_m as y_measured
   FROM GPS_REF"
@@ -525,7 +525,8 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
   }
 
   coordinates <- sqlQuery(connect_db, query_coord) %>%
-      filter(!is.na(PLOT_ID))
+    filter(!is.na(POINT_CODE)) %>%
+    mutate(plot_id = str_remove(POINT_CODE, "_\\d"))
 
   odbcClose(connect_db)
   
@@ -605,11 +606,42 @@ check_unique_record <- date_assessment %>%
 coordinates  <- get_coordinates_openhab() %>%
     unique()
 
-check <- coordinates %>%
+check_coordinates_double <- coordinates %>%
   group_by(plot_id) %>%
   mutate(n = n()) %>%
   ungroup() %>%
-  filter(n > 1) # check plot 12710
+  filter(n > 1) %>%
+  mutate(plot_id = as.numeric(plot_id)) %>%
+  left_join(sample_status, by = c("point_code", "plot_id")) %>%
+  select(plot_id, point_code, x_orig, y_orig, x_measured, y_measured) %>%
+  mutate(distance = sqrt((x_orig - x_measured) ^ 2 + (y_orig - y_measured) ^ 2),
+         distance = round(distance, 1))
+
+check_distance <-  coordinates %>%
+  mutate(plot_id = as.numeric(plot_id)) %>%
+  left_join(sample_status, by = c("point_code", "plot_id")) %>%
+  select(plot_id, point_code, x_orig, y_orig, x_measured, y_measured) %>%
+  mutate(distance = sqrt((x_orig - x_measured) ^ 2 + (y_orig - y_measured) ^ 2),
+         distance = round(distance, 1))
+```
+
+# Check coordinates
+
+For plt 556006 we have two coordiantes in the database. See table below. The first one is probably an error. 
+
+```{r}
+check_coordinates_double %>%
+  kable() %>%
+  kable_styling()
+
+
+
+```
+
+```{r}
+coordinates <- coordinates %>%
+  filter(!(plot_id  == "556006" & x_measured > 210000)) %>%
+  select(-idplots)
 ```
 
 
@@ -668,12 +700,6 @@ date_assessment_plot <- date_assessment %>%
     summarise(date_assessment = min(date_assessment)) %>%
     ungroup()
 
-check_coordinates_double <- coordinates %>%
-  group_by(plot_id) %>%
-  mutate(n = n()) %>%
-  ungroup() %>%
-  filter(n > 1)
-
 check_missing_data <- sample_status %>%
   select(-habt1, -habsubt1) %>%
     filter(!is.na(plot_id)) %>%
@@ -703,13 +729,14 @@ check_missing_data <- sample_status %>%
   mutate(plot_id = as.character(plot_id))
 
 sample_status <- sample_status %>%
-  select(-habt1, -habsubt1, -x_m, - y_m) %>%
+  select(-habt1, -habsubt1, -x_orig, - y_orig) %>%
   filter(remark != "opname door INBO ikv verdroging" | is.na(remark))
 
 assessments_openhab <- check_missing_data %>%
   filter(db == "openhab") %>%
   filter(remark != "opname door INBO ikv verdroging" | is.na(remark)) %>%
-    select(plot_id, sampling_unit_code, x_m, y_m, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
+  left_join(coordinates, by = c("plot_id", "point_code")) %>%
+    select(plot_id, point_code, x_orig, y_orig, x_measured, y_measured, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
 
 check <- assessments_openhab %>%
   group_by(plot_id) %>%
@@ -762,7 +789,8 @@ check_missing_data_openhab %>%
 
 ## Measured plots with targethabit = not defined
 
-Does this mean that an othet type is observed than the target type nad that it still has to be determined if the plot is a valid sampling unit for the observed type?
+The plot was previously in the target type, but now key species are not found. 
+The plot was measured anyway. 
 
 ```{r missingDataOpen2}
 check_missing_data_openhab2 <- check_missing_data %>%
@@ -870,7 +898,7 @@ write_vc(cover_veglayers, "cover_veglayers", root = path,  sorting = c("plot_id"
 write_vc(cover_species, "cover_species", root = path,  sorting = c("plot_id", "layer", "name_nl"), strict = FALSE)
 write_vc(structure_vars, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "structure_var"), strict = FALSE)
 write_vc(date_assessment, "date_assessment", root = path,  sorting = "plot_id")
-write_vc(coordinates, "coordinates", root = path,  sorting = "plot_id")
+write_vc(coordinates, "coordinates", root = path,  sorting = "plot_id", strict = FALSE)
 write_vc(assessments_openhab, root = path,  "assessments_openhab", sorting = "plot_id", strict = FALSE)
 write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
 
@@ -879,8 +907,10 @@ write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab",
 measured_plot_heide <- assessments_openhab %>%
   filter(lsvi_measurement) %>%
   filter(str_sub(type_observed, 1, 1) %in% c("2", "4")) %>%
-  mutate(plot_id = as.numeric(plot_id)) %>%
-  select(plot_id, x = x_m, y = y_m, date_assessment, type_observed)
+  mutate(plot_id = as.numeric(plot_id),
+         x = ifelse(!is.na(x_measured), x_measured, x_orig),
+         y = ifelse(!is.na(y_measured), y_measured, y_orig)) %>%
+  select(plot_id, x, y, date_assessment, type_observed)
     
 cover_veglayers_dataset <- cover_veglayers %>%
   semi_join(measured_plot_heide, by = "plot_id") %>%

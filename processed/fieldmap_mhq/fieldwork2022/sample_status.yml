@@ -3,8 +3,8 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: a5218a3c838d61005c843d6c87d8e59ee9bba4ef
-  data_hash: 507d3dbc371542b9c7d42b5395366139a0895649
+  hash: 4a107968b6fb50b53988b23d7e75f4af3d43e6d2
+  data_hash: 8f3e88e63888a8a504d2914387648d593c953577
 navplot_id:
   class: integer
 plot_id:
@@ -13,8 +13,6 @@ date_status:
   class: POSIXct
   origin: 1970-01-01 00:00:00
   timezone: UTC
-sampling_unit_code:
-  class: character
 targethabitat:
   class: character
 status_fieldwork:
@@ -25,3 +23,7 @@ remark:
   class: character
 db:
   class: character
+point_code:
+  class: character
+extra_subt:
+  class: integer
