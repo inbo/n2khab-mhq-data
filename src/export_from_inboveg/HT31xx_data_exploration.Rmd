@@ -215,30 +215,6 @@ vegetation %>%
   filter(n>1)
 ```
 
-```{r}
-vegetation %>% 
-  filter(recording_givid == "IV2018082008201439", 
-         name == "Agrostis canina L.") %>% 
-  left_join(header, by = "recording_givid") %>% 
-  kable() %>% kable_styling() 
-```
-
-```{r}
-vegetation %>% 
-  filter(recording_givid == "IV2020100110560092", 
-         name == "Phragmites australis (Cav.) Steud.") %>% 
-  left_join(header, by = "recording_givid") %>% 
-  kable() %>% kable_styling()
-```
-
-```{r}
-vegetation %>% 
-  filter(recording_givid == "IV2021102610593198", 
-         name == "Juncus effusus L.") %>% 
-  left_join(header, by = "recording_givid") %>% 
-  kable() %>% kable_styling() 
-```
-
 ### check: voor habitattype 3160
 Zijn zowel "Vzuur", "VZuSS","Eutro" als "EutSS" ingevuld?
 ```{r}
