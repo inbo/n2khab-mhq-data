@@ -155,12 +155,7 @@ data_voorwaarden %>%
 
 ## data_soortenkenmerken
 ```{r}
-# de volgende opnames er even uit laten (verschillende bedekkingen per soort) 
-# to do: opvolgen & evt max per soort nemen --> zie script HT3260
-eruit <- c("IV2018082008201439", "IV2020100110560092", "IV2021102610593198")
-
 data_soortenkenmerken <- vegetation %>% 
-  filter(!(recording_givid %in% eruit)) %>% # to do: schrappen indien niet meer relevant
   mutate(name = case_when(
     name == "Chara hispida L." ~ "Chara major",
     # Chara hispida L. wordt niet herkend door berekenLSVIbasis; 
@@ -189,8 +184,6 @@ data_soortenkenmerken %>%
 
 # berekening LSVI
 
-Voorlopig wordt hierbij de 1-out-all-out-aggregatiemethode doorgerekend. 
-Voor de rapportage dient dit gewijzigd te worden naar RapportageHR (to do later)
 ```{r}
 resultaat <- berekenLSVIbasis(
   Versie = "Versie 3",
@@ -198,24 +191,37 @@ resultaat <- berekenLSVIbasis(
   Data_habitat = data_habitat,
   Data_voorwaarden = data_voorwaarden,
   Data_soortenKenmerken = data_soortenkenmerken,
-  Aggregatiemethode = "1-out-all-out",
+  Aggregatiemethode = "RapportageHR",
   na.rm = TRUE)
 ```
 
 Warning messages:
-1. Problem while computing `Canonicalname = berekenCanonicalname(.data$Kenmerk)`.
-ℹ rgbif::parsenames() is deprecated since rgbif 3.7.3, use rgbif::name_parse() instead.--> aan Els doorgegeven  
-4: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken,  ... :
-  Bij Data_soortenKenmerken is niet voor alle soorten de kolom Vegetatielaag ingevuld --> Vegetatielaag niet ingevuld; geen probleem, wordt niet gebruikt in LSVI-bepaling
-5: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  ... :
-  Volgende records uit Data_voorwaarden kunnen niet gekoppeld worden aan indicatoren uit de databank omdat de criterium-indicator-voorwaarde-combinatie niet voorkomt bij de LSVI-regels van het opgegeven habitattype:  
-  - <IV2021110112004579, Structuur, verticale structuur, bedekking helofyten>  --> habitattype 3130n; opmerking te negeren; dit werd extra genoteerd  
-  - <IV2021103012423456, Structuur, horizontale structuur, grootste vegetatievlek in m²> 
-  --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd  
-6: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  ... :
-  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli (VoorwaardeID 1964) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456. Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur en Voorwaarde = contact met 7110 of 7140_oli. --> missing values; aan te vullen door Jo/Kevin (to do opvolgen)  
-7-11: In min(.data$Verschilscore, na.rm = na.rm) :
-  no non-missing arguments to min; returning Inf --> te negeren
+1: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken, ConnectieLSVIhabitats,  :
+  Bij Data_soortenKenmerken is niet voor alle soorten de kolom Vegetatielaag ingevuld
+  --> Vegetatielaag niet ingevuld; geen probleem, wordt niet gebruikt in LSVI-bepaling
+
+2: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
+  Volgende records uit Data_voorwaarden kunnen niet gekoppeld worden aan indicatoren uit de databank omdat de criterium-indicator-voorwaarde-combinatie niet voorkomt bij de LSVI-regels van het opgegeven habitattype: 
+  <IV2021110112004579, Structuur, verticale structuur, bedekking helofyten> 
+  --> habitattype 3130n; opmerking te negeren; dit werd extra genoteerd  
+  <IV2021103012423456, Structuur, horizontale structuur, grootste vegetatievlek in m²>
+  --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd 
+
+3: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
+  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie (VoorwaardeID 2139, 2) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456, IV2023011817014307. Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur, verticale structuur en Voorwaarde = contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie.
+  --> missing values; aan te vullen door Jo/Kevin (to do opvolgen)
+
+4: There were 2 warnings in `summarise()`.
+The first warning was:
+ℹ In argument: `Index_min_criterium = min(.data$Verschilscore, na.rm = na.rm)`.
+ℹ In group 1321: `ID = "IV2021012910413902"`, `Habitattype = "3160"`, `Versie = "Versie 3"`, `Criterium = "Structuur"`, `Kwaliteitsniveau =
+  1`.
+  --> wellicht door missing values (to do opvolgen)
+  
+Caused by warning in `min()`:
+! no non-missing arguments to min; returning Inf
+ℹ Run dplyr::last_dplyr_warnings() to see the 1 remaining warning. 
+  --> te negeren
 
 ```{r}
 ResDetail <- resultaat$Resultaat_detail %>% 

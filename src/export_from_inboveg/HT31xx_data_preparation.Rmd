@@ -72,10 +72,14 @@ sitequal <- sitequal_31xx %>%
 
 identify recording_givid with no or partial measurements
 ```{r}
-no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") # to do: 1 opname: op te volgen (2190)
-no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") # geen; ok!
-no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") # geen; ok
-no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") # to do: 2 opnames: op te volgen
+no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
+      # to do: 2 opnames: op te volgen
+no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
+      # to do: 1 lege opname; op te volgen
+no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
+      # to do: 1 lege opname; op te volgen
+no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
+      # to do: 3 opnames: op te volgen
 no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
   distinct()
 ```
@@ -100,7 +104,6 @@ header <- header_31xx %>%
   select(recording_givid, survey, user_reference, location, date = vague_date_begin, 
          latitude, longitude, type_observed, reliability, suitable_mhq, measured)
 ```
-
 
 beschrijving van enkele kolommen:  
 
@@ -152,9 +155,8 @@ structure_class <- structure_31xx %>%
   filter(var_code %in% c(var_class, var_multiple), 
          !(var_value_code %in% c("Seccd", "Secch")), # exclude data Secchi-diepte (helde)
          !(var_value_code %in% c("Schom")), # exclude data schommeling (peil)
-         !(var_value_code %in% c("HabVl", "Helo", "Isoet", "ander", "25"))) %>%  
+         !(var_value_code %in% c("HabVl", "Helo", "Isoet", "ander"))) %>%  
             # exclude opgaande vegetatie en hogere groeivormen dan isoe (verst)
-  # to do: 31xx_lsvi_vertikalestructuur; code 25 --> wat is dit? voorlopig geschrapt
   mutate(var_code2 = case_when(
             var_value_code == "7140o" ~ "7140o",
             TRUE ~ var_code),
@@ -185,13 +187,7 @@ structure_num_1 <- structure_31xx %>%
             # ter info: als er niet 'max=' voor staat; dan gaat dit ook over de maximale diepte
   mutate(var2 = "diepte_max",
          var_description_or_value = "maximale diepte",
-         value2 = str_remove(value, "max= |Max= |max = |max. |max "),# max verwijderen
-         value2 = str_remove(value2, 
-                             paste(c(" \\+ 1,20 grof organisch materiaal",
-                                     " \\+ 0,70 bladafval",
-                                     " \\+ 0,30 slib"), collapse = "|")),
-         value2 = str_remove(value2, "m"),
-            # eenheid m verwijderen; oppassen dat er geen ander woord met m wordt gewist
+         value2 = str_remove(value, "max= |Max= |max = "),# max verwijderen
          value_numeric = str_remove(value2, "[<>]"),
          value_numeric = as.numeric(str_replace(value_numeric, ",", "\\.")),
          value_description = NA) %>% 
@@ -414,7 +410,6 @@ doublerecords_vegetation <- vegetation %>%
   ungroup() %>%
   filter(n_records > 1)
 doublerecords_vegetation
-# to do: opvolgen
 ```
 
 
