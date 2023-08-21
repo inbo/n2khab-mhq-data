@@ -73,7 +73,7 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 32 opnames: op te volgen
+      # to do: 3 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
       # to do: 1 lege opname 31xx; op te volgen
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
@@ -88,8 +88,7 @@ no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation
 ```
 
 ```{r}
-stilstaande_typen <- c("2190", "3110", "3130_aom", "3130_na", "3140", "3150", "3160")
-# to do: subtype 2190a toevoegen als dit beschikbaar is in inboveg
+stilstaande_typen <- c("2190", "2190_a", "3110", "3130_aom", "3130_na", "3140", "3150", "3160")
 
 header <- header_31xx %>% 
   left_join(select(classif_31xx, recording_givid, type_observed, classif_key), 
