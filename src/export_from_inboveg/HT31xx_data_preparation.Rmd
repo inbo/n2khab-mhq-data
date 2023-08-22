@@ -75,7 +75,7 @@ identify recording_givid with no or partial measurements
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
       # to do: 3 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
-      # to do: 1 lege opname 31xx; op te volgen
+      # to do: 2 lege opnames; op te volgen
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
       # to do: 1 lege opname; op te volgen
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
@@ -138,13 +138,6 @@ var_num_1 <- c("diept")
   # numerieke variabelen, afgeleid van var_code (= info voor maximale diepte)
 var_num_2 <- c("Seccd", "Secch", "Schom", "HabVl", "Helo") 
   # numerieke variabelen, afgeleid van var_value_code
-```
-
-tmp - to do later weglaten
-```{r}
-sort(unique(structure_31xx$var_code))
-sort(unique(structure_31xx$var_value_code))
-# to do: opvolgen of toevoeging "permw" bij class en "subst" bij multiple goed verwerkt wordt
 ```
 
 ```{r, eval=FALSE}
@@ -308,16 +301,9 @@ layerqual <- layerqual_31xx %>%
          is_above_LOQ = FALSE, 
          is_numeric = TRUE,
          unit = "%")
-# to do: check of toevoegingen van lagen van 2190a correct worden weergegeven:
-# SlSH, SlSNH, Boom, BooOv, Eutro, MonoR
 ```
 
 voor 3160 verschil tussen LSVI versie 2 en versie 3 door verschillende soortenlijsten; op het veld van beide groepen het percentage ingeschat. 
-
-tmp - to do later weglaten
-```{r}
-sort(unique(layerqual_31xx$var_code))
-```
 
 ### combined
 
@@ -397,7 +383,8 @@ vegetation <- vegetation_31xx %>%
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
            name_original %in% 
              c("kroossoorten", 
-               "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
+               "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)",
+               "Kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
             TRUE ~ name_original)) %>% 
   # synoniemen van my taxa oplossen & deze veranderen zodat deze leesbaar zijn door LSVI-rekenmodule 
   select(survey, recording_givid, name, phenology_code, species_cover_code, 
@@ -426,42 +413,13 @@ doublerecords_vegetation <- vegetation %>%
 doublerecords_vegetation
 ```
 
-
-# data controle 
-
-##  input
-
-```{r, eval = FALSE}
-this_sample <- "LI_HEU_004_3160_20"
-
-header_sel <- header_31xx %>% 
-  filter(str_detect(user_reference, this_sample))
-classif_sel <- classif_31xx  %>% semi_join(header_sel, by = "recording_givid")
-structure_sel <- structure_31xx  %>% semi_join(header_sel, by = "recording_givid")
-sitequal_sel <- sitequal_31xx  %>% semi_join(header_sel, by = "recording_givid")
-layerqual_sel <- layerqual_31xx  %>% semi_join(header_sel, by = "recording_givid")
-vegetation_sel <- vegetation_31xx  %>% semi_join(header_sel, by = "recording_givid")
-```
-
-ziet er ok uit  
-
-##  output
-
-```{r, eval = FALSE}
-header_sel <- header %>%  
-  filter(str_detect(user_reference, this_sample))
-site_characteristics_sel <- site_characteristics %>% 
-  semi_join(header_sel, by = "recording_givid")
-vegetation_sel <- vegetation %>% 
-  semi_join(header_sel, by = "recording_givid")
-```
-
-ziet er ok uit
-
-
 # data export
 
 ```{r}
+write.csv2(header, paste0(path, "/HT31xx_header.csv"))
+write.csv2(site_characteristics, paste0(path, "/HT31xx_site_characteristics.csv"))
+write.csv2(vegetation, paste0(path, "/HT31xx_vegetation.csv"))
+
 write_vc(header, "HT31xx_header", root = path, 
          sorting = c("recording_givid"), strict = FALSE)
 write_vc(site_characteristics, "HT31xx_site_characteristics", root = path, 
