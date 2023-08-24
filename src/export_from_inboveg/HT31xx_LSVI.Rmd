@@ -1,5 +1,5 @@
 ---
-title: "calculation of LSVI of survey HT31xx"
+title: "calculation of LSVI of surveys HT31xx and HT2190a"
 author: "An Leyssen"
 date: "`r lubridate::now()`"
 output: 
@@ -44,7 +44,7 @@ voor stilstaande wateren (versie 3)
 
 ```{r}
 invoervereisten <- geefInvoervereisten(Versie = "Versie 3", 
-                    Habitattype = c("3110", "3130", "3140", "3150", "3160")) 
+                    Habitattype = c("3110", "3130", "3140", "3150", "3160", "2190")) 
 
 invoervereisten %>% 
   kable() %>% 
@@ -52,10 +52,9 @@ invoervereisten %>%
   scroll_box(width = "800px")
 
 soortenlijsten <- geefSoortenlijst(Versie = "Versie 3",
-                                   Habitattype = c("3110", "3130", "3140", "3150", "3160"),
+                                   Habitattype = c("3110", "3130", "3140", "3150", "3160", "2190"),
                                    Taxonlijsttype = "alle")
 ```
-to do (later): 2190a toevoegen
 
 
 # data omvormen naar vereiste structuur
@@ -78,27 +77,35 @@ data_habitat %>%
 ## data_voorwaarden
 
 ```{r}
-rel_var <- c("horst", "7140o", "Helo", "HabVl", "verst", 
-             "Eutro", "Invas", "Vzuur", "chara")
-Criterium <- c(rep("Structuur", 5), rep("Verstoring", 3), "Vegetatie")
-Indicator <- c(rep("horizontale structuur", 2), rep("verticale structuur", 3),
-               "eutrofiëring", "invasieve exoten", "verzuring", 
+rel_var <- c("horst", "7140o", "Subm", "Chara", 
+             "Helo", "HabVl", "verst", 
+             "BooOv", "MonoR", "Boom",
+             "Eutro", "Invas", "Vzuur", "chara") # codes van inboveg
+# overeenkomstige criterium en indicator van LSVI-rekenmodule
+Criterium <- c(rep("Structuur", 10), rep("Verstoring", 3), "Vegetatie") 
+Indicator <- c(rep("horizontale structuur", 4), 
+               rep("verticale structuur", 3),
+               "bedekking overhangende bomen en struiken","robuuste monocotylen",
+               "verbossing", "eutrofiëring", "invasieve exoten", "verzuring", 
                "sleutelsoorten")
 Voorwaarde <- c("grootste vegetatievlek in m²", "contact met 7110 of 7140_oli",
+                "bedekking submerse vegetatie", "bedekking kranswieren",
                 "bedekking helofyten", "% begroeid met opgaande vegetatie",
-                "aandeel isoëtiden > overige groeivormen", "bedekking eutrofiëring",
-                "bedekking invasieve exoten", "bedekking verzuring",
+                "aandeel isoëtiden > overige groeivormen", 
+                "bedekking overhangende bomen en struiken",
+                "bedekking robuuste monocotylen", "bedekking verbossing",
+                "bedekking eutrofiëring", "bedekking invasieve exoten", "bedekking verzuring",
                 "kranswiervelden voor > = 50 % sleutelsoorten")
-Type <- c("Decimaal getal", "Ja/nee", 
-                   "Percentage", "Percentage", "Ja/nee", 
-                   "Percentage", "Percentage", "Percentage",
-                   "Ja/nee")
+Type <- c("Decimaal getal", "Ja/nee", rep("Percentage", 4), "Ja/nee", 
+                   rep("Percentage", 6), "Ja/nee")
 
 invoervereisten_join <- data.frame(rel_var, Criterium, Indicator, Voorwaarde, 
                                    Type) %>% 
   mutate(Invoertype = NA)
 # suggestie Toon: var in HT31xx_data_prep direct veranderen in Voorwaarde (to do later)
+```
 
+```{r}
 sites_3160 <- data_habitat %>% 
   filter(Habitattype == "3160")
 
@@ -141,7 +148,6 @@ data_voorwaarden_class <- site_characteristics_join %>%
          Waarde, Type, Invoertype, Eenheid) 
 
 data_voorwaarden <- add_row(data_voorwaarden_num, data_voorwaarden_class)  
-  
 ```
 
 voor de horizontale structuur (horst) wordt een waarde verwacht in de LSVI-rekenmodule. Tijdens veldwerk wordt dit echter in klassen genoteerd; als tussenoplossing wordt voorlopig het midden van de klassengrenzen gebruikt in de rekenmodule.
@@ -208,8 +214,8 @@ Warning messages:
   --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd 
 
 3: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
-  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie (VoorwaardeID 2139, 2) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456, IV2023011817014307. Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur, verticale structuur en Voorwaarde = contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie.
-  --> missing values; aan te vullen door Jo/Kevin (to do opvolgen)
+  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie (VoorwaardeID 2139, 2) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456, IV2023011817014307,... Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur, verticale structuur en Voorwaarde = contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie.
+  --> missing values; aan te vullen door Jo/Kevin (to do opvolgen; ook voor 2190)
 
 4: There were 2 warnings in `summarise()`.
 The first warning was:

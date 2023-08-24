@@ -1,5 +1,5 @@
 ---
-title: "data cleanup of survey HT31xx (inboveg database)"
+title: "data cleanup of surveys HT31xx and HT2190a (inboveg database)"
 author: "An Leyssen"
 date: "`r lubridate::now()`"
 output: 
@@ -41,14 +41,14 @@ vegetation_mhq_aq <- read_vc("vegetation_mhq_aq", root = path)
 # filter survey HT31xx
 
 ```{r}
-this_survey <- "HT31xx_LSVI_StilstaandeWateren" 
+this_survey <- c("HT31xx_LSVI_StilstaandeWateren", "HT2190_a_LSVI_StilstaandeWateren") 
 
-classif_31xx <- classif_mhq_aq %>% filter(survey == this_survey)
-header_31xx <- header_mhq_aq %>% filter(survey == this_survey)
-structure_31xx <- structure_mhq_aq %>% filter(survey == this_survey)
-sitequal_31xx <- sitequal_mhq_aq %>% filter(survey == this_survey)
-layerqual_31xx <-  layerqual_mhq_aq %>% filter(survey == this_survey)
-vegetation_31xx <- vegetation_mhq_aq %>% filter(survey == this_survey)
+classif_31xx <- classif_mhq_aq %>% filter(survey %in% this_survey)
+header_31xx <- header_mhq_aq %>% filter(survey %in% this_survey)
+structure_31xx <- structure_mhq_aq %>% filter(survey %in% this_survey)
+sitequal_31xx <- sitequal_mhq_aq %>% filter(survey %in% this_survey)
+layerqual_31xx <-  layerqual_mhq_aq %>% filter(survey %in% this_survey)
+vegetation_31xx <- vegetation_mhq_aq %>% filter(survey %in% this_survey)
 ```
 
 # data cleaning
@@ -73,20 +73,22 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 2 opnames: op te volgen
+      # to do: 3 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
-      # to do: 1 lege opname; op te volgen
+      # to do: 2 lege opnames; op te volgen
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
       # to do: 1 lege opname; op te volgen
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 3 opnames: op te volgen
+      # to do: 3 opnames 31xx & 25 opnames 2190a: op te volgen
 no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
   distinct()
+
+# to do: als 2190a-opnames volledig zijn ingevoerd; volledig controleren 
+# (vnl info over layers ontbreekt nog)
 ```
 
 ```{r}
-stilstaande_typen <- c("3110", "3130_aom", "3130_na", "3140", "3150", "3160")
-# to do: in oog houden dat 2190a erbij moet komen
+stilstaande_typen <- c("2190", "2190_a", "3110", "3130_aom", "3130_na", "3140", "3150", "3160")
 
 header <- header_31xx %>% 
   left_join(select(classif_31xx, recording_givid, type_observed, classif_key), 
@@ -128,9 +130,9 @@ header %>%
 ### structure
 ```{r}
 # var_code klasseren naargelang hoe data gehersturctureerd moet worden
-var_class <- c("boom", "chara", "diept", "horst", "peil", "verst") 
+var_class <- c("boom", "chara", "diept", "horst", "peil", "verst", "permw") 
   # klassevariabelen 
-var_multiple <- c("helde") 
+var_multiple <- c("helde", "subst") 
   # klassevariabelen, met meerdere keuzemogelijkheden per bezoek
 var_num_1 <- c("diept") 
   # numerieke variabelen, afgeleid van var_code (= info voor maximale diepte)
@@ -170,6 +172,7 @@ structure_class <- structure_31xx %>%
          value = val2, value_description = var_description_or_value) %>% 
   mutate(value_numeric = NA, is_below_LOQ = FALSE, is_above_LOQ = FALSE, 
          is_numeric = FALSE, unit = "class")
+# to do: opvolgen of substraat bij 2190 als % is opgegeven (dus numeriek) of niet (klasse)
 ```
 
 #### structure - numeriek (in var_code)
@@ -215,7 +218,6 @@ structure_num_1 <- structure_num_1 %>%
          unit = "m")
 ```
 
-
 #### structure - numeriek (in var_value_code)
 ```{r}
 structure_num_2 <- structure_31xx %>% 
@@ -240,6 +242,7 @@ structure_num_2 %>%
   filter(is.na(value_numeric)) %>% 
   select(user_reference, var_code, var, value) 
 # to do: opvolgen of 'zie afgedrukt veldformulier' verwijderd is (1 case; heuvelsven)
+# LI_HEU_001_3130a_22
 ```
 
 indien er probleemgevallen zijn, worden deze voorlopig in de volgende stap gewist  
@@ -259,11 +262,9 @@ structure_num_2 <- structure_num_2 %>%
            var_code %in% c("HabVl", "Helo") ~ "%"))
 ```
 
-
 ```{r}
 structure <- bind_rows(structure_class, structure_num_1, structure_num_2)
 ```
-
 
 <!-- to do: nog aanvullen  -->
 beschrijving van enkele variabelen:  
@@ -304,7 +305,6 @@ layerqual <- layerqual_31xx %>%
 
 voor 3160 verschil tussen LSVI versie 2 en versie 3 door verschillende soortenlijsten; op het veld van beide groepen het percentage ingeschat. 
 
-
 ### combined
 
 = site_characteristics = structure + layer
@@ -323,22 +323,22 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
 
 replace NA in var en value_description 
 ```{r}
-# to do: moet eigenlijk opgelost worden in INBOVEG
+# to do: moet eigenlijk opgelost worden in INBOVEG (opvolgen)
 tbl_var <- site_characteristics %>% 
-  select(var_code, var2 = var) %>% 
+  select(survey, var_code, var2 = var) %>% 
   filter(!is.na(var2)) %>% 
   distinct()
 
 tbl_value_description <- site_characteristics %>% 
-  select(value, vd2 = value_description) %>% 
+  select(survey, value, vd2 = value_description) %>% 
   filter(!is.na(vd2)) %>% 
   distinct()
 
 site_characteristics <- site_characteristics %>%  
-  left_join(tbl_var, by = "var_code") %>% 
+  left_join(tbl_var, by = c("survey", "var_code")) %>% 
   mutate(var = var2) %>% 
   select(-var2) %>% 
-  left_join(tbl_value_description, by = "value") %>% 
+  left_join(tbl_value_description, by = c("survey", "value")) %>% 
   mutate(value_description = vd2) %>% 
   select(-vd2) 
 ```
@@ -383,7 +383,8 @@ vegetation <- vegetation_31xx %>%
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
            name_original %in% 
              c("kroossoorten", 
-               "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
+               "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)",
+               "Kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
             TRUE ~ name_original)) %>% 
   # synoniemen van my taxa oplossen & deze veranderen zodat deze leesbaar zijn door LSVI-rekenmodule 
   select(survey, recording_givid, name, phenology_code, species_cover_code, 
@@ -412,42 +413,13 @@ doublerecords_vegetation <- vegetation %>%
 doublerecords_vegetation
 ```
 
-
-# data controle 
-
-##  input
-
-```{r, eval = FALSE}
-this_sample <- "LI_HEU_004_3160_20"
-
-header_sel <- header_31xx %>% 
-  filter(str_detect(user_reference, this_sample))
-classif_sel <- classif_31xx  %>% semi_join(header_sel, by = "recording_givid")
-structure_sel <- structure_31xx  %>% semi_join(header_sel, by = "recording_givid")
-sitequal_sel <- sitequal_31xx  %>% semi_join(header_sel, by = "recording_givid")
-layerqual_sel <- layerqual_31xx  %>% semi_join(header_sel, by = "recording_givid")
-vegetation_sel <- vegetation_31xx  %>% semi_join(header_sel, by = "recording_givid")
-```
-
-ziet er ok uit  
-
-##  output
-
-```{r, eval = FALSE}
-header_sel <- header %>%  
-  filter(str_detect(user_reference, this_sample))
-site_characteristics_sel <- site_characteristics %>% 
-  semi_join(header_sel, by = "recording_givid")
-vegetation_sel <- vegetation %>% 
-  semi_join(header_sel, by = "recording_givid")
-```
-
-ziet er ok uit
-
-
 # data export
 
 ```{r}
+write.csv2(header, paste0(path, "/HT31xx_header.csv"))
+write.csv2(site_characteristics, paste0(path, "/HT31xx_site_characteristics.csv"))
+write.csv2(vegetation, paste0(path, "/HT31xx_vegetation.csv"))
+
 write_vc(header, "HT31xx_header", root = path, 
          sorting = c("recording_givid"), strict = FALSE)
 write_vc(site_characteristics, "HT31xx_site_characteristics", root = path, 

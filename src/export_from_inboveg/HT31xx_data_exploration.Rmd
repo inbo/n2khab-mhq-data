@@ -1,5 +1,5 @@
 ---
-title: "data exploration of survey HT31xx"
+title: "data exploration of surveys HT31xx and HT2190a"
 author: "An Leyssen"
 date: "`r lubridate::now()`"
 output: 
@@ -101,10 +101,12 @@ site_characteristics %>%
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>%
   mutate(value_calc = ifelse((is_numeric == FALSE), value, value_calc)) %>% 
-  select(user_reference, var, value_calc) %>% 
-  spread(var, value_calc) %>% 
-  filter(!is.na(`maximale diepte`)) %>% 
-  mutate(maximale_diepte = as.numeric(`maximale diepte`)) %>% 
+  select(user_reference, var_code, value_calc) %>% 
+  spread(var_code, value_calc) %>% 
+  filter(!is.na(diepte_max)) %>% 
+  mutate(diepte_max = as.numeric(diepte_max), 
+         maximale_diepte = diepte_max,
+         diepteklasse = diept) %>% 
   ggplot(aes(x = diepteklasse, y = maximale_diepte)) + 
   geom_boxplot() +
   geom_hline(yintercept = c(2, 4, 6), color = "red", linetype = "dashed") +
@@ -163,7 +165,7 @@ summary_dataset <- data_breed %>%
   group_by(var, type_observed) %>% 
   summarise(number = n(),  
             sd = sd(value),
-            ratio_NA = 1- (number/N_dataset))
+            ratio_NA = 1- (number/N_dataset)) 
 
 ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
   geom_point() + 

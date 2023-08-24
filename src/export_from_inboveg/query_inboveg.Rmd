@@ -93,7 +93,8 @@ update <- TRUE
 ```{r connection and query aq, eval= update}
  
 connection_inboveg <- connect_inbo_dbase(database_name = "D0010_00_Cydonia")
-surveys <- c("HT31xx_LSVI_StilstaandeWateren", "HT31xx_Plassen", "HT3260")
+surveys <- c("HT31xx_LSVI_StilstaandeWateren", "HT31xx_Plassen", "HT3260",
+             "HT2190_a_LSVI_StilstaandeWateren")
 
 classif_mhq <- get_inboveg_classification(connection = connection_inboveg, 
                                           survey_name = surveys, multiple = TRUE,
