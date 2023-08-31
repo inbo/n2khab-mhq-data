@@ -96,6 +96,9 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     Grid_points.Habt1,
     Grid_points.habsubt1,
     Grid_points.EXTRA_SUBT,
+    Grid_points.OPNAMEVOORTARGETHABITAT,
+    Grid_points.TYPEINV,
+    Grid_points.ranking,
     YesNo.Value1 as TargetHabitat,
     QINVAV.Value1 as status_fieldwork,
     QINVAV_EXTRA.Value1 as info_status_fieldwork,
@@ -106,6 +109,12 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     LEFT JOIN QINVAV ON Grid_points.INVAVAILABLE = QINVAV.ID
     LEFT JOIN YesNo ON Grid_points.TARGETHABITAT = YesNo.ID;"
 
+query_relocation <- "SELECT REPLACINGPOINTS.ID,
+                          REPLACINGPOINTS.POINT_CODE,
+                          REPLACINGPOINTS.Rank_rel_b,
+                          REPLACINGPOINTS.Ranking  
+                      FROM REPLACINGPOINTS"
+
   if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
     connect_db <-   odbcConnectAccess(db)
   } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
@@ -115,6 +124,7 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
   }
 
  gridpoints_orig <- sqlQuery(connect_db, query_gridpoints)
+ replacements_orig <- sqlQuery(connect_db, query_relocation)
  
  colnames(gridpoints_orig) <- str_to_lower(colnames(gridpoints_orig))
  
@@ -390,7 +400,6 @@ SiteDescription_HEIDE.Edit_date as date_sitedescription,
   return(structure_vars_long)
 
 }
-
 
 get_measurements_heath_circle_old <- function(db = db_fieldmap_openhab){
 
@@ -930,8 +939,6 @@ write_csv2(structure_vars_dataset, "../../processed/fieldmap_mhq/fieldwork2022/m
 
 ```
 
-
-
 # Update .vc file
 
 ```{r, eval = FALSE}
@@ -1104,5 +1111,150 @@ check <- structure_vars_update %>%
 
 write_vc(structure_vars_update, file = "structure_vars", root = "../../processed/fieldmap_mhq",
          sorting = c("plot_id", "segment_id", "date_assessment", "structure_var"), strict = FALSE)
+```
+
+
+```{r update assessments}
+
+#v2022 
+assessments_openhab_v2022 <- read_vc("assessments_openhab", "../../processed/fieldmap_mhq/fieldwork2022")
+
+sample_status <- read_vc("sample_status", "../../processed/fieldmap_mhq") 
+type_observed <- read_vc("type_observed", "../../processed/fieldmap_mhq")
+cover_species <- read_vc("cover_species", "../../processed/fieldmap_mhq")
+structure_vars <- read_vc("structure_vars", "../../processed/fieldmap_mhq")
+trees_a3a4 <- read_vc("trees_a3a4", "../../processed/fieldmap_mhq")
+trees_a2 <- read_vc("trees_a2", "../../processed/fieldmap_mhq")
+
+sample_status_old <- sample_status %>%
+  filter(year(date_assessment) < 2022)
+
+type_observed_old <- type_observed %>%
+  filter(year(date_assessment) < 2022)
+
+cover_species_old <- cover_species %>%
+  filter(year(date_assessment) < 2022)
+
+structure_vars_old <- structure_vars %>%
+  filter(year(date_assessment) < 2022)
+
+type_observed_old_plot <- type_observed_old %>%
+  mutate(type_observed_circle_description = str_c(ifelse(is.na(type_observed_cover_circle), "?", type_observed_cover_circle), "% ", type_observed_circle)) %>%
+  group_by(plot_id, date_assessment) %>%
+  mutate(type_observed_circle_description = str_c(type_observed_circle_description, collapse = "; "),
+         mixed_plot = n() > 1) %>%
+  slice_min(order_by = segment_id, n = 1) %>%
+  ungroup() %>%
+  mutate(type_observed = ifelse(!is.na(type_observed_square), type_observed_square, type_observed_circle))
+
+assessments_old <- sample_status_old %>%
+    left_join(type_observed_old_plot, by = c("plot_id", "date_assessment")) %>%
+  #opname uitgevoerd cfr invav
+    mutate( inaccessible = ifelse(!is.na(info_status_fieldwork) 
+                                   & info_status_fieldwork %in% c("tijdelijk geen toestemming/geen toegang (eigenaar/hond/vee)"), "short term", 
+                                  ifelse(info_status_fieldwork %in% c("geen toestemming/geen toegang (eigenaar/hond/vee)"), "long term", NA)),
+            not_measurable = ifelse(!is.na(info_status_fieldwork) 
+                                   & info_status_fieldwork %in% c("opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)"), "short term", 
+                                  ifelse(info_status_fieldwork %in% c("opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)"), "long term", NA)),
+            assessment_source = ifelse(is.na(inaccessible) & is.na(not_measurable), "field assessment", NA),
+            lsvi_measurement = info_status_fieldwork == "100% afgewerkt",
+            completed = ifelse(lsvi_measurement,
+                              ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork != "100% afgewerkt", FALSE, TRUE),NA), 
+         ) %>%
+  mutate(plot_id = as.character(plot_id),
+         cover_species_record = plot_id %in% cover_species_old$plot_id,
+         structure_openhab_record = ifelse(db == "openhab", plot_id %in% structure_vars_old$plot_id, NA),
+         dendro_record = ifelse(db == "foresthab", plot_id %in% c(trees_a2$plot_id, trees_a3a4$plot_id), NA)) %>%
+  filter(!(lsvi_measurement & is.na(type_observed)))
+
+assessments_old <- assessments_old %>%
+  mutate(assessment_source = ifelse(!is.na(not_measurable) & not_measurable == "Short term" & cover_species_record, "field assessment", assessment_source),
+         status_fieldwork = ifelse(status_fieldwork == "Geen opname uitgevoerd" & cover_species_record, "Opname gedeeltelijk uitgevoerd", status_fieldwork)) %>%
+  rename(assessment_date = date_assessment)
+
+
+path <- fileman_up("n2khab-sample-admin")
+
+mhq_assessments_orig <- read_vc(file = "mhq_terr_assessments", root = file.path(path, "data"))
+
+mhq_assessments <- mhq_assessments_orig %>%
+  filter(!is.na(assessment_date)) %>%
+  filter(fieldwork_team == "anb") %>%
+  filter(assessment_source != "orthophoto") %>%
+  mutate(refpoint_n = as.numeric(str_sub(point_code, start = -1)),
+         plot_id = str_remove(point_code, "_2"),
+         plot_id = str_remove(plot_id, "_3"),
+         plot_id = str_remove(plot_id, "_4"),
+         plot_id = str_remove(plot_id, "_1"))
+
+mhq_assessments <- mhq_assessments %>%
+  group_by(plot_id) %>%
+  filter(refpoint_n == max(refpoint_n)) %>%
+  ungroup()
+
+assessments_old_diff <- mhq_assessments %>%
+  anti_join(assessments_old, by = c("plot_id"))
+
+mhq_assessments_diff <- assessments_old %>%
+  anti_join(mhq_assessments, by = c("plot_id"))
+
+# coordinates
+
+sample_status <- sample_status %>%
+  select(-habt1, -habsubt1, -x_orig, -y_orig) %>%
+  filter(remark != "opname door INBO ikv verdroging" | is.na(remark))
+
+assessments_openhab <- check_missing_data %>%
+  filter(db == "openhab") %>%
+  filter(remark != "opname door INBO ikv verdroging" | is.na(remark)) %>%
+  left_join(coordinates, by = c("plot_id", "point_code")) %>%
+    select(plot_id, point_code, x_orig, y_orig, x_measured, y_measured, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
+
+
+
+```
+
+
+```{r}
+check <- assessments_old %>%
+  filter(lsvi_measurement, db == "foresthab") %>%
+  group_by(type_observed) %>%
+  summarise(n = n()) %>%
+  ungroup()
+
+check_forest_lsvi <- assessments_old %>%
+  filter(db == "foresthab") %>%
+  filter(lsvi_measurement) %>%
+  select(plot_id, lsvi_measurement, type_observed, everything())
+
+check_forest_assess <- assessments_old %>%
+  filter(db == "foresthab") %>%
+  select(plot_id, lsvi_measurement, type_observed, everything())
+
+
+
+measurements_forest <- read_vc(file = "mhq_terr_measurements", root = file.path(path, "data")) %>%
+  filter(str_detect(type_observed, "91")) %>%
+  mutate(plot_id = str_remove(point_code, "_2"),
+         plot_id = str_remove(plot_id, "_1"))
+
+assessments_forest <- read_vc(file = "mhq_terr_assessments", root = file.path(path, "data")) %>%
+  filter(str_detect(type_target, "91")) %>%
+  mutate(plot_id = str_remove(point_code, "_2"),
+         plot_id = str_remove(plot_id, "_1")) %>%
+  filter(!is.na(assessment_date))
+  
+missing_1 <- measurements_forest %>%
+  anti_join(check_forest_lsvi, by = "plot_id")
+
+missing_2 <- assessments_forest %>%
+  anti_join(check_forest_assess, by = "plot_id")
+
+missing_3 <- check_forest_assess %>%
+  anti_join(assessments_forest)
+
+check <- measurements_forest %>%
+  group_by(plot_id) %>%
+  filter(n() > 1)
 ```
 
