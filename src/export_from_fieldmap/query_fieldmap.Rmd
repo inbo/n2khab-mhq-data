@@ -34,7 +34,7 @@ An overview of the different versions of the fieldmap databases can be found in 
 
 ```{r dbINBO}
 
-db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
+db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB")
 db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
 
 # check if database is in project folder
@@ -836,6 +836,75 @@ get_logs <- function(db = db_fieldmap_foresthab){
         
 ```
 
+## Functions to access forest hab fieldmap database - VBI3
+
+```{r}
+get_plot_status_vbi3 <- function(db = db_fieldmap_foresthab){
+
+  query_invcycle <- "
+    SELECT invcycle.IDPlots as plot_id,
+    qplotstatus.value1 as plotstatus,
+    qaccessibility.value1 as accessibility,
+    qconlanduse.value1 as landuse,
+    qconlandcategory.value1 as landcategory,
+    qconforestareatype.value1 as forestareatype
+    FROM invcycle
+    LEFT JOIN qplotstatus ON invcycle.plotstatus = qplotstatus.id
+    LEFT JOIN qaccessibility ON invcycle.accessibility = qaccessibility.id
+    LEFT JOIN qconlanduse ON invcycle.landuse = qconlanduse.id
+    LEFT JOIN qconlandcategory ON invcycle.landcategory = qconlandcategory.id
+    LEFT JOIN qconforestareatype ON invcycle.forestareatype = qconforestareatype.id;
+  "
+  connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+
+  plot_status <- sqlQuery(connect_db, query_invcycle, stringsAsFactors = FALSE) %>%
+    unique()
+
+  odbcClose(connect_db)
+  
+  colnames(plot_status) <- str_to_lower(colnames(plot_status))
+  
+  return(plot_status)
+  
+}
+
+get_treesa3a4_vbi3 <- function(db = db_fieldmap_foresthab){
+
+  query_trees_vbi3 <- "
+  SELECT Trees_3.IDPlots as plot_id,
+  Trees_3.IDSTANDDESCRIPTION_SEGMENTS_3 as segment_id,
+  Trees_3.Perimeter_cm,
+  Trees_3.DBH_mm,
+  Trees_3.Height_m,
+  Trees_3.BASALAREA_M2,
+  Trees_3.VOL_STEM_M3,
+  Trees_3.VOL_TOT_M3,
+  qTreeSpecies.Value1 as name_nl,
+  qStatusTree.Value1 as status_tree,
+  qCoppice_Individual.Value1 as coppice_individual,
+  qIntactTree.Value1 as intact_tree
+  FROM Trees_3 
+  LEFT JOIN qTreeSpecies ON Trees_3.Species = qTreeSpecies.ID
+  LEFT JOIN qStatusTree ON Trees_3.Status_tree = qStatusTree.ID
+  LEFT JOIN qCoppice_Individual ON Trees_3.CodeCoppice_Individual = qCoppice_Individual.ID
+  LEFT JOIN qIntactTree ON Trees_3.IntactTree = qIntactTree.ID;
+  "
+  
+  connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  
+  treesa3a4 <- sqlQuery(connect_db, query_trees_vbi3, stringsAsFactors = FALSE)
+  
+  odbcClose(connect_db)
+  
+  colnames(treesa3a4) <- str_to_lower(colnames(treesa3a4))
+
+  return(treesa3a4)
+}
+
+plot_status_vbi3 <- get_plot_status_vbi3()
+trees_vbi3 <- get_treesa3a4_vbi3()
+```
+
 
 # Access data
 
@@ -1299,8 +1368,6 @@ write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id")
 write_vc(assessments_openhab, root = path,  "assessments_openhab", sorting = "plot_id", strict = FALSE)
 write_vc(check_missing_data_foresthab, root = path,  "check_missing_data_foresthab", sorting = "plot_id")
 write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
-
-
 
 ```
 
