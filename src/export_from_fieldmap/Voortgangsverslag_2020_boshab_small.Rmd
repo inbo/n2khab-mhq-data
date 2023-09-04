@@ -1,0 +1,220 @@
+---
+title: "Voortgangstabel boshabitat "
+author: "Leen Govaere"
+date: "`r Sys.Date()`"
+output: 
+  html_document :
+    #code_folding : hide   # als "code_folding" niet vermeld staat, verschijnt knop "code" niet
+    toc : true
+    toc_float : true
+    number_sections : true
+    df_print : paged
+ #   theme: lumen # of flatly: zwarte toc ipv blauwe
+  
+---
+<br>
+<br>
+
+
+```{r Logo, echo=FALSE, out.width = "100%", fig.align = "left"}
+# logos <- c('Images/Vlaanderen_is_natuur_1.png', 'Images/Entiteitlogo_ANB_1.jpg')
+# knitr::include_graphics(logos)
+
+#knitr::include_graphics('Images/Logo_VO_ANB_lijn.png')   
+    # = logo VO + witruimte + logo ANB ernaast
+    # = logo dat ik zelf gemaakt heb in word en dan kopie naar ander word-doc als afbeelding, en dan afbeelding opslaan als png
+
+# out.width = 8, out.height = 4
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE, 
+	include = TRUE
+)
+# om connectie te maken moet je eerst in de app odbc gegevens app (32bit), bij FireBird connectie de juiste databank (en pad naar) specifiÃ«ren
+
+library(RODBC)
+library(tidyverse)
+library(kableExtra)
+library(here)
+library(DT)
+
+```
+
+
+**Veldwerk 2021**
+
+63 plots aangeboden. 
+
+*Geert* moest doen :  
+
+  - 91Eo_vc : 5 opnames  
+
+  - 9130_end binnen SBZ-H : 5 opnames  
+
+
+*Alex* moest doen :  
+
+  - 91Eo_vm : 2 opnames 
+
+  - 91Eo_vo buiten SBZ-H : 9 opnames  
+
+  - 91Eo_vo binnen SBZ-H : 6 opnames  
+
+
+
+Conclusie : 
+
+- er zijn maar 3 plots 9130_end volledig afgewerkt.  
+- van enkele plots is nu wel bekend dat er habitat aanwezig is, doch de volledige opname ontbreekt
+
+<Br>
+<Br> 
+
+**Tabel : selectie van plots waarvoor een waargenomen habitat is ingevuld**
+<Br>
+<Br> 
+
+
+
+```{r dbMASTER}
+
+db <- "C:/Users/govaerle/OneDrive - Vlaamse overheid - Office 365/MONITORING_N2000/DATA/MASTERDATA/BOS/BOSHAB_F_v2023_MASTER/FIELDMAPDATA_BOSHAB_F_v2023_MASTER.FDB"
+
+p <- paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db)
+
+```
+
+ 
+```{r connect}
+conn <- odbcDriverConnect(p)
+
+species_tree <- sqlQuery(conn, "SELECT * FROM QTREESPECIES")
+
+voortgang_veg <- sqlQuery(conn, "SELECT IDPLOTS, ADD_DATE, EDIT_DATE FROM HERBLAYER_3 WHERE IDPLOTS > 11000") 
+
+aantalveg_plots <- length(unique(voortgang_veg$IDPLOTS))
+
+habitat <- sqlQuery(conn, "SELECT * FROM QHABITAT") 
+# plotcycle <- sqlQuery(conn, "SELECT * FROM (SELECT g.IDPLOTS, g.PLOT_ID, MAX(i.PLOTCYCLE) AS MAXCYCLE FROM GRID_POINTS g LEFT JOIN INVCYCLE i ON g.PLOT_ID = i.IDPLOTS GROUP BY IDPLOTS, PLOT_ID) WHERE MAXCYCLE IS NULL OR MAXCYCLE <3")
+
+plotcycle <- sqlQuery(conn, "SELECT * FROM 
+(SELECT p.ID, MAX(I.PLOTCYCLE) AS MAXCYCLE 
+FROM PLOTS p LEFT JOIN INVCYCLE i ON p.ID = i.IDPLOTS GROUP BY p.ID, i.IDPLOTS) 
+WHERE ((MAXCYCLE < 3 OR MAXCYCLE IS NULL) AND ID>11000)")
+
+# plotstatus <- sqlQuery(conn, "SELECT g.IDPLOTS, g.PLOT_ID, i.IDPLOTS AS PLOTBESCHR, i.PLOTCYCLE, i.PLOTSTATUS AS CODEPLOTSTATUS, q.VALUE1 AS PLOTSTATUS, i.REMARK FROM GRID_POINTS g  LEFT JOIN INVCYCLE i ON g.PLOT_ID = i.IDPLOTS LEFT JOIN QPLOTSTATUS q ON i.PLOTSTATUS = q.ID WHERE PLOTSTATUS IS NULL AND (i.PLOTCYCLE = 3 OR i.PLOTCYCLE IS NULL)")
+
+invcycle <- sqlQuery(conn, "SELECT DISTINCT i.IDPLOTS, i.PLOTCYCLE, EDIT_DATE, q.VALUE1 AS PLOTSTATUS,  a.VALUE1 AS ACCESSIBILITY, l.VALUE1 AS LANDUSE, c.VALUE1 AS LANDCATEGORY, f.VALUE1 AS FORESTAREATYPE, i.ACCESSIBILITY AS CDE_ACCESSIBILITY, i.REMARK, i.PLOTSTATUS AS CDE_PLOTSTATUS, i.LANDUSE AS CDE_LANDUSE, i.LANDCATEGORY AS CDE_LANDCATEGORY, i.FORESTAREATYPE AS CDE_FORESTAREATYPE 
+          FROM INVCYCLE i LEFT JOIN QPLOTSTATUS q ON i.PLOTSTATUS = q.ID 
+                     LEFT JOIN QACCESSIBILITY a ON i.ACCESSIBILITY = a.ID
+                     LEFT JOIN QCONLANDUSE l ON i.LANDUSE = l.ID
+                     LEFT JOIN QCONLANDCATEGORY c ON i.LANDCATEGORY = c.ID
+                     LEFT JOIN QCONFORESTAREATYPE f ON i.FORESTAREATYPE = f.ID")
+
+
+gridpoints <- sqlQuery(conn, "SELECT IDPLOTS, PLOT_ID, SERIES, BWK_HABITAT, CALL_TO, REMARK4, FIELDTEAM, VEG_DONE, REG_DONE, DENDRO_DONE, INFO_SPRINGVEG, SPRINGVEG FROM GRID_POINTS")
+
+gridpoints <- gridpoints %>%
+  mutate(PLOEG = ifelse(IDPLOTS %in% c(), "Raf", ifelse(IDPLOTS %in% c(216), "Geert", ifelse(IDPLOTS %in% c(), "Jan", ifelse(IDPLOTS %in% c(214), "Alex", " "))))) %>%
+    filter(!is.na(PLOT_ID)) %>%
+    left_join(habitat, by = c("BWK_HABITAT" = "ID")) %>%
+    dplyr::select(IDPLOTS, PLOT_ID, HABITAT = VALUE1, CALL_TO, REMARK4, PLOEG, VEG_DONE, REG_DONE, DENDRO_DONE, INFO_SPRINGVEG, SPRINGVEG) 
+
+gridpoints$PLOEG <- as.factor(gridpoints$PLOEG)
+
+
+BI_Coord <- sqlQuery(conn, "SELECT IDPLOTS, PLOTNR, REF_KAART, REMARK FROM Plots_Forest_Inventory")
+
+plots <- sqlQuery(conn, "SELECT ID, HABITAT, REMARK FROM PLOTS") %>%
+    left_join(habitat, by = c("HABITAT" = "ID")) %>%
+    dplyr::select(PLOTNR = ID, HABITAT = VALUE1, REMARK)
+
+
+trees <- sqlQuery(conn, "SELECT IDPLOTS, ID, OLDID, NEWORMISSINGTREE, SPECIES, PERIMETER_CM, HEIGHT_M
+                  , STATUS_TREE, INTACTTREE, CodeCoppice_Individual, EDIT_DATE FROM TREES_3 WHERE IDPLOTS > 11000")
+
+qNOMT <- sqlQuery(conn, 'SELECT * FROM QNEWORMISSINGTREE')
+
+boom_TF <- trees %>%
+  filter(ID > 0) %>%
+  group_by(IDPLOTS) %>%
+  dplyr::summarise(aantalLevend = n(), date = max(EDIT_DATE))
+
+DateDendro <- sqlQuery(conn, "SELECT * FROM OBSERVER_DATE_DENDRO_3 WHERE DATE_DENDRO IS NOT NULL")
+
+
+herbs <- sqlQuery(conn, "SELECT IDPLOTS, ID, SPECIES, ADD_DATE FROM HERBLAYER_3 WHERE IDPLOTS > 11000")
+treelyr <- sqlQuery(conn, "SELECT IDPLOTS, ID, SPECIES FROM TREELAYER_3 WHERE IDPLOTS > 11000")
+DateVeg <- sqlQuery(conn, "SELECT * FROM OBSERVER_DATE_VEG_3 WHERE DATE_VEGETATION IS NOT NULL")
+
+reg <- sqlQuery(conn, "SELECT IDPLOTS, ID, RegDescriptionPresent, ADD_DATE FROM REGENERATIONPLOT_3")
+LIM <- sqlQuery(conn, "SELECT IDPLOTS, ID, DeadWoodInventoryDone FROM LINE_INTERSECT_METHOD_3")
+DateReg <- sqlQuery(conn, "SELECT * FROM OBSERVER_DATE_REG_3 WHERE DATE_REGENERATION IS NOT NULL")
+
+VEG <- sqlQuery(conn, "SELECT IDPLOTS, ID, DISTURBING_FACTORS, TOTAL_PAVED_COVER, TOTAL_HERB_COVER, TOTAL_WATERLAYER_COVER, TOTAL_UNCOVERED_GROUND, TOTAL_MOSS_COVER, HEIGHT_HERBLAYER, TOTAL_SHRUB_COVER, TOTAL_TREE_COVER, EDIT_DATE FROM VEGETATION_3")
+odbcCloseAll()
+
+
+get_StandDescr_invb3 <- function(db = db3){
+  
+query_StandDescr <- "select s.IDPLOTS, s.ID AS IDSEGMENTS
+, s.FMGUID as fmguid_standdescr
+, AREA_M2, ROUND(AREA_M2/1017.885,4) AS SEGMENTWEIGHT
+, s.LANDUSE AS LanduseCode
+, q.VALUE1 AS Landuse
+, REMARK 
+FROM STANDDESCRIPTION_SEGMENTS_3 s LEFT JOIN
+QSTANDDESCR_LANDUSE q ON s.LANDUSE = q.ID 
+order by IDPLOTS, IDSEGMENTS;"
+
+  
+  if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+PlotDescr_invb3 <- sqlQuery(connect_db, query_StandDescr)
+colnames(PlotDescr_invb3) <- str_to_lower(colnames(PlotDescr_invb3))
+  
+ 
+
+    odbcClose(connect_db)
+    
+    return(PlotDescr_invb3)
+  
+}
+SD <- get_StandDescr_invb3(db = db)
+
+
+```
+
+```{r}
+a <- herbs %>% dplyr::select(IDPLOTS) %>% unique() %>% mutate(opn = "veg")
+b <- trees %>% dplyr::select(IDPLOTS) %>% unique() %>% mutate(opn = "bb")
+c <- a %>% full_join(b, by = "IDPLOTS") %>% arrange(IDPLOTS)
+
+t <- gridpoints %>%
+    mutate(PLOEG = ifelse(IDPLOTS == 216, "Geert", "Alex")) %>%
+    dplyr::select(PLOEG, PLOT_ID, opm_navplot = REMARK4, HABITAT_given = HABITAT) %>%
+    left_join(plots, by = c("PLOT_ID" = "PLOTNR")) %>%
+    dplyr::select(PLOEG, PLOT_ID, opm_navplot, HABITAT_given, HABITAT_wn = HABITAT, opm_plot = REMARK) %>%
+    left_join(c, by = c("PLOT_ID" = "IDPLOTS")) %>%
+    dplyr::select(PLOEG, PLOT_ID, opm_navplot, HABITAT_given, HABITAT_wn, opm_plot, veg = opn.x, bb = opn.y) %>%
+    mutate(PLOEG = as.factor(PLOEG), HABITAT_given = as.factor(HABITAT_given), HABITAT_wn = as.factor(HABITAT_wn))
+```
+
+
+```{r }
+t %>% 
+  #filter(!is.na(HABITAT_wn)) %>%
+  DT::datatable(options = list(pageLength = 20), filter = "top")
+   
+```
+
