@@ -88,6 +88,13 @@ p <- paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNA
 
 ```
 
+```{r dbinbo, eval = FALSE}
+
+db <-"../../raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB"
+
+p <- paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db)
+
+```
  
 ```{r connect}
 conn <- odbcDriverConnect(p)
