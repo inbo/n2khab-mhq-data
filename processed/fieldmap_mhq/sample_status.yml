@@ -5,12 +5,10 @@
   sorting:
   - plot_id
   - date_assessment
-  hash: ce189d49e4fdf7f08a4afdf0f26597e006e02902
-  data_hash: 54493648528ec44ece6bd7126b48529af2d8fabb
+  hash: 571ea99b8cfa1f5a68bb83da7785d405983491b7
+  data_hash: e78adc38404eb4428638a38c729198455efcb206
 plot_id:
   class: integer
-sampling_unit_code:
-  class: character
 db:
   class: character
 date_status:
@@ -24,8 +22,12 @@ info_status_fieldwork:
   class: character
 remark:
   class: character
-navplot_id:
-  class: integer
 date_assessment:
   class: Date
   origin: '1970-01-01'
+sampling_unit_code:
+  class: character
+point_code:
+  class: character
+opnamevoortargethabitat:
+  class: character

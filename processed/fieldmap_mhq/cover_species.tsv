@@ -52,14 +52,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 2610	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16307
 2610	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	r1 : sporadisch (< 1%)	1	16307
 2610	shrublayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	16307
-2610	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	19235
-2610	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p1 : weinig talrijk (< 1%)	1	19235
-2610	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	r1 : sporadisch (< 1%)	1	19235
-2610	herblayer	Schapenzuring	Rumex acetosella L.	Londo	r1 : sporadisch (< 1%)	1	19235
-2610	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 + : willekeurig (10-15%)	12	19235
-2610	herblayer	Zomereik	Quercus robur L.	Londo	1 + : willekeurig (10-15%)	12	19235
-2610	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	4 : willekeurig (35-45%)	40	19235
-2610	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	4 : willekeurig (35-45%)	40	19235
 2742	herblayer	Amerikaans krentenboompje	Amelanchier lamarckii F.G. Schroeder	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16604
 2742	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16604
 2742	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16604
@@ -135,30 +127,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 3970	treelayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	5       : 75 - 100 %	87.5	16576
 3970	treelayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	4       : 50 - 75 %	62.5	16576
 3970	treelayer	Ruwe berk	Betula pendula Roth	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16576
-4434	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19151
-4434	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	a2 : talrijk (1-3%)	2	19151
-4434	herblayer	Gewone ereprijs	Veronica chamaedrys L.	Londo	a2 : talrijk (1-3%)	2	19151
-4434	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p2 : weinig talrijk (1-3%)	2	19151
-4434	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p2 : weinig talrijk (1-3%)	2	19151
-4434	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	3 : willekeurig (25-35%)	30	19151
-4434	herblayer	Glad walstro	Galium mollugo L.	Londo	a4 : talrijk (3-5%)	4	19151
-4434	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	3 : willekeurig (25-35%)	30	19151
-4434	herblayer	Groot streepzaad	Crepis biennis L.	Londo	1 - : willekeurig (5-10%)	7	19151
-4434	herblayer	Heggenwikke	Vicia sepium L.	Londo	p2 : weinig talrijk (1-3%)	2	19151
-4434	herblayer	Hopklaver	Medicago lupulina L.	Londo	1 - : willekeurig (5-10%)	7	19151
-4434	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	1 - : willekeurig (5-10%)	7	19151
-4434	herblayer	Klein streepzaad	Crepis capillaris (L.) Wallr.	Londo	p2 : weinig talrijk (1-3%)	2	19151
-4434	herblayer	Kropaar	Dactylis glomerata L.	Londo	1 + : willekeurig (10-15%)	12	19151
-4434	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	1 + : willekeurig (10-15%)	12	19151
-4434	herblayer	Ooievaarsbek (G)	Geranium	Londo	r1 : sporadisch (< 1%)	1	19151
-4434	herblayer	Peen	Daucus carota L.	Londo	p2 : weinig talrijk (1-3%)	2	19151
-4434	herblayer	Rapunzelklokje	Campanula rapunculus L.	Londo	1 - : willekeurig (5-10%)	7	19151
-4434	herblayer	Rode klaver	Trifolium pratense L.	Londo	2 : willekeurig (15-25%)	20	19151
-4434	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	1 + : willekeurig (10-15%)	12	19151
-4434	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p4 : weinig talrijk (3-5%)	4	19151
-4434	herblayer	Sint-janskruid	Hypericum perforatum L.	Londo	p4 : weinig talrijk (3-5%)	4	19151
-4434	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p2 : weinig talrijk (1-3%)	2	19151
-4434	herblayer	Witte klaver	Trifolium repens L.	Londo	m4 : zeer talrijk (3-5%)	4	19151
 4945	herblayer	Beuk	Fagus sylvatica L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17277
 4945	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17277
 4945	herblayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	17277
@@ -379,17 +347,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 8893	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	9 : willekeurig (85-95%)	90	16316
 8893	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m2 : zeer talrijk (1-3%)	2	16316
 8893	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	m2 : zeer talrijk (1-3%)	2	16316
-8893	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	r1 : sporadisch (< 1%)	1	19249
-8893	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p4 : weinig talrijk (3-5%)	4	19249
-8893	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p2 : weinig talrijk (1-3%)	2	19249
-8893	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19249
-8893	herblayer	Zandzegge	Carex arenaria L.	Londo	p2 : weinig talrijk (1-3%)	2	19249
-8893	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	1 : willekeurig (5-15%)	10	19249
-8893	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	m4 : zeer talrijk (3-5%)	4	19249
-8893	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	1 : willekeurig (5-15%)	10	19249
-8893	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m4 : zeer talrijk (3-5%)	4	19249
-8893	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	a1 : talrijk (< 1%)	1	19249
-8893	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	6 : willekeurig (55-65%)	60	19249
 9262	herblayer	Adelaarsvaren	Pteridium aquilinum (L.) Kuhn	Braun-Blanquet	4       : 50 - 75 %	62.5	17067
 9262	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	17067
 9262	herblayer	Blauwe bosbes	Vaccinium myrtillus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17067
@@ -421,11 +378,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 9938	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	5 +: willekeurig (50-55%)	52	16314
 9938	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	a1 : talrijk (< 1%)	1	16314
 9938	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m2 : zeer talrijk (1-3%)	2	16314
-9938	herblayer	_ANDERE SOORT	ANDERE SOORT	Londo	r1 : sporadisch (< 1%)	1	19228
-9938	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	19228
-9938	herblayer	Pilzegge	Carex pilulifera L.	Londo	r1 : sporadisch (< 1%)	1	19228
-9938	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	9 : willekeurig (85-95%)	90	19228
-9938	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	6 : willekeurig (55-65%)	60	19228
 10354	herblayer	Aalbes	Ribes rubrum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16575
 10354	herblayer	Akkerkool	Lapsana communis L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16575
 10354	herblayer	Bos-klimopereprijs	Veronica hederifolia L. subsp. lucorum (Klett et Richt.) Hartl	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16575
@@ -522,10 +474,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 11218	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	16323
 11218	mosslayer	Geoord veenmos	Sphagnum denticulatum	Londo	6 : willekeurig (55-65%)	60	16323
 11218	mosslayer	Ven-sikkelmos	Drepanocladus fluitans	Londo	r1 : sporadisch (< 1%)	1	16323
-11218	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 - : willekeurig (5-10%)	7	19251
-11218	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	19251
-11218	mosslayer	Veenmos (G)	Sphagnum species	Londo	r1 : sporadisch (< 1%)	1	19251
-11218	shrublayer	Grove den	Pinus sylvestris L.	Londo	r4 : sporadisch (3-5%)	4	19251
 11481	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	4       : 50 - 75 %	62.5	17998
 11481	herblayer	Es (G)	Fraxinus	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	17998
 11481	herblayer	Gele dovenetel	Lamium galeobdolon (L.) L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	17998
@@ -601,16 +549,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 12274	herblayer	Smalle stekelvaren	Dryopteris carthusiana (Vill.) H.P. Fuchs	Londo	p2 : weinig talrijk (1-3%)	2	16304
 12274	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r4 : sporadisch (3-5%)	4	16304
 12274	mosslayer	Klauwtjesmos (G)	Hypnum species	Londo	6 : willekeurig (55-65%)	60	16304
-12274	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	a4 : talrijk (3-5%)	4	19235
-12274	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	1 + : willekeurig (10-15%)	12	19235
-12274	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	p2 : weinig talrijk (1-3%)	2	19235
-12274	herblayer	Gewoon struisriet	Calamagrostis epigejos (L.) Roth	Londo	p1 : weinig talrijk (< 1%)	1	19235
-12274	herblayer	Mannetjesvaren	Dryopteris filix-mas (L.) Schott	Londo	r1 : sporadisch (< 1%)	1	19235
-12274	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	19235
-12274	herblayer	Smalle stekelvaren	Dryopteris carthusiana (Vill.) H.P. Fuchs	Londo	r1 : sporadisch (< 1%)	1	19235
-12274	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19235
-12274	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	8 : willekeurig (75-85%)	80	19235
-12274	shrublayer	Brem	Cytisus scoparius (L.) Link	Londo	1 - : willekeurig (5-10%)	7	19235
 12470	herblayer	Aalbes	Ribes rubrum L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16597
 12470	herblayer	Amerikaans krentenboompje	Amelanchier lamarckii F.G. Schroeder	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16597
 12470	herblayer	Bitterzoet	Solanum dulcamara L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	16597
@@ -794,22 +732,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 18546	herblayer	Waterpeper	Polygonum hydropiper L.	Londo	1 - : willekeurig (5-10%)	7	16226
 18546	herblayer	Witte klaver	Trifolium repens L.	Londo	a2 : talrijk (1-3%)	2	16226
 18546	herblayer	Wolfspoot	Lycopus europaeus L.	Londo	a1 : talrijk (< 1%)	1	16226
-18546	herblayer	Fioringras	Agrostis stolonifera L.	Londo	1 : willekeurig (5-15%)	10	19152
-18546	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	1 - : willekeurig (5-10%)	7	19152
-18546	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-18546	herblayer	Grote weegbree	Plantago major L.	Londo	a4 : talrijk (3-5%)	4	19152
-18546	herblayer	Heelblaadjes	Pulicaria dysenterica (L.) Bernh.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-18546	herblayer	Kamille (G)	Matricaria	Londo	r1 : sporadisch (< 1%)	1	19152
-18546	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	4 : willekeurig (35-45%)	40	19152
-18546	herblayer	Madeliefje	Bellis perennis L.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-18546	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-18546	herblayer	Ratelaar (G)	Rhinanthus	Londo	p1 : weinig talrijk (< 1%)	1	19152
-18546	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	4 : willekeurig (35-45%)	40	19152
-18546	herblayer	Tijmereprijs	Veronica serpyllifolia L.	Londo	r1 : sporadisch (< 1%)	1	19152
-18546	herblayer	Waterpeper	Polygonum hydropiper L.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-18546	herblayer	Witte klaver	Trifolium repens L.	Londo	9 : willekeurig (85-95%)	90	19152
-18546	herblayer	Wolfspoot	Lycopus europaeus L.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-18546	herblayer	Zuring (G)	Rumex	Londo	p2 : weinig talrijk (1-3%)	2	19152
 18898	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17991
 18898	herblayer	Bezemkruiskruid	Senecio inaequidens DC.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17991
 18898	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Braun-Blanquet	2m   : < 5 % (> 100)	4	17991
@@ -875,12 +797,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 20178	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	a1 : talrijk (< 1%)	1	16321
 20178	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	1 - : willekeurig (5-10%)	7	16321
 20178	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	a1 : talrijk (< 1%)	1	16321
-20178	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	5 - : willekeurig (45-50%)	47	19242
-20178	herblayer	Pilzegge	Carex pilulifera L.	Londo	p1 : weinig talrijk (< 1%)	1	19242
-20178	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19242
-20178	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	r1 : sporadisch (< 1%)	1	19242
-20178	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	5 - : willekeurig (45-50%)	47	19242
-20178	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	1 - : willekeurig (5-10%)	7	19242
 20217	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 + : willekeurig (10-15%)	12	16952
 20217	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p2 : weinig talrijk (1-3%)	2	16952
 20217	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p2 : weinig talrijk (1-3%)	2	16952
@@ -1151,13 +1067,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 23538	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	16307
 23538	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m2 : zeer talrijk (1-3%)	2	16307
 23538	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	16307
-23538	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	NA	NA	19236
-23538	herblayer	Sporkehout	Frangula alnus Mill.	Londo	NA	NA	19236
-23538	herblayer	Wilde gagel	Myrica gale L.	Londo	NA	NA	19236
-23538	herblayer	Zomereik	Quercus robur L.	Londo	NA	NA	19236
-23538	shrublayer	Grove den	Pinus sylvestris L.	Londo	1 + : willekeurig (10-15%)	12	19236
-23538	shrublayer	Wilde gagel	Myrica gale L.	Londo	r2 : sporadisch (1-3%)	2	19236
-23538	shrublayer	Zachte berk	Betula pubescens Ehrh.	Londo	p2 : weinig talrijk (1-3%)	2	19236
 23762	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	1 + : willekeurig (10-15%)	12	16324
 23762	herblayer	Gewone veldbies	Luzula campestris (L.) DC.	Londo	p1 : weinig talrijk (< 1%)	1	16324
 23762	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	16324
@@ -1166,24 +1075,11 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 23762	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p1 : weinig talrijk (< 1%)	1	16324
 23762	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m1 : zeer talrijk (< 1%)	1	16324
 23762	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	3 : willekeurig (25-35%)	30	16324
-23762	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	a4 : talrijk (3-5%)	4	19242
-23762	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p4 : weinig talrijk (3-5%)	4	19242
-23762	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	2 : willekeurig (15-25%)	20	19242
-23762	herblayer	Pilzegge	Carex pilulifera L.	Londo	p2 : weinig talrijk (1-3%)	2	19242
-23762	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19242
-23762	herblayer	Veelbloemige veldbies	Luzula multiflora (Ehrh.) Lej.	Londo	p1 : weinig talrijk (< 1%)	1	19242
-23762	herblayer	Vroege haver	Aira praecox L.	Londo	r1 : sporadisch (< 1%)	1	19242
-23762	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	r1 : sporadisch (< 1%)	1	19242
-23762	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	a2 : talrijk (1-3%)	2	19242
-23762	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	1 + : willekeurig (10-15%)	12	19242
 26322	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16315
 26322	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	16315
 26322	mosslayer	Bronsmos	Pleurozium schreberi	Londo	p1 : weinig talrijk (< 1%)	1	16315
 26322	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	r1 : sporadisch (< 1%)	1	16315
 26322	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16315
-26322	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	NA	NA	19228
-26322	mosslayer	Gaffeltandmos (G)	Dicranum	Londo	m2 : zeer talrijk (1-3%)	2	19228
-26322	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	19228
 26393	herblayer	Boswederik	Lysimachia nemorum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	17269
 26393	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17269
 26393	herblayer	Gele dovenetel	Lamium galeobdolon (L.) L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	17269
@@ -1287,12 +1183,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 28370	mosslayer	Groot Laddermos (G)	Pseudoscleropodium species	Londo	m2 : zeer talrijk (1-3%)	2	16310
 28370	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	10 : willekeurig (95-100%)	97	16310
 28370	treelayer	Zomereik	Quercus robur L.	Londo	5 - : willekeurig (45-50%)	47	16310
-28370	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	19234
-28370	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	7 : willekeurig (65-75%)	70	19234
-28370	mosslayer	Bronsmos	Pleurozium schreberi	Londo	p2 : weinig talrijk (1-3%)	2	19234
-28370	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	p1 : weinig talrijk (< 1%)	1	19234
-28370	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	7 : willekeurig (65-75%)	70	19234
-28370	treelayer	Zomereik	Quercus robur L.	Londo	4 : willekeurig (35-45%)	40	19234
 28546	herblayer	Bosandoorn	Stachys sylvatica L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18002
 28546	herblayer	Bosbingelkruid	Mercurialis perennis L.	Braun-Blanquet	4       : 50 - 75 %	62.5	18002
 28546	herblayer	Bosgierstgras	Milium effusum L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18002
@@ -1352,13 +1242,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 28658	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	a1 : talrijk (< 1%)	1	16303
 28658	mosslayer	Klauwtjesmos (G)	Hypnum species	Londo	10 : willekeurig (95-100%)	97	16303
 28658	shrublayer	Grauwe wilg	Salix cinerea L.	Londo	1 - : willekeurig (5-10%)	7	16303
-28658	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	1 : willekeurig (5-15%)	10	19235
-28658	herblayer	Gewoon struisriet	Calamagrostis epigejos (L.) Roth	Londo	p4 : weinig talrijk (3-5%)	4	19235
-28658	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	2 : willekeurig (15-25%)	20	19235
-28658	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p2 : weinig talrijk (1-3%)	2	19235
-28658	mosslayer	Bronsmos	Pleurozium schreberi	Londo	p2 : weinig talrijk (1-3%)	2	19235
-28658	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	p1 : weinig talrijk (< 1%)	1	19235
-28658	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	19235
 29406	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	a2 : talrijk (1-3%)	2	16303
 29406	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	r1 : sporadisch (< 1%)	1	16303
 29406	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 + : willekeurig (10-15%)	12	16303
@@ -1366,12 +1249,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 29406	herblayer	Zandzegge	Carex arenaria L.	Londo	a1 : talrijk (< 1%)	1	16303
 29406	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	8 : willekeurig (75-85%)	80	16303
 29406	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	m4 : zeer talrijk (3-5%)	4	16303
-29406	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	p4 : weinig talrijk (3-5%)	4	19249
-29406	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 : willekeurig (5-15%)	10	19249
-29406	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p4 : weinig talrijk (3-5%)	4	19249
-29406	herblayer	Zandzegge	Carex arenaria L.	Londo	1 - : willekeurig (5-10%)	7	19249
-29406	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	1 + : willekeurig (10-15%)	12	19249
-29406	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	2 : willekeurig (15-25%)	20	19249
 29622	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	r1 : sporadisch (< 1%)	1	16321
 29622	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	r1 : sporadisch (< 1%)	1	16321
 29622	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	4 : willekeurig (35-45%)	40	16321
@@ -1379,13 +1256,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 29622	herblayer	Trekrus	Juncus squarrosus L.	Londo	r1 : sporadisch (< 1%)	1	16321
 29622	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p1 : weinig talrijk (< 1%)	1	16321
 29622	mosslayer	Haarmos (G)	Polytrichum species	Londo	NA	NA	16321
-30290	herblayer	Amerikaanse eik	Quercus rubra L.	Londo	r2 : sporadisch (1-3%)	2	19264
-30290	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	p2 : weinig talrijk (1-3%)	2	19264
-30290	herblayer	Grove den	Pinus sylvestris L.	Londo	2 : willekeurig (15-25%)	20	19264
-30290	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	3 : willekeurig (25-35%)	30	19264
-30290	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19264
-30290	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	p1 : weinig talrijk (< 1%)	1	19264
-30290	shrublayer	Grove den	Pinus sylvestris L.	Londo	NA	NA	19264
 31414	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	17988
 31414	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	5       : 75 - 100 %	87.5	17988
 31414	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17988
@@ -1408,11 +1278,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 32466	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	16324
 32466	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	16324
 32466	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	16324
-32466	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	r1 : sporadisch (< 1%)	1	19241
-32466	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 + : willekeurig (10-15%)	12	19241
-32466	herblayer	Pilzegge	Carex pilulifera L.	Londo	2 : willekeurig (15-25%)	20	19241
-32466	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19241
-32466	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	r1 : sporadisch (< 1%)	1	19241
 33502	herblayer	Dophei (G)	Erica	Londo	a2 : talrijk (1-3%)	2	17094
 33502	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	17094
 33502	herblayer	Sporkehout	Frangula alnus Mill.	Londo	r1 : sporadisch (< 1%)	1	17094
@@ -1432,12 +1297,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 34514	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	p1 : weinig talrijk (< 1%)	1	16310
 34514	mosslayer	Groot Laddermos (G)	Pseudoscleropodium species	Londo	a1 : talrijk (< 1%)	1	16310
 34514	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16310
-34514	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	19234
-34514	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p2 : weinig talrijk (1-3%)	2	19234
-34514	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	9 : willekeurig (85-95%)	90	19234
-34514	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	p2 : weinig talrijk (1-3%)	2	19234
-34514	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	p2 : weinig talrijk (1-3%)	2	19234
-34514	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	10 : willekeurig (95-100%)	97	19234
 35090	herblayer	Beemdgras (G)	Poa	Londo	r1 : sporadisch (< 1%)	1	16702
 35090	herblayer	Berk (G)	Betula	Londo	1 + : willekeurig (10-15%)	12	16702
 35090	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	r1 : sporadisch (< 1%)	1	16702
@@ -1513,33 +1372,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 38545	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	16220
 38545	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	r1 : sporadisch (< 1%)	1	16220
 38545	herblayer	Zompvergeet-mij-nietje	Myosotis cespitosa C.F. Schultz	Londo	p1 : weinig talrijk (< 1%)	1	16220
-38545	herblayer	Behaarde boterbloem	Ranunculus sardous Crantz	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38545	herblayer	Kweek	Elymus repens (L.) Gould	Londo	4 : willekeurig (35-45%)	40	19143
-38545	herblayer	Liesgras	Glyceria maxima (Hartm.) Holmberg	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38545	herblayer	Moeraswalstro	Galium palustre L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38545	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38545	herblayer	Rietgras	Phalaris arundinacea L.	Londo	2 : willekeurig (15-25%)	20	19143
-38545	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	4 : willekeurig (35-45%)	40	19143
-38545	herblayer	Scherpe zegge	Carex acuta L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38545	herblayer	Tweerijige zegge	Carex disticha Huds.	Londo	a2 : talrijk (1-3%)	2	19143
-38545	herblayer	Veenwortel	Polygonum amphibium L.	Londo	1 - : willekeurig (5-10%)	7	19143
-38545	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38545	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	19143
-38545	herblayer	Zompvergeet-mij-nietje	Myosotis cespitosa C.F. Schultz	Londo	p1 : weinig talrijk (< 1%)	1	19143
-38610	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	r1 : sporadisch (< 1%)	1	19255
-38610	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p4 : weinig talrijk (3-5%)	4	19255
-38610	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	1 : willekeurig (5-15%)	10	19255
-38610	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p2 : weinig talrijk (1-3%)	2	19255
-38610	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	19255
-38610	herblayer	Havikskruid (G)	Hieracium	Londo	r1 : sporadisch (< 1%)	1	19255
-38610	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p4 : weinig talrijk (3-5%)	4	19255
-38610	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	19255
-38610	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19255
-38610	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p2 : weinig talrijk (1-3%)	2	19255
-38610	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	1 : willekeurig (5-15%)	10	19255
-38610	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	5 : willekeurig (45-55%)	50	19255
-38610	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	a1 : talrijk (< 1%)	1	19255
-38610	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	1 : willekeurig (5-15%)	10	19255
 40054	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 - : willekeurig (5-10%)	7	17133
 40054	herblayer	Lidrus	Equisetum palustre L.	Londo	p1 : weinig talrijk (< 1%)	1	17133
 40054	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	6 : willekeurig (55-65%)	60	17133
@@ -1560,13 +1392,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 40146	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	m4 : zeer talrijk (3-5%)	4	16321
 40146	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	8 : willekeurig (75-85%)	80	16321
 40146	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	m1 : zeer talrijk (< 1%)	1	16321
-40146	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	19241
-40146	herblayer	Sporkehout	Frangula alnus Mill.	Londo	r1 : sporadisch (< 1%)	1	19241
-40146	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	19241
-40146	herblayer	Struisgras (G)	Agrostis	Londo	1 - : willekeurig (5-10%)	7	19241
-40146	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	p1 : weinig talrijk (< 1%)	1	19241
-40146	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	2 : willekeurig (15-25%)	20	19241
-40146	shrublayer	Ruwe berk	Betula pendula Roth	Londo	2 : willekeurig (15-25%)	20	19241
 41814	herblayer	Engels raaigras	Lolium perenne L.	Londo	a2 : talrijk (1-3%)	2	16232
 41814	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	2 : willekeurig (15-25%)	20	16232
 41814	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	16232
@@ -1587,15 +1412,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 41814	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	16232
 41814	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	16232
 41814	herblayer	Witte klaver	Trifolium repens L.	Londo	1 - : willekeurig (5-10%)	7	16232
-41814	herblayer	Engels raaigras	Lolium perenne L.	Londo	r1 : sporadisch (< 1%)	1	19145
-41814	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	8 : willekeurig (75-85%)	80	19145
-41814	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-41814	herblayer	Kropaar	Dactylis glomerata L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-41814	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-41814	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-41814	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-41814	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-41814	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
 42934	herblayer	Adelaarsvaren	Pteridium aquilinum (L.) Kuhn	Londo	1 + : willekeurig (10-15%)	12	16323
 42934	herblayer	Amerikaanse eik	Quercus rubra L.	Londo	r1 : sporadisch (< 1%)	1	16323
 42934	herblayer	Berk (G)	Betula	Londo	p1 : weinig talrijk (< 1%)	1	16323
@@ -1631,11 +1447,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 43858	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m2 : zeer talrijk (1-3%)	2	16310
 43858	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	p1 : weinig talrijk (< 1%)	1	16310
 43858	shrublayer	Grove den	Pinus sylvestris L.	Londo	r4 : sporadisch (3-5%)	4	16310
-43858	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	p4 : weinig talrijk (3-5%)	4	19237
-43858	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19237
-43858	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	r1 : sporadisch (< 1%)	1	19237
-43858	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	8 : willekeurig (75-85%)	80	19237
-43858	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	a2 : talrijk (1-3%)	2	19237
 44626	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	16304
 44626	herblayer	Brem	Cytisus scoparius (L.) Link	Londo	r1 : sporadisch (< 1%)	1	16304
 44626	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16304
@@ -1645,11 +1456,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 44626	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m1 : zeer talrijk (< 1%)	1	16304
 44626	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	a1 : talrijk (< 1%)	1	16304
 44626	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	p1 : weinig talrijk (< 1%)	1	16304
-44626	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p2 : weinig talrijk (1-3%)	2	19236
-44626	herblayer	Pilzegge	Carex pilulifera L.	Londo	p2 : weinig talrijk (1-3%)	2	19236
-44626	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	19236
-44626	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	3 : willekeurig (25-35%)	30	19236
-44626	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	p1 : weinig talrijk (< 1%)	1	19236
 45526	herblayer	Basterdwederik (G)	Epilobium	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16658
 45526	herblayer	Bitterzoet	Solanum dulcamara L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16658
 45526	herblayer	Braam (G)	Rubus	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16658
@@ -1681,12 +1487,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 45790	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	m1 : zeer talrijk (< 1%)	1	16304
 45790	mosslayer	Klauwtjesmos (G)	Hypnum species	Londo	5 - : willekeurig (45-50%)	47	16304
 45790	treelayer	Grove den	Pinus sylvestris L.	Londo	10 : willekeurig (95-100%)	97	16304
-45790	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 : willekeurig (5-15%)	10	19248
-45790	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	a2 : talrijk (1-3%)	2	19248
-45790	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	p1 : weinig talrijk (< 1%)	1	19248
-45790	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	6 : willekeurig (55-65%)	60	19248
-45790	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	19248
-45790	treelayer	Grove den	Pinus sylvestris L.	Londo	10 : willekeurig (95-100%)	97	19248
 46006	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16322
 46006	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	16322
 46006	herblayer	Pilzegge	Carex pilulifera L.	Londo	r1 : sporadisch (< 1%)	1	16322
@@ -1741,30 +1541,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 47446	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	2 : willekeurig (15-25%)	20	16234
 47446	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	a1 : talrijk (< 1%)	1	16234
 47446	herblayer	Veldzuring	Rumex acetosa L.	Londo	m1 : zeer talrijk (< 1%)	1	16234
-47446	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-47446	herblayer	Engels raaigras	Lolium perenne L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-47446	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	a2 : talrijk (1-3%)	2	19145
-47446	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	a1 : talrijk (< 1%)	1	19145
-47446	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p1 : weinig talrijk (< 1%)	1	19145
-47446	herblayer	Grote brandnetel	Urtica dioica L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-47446	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	a1 : talrijk (< 1%)	1	19145
-47446	herblayer	Kleefkruid	Galium aparine L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-47446	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p1 : weinig talrijk (< 1%)	1	19145
-47446	herblayer	Kropaar	Dactylis glomerata L.	Londo	3 : willekeurig (25-35%)	30	19145
-47446	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p4 : weinig talrijk (3-5%)	4	19145
-47446	herblayer	Kweek	Elymus repens (L.) Gould	Londo	a2 : talrijk (1-3%)	2	19145
-47446	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Rietgras	Phalaris arundinacea L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-47446	herblayer	Rode klaver	Trifolium pratense L.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	3 : willekeurig (25-35%)	30	19145
-47446	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-47446	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	19145
-47446	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
 47666	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	17347
 47666	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	a2 : talrijk (1-3%)	2	17347
 47666	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	10 : willekeurig (95-100%)	97	17347
@@ -1876,12 +1652,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 62174	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	6 : willekeurig (55-65%)	60	16316
 62174	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	3 : willekeurig (25-35%)	30	16316
 62174	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	m1 : zeer talrijk (< 1%)	1	16316
-62174	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	3 : willekeurig (25-35%)	30	19249
-62174	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	4 : willekeurig (35-45%)	40	19249
-62174	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p2 : weinig talrijk (1-3%)	2	19249
-62174	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	2 : willekeurig (15-25%)	20	19249
-62174	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	1 + : willekeurig (10-15%)	12	19249
-62174	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	r1 : sporadisch (< 1%)	1	19249
 63270	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	p2 : weinig talrijk (1-3%)	2	16227
 63270	herblayer	Duizendblad	Achillea millefolium L.	Londo	m2 : zeer talrijk (1-3%)	2	16227
 63270	herblayer	Gekroesde melkdistel	Sonchus asper (L.) Hill	Londo	r1 : sporadisch (< 1%)	1	16227
@@ -1917,13 +1687,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 66006	mosslayer	Gaffeltandmos (G)	Dicranum	Londo	p2 : weinig talrijk (1-3%)	2	16339
 66006	mosslayer	Haarmos (G)	Polytrichum species	Londo	p1 : weinig talrijk (< 1%)	1	16339
 66006	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	3 : willekeurig (25-35%)	30	16339
-66006	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p2 : weinig talrijk (1-3%)	2	19265
-66006	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	1 : willekeurig (5-15%)	10	19265
-66006	herblayer	Schapenzuring	Rumex acetosella L.	Londo	m2 : zeer talrijk (1-3%)	2	19265
-66006	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p2 : weinig talrijk (1-3%)	2	19265
-66006	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	1 - : willekeurig (5-10%)	7	19265
-66006	mosslayer	Gewoon klauwtjesmos	Hypnum cupressiforme	Londo	p1 : weinig talrijk (< 1%)	1	19265
-66006	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	p1 : weinig talrijk (< 1%)	1	19265
 66270	herblayer	Blauwe zegge	Carex panicea L.	Londo	p1 : weinig talrijk (< 1%)	1	17099
 66270	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 - : willekeurig (5-10%)	7	17099
 66270	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17099
@@ -1941,22 +1704,12 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 72690	mosslayer	Klauwtjesmos (G)	Hypnum species	Londo	1 - : willekeurig (5-10%)	7	16302
 72690	shrublayer	Zachte berk	Betula pubescens Ehrh.	Londo	r1 : sporadisch (< 1%)	1	16302
 72690	treelayer	Grove den	Pinus sylvestris L.	Londo	1 : willekeurig (5-15%)	10	16302
-72690	herblayer	Gewone dophei	Erica tetralix L.	Londo	r2 : sporadisch (1-3%)	2	19236
-72690	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	6 : willekeurig (55-65%)	60	19236
-72690	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19236
-72690	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19236
-72690	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	p1 : weinig talrijk (< 1%)	1	19236
-72690	treelayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	19236
 75474	herblayer	Sporkehout	Frangula alnus Mill.	Londo	p1 : weinig talrijk (< 1%)	1	16314
 75474	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	16314
 75474	mosslayer	Bronsmos	Pleurozium schreberi	Londo	m2 : zeer talrijk (1-3%)	2	16314
 75474	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	m1 : zeer talrijk (< 1%)	1	16314
 75474	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16314
 75474	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	16314
-75474	herblayer	Heidekartelblad	Pedicularis sylvatica L.	Londo	10 : willekeurig (95-100%)	97	19228
-75474	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	NA	NA	19228
-75474	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	a2 : talrijk (1-3%)	2	19228
-75474	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	19228
 76242	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	16322
 76242	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 + : willekeurig (10-15%)	12	16322
 76242	herblayer	Moerasstruisgras	Agrostis canina L.	Londo	p1 : weinig talrijk (< 1%)	1	16322
@@ -1973,13 +1726,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 76754	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	7 : willekeurig (65-75%)	70	16323
 76754	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	1 - : willekeurig (5-10%)	7	16323
 76754	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	a1 : talrijk (< 1%)	1	16323
-76754	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p2 : weinig talrijk (1-3%)	2	19251
-76754	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p4 : weinig talrijk (3-5%)	4	19251
-76754	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	7 : willekeurig (65-75%)	70	19251
-76754	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	6 : willekeurig (55-65%)	60	19251
-76754	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m2 : zeer talrijk (1-3%)	2	19251
-76754	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	p1 : weinig talrijk (< 1%)	1	19251
-76754	shrublayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	3 : willekeurig (25-35%)	30	19251
 77278	herblayer	Beenbreek	Narthecium ossifragum (L.) Huds.	Londo	p1 : weinig talrijk (< 1%)	1	17135
 77278	herblayer	Bruine snavelbies	Rhynchospora fusca (L.) Ait. f.	Londo	m2 : zeer talrijk (1-3%)	2	17135
 77278	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 - : willekeurig (5-10%)	7	17135
@@ -2036,21 +1782,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 79986	herblayer	Wilg (G)	Salix	Londo	r1 : sporadisch (< 1%)	1	16224
 79986	herblayer	Witte klaver	Trifolium repens L.	Londo	1 : willekeurig (5-15%)	10	16224
 79986	herblayer	Wolfspoot	Lycopus europaeus L.	Londo	r1 : sporadisch (< 1%)	1	16224
-79986	herblayer	Blauw glidkruid	Scutellaria galericulata L.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-79986	herblayer	Bloedzuring	Rumex sanguineus L.	Londo	r1 : sporadisch (< 1%)	1	19152
-79986	herblayer	Bosbies	Scirpus sylvaticus L.	Londo	9 : willekeurig (85-95%)	90	19152
-79986	herblayer	Dauwbraam	Rubus caesius L.	Londo	r1 : sporadisch (< 1%)	1	19152
-79986	herblayer	Grote kattenstaart	Lythrum salicaria L.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-79986	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-79986	herblayer	Lidrus	Equisetum palustre L.	Londo	2 : willekeurig (15-25%)	20	19152
-79986	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-79986	herblayer	Pitrus	Juncus effusus L.	Londo	3 : willekeurig (25-35%)	30	19152
-79986	herblayer	Rietgras	Phalaris arundinacea L.	Londo	a2 : talrijk (1-3%)	2	19152
-79986	herblayer	Veenwortel	Polygonum amphibium L.	Londo	r1 : sporadisch (< 1%)	1	19152
-79986	herblayer	Vlotgras (G)	Glyceria	Londo	a2 : talrijk (1-3%)	2	19152
-79986	herblayer	Watermunt	Mentha aquatica L.	Londo	1 - : willekeurig (5-10%)	7	19152
-79986	herblayer	Wolfspoot	Lycopus europaeus L.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-79986	shrublayer	Grauwe wilg (inclusief kruisingen)	Salix cinerea L. (incl. kruisingen)	Londo	p2 : weinig talrijk (1-3%)	2	19152
 81374	herblayer	Gewone dophei	Erica tetralix L.	Londo	a2 : talrijk (1-3%)	2	17101
 81374	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17101
 81374	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	17101
@@ -2201,15 +1932,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 90846	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	5 : willekeurig (45-55%)	50	16301
 90846	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	a1 : talrijk (< 1%)	1	16301
 90846	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	5 : willekeurig (45-55%)	50	16301
-90846	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p2 : weinig talrijk (1-3%)	2	19248
-90846	herblayer	Schapenzuring	Rumex acetosella L.	Londo	r1 : sporadisch (< 1%)	1	19248
-90846	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	6 : willekeurig (55-65%)	60	19248
-90846	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	1 - : willekeurig (5-10%)	7	19248
-90846	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	a1 : talrijk (< 1%)	1	19248
-90846	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	m4 : zeer talrijk (3-5%)	4	19248
-90846	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m2 : zeer talrijk (1-3%)	2	19248
-90846	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	19248
-90846	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	3 : willekeurig (25-35%)	30	19248
 91122	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	a1 : talrijk (< 1%)	1	17350
 91122	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	r1 : sporadisch (< 1%)	1	17350
 91122	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17350
@@ -2219,23 +1941,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 91122	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	r1 : sporadisch (< 1%)	1	17350
 91122	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	8 : willekeurig (75-85%)	80	17350
 91122	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	17350
-91186	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	p2 : weinig talrijk (1-3%)	2	18793
-91186	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 + : willekeurig (10-15%)	12	18793
-91186	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	9 : willekeurig (85-95%)	90	18793
-91186	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	r1 : sporadisch (< 1%)	1	18793
-91186	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	a1 : talrijk (< 1%)	1	18793
-91186	herblayer	Graslathyrus	Lathyrus nissolia L.	Londo	r1 : sporadisch (< 1%)	1	18793
-91186	herblayer	Grote brandnetel	Urtica dioica L.	Londo	r1 : sporadisch (< 1%)	1	18793
-91186	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	1 + : willekeurig (10-15%)	12	18793
-91186	herblayer	Hondsdraf	Glechoma hederacea L.	Londo	p1 : weinig talrijk (< 1%)	1	18793
-91186	herblayer	Moeraswalstro	Galium palustre L.	Londo	r1 : sporadisch (< 1%)	1	18793
-91186	herblayer	Penningkruid	Lysimachia nummularia L.	Londo	p1 : weinig talrijk (< 1%)	1	18793
-91186	herblayer	Ridderzuring	Rumex obtusifolius L.	Londo	r1 : sporadisch (< 1%)	1	18793
-91186	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 - : willekeurig (5-10%)	7	18793
-91186	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	18793
-91186	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	p2 : weinig talrijk (1-3%)	2	18793
-91186	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	18793
-91186	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	a2 : talrijk (1-3%)	2	18793
 91410	herblayer	Bezemkruiskruid	Senecio inaequidens DC.	Londo	p1 : weinig talrijk (< 1%)	1	17071
 91410	herblayer	Biggekruid (G)	Hypochaeris	Londo	r1 : sporadisch (< 1%)	1	17071
 91410	herblayer	Duizendguldenkruid (G)	Centaurium	Londo	p1 : weinig talrijk (< 1%)	1	17071
@@ -2290,15 +1995,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 94942	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	a1 : talrijk (< 1%)	1	16303
 94942	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	4 : willekeurig (35-45%)	40	16303
 94942	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	m1 : zeer talrijk (< 1%)	1	16303
-94942	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 - : willekeurig (5-10%)	7	19248
-94942	herblayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	19248
-94942	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 + : willekeurig (10-15%)	12	19248
-94942	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 + : willekeurig (10-15%)	12	19248
-94942	herblayer	Trekrus	Juncus squarrosus L.	Londo	1 - : willekeurig (5-10%)	7	19248
-94942	herblayer	Zachte berk	Betula pubescens Ehrh.	Londo	p4 : weinig talrijk (3-5%)	4	19248
-94942	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p1 : weinig talrijk (< 1%)	1	19248
-94942	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	a1 : talrijk (< 1%)	1	19248
-94942	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	a1 : talrijk (< 1%)	1	19248
 95158	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	1 : willekeurig (5-15%)	10	16322
 95158	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	p1 : weinig talrijk (< 1%)	1	16322
 95158	herblayer	Liggend walstro	Galium saxatile L.	Londo	p1 : weinig talrijk (< 1%)	1	16322
@@ -2344,19 +2040,9 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 96978	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16314
 96978	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	p1 : weinig talrijk (< 1%)	1	16314
 96978	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	p1 : weinig talrijk (< 1%)	1	16314
-96978	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	NA	NA	19226
-96978	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	r1 : sporadisch (< 1%)	1	19226
-96978	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	r2 : sporadisch (1-3%)	2	19226
-96978	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	19226
 98002	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	4 : willekeurig (35-45%)	40	16324
 98002	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	6 : willekeurig (55-65%)	60	16324
 98002	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	7 : willekeurig (65-75%)	70	16324
-98002	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	3 : willekeurig (25-35%)	30	19242
-98002	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	19242
-98002	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 - : willekeurig (5-10%)	7	19242
-98002	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	p1 : weinig talrijk (< 1%)	1	19242
-98002	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	19242
-98002	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	p1 : weinig talrijk (< 1%)	1	19242
 99521	herblayer	Biezenknoppen	Juncus conglomeratus L.	Londo	p2 : weinig talrijk (1-3%)	2	16224
 99521	herblayer	Engels raaigras	Lolium perenne L.	Londo	p2 : weinig talrijk (1-3%)	2	16224
 99521	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	3 : willekeurig (25-35%)	30	16224
@@ -2370,19 +2056,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 99521	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	16224
 99521	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	16224
 99521	herblayer	Witte klaver	Trifolium repens L.	Londo	5 +: willekeurig (50-55%)	52	16224
-99521	herblayer	Biezenknoppen	Juncus conglomeratus L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-99521	herblayer	Engels raaigras	Lolium perenne L.	Londo	r1 : sporadisch (< 1%)	1	19145
-99521	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	a1 : talrijk (< 1%)	1	19145
-99521	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-99521	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	6 : willekeurig (55-65%)	60	19145
-99521	herblayer	Kropaar	Dactylis glomerata L.	Londo	r1 : sporadisch (< 1%)	1	19145
-99521	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-99521	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-99521	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-99521	herblayer	Ruige zegge	Carex hirta L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-99521	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-99521	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-99521	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
 100050	herblayer	Beenbreek	Narthecium ossifragum (L.) Huds.	Londo	10 : willekeurig (95-100%)	97	16314
 100050	herblayer	Gewone dophei	Erica tetralix L.	Londo	3 : willekeurig (25-35%)	30	16314
 100050	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16314
@@ -2391,13 +2064,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 100050	herblayer	Veenpluis	Eriophorum polystachion L.	Londo	m2 : zeer talrijk (1-3%)	2	16314
 100050	herblayer	Wilde gagel	Myrica gale L.	Londo	1 + : willekeurig (10-15%)	12	16314
 100050	mosslayer	Slank veenmos	Sphagnum recurvum	Londo	m4 : zeer talrijk (3-5%)	4	16314
-100050	herblayer	Beenbreek	Narthecium ossifragum (L.) Huds.	Londo	5 : willekeurig (45-55%)	50	19235
-100050	herblayer	Gewone dophei	Erica tetralix L.	Londo	p2 : weinig talrijk (1-3%)	2	19235
-100050	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p2 : weinig talrijk (1-3%)	2	19235
-100050	herblayer	Ronde zonnedauw	Drosera rotundifolia L.	Londo	5 - : willekeurig (45-50%)	47	19235
-100050	herblayer	Veenpluis	Eriophorum polystachion L.	Londo	a4 : talrijk (3-5%)	4	19235
-100050	herblayer	Wilde gagel	Myrica gale L.	Londo	2 : willekeurig (15-25%)	20	19235
-100050	mosslayer	Veenmos (G)	Sphagnum species	Londo	5 - : willekeurig (45-50%)	47	19235
 100297	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	p2 : weinig talrijk (1-3%)	2	16959
 100297	herblayer	Akkerereprijs	Veronica agrestis L.	Londo	p1 : weinig talrijk (< 1%)	1	16959
 100297	herblayer	Duizendblad	Achillea millefolium L.	Londo	a4 : talrijk (3-5%)	4	16959
@@ -2447,14 +2113,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 102098	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	1 - : willekeurig (5-10%)	7	16324
 102098	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	16324
 102098	treelayer	Ruwe berk	Betula pendula Roth	Londo	1 - : willekeurig (5-10%)	7	16324
-102098	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	19241
-102098	herblayer	Pilzegge	Carex pilulifera L.	Londo	p1 : weinig talrijk (< 1%)	1	19241
-102098	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	19241
-102098	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	p1 : weinig talrijk (< 1%)	1	19241
-102098	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	p1 : weinig talrijk (< 1%)	1	19241
-102098	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	19241
-102098	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	p1 : weinig talrijk (< 1%)	1	19241
-102098	shrublayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	19241
 103609	herblayer	Beuk	Fagus sylvatica L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16552
 103609	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	16552
 103609	herblayer	Bleeksporig bosviooltje	Viola riviniana Reichenb.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16552
@@ -2525,10 +2183,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 104342	treelayer	Populier (G)	Populus	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16548
 104342	treelayer	Wilg (G)	Salix	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16548
 104342	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16548
-105458	herblayer	Gewone dophei	Erica tetralix L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-105458	herblayer	Knolrus	Juncus bulbosus L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-105458	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 + : willekeurig (10-15%)	12	19263
-105458	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p1 : weinig talrijk (< 1%)	1	19263
 105682	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	16321
 105682	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	6 : willekeurig (55-65%)	60	16321
 105682	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	6 : willekeurig (55-65%)	60	16321
@@ -2551,11 +2205,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 111326	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	2 : willekeurig (15-25%)	20	16301
 111326	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	r1 : sporadisch (< 1%)	1	16301
 111326	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	16301
-111326	herblayer	Gewone dophei	Erica tetralix L.	Londo	2 : willekeurig (15-25%)	20	19248
-111326	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p2 : weinig talrijk (1-3%)	2	19248
-111326	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	6 : willekeurig (55-65%)	60	19248
-111326	herblayer	Trekrus	Juncus squarrosus L.	Londo	r1 : sporadisch (< 1%)	1	19248
-111326	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	8 : willekeurig (75-85%)	80	19248
 111918	herblayer	Braam (G)	Rubus	Londo	r1 : sporadisch (< 1%)	1	17779
 111918	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	4 : willekeurig (35-45%)	40	17779
 112850	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	a2 : talrijk (1-3%)	2	17738
@@ -2606,26 +2255,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 116434	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	m2 : zeer talrijk (1-3%)	2	17751
 116434	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	17751
 116434	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	17751
-116518	herblayer	Duizendblad	Achillea millefolium L.	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p2 : weinig talrijk (1-3%)	2	18795
-116518	herblayer	Groot streepzaad	Crepis biennis L.	Londo	p2 : weinig talrijk (1-3%)	2	18795
-116518	herblayer	Hertshooi (G)	Hypericum	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Hondsroos	Rosa canina L.	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Kropaar	Dactylis glomerata L.	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Kruisdistel	Eryngium campestre L.	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p4 : weinig talrijk (3-5%)	4	18795
-116518	herblayer	Peen	Daucus carota L.	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Ringelwikke	Vicia hirsuta (L.) S.F. Gray	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p2 : weinig talrijk (1-3%)	2	18795
-116518	herblayer	Stinkend streepzaad	Crepis foetida L.	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	r1 : sporadisch (< 1%)	1	18795
-116518	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	18795
-116518	herblayer	Witte klaver	Trifolium repens L.	Londo	1 + : willekeurig (10-15%)	12	18795
-116518	herblayer	Zwenkdravik	Bromus tectorum L.	Londo	10 : willekeurig (95-100%)	97	18795
 117202	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	2 : willekeurig (15-25%)	20	16323
 117202	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	r1 : sporadisch (< 1%)	1	16323
 117202	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	a2 : talrijk (1-3%)	2	16323
@@ -2635,17 +2264,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 117202	mosslayer	Bronmos	Fontinalis antipyretica	Londo	p1 : weinig talrijk (< 1%)	1	16323
 117202	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	a2 : talrijk (1-3%)	2	16323
 117202	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16323
-117202	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	2 : willekeurig (15-25%)	20	19251
-117202	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	1 + : willekeurig (10-15%)	12	19251
-117202	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	2 : willekeurig (15-25%)	20	19251
-117202	herblayer	Pilzegge	Carex pilulifera L.	Londo	r1 : sporadisch (< 1%)	1	19251
-117202	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	19251
-117202	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p2 : weinig talrijk (1-3%)	2	19251
-117202	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19251
-117202	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	a1 : talrijk (< 1%)	1	19251
-117202	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	1 : willekeurig (5-15%)	10	19251
-117202	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m4 : zeer talrijk (3-5%)	4	19251
-117202	shrublayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	r2 : sporadisch (1-3%)	2	19251
 118441	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	p2 : weinig talrijk (1-3%)	2	16965
 118441	herblayer	Braam (G)	Rubus	Londo	p2 : weinig talrijk (1-3%)	2	16965
 118441	herblayer	Engels raaigras	Lolium perenne L.	Londo	a2 : talrijk (1-3%)	2	16965
@@ -2678,31 +2296,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 118441	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	16965
 118441	shrublayer	Hedera algeriensis Hibberd	Hedera algeriensis Hibberd	Londo	NA	NA	16965
 118441	treelayer	Okkernoot	Juglans regia L.	Londo	r2 : sporadisch (1-3%)	2	16965
-118441	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Engels raaigras	Lolium perenne L.	Londo	a4 : talrijk (3-5%)	4	19152
-118441	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	3 : willekeurig (25-35%)	30	19152
-118441	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	p1 : weinig talrijk (< 1%)	1	19152
-118441	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	2 : willekeurig (15-25%)	20	19152
-118441	herblayer	Grote brandnetel	Urtica dioica L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Heermoes	Equisetum arvense L.	Londo	3 : willekeurig (25-35%)	30	19152
-118441	herblayer	IJle dravik	Bromus sterilis L.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-118441	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Kropaar	Dactylis glomerata L.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-118441	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Penningkruid	Lysimachia nummularia L.	Londo	p2 : weinig talrijk (1-3%)	2	19152
-118441	herblayer	Ringelwikke	Vicia hirsuta (L.) S.F. Gray	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	r2 : sporadisch (1-3%)	2	19152
-118441	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19152
-118441	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Veldzuring	Rumex acetosa L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Zachte haver	Avenula pubescens (Huds.) Dum.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Zachte ooievaarsbek	Geranium molle L.	Londo	r1 : sporadisch (< 1%)	1	19152
-118441	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19152
 120018	herblayer	Berk (G)	Betula	Londo	p2 : weinig talrijk (1-3%)	2	16328
 120018	herblayer	Dophei (G)	Erica	Londo	2 : willekeurig (15-25%)	20	16328
 120018	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16328
@@ -2785,21 +2378,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 122578	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	16311
 122578	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	p1 : weinig talrijk (< 1%)	1	16311
 122578	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m2 : zeer talrijk (1-3%)	2	16311
-122578	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	19234
-122578	herblayer	Boekweit (G)	Fagopyrum	Londo	r2 : sporadisch (1-3%)	2	19234
-122578	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	r1 : sporadisch (< 1%)	1	19234
-122578	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	r4 : sporadisch (3-5%)	4	19234
-122578	herblayer	Gewone dophei	Erica tetralix L.	Londo	p4 : weinig talrijk (3-5%)	4	19234
-122578	herblayer	Grote wederik	Lysimachia vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19234
-122578	herblayer	Grove den	Pinus sylvestris L.	Londo	p1 : weinig talrijk (< 1%)	1	19234
-122578	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	4 : willekeurig (35-45%)	40	19234
-122578	herblayer	Pitrus	Juncus effusus L.	Londo	r1 : sporadisch (< 1%)	1	19234
-122578	herblayer	Ronde ooievaarsbek	Geranium rotundifolium L.	Londo	r1 : sporadisch (< 1%)	1	19234
-122578	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19234
-122578	herblayer	Wilde lijsterbes	Sorbus aucuparia L.	Londo	r1 : sporadisch (< 1%)	1	19234
-122578	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	2 : willekeurig (15-25%)	20	19234
-122578	shrublayer	Ruwe berk	Betula pendula Roth	Londo	r1 : sporadisch (< 1%)	1	19234
-122578	shrublayer	Wilde gagel	Myrica gale L.	Londo	r2 : sporadisch (1-3%)	2	19234
 124278	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	4 : willekeurig (35-45%)	40	16336
 124278	herblayer	Heidespurrie	Spergula morisonii Boreau	Londo	m1 : zeer talrijk (< 1%)	1	16336
 124278	herblayer	Melkdistel (G)	Sonchus	Londo	r1 : sporadisch (< 1%)	1	16336
@@ -2808,34 +2386,10 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 124278	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	1 - : willekeurig (5-10%)	7	16336
 124278	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m4 : zeer talrijk (3-5%)	4	16336
 124278	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	a1 : talrijk (< 1%)	1	16336
-124278	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	19265
-124278	herblayer	Struikhei (G)	Calluna	Londo	1 - : willekeurig (5-10%)	7	19265
-124278	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	4 : willekeurig (35-45%)	40	19265
-124278	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	NA	NA	19265
-124278	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	4 : willekeurig (35-45%)	40	19265
 124382	herblayer	Gewone dophei	Erica tetralix L.	Londo	r1 : sporadisch (< 1%)	1	17086
 124382	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17086
 124382	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	8 : willekeurig (75-85%)	80	17086
 124382	herblayer	Veenpluis	Eriophorum polystachion L.	Londo	p1 : weinig talrijk (< 1%)	1	17086
-124806	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-124806	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 + : willekeurig (10-15%)	12	18788
-124806	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p4 : weinig talrijk (3-5%)	4	18788
-124806	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	1 : willekeurig (5-15%)	10	18788
-124806	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p2 : weinig talrijk (1-3%)	2	18788
-124806	herblayer	Graslathyrus	Lathyrus nissolia L.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-124806	herblayer	Groot streepzaad	Crepis biennis L.	Londo	r1 : sporadisch (< 1%)	1	18788
-124806	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	1 - : willekeurig (5-10%)	7	18788
-124806	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-124806	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	1 - : willekeurig (5-10%)	7	18788
-124806	herblayer	Kropaar	Dactylis glomerata L.	Londo	2 : willekeurig (15-25%)	20	18788
-124806	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	p2 : weinig talrijk (1-3%)	2	18788
-124806	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	a4 : talrijk (3-5%)	4	18788
-124806	herblayer	Rode klaver	Trifolium pratense L.	Londo	1 - : willekeurig (5-10%)	7	18788
-124806	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	4 : willekeurig (35-45%)	40	18788
-124806	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	1 - : willekeurig (5-10%)	7	18788
-124806	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	18788
-124806	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	3 : willekeurig (25-35%)	30	18788
-124806	herblayer	Veldzuring	Rumex acetosa L.	Londo	a4 : talrijk (3-5%)	4	18788
 125394	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	2 : willekeurig (15-25%)	20	16587
 125394	herblayer	Heidespurrie	Spergula morisonii Boreau	Londo	r1 : sporadisch (< 1%)	1	16587
 125394	herblayer	Klein vogelpootje	Ornithopus perpusillus L.	Londo	p1 : weinig talrijk (< 1%)	1	16587
@@ -2885,51 +2439,8 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 127218	herblayer	Speerdistel	Cirsium vulgare (Savi) Ten.	Londo	r1 : sporadisch (< 1%)	1	16209
 127218	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	16209
 127218	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	16209
-127622	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	1 + : willekeurig (10-15%)	12	18788
-127622	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	r1 : sporadisch (< 1%)	1	18788
-127622	herblayer	Gele lis	Iris pseudacorus L.	Londo	p4 : weinig talrijk (3-5%)	4	18788
-127622	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	18788
-127622	herblayer	Gewone rolklaver	Lotus corniculatus L. subsp. corniculatus	Londo	p2 : weinig talrijk (1-3%)	2	18788
-127622	herblayer	Graslathyrus	Lathyrus nissolia L.	Londo	a2 : talrijk (1-3%)	2	18788
-127622	herblayer	Grasmuur	Stellaria graminea L.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	2 : willekeurig (15-25%)	20	18788
-127622	herblayer	Lidrus	Equisetum palustre L.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Moeraswalstro	Galium palustre L.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Penningkruid	Lysimachia nummularia L.	Londo	p2 : weinig talrijk (1-3%)	2	18788
-127622	herblayer	Pitrus	Juncus effusus L.	Londo	1 - : willekeurig (5-10%)	7	18788
-127622	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	18788
-127622	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Veldzuring	Rumex acetosa L.	Londo	a4 : talrijk (3-5%)	4	18788
-127622	herblayer	Wilde bertram	Achillea ptarmica L.	Londo	a2 : talrijk (1-3%)	2	18788
-127622	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	18788
-127622	herblayer	Zompvergeet-mij-nietje	Myosotis cespitosa C.F. Schultz	Londo	p2 : weinig talrijk (1-3%)	2	18788
-127622	herblayer	Zwarte zegge	Carex nigra (L.) Reichard	Londo	8 : willekeurig (75-85%)	80	18788
 127710	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 + : willekeurig (10-15%)	12	17121
 127710	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	8 : willekeurig (75-85%)	80	17121
-128657	herblayer	Engels raaigras	Lolium perenne L.	Londo	a1 : talrijk (< 1%)	1	19163
-128657	herblayer	Fioringras	Agrostis stolonifera L.	Londo	m4 : zeer talrijk (3-5%)	4	19163
-128657	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	2 : willekeurig (15-25%)	20	19163
-128657	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	r1 : sporadisch (< 1%)	1	19163
-128657	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-128657	herblayer	Gewoon timoteegras	Phleum pratense L.	Londo	a1 : talrijk (< 1%)	1	19163
-128657	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	2 : willekeurig (15-25%)	20	19163
-128657	herblayer	Italiaans raaigras	Lolium multiflorum Lam.	Londo	1 - : willekeurig (5-10%)	7	19163
-128657	herblayer	Paardebloem (G)	Taraxacum	Londo	p1 : weinig talrijk (< 1%)	1	19163
-128657	herblayer	Rode klaver	Trifolium pratense L.	Londo	1 + : willekeurig (10-15%)	12	19163
-128657	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	4 : willekeurig (35-45%)	40	19163
-128657	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a2 : talrijk (1-3%)	2	19163
-128657	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19163
-128657	herblayer	Trosdravik	Bromus racemosus L.	Londo	a1 : talrijk (< 1%)	1	19163
-128657	herblayer	Veldzuring	Rumex acetosa L.	Londo	r1 : sporadisch (< 1%)	1	19163
-128657	herblayer	Voederwikke	Vicia sativa L. subsp. sativa	Londo	r1 : sporadisch (< 1%)	1	19163
-128657	herblayer	Witte klaver	Trifolium repens L.	Londo	a2 : talrijk (1-3%)	2	19163
-128722	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	9 : willekeurig (85-95%)	90	19255
-128722	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	a2 : talrijk (1-3%)	2	19255
-128722	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	p1 : weinig talrijk (< 1%)	1	19255
-128722	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	8 : willekeurig (75-85%)	80	19255
-128722	treelayer	Grove den	Pinus sylvestris L.	Londo	2 : willekeurig (15-25%)	20	19255
 128786	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	17730
 128786	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17730
 128786	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	17730
@@ -3066,15 +2577,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 144094	mosslayer	Gaffeltandmos (G)	Dicranum	Londo	m2 : zeer talrijk (1-3%)	2	16316
 144094	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	a1 : talrijk (< 1%)	1	16316
 144094	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	9 : willekeurig (85-95%)	90	16316
-144094	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	2 : willekeurig (15-25%)	20	19249
-144094	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	19249
-144094	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	4 : willekeurig (35-45%)	40	19249
-144094	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	a2 : talrijk (1-3%)	2	19249
-144094	herblayer	Zilverhaver	Aira caryophyllea L.	Londo	p1 : weinig talrijk (< 1%)	1	19249
-144094	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	m2 : zeer talrijk (1-3%)	2	19249
-144094	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	p1 : weinig talrijk (< 1%)	1	19249
-144094	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	1 - : willekeurig (5-10%)	7	19249
-144094	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	4 : willekeurig (35-45%)	40	19249
 146265	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16552
 146265	herblayer	Bosandoorn	Stachys sylvatica L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16552
 146265	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16552
@@ -3097,15 +2599,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 146265	herblayer	Slanke sleutelbloem	Primula elatior (L.) Hill	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16552
 146265	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16552
 146265	herblayer	Veldbeemdgras	Poa pratensis L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16552
-146486	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	18787
-146486	herblayer	Groot streepzaad	Crepis biennis L.	Londo	p2 : weinig talrijk (1-3%)	2	18787
-146486	herblayer	Lidrus	Equisetum palustre L.	Londo	p1 : weinig talrijk (< 1%)	1	18787
-146486	herblayer	Reukgras (G)	Anthoxanthum	Londo	p1 : weinig talrijk (< 1%)	1	18787
-146486	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	1 + : willekeurig (10-15%)	12	18787
-146486	herblayer	Ruige veldbies	Luzula pilosa (L.) Willd.	Londo	p4 : weinig talrijk (3-5%)	4	18787
-146486	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p1 : weinig talrijk (< 1%)	1	18787
-146486	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	10 : willekeurig (95-100%)	97	18787
-146486	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	18787
 147174	herblayer	Amerikaanse eik	Quercus rubra L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16596
 147174	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16596
 147174	herblayer	Blauwe bosbes	Vaccinium myrtillus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16596
@@ -3142,14 +2635,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 151250	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p2 : weinig talrijk (1-3%)	2	16321
 151250	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	r1 : sporadisch (< 1%)	1	16321
 151250	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	16321
-151250	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p4 : weinig talrijk (3-5%)	4	19241
-151250	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p2 : weinig talrijk (1-3%)	2	19241
-151250	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	5 : willekeurig (45-55%)	50	19241
-151250	herblayer	Pilzegge	Carex pilulifera L.	Londo	p1 : weinig talrijk (< 1%)	1	19241
-151250	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p2 : weinig talrijk (1-3%)	2	19241
-151250	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	p1 : weinig talrijk (< 1%)	1	19241
-151250	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	p1 : weinig talrijk (< 1%)	1	19241
-151250	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m4 : zeer talrijk (3-5%)	4	19241
 151318	herblayer	Biggekruid (G)	Hypochaeris	Londo	r1 : sporadisch (< 1%)	1	17693
 151318	herblayer	Boerenwormkruid	Tanacetum vulgare L.	Londo	r1 : sporadisch (< 1%)	1	17693
 151318	herblayer	Duizendblad	Achillea millefolium L.	Londo	p1 : weinig talrijk (< 1%)	1	17693
@@ -3185,26 +2670,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 151318	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	17693
 151318	herblayer	Vergeet-mij-nietje (G)	Myosotis	Londo	p1 : weinig talrijk (< 1%)	1	17693
 151318	herblayer	Wikke (G)	Vicia	Londo	r1 : sporadisch (< 1%)	1	17693
-151318	herblayer	Fluitenkruid	Anthriscus sylvestris (L.) Hoffmann	Londo	p1 : weinig talrijk (< 1%)	1	19136
-151318	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	2 : willekeurig (15-25%)	20	19136
-151318	herblayer	Gevlekte rupsklaver	Medicago arabica (L.) Huds.	Londo	r1 : sporadisch (< 1%)	1	19136
-151318	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	p4 : weinig talrijk (3-5%)	4	19136
-151318	herblayer	Glad walstro	Galium mollugo L.	Londo	p1 : weinig talrijk (< 1%)	1	19136
-151318	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	8 : willekeurig (75-85%)	80	19136
-151318	herblayer	Heermoes	Equisetum arvense L.	Londo	a4 : talrijk (3-5%)	4	19136
-151318	herblayer	Heggenwikke	Vicia sepium L.	Londo	r1 : sporadisch (< 1%)	1	19136
-151318	herblayer	IJle dravik	Bromus sterilis L.	Londo	1 : willekeurig (5-15%)	10	19136
-151318	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	r1 : sporadisch (< 1%)	1	19136
-151318	herblayer	Kropaar	Dactylis glomerata L.	Londo	1 - : willekeurig (5-10%)	7	19136
-151318	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	19136
-151318	herblayer	Riet	Phragmites australis (Cav.) Steud.	Londo	p2 : weinig talrijk (1-3%)	2	19136
-151318	herblayer	Ringelwikke	Vicia hirsuta (L.) S.F. Gray	Londo	r1 : sporadisch (< 1%)	1	19136
-151318	herblayer	Ruige zegge	Carex hirta L.	Londo	p1 : weinig talrijk (< 1%)	1	19136
-151318	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	7 : willekeurig (65-75%)	70	19136
-151318	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	19136
-151318	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	p1 : weinig talrijk (< 1%)	1	19136
-151318	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19136
-151318	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	a2 : talrijk (1-3%)	2	19136
 152786	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	m4 : zeer talrijk (3-5%)	4	16332
 152786	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	16332
 152786	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16332
@@ -3307,17 +2772,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 162790	herblayer	Veldzuring	Rumex acetosa L.	Londo	2 : willekeurig (15-25%)	20	16213
 162790	herblayer	Vogelwikke	Vicia cracca L.	Londo	a1 : talrijk (< 1%)	1	16213
 162790	herblayer	Witte klaver	Trifolium repens L.	Londo	a1 : talrijk (< 1%)	1	16213
-162790	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	r1 : sporadisch (< 1%)	1	19146
-162790	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 : willekeurig (5-15%)	10	19146
-162790	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	r1 : sporadisch (< 1%)	1	19146
-162790	herblayer	Grasmuur	Stellaria graminea L.	Londo	r1 : sporadisch (< 1%)	1	19146
-162790	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	6 : willekeurig (55-65%)	60	19146
-162790	herblayer	Kleefkruid	Galium aparine L.	Londo	r1 : sporadisch (< 1%)	1	19146
-162790	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-162790	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	19146
-162790	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	a2 : talrijk (1-3%)	2	19146
-162790	herblayer	Veldzuring	Rumex acetosa L.	Londo	r1 : sporadisch (< 1%)	1	19146
-162790	herblayer	Vogelwikke	Vicia cracca L.	Londo	r1 : sporadisch (< 1%)	1	19146
 163538	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	8 : willekeurig (75-85%)	80	17742
 163538	herblayer	Pilzegge	Carex pilulifera L.	Londo	r1 : sporadisch (< 1%)	1	17742
 163538	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	17742
@@ -3783,21 +3237,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 206134	herblayer	Riet	Phragmites australis (Cav.) Steud.	Londo	r1 : sporadisch (< 1%)	1	16233
 206134	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	3 : willekeurig (25-35%)	30	16233
 206134	herblayer	Sint-janskruid	Hypericum perforatum L.	Londo	r1 : sporadisch (< 1%)	1	16233
-206134	herblayer	Akkerereprijs	Veronica agrestis L.	Londo	r1 : sporadisch (< 1%)	1	19124
-206134	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p4 : weinig talrijk (3-5%)	4	19124
-206134	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p1 : weinig talrijk (< 1%)	1	19124
-206134	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	5 +: willekeurig (50-55%)	52	19124
-206134	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p1 : weinig talrijk (< 1%)	1	19124
-206134	herblayer	Kweek	Elymus repens (L.) Gould	Londo	1 - : willekeurig (5-10%)	7	19124
-206134	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	1 - : willekeurig (5-10%)	7	19124
-206134	herblayer	Melkdistel (G)	Sonchus	Londo	r1 : sporadisch (< 1%)	1	19124
-206134	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	19124
-206134	herblayer	Riet	Phragmites australis (Cav.) Steud.	Londo	p1 : weinig talrijk (< 1%)	1	19124
-206134	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	r1 : sporadisch (< 1%)	1	19124
-206134	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	1 - : willekeurig (5-10%)	7	19124
-206134	herblayer	Veldzuring	Rumex acetosa L.	Londo	r1 : sporadisch (< 1%)	1	19124
-206134	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	19124
-206134	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	r1 : sporadisch (< 1%)	1	19124
 206546	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	p1 : weinig talrijk (< 1%)	1	17752
 206546	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	2 : willekeurig (15-25%)	20	17752
 206546	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	8 : willekeurig (75-85%)	80	17752
@@ -3971,17 +3410,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 218086	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	1 : willekeurig (5-15%)	10	18059
 218086	herblayer	Vogelwikke	Vicia cracca L.	Londo	r1 : sporadisch (< 1%)	1	18059
 218086	treelayer	Canadapopulier	Populus x canadensis Moench	Londo	1 - : willekeurig (5-10%)	7	18059
-218162	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	r1 : sporadisch (< 1%)	1	18793
-218162	herblayer	Engels raaigras	Lolium perenne L.	Londo	5 : willekeurig (45-55%)	50	18793
-218162	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	18793
-218162	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	p4 : weinig talrijk (3-5%)	4	18793
-218162	herblayer	Gewoon timoteegras	Phleum pratense L.	Londo	p2 : weinig talrijk (1-3%)	2	18793
-218162	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	1 - : willekeurig (5-10%)	7	18793
-218162	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	3 : willekeurig (25-35%)	30	18793
-218162	herblayer	Kropaar	Dactylis glomerata L.	Londo	4 : willekeurig (35-45%)	40	18793
-218162	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p2 : weinig talrijk (1-3%)	2	18793
-218162	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 - : willekeurig (5-10%)	7	18793
-218162	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	18793
 218322	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	1 - : willekeurig (5-10%)	7	16332
 218322	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	8 : willekeurig (75-85%)	80	16332
 218322	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 - : willekeurig (5-10%)	7	16332
@@ -4087,17 +3515,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 226606	treelayer	Berk (G)	Betula	Londo	1 : willekeurig (5-15%)	10	17798
 229074	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	17744
 229074	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 + : willekeurig (10-15%)	12	17744
-229362	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	2 : willekeurig (15-25%)	20	19263
-229362	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-229362	herblayer	Hertshoornweegbree	Plantago coronopus L.	Londo	p2 : weinig talrijk (1-3%)	2	19263
-229362	herblayer	Muizenoor	Hieracium pilosella L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-229362	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	19263
-229362	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-229362	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-229362	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	19263
-229362	herblayer	Struisgras (G)	Agrostis	Londo	p1 : weinig talrijk (< 1%)	1	19263
-229362	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	NA	NA	19263
-229362	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	NA	NA	19263
 230110	herblayer	Blaaszegge	Carex vesicaria L.	Londo	r1 : sporadisch (< 1%)	1	17757
 230110	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17757
 230110	herblayer	Pitrus	Juncus effusus L.	Londo	3 : willekeurig (25-35%)	30	17757
@@ -4210,12 +3627,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 236370	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	16309
 236370	herblayer	Schapenzuring	Rumex acetosella L.	Londo	r1 : sporadisch (< 1%)	1	16309
 236370	mosslayer	Gewoon pluisjesmos	Dicranella heteromalla	Londo	4 : willekeurig (35-45%)	40	16309
-236370	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	3 : willekeurig (25-35%)	30	19237
-236370	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	r1 : sporadisch (< 1%)	1	19237
-236370	herblayer	Sporkehout	Frangula alnus Mill.	Londo	r1 : sporadisch (< 1%)	1	19237
-236370	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 - : willekeurig (5-10%)	7	19237
-236370	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	a1 : talrijk (< 1%)	1	19237
-236370	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	4 : willekeurig (35-45%)	40	19237
 236530	herblayer	Gewone dophei	Erica tetralix L.	Londo	r2 : sporadisch (1-3%)	2	17350
 236530	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	8 : willekeurig (75-85%)	80	17350
 236530	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	3 : willekeurig (25-35%)	30	17350
@@ -4271,25 +3682,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 237970	treelayer	Zachte berk	Betula pubescens Ehrh.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	17995
 237970	treelayer	Zomereik	Quercus robur L.	Braun-Blanquet	4       : 50 - 75 %	62.5	17995
 237970	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	17995
-238578	herblayer	Bezemkruiskruid	Senecio inaequidens DC.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-238578	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	p1 : weinig talrijk (< 1%)	1	19263
-238578	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	r1 : sporadisch (< 1%)	1	19263
-238578	herblayer	Mannetjesereprijs	Veronica officinalis L.	Londo	p2 : weinig talrijk (1-3%)	2	19263
-238578	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	19263
-238578	herblayer	Pilzegge	Carex pilulifera L.	Londo	r1 : sporadisch (< 1%)	1	19263
-238578	herblayer	Schapenzuring	Rumex acetosella L.	Londo	a1 : talrijk (< 1%)	1	19263
-238578	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 : willekeurig (5-15%)	10	19263
-238578	herblayer	Vroege haver	Aira praecox L.	Londo	p1 : weinig talrijk (< 1%)	1	19263
-238578	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	3 : willekeurig (25-35%)	30	19263
-238578	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19263
-238578	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	1 + : willekeurig (10-15%)	12	19263
-238578	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	2 : willekeurig (15-25%)	20	19263
-238578	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	a1 : talrijk (< 1%)	1	19263
-238578	shrublayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	r2 : sporadisch (1-3%)	2	19263
-238578	shrublayer	Grauwe abeel	Populus canescens (Ait.) Smith	Londo	r4 : sporadisch (3-5%)	4	19263
-238578	shrublayer	Ruwe berk	Betula pendula Roth	Londo	1 + : willekeurig (10-15%)	12	19263
-238578	shrublayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19263
-238578	treelayer	Ruwe berk	Betula pendula Roth	Londo	3 : willekeurig (25-35%)	30	19263
 239838	herblayer	Braam (G)	Rubus	Londo	r1 : sporadisch (< 1%)	1	17416
 239838	herblayer	Dophei (G)	Erica	Londo	a2 : talrijk (1-3%)	2	17416
 239838	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	17416
@@ -4371,31 +3763,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 243846	herblayer	Witte klaver	Trifolium repens L.	Londo	1 - : willekeurig (5-10%)	7	16212
 243846	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	3 : willekeurig (25-35%)	30	16212
 243846	herblayer	Zilverschoon	Potentilla anserina L.	Londo	p1 : weinig talrijk (< 1%)	1	16212
-243846	herblayer	Akkerwinde	Convolvulus arvensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	a2 : talrijk (1-3%)	2	19145
-243846	herblayer	Gewone agrimonie	Agrimonia eupatoria L.	Londo	r1 : sporadisch (< 1%)	1	19145
-243846	herblayer	Gewone ereprijs	Veronica chamaedrys L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-243846	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	2 : willekeurig (15-25%)	20	19145
-243846	herblayer	Grasmuur	Stellaria graminea L.	Londo	r1 : sporadisch (< 1%)	1	19145
-243846	herblayer	Heermoes	Equisetum arvense L.	Londo	a2 : talrijk (1-3%)	2	19145
-243846	herblayer	Hondsdraf	Glechoma hederacea L.	Londo	r1 : sporadisch (< 1%)	1	19145
-243846	herblayer	Kantig hertshooi	Hypericum dubium Leers	Londo	a2 : talrijk (1-3%)	2	19145
-243846	herblayer	Kropaar	Dactylis glomerata L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Rode klaver	Trifolium pratense L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-243846	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a2 : talrijk (1-3%)	2	19145
-243846	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	a4 : talrijk (3-5%)	4	19145
-243846	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	a2 : talrijk (1-3%)	2	19145
-243846	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	19145
-243846	herblayer	Vogelwikke	Vicia cracca L.	Londo	r1 : sporadisch (< 1%)	1	19145
-243846	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-243846	herblayer	Zilverschoon	Potentilla anserina L.	Londo	r1 : sporadisch (< 1%)	1	19145
 245458	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p2 : weinig talrijk (1-3%)	2	17744
 245458	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	17744
 245458	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	8 : willekeurig (75-85%)	80	17744
@@ -4503,22 +3870,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 258390	herblayer	Veldzuring	Rumex acetosa L.	Londo	1 : willekeurig (5-15%)	10	16752
 258390	herblayer	Vertakte leeuwentand	Leontodon autumnalis L.	Londo	p1 : weinig talrijk (< 1%)	1	16752
 258390	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	16752
-258390	herblayer	Duizendblad	Achillea millefolium L.	Londo	a4 : talrijk (3-5%)	4	19145
-258390	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 + : willekeurig (10-15%)	12	19145
-258390	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	r1 : sporadisch (< 1%)	1	19145
-258390	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	2 : willekeurig (15-25%)	20	19145
-258390	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	9 : willekeurig (85-95%)	90	19145
-258390	herblayer	Grasmuur	Stellaria graminea L.	Londo	a1 : talrijk (< 1%)	1	19145
-258390	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p2 : weinig talrijk (1-3%)	2	19145
-258390	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-258390	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-258390	herblayer	Rode klaver	Trifolium pratense L.	Londo	r1 : sporadisch (< 1%)	1	19145
-258390	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	r1 : sporadisch (< 1%)	1	19145
-258390	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-258390	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19145
-258390	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	19145
-258390	herblayer	Vertakte leeuwentand	Leontodon autumnalis L.	Londo	r1 : sporadisch (< 1%)	1	19145
-258390	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	19145
 258782	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 + : willekeurig (10-15%)	12	17756
 258782	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	17756
 258782	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	5 : willekeurig (45-55%)	50	17756
@@ -4648,31 +3999,9 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 271446	treelayer	Berk (G)	Betula	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18019
 271446	treelayer	Grove den	Pinus sylvestris L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18019
 271446	treelayer	Zomereik	Quercus robur L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18019
-271782	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	1 + : willekeurig (10-15%)	12	18792
-271782	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	p2 : weinig talrijk (1-3%)	2	18792
-271782	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	p4 : weinig talrijk (3-5%)	4	18792
-271782	herblayer	Graslathyrus	Lathyrus nissolia L.	Londo	5 : willekeurig (45-55%)	50	18792
-271782	herblayer	Grasmuur	Stellaria graminea L.	Londo	r1 : sporadisch (< 1%)	1	18792
-271782	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	3 : willekeurig (25-35%)	30	18792
-271782	herblayer	Kale jonker	Cirsium palustre (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	18792
-271782	herblayer	Kattenstaart (G)	Lythrum	Londo	r1 : sporadisch (< 1%)	1	18792
-271782	herblayer	Kleefkruid	Galium aparine L.	Londo	p1 : weinig talrijk (< 1%)	1	18792
-271782	herblayer	Kropaar	Dactylis glomerata L.	Londo	r1 : sporadisch (< 1%)	1	18792
-271782	herblayer	Reukgras (G)	Anthoxanthum	Londo	p1 : weinig talrijk (< 1%)	1	18792
-271782	herblayer	Riet	Phragmites australis (Cav.) Steud.	Londo	9 : willekeurig (85-95%)	90	18792
-271782	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 + : willekeurig (10-15%)	12	18792
-271782	herblayer	Sint-janskruid	Hypericum perforatum L.	Londo	m2 : zeer talrijk (1-3%)	2	18792
 272850	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17745
 272850	mosslayer	Gewoon klauwtjesmos	Hypnum cupressiforme	Londo	m1 : zeer talrijk (< 1%)	1	17745
 272850	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	17745
-274002	herblayer	Brem	Cytisus scoparius (L.) Link	Londo	p1 : weinig talrijk (< 1%)	1	19264
-274002	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	19264
-274002	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19264
-274002	herblayer	Schapenzuring	Rumex acetosella L.	Londo	r1 : sporadisch (< 1%)	1	19264
-274002	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	19264
-274002	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	3 : willekeurig (25-35%)	30	19264
-274002	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	NA	NA	19264
-274002	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	NA	NA	19264
 275382	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	a4 : talrijk (3-5%)	4	17752
 275382	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	p2 : weinig talrijk (1-3%)	2	17752
 275382	herblayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	17752
@@ -4685,22 +4014,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 275830	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	r2 : sporadisch (1-3%)	2	17360
 275830	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	17360
 275830	treelayer	Grove den	Pinus sylvestris L.	Londo	5 - : willekeurig (45-50%)	47	17360
-277158	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	18786
-277158	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 + : willekeurig (10-15%)	12	18786
-277158	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 - : willekeurig (5-10%)	7	18786
-277158	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	18786
-277158	herblayer	Groot streepzaad	Crepis biennis L.	Londo	1 + : willekeurig (10-15%)	12	18786
-277158	herblayer	Kamgras	Cynosurus cristatus L.	Londo	1 : willekeurig (5-15%)	10	18786
-277158	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	5 : willekeurig (45-55%)	50	18786
-277158	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p4 : weinig talrijk (3-5%)	4	18786
-277158	herblayer	Rode klaver	Trifolium pratense L.	Londo	2 : willekeurig (15-25%)	20	18786
-277158	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	1 : willekeurig (5-15%)	10	18786
-277158	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	2 : willekeurig (15-25%)	20	18786
-277158	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	r1 : sporadisch (< 1%)	1	18786
-277158	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	2 : willekeurig (15-25%)	20	18786
-277158	herblayer	Veldereprijs	Veronica arvensis L.	Londo	p1 : weinig talrijk (< 1%)	1	18786
-277158	herblayer	Witte klaver	Trifolium repens L.	Londo	4 : willekeurig (35-45%)	40	18786
-277158	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	p2 : weinig talrijk (1-3%)	2	18786
 277214	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17763
 279478	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	16316
 279478	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	16316
@@ -4773,40 +4086,11 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 289746	mosslayer	Gewoon dikkopmos	Brachythecium rutabulum	Londo	m1 : zeer talrijk (< 1%)	1	17749
 289746	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	m1 : zeer talrijk (< 1%)	1	17749
 289746	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	8 : willekeurig (75-85%)	80	17749
-290098	herblayer	Beekpunge	Veronica beccabunga L.	Londo	a2 : talrijk (1-3%)	2	18794
-290098	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	18794
-290098	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	1 : willekeurig (5-15%)	10	18794
-290098	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	9 : willekeurig (85-95%)	90	18794
-290098	herblayer	Grasmuur	Stellaria graminea L.	Londo	3 : willekeurig (25-35%)	30	18794
-290098	herblayer	Knopkruid (G)	Galinsoga	Londo	r1 : sporadisch (< 1%)	1	18794
-290098	herblayer	Kropaar	Dactylis glomerata L.	Londo	p4 : weinig talrijk (3-5%)	4	18794
-290098	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	r1 : sporadisch (< 1%)	1	18794
-290098	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	p2 : weinig talrijk (1-3%)	2	18794
-290098	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	18794
-290098	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p1 : weinig talrijk (< 1%)	1	18794
-290098	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	r1 : sporadisch (< 1%)	1	18794
-290098	herblayer	Veldzuring	Rumex acetosa L.	Londo	a4 : talrijk (3-5%)	4	18794
-290098	herblayer	Zachte wikke	Vicia villosa Roth	Londo	p2 : weinig talrijk (1-3%)	2	18794
 290870	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17788
 290870	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	p2 : weinig talrijk (1-3%)	2	17788
 290870	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	9 : willekeurig (85-95%)	90	17788
 293598	herblayer	Gewone dophei	Erica tetralix L.	Londo	r1 : sporadisch (< 1%)	1	18120
 293598	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	18120
-294198	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	18786
-294198	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	18786
-294198	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p2 : weinig talrijk (1-3%)	2	18786
-294198	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p1 : weinig talrijk (< 1%)	1	18786
-294198	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	r1 : sporadisch (< 1%)	1	18786
-294198	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	2 : willekeurig (15-25%)	20	18786
-294198	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	r1 : sporadisch (< 1%)	1	18786
-294198	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	18786
-294198	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	8 : willekeurig (75-85%)	80	18786
-294198	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	18786
-294198	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	2 : willekeurig (15-25%)	20	18786
-294198	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	r1 : sporadisch (< 1%)	1	18786
-294198	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	18786
-294198	herblayer	Wikke (G)	Vicia	Londo	r2 : sporadisch (1-3%)	2	18786
-294198	herblayer	Witte klaver	Trifolium repens L.	Londo	a4 : talrijk (3-5%)	4	18786
 294610	herblayer	Gewone dophei	Erica tetralix L.	Londo	r1 : sporadisch (< 1%)	1	17742
 294610	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17742
 294610	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	17742
@@ -4983,14 +4267,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 306130	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	10 : willekeurig (95-100%)	97	16323
 306130	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	m1 : zeer talrijk (< 1%)	1	16323
 306130	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	m1 : zeer talrijk (< 1%)	1	16323
-306130	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	19251
-306130	herblayer	Sporkehout	Frangula alnus Mill.	Londo	r1 : sporadisch (< 1%)	1	19251
-306130	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	7 : willekeurig (65-75%)	70	19251
-306130	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	p1 : weinig talrijk (< 1%)	1	19251
-306130	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	p1 : weinig talrijk (< 1%)	1	19251
-306130	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	3 : willekeurig (25-35%)	30	19251
-306130	shrublayer	Grove den	Pinus sylvestris L.	Londo	r4 : sporadisch (3-5%)	4	19251
-306130	treelayer	Grove den	Pinus sylvestris L.	Londo	2 : willekeurig (15-25%)	20	19251
 308098	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	a2 : talrijk (1-3%)	2	16212
 308098	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	r1 : sporadisch (< 1%)	1	16212
 308098	herblayer	Engels raaigras	Lolium perenne L.	Londo	5 : willekeurig (45-55%)	50	16212
@@ -5021,34 +4297,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 308098	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	3 : willekeurig (25-35%)	30	16212
 308098	herblayer	Zoete kers	Prunus avium (L.) L.	Londo	r1 : sporadisch (< 1%)	1	16212
 308098	treelayer	Zoete kers	Prunus avium (L.) L.	Londo	8 : willekeurig (75-85%)	80	16212
-308098	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	Engels raaigras	Lolium perenne L.	Londo	5 : willekeurig (45-55%)	50	19146
-308098	herblayer	Fioringras	Agrostis stolonifera L.	Londo	a4 : talrijk (3-5%)	4	19146
-308098	herblayer	Fluitenkruid	Anthriscus sylvestris (L.) Hoffmann	Londo	p4 : weinig talrijk (3-5%)	4	19146
-308098	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-308098	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	Gewone ereprijs	Veronica chamaedrys L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	Grote bevernel	Pimpinella major (L.) Huds.	Londo	r1 : sporadisch (< 1%)	1	19146
-308098	herblayer	Grote brandnetel	Urtica dioica L.	Londo	1 - : willekeurig (5-10%)	7	19146
-308098	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	a2 : talrijk (1-3%)	2	19146
-308098	herblayer	Hopklaver	Medicago lupulina L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	IJle dravik	Bromus sterilis L.	Londo	1 - : willekeurig (5-10%)	7	19146
-308098	herblayer	Kamgras	Cynosurus cristatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	a4 : talrijk (3-5%)	4	19146
-308098	herblayer	Kropaar	Dactylis glomerata L.	Londo	1 : willekeurig (5-15%)	10	19146
-308098	herblayer	Madeliefje	Bellis perennis L.	Londo	a2 : talrijk (1-3%)	2	19146
-308098	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-308098	herblayer	Peen	Daucus carota L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-308098	herblayer	Raket (G)	Sisymbrium	Londo	r1 : sporadisch (< 1%)	1	19146
-308098	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	19146
-308098	herblayer	Ruige leeuwentand	Leontodon hispidus L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	Ruige weegbree	Plantago media L.	Londo	r1 : sporadisch (< 1%)	1	19146
-308098	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	1 - : willekeurig (5-10%)	7	19146
-308098	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-308098	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	2 : willekeurig (15-25%)	20	19146
-308098	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	a4 : talrijk (3-5%)	4	19146
-308098	herblayer	Witte klaver	Trifolium repens L.	Londo	1 - : willekeurig (5-10%)	7	19146
-308098	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	a4 : talrijk (3-5%)	4	19146
 310994	herblayer	Gewone dophei	Erica tetralix L.	Londo	r2 : sporadisch (1-3%)	2	17744
 310994	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17744
 310994	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r2 : sporadisch (1-3%)	2	17744
@@ -5085,24 +4333,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 313305	treelayer	Es	Fraxinus excelsior L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	17976
 313305	treelayer	Haagbeuk	Carpinus betulus L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	17976
 313305	treelayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	17976
-313990	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	p2 : weinig talrijk (1-3%)	2	18789
-313990	herblayer	Engels raaigras	Lolium perenne L.	Londo	2 : willekeurig (15-25%)	20	18789
-313990	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 - : willekeurig (5-10%)	7	18789
-313990	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	1 + : willekeurig (10-15%)	12	18789
-313990	herblayer	Graslathyrus	Lathyrus nissolia L.	Londo	a4 : talrijk (3-5%)	4	18789
-313990	herblayer	Havikskruid (G)	Hieracium	Londo	p2 : weinig talrijk (1-3%)	2	18789
-313990	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	1 - : willekeurig (5-10%)	7	18789
-313990	herblayer	Kweek	Elymus repens (L.) Gould	Londo	p1 : weinig talrijk (< 1%)	1	18789
-313990	herblayer	Lidrus	Equisetum palustre L.	Londo	p1 : weinig talrijk (< 1%)	1	18789
-313990	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	a2 : talrijk (1-3%)	2	18789
-313990	herblayer	Moerasvergeet-mij-nietje	Myosotis scorpioides L.	Londo	a2 : talrijk (1-3%)	2	18789
-313990	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	18789
-313990	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	r1 : sporadisch (< 1%)	1	18789
-313990	herblayer	Pitrus	Juncus effusus L.	Londo	1 - : willekeurig (5-10%)	7	18789
-313990	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	18789
-313990	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	4 : willekeurig (35-45%)	40	18789
-313990	herblayer	Wilde bertram	Achillea ptarmica L.	Londo	p2 : weinig talrijk (1-3%)	2	18789
-313990	herblayer	Zegge (G)	Carex	Londo	5 : willekeurig (45-55%)	50	18789
 315062	herblayer	Blauwe bosbes	Vaccinium myrtillus L.	Braun-Blanquet	5       : 75 - 100 %	87.5	17989
 315062	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	17989
 315062	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17989
@@ -5150,22 +4380,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 320902	treelayer	Witte els	Alnus incana (L.) Moench	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	17717
 320902	treelayer	Zachte berk	Betula pubescens Ehrh.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	17717
 320902	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17717
-321169	herblayer	Engels raaigras	Lolium perenne L.	Londo	2 : willekeurig (15-25%)	20	19166
-321169	herblayer	Fioringras	Agrostis stolonifera L.	Londo	2 : willekeurig (15-25%)	20	19166
-321169	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	19166
-321169	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-321169	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	1 - : willekeurig (5-10%)	7	19166
-321169	herblayer	Hondsdraf	Glechoma hederacea L.	Londo	a1 : talrijk (< 1%)	1	19166
-321169	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-321169	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	a4 : talrijk (3-5%)	4	19166
-321169	herblayer	Kweek	Elymus repens (L.) Gould	Londo	8 : willekeurig (75-85%)	80	19166
-321169	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	19166
-321169	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 : willekeurig (5-15%)	10	19166
-321169	herblayer	Trosdravik	Bromus racemosus L.	Londo	a1 : talrijk (< 1%)	1	19166
-321169	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-321169	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-321169	herblayer	Wilde bertram	Achillea ptarmica L.	Londo	1 - : willekeurig (5-10%)	7	19166
-321169	herblayer	Witte klaver	Trifolium repens L.	Londo	p4 : weinig talrijk (3-5%)	4	19166
 322002	herblayer	Gewone dophei	Erica tetralix L.	Londo	p2 : weinig talrijk (1-3%)	2	17745
 322002	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17745
 322002	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17745
@@ -5195,26 +4409,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 327153	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	16967
 327153	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	16967
 327153	herblayer	Watermunt	Mentha aquatica L.	Londo	r1 : sporadisch (< 1%)	1	16967
-327153	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	p1 : weinig talrijk (< 1%)	1	19167
-327153	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 - : willekeurig (5-10%)	7	19167
-327153	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19167
-327153	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p2 : weinig talrijk (1-3%)	2	19167
-327153	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	a2 : talrijk (1-3%)	2	19167
-327153	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19167
-327153	herblayer	Heermoes	Equisetum arvense L.	Londo	r1 : sporadisch (< 1%)	1	19167
-327153	herblayer	Kamille (G)	Matricaria	Londo	r1 : sporadisch (< 1%)	1	19167
-327153	herblayer	Kropaar	Dactylis glomerata L.	Londo	r1 : sporadisch (< 1%)	1	19167
-327153	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p2 : weinig talrijk (1-3%)	2	19167
-327153	herblayer	Krulzuring	Rumex crispus L.	Londo	r1 : sporadisch (< 1%)	1	19167
-327153	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	p2 : weinig talrijk (1-3%)	2	19167
-327153	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	r1 : sporadisch (< 1%)	1	19167
-327153	herblayer	Rode klaver	Trifolium pratense L.	Londo	p1 : weinig talrijk (< 1%)	1	19167
-327153	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	a1 : talrijk (< 1%)	1	19167
-327153	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	6 : willekeurig (55-65%)	60	19167
-327153	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	19167
-327153	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19167
-327153	herblayer	Vogelwikke	Vicia cracca L.	Londo	a4 : talrijk (3-5%)	4	19167
-327153	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19167
 330194	herblayer	Gewone dophei	Erica tetralix L.	Londo	1 - : willekeurig (5-10%)	7	17749
 330194	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17749
 330194	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	4 : willekeurig (35-45%)	40	17749
@@ -5255,23 +4449,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 333385	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p1 : weinig talrijk (< 1%)	1	16231
 333385	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	16231
 333385	herblayer	Viooltje (G)	Viola	Londo	m2 : zeer talrijk (1-3%)	2	16231
-333385	herblayer	Bleeksporig bosviooltje	Viola riviniana Reichenb.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Duizendblad	Achillea millefolium L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-333385	herblayer	Engels raaigras	Lolium perenne L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p2 : weinig talrijk (1-3%)	2	19145
-333385	herblayer	Gewoon struisriet	Calamagrostis epigejos (L.) Roth	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p2 : weinig talrijk (1-3%)	2	19145
-333385	herblayer	Kale jonker	Cirsium palustre (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19145
-333385	herblayer	Kropaar	Dactylis glomerata L.	Londo	r1 : sporadisch (< 1%)	1	19145
-333385	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	a2 : talrijk (1-3%)	2	19145
-333385	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	8 : willekeurig (75-85%)	80	19145
-333385	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Sint-janskruid	Hypericum perforatum L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-333385	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19145
-333385	herblayer	Veldzuring	Rumex acetosa L.	Londo	a1 : talrijk (< 1%)	1	19145
-333385	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
 338386	herblayer	Fioringras	Agrostis stolonifera L.	Londo	r1 : sporadisch (< 1%)	1	17746
 338386	herblayer	Grove den	Pinus sylvestris L.	Londo	p1 : weinig talrijk (< 1%)	1	17746
 338898	herblayer	Gewone dophei	Erica tetralix L.	Londo	p2 : weinig talrijk (1-3%)	2	17750
@@ -5427,20 +4604,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 366225	herblayer	Weidekervel	Silaum silaus (L.) Schinz et Thell.	Londo	m4 : zeer talrijk (3-5%)	4	16220
 366225	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	16220
 366225	herblayer	Zompvergeet-mij-nietje	Myosotis cespitosa C.F. Schultz	Londo	r1 : sporadisch (< 1%)	1	16220
-370386	herblayer	Duizendblad	Achillea millefolium L.	Londo	r1 : sporadisch (< 1%)	1	19255
-370386	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	1 - : willekeurig (5-10%)	7	19255
-370386	herblayer	Fioringras	Agrostis stolonifera L.	Londo	3 : willekeurig (25-35%)	30	19255
-370386	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	a2 : talrijk (1-3%)	2	19255
-370386	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	p1 : weinig talrijk (< 1%)	1	19255
-370386	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	r1 : sporadisch (< 1%)	1	19255
-370386	herblayer	Mannetjesereprijs	Veronica officinalis L.	Londo	p2 : weinig talrijk (1-3%)	2	19255
-370386	herblayer	Ratelaar (G)	Rhinanthus	Londo	p1 : weinig talrijk (< 1%)	1	19255
-370386	herblayer	Schapenzuring	Rumex acetosella L.	Londo	a1 : talrijk (< 1%)	1	19255
-370386	herblayer	Sint-janskruid	Hypericum perforatum L.	Londo	r1 : sporadisch (< 1%)	1	19255
-370386	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	4 : willekeurig (35-45%)	40	19255
-370386	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	m2 : zeer talrijk (1-3%)	2	19255
-370386	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	2 : willekeurig (15-25%)	20	19255
-370386	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	m4 : zeer talrijk (3-5%)	4	19255
 380638	herblayer	Gewone dophei	Erica tetralix L.	Londo	2 : willekeurig (15-25%)	20	18116
 380638	herblayer	Grove den	Pinus sylvestris L.	Londo	p4 : weinig talrijk (3-5%)	4	18116
 380638	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	18116
@@ -5460,13 +4623,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 386422	herblayer	Vroege haver	Aira praecox L.	Londo	a1 : talrijk (< 1%)	1	16336
 386422	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	3 : willekeurig (25-35%)	30	16336
 386422	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	r2 : sporadisch (1-3%)	2	16336
-386422	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r2 : sporadisch (1-3%)	2	19265
-386422	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	r1 : sporadisch (< 1%)	1	19265
-386422	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	a2 : talrijk (1-3%)	2	19265
-386422	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	a2 : talrijk (1-3%)	2	19265
-386422	mosslayer	Peermos (G)	Pohlia species	Londo	m1 : zeer talrijk (< 1%)	1	19265
-386422	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	a4 : talrijk (3-5%)	4	19265
-386422	shrublayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	19265
 386674	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	p1 : weinig talrijk (< 1%)	1	16223
 386674	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	6 : willekeurig (55-65%)	60	16223
 386674	herblayer	Gewone engelwortel	Angelica sylvestris L.	Londo	2 : willekeurig (15-25%)	20	16223
@@ -5484,34 +4640,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 386674	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	16223
 386674	herblayer	Watermunt	Mentha aquatica L.	Londo	a1 : talrijk (< 1%)	1	16223
 386674	herblayer	Zegge (G)	Carex	Londo	a4 : talrijk (3-5%)	4	16223
-386674	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	1 + : willekeurig (10-15%)	12	19153
-386674	herblayer	Bosbies	Scirpus sylvaticus L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Fioringras	Agrostis stolonifera L.	Londo	a2 : talrijk (1-3%)	2	19153
-386674	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 : willekeurig (5-15%)	10	19153
-386674	herblayer	Grote kattenstaart	Lythrum salicaria L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	a2 : talrijk (1-3%)	2	19153
-386674	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	5 +: willekeurig (50-55%)	52	19153
-386674	herblayer	Krulzuring	Rumex crispus L.	Londo	r1 : sporadisch (< 1%)	1	19153
-386674	herblayer	Lidrus	Equisetum palustre L.	Londo	5 : willekeurig (45-55%)	50	19153
-386674	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Moerasvergeet-mij-nietje	Myosotis scorpioides L.	Londo	p1 : weinig talrijk (< 1%)	1	19153
-386674	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	r1 : sporadisch (< 1%)	1	19153
-386674	herblayer	Penningkruid	Lysimachia nummularia L.	Londo	1 + : willekeurig (10-15%)	12	19153
-386674	herblayer	Pitrus	Juncus effusus L.	Londo	1 - : willekeurig (5-10%)	7	19153
-386674	herblayer	Reukgras (G)	Anthoxanthum	Londo	a4 : talrijk (3-5%)	4	19153
-386674	herblayer	Rietgras	Phalaris arundinacea L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 - : willekeurig (5-10%)	7	19153
-386674	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	19153
-386674	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Veenwortel	Polygonum amphibium L.	Londo	1 : willekeurig (5-15%)	10	19153
-386674	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19153
-386674	herblayer	Veldzuring	Rumex acetosa L.	Londo	r1 : sporadisch (< 1%)	1	19153
-386674	herblayer	Voszegge	Carex vulpina L.	Londo	r1 : sporadisch (< 1%)	1	19153
-386674	herblayer	Watermunt	Mentha aquatica L.	Londo	3 : willekeurig (25-35%)	30	19153
-386674	herblayer	Witte klaver	Trifolium repens L.	Londo	a4 : talrijk (3-5%)	4	19153
-386674	herblayer	Zeegroene rus	Juncus inflexus L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-386674	herblayer	Zomprus	Juncus articulatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19153
 387538	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	17744
 387538	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	8 : willekeurig (75-85%)	80	17744
 387538	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	17744
@@ -5583,14 +4711,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 409654	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	16217
 409654	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	16217
 409654	herblayer	Veldzuring	Rumex acetosa L.	Londo	2 : willekeurig (15-25%)	20	16217
-409654	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	6 : willekeurig (55-65%)	60	19144
-409654	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	3 : willekeurig (25-35%)	30	19144
-409654	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	r1 : sporadisch (< 1%)	1	19144
-409654	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-409654	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	19144
-409654	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-409654	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-409654	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
 428057	herblayer	Bosandoorn	Stachys sylvatica L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18043
 428057	herblayer	Dagkoekoeksbloem	Silene dioica (L.) Clairv.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18043
 428057	herblayer	Eenstijlige meidoorn	Crataegus monogyna Jacq.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18043
@@ -5668,14 +4788,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 445266	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	16309
 445266	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	a1 : talrijk (< 1%)	1	16309
 445266	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	a1 : talrijk (< 1%)	1	16309
-445266	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	1 + : willekeurig (10-15%)	12	19237
-445266	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Londo	r1 : sporadisch (< 1%)	1	19237
-445266	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	3 : willekeurig (25-35%)	30	19237
-445266	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	1 - : willekeurig (5-10%)	7	19237
-445266	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	4 : willekeurig (35-45%)	40	19237
-445266	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	a1 : talrijk (< 1%)	1	19237
-445266	shrublayer	Brem	Cytisus scoparius (L.) Link	Londo	NA	NA	19237
-445266	shrublayer	Grove den	Pinus sylvestris L.	Londo	NA	NA	19237
 452066	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 : willekeurig (5-15%)	10	16232
 452066	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	8 : willekeurig (75-85%)	80	16232
 452066	herblayer	Gewoon timoteegras	Phleum pratense L.	Londo	3 : willekeurig (25-35%)	30	16232
@@ -5689,24 +4801,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 452066	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	16232
 452066	herblayer	Veldzuring	Rumex acetosa L.	Londo	a1 : talrijk (< 1%)	1	16232
 452066	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	16232
-452066	herblayer	Engels raaigras	Lolium perenne L.	Londo	3 : willekeurig (25-35%)	30	19153
-452066	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	4 : willekeurig (35-45%)	40	19153
-452066	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	r1 : sporadisch (< 1%)	1	19153
-452066	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19153
-452066	herblayer	Gewoon timoteegras	Phleum pratense L.	Londo	1 : willekeurig (5-15%)	10	19153
-452066	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	2 : willekeurig (15-25%)	20	19153
-452066	herblayer	Goudhaver	Trisetum flavescens (L.) Beauv.	Londo	a2 : talrijk (1-3%)	2	19153
-452066	herblayer	Groot streepzaad	Crepis biennis L.	Londo	p1 : weinig talrijk (< 1%)	1	19153
-452066	herblayer	Kropaar	Dactylis glomerata L.	Londo	1 - : willekeurig (5-10%)	7	19153
-452066	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	2 : willekeurig (15-25%)	20	19153
-452066	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19153
-452066	herblayer	Reukgras (G)	Anthoxanthum	Londo	a4 : talrijk (3-5%)	4	19153
-452066	herblayer	Rode klaver	Trifolium pratense L.	Londo	m4 : zeer talrijk (3-5%)	4	19153
-452066	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-452066	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p2 : weinig talrijk (1-3%)	2	19153
-452066	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	1 - : willekeurig (5-10%)	7	19153
-452066	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	r1 : sporadisch (< 1%)	1	19153
-452066	herblayer	Vogelwikke	Vicia cracca L.	Londo	3 : willekeurig (25-35%)	30	19153
 458194	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	r1 : sporadisch (< 1%)	1	17353
 458194	herblayer	Brem	Cytisus scoparius (L.) Link	Londo	r1 : sporadisch (< 1%)	1	17353
 458194	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	1 : willekeurig (5-15%)	10	17353
@@ -6023,23 +5117,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 528582	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	16232
 528582	herblayer	Veldzuring	Rumex acetosa L.	Londo	m4 : zeer talrijk (3-5%)	4	16232
 528582	herblayer	Witte klaver	Trifolium repens L.	Londo	4 : willekeurig (35-45%)	40	16232
-528582	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	2 : willekeurig (15-25%)	20	19146
-528582	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	2 : willekeurig (15-25%)	20	19146
-528582	herblayer	Grasmuur	Stellaria graminea L.	Londo	a2 : talrijk (1-3%)	2	19146
-528582	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	2 : willekeurig (15-25%)	20	19146
-528582	herblayer	Kantig hertshooi	Hypericum dubium Leers	Londo	1 + : willekeurig (10-15%)	12	19146
-528582	herblayer	Kropaar	Dactylis glomerata L.	Londo	3 : willekeurig (25-35%)	30	19146
-528582	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	2 : willekeurig (15-25%)	20	19146
-528582	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-528582	herblayer	Rietzwenkgras	Festuca arundinacea Schreb.	Londo	2 : willekeurig (15-25%)	20	19146
-528582	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	1 : willekeurig (5-15%)	10	19146
-528582	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	a2 : talrijk (1-3%)	2	19146
-528582	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p4 : weinig talrijk (3-5%)	4	19146
-528582	herblayer	Struisgras (G)	Agrostis	Londo	a2 : talrijk (1-3%)	2	19146
-528582	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	19146
-528582	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-528582	herblayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Londo	r1 : sporadisch (< 1%)	1	19146
-528582	shrublayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Londo	NA	NA	19146
 546002	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	p1 : weinig talrijk (< 1%)	1	17364
 546002	herblayer	Dwergviltkruid	Filago minima (Smith) Pers.	Londo	r1 : sporadisch (< 1%)	1	17364
 546002	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	r1 : sporadisch (< 1%)	1	17364
@@ -6100,17 +5177,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 556006	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	m4 : zeer talrijk (3-5%)	4	16213
 556006	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	16213
 556006	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	a1 : talrijk (< 1%)	1	16213
-556006	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 : willekeurig (5-15%)	10	19146
-556006	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	5 : willekeurig (45-55%)	50	19146
-556006	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	r1 : sporadisch (< 1%)	1	19146
-556006	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	a1 : talrijk (< 1%)	1	19146
-556006	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-556006	herblayer	Lidrus	Equisetum palustre L.	Londo	a4 : talrijk (3-5%)	4	19146
-556006	herblayer	Ringelwikke	Vicia hirsuta (L.) S.F. Gray	Londo	r1 : sporadisch (< 1%)	1	19146
-556006	herblayer	Ruige zegge	Carex hirta L.	Londo	r1 : sporadisch (< 1%)	1	19146
-556006	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	r1 : sporadisch (< 1%)	1	19146
-556006	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19146
-556006	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
 558006	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	r1 : sporadisch (< 1%)	1	17401
 558006	herblayer	Biggekruid (G)	Hypochaeris	Londo	a4 : talrijk (3-5%)	4	17401
 558006	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	17401
@@ -6190,22 +5256,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 589110	herblayer	Veldrus	Juncus acutiflorus Ehrh. ex Hoffmann	Londo	m2 : zeer talrijk (1-3%)	2	16233
 589110	herblayer	Veldzuring	Rumex acetosa L.	Londo	3 : willekeurig (25-35%)	30	16233
 589110	herblayer	Vogelwikke	Vicia cracca L.	Londo	a1 : talrijk (< 1%)	1	16233
-589110	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Engels raaigras	Lolium perenne L.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	9 : willekeurig (85-95%)	90	19144
-589110	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-589110	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-589110	herblayer	Kale jonker	Cirsium palustre (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-589110	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-589110	herblayer	Moeraswalstro	Galium palustre L.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-589110	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	a1 : talrijk (< 1%)	1	19144
-589110	herblayer	Scherpe zegge	Carex acuta L.	Londo	r1 : sporadisch (< 1%)	1	19144
-589110	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-589110	herblayer	Voederwikke	Vicia sativa L. subsp. sativa	Londo	a1 : talrijk (< 1%)	1	19144
 589698	herblayer	Basterdwederik (G)	Epilobium	Londo	r1 : sporadisch (< 1%)	1	16225
 589698	herblayer	Beekpunge	Veronica beccabunga L.	Londo	p1 : weinig talrijk (< 1%)	1	16225
 589698	herblayer	Bosbies	Scirpus sylvaticus L.	Londo	1 - : willekeurig (5-10%)	7	16225
@@ -6259,27 +5309,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 605493	herblayer	Veldzuring	Rumex acetosa L.	Londo	3 : willekeurig (25-35%)	30	16227
 605493	herblayer	Vijfvingerkruid	Potentilla reptans L.	Londo	1 + : willekeurig (10-15%)	12	16227
 605493	herblayer	Wikke (G)	Vicia	Londo	p1 : weinig talrijk (< 1%)	1	16227
-605493	herblayer	Duizendblad	Achillea millefolium L.	Londo	a1 : talrijk (< 1%)	1	19146
-605493	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-605493	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-605493	herblayer	Gewone veldbies	Luzula campestris (L.) DC.	Londo	r1 : sporadisch (< 1%)	1	19146
-605493	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-605493	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	3 : willekeurig (25-35%)	30	19146
-605493	herblayer	Groot streepzaad	Crepis biennis L.	Londo	a1 : talrijk (< 1%)	1	19146
-605493	herblayer	Grote ratelaar	Rhinanthus angustifolius C.C. Gmel.	Londo	4 : willekeurig (35-45%)	40	19146
-605493	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	r1 : sporadisch (< 1%)	1	19146
-605493	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	a2 : talrijk (1-3%)	2	19146
-605493	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p1 : weinig talrijk (< 1%)	1	19146
-605493	herblayer	Kropaar	Dactylis glomerata L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-605493	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	r1 : sporadisch (< 1%)	1	19146
-605493	herblayer	Krulzuring	Rumex crispus L.	Londo	r1 : sporadisch (< 1%)	1	19146
-605493	herblayer	Rode klaver	Trifolium pratense L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-605493	herblayer	Ruige weegbree	Plantago media L.	Londo	r1 : sporadisch (< 1%)	1	19146
-605493	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-605493	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	a2 : talrijk (1-3%)	2	19146
-605493	herblayer	Smalle wikke s.s.	Vicia sativa L. subsp. nigra (L.) Ehrh.	Londo	r1 : sporadisch (< 1%)	1	19146
-605493	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-605493	herblayer	Vijfvingerkruid	Potentilla reptans L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
 608550	herblayer	Bloedzuring	Rumex sanguineus L.	Londo	r1 : sporadisch (< 1%)	1	16975
 608550	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	p2 : weinig talrijk (1-3%)	2	16975
 608550	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 - : willekeurig (5-10%)	7	16975
@@ -6414,15 +5443,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 636561	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	5 +: willekeurig (50-55%)	52	16961
 636561	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	r1 : sporadisch (< 1%)	1	16961
 636561	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	16961
-636561	herblayer	Engels raaigras	Lolium perenne L.	Londo	5 : willekeurig (45-55%)	50	19143
-636561	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-636561	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	r1 : sporadisch (< 1%)	1	19143
-636561	herblayer	Kweek	Elymus repens (L.) Gould	Londo	4 : willekeurig (35-45%)	40	19143
-636561	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-636561	herblayer	Rietgras	Phalaris arundinacea L.	Londo	r1 : sporadisch (< 1%)	1	19143
-636561	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 - : willekeurig (5-10%)	7	19143
-636561	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-636561	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	a1 : talrijk (< 1%)	1	19143
 642585	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	17941
 642585	herblayer	Bosandoorn	Stachys sylvatica L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	17941
 642585	herblayer	Bosereprijs	Veronica montana L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	17941
@@ -6475,33 +5495,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 643970	herblayer	Speerdistel	Cirsium vulgare (Savi) Ten.	Londo	r1 : sporadisch (< 1%)	1	16231
 643970	herblayer	Veldzuring	Rumex acetosa L.	Londo	r1 : sporadisch (< 1%)	1	16231
 643970	herblayer	Witte klaver	Trifolium repens L.	Londo	9 : willekeurig (85-95%)	90	16231
-643970	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Akkerwinde	Convolvulus arvensis L.	Londo	1 - : willekeurig (5-10%)	7	19146
-643970	herblayer	Engels raaigras	Lolium perenne L.	Londo	2 : willekeurig (15-25%)	20	19146
-643970	herblayer	Fioringras	Agrostis stolonifera L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Groot streepzaad	Crepis biennis L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-643970	herblayer	Grote brandnetel	Urtica dioica L.	Londo	r1 : sporadisch (< 1%)	1	19146
-643970	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Hopklaver	Medicago lupulina L.	Londo	1 - : willekeurig (5-10%)	7	19146
-643970	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p2 : weinig talrijk (1-3%)	2	19146
-643970	herblayer	Kropaar	Dactylis glomerata L.	Londo	a4 : talrijk (3-5%)	4	19146
-643970	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-643970	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-643970	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	1 - : willekeurig (5-10%)	7	19146
-643970	herblayer	Peen	Daucus carota L.	Londo	1 : willekeurig (5-15%)	10	19146
-643970	herblayer	Rode klaver	Trifolium pratense L.	Londo	3 : willekeurig (25-35%)	30	19146
-643970	herblayer	Ruige leeuwentand	Leontodon hispidus L.	Londo	r1 : sporadisch (< 1%)	1	19146
-643970	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-643970	herblayer	Slipbladige ooievaarsbek	Geranium dissectum L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-643970	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	19146
-643970	herblayer	Speerdistel	Cirsium vulgare (Savi) Ten.	Londo	r1 : sporadisch (< 1%)	1	19146
-643970	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	a2 : talrijk (1-3%)	2	19146
-643970	herblayer	Witte klaver	Trifolium repens L.	Londo	3 : willekeurig (25-35%)	30	19146
-643970	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
 648566	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	17073
 648566	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	p2 : weinig talrijk (1-3%)	2	17073
 648566	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p1 : weinig talrijk (< 1%)	1	17073
@@ -6552,39 +5545,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 676914	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	16218
 676914	herblayer	Wederik (G)	Lysimachia	Londo	m4 : zeer talrijk (3-5%)	4	16218
 676914	herblayer	Witte klaver	Trifolium repens L.	Londo	2 : willekeurig (15-25%)	20	16218
-676914	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Bosandoorn	Stachys sylvatica L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Engels raaigras	Lolium perenne L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 : willekeurig (5-15%)	10	19146
-676914	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Gewone engelwortel	Angelica sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Gewone ereprijs	Veronica chamaedrys L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	1 - : willekeurig (5-10%)	7	19146
-676914	herblayer	Grasmuur	Stellaria graminea L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-676914	herblayer	Heelblaadjes	Pulicaria dysenterica (L.) Bernh.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Heermoes	Equisetum arvense L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Kale jonker	Cirsium palustre (L.) Scop.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Kamgras	Cynosurus cristatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Kruipend zenegroen	Ajuga reptans L.	Londo	a2 : talrijk (1-3%)	2	19146
-676914	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	5 : willekeurig (45-55%)	50	19146
-676914	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Moerasvergeet-mij-nietje	Myosotis scorpioides L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Moeraswalstro	Galium palustre L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	a1 : talrijk (< 1%)	1	19146
-676914	herblayer	Rode klaver	Trifolium pratense L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Ruige zegge	Carex hirta L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-676914	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	a2 : talrijk (1-3%)	2	19146
-676914	herblayer	Tweerijige zegge	Carex disticha Huds.	Londo	r1 : sporadisch (< 1%)	1	19146
-676914	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-676914	herblayer	Veldrus	Juncus acutiflorus Ehrh. ex Hoffmann	Londo	1 + : willekeurig (10-15%)	12	19146
-676914	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-676914	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
 677174	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	a1 : talrijk (< 1%)	1	16233
 677174	herblayer	Engels raaigras	Lolium perenne L.	Londo	a1 : talrijk (< 1%)	1	16233
 677174	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	3 : willekeurig (25-35%)	30	16233
@@ -6609,22 +5569,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 677174	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	p2 : weinig talrijk (1-3%)	2	16233
 677174	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	16233
 677174	herblayer	Vogelwikke	Vicia cracca L.	Londo	p1 : weinig talrijk (< 1%)	1	16233
-677174	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19144
-677174	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-677174	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-677174	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	a1 : talrijk (< 1%)	1	19144
-677174	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	a4 : talrijk (3-5%)	4	19144
-677174	herblayer	Heermoes	Equisetum arvense L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-677174	herblayer	Kluwenhoornbloem	Cerastium glomeratum Thuill.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-677174	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p1 : weinig talrijk (< 1%)	1	19144
-677174	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	r1 : sporadisch (< 1%)	1	19144
-677174	herblayer	Kweek	Elymus repens (L.) Gould	Londo	4 : willekeurig (35-45%)	40	19144
-677174	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	a4 : talrijk (3-5%)	4	19144
-677174	herblayer	Rode klaver	Trifolium pratense L.	Londo	r1 : sporadisch (< 1%)	1	19144
-677174	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	19144
-677174	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	19144
-677174	herblayer	Veldzuring	Rumex acetosa L.	Londo	p4 : weinig talrijk (3-5%)	4	19144
-677174	herblayer	Vogelwikke	Vicia cracca L.	Londo	r1 : sporadisch (< 1%)	1	19144
 684982	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p2 : weinig talrijk (1-3%)	2	17752
 684982	herblayer	Borstelgras	Nardus stricta L.	Londo	p2 : weinig talrijk (1-3%)	2	17752
 684982	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	p2 : weinig talrijk (1-3%)	2	17752
@@ -6672,19 +5616,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 720369	herblayer	Veldzuring	Rumex acetosa L.	Londo	a4 : talrijk (3-5%)	4	16232
 720369	herblayer	Vogelwikke	Vicia cracca L.	Londo	a2 : talrijk (1-3%)	2	16232
 720369	herblayer	Zwarte zegge	Carex nigra (L.) Reichard	Londo	r2 : sporadisch (1-3%)	2	16232
-720369	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-720369	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	a2 : talrijk (1-3%)	2	19166
-720369	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	a2 : talrijk (1-3%)	2	19166
-720369	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	r1 : sporadisch (< 1%)	1	19166
-720369	herblayer	Moeraswalstro	Galium palustre L.	Londo	p4 : weinig talrijk (3-5%)	4	19166
-720369	herblayer	Moeraszegge	Carex acutiformis Ehrh.	Londo	1 + : willekeurig (10-15%)	12	19166
-720369	herblayer	Riet	Phragmites australis (Cav.) Steud.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-720369	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	a2 : talrijk (1-3%)	2	19166
-720369	herblayer	Tweerijige zegge	Carex disticha Huds.	Londo	8 : willekeurig (75-85%)	80	19166
-720369	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p4 : weinig talrijk (3-5%)	4	19166
-720369	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-720369	herblayer	Vogelwikke	Vicia cracca L.	Londo	1 - : willekeurig (5-10%)	7	19166
-720369	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	19166
 738230	herblayer	Biggekruid (G)	Hypochaeris	Londo	r2 : sporadisch (1-3%)	2	17407
 738230	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	a4 : talrijk (3-5%)	4	17407
 738230	herblayer	Dwergviltkruid	Filago minima (Smith) Pers.	Londo	a1 : talrijk (< 1%)	1	17407
@@ -6726,15 +5657,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 750518	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	p1 : weinig talrijk (< 1%)	1	17408
 750518	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	5 : willekeurig (45-55%)	50	17408
 750518	shrublayer	Grove den	Pinus sylvestris L.	Londo	1 - : willekeurig (5-10%)	7	17408
-792209	herblayer	Behaarde boterbloem	Ranunculus sardous Crantz	Londo	p1 : weinig talrijk (< 1%)	1	19143
-792209	herblayer	Geknikte vossenstaart	Alopecurus geniculatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-792209	herblayer	Krulzuring	Rumex crispus L.	Londo	r1 : sporadisch (< 1%)	1	19143
-792209	herblayer	Kweek	Elymus repens (L.) Gould	Londo	7 : willekeurig (65-75%)	70	19143
-792209	herblayer	Rietgras	Phalaris arundinacea L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-792209	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 - : willekeurig (5-10%)	7	19143
-792209	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-792209	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-792209	herblayer	Zompvergeet-mij-nietje	Myosotis cespitosa C.F. Schultz	Londo	r1 : sporadisch (< 1%)	1	19143
 803766	herblayer	Biggekruid (G)	Hypochaeris	Londo	a2 : talrijk (1-3%)	2	17403
 803766	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	r1 : sporadisch (< 1%)	1	17403
 803766	herblayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	17403
@@ -6782,31 +5704,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 845457	herblayer	Veldgerst	Hordeum secalinum Schreb.	Londo	p1 : weinig talrijk (< 1%)	1	16961
 845457	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p2 : weinig talrijk (1-3%)	2	16961
 845457	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	16961
-845457	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 + : willekeurig (10-15%)	12	19163
-845457	herblayer	Fioringras	Agrostis stolonifera L.	Londo	1 + : willekeurig (10-15%)	12	19163
-845457	herblayer	Gewoon timoteegras	Phleum pratense L.	Londo	r1 : sporadisch (< 1%)	1	19163
-845457	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	a2 : talrijk (1-3%)	2	19163
-845457	herblayer	Kweek	Elymus repens (L.) Gould	Londo	6 : willekeurig (55-65%)	60	19163
-845457	herblayer	Paardebloem (G)	Taraxacum	Londo	p1 : weinig talrijk (< 1%)	1	19163
-845457	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-845457	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	a1 : talrijk (< 1%)	1	19163
-845457	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-845457	herblayer	Trosdravik	Bromus racemosus L.	Londo	a2 : talrijk (1-3%)	2	19163
-845457	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-845457	herblayer	Veldgerst	Hordeum secalinum Schreb.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-845457	herblayer	Weidekervel	Silaum silaus (L.) Schinz et Thell.	Londo	r1 : sporadisch (< 1%)	1	19163
-845457	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	r1 : sporadisch (< 1%)	1	19163
-845457	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-853714	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p1 : weinig talrijk (< 1%)	1	19255
-853714	herblayer	Fioringras	Agrostis stolonifera L.	Londo	p1 : weinig talrijk (< 1%)	1	19255
-853714	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p1 : weinig talrijk (< 1%)	1	19255
-853714	herblayer	Mannetjesereprijs	Veronica officinalis L.	Londo	1 - : willekeurig (5-10%)	7	19255
-853714	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	r1 : sporadisch (< 1%)	1	19255
-853714	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	8 : willekeurig (75-85%)	80	19255
-853714	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19255
-853714	mosslayer	Gewoon gaffeltandmos	Dicranum scoparium	Londo	5 : willekeurig (45-55%)	50	19255
-853714	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	a1 : talrijk (< 1%)	1	19255
-853714	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	5 : willekeurig (45-55%)	50	19255
 857281	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	NA	NA	16959
 863169	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	p2 : weinig talrijk (1-3%)	2	16960
 863169	herblayer	Bosbies	Scirpus sylvaticus L.	Londo	3 : willekeurig (25-35%)	30	16960
@@ -6836,12 +5733,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 863169	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	16960
 863169	herblayer	Waterkruiskruid	Senecio aquaticus Hill	Londo	r1 : sporadisch (< 1%)	1	16960
 863169	herblayer	Witte klaver	Trifolium repens L.	Londo	a2 : talrijk (1-3%)	2	16960
-863826	herblayer	Gewoon biggenkruid	Hypochaeris radicata L.	Londo	p2 : weinig talrijk (1-3%)	2	19264
-863826	herblayer	Gewoon struisgras	Agrostis capillaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19264
-863826	herblayer	Grove den	Pinus sylvestris L.	Londo	r2 : sporadisch (1-3%)	2	19264
-863826	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	1 - : willekeurig (5-10%)	7	19264
-863826	mosslayer	Grijs kronkelsteeltje	Campylopus introflexus	Londo	1 + : willekeurig (10-15%)	12	19264
-863826	mosslayer	Zandhaarmos	Polytrichum juniperinum	Londo	5 : willekeurig (45-55%)	50	19264
 870694	herblayer	Akkerhoornbloem	Cerastium arvense L.	Londo	r1 : sporadisch (< 1%)	1	16974
 870694	herblayer	Blauwe knoop	Succisa pratensis Moench	Londo	r1 : sporadisch (< 1%)	1	16974
 870694	herblayer	Engels raaigras	Lolium perenne L.	Londo	3 : willekeurig (25-35%)	30	16974
@@ -6916,18 +5807,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 905190	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	17688
 905190	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	r1 : sporadisch (< 1%)	1	17688
 905190	mosslayer	Gewoon dikkopmos	Brachythecium rutabulum	Londo	10 : willekeurig (95-100%)	97	17688
-919185	herblayer	Engels raaigras	Lolium perenne L.	Londo	a2 : talrijk (1-3%)	2	19143
-919185	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-919185	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	1 - : willekeurig (5-10%)	7	19143
-919185	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	3 : willekeurig (25-35%)	30	19143
-919185	herblayer	Kweek	Elymus repens (L.) Gould	Londo	p1 : weinig talrijk (< 1%)	1	19143
-919185	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p2 : weinig talrijk (1-3%)	2	19143
-919185	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	19143
-919185	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	4 : willekeurig (35-45%)	40	19143
-919185	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	r1 : sporadisch (< 1%)	1	19143
-919185	herblayer	Trosdravik	Bromus racemosus L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-919185	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-919185	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
 923209	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p1 : weinig talrijk (< 1%)	1	17695
 923209	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	17695
 923209	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p1 : weinig talrijk (< 1%)	1	17695
@@ -7010,21 +5889,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 968217	herblayer	Veldzuring	Rumex acetosa L.	Londo	1 - : willekeurig (5-10%)	7	16953
 968217	herblayer	Vijfvingerkruid	Potentilla reptans L.	Londo	r1 : sporadisch (< 1%)	1	16953
 968217	herblayer	Zachte wikke	Vicia villosa Roth	Londo	2 : willekeurig (15-25%)	20	16953
-968217	herblayer	Engels raaigras	Lolium perenne L.	Londo	3 : willekeurig (25-35%)	30	19144
-968217	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	5 : willekeurig (45-55%)	50	19144
-968217	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	r2 : sporadisch (1-3%)	2	19144
-968217	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	5 : willekeurig (45-55%)	50	19144
-968217	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-968217	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	1 + : willekeurig (10-15%)	12	19144
-968217	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	a1 : talrijk (< 1%)	1	19144
-968217	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	r2 : sporadisch (1-3%)	2	19144
-968217	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 + : willekeurig (10-15%)	12	19144
-968217	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	19144
-968217	herblayer	Trosdravik	Bromus racemosus L.	Londo	r1 : sporadisch (< 1%)	1	19144
-968217	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-968217	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19144
-968217	herblayer	Vijfvingerkruid	Potentilla reptans L.	Londo	p4 : weinig talrijk (3-5%)	4	19144
-968217	herblayer	Zachte wikke	Vicia villosa Roth	Londo	p1 : weinig talrijk (< 1%)	1	19144
 976246	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r2 : sporadisch (1-3%)	2	17072
 976246	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	r1 : sporadisch (< 1%)	1	17072
 976246	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p2 : weinig talrijk (1-3%)	2	17072
@@ -7039,21 +5903,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 980625	herblayer	Tweerijige zegge	Carex disticha Huds.	Londo	3 : willekeurig (25-35%)	30	16961
 980625	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p1 : weinig talrijk (< 1%)	1	16961
 980625	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	16961
-984721	herblayer	Engels raaigras	Lolium perenne L.	Londo	a1 : talrijk (< 1%)	1	19166
-984721	herblayer	Fioringras	Agrostis stolonifera L.	Londo	4 : willekeurig (35-45%)	40	19166
-984721	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	1 + : willekeurig (10-15%)	12	19166
-984721	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p2 : weinig talrijk (1-3%)	2	19166
-984721	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Kweek	Elymus repens (L.) Gould	Londo	7 : willekeurig (65-75%)	70	19166
-984721	herblayer	Paardebloem (G)	Taraxacum	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	a1 : talrijk (< 1%)	1	19166
-984721	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Vogelwikke	Vicia cracca L.	Londo	a2 : talrijk (1-3%)	2	19166
-984721	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	19166
-984721	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
 998709	herblayer	Akkerwinde	Convolvulus arvensis L.	Londo	p1 : weinig talrijk (< 1%)	1	18411
 998709	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	6 : willekeurig (55-65%)	60	18411
 998709	herblayer	Fluitenkruid	Anthriscus sylvestris (L.) Hoffmann	Londo	p1 : weinig talrijk (< 1%)	1	18411
@@ -7371,21 +6220,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 1152657	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	16220
 1152657	herblayer	Zompvergeet-mij-nietje	Myosotis cespitosa C.F. Schultz	Londo	a4 : talrijk (3-5%)	4	16220
 1152657	herblayer	Zwarte zegge	Carex nigra (L.) Reichard	Londo	p1 : weinig talrijk (< 1%)	1	16220
-1152657	herblayer	Behaarde boterbloem	Ranunculus sardous Crantz	Londo	p1 : weinig talrijk (< 1%)	1	19143
-1152657	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-1152657	herblayer	Krulzuring	Rumex crispus L.	Londo	r1 : sporadisch (< 1%)	1	19143
-1152657	herblayer	Kweek	Elymus repens (L.) Gould	Londo	4 : willekeurig (35-45%)	40	19143
-1152657	herblayer	Liesgras	Glyceria maxima (Hartm.) Holmberg	Londo	r1 : sporadisch (< 1%)	1	19143
-1152657	herblayer	Moeraswalstro	Galium palustre L.	Londo	r1 : sporadisch (< 1%)	1	19143
-1152657	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-1152657	herblayer	Rietgras	Phalaris arundinacea L.	Londo	1 - : willekeurig (5-10%)	7	19143
-1152657	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 - : willekeurig (5-10%)	7	19143
-1152657	herblayer	Tweerijige zegge	Carex disticha Huds.	Londo	a4 : talrijk (3-5%)	4	19143
-1152657	herblayer	Veenwortel	Polygonum amphibium L.	Londo	p2 : weinig talrijk (1-3%)	2	19143
-1152657	herblayer	Weidekervel	Silaum silaus (L.) Schinz et Thell.	Londo	p1 : weinig talrijk (< 1%)	1	19143
-1152657	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	a2 : talrijk (1-3%)	2	19143
-1152657	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	19143
-1152657	herblayer	Zwarte zegge	Carex nigra (L.) Reichard	Londo	r1 : sporadisch (< 1%)	1	19143
 1163750	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	17676
 1163750	herblayer	Engels raaigras	Lolium perenne L.	Londo	3 : willekeurig (25-35%)	30	17676
 1163750	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p4 : weinig talrijk (3-5%)	4	17676
@@ -7433,20 +6267,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 1175794	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p1 : weinig talrijk (< 1%)	1	17693
 1175794	herblayer	Speerdistel	Cirsium vulgare (Savi) Ten.	Londo	r1 : sporadisch (< 1%)	1	17693
 1175794	mosslayer	Gewoon dikkopmos	Brachythecium rutabulum	Londo	6 : willekeurig (55-65%)	60	17693
-1177233	herblayer	Engels raaigras	Lolium perenne L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-1177233	herblayer	Fioringras	Agrostis stolonifera L.	Londo	m4 : zeer talrijk (3-5%)	4	19163
-1177233	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	p2 : weinig talrijk (1-3%)	2	19163
-1177233	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-1177233	herblayer	Gewoon timoteegras	Phleum pratense L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-1177233	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	7 : willekeurig (65-75%)	70	19163
-1177233	herblayer	Italiaans raaigras	Lolium multiflorum Lam.	Londo	p2 : weinig talrijk (1-3%)	2	19163
-1177233	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	4 : willekeurig (35-45%)	40	19163
-1177233	herblayer	Krulzuring	Rumex crispus L.	Londo	r1 : sporadisch (< 1%)	1	19163
-1177233	herblayer	Kweek	Elymus repens (L.) Gould	Londo	p1 : weinig talrijk (< 1%)	1	19163
-1177233	herblayer	Rode klaver	Trifolium pratense L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-1177233	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	2 : willekeurig (15-25%)	20	19163
-1177233	herblayer	Trosdravik	Bromus racemosus L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
-1177233	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19163
 1180534	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	18121
 1180534	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	a4 : talrijk (3-5%)	4	18121
 1180534	herblayer	Fijn schapengras	Festuca filiformis Pourr.	Londo	p1 : weinig talrijk (< 1%)	1	18121
@@ -7691,27 +6511,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 1280278	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	16217
 1280278	herblayer	Wikke (G)	Vicia	Londo	p1 : weinig talrijk (< 1%)	1	16217
 1280278	herblayer	Witte klaver	Trifolium repens L.	Londo	m2 : zeer talrijk (1-3%)	2	16217
-1280278	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	p4 : weinig talrijk (3-5%)	4	19136
-1280278	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	r1 : sporadisch (< 1%)	1	19136
-1280278	herblayer	Engels raaigras	Lolium perenne L.	Londo	a4 : talrijk (3-5%)	4	19136
-1280278	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	7 : willekeurig (65-75%)	70	19136
-1280278	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	a4 : talrijk (3-5%)	4	19136
-1280278	herblayer	Grasmuur	Stellaria graminea L.	Londo	p1 : weinig talrijk (< 1%)	1	19136
-1280278	herblayer	Grote pimpernel	Sanguisorba officinalis L.	Londo	r1 : sporadisch (< 1%)	1	19136
-1280278	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	1 : willekeurig (5-15%)	10	19136
-1280278	herblayer	Moerasrolklaver	Lotus pedunculatus Cav.	Londo	r1 : sporadisch (< 1%)	1	19136
-1280278	herblayer	Ooievaarsbek (G)	Geranium	Londo	p1 : weinig talrijk (< 1%)	1	19136
-1280278	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	7 : willekeurig (65-75%)	70	19136
-1280278	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	a1 : talrijk (< 1%)	1	19136
-1280278	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	1 : willekeurig (5-15%)	10	19136
-1280278	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	19136
-1280278	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p2 : weinig talrijk (1-3%)	2	19136
-1280278	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	a4 : talrijk (3-5%)	4	19136
-1280278	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19136
-1280278	herblayer	Vijfvingerkruid	Potentilla reptans L.	Londo	p2 : weinig talrijk (1-3%)	2	19136
-1280278	herblayer	Wikke (G)	Vicia	Londo	p1 : weinig talrijk (< 1%)	1	19136
-1280278	herblayer	Witte klaver	Trifolium repens L.	Londo	r1 : sporadisch (< 1%)	1	19136
-1280278	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	r1 : sporadisch (< 1%)	1	19136
 1284946	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p1 : weinig talrijk (< 1%)	1	17360
 1284946	herblayer	Brem	Cytisus scoparius (L.) Link	Londo	r1 : sporadisch (< 1%)	1	17360
 1284946	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	a2 : talrijk (1-3%)	2	17360
@@ -8069,30 +6868,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 1487746	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	m4 : zeer talrijk (3-5%)	4	16224
 1487746	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	16224
 1487746	herblayer	Zegge (G)	Carex	Londo	p1 : weinig talrijk (< 1%)	1	16224
-1487746	herblayer	Aardbeiganzerik	Potentilla sterilis (L.) Garcke	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1487746	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	a4 : talrijk (3-5%)	4	19146
-1487746	herblayer	Bevernel (G)	Pimpinella	Londo	a4 : talrijk (3-5%)	4	19146
-1487746	herblayer	Boskortsteel	Brachypodium sylvaticum (Huds.) Beauv.	Londo	a4 : talrijk (3-5%)	4	19146
-1487746	herblayer	Duizendblad	Achillea millefolium L.	Londo	r1 : sporadisch (< 1%)	1	19146
-1487746	herblayer	Engels raaigras	Lolium perenne L.	Londo	3 : willekeurig (25-35%)	30	19146
-1487746	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1487746	herblayer	Gewone rolklaver	Lotus corniculatus L. subsp. corniculatus	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1487746	herblayer	Jakobskruiskruid	Senecio jacobaea L.	Londo	r1 : sporadisch (< 1%)	1	19146
-1487746	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	a2 : talrijk (1-3%)	2	19146
-1487746	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	1 : willekeurig (5-15%)	10	19146
-1487746	herblayer	Kropaar	Dactylis glomerata L.	Londo	a2 : talrijk (1-3%)	2	19146
-1487746	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1487746	herblayer	Madeliefje	Bellis perennis L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-1487746	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	p4 : weinig talrijk (3-5%)	4	19146
-1487746	herblayer	Peen	Daucus carota L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1487746	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	19146
-1487746	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1487746	herblayer	Roos (G)	Rosa	Londo	r1 : sporadisch (< 1%)	1	19146
-1487746	herblayer	Ruige leeuwentand	Leontodon hispidus L.	Londo	1 + : willekeurig (10-15%)	12	19146
-1487746	herblayer	Ruige weegbree	Plantago media L.	Londo	a4 : talrijk (3-5%)	4	19146
-1487746	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	p4 : weinig talrijk (3-5%)	4	19146
-1487746	herblayer	Witte klaver	Trifolium repens L.	Londo	a2 : talrijk (1-3%)	2	19146
-1487746	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	19146
 1487798	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	6 : willekeurig (55-65%)	60	17737
 1487798	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	1 - : willekeurig (5-10%)	7	17737
 1487798	herblayer	Grove den	Pinus sylvestris L.	Londo	r1 : sporadisch (< 1%)	1	17737
@@ -8436,27 +7211,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 1569666	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	a1 : talrijk (< 1%)	1	16213
 1569666	herblayer	Witte klaver	Trifolium repens L.	Londo	4 : willekeurig (35-45%)	40	16213
 1569666	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	r1 : sporadisch (< 1%)	1	16213
-1569666	herblayer	Akkerdistel	Cirsium arvense (L.) Scop.	Londo	r1 : sporadisch (< 1%)	1	19150
-1569666	herblayer	Bevernel (G)	Pimpinella	Londo	p2 : weinig talrijk (1-3%)	2	19150
-1569666	herblayer	Engels raaigras	Lolium perenne L.	Londo	5 : willekeurig (45-55%)	50	19150
-1569666	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 - : willekeurig (5-10%)	7	19150
-1569666	herblayer	Grote brandnetel	Urtica dioica L.	Londo	p1 : weinig talrijk (< 1%)	1	19150
-1569666	herblayer	Grote weegbree	Plantago major L.	Londo	r1 : sporadisch (< 1%)	1	19150
-1569666	herblayer	Hopklaver	Medicago lupulina L.	Londo	a2 : talrijk (1-3%)	2	19150
-1569666	herblayer	Kamgras	Cynosurus cristatus L.	Londo	1 + : willekeurig (10-15%)	12	19150
-1569666	herblayer	Kropaar	Dactylis glomerata L.	Londo	1 - : willekeurig (5-10%)	7	19150
-1569666	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	a4 : talrijk (3-5%)	4	19150
-1569666	herblayer	Madeliefje	Bellis perennis L.	Londo	a2 : talrijk (1-3%)	2	19150
-1569666	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	1 + : willekeurig (10-15%)	12	19150
-1569666	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	19150
-1569666	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	a2 : talrijk (1-3%)	2	19150
-1569666	herblayer	Ruige leeuwentand	Leontodon hispidus L.	Londo	p4 : weinig talrijk (3-5%)	4	19150
-1569666	herblayer	Ruige weegbree	Plantago media L.	Londo	p2 : weinig talrijk (1-3%)	2	19150
-1569666	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	1 - : willekeurig (5-10%)	7	19150
-1569666	herblayer	Sleedoorn	Prunus spinosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19150
-1569666	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	19150
-1569666	herblayer	Witte klaver	Trifolium repens L.	Londo	2 : willekeurig (15-25%)	20	19150
-1569666	herblayer	Zegge (G)	Carex	Londo	r1 : sporadisch (< 1%)	1	19150
 1590198	herblayer	Berk (G)	Betula	Londo	r1 : sporadisch (< 1%)	1	17375
 1590198	herblayer	Biggekruid (G)	Hypochaeris	Londo	p1 : weinig talrijk (< 1%)	1	17375
 1590198	herblayer	Grove den	Pinus sylvestris L.	Londo	p1 : weinig talrijk (< 1%)	1	17375
@@ -8522,31 +7276,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 1618818	herblayer	Wilde marjolein	Origanum vulgare L.	Londo	1 - : willekeurig (5-10%)	7	16224
 1618818	herblayer	Zeegroene zegge	Carex flacca Schreb.	Londo	r1 : sporadisch (< 1%)	1	16224
 1618818	herblayer	Zomereik	Quercus robur L.	Londo	r1 : sporadisch (< 1%)	1	16224
-1618818	herblayer	Beemdkroon	Knautia arvensis (L.) Coulter	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1618818	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	1 - : willekeurig (5-10%)	7	19146
-1618818	herblayer	Bevernel (G)	Pimpinella	Londo	p1 : weinig talrijk (< 1%)	1	19146
-1618818	herblayer	Bevertjes	Briza media L.	Londo	1 + : willekeurig (10-15%)	12	19146
-1618818	herblayer	Eenstijlige meidoorn	Crataegus monogyna Jacq.	Londo	r1 : sporadisch (< 1%)	1	19146
-1618818	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	a4 : talrijk (3-5%)	4	19146
-1618818	herblayer	Gewone agrimonie	Agrimonia eupatoria L.	Londo	r1 : sporadisch (< 1%)	1	19146
-1618818	herblayer	Gewone ereprijs	Veronica chamaedrys L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1618818	herblayer	Gewone rolklaver	Lotus corniculatus L. subsp. corniculatus	Londo	r1 : sporadisch (< 1%)	1	19146
-1618818	herblayer	Goudhaver	Trisetum flavescens (L.) Beauv.	Londo	a2 : talrijk (1-3%)	2	19146
-1618818	herblayer	Gulden sleutelbloem	Primula veris L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1618818	herblayer	Kamgras	Cynosurus cristatus L.	Londo	1 - : willekeurig (5-10%)	7	19146
-1618818	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	1 + : willekeurig (10-15%)	12	19146
-1618818	herblayer	Knolboterbloem	Ranunculus bulbosus L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-1618818	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	a4 : talrijk (3-5%)	4	19146
-1618818	herblayer	Kropaar	Dactylis glomerata L.	Londo	a4 : talrijk (3-5%)	4	19146
-1618818	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-1618818	herblayer	Peen	Daucus carota L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1618818	herblayer	Rode klaver	Trifolium pratense L.	Londo	a4 : talrijk (3-5%)	4	19146
-1618818	herblayer	Rood zwenkgras	Festuca rubra L.	Londo	2 : willekeurig (15-25%)	20	19146
-1618818	herblayer	Ruige leeuwentand	Leontodon hispidus L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1618818	herblayer	Ruige weegbree	Plantago media L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-1618818	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 : willekeurig (5-15%)	10	19146
-1618818	herblayer	Wilde marjolein	Origanum vulgare L.	Londo	1 - : willekeurig (5-10%)	7	19146
-1618818	herblayer	Zeegroene zegge	Carex flacca Schreb.	Londo	a2 : talrijk (1-3%)	2	19146
 1631606	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	17372
 1631606	herblayer	Heidespurrie	Spergula morisonii Boreau	Londo	p1 : weinig talrijk (< 1%)	1	17372
 1635038	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	m2 : zeer talrijk (1-3%)	2	17399
@@ -8808,25 +7537,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 2328854	herblayer	Wikke (G)	Vicia	Londo	p1 : weinig talrijk (< 1%)	1	16217
 2328854	herblayer	Witte klaver	Trifolium repens L.	Londo	m4 : zeer talrijk (3-5%)	4	16217
 2328854	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	r1 : sporadisch (< 1%)	1	16217
-2328854	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	3 : willekeurig (25-35%)	30	19142
-2328854	herblayer	Engels raaigras	Lolium perenne L.	Londo	a2 : talrijk (1-3%)	2	19142
-2328854	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	5 : willekeurig (45-55%)	50	19142
-2328854	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	1 : willekeurig (5-15%)	10	19142
-2328854	herblayer	Grasmuur	Stellaria graminea L.	Londo	p1 : weinig talrijk (< 1%)	1	19142
-2328854	herblayer	Grote pimpernel	Sanguisorba officinalis L.	Londo	p4 : weinig talrijk (3-5%)	4	19142
-2328854	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	4 : willekeurig (35-45%)	40	19142
-2328854	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	p1 : weinig talrijk (< 1%)	1	19142
-2328854	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	1 - : willekeurig (5-10%)	7	19142
-2328854	herblayer	Kweek	Elymus repens (L.) Gould	Londo	p1 : weinig talrijk (< 1%)	1	19142
-2328854	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Londo	r1 : sporadisch (< 1%)	1	19142
-2328854	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Christians.	Londo	1 : willekeurig (5-15%)	10	19142
-2328854	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	6 : willekeurig (55-65%)	60	19142
-2328854	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	p2 : weinig talrijk (1-3%)	2	19142
-2328854	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	a2 : talrijk (1-3%)	2	19142
-2328854	herblayer	Veldlathyrus	Lathyrus pratensis L.	Londo	a2 : talrijk (1-3%)	2	19142
-2328854	herblayer	Veldzuring	Rumex acetosa L.	Londo	p2 : weinig talrijk (1-3%)	2	19142
-2328854	herblayer	Wikke (G)	Vicia	Londo	p1 : weinig talrijk (< 1%)	1	19142
-2328854	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19142
 2410009	herblayer	Engels raaigras	Lolium perenne L.	Londo	2 : willekeurig (15-25%)	20	18053
 2410009	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	7 : willekeurig (65-75%)	70	18053
 2410009	herblayer	Grasmuur	Stellaria graminea L.	Londo	r1 : sporadisch (< 1%)	1	18053
@@ -8957,28 +7667,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 2867990	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	16212
 2867990	herblayer	Veldzuring	Rumex acetosa L.	Londo	a4 : talrijk (3-5%)	4	16212
 2867990	herblayer	Wikke (G)	Vicia	Londo	a2 : talrijk (1-3%)	2	16212
-2867990	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 - : willekeurig (5-10%)	7	19145
-2867990	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	1 : willekeurig (5-15%)	10	19145
-2867990	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	a4 : talrijk (3-5%)	4	19145
-2867990	herblayer	Gewone hoornbloem	Cerastium fontanum Baumg.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-2867990	herblayer	Gewoon reukgras	Anthoxanthum odoratum L.	Londo	5 : willekeurig (45-55%)	50	19145
-2867990	herblayer	Glanshaver	Arrhenatherum elatius (L.) Beauv. ex J. et C. Presl	Londo	r1 : sporadisch (< 1%)	1	19145
-2867990	herblayer	Grasmuur	Stellaria graminea L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-2867990	herblayer	Groot streepzaad	Crepis biennis L.	Londo	r1 : sporadisch (< 1%)	1	19145
-2867990	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Londo	1 : willekeurig (5-15%)	10	19145
-2867990	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-2867990	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	1 - : willekeurig (5-10%)	7	19145
-2867990	herblayer	Kruipende boterbloem	Ranunculus repens L.	Londo	1 : willekeurig (5-15%)	10	19145
-2867990	herblayer	Pinksterbloem	Cardamine pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-2867990	herblayer	Rode klaver	Trifolium pratense L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
-2867990	herblayer	Ruw beemdgras	Poa trivialis L.	Londo	5 : willekeurig (45-55%)	50	19145
-2867990	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	19145
-2867990	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 : willekeurig (5-15%)	10	19145
-2867990	herblayer	Struisgras (G)	Agrostis	Londo	4 : willekeurig (35-45%)	40	19145
-2867990	herblayer	Veldzuring	Rumex acetosa L.	Londo	a2 : talrijk (1-3%)	2	19145
-2867990	herblayer	Vogelwikke	Vicia cracca L.	Londo	a2 : talrijk (1-3%)	2	19145
-2867990	herblayer	Witte klaver	Trifolium repens L.	Londo	2 : willekeurig (15-25%)	20	19145
-2867990	herblayer	Zachte dravik	Bromus hordeaceus L.	Londo	a2 : talrijk (1-3%)	2	19145
 2891673	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	2 : willekeurig (15-25%)	20	18418
 2891673	herblayer	Echte koekoeksbloem	Lychnis flos-cuculi L.	Londo	r1 : sporadisch (< 1%)	1	18418
 2891673	herblayer	Engels raaigras	Lolium perenne L.	Londo	1 + : willekeurig (10-15%)	12	18418
@@ -9116,33 +7804,6 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 3068802	mosslayer	Gewoon dikkopmos	Brachythecium rutabulum	Londo	8 : willekeurig (75-85%)	80	17718
 3068802	mosslayer	Groot laddermos	Pseudoscleropodium purum	Londo	p1 : weinig talrijk (< 1%)	1	17718
 3068802	mosslayer	Rondbladig boogsterremos	Plagiomnium affine	Londo	a1 : talrijk (< 1%)	1	17718
-3068802	herblayer	Beemdkroon	Knautia arvensis (L.) Coulter	Londo	a2 : talrijk (1-3%)	2	19146
-3068802	herblayer	Beemdlangbloem	Festuca pratensis Huds.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Bevernel (G)	Pimpinella	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Bevertjes	Briza media L.	Londo	2 : willekeurig (15-25%)	20	19146
-3068802	herblayer	Duizendblad	Achillea millefolium L.	Londo	a2 : talrijk (1-3%)	2	19146
-3068802	herblayer	Eenstijlige meidoorn	Crataegus monogyna Jacq.	Londo	r1 : sporadisch (< 1%)	1	19146
-3068802	herblayer	Gewone berenklauw	Heracleum sphondylium L.	Londo	r1 : sporadisch (< 1%)	1	19146
-3068802	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-3068802	herblayer	Gewone ereprijs	Veronica chamaedrys L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Groot streepzaad	Crepis biennis L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Gulden sleutelbloem	Primula veris L.	Londo	1 - : willekeurig (5-10%)	7	19146
-3068802	herblayer	Harige ratelaar	Rhinanthus alectorolophus (Scop.) Pollich	Londo	7 : willekeurig (65-75%)	70	19146
-3068802	herblayer	Kleine klaver	Trifolium dubium Sibth.	Londo	a2 : talrijk (1-3%)	2	19146
-3068802	herblayer	Kleine pimpernel	Sanguisorba minor Scop.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-3068802	herblayer	Knolboterbloem	Ranunculus bulbosus L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Knoopkruid s.l.	Centaurea L. subgenus Jacea	Londo	1 + : willekeurig (10-15%)	12	19146
-3068802	herblayer	Margriet	Leucanthemum vulgare Lam.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-3068802	herblayer	Peen	Daucus carota L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Rode klaver	Trifolium pratense L.	Londo	a2 : talrijk (1-3%)	2	19146
-3068802	herblayer	Roos (G)	Rosa	Londo	r1 : sporadisch (< 1%)	1	19146
-3068802	herblayer	Ruige leeuwentand	Leontodon hispidus L.	Londo	1 - : willekeurig (5-10%)	7	19146
-3068802	herblayer	Ruige weegbree	Plantago media L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Scherpe boterbloem	Ranunculus acris L.	Londo	a4 : talrijk (3-5%)	4	19146
-3068802	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	1 - : willekeurig (5-10%)	7	19146
-3068802	herblayer	Veldbeemdgras	Poa pratensis L.	Londo	p1 : weinig talrijk (< 1%)	1	19146
-3068802	herblayer	Wilde marjolein	Origanum vulgare L.	Londo	p2 : weinig talrijk (1-3%)	2	19146
-3068802	herblayer	Zeegroene zegge	Carex flacca Schreb.	Londo	2 : willekeurig (15-25%)	20	19146
 3077777	herblayer	Duivekervel (G)	Fumaria	Londo	r1 : sporadisch (< 1%)	1	18415
 3077777	herblayer	Engels raaigras	Lolium perenne L.	Londo	8 : willekeurig (75-85%)	80	18415
 3077777	herblayer	Fioringras	Agrostis stolonifera L.	Londo	p1 : weinig talrijk (< 1%)	1	18415

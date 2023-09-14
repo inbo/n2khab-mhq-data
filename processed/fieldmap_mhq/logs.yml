@@ -1,12 +1,13 @@
 ..generic:
-  git2rdata: 0.3.1
+  git2rdata: 0.4.0
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
+  - date_assessment
   - idline_intersect_method
-  hash: 7d37cc560ef24c2b3d8cf782039112eaf5ef5c9b
-  data_hash: c9f28fd12d2f94995228cf9903a4223dfaaf7b35
+  hash: 66879cd3f9941e568dc8ef3f0f4aa3cdfce4e22a
+  data_hash: ebec0e7e3d033d312e450df7591e23090c5c9932
 plot_id:
   class: integer
 idline_intersect_method:
@@ -15,3 +16,6 @@ diameter_cm:
   class: integer
 angle_degrees:
   class: integer
+date_assessment:
+  class: Date
+  origin: '1970-01-01'

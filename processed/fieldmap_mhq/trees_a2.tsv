@@ -1,123 +1,128 @@
-plot_id	name_nl	n_individuals
-2198	Hulst	2
-2198	Wilde lijsterbes	6
-2742	Amerikaanse vogelkers	3
-2742	Sporkehout	4
-2742	Wilde lijsterbes	4
-3894	Hazelaar	4
-3970	Gewone esdoorn	5
-6278	Gewone vlier	3
-6278	Hazelaar	16
-7145	Wilg species	2
-7145	Zwarte els	2
-8121	Gewone esdoorn	4
-8121	Gewone vlier	12
-8217	Meidoorn species	31
-10513	Berk	1
-10513	Gewone esdoorn	3
-10513	Gewone vlier	3
-11481	Gewone vlier	5
-11481	Hazelaar	15
-11865	Gewone vlier	1
-11865	Hazelaar	1
-15782	Gewone vlier	6
-18290	Gewone vlier	10
-18290	Olm	3
-18290	Ratelpopulier	7
-18898	Robinia (gewone)	19
-19762	Amerikaanse vogelkers	14
-19762	ander loofhout	1
-20274	Gewone esdoorn	3
-20274	Hazelaar	4
-20470	Meelbes	1
-20614	Tamme kastanje	35
-21025	Amerikaanse vogelkers	5
-21025	Gewone vlier	9
-21025	Wilde lijsterbes	1
-22726	Hazelaar	4
-22726	Wilde lijsterbes	10
-22726	Zomereik	15
-23238	Amerikaanse vogelkers	1
-23238	Hazelaar	10
-23257	Hazelaar	19
-23385	Hazelaar	15
-26393	Gewone es	1
-26393	Gewone esdoorn	2
-26393	Gewone vlier	3
-26393	Wilde lijsterbes	4
-26822	Hazelaar	12
-28546	Gewone vlier	1
-28546	Kornoelje	2
-28546	Meidoorn species	15
-31414	Amerikaanse vogelkers	3
-31414	Wilde lijsterbes	2
-31414	Zwarte els	1
-36774	Hazelaar	NA
-45526	Wilg species	90
-85529	Boskers	1
-85529	Gewone esdoorn	1
-88274	Amerikaanse eik	1
-88274	Sporkehout	1
-103609	Hazelaar	2
-104342	Hazelaar	19
-132818	Wilg species	5
-136697	Gewone es	1
-136697	Gewone vlier	25
-140006	Beuk	21
-146265	Hazelaar	14
-147174	Berk	1
-147174	Sporkehout	2
-159414	Berk	1
-164793	Gewone es	1
-164793	Gewone esdoorn	1
-164793	Hazelaar	4
-165913	Gewone vlier	3
-165913	Hazelaar	25
-165913	Olm	1
-165913	Zwarte els	2
-188022	Amerikaanse vogelkers	3
-188022	Wilde lijsterbes	5
-196022	Zwarte els	7
-198137	Hazelaar	2
-213138	Berk	3
-219694	Wilg species	2
-230930	Berk	9
-237970	Berk	2
-237970	Zwarte els	2
-253593	Gewone esdoorn	2
-253593	Wilde lijsterbes	2
-257081	Hazelaar	17
-257081	Olm	3
-260082	Gagel	3
-267513	Gewone es	5
-267513	Wilde lijsterbes	1
-271446	Berk	NA
-271446	Sporkehout	NA
-271446	Wilg species	NA
-271446	Zwarte els	NA
-298918	Berk	1
-298918	Zwarte els	NA
-300534	Wilg species	2
-300534	Zwarte els	1
-311602	Wilde lijsterbes	2
-313305	Hazelaar	1
-315062	Berk	4
-349433	Zwarte els	11
-428057	Hazelaar	5
-428057	Populier	1
-428057	Zomereik	1
-463833	Hazelaar	7
-466745	Hazelaar	3
-472889	Gewone es	1
-472889	Gewone es	1
-472889	Gewone esdoorn	1
-472889	Gewone esdoorn	1
-472889	Meidoorn species	3
-516441	Gewone vlier	3
-516441	Kornoelje	2
-552537	Gewone es	1
-552537	Gewone esdoorn	2
-552537	Gewone vlier	7
-616665	Wilg species	2
-642585	Gewone esdoorn	3
-642585	Hazelaar	16
+plot_id	name_nl	n_individuals	date_assessment
+2198	Hulst	2	16546
+2198	Wilde lijsterbes	6	16546
+2742	Amerikaanse vogelkers	3	16604
+2742	Sporkehout	4	16604
+2742	Wilde lijsterbes	4	16604
+3894	Hazelaar	4	16545
+3970	Gewone esdoorn	5	16576
+6278	Gewone vlier	3	16562
+6278	Hazelaar	16	16562
+7145	Wilg species	2	16553
+7145	Zwarte els	2	16553
+8121	Gewone esdoorn	4	16554
+8121	Gewone vlier	12	16554
+8217	Meidoorn species	31	17288
+10513	Berk	1	18001
+10513	Gewone esdoorn	3	18001
+10513	Gewone vlier	3	18001
+11481	Gewone vlier	5	17998
+11481	Hazelaar	15	17998
+11865	Gewone vlier	1	16554
+11865	Hazelaar	1	16554
+15782	Gewone vlier	6	16562
+18290	Gewone vlier	10	17990
+18290	Olm	3	17990
+18290	Ratelpopulier	7	17990
+18898	Robinia (gewone)	19	17991
+19762	Amerikaanse vogelkers	14	17994
+19762	ander loofhout	1	17994
+20274	Gewone esdoorn	3	17990
+20274	Hazelaar	4	17990
+20470	Meelbes	1	17990
+20614	Tamme kastanje	35	17709
+21025	Amerikaanse vogelkers	5	18002
+21025	Gewone vlier	9	18002
+21025	Wilde lijsterbes	1	18002
+22726	Hazelaar	4	17710
+22726	Wilde lijsterbes	10	17710
+22726	Zomereik	15	17710
+23238	Amerikaanse vogelkers	1	17711
+23238	Hazelaar	10	17711
+23257	Hazelaar	19	16621
+23385	Hazelaar	15	17687
+26393	Gewone es	1	17269
+26393	Gewone esdoorn	2	17269
+26393	Gewone vlier	3	17269
+26393	Wilde lijsterbes	4	17269
+26822	Hazelaar	12	17710
+28546	Gewone vlier	1	18002
+28546	Kornoelje	2	18002
+28546	Meidoorn species	15	18002
+31414	Amerikaanse vogelkers	3	17988
+31414	Wilde lijsterbes	2	17988
+31414	Zwarte els	1	17988
+36774	Hazelaar	NA	17708
+45526	Wilg species	90	16658
+85529	Boskers	1	16581
+85529	Gewone esdoorn	1	16581
+88274	Amerikaanse eik	1	16588
+88274	Sporkehout	1	16588
+103609	Hazelaar	2	16552
+104342	Hazelaar	19	16548
+132818	Wilg species	5	18374
+136697	Gewone es	1	16561
+136697	Gewone vlier	25	16561
+140006	Beuk	21	16597
+146265	Hazelaar	14	16552
+147174	Berk	1	16596
+147174	Sporkehout	2	16596
+159414	Berk	1	16604
+164793	Gewone es	1	16553
+164793	Gewone esdoorn	1	16553
+164793	Hazelaar	4	16553
+165913	Gewone vlier	3	16932
+165913	Hazelaar	25	16932
+165913	Olm	1	16932
+165913	Zwarte els	2	16932
+188022	Amerikaanse vogelkers	3	16588
+188022	Wilde lijsterbes	5	16588
+196022	Zwarte els	7	17983
+198137	Hazelaar	2	16567
+213138	Berk	3	17995
+219694	Wilg species	2	17666
+230930	Berk	9	16608
+237970	Berk	2	17995
+237970	Zwarte els	2	17995
+253593	Gewone esdoorn	2	17269
+253593	Wilde lijsterbes	2	17269
+257081	Hazelaar	17	16553
+257081	Olm	3	16553
+260082	Gagel	3	17997
+267513	Gewone es	5	17715
+267513	Wilde lijsterbes	1	17715
+271446	Berk	NA	18019
+271446	Sporkehout	NA	18019
+271446	Wilg species	NA	18019
+271446	Zwarte els	NA	18019
+298918	Berk	1	17709
+298918	Zwarte els	NA	17709
+298937	Gewone esdoorn	1	16554
+298937	Hazelaar	3	16554
+300534	Wilg species	2	17751
+300534	Zwarte els	1	17751
+311602	Wilde lijsterbes	2	17987
+313305	Hazelaar	1	17976
+315062	Berk	4	17989
+349433	Zwarte els	11	17716
+428057	Hazelaar	5	18043
+428057	Populier	1	18043
+428057	Zomereik	1	18043
+463833	Hazelaar	7	18011
+466745	Hazelaar	3	17680
+472889	Gewone es	1	17949
+472889	Gewone es	1	17949
+472889	Gewone esdoorn	1	17949
+472889	Gewone esdoorn	1	17949
+472889	Meidoorn species	3	17949
+516441	Gewone vlier	3	17687
+516441	Kornoelje	2	17687
+552537	Gewone es	1	17668
+552537	Gewone esdoorn	2	17668
+552537	Gewone vlier	7	17668
+612246	Hazelaar	6	18024
+612246	Wilg species	5	18024
+612246	Zwarte els	1	18024
+616665	Wilg species	2	17673
+642585	Gewone esdoorn	3	17941
+642585	Hazelaar	16	17941

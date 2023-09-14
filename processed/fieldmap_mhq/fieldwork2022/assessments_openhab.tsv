@@ -1,6 +1,6 @@
 plot_id	targethabitat	status_fieldwork	info_status_fieldwork	assessment_source	date_assessment	inaccessible	not_measurable	type_observed	lsvi_measurement	remark	structure_openhab_record	cover_species_record	point_code	x_measured	y_measured	x_orig	y_orig
 100050	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4010	1	NA	1	1	100050_1	224989.615	188910.105	224989.65	188910.05
-100297	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	NA	19146	NA	long term	NA	0	gemaaid	0	0	100297_2	93983.373	194600.675	93983.57	194600.56
+100297	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	19146	NA	short term	NA	0	gemaaid	0	0	100297_2	93983.373	194600.675	93983.57	194600.56
 102098	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19241	NA	NA	4030	1	NA	1	1	102098_1	224477.589	192718.122	224477.59	192718.12
 105458	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	4010	1	NA	1	1	105458_1	239613.604	180142.11	239613.59	180142.11
 105682	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19242	NA	NA	9 : bossen	0	NA	0	0	105682_1	225437.192	194287.683	225437.59	194286.1
@@ -31,7 +31,7 @@ plot_id	targethabitat	status_fieldwork	info_status_fieldwork	assessment_source	d
 20178	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19242	NA	NA	2310	1	NA	1	1	20178_1	223997.722	193678.068	223997.62	193678.13
 206134	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19124	NA	NA	6510_hu	1	NA	1	1	206134_2	192126.063	188880.39	192126	188880.31
 229362	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19263	NA	NA	2330_dw	1	NA	1	1	229362_1	240029.613	182926.05	239997.6	182926.1
-231702	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	NA	NA	NA	long term	NA	0	gemaaid (op 31/05/22)	0	0	231702_1	NA	NA	164414.03	187247.08
+231702	onbepaald	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	NA	NA	short term	NA	0	gemaaid (op 31/05/22)	0	0	231702_1	NA	NA	164414.03	187247.08
 2328854	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19142	NA	NA	6510_hus	1	NA	0	1	2328854_2	NA	NA	164446.04	187183.26
 23538	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19236	NA	NA	4010	1	NA	1	1	23538_1	NA	NA	240637.72	181550.16
 236370	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19237	NA	NA	2330_bu	1	NA	1	1	236370_1	NA	NA	236637.59	195854.11
@@ -46,7 +46,7 @@ plot_id	targethabitat	status_fieldwork	info_status_fieldwork	assessment_source	d
 28658	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19235	NA	NA	4030	1	NA	1	1	28658_1	NA	NA	240317.63	185614.12
 2867990	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19145	NA	NA	6510_hus	1	Geen pimpernel gezien	1	1	2867990_1	NA	NA	155038.04	186414.8
 29406	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19249	NA	NA	2310	1	NA	1	1	29406_1	154397.575	232526.238	154397.52	232526.16
-297201	ja	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	NA	NA	long term	NA	0	terreinwerk eerder uitvoeren	0	0	297201_1	NA	NA	43229.6	198062.1
+297201	ja	Geen opname uitgevoerd	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	field assessment	NA	NA	short term	NA	0	terreinwerk eerder uitvoeren	0	0	297201_1	NA	NA	43229.6	198062.1
 301846	nee	Niet van toepassing	nvt - geen doelhabitat	field assessment	19144	NA	NA	NA	0	Brandnetelruigte	0	0	301846_1	NA	NA	160797.6	188974.1
 30290	onbepaald	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19264	NA	NA	4030	1	NA	1	1	30290_1	240541.717	187054.136	240541.59	187054.11
 306130	ja	Opname volledig uitgevoerd	100% afgewerkt	field assessment	19251	NA	NA	2310	1	NA	1	1	306130_1	229980.882	195533.976	229981.57	195534.14

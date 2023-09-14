@@ -2,10 +2,14 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  sorting: plot_id
-  hash: 81106a34867f6e2976e0673c50d8cbb20fc539b1
-  data_hash: 296f423dbdcd93f86c4f7ffeef70eaf4cb430ec7
+  sorting:
+  - plot_id
+  - date_assessment
+  hash: 1bcd6dba23223e3fd0067b245ca9d079697eb24c
+  data_hash: ea39102704749404757c876c1e67f29befae9a20
 plot_id:
+  class: character
+sampling_unit_code:
   class: character
 targethabitat:
   class: character
@@ -19,7 +23,7 @@ date_assessment:
   class: Date
   origin: '1970-01-01'
 inaccessible:
-  class: logical
+  class: character
 not_measurable:
   class: character
 type_observed:
@@ -32,13 +36,5 @@ structure_openhab_record:
   class: logical
 cover_species_record:
   class: logical
-point_code:
-  class: character
-x_measured:
-  class: numeric
-y_measured:
-  class: numeric
-x_orig:
-  class: numeric
-y_orig:
-  class: numeric
+dendro_record:
+  class: logical

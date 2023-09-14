@@ -3,8 +3,8 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 5b7ee629d503560c11df516605701d9bc0c50047
-  data_hash: 1b7e500f6cc0e2bb52463ff981b004f92176e37c
+  hash: cc2ec4b2350c106693eab82241f1131ca6e71896
+  data_hash: ff7c269a2f317b55418eebb5ee6a40d89c5747ca
 plot_id:
   class: character
 x_measured:
@@ -13,3 +13,11 @@ y_measured:
   class: numeric
 point_code:
   class: character
+protocol:
+  class: integer
+verlegd:
+  class: character
+nr_vervangplot:
+  class: integer
+ranking_vervangplot:
+  class: integer
