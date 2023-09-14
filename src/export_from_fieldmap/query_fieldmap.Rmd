@@ -34,7 +34,8 @@ An overview of the different versions of the fieldmap databases can be found in 
 
 ```{r dbINBO}
 
-db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB")
+db_fieldmap_foresthab_vbi3 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB")
+db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
 db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
 
 # check if database is in project folder
@@ -760,11 +761,12 @@ get_coordinates_foresthab <- function(db = db_fieldmap_foresthab){
   return(coordinates)
 }
 
-get_treesa3a4_raw <- function (db = db_fieldmap_foresthab){
+get_treesa3a4_raw <- function(db = db_fieldmap_foresthab){
 
-  query_trees<-"
+  query_trees <- "
   SELECT Trees_2eBosinv.IDPlots as plot_id,
-  Trees_2eBosinv.ID as segment_id,
+  Trees_2eBosinv.IDSegment as segment_id,
+  Trees_2eBosinv.ID as tree_id,
   Trees_2eBosinv.Perimeter_cm,
   Trees_2eBosinv.DBH_mm,
   Trees_2eBosinv.Height_m,
@@ -839,7 +841,7 @@ get_logs <- function(db = db_fieldmap_foresthab){
 ## Functions to access forest hab fieldmap database - VBI3
 
 ```{r}
-get_plot_status_vbi3 <- function(db = db_fieldmap_foresthab){
+get_plot_status_vbi3 <- function(db = db_fieldmap_foresthab_vbi3){
 
   query_invcycle <- "
     SELECT invcycle.IDPlots as plot_id,
@@ -868,7 +870,7 @@ get_plot_status_vbi3 <- function(db = db_fieldmap_foresthab){
   
 }
 
-get_treesa3a4_vbi3 <- function(db = db_fieldmap_foresthab){
+get_treesa3a4_vbi3 <- function(db = db_fieldmap_foresthab_vbi3){
 
   query_trees_vbi3 <- "
   SELECT Trees_3.IDPlots as plot_id,
@@ -901,8 +903,6 @@ get_treesa3a4_vbi3 <- function(db = db_fieldmap_foresthab){
   return(treesa3a4)
 }
 
-plot_status_vbi3 <- get_plot_status_vbi3()
-trees_vbi3 <- get_treesa3a4_vbi3()
 ```
 
 
@@ -914,8 +914,20 @@ trees_vbi3 <- get_treesa3a4_vbi3()
 sample_status_openhab <- get_status_openhab() %>%
     mutate(db = "openhab")
 
-sample_status_foresthab <- get_status_foresthab() %>%
+sample_status_foresthab_orig <- get_status_foresthab() %>%
     mutate(db = "foresthab")
+
+sample_status_foresthab <- sample_status_foresthab_orig %>%
+  mutate(status_fieldwork = ifelse(is.na(info_status_fieldwork), "Opname volledig uitgevoerd",
+                                ifelse(info_status_fieldwork == "Geen opname : geen doelhabitat", "Niet van toepassing",
+                                        ifelse(info_status_fieldwork %in% c("Geen opname : geen toelating",
+                                                                            "Geen opname : permanent nt toegankelijk",
+                                                                            "Geen opname : tijdelijk nt toeg"), "Geen opname uitgevoerd",
+                                               ifelse(info_status_fieldwork == "Geen (volledig) terreinbezoek uitgevoerd", "Opname gedeeltelijk uitgevoerd", NA)))),
+         info_status_fieldwork = ifelse(is.na(info_status_fieldwork), "100% afgewerkt",
+                                       ifelse(info_status_fieldwork == "Geen opname : geen doelhabitat", "nvt - geen doelhabitat", 
+                                            ifelse(info_status_fieldwork %in% c("Geen opname : geen toelating", "Geen opname : permanent nt toegankelijk"), "geen toestemming/geen toegang (eigenaar/hond/vee)",
+                                                   ifelse(info_status_fieldwork == "Geen opname : tijdelijk nt toeg", "opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)", "opname nog niet 100% klaar")))))
 
 colnames(sample_status_openhab); colnames(sample_status_foresthab)
 
@@ -947,7 +959,8 @@ check_plot_id_missing <- sample_status %>%
 # type_observed
 
 type_observed <- get_type_observed_openhab() %>%
-    bind_rows(get_type_observed_foresthab())
+    bind_rows(get_type_observed_foresthab()) %>%
+  mutate(landuse = ifelse(str_detect(landuse, "andere"), "andere", landuse))
 
 check <-  type_observed %>%
     group_by(plot_id, type_observed_circle, type_observed_square, landuse) %>%
@@ -1066,6 +1079,9 @@ check_unique_type <- type_observed_plot %>%
 
 type_observed_plot <- type_observed_plot %>%
   filter(!(plot_id == 659794 & type_observed == "infrastructuur"))
+
+type_observed_corr <- type_observed_corr %>%
+  filter(!(plot_id == 659794 & type_observed_square == "infrastructuur"))
 ```
 
 Check plot below!
@@ -1110,28 +1126,23 @@ check_coordinates_double <- coordinates %>%
   ungroup() %>%
   filter(n > 1)
 
+types <- read_types()
+
 check_missing_data <- sample_status_most_recent %>%
     filter(!is.na(plot_id)) %>%
-    full_join(type_observed_plot, by = "plot_id") %>%
-    full_join(date_assessment_plot, by = "plot_id") %>%
+    left_join(type_observed_plot, by = "plot_id") %>%
+    left_join(date_assessment_plot, by = "plot_id") %>%
   #opname uitgevoerd cfr invav
-    mutate( assessment_source = ifelse(targethabitat %in% c("ja", "nee") | (!is.na(type_observed)), 
-                                       "field assessment", NA), 
-            inaccessible = ifelse(!is.na(info_status_fieldwork) 
+    mutate( inaccessible = ifelse(!is.na(info_status_fieldwork) 
                                    & info_status_fieldwork %in% c("tijdelijk geen toestemming/geen toegang (eigenaar/hond/vee)"), "short term", 
                                   ifelse(info_status_fieldwork %in% c("geen toestemming/geen toegang (eigenaar/hond/vee)"), "long term", NA)),
             not_measurable = ifelse(!is.na(info_status_fieldwork) 
                                    & info_status_fieldwork %in% c("opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)"), "short term", 
                                   ifelse(info_status_fieldwork %in% c("opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)"), "long term", NA)),
-            lsvi_measurement = ifelse(assessment_source == "field assessment" & 
-                                         !(info_status_fieldwork  %in% c("te hoge RANKING", "voldoende opnames beschikbaar", "opname nog niet 100% klaar")),
-                                ifelse(!is.na(targethabitat) & targethabitat == "ja", TRUE, FALSE),
-                                FALSE), 
-            lsvi_measurement = ifelse(inaccessible %in% c("short term", "long term") | not_measurable %in% c("short term", "long term"), FALSE, lsvi_measurement), 
-            # assessment_source = ifelse(inaccessible %in% c("short term", "long term"), NA, assessment_source)
-           
-           , completed = ifelse(lsvi_measurement,
-                              ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork != "100% afgewerkt", FALSE, TRUE),NA), 
+            assessment_source = ifelse((is.na(inaccessible) & is.na(not_measurable)) | type_observed %in% types$type | type_observed == "geen habitat (akker, houtkant, tuin,...)", "field assessment", NA),
+            lsvi_measurement = info_status_fieldwork == "100% afgewerkt",
+            completed = ifelse(lsvi_measurement,
+                              ifelse(!is.na(info_status_fieldwork) &  info_status_fieldwork != "100% afgewerkt", FALSE, TRUE),NA),
          coordinates_record = plot_id %in% coordinates$plot_id, 
          cover_species_record = plot_id %in% cover_species$plot_id, 
          cover_veglayers_record = plot_id %in% cover_veglayers_plot$plot_id, 
@@ -1142,21 +1153,16 @@ check_missing_data <- sample_status_most_recent %>%
          structure_openhab_record = ifelse(db == "openhab" | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
   mutate(plot_id = as.character(plot_id))
 
-
-assessments_openhab <- check_missing_data %>%
-  filter(db == "openhab") %>%
+assessments <- check_missing_data %>%
   mutate(date_assessment = if_else(is.na(date_assessment), as.Date(date_status), date_assessment)) %>%
-    select(plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record)
+    select(plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record, dendro_record) %>%
+  filter(!(is.na(assessment_source) & is.na(inaccessible) & is.na(not_measurable)))
 
-check <- assessments_openhab %>%
+check <- assessments %>%
   group_by(sampling_unit_code) %>%
   filter(n() > 1 )
 
 ```
-
-
-
-
 
 ## Measured open habitat plot with missing data 
 
@@ -1338,6 +1344,78 @@ check_missing_data_foresthab3 %>%
 
 ```{r write}
 
+sample_status_date <- sample_status_most_recent %>%
+  left_join(select(date_assessment, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything()) %>%
+  mutate(date_status = as.Date(date_status, format = "%Y-%m-%d"),
+         date_assessment = if_else(is.na(date_assessment), date_status, date_assessment)) %>%
+  select(-navplot_id, -remark4, -springveg, -veg_done, -reg_done, -dendro_done, -info_springveg)
+
+check_double <- sample_status_date %>%
+  group_by(plot_id) %>%
+  filter(n() > 1)
+
+type_observed_date <- type_observed_corr %>%
+  unique() %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, segment_id, date_assessment, everything())
+
+check <- type_observed_date %>%
+  group_by(plot_id, segment_id) %>%
+  filter(n() > 1)
+
+cover_species_date <- cover_species %>%
+  mutate(name_sc = ifelse(name_nl == "Tormentil", "Potentilla erecta (L.) Räuschel", name_sc),
+         name_sc = ifelse(name_nl == "Valse voszegge", "Carex cuprina (Sándor ex Heuffel) Nendtvich ex A. Kerner", name_sc)) %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+check <- cover_species_date %>%
+  group_by(plot_id, layer, name_nl) %>%
+  filter(n() > 1)
+
+cover_veglayers_date <- cover_veglayers %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+check <- cover_veglayers_date %>%
+  group_by(plot_id, segment_id, layer) %>%
+  filter(n() > 1)
+
+structure_vars_date <- structure_vars %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything())
+
+check <- structure_vars_date %>%
+  group_by(plot_id, segment_id, structure_var) %>%
+  filter(n() > 1)
+
+coordinates_date <- coordinates %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything()) %>%
+  select(-idplots) 
+
+check <- coordinates_date %>%
+  group_by(plot_id) %>%
+  filter(n() > 1)
+
+logs_date <- logs %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything()) 
+
+trees_a3a4_date <- trees_a3a4 %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, segment_id, tree_id, date_assessment, everything()) 
+
+check <- trees_a3a4_date %>%
+  group_by(plot_id, segment_id, tree_id) %>%
+  filter(n() > 1)
+
+trees_a2_date <- trees_a2 %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
+  select(plot_id, date_assessment, everything()) 
+
+
 path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
 
 if (!dir.exists(path)) {
@@ -1354,18 +1432,18 @@ if (!dir.exists(path)) {
     
 }
 
-write_vc(sample_status, "sample_status", root = path,  sorting = "plot_id", strict = FALSE)
-write_vc(type_observed_corr, "type_observed", root = path,  sorting = c("plot_id", "segment_id", "type_observed_circle", "type_observed_square"), strict = FALSE)
-write_vc(cover_veglayers, "cover_veglayers", root = path,  sorting = c("plot_id", "segment_id", "layer"), strict = FALSE)
-write_vc(cover_species, "cover_species", root = path,  sorting = c("plot_id", "layer", "name_nl"), strict = FALSE)
-write_vc(structure_vars, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "structure_var"), strict = FALSE)
-write_vc(date_assessment, "date_assessment", root = path,  sorting = "plot_id")
-write_vc(coordinates, "coordinates", root = path,  sorting = "plot_id")
-write_vc(trees_a3a4, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id"))
-write_vc(trees_a2, "trees_a2", root = path,  sorting = c("plot_id", "name_nl"), strict = FALSE)
-write_vc(logs, "logs", root = path,  sorting = c("plot_id", "idline_intersect_method"))
+write_vc(sample_status_date, "sample_status", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
+write_vc(type_observed_date, "type_observed", root = path,  sorting = c("plot_id", "segment_id", "date_assessment", "type_observed_circle", "type_observed_square"), strict = FALSE)
+write_vc(cover_veglayers_date, "cover_veglayers", root = path,  sorting = c("plot_id", "segment_id", "date_assessment", "layer"), strict = FALSE)
+write_vc(cover_species_date, "cover_species", root = path,  sorting = c("plot_id", "date_assessment", "layer", "name_nl"), strict = FALSE)
+write_vc(structure_vars_date, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "date_assessment",  "structure_var"), strict = FALSE)
+write_vc(date_assessment, "date_assessment", root = path,  sorting = ("plot_id"))
+write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"))
+write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
+write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
+write_vc(logs_date, "logs", root = path,  sorting = c("plot_id", "date_assessment", "idline_intersect_method"), strict = FALSE)
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id")
-write_vc(assessments_openhab, root = path,  "assessments_openhab", sorting = "plot_id", strict = FALSE)
+write_vc(assessments, root = path,  "assessments", sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(check_missing_data_foresthab, root = path,  "check_missing_data_foresthab", sorting = "plot_id")
 write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
 
