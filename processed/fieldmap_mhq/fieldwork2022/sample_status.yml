@@ -3,10 +3,8 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 4a107968b6fb50b53988b23d7e75f4af3d43e6d2
-  data_hash: 8f3e88e63888a8a504d2914387648d593c953577
-navplot_id:
-  class: integer
+  hash: 431d30136a746f93015e740a044d5f090084b7fe
+  data_hash: 6b238259dc2b3d99afafff5d0764d9ddf0dade95
 plot_id:
   class: integer
 date_status:
@@ -23,7 +21,15 @@ remark:
   class: character
 db:
   class: character
+navplot_id:
+  class: integer
 point_code:
   class: character
 extra_subt:
+  class: integer
+opnamevoortargethabitat:
+  class: character
+typeinv:
+  class: integer
+ranking:
   class: integer

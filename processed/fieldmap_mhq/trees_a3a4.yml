@@ -1,12 +1,13 @@
 ..generic:
-  git2rdata: 0.3.1
+  git2rdata: 0.4.0
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - segment_id
-  hash: 01b162111c0c5f2657fefb707cbad5542d367bb8
-  data_hash: 25509b20a70e6feda1c16f0f7815229d7e3ec217
+  - date_assessment
+  hash: b051b84dffa037b03b720669ea49dc3874e083c8
+  data_hash: 50424695d6b86a3ce5da0ec798c1581537ef8234
 plot_id:
   class: integer
 segment_id:
@@ -25,3 +26,8 @@ coppice_individual:
   class: character
 intact_tree:
   class: character
+tree_id:
+  class: integer
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
