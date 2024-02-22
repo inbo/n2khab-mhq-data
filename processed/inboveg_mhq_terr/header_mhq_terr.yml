@@ -1,0 +1,23 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: recording_givid
+  hash: 3d50becbfec895824e26ac91c3faea3ffeabe56f
+  data_hash: 8cff5b34f77f1e18ec14662cf302e384d37eb67c
+recording_givid:
+  class: character
+survey:
+  class: character
+user_reference:
+  class: character
+area:
+  class: numeric
+vague_date_begin:
+  class: character
+vague_date_end:
+  class: character
+latitude:
+  class: numeric
+longitude:
+  class: numeric
