@@ -7,7 +7,7 @@
   - segment_id
   - date_assessment
   hash: b051b84dffa037b03b720669ea49dc3874e083c8
-  data_hash: 50424695d6b86a3ce5da0ec798c1581537ef8234
+  data_hash: cda57669e8777395f35e5b34d63b80b5bbcaf4c3
 plot_id:
   class: integer
 segment_id:

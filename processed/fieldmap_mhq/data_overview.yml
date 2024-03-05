@@ -1,10 +1,10 @@
 ..generic:
-  git2rdata: 0.3.1
+  git2rdata: 0.4.0
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 33a45c73bb5a7162b64aedf3e78330f011ff0228
-  data_hash: 975b2ab952812738489073c0c211e2c74942ef64
+  hash: be6890db6eaa707f48f93379e418726bd03c8106
+  data_hash: b940e0cc22d20a9dd1cb2df9e437f6400555436f
 plot_id:
   class: character
 sampling_unit_code:
@@ -52,3 +52,33 @@ dendro_record:
   class: logical
 structure_openhab_record:
   class: logical
+navplot_id:
+  class: integer
+veg_done:
+  class: integer
+reg_done:
+  class: integer
+dendro_done:
+  class: integer
+info_springveg:
+  class: character
+springveg:
+  class: integer
+remark4:
+  class: logical
+type_observed_square:
+  class: character
+landuse:
+  class: character
+segment_id:
+  class: integer
+type_observed_cover_circle:
+  class: numeric
+type_observed_circle_description:
+  class: character
+mixed_plot:
+  class: logical
+type_observed:
+  class: character
+not_measurable:
+  class: character
