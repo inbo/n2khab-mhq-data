@@ -942,7 +942,7 @@ write_csv2(structure_vars_dataset, "../../processed/fieldmap_mhq/fieldwork2022/m
 
 # Update .vc file
 
-```{r, eval = FALSE}
+```{r, eval = TRUE}
 date_assessment_old <- read_vc(file = "date_assessment", root = "../../processed/fieldmap_mhq")
 
 check_overlap <- date_assessment %>%
@@ -967,12 +967,12 @@ sample_status_new <- sample_status %>%
    mutate(date_status = as.Date(date_status, format = "%Y-%m-%d"),
          date_assessment = if_else(is.na(date_assessment), date_status, date_assessment)) %>%
   select(plot_id, date_assessment, everything()) %>%
-  select(-extra_subt, -navplot_id, -typeinv, -ranking)
+  select(-extra_subt, -navplot_id, -typeinv, -ranking, -opnamevoortargethabitat, -point_code)
 
 sample_status_update <- sample_status_old %>%
   bind_rows(sample_status_new) %>%
   arrange(date_assessment) %>%
-  select(plot_id, point_code, sampling_unit_code, date_assessment, everything())
+  select(plot_id, sampling_unit_code, date_assessment, everything())
 
 check <- sample_status_update %>%
   group_by(plot_id) %>%
@@ -1002,9 +1002,7 @@ write_vc(type_observed_update, file = "type_observed", root = "../../processed/f
 
 # cover species
 
-cover_species_old <-  read_vc(file = "cover_species", root = "../../processed/fieldmap_mhq")  %>%
-  inner_join(select(sample_status_old, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything())
+cover_species_old <-  read_vc(file = "cover_species", root = "../../processed/fieldmap_mhq") 
 
 cover_species_new <- cover_species %>%
   inner_join(select(sample_status_new, plot_id, date_assessment), by = "plot_id") %>%
@@ -1025,9 +1023,7 @@ write_vc(cover_species_update, file = "cover_species", root = "../../processed/f
 
 # cover veglayers
 
-cover_veglayers_old <-  read_vc(file = "cover_veglayers", root = "../../processed/fieldmap_mhq")  %>%
-  inner_join(select(sample_status_old, plot_id, date_assessment, status_fieldwork, info_status_fieldwork), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything())
+cover_veglayers_old <-  read_vc(file = "cover_veglayers", root = "../../processed/fieldmap_mhq") 
 
 cover_veglayers_new <- cover_veglayers %>%
   inner_join(select(sample_status_new, plot_id, date_assessment, status_fieldwork, info_status_fieldwork), by = "plot_id") %>%
@@ -1049,22 +1045,20 @@ check_missing_cover <- cover_veglayers_new %>%
   ungroup() %>%
   filter(all_na | some_na)
 
-check_missing_cover_old <- cover_veglayers_old %>%
-  group_by(plot_id, info_status_fieldwork) %>%
-  summarise(all_na = all(is.na(cover) & is.na(cover_mean)),
-            some_na = any(is.na(cover) & is.na(cover_mean)),
-            n_missing = sum(is.na(cover) & is.na(cover_mean))) %>%
-  ungroup() %>%
-  filter(all_na | some_na)
+# check_missing_cover_old <- cover_veglayers_old %>%
+#   group_by(plot_id, info_status_fieldwork) %>%
+#   summarise(all_na = all(is.na(cover) & is.na(cover_mean)),
+#             some_na = any(is.na(cover) & is.na(cover_mean)),
+#             n_missing = sum(is.na(cover) & is.na(cover_mean))) %>%
+#   ungroup() %>%
+#   filter(all_na | some_na)
 
 write_vc(cover_veglayers_update, file = "cover_veglayers", root = "../../processed/fieldmap_mhq",
          sorting = c("plot_id", "segment_id", "date_assessment", "layer"), strict = FALSE)
 
 # structure vars
 
-structure_vars_old <-  read_vc(file = "structure_vars", root = "../../processed/fieldmap_mhq")  %>%
-  inner_join(select(sample_status_old, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything())
+structure_vars_old <-  read_vc(file = "structure_vars", root = "../../processed/fieldmap_mhq") 
 
 structure_vars_new <- structure_vars %>%
   inner_join(select(sample_status_new, plot_id, date_assessment), by = "plot_id") %>%
