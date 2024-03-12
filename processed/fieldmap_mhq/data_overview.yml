@@ -3,8 +3,8 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: be6890db6eaa707f48f93379e418726bd03c8106
-  data_hash: b940e0cc22d20a9dd1cb2df9e437f6400555436f
+  hash: 47c82a0308fe3977a50b56a26fa256fc03a504fa
+  data_hash: c263f736f767186aa5ff0ec90ac2005ccd98d39f
 plot_id:
   class: character
 sampling_unit_code:
@@ -65,7 +65,7 @@ info_springveg:
 springveg:
   class: integer
 remark4:
-  class: logical
+  class: character
 type_observed_square:
   class: character
 landuse:

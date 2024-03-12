@@ -7,7 +7,7 @@
   - segment_id
   - date_assessment
   hash: ee08042e5db8130af8dfe5c2f8bfe835cd4d7cb4
-  data_hash: dccda844be423f7d3c3d7edfb3ab99d08b59ac31
+  data_hash: 0c42dfcd1d8c9aa9fc66ccc60ff4ae3fb2b32c5e
 plot_id:
   class: integer
 type_observed_circle:

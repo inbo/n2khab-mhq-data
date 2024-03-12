@@ -1424,6 +1424,41 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 33718	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r1 : sporadisch (< 1%)	1	16315
 33718	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	5 : willekeurig (45-55%)	50	16315
 33718	mosslayer	Ruig haarmos	Polytrichum piliferum	Londo	7 : willekeurig (65-75%)	70	16315
+34361	herblayer	Aalbes	Ribes rubrum L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	4       : 50 - 75 %	62.5	18733
+34361	herblayer	Boszegge	Carex sylvatica Huds.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18733
+34361	herblayer	Dalkruid	Maianthemum bifolium (L.) F.W. Schmidt	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Eenstijlige meidoorn	Crataegus monogyna Jacq.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	herblayer	Fluitenkruid	Anthriscus sylvestris (L.) Hoffmann	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	herblayer	Gestreepte witbol	Holcus lanatus L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18733
+34361	herblayer	Gevlekte aronskelk	Arum maculatum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18733
+34361	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18733
+34361	herblayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Gewone salomonszegel	Polygonatum multiflorum (L.) All.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18733
+34361	herblayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Grote vossenstaart	Alopecurus pratensis L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18733
+34361	herblayer	Haagbeuk	Carpinus betulus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	herblayer	Iep (G)	Ulmus	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Kleine maagdenpalm	Vinca minor L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18733
+34361	herblayer	Klimop	Hedera helix L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18733
+34361	herblayer	Paardebloem	Taraxacum Wiggers sectie Subvulgaria Chr	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Scherpe boterbloem	Ranunculus acris L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18733
+34361	herblayer	Wilde hyacint	Hyacinthoides non-scripta (L.) Chouard e	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18733
+34361	herblayer	Wilde kamperfoelie	Lonicera periclymenum L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Witte abeel	Populus alba L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	herblayer	Zoete kers	Prunus avium (L.) L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	shrublayer	Eenstijlige meidoorn	Crataegus monogyna Jacq.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	shrublayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18733
+34361	shrublayer	Haagbeuk	Carpinus betulus L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18733
+34361	shrublayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	shrublayer	Klimop	Hedera helix L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	treelayer	Beuk	Fagus sylvatica L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18733
+34361	treelayer	Es	Fraxinus excelsior L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18733
+34361	treelayer	Haagbeuk	Carpinus betulus L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18733
+34361	treelayer	Klimop	Hedera helix L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18733
+34361	treelayer	Zomereik	Quercus robur L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18733
 34514	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Londo	r1 : sporadisch (< 1%)	1	16310
 34514	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	2 : willekeurig (15-25%)	20	16310
 34514	herblayer	Schapenzuring	Rumex acetosella L.	Londo	r1 : sporadisch (< 1%)	1	16310
@@ -1567,6 +1602,35 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 40146	mosslayer	Gewoon haarmos	Polytrichum commune	Londo	p1 : weinig talrijk (< 1%)	1	19241
 40146	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	2 : willekeurig (15-25%)	20	19241
 40146	shrublayer	Ruwe berk	Betula pendula Roth	Londo	2 : willekeurig (15-25%)	20	19241
+41209	herblayer	Berk (G)	Betula	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+41209	herblayer	Bosandoorn	Stachys sylvatica L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18726
+41209	herblayer	Bosbingelkruid	Mercurialis perennis L.	Braun-Blanquet	4       : 50 - 75 %	62.5	18726
+41209	herblayer	Daslook	Allium ursinum L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	herblayer	Es (G)	Fraxinus	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Gele dovenetel	Lamium galeobdolon (L.) L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	herblayer	Gevlekte aronskelk	Arum maculatum L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	herblayer	Gladde witbol	Holcus mollis L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+41209	herblayer	Groot heksenkruid	Circaea lutetiana L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Grote brandnetel	Urtica dioica L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+41209	herblayer	Heelkruid	Sanicula europaea L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+41209	herblayer	Hondsdraf	Glechoma hederacea L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Kleefkruid	Galium aparine L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Klimop	Hedera helix L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Muskuskruid	Adoxa moschatellina L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+41209	herblayer	Slanke sleutelbloem	Primula elatior (L.) Hill	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
+41209	herblayer	Zoete kers	Prunus avium (L.) L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	shrublayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+41209	shrublayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
+41209	shrublayer	Klimop	Hedera helix L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+41209	treelayer	Es	Fraxinus excelsior L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+41209	treelayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18726
+41209	treelayer	Iep (G)	Ulmus	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+41209	treelayer	Populier (G)	Populus	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+41209	treelayer	Wilg (G)	Salix	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+41209	treelayer	Zoete kers	Prunus avium (L.) L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
 41814	herblayer	Engels raaigras	Lolium perenne L.	Londo	a2 : talrijk (1-3%)	2	16232
 41814	herblayer	Gestreepte witbol	Holcus lanatus L.	Londo	2 : willekeurig (15-25%)	20	16232
 41814	herblayer	Gewone brunel	Prunella vulgaris L.	Londo	p1 : weinig talrijk (< 1%)	1	16232
@@ -1650,6 +1714,43 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 44626	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	19236
 44626	mosslayer	Heideklauwtjesmos	Hypnum jutlandicum	Londo	3 : willekeurig (25-35%)	30	19236
 44626	mosslayer	Pluisjesmos (G)	Dicranella species	Londo	p1 : weinig talrijk (< 1%)	1	19236
+45305	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Bosandoorn	Stachys sylvatica L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
+45305	herblayer	Boszegge	Carex sylvatica Huds.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Geel nagelkruid	Geum urbanum L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	herblayer	Gele kornoelje	Cornus mas L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	herblayer	Gevlekte aronskelk	Arum maculatum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
+45305	herblayer	Gewone engelwortel	Angelica sylvestris L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Groot heksenkruid	Circaea lutetiana L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Grote brandnetel	Urtica dioica L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Hondsdraf	Glechoma hederacea L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Kleefkruid	Galium aparine L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Klimop	Hedera helix L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Mannetjesvaren	Dryopteris filix-mas (L.) Schott	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Pinksterbloem	Cardamine pratensis L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Robertskruid	Geranium robertianum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Rood zwenkgras	Festuca rubra L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Ruwe smele	Deschampsia cespitosa (L.) Beauv.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+45305	herblayer	Scherpe zegge	Carex acuta L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
+45305	herblayer	Slanke sleutelbloem	Primula elatior (L.) Hill	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18726
+45305	herblayer	Smalle stekelvaren	Dryopteris carthusiana (Vill.) H.P. Fuch	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18726
+45305	herblayer	Zevenblad	Aegopodium podagraria L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18726
+45305	herblayer	Zwarte bes	Ribes nigrum L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	herblayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18726
+45305	shrublayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	shrublayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	shrublayer	Wilg (G)	Salix	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	shrublayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	treelayer	Es	Fraxinus excelsior L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18726
+45305	treelayer	Populier (G)	Populus	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+45305	treelayer	Wilg (G)	Salix	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+45305	treelayer	Zomereik	Quercus robur L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18726
+45305	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	4       : 50 - 75 %	62.5	18726
 45526	herblayer	Basterdwederik (G)	Epilobium	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16658
 45526	herblayer	Bitterzoet	Solanum dulcamara L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16658
 45526	herblayer	Braam (G)	Rubus	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16658
@@ -1933,6 +2034,24 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 66270	herblayer	Veenbies	Scirpus cespitosus L.	Londo	r1 : sporadisch (< 1%)	1	17099
 66270	herblayer	Witte snavelbies	Rhynchospora alba (L.) Vahl	Londo	1 - : willekeurig (5-10%)	7	17099
 66270	mosslayer	Kussentjesveenmos	Sphagnum compactum	Londo	m2 : zeer talrijk (1-3%)	2	17099
+68790	herblayer	Dotterbloem	Caltha palustris L.	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Echte valeriaan	Valeriana repens Host	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Gele lis	Iris pseudacorus L.	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Liesgras	Glyceria maxima (Hartm.) Holmberg	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Moeraswalstro	Galium palustre L.	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Pinksterbloem	Cardamine pratensis L.	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Ruw beemdgras	Poa trivialis L.	Braun-Blanquet	NA	NA	18767
+68790	herblayer	Scherpe boterbloem	Ranunculus acris L.	Braun-Blanquet	NA	NA	18767
+68790	shrublayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	NA	NA	18767
+68790	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	NA	NA	18767
+71478	herblayer	Elzenzegge	Carex elongata L.	Braun-Blanquet	NA	NA	18774
+71478	herblayer	Gele lis	Iris pseudacorus L.	Braun-Blanquet	NA	NA	18774
+71478	herblayer	Hennegras	Calamagrostis canescens (Weber) Roth	Braun-Blanquet	NA	NA	18774
+71478	herblayer	IJle zegge	Carex remota Jusl. ex L.	Braun-Blanquet	NA	NA	18774
+71478	herblayer	Ruw beemdgras	Poa trivialis L.	Braun-Blanquet	NA	NA	18774
+71478	herblayer	Sterzegge	Carex echinata Murray	Braun-Blanquet	NA	NA	18774
+71478	herblayer	Valeriaan (G)	Valeriana	Braun-Blanquet	NA	NA	18774
 71902	herblayer	Pijpenstrootje (G)	Molinia	Londo	10 : willekeurig (95-100%)	97	17081
 72690	herblayer	Gewone dophei	Erica tetralix L.	Londo	2 : willekeurig (15-25%)	20	16302
 72690	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	9 : willekeurig (85-95%)	90	16302
@@ -2871,14 +2990,14 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 131806	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	1 : willekeurig (5-15%)	10	17094
 131806	mosslayer	Geoord veenmos	Sphagnum denticulatum	Londo	3 : willekeurig (25-35%)	30	17094
 131806	mosslayer	Waterveenmos	Sphagnum cuspidatum	Londo	a1 : talrijk (< 1%)	1	17094
-132818	herblayer	Drijvend fonteinkruid	Potamogeton natans L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18612
-132818	herblayer	Gele lis	Iris pseudacorus L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18612
-132818	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Braun-Blanquet	4       : 50 - 75 %	62.5	18612
-132818	herblayer	Pitrus	Juncus effusus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18612
-132818	herblayer	Pluimzegge	Carex paniculata L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18612
-132818	shrublayer	Boswilg	Salix caprea L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18612
-132818	shrublayer	Gagel (G)	Myrica	Braun-Blanquet	3       : 25 - 50  %	37.5	18612
-132818	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18612
+132818	herblayer	Drijvend fonteinkruid	Potamogeton natans L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18374
+132818	herblayer	Gele lis	Iris pseudacorus L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18374
+132818	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Braun-Blanquet	4       : 50 - 75 %	62.5	18374
+132818	herblayer	Pitrus	Juncus effusus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18374
+132818	herblayer	Pluimzegge	Carex paniculata L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18374
+132818	shrublayer	Boswilg	Salix caprea L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18374
+132818	shrublayer	Gagel (G)	Myrica	Braun-Blanquet	3       : 25 - 50  %	37.5	18374
+132818	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18374
 134098	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	r1 : sporadisch (< 1%)	1	16322
 134098	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	1 - : willekeurig (5-10%)	7	16322
 134098	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	10 : willekeurig (95-100%)	97	16322
@@ -3573,6 +3692,18 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 191966	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	r2 : sporadisch (1-3%)	2	17781
 191966	herblayer	Zomereik	Quercus robur L.	Londo	p1 : weinig talrijk (< 1%)	1	17781
 191966	treelayer	Berk (G)	Betula	Londo	r2 : sporadisch (1-3%)	2	17781
+193206	herblayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18801
+193206	herblayer	Blauwe bosbes	Vaccinium myrtillus L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18801
+193206	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18801
+193206	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18801
+193206	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Braun-Blanquet	3       : 25 - 50  %	37.5	18801
+193206	herblayer	Sporkehout	Frangula alnus Mill.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18801
+193206	herblayer	Zomereik	Quercus robur L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18801
+193206	shrublayer	Amerikaans krentenboompje	Amelanchier lamarckii F.G. Schroeder	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18801
+193206	shrublayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18801
+193206	shrublayer	Sporkehout	Frangula alnus Mill.	Braun-Blanquet	4       : 50 - 75 %	62.5	18801
+193206	shrublayer	Wilde lijsterbes	Sorbus aucuparia L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18801
+193206	treelayer	Zomereik	Quercus robur L.	Braun-Blanquet	5       : 75 - 100 %	87.5	18801
 193246	herblayer	Gewone dophei	Erica tetralix L.	Londo	3 : willekeurig (25-35%)	30	18116
 193246	herblayer	Grove den	Pinus sylvestris L.	Londo	p2 : weinig talrijk (1-3%)	2	18116
 193246	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	5 : willekeurig (45-55%)	50	18116
@@ -3652,40 +3783,40 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 200630	herblayer	Pijpenstrootje (G)	Molinia	Londo	1 + : willekeurig (10-15%)	12	17743
 200630	herblayer	Pilzegge	Carex pilulifera L.	Londo	r1 : sporadisch (< 1%)	1	17743
 200630	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	17743
-201689	herblayer	Behaarde boterbloem	Ranunculus sardous Crantz	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16871
-201689	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16871
-201689	herblayer	Bosereprijs	Veronica montana L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16871
-201689	herblayer	Braam (G)	Rubus	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16871
-201689	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16871
-201689	herblayer	Dagkoekoeksbloem	Silene dioica (L.) Clairv.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Gele dovenetel	Lamium galeobdolon (L.) L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	16871
-201689	herblayer	Gevlekte dovenetel	Lamium maculatum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16871
-201689	herblayer	Gewone hennepnetel	Galeopsis tetrahit L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16871
-201689	herblayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16871
-201689	herblayer	Groot heksenkruid	Circaea lutetiana L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16871
-201689	herblayer	Grote brandnetel	Urtica dioica L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16871
-201689	herblayer	Hondsdraf	Glechoma hederacea L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Kleefkruid	Galium aparine L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Klimop	Hedera helix L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16871
-201689	herblayer	Muskuskruid	Adoxa moschatellina L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Paarbladig goudveil	Chrysosplenium oppositifolium L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Robertskruid	Geranium robertianum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Ruw beemdgras	Poa trivialis L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16871
-201689	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	16871
-201689	herblayer	Wijfjesvaren	Athyrium filix-femina (L.) Roth	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16871
-201689	herblayer	Wilde hyacint	Hyacinthoides non-scripta (L.) Chouard ex Rothm.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16871
-201689	herblayer	Witte klaverzuring	Oxalis acetosella L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16871
-201689	shrublayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16871
-201689	shrublayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16871
-201689	treelayer	Beuk	Fagus sylvatica L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16871
-201689	treelayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	3       : 25 - 50  %	37.5	16871
-201689	treelayer	Haagbeuk	Carpinus betulus L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16871
-201689	treelayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16871
-201689	treelayer	Populier (G)	Populus	Braun-Blanquet	4       : 50 - 75 %	62.5	16871
-201689	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16871
+201689	herblayer	Behaarde boterbloem	Ranunculus sardous Crantz	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16820
+201689	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16820
+201689	herblayer	Bosereprijs	Veronica montana L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16820
+201689	herblayer	Braam (G)	Rubus	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16820
+201689	herblayer	Brede stekelvaren	Dryopteris dilatata (Hoffmann) A. Gray	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16820
+201689	herblayer	Dagkoekoeksbloem	Silene dioica (L.) Clairv.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Gele dovenetel	Lamium galeobdolon (L.) L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	16820
+201689	herblayer	Gevlekte dovenetel	Lamium maculatum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16820
+201689	herblayer	Gewone hennepnetel	Galeopsis tetrahit L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16820
+201689	herblayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16820
+201689	herblayer	Groot heksenkruid	Circaea lutetiana L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16820
+201689	herblayer	Grote brandnetel	Urtica dioica L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16820
+201689	herblayer	Hondsdraf	Glechoma hederacea L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Kleefkruid	Galium aparine L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Klimop	Hedera helix L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16820
+201689	herblayer	Muskuskruid	Adoxa moschatellina L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Paarbladig goudveil	Chrysosplenium oppositifolium L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Robertskruid	Geranium robertianum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Ruw beemdgras	Poa trivialis L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16820
+201689	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	16820
+201689	herblayer	Wijfjesvaren	Athyrium filix-femina (L.) Roth	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16820
+201689	herblayer	Wilde hyacint	Hyacinthoides non-scripta (L.) Chouard ex Rothm.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	16820
+201689	herblayer	Witte klaverzuring	Oxalis acetosella L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16820
+201689	shrublayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16820
+201689	shrublayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	16820
+201689	treelayer	Beuk	Fagus sylvatica L.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16820
+201689	treelayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	3       : 25 - 50  %	37.5	16820
+201689	treelayer	Haagbeuk	Carpinus betulus L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	16820
+201689	treelayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	16820
+201689	treelayer	Populier (G)	Populus	Braun-Blanquet	4       : 50 - 75 %	62.5	16820
+201689	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	16820
 205501	herblayer	Gewone dophei	Erica tetralix L.	Londo	p2 : weinig talrijk (1-3%)	2	17394
 205501	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Londo	10 : willekeurig (95-100%)	97	17394
 205501	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	2 : willekeurig (15-25%)	20	17394
@@ -5098,6 +5229,9 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 333385	herblayer	Smalle weegbree	Plantago lanceolata L.	Londo	r1 : sporadisch (< 1%)	1	19145
 333385	herblayer	Veldzuring	Rumex acetosa L.	Londo	a1 : talrijk (< 1%)	1	19145
 333385	herblayer	Witte klaver	Trifolium repens L.	Londo	p1 : weinig talrijk (< 1%)	1	19145
+337846	herblayer	Dotterbloem	Caltha palustris L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18766
+337846	herblayer	Grote wederik	Lysimachia vulgaris L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18766
+337846	herblayer	Holpijp	Equisetum fluviatile L.	Braun-Blanquet	5       : 75 - 100 %	87.5	18766
 338386	herblayer	Fioringras	Agrostis stolonifera L.	Londo	r1 : sporadisch (< 1%)	1	17746
 338386	herblayer	Grove den	Pinus sylvestris L.	Londo	p1 : weinig talrijk (< 1%)	1	17746
 338898	herblayer	Gewone dophei	Erica tetralix L.	Londo	p2 : weinig talrijk (1-3%)	2	17750
@@ -6458,6 +6592,19 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 684982	herblayer	Schapenzuring	Rumex acetosella L.	Londo	p1 : weinig talrijk (< 1%)	1	17752
 684982	herblayer	Struikhei	Calluna vulgaris (L.) Hull	Londo	7 : willekeurig (65-75%)	70	17752
 684982	herblayer	Zandstruisgras	Agrostis vinealis Schreb.	Londo	p1 : weinig talrijk (< 1%)	1	17752
+697062	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Braun-Blanquet	2m   : < 5 % (> 100)	4	18801
+697062	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18801
+697062	herblayer	Pijpenstrootje	Molinia caerulea (L.) Moench	Braun-Blanquet	5       : 75 - 100 %	87.5	18801
+697062	herblayer	Sporkehout	Frangula alnus Mill.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18801
+697062	herblayer	Wilde lijsterbes	Sorbus aucuparia L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18801
+697062	herblayer	Zomereik	Quercus robur L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18801
+697062	shrublayer	Amerikaans krentenboompje	Amelanchier lamarckii F.G. Schroeder	Braun-Blanquet	3       : 25 - 50  %	37.5	18801
+697062	shrublayer	Amerikaanse vogelkers	Prunus serotina Ehrh.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18801
+697062	shrublayer	Sporkehout	Frangula alnus Mill.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18801
+697062	shrublayer	Wilde lijsterbes	Sorbus aucuparia L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18801
+697062	treelayer	Grove den	Pinus sylvestris L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18801
+697062	treelayer	Ruwe berk	Betula pendula Roth	Braun-Blanquet	3       : 25 - 50  %	37.5	18801
+697062	treelayer	Zomereik	Quercus robur L.	Braun-Blanquet	4       : 50 - 75 %	62.5	18801
 714198	herblayer	Berk (G)	Betula	Londo	r2 : sporadisch (1-3%)	2	17088
 714198	herblayer	Bochtige smele	Deschampsia flexuosa (L.) Trin.	Londo	p2 : weinig talrijk (1-3%)	2	17088
 714198	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	r1 : sporadisch (< 1%)	1	17088
@@ -6511,6 +6658,45 @@ plot_id	layer	name_nl	name_sc	coverscale_name	cover_description	cover_mean	date_
 720369	herblayer	Veldzuring	Rumex acetosa L.	Londo	p1 : weinig talrijk (< 1%)	1	19166
 720369	herblayer	Vogelwikke	Vicia cracca L.	Londo	1 - : willekeurig (5-10%)	7	19166
 720369	herblayer	Weidekervel-torkruid	Oenanthe silaifolia Bieb.	Londo	p1 : weinig talrijk (< 1%)	1	19166
+735033	herblayer	Aalbes	Ribes rubrum L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Bittere veldkers	Cardamine amara L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Bloedzuring	Rumex sanguineus L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Bosanemoon	Anemone nemorosa L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Bosbingelkruid	Mercurialis perennis L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Bosgierstgras	Milium effusum L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18738
+735033	herblayer	Dagkoekoeksbloem	Silene dioica (L.) Clairv.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Daslook	Allium ursinum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Fioringras	Agrostis stolonifera L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Gele dovenetel	Lamium galeobdolon (L.) L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Gevlekte aronskelk	Arum maculatum L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Gewone braam (Rubus fruticosus groep)	Rubus fruticosus groep	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18738
+735033	herblayer	Gewone engelwortel	Angelica sylvestris L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Grote brandnetel	Urtica dioica L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18738
+735033	herblayer	Hondsdraf	Glechoma hederacea L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	18738
+735033	herblayer	Kleefkruid	Galium aparine L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	18738
+735033	herblayer	Klimop	Hedera helix L.	Braun-Blanquet	3       : 25 - 50  %	37.5	18738
+735033	herblayer	Kruipende boterbloem	Ranunculus repens L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Moerasspirea	Filipendula ulmaria (L.) Maxim.	Braun-Blanquet	2a     : 5 - 12,5 %	8.75	18738
+735033	herblayer	Moesdistel	Cirsium oleraceum (L.) Scop.	Braun-Blanquet	2m   : < 5 % (> 100)	4	18738
+735033	herblayer	Muskuskruid	Adoxa moschatellina L.	Braun-Blanquet	2m   : < 5 % (> 100)	4	18738
+735033	herblayer	Reuzenpaardenstaart	Equisetum telmateia Ehrh.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Robertskruid	Geranium robertianum L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Ruw beemdgras	Poa trivialis L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	herblayer	Slanke sleutelbloem	Primula elatior (L.) Hill	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Speenkruid	Ranunculus ficaria L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18738
+735033	herblayer	Verspreidbladig goudveil	Chrysosplenium alternifolium L.	Braun-Blanquet	1      : < 5 % (20 - 100)	2.25	18738
+735033	herblayer	Wilde narcis	Narcissus pseudonarcissus L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18738
+735033	herblayer	Zevenblad	Aegopodium podagraria L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	shrublayer	Eenstijlige meidoorn	Crataegus monogyna Jacq.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18738
+735033	shrublayer	Gewone esdoorn	Acer pseudoplatanus L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18738
+735033	shrublayer	Gewone vlier	Sambucus nigra L.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18738
+735033	shrublayer	Hazelaar	Corylus avellana L.	Braun-Blanquet	2b     : 12,5 - 25 %	18.75	18738
+735033	shrublayer	Klimop	Hedera helix L.	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	shrublayer	Wilg (G)	Salix	Braun-Blanquet	+      : < 5 % (3 - 20)	1	18738
+735033	shrublayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	r       : < 5 % (1 - 2 )	0.25	18738
+735033	treelayer	Wilg (G)	Salix	Braun-Blanquet	4       : 50 - 75 %	62.5	18738
+735033	treelayer	Zwarte els	Alnus glutinosa (L.) Gaertn.	Braun-Blanquet	3       : 25 - 50  %	37.5	18738
 738230	herblayer	Biggekruid (G)	Hypochaeris	Londo	r2 : sporadisch (1-3%)	2	17407
 738230	herblayer	Buntgras	Corynephorus canescens (L.) Beauv.	Londo	a4 : talrijk (3-5%)	4	17407
 738230	herblayer	Dwergviltkruid	Filago minima (Smith) Pers.	Londo	a1 : talrijk (< 1%)	1	17407

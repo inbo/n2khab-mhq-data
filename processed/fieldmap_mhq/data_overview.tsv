@@ -71,6 +71,7 @@ Is op bodemkaart niet ingekleurd als l"	2330_bu	17778	field assessment	NA	1	1	1	
 helft cirkelplot en pq recent gechopperd."	4030	17779	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	214	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 1119506	1119506_6510_hus	openhab	1398858583	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hus	16966	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	2	NA	NA	NA	NA	NA	NA	6510_hus	NA	1	100	100% 6510_hus	0	6510_hus	NA
 11218	11218_4010	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	16323	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
+112286	NA	foresthab_past2020	1622550889.285	NA	NA	Geen opname : geen doelhabitat	NA	geen habitat en geen rbb	18779	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	FOA	1	100	100% geen habitat en geen rbb	0	geen habitat en geen rbb	NA
 112850	112850_4030	openhab	1498464881	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	17738	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 1128562	1128562_6510_hu	openhab	1525855464.667	Geen opname uitgevoerd	onbepaald	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	"Begraasd door paarden.
 "	NA	NA	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	0	202	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	long term
@@ -175,7 +176,7 @@ Tiensebaan Molenbeek-Wersbeek/Bekkevoort.."	9120	17704	field assessment	NA	1	1	1
 1316946	1316946_6510_hu	openhab	1525855561.392	Niet van toepassing	nee	nvt - geen doelhabitat	bemest raaigras	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	203	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 131806	131806_4010	openhab	1407766578	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17094	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 1328054	1328054_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17400	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
-132818	NA	foresthab	1608111078.155	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	Geen volledige opname,hoge waterstand. 3e terreinbezoek op 5/11/2020.	91E0_vm	NA	field assessment	long term	0	NA	1	1	1	0	1	0	1	NA	5	2	2	2	NA	2	NA	NA	bos	1	77	77% 91E0_vm; 23% geen habitat 	1	91E0_vm	NA
+132818	NA	foresthab	1608111078.155	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	Geen volledige opname,hoge waterstand. 3e terreinbezoek op 5/11/2020.	91E0_vm	18374	field assessment	long term	0	NA	1	1	1	0	1	0	1	NA	5	2	2	2	NA	2	NA	NA	bos	1	77	77% 91E0_vm; 23% geen habitat 	1	91E0_vm	NA
 1328710	1328710_6510_hu	openhab	1525855464.698	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	17688	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	202	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510_hu	0	6510_hu	NA
 1340342	1340342_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17785	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 134098	134098_2310	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	16322	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
@@ -190,6 +191,7 @@ Tiensebaan Molenbeek-Wersbeek/Bekkevoort.."	9120	17704	field assessment	NA	1	1	1
 136697	NA	foresthab	1455182377	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	91E0_vc	16561	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	3	1	1	1	NA	1	NA	NA	bos	1	100	100% 91E0_vc	0	91E0_vc	NA
 13686	13686_2310	openhab	1407766577	Opname volledig uitgevoerd	ja	100% afgewerkt	"zeer veel Veldkrekels in proefvlak
 "	4030	16688	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
+137042	NA	foresthab_past2020	1621342157.619	NA	NA	opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)	Onder water	NA	18765	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	BOS	1	100	NA	0	NA	short term
 1372894	1372894_2330_bu	openhab	1498466390.656	Geen opname gevraagd 	ja	voldoende opnames beschikbaar	2310!	NA	17396	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	214	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 137401	NA	foresthab	1430823726	Niet van toepassing	NA	nvt - geen doelhabitat	91E0va  geen opname	91E0_va	NA	field assessment	NA	0	NA	0	0	0	0	0	0	0	NA	3	4	4	4	NA	5	NA	NA	bos	1	100	100% 91E0_va	0	91E0_va	NA
 1375542	1375542_6510_hu	openhab	1525855464.698	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	17680	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	202	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510_hu	0	6510_hu	NA
@@ -372,6 +374,7 @@ n adelaarsvaren."	geen habitat 	NA	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	4	1
 18546	18546_6510_hu	openhab	1398858583	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16226	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	2	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	89	89% 6510_hu; 11% geen habitat (akker, houtkant, tuin,...)	1	6510_hu	NA
 186850	186850_6510_hu	openhab	1525855561.438	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	17702	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	203	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510_hu	0	6510_hu	NA
 1868674	1868674_6510_huk	openhab	1463654688	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	103	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+187382	NA	foresthab_past2020	1622537307.964	NA	NA	Geen opname : geen doelhabitat	NA	9190	18779	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9190	0	9190	NA
 1875842	1875842_6510_huk	openhab	1398858814	Niet van toepassing	nee	nvt - geen doelhabitat	NA	onbekend	16225	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	3	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% onbekend	0	onbekend	NA
 188022	NA	foresthab	1485346294	Opname volledig uitgevoerd	NA	100% afgewerkt	Op  0,6 m  90 gr  berk x//.	91E0_vo	16588	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	4	1	1	1	NA	2	NA	NA	bos	1	100	100% 91E0_vo	0	91E0_vo	NA
 1885058	1885058_6510_huk	openhab	1463654688	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	103	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
@@ -388,6 +391,7 @@ n adelaarsvaren."	geen habitat 	NA	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	4	1
 191966	191966_4030	openhab	1498466396.768	Opname volledig uitgevoerd	ja	100% afgewerkt	4030	4030	17781	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	214	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 192022	192022_6510_hu	openhab	1525855657.236	Niet van toepassing	nee	nvt - geen doelhabitat	"geen doelhabitat binnen 100 meter.
 "	NA	17680	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	204	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+193206	NA	foresthab_past2020	1620122657.571	NA	NA	opname nog niet 100% klaar	NA	9190	18801	field assessment	NA	0	NA	1	1	1	NA	NA	NA	NA	NA	NA	1	1	2	Geen VJF	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9190	0	9190	NA
 193213	193213_4030	openhab	1498466396.778	Niet van toepassing	nee	nvt - geen doelhabitat	gemaaide rand langs buitenkant weiland,	NA	17392	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	214	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 193246	193246_4010	openhab	1498466392.181	Opname volledig uitgevoerd	ja	100% afgewerkt	4010	4010	18116	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	214	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 1939058	1939058_6510_huk	openhab	1463654410	Niet van toepassing	nee	nvt - geen doelhabitat	is 2310	2310	NA	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	102	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
@@ -406,12 +410,12 @@ n adelaarsvaren."	geen habitat 	NA	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	4	1
 200850	NA	foresthab	1554975782.788	Niet van toepassing	NA	nvt - geen doelhabitat	middepunt 9190 ranking, 30 percent 91Evm rand proevvlak sterke scheiding tussen beide	9190	NA	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	183	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9190	0	9190	NA
 201689	NA	foresthab	1457697140.234	Opname volledig uitgevoerd	NA	100% afgewerkt	"dendro ok n vegetatie ok 6/4/15/
 dendro ok 20/1/16
-bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	91E0_vc	NA	field assessment	NA	1	1	1	1	1	1	0	1	1	NA	2	NA	NA	NA	NA	NA	NA	NA	bos	1	93	93% 91E0_vc; 7% geen habitat 	1	91E0_vc	NA
+bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	91E0_vc	16820	field assessment	NA	1	1	1	1	1	1	0	1	1	NA	2	NA	NA	NA	NA	NA	NA	NA	bos	1	93	93% 91E0_vc; 7% geen habitat 	1	91E0_vc	NA
 20178	20178_2310	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	16321	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 201938	201938_4010	openhab	1498464879	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	17738	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	212	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
 20217	20217_6510_hu	openhab	1398858903	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16952	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	4	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510_hu	0	6510_hu	NA
 202185	202185_6510_hu	openhab	1525854766.119	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	201	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-20274	NA	foresthab	1554368035.398	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	9160	NA	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	183	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9160	0	9160	NA
+20274	NA	foresthab	1554368035.398	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	9160	17990	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	183	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9160	0	9160	NA
 203350	203350_6510_hu	openhab	1525855657.236	Niet van toepassing	nee	nvt - geen doelhabitat	Ruigte met riet langs nete. 	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	204	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 2037393	2037393_6510_hua	openhab	1525854766.134	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hua	18052	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	201	NA	NA	NA	NA	NA	NA	6510_hua	NA	1	100	100% 6510_hua	0	6510_hua	NA
 20406	20406_4030	openhab	1407765860	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	16329	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	12	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
@@ -486,6 +490,7 @@ Is reeds gemaaid 15 / 06 / 2"	NA	NA	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	0	202	NA	NA	NA	
 227110	227110_6510_hu	openhab	1525855464.823	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	17675	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	202	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 22726	NA	foresthab	1583927568.264	Opname volledig uitgevoerd	NA	100% afgewerkt	" baak op 3,8m / 258gr ze
 Molenbeekplein / Rechtestraat / Silsomstraat Erps-Kwerps (Kortenberg}"	9160	17710	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	184	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9160	0	9160	NA
+227286	NA	foresthab_past2020	1622465719.526	NA	NA	Geen opname : geen doelhabitat	NA	9190	18778	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	BOS	1	100	100% 9190	0	9190	NA
 229074	229074_4010	openhab	1498569610.857	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17744	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4010	NA	1	100	39% 2310; 100% 4010	1	4010	NA
 2295441	2295441_6510_hua	openhab	1525854766.144	Niet van toepassing	nee	nvt - geen doelhabitat	beweidng	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	201	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 2299537	2299537_6510_hua	openhab	1525854766.145	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hua	18052	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	201	NA	NA	NA	NA	NA	NA	6510_hua	NA	1	100	100% 6510_hua	0	6510_hua	NA
@@ -574,6 +579,8 @@ bosbouw ok 25/1/17"	91E0_vc	16553	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	2	NA	
 2663298	2663298_6510_huk	openhab	1463654688	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	103	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 266834	266834_4010	openhab	1498569610.872	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	17361	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4030	NA	1	67	67% 4030; 33% 9 : bossen	1	4030	NA
 267190	267190_2330_bu	openhab	1407765860	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	16321	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	12	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
+267222	NA	foresthab_past2020	1622456943.444	NA	NA	Geen opname : geen doelhabitat	NA	9190	18778	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	NA	1	9190	NA
+267222	NA	foresthab_past2020	1622456943.444	NA	NA	Geen opname : geen doelhabitat	NA	NA	18778	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	NA	1	100	NA	1	NA	NA
 2674098	2674098_6510_huk	openhab	1525855464.854	Geen opname uitgevoerd	ja	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	"Zwaar begraasde weide.  15 / 06 / 2018
 Gemaaid op"	NA	NA	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	0	202	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	long term
 267474	267474_2310	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	17744	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
@@ -583,6 +590,7 @@ Seepscherf / Baardegem"	91E0_vc	17715	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	1
 269298	269298_4010	openhab	1498569610.872	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17351	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 270034	NA	foresthab	1554283896.973	Niet van toepassing	NA	nvt - geen doelhabitat	qb	geen habitat 	NA	field assessment	NA	0	NA	0	0	0	0	0	0	0	NA	183	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat 	0	geen habitat 	NA
 27090	27090_2310	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	waarschijnlijk geen 2310 maar 4030	2310	16587	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
+270966	NA	foresthab_past2020	1621428969.904	NA	NA	Geen opname : geen doelhabitat	NA	rbbso - vochtig wilgenstruweel op venige en zure grond	18766	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	BOS	1	100	100% rbbso - vochtig wilgenstruweel op venige en zure grond	0	rbbso - vochtig wilgenstruweel op venige en zure grond	NA
 271446	NA	foresthab	1588001682.888	Opname volledig uitgevoerd	NA	100% afgewerkt	91EO_vo : ingemeten + veg 	91E0_vo	18019	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	181	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 91E0_vo	0	91E0_vo	NA
 272569	NA	foresthab	1554973970.579	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	NA	onbekend - niet toegankelijk/weigering	NA	NA	long term	0	NA	0	0	0	0	0	0	0	NA	186	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% onbekend - niet toegankelijk/weigering	0	onbekend - niet toegankelijk/weigering	NA
 272850	272850_4010	openhab	1498569610.888	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	17745	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
@@ -646,13 +654,14 @@ Keulestraat/Tielt-winge"	91E0_vn	17709	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	
 300534	NA	foresthab	1588001689.566	Opname volledig uitgevoerd	NA	100% afgewerkt	"91EO_vm  > ook een opname,   veg ok
 "	91E0_vm	17751	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	181	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 91E0_vm	0	91E0_vm	NA
 30153	30153_6510_hu	openhab	1398858453	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	16226	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	1	NA	NA	NA	NA	NA	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
-302006	NA	foresthab	1554283942.728	Niet van toepassing	NA	nvt - geen doelhabitat	qb duinen begroeid met zandzegge	geen habitat 	NA	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	183	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% geen habitat 	0	geen habitat 	NA
+302006	NA	foresthab	1554283942.728	Niet van toepassing	NA	nvt - geen doelhabitat	qb duinen begroeid met zandzegge	geen habitat 	17988	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	183	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% geen habitat 	0	geen habitat 	NA
 302290	302290_2310	openhab	1498569592.523	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17743	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 3026	3026_4010	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	16322	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	4030	NA	1	98	98% 4030; 2% infrastructuur	1	4030	NA
 304338	304338_2330_bu	openhab	1407765860	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	16335	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	12	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 3044226	3044226_6510_huk	openhab	1525855561.485	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	203	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 304850	304850_4010	openhab	1498569611.52	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17374	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 306130	306130_2330_bu	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	16323	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
+306870	NA	foresthab_past2020	1620204781.207	NA	NA	Geen opname : geen doelhabitat	NA	91E0*	NA	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	BOS	1	100	100% 91E0*	0	91E0*	NA
 3068802	3068802_6510_huk	openhab	1525855561.485	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_huk	17718	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	203	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	100	100% 6510_huk	0	6510_huk	NA
 3077777	3077777_6510_hua	openhab	1525854766.168	Opname volledig uitgevoerd	ja	100% afgewerkt	50m verlegd nr Z	6510_hua	18415	field assessment	NA	1	1	0	1	1	NA	NA	NA	NA	1	201	NA	NA	NA	NA	NA	NA	6510_hua	NA	1	100	100% 6510_hua	0	6510_hua	NA
 308098	308098_6510_huk	openhab	1398858812	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_huk	16212	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	3	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	83	83% 6510_huk; 17% geen habitat (akker, houtkant, tuin,...)	1	6510_huk	NA
@@ -686,6 +695,7 @@ Niet toegangkelijk op 9/03/2020,hoge waterstand.
 Idem op 5/11/2020.
 "	91E0_vm	17717	field assessment	long term	0	NA	1	1	1	0	0	0	0	NA	184	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 91E0_vm	0	91E0_vm	NA
 322002	322002_2310	openhab	1498569592.538	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17745	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
+32214	NA	foresthab_past2020	1622545048.657	NA	NA	Geen opname : geen doelhabitat	NA	9190	18779	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% 9190	0	9190	NA
 324318	324318_2310	openhab	1498466390.625	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17396	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	214	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 32466	32466_2310	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	16324	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 32681	NA	foresthab	1429250094	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	NA	NA	field assessment	NA	1	1	0	0	0	0	0	0	0	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
@@ -702,10 +712,12 @@ Is reeds gemaaid 15/06/2018  "	NA	NA	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	0	202	NA	NA	NA
 333385	333385_6510_hu	openhab	1398858453	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16231	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	1	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	54	54% 6510_hu; 46% infrastructuur	1	6510_hu	NA
 33502	33502_4010	openhab	1407766577	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	17094	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 335337	NA	foresthab	1429250094	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	NA	NA	field assessment	NA	1	1	0	0	0	0	0	0	0	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
+335990	NA	foresthab_past2020	1622031793.745	NA	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	Geen toelating	onbekend	18773	NA	long term	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	NA	1	100	100% onbekend	0	onbekend	NA
 3366786	3366786_6510_huk	openhab	1525855561.516	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_huk	18066	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	203	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	100	100% 6510_huk	0	6510_huk	NA
 33718	33718_2330_bu	openhab	1407765860	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	16315	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	12	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 337270	337270_2330_bu	openhab	1407766577	Niet van toepassing	nee	nvt - geen doelhabitat	fotos getrokken,	geen habitat (akker, houtkant, tuin,...)	NA	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	14	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
 337321	NA	foresthab	1429250095	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	NA	NA	field assessment	NA	1	1	0	0	0	0	0	0	0	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
+337846	NA	foresthab_past2020	1621500241.533	NA	NA	opname nog niet 100% klaar	Ook niet met lieslaarzen.	91E0_vm	18766	field assessment	NA	0	NA	1	1	1	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 6 opnames nodig, binnen SBZ-H	NA	BOS	1	100	100% 91E0_vm	0	91E0_vm	NA
 338386	338386_2310	openhab	1498569592.538	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17746	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	37% 2310; 100% 2330_bu	1	2330_bu	NA
 338898	338898_2310	openhab	1498569592.554	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17750	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4010	NA	1	100	26% 2310; 100% 4010	1	4010	NA
 34002	34002_4030	openhab	1407765860	Niet van toepassing	nee	nvt - geen doelhabitat	Proefvlak ligt op REMO stort	geen habitat (akker, houtkant, tuin,...)	16330	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	12	NA	NA	NA	NA	NA	NA	onbekend	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	onbekend	NA
@@ -714,6 +726,7 @@ Is reeds gemaaid 15/06/2018  "	NA	NA	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	0	202	NA	NA	NA
 342750	342750_4010	openhab	1498466394.59	Opname volledig uitgevoerd	ja	100% afgewerkt	"4010
 "	4010	18117	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	214	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 3432322	3432322_6510_huk	openhab	1525855561.516	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510	18066	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	203	NA	NA	NA	NA	NA	NA	6510	NA	1	74	74% 6510; 26% geen habitat (akker, houtkant, tuin,...)	1	6510	NA
+34361	NA	foresthab_past2020	1618563685.891	NA	NA	100% afgewerkt	9m oostwaarts	9130_end	18733	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	NA	NA	1	1	2	NA	1	Geert - 5 opnames nodig	NA	BOS	1	100	100% 9130_end	0	9130_end	NA
 344798	344798_4010	openhab	1498466394.59	Opname volledig uitgevoerd	ja	100% afgewerkt	4010	4010	18109	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	214	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 345014	345014_2310	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17408	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 34514	34514_2310	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	16310	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
@@ -721,9 +734,11 @@ Is reeds gemaaid 15/06/2018  "	NA	NA	NA	NA	0	NA	0	0	0	NA	NA	NA	NA	0	202	NA	NA	NA
 Kriebekstraat / Houwaart."	91E0_vm	17708	field assessment	NA	1	1	1	1	1	1	0	0	1	NA	184	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 91E0_vm	0	91E0_vm	NA
 347090	347090_2310	openhab	1498569592.554	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17745	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310; 10% 4010	1	2310	NA
 347858	347858_4010	openhab	1498569612.142	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17742	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
+347878	NA	foresthab_past2020	1622017655.088	NA	NA	Geen opname : geen doelhabitat	NA	9120	18773	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9120	0	9120	NA
 349433	NA	foresthab	1583155973.247	Opname volledig uitgevoerd	NA	100% afgewerkt	"baak op 30cm / 80cm zw-els
 Seepscherf/Baardegem
 "	91E0_va	17716	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	184	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 91E0_va	0	91E0_va	NA
+349906	NA	foresthab_past2020	1621326831.015	NA	NA	Geen opname : geen doelhabitat	NA	geen habitat en geen rbb	18765	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% geen habitat en geen rbb	0	geen habitat en geen rbb	NA
 35090	35090_4030	openhab	1407766578	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	16702	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 35113	35113_6510_hu	openhab	1398858903	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	NA	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	4	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
 3511922	3511922_6510_huk	openhab	1525855464.885	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	18408	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	202	NA	NA	NA	NA	NA	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
@@ -739,6 +754,9 @@ Seepscherf/Baardegem
 360146	360146_4010	openhab	1498569612.152	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17742	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 3612546	3612546_6510_huk	openhab	1525855561.516	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_huk	17718	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	203	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	100	100% 6510_huk; 5% geen habitat (akker, houtkant, tuin,...)	1	6510_huk	NA
 361398	361398_2330_bu	openhab	1407765860	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	16315	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	12	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
+364262	NA	foresthab_past2020	1620049879.703	NA	NA	Geen opname : geen doelhabitat	NA	9120	18750	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9120	0	9120	NA
+364729	NA	foresthab_past2020	1621503669.077	NA	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	omheind	NA	18767	NA	long term	0	NA	0	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	geen opname: omheindGeert - 5 opnames nodig	NA	NA	1	100	NA	0	NA	NA
+364822	NA	foresthab_past2020	1622119318.566	NA	NA	Geen opname : geen doelhabitat	NA	9190	18774	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9190	0	9190	NA
 366225	366225_6510_hua	openhab	1398858453	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hua	16220	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	1	NA	NA	NA	NA	NA	NA	6510_hua	NA	1	100	100% 6510_hua	0	6510_hua	NA
 36774	NA	foresthab	1530013240.734	Opname volledig uitgevoerd	NA	100% afgewerkt	baak op 3,5 m \ 310 gr berk.	9120	17708	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	184	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9120	0	9120	NA
 37033	NA	foresthab	1429250094	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	NA	NA	field assessment	NA	1	1	0	0	0	0	0	0	0	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
@@ -786,8 +804,11 @@ dus geen ty"	geen habitat (akker, houtkant, tuin,...)	16224	field assessment	NA	
 402390	402390_2330_bu	openhab	1498466390.719	Niet van toepassing	nee	nvt - geen doelhabitat	"gemaaide grasstrook op gasleiding.
 "	NA	17456	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	214	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 402418	402418_4010	openhab	1498569612.182	Niet van toepassing	nee	nvt - geen doelhabitat	NA	9 : bossen	17372	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	213	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 9 : bossen	0	9 : bossen	NA
+404306	NA	foresthab_past2020	1621337633.186	NA	NA	Geen opname : geen doelhabitat	NA	9190	NA	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9190	0	9190	NA
 409654	409654_6510_hu	openhab	1398858814	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16217	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	3	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	84	84% 6510_hu; 16% 9 : bossen	1	6510_hu	NA
 411446	411446_6510_hu	openhab	1398858812	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	16234	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	3	NA	NA	NA	NA	NA	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
+41209	NA	foresthab_past2020	1617972277.75	NA	NA	100% afgewerkt	NA	9130_end	18726	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	NA	NA	1	1	1	NA	1	"6M EN 191gr, van noordelijke olm 81CM
+"	NA	BOS	1	100	100% 9130_end	0	9130_end	NA
 4122918	4122918_6510_huk	openhab	1525855464.901	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_huk	17669	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	202	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	100	100% 6510_huk	0	6510_huk	NA
 416454	416454_6510_hu	openhab	1398858903	Niet van toepassing	nee	nvt - geen doelhabitat	geen opname	geen habitat (akker, houtkant, tuin,...)	16232	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	4	NA	NA	NA	NA	NA	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
 416998	416998_6510_hu	openhab	1398858583	Niet van toepassing	nee	nvt - geen doelhabitat	Geen opname,gerooid populierenbestand.	geen habitat (akker, houtkant, tuin,...)	16217	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	2	NA	NA	NA	NA	NA	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
@@ -828,6 +849,7 @@ dus geen ty"	geen habitat (akker, houtkant, tuin,...)	16224	field assessment	NA	
 4502402	4502402_6510_huk	openhab	1525855561.485	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_huk	17710	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	203	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	100	100% 6510_huk; ?% infrastructuur	1	6510_huk	NA
 450905	NA	foresthab	1554120881.735	Niet van toepassing	NA	nvt - geen doelhabitat	NA	geen habitat 	NA	field assessment	NA	0	NA	0	0	0	0	0	0	0	NA	186	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat 	0	geen habitat 	NA
 452066	452066_6510_hu	openhab	1398858812	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510	16232	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	3	NA	NA	NA	NA	NA	NA	6510	NA	1	NA	?% 6510; ?% geen habitat (akker, houtkant, tuin,...); ?% infrastructuur	1	6510	NA
+45305	NA	foresthab_past2020	1617962321.078	NA	NA	100% afgewerkt	NA	9130_end	18726	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	NA	NA	1	1	2	NA	1	Geert - 5 opnames nodig	NA	BOS	1	100	100% 9130_end	0	9130_end	NA
 45526	NA	foresthab	1597326507.103	Opname volledig uitgevoerd	NA	100% afgewerkt	"vegetatie gedaan 11/08/2015,
 dendro moeilijk doenbaar omwille van te nat, enkel dunne wilgjes aanwezig in proefvlak waarvan niet duidelijk is of het om 1 individu of verschilende stoofjes
 gaat.
@@ -884,6 +906,7 @@ Afgesloten op 1/3/2020 na eerste bezoek op 27/2."	91E0_vc	17715	field assessment
 521090	521090_6510_huk	openhab	1398858812	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	16231	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	3	NA	NA	NA	NA	NA	NA	geen habitat (akker, houtkant, tuin,...)	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
 523346	NA	foresthab	1434375587	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	NA	NA	field assessment	NA	1	1	0	0	0	0	0	0	0	NA	4	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
 526898	526898_2330_bu	openhab	1498569592.616	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17347	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	213	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
+527030	NA	foresthab_past2020	1620216091.341	NA	NA	Geen opname : geen doelhabitat	NA	geen habitat en geen rbb	18752	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% geen habitat en geen rbb	0	geen habitat en geen rbb	NA
 528582	528582_6510_hu	openhab	1398858903	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16232	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	4	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	73	73% 6510_hu; 27% geen habitat (akker, houtkant, tuin,...)	1	6510_hu	NA
 529334	529334_2330_bu	openhab	1498464879	Niet van toepassing	nee	nvt - geen doelhabitat	NA	4030	17409	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	212	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 53126	53126_6510_hu	openhab	1398858583	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	16211	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	2	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
@@ -895,6 +918,7 @@ Afgesloten op 1/3/2020 na eerste bezoek op 27/2."	91E0_vc	17715	field assessment
 5422	5422_4010	openhab	1407766577	Opname volledig uitgevoerd	ja	100% afgewerkt	"opname gedaan. begrazing!
 "	4 : heide- en struikvegetaties	17102	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4 : heide- en struikvegetaties	0	4030	NA
 542834	542834_6510_hu	openhab	1398858583	Niet van toepassing	nee	nvt - geen doelhabitat	zwaar begraasde, kapotgelopen paardenweide	NA	16973	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	2	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
+544086	NA	foresthab_past2020	1622107639.905	NA	NA	Geen opname : geen doelhabitat	Geen opname.	9120	18774	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9120	0	9120	NA
 54482	54482_4010	openhab	1407765860	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	16335	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	12	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 546002	546002_2330_bu	openhab	1463660348	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17364	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	113	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 5474582	5474582_6510_hus	openhab	1525855657.267	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hus	18031	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	204	NA	NA	NA	NA	NA	NA	6510_hus	NA	1	100	100% 6510_hus; 100% geen habitat (akker, houtkant, tuin,...)	1	6510_hus	NA
@@ -904,6 +928,7 @@ Afgesloten op 1/3/2020 na eerste bezoek op 27/2."	91E0_vc	17715	field assessment
 551218	551218_2330_bu	openhab	1463660348	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17345	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	113	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 552537	NA	foresthab	1588175925.439	Opname volledig uitgevoerd	NA	100% afgewerkt	3,58m n 219 gr vn geritste es omtr 104cm	91E0_vc	17668	field assessment	NA	1	1	1	1	1	1	1	0	1	NA	186	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 91E0_vc	0	91E0_vc	NA
 556006	556006_6510_hu	openhab	1398858583	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510	16213	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	2	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510	0	6510_hu	NA
+55734	NA	foresthab_past2020	1620722951.813	NA	NA	Geen opname : geen doelhabitat	NA	91E0_vn	18758	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% 91E0_vn	0	91E0_vn	NA
 558006	558006_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17401	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	76	76% 2330_bu; 24% onbekend	1	2330_bu	NA
 568146	568146_2330_bu	openhab	1463660348	Niet van toepassing	nee	nvt - geen doelhabitat	NA	9 : bossen	17357	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	113	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 9 : bossen	0	9 : bossen	NA
 5702	NA	foresthab	1432020797	Niet van toepassing	NA	nvt - geen doelhabitat	"grondvlak naald +50% geen opname
@@ -914,6 +939,7 @@ Afgesloten op 1/3/2020 na eerste bezoek op 27/2."	91E0_vc	17715	field assessment
 576033	576033_6510_hu	openhab	1398858453	Opname volledig uitgevoerd	ja	100% afgewerkt	gegevens op back-up	6510_hu	16976	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	1	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	54	54% 6510_hu; 46% geen habitat (akker, houtkant, tuin,...)	1	6510_hu	NA
 577849	NA	foresthab	1579797594.577	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	NA	onbekend - niet toegankelijk/weigering	NA	NA	long term	0	NA	0	0	0	0	0	0	0	NA	186	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% onbekend - niet toegankelijk/weigering	0	onbekend - niet toegankelijk/weigering	NA
 579958	579958_2330_bu	openhab	1463660164	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17072	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	112	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
+58198	NA	foresthab_past2020	1622112037.634	NA	NA	Geen opname : geen doelhabitat	Hoge waterstand.	rbbsf - vochtig wilgenstruweel op voedselrijke bodem	18774	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% rbbsf - vochtig wilgenstruweel op voedselrijke bodem	0	rbbsf - vochtig wilgenstruweel op voedselrijke bodem	NA
 583030	583030_2330_bu	openhab	1463660164	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17073	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	112	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 585810	585810_6510_hu	openhab	1398858812	Niet van toepassing	nee	nvt - geen doelhabitat	NA	onbekend	16211	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	3	NA	NA	NA	NA	NA	NA	onbekend	NA	1	100	100% onbekend	0	onbekend	NA
 589110	589110_6510_hu	openhab	1399474259	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16233	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	3	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510_hu	0	6510_hu	NA
@@ -970,11 +996,15 @@ Opgemeten in oktober 2020."	91E0_vm	18024	field assessment	NA	1	1	1	1	1	1	1	0	1	
 677174	677174_6510_hu	openhab	1463654410	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16233	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	102	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	100	100% 6510_hu	0	6510_hu	NA
 684982	684982_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2310	17752	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA
 68562	68562_4010	openhab	1407766243	Niet van toepassing	nee	nvt - geen doelhabitat	100% pijpenstrootje	geen habitat (akker, houtkant, tuin,...)	16587	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	13	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
+68601	NA	foresthab_past2020	1622195879.075	NA	NA	Geen opname : geen doelhabitat	NA	9130_end	18775	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% 9130_end	0	9130_end	NA
+68790	NA	foresthab_past2020	1621499084.932	NA	NA	opname nog niet 100% klaar	"Opname op zicht,pvlk niet toegangkelijk.
+Knappe veg."	91E0_vm	18767	field assessment	NA	0	NA	1	1	1	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% 91E0_vm	0	91E0_vm	NA
 69097	NA	foresthab	1429250094	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	NA	NA	field assessment	NA	1	1	0	0	0	0	0	0	0	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	NA	0	NA	NA
 69385	69385_6510_hu	openhab	1398858453	Geen opname uitgevoerd	onbepaald	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	kortbegraasd	onbekend	16238	NA	NA	0	NA	0	0	1	NA	NA	NA	NA	0	1	NA	NA	NA	NA	NA	NA	onbekend	NA	1	100	100% onbekend	0	onbekend	long term
 695122	695122_2330_bu	openhab	1463660348	Niet van toepassing	nee	nvt - geen doelhabitat	NA	9 : bossen	17354	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	113	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 9 : bossen	0	9 : bossen	NA
 69558	69558_2310	openhab	1407765860	Niet van toepassing	nee	nvt - geen doelhabitat	NA	infrastructuur	16329	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	12	NA	NA	NA	NA	NA	NA	infrastructuur	NA	1	100	100% infrastructuur	0	infrastructuur	NA
 6962	6962_6510_hu	openhab	1398858812	Geen opname uitgevoerd	onbepaald	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	permanenet begraasd door schapen	onbekend	16209	NA	NA	0	NA	0	0	1	NA	NA	NA	NA	0	3	NA	NA	NA	NA	NA	NA	onbekend	NA	1	100	100% onbekend	0	onbekend	long term
+697062	NA	foresthab_past2020	1620119171.684	NA	NA	opname nog niet 100% klaar	NA	9190	18801	field assessment	NA	0	NA	1	1	1	NA	NA	NA	NA	NA	NA	1	1	2	Geen VJF	2	Alex : 9 opnames nodig, buiten SBZ-H	NA	BOS	1	100	100% 9190	0	9190	NA
 704498	704498_6510_hu	openhab	1463654688	Niet van toepassing	nee	nvt - geen doelhabitat	NA	NA	NA	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	103	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 70582	70582_2330_bu	openhab	1407765860	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	16318	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	12	NA	NA	NA	NA	NA	NA	infrastructuur	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	infrastructuur	NA
 7062294	7062294_6510_hus	openhab	1525855657.299	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hus	18031	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	204	NA	NA	NA	NA	NA	NA	6510_hus	NA	1	100	100% 6510_hus	0	6510_hus	NA
@@ -983,13 +1013,16 @@ Opgemeten in oktober 2020."	91E0_vm	18024	field assessment	NA	1	1	1	1	1	1	1	0	1	
 714198	714198_2330_bu	openhab	1463660472	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17088	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	114	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 714230	714230_2330_bu	openhab	1463660472	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17072	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	114	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 7145	NA	foresthab	1475154745	Opname volledig uitgevoerd	NA	100% afgewerkt	geen 9160, wel opname ==> 91E0_vm?	9160	16553	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	1	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9160	0	9160	NA
+71478	NA	foresthab_past2020	1622101700.873	NA	NA	opname nog niet 100% klaar	Volledig onder wster.	91E0_vm	18774	field assessment	NA	0	NA	1	1	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% 91E0_vm	0	91E0_vm	NA
 7148818	7148818_6510_hus	openhab	1525855657.314	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hus	17694	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	204	NA	NA	NA	NA	NA	NA	6510_hus	NA	1	100	100% 6510_hus	0	6510_hus	NA
 71902	71902_4010	openhab	1407766578	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17081	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 720369	720369_6510_hua	openhab	1398858453	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hua	16232	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	1	NA	NA	NA	NA	NA	NA	6510_hua	NA	1	100	100% 6510_hua	0	6510_hua	NA
 72690	72690_4010	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	16302	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
 734	734_4010	openhab	1407766577	Opname volledig uitgevoerd	ja	100% afgewerkt	"4010
 "	4010	17123	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
+735033	NA	foresthab_past2020	1618999621.969	NA	NA	opname nog niet 100% klaar	NA	91E0_vc	18738	field assessment	NA	0	NA	1	1	1	NA	NA	NA	NA	NA	NA	1	2	2	NA	1	Geert - 5 opnames nodig	NA	BOS	1	100	100% 91E0_vc	0	91E0_vc	NA
 738230	738230_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17407	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
+738265	NA	foresthab_past2020	1621427518.927	NA	NA	Geen opname : geen doelhabitat	gn opname	91E0_va	18766	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	gn opname 	NA	BOS	1	100	100% 91E0_va	0	91E0_va	NA
 7401	NA	foresthab	1476103471	Niet van toepassing	NA	nvt - geen doelhabitat	"geen opname,geen vochtindicatoren, massale esdoornverjonging.
 
 "	geen habitat 	NA	field assessment	NA	0	NA	1	0	0	0	0	0	0	NA	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat 	0	geen habitat 	NA
@@ -1002,6 +1035,7 @@ Opgemeten in oktober 2020."	91E0_vm	18024	field assessment	NA	1	1	1	1	1	1	1	0	1	
 75126	75126_2330_bu	openhab	1407766577	Niet van toepassing	nee	nvt - geen doelhabitat	Bochtige smele, niet in heidelandschap, zie fotos	onbekend	16687	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	14	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% onbekend	0	onbekend	NA
 751337	751337_6510_hu	openhab	1463654888	Niet van toepassing	nee	nvt - geen doelhabitat	plot net kortgegraasd door schapen, geen kensoorte	geen habitat (akker, houtkant, tuin,...)	16968	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	104	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
 75474	75474_4030	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	16314	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	4030	NA	1	100	100% 4030	0	4030	NA
+760793	NA	foresthab_past2020	1621432492.479	NA	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	DIEPE,STEILE  OEVERRAND VN BRONBEEK	NA	18766	NA	long term	0	NA	0	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	gn opnameGeert - 5 opnames nodig	NA	NA	1	100	NA	0	NA	NA
 76242	76242_4010	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	16322	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	4010	NA	1	80	80% 4010; 20% infrastructuur	1	4010	NA
 76294	NA	foresthab	1432024041	Niet van toepassing	NA	nvt - geen doelhabitat	geen vc maar 9130 te hoge rating	9130	NA	field assessment	NA	0	NA	0	0	0	0	0	0	0	NA	3	4	4	4	NA	5	NA	NA	NA	1	100	100% 9130	0	9130	NA
 764754	764754_2330_bu	openhab	1463660348	Niet van toepassing	nee	nvt - geen doelhabitat	NA	2310	17360	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	113	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 2310	0	2310	NA
@@ -1021,9 +1055,11 @@ met omtrek van 62cm, vegetatie n dendro ok
 790454	790454_2330_bu	openhab	1463660348	Niet van toepassing	nee	nvt - geen doelhabitat	NA	2310	17367	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	113	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 2310	0	2310	NA
 79089	79089_6510_hu	openhab	1398858453	Niet van toepassing	nee	nvt - geen doelhabitat	brandnetelruigte	geen habitat (akker, houtkant, tuin,...)	16232	field assessment	NA	0	NA	1	0	1	NA	NA	NA	NA	0	1	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	geen habitat (akker, houtkant, tuin,...)	NA
 791478	791478_2330_bu	openhab	1498464879	Niet van toepassing	nee	nvt - geen doelhabitat	NA	onbekend	17408	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	212	NA	NA	NA	NA	NA	NA	onbekend	NA	1	100	100% onbekend	0	onbekend	NA
+797785	NA	foresthab_past2020	1621418876.905	NA	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	hoge afsluiting	NA	18766	NA	long term	0	NA	0	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	nt toegankelijk/ hoge afsluitingGeert - 5 opnames nodig	NA	NA	1	100	NA	0	NA	NA
 79986	79986_6510_hu	openhab	1399474146	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hu	16224	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	2	NA	NA	NA	NA	NA	NA	6510_hu	NA	1	69	69% 6510_hu; 31% geen habitat (akker, houtkant, tuin,...)	1	6510_hu	NA
 803446	803446_2330_bu	openhab	1498464879	Niet van toepassing	nee	nvt - geen doelhabitat	bos	NA	17730	field assessment	NA	0	NA	0	0	0	NA	NA	NA	NA	0	212	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
 803766	803766_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17403	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
+80662	NA	foresthab_past2020	1622189512.33	NA	NA	Geen opname : geen doelhabitat	NA	9130_end	18775	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% 9130_end	0	9130_end	NA
 808146	808146_2330_bu	openhab	1463660348	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17364	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	113	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 808722	808722_2330_bu	openhab	1498464879	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17731	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	212	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 8121	NA	foresthab	1455104460	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	91E0_vc	16554	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	3	1	1	1	NA	1	NA	NA	bos	1	100	100% 91E0_vc	0	91E0_vc	NA
@@ -1036,13 +1072,14 @@ met omtrek van 62cm, vegetatie n dendro ok
 821462	821462_2330_bu	openhab	1463660472	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	2330_bu	17095	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	114	NA	NA	NA	NA	NA	NA	2330_bu	NA	1	100	100% 2330_bu	0	2330_bu	NA
 8217	NA	foresthab	1493716825.029	Opname volledig uitgevoerd	NA	100% afgewerkt	"vegetatie ok 2/5/17
 2,43m n 45gr vn zoete kers 204cm/mt verfstip
-"	9130_end	NA	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	2	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9130_end	0	9130_end	NA
+"	9130_end	17288	field assessment	NA	1	1	1	1	1	1	1	1	1	NA	2	NA	NA	NA	NA	NA	NA	NA	bos	1	100	100% 9130_end	0	9130_end	NA
 82222	82222_4030	openhab	1463660472	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4030	17095	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	114	NA	NA	NA	NA	NA	NA	4030	NA	1	92	92% 4030; 8% infrastructuur	1	4030	NA
 82654	82654_4010	openhab	1407766578	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	4010	17130	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	14	NA	NA	NA	NA	NA	NA	4010	NA	1	100	100% 4010	0	4010	NA
 828626	828626_2330_bu	openhab	1463660348	Niet van toepassing	nee	nvt - geen doelhabitat	NA	9 : bossen	17364	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	113	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 9 : bossen	0	9 : bossen	NA
 82870	82870_2330_bu	openhab	1498464879	Niet van toepassing	nee	nvt - geen doelhabitat	verbost	9 : bossen	17403	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	212	NA	NA	NA	NA	NA	NA	9 : bossen	NA	1	100	100% 9 : bossen	0	9 : bossen	NA
 830290	830290_2330_bu	openhab	1463660348	Niet van toepassing	nee	nvt - geen doelhabitat	NA	2310	17357	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	0	113	NA	NA	NA	NA	NA	NA	NA	NA	1	100	100% 2310	0	2310	NA
 832386	832386_6510_huk	openhab	1398858814	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	vegetatie-opname niet volledig (bedekkingen?)	6510_huk	16225	field assessment	NA	0	NA	1	1	1	NA	NA	NA	NA	1	3	NA	NA	NA	NA	NA	NA	6510_huk	NA	1	100	100% 6510_huk	0	6510_huk	NA
+83318	NA	foresthab_past2020	1622026378.658	NA	NA	Geen opname : geen doelhabitat	NA	geen habitat en geen rbb	18773	field assessment	NA	0	NA	1	0	0	NA	NA	NA	NA	NA	NA	2	2	2	NA	2	Alex - 2 opnames nodig	NA	BOS	1	100	100% geen habitat en geen rbb	0	geen habitat en geen rbb	NA
 837842	837842_2330_bu	openhab	1463660164	Niet van toepassing	nee	nvt - geen doelhabitat	NA	geen habitat (akker, houtkant, tuin,...)	17077	field assessment	NA	0	NA	0	0	1	NA	NA	NA	NA	0	112	NA	NA	NA	NA	NA	NA	91F0	NA	1	100	100% geen habitat (akker, houtkant, tuin,...)	0	91F0	NA
 845457	845457_6510_hua	openhab	1398858453	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	6510_hua	16961	field assessment	NA	1	1	0	1	1	NA	NA	NA	NA	1	1	NA	NA	NA	NA	NA	NA	6510_hua	NA	1	100	100% 6510_hua	0	6510_hua	NA
 84946	84946_2310	openhab	1407766243	Opname volledig uitgevoerd	ja	100% afgewerkt	waarschijnlijk 4030 en geen 2310	2310	16587	field assessment	NA	1	1	1	1	1	NA	NA	NA	NA	1	13	NA	NA	NA	NA	NA	NA	2310	NA	1	100	100% 2310	0	2310	NA

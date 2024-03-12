@@ -6,8 +6,8 @@
   - plot_id
   - segment_id
   - date_assessment
-  hash: b051b84dffa037b03b720669ea49dc3874e083c8
-  data_hash: cda57669e8777395f35e5b34d63b80b5bbcaf4c3
+  hash: b5fb0466260aba3563613775f672ec4fced8b3ab
+  data_hash: 3af40ec2eaaf3ef9c390597a07e46630740033cf
 plot_id:
   class: integer
 segment_id:
@@ -31,3 +31,9 @@ tree_id:
 date_assessment:
   class: Date
   origin: '1970-01-01'
+basalarea_m2:
+  class: numeric
+vol_stem_m3:
+  class: numeric
+vol_tot_m3:
+  class: numeric

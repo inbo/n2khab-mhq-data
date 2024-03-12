@@ -53,6 +53,7 @@ plot_id	name_nl	n_individuals	date_assessment
 31414	Wilde lijsterbes	2	17988
 31414	Zwarte els	1	17988
 36774	Hazelaar	NA	17708
+41209	Hazelaar	4	18726
 45526	Wilg species	90	16658
 85529	Boskers	1	16581
 85529	Gewone esdoorn	1	16581
@@ -60,7 +61,7 @@ plot_id	name_nl	n_individuals	date_assessment
 88274	Sporkehout	1	16588
 103609	Hazelaar	2	16552
 104342	Hazelaar	19	16548
-132818	Wilg species	5	18612
+132818	Wilg species	5	18374
 136697	Gewone es	1	16561
 136697	Gewone vlier	25	16561
 140006	Beuk	21	16597
@@ -77,6 +78,8 @@ plot_id	name_nl	n_individuals	date_assessment
 165913	Zwarte els	2	16932
 188022	Amerikaanse vogelkers	3	16588
 188022	Wilde lijsterbes	5	16588
+193206	Amerikaanse vogelkers	5	18801
+193206	Sporkehout	5	18801
 196022	Zwarte els	7	17983
 198137	Hazelaar	2	16567
 213138	Berk	3	17995
@@ -126,3 +129,4 @@ plot_id	name_nl	n_individuals	date_assessment
 616665	Wilg species	2	17673
 642585	Gewone esdoorn	3	17941
 642585	Hazelaar	16	17941
+735033	Wilg species	2	18738

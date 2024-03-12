@@ -6,7 +6,7 @@
   - plot_id
   - date_assessment
   hash: 1bcd6dba23223e3fd0067b245ca9d079697eb24c
-  data_hash: 9e58df4cbed8ad123621ca761faa8d2eab0f3f2e
+  data_hash: 40113245284447340ba5d6519f8d4f7bcce80a39
 plot_id:
   class: character
 sampling_unit_code:

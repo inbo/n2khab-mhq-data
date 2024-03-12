@@ -6,8 +6,8 @@
   - plot_id
   - date_assessment
   - idline_intersect_method
-  hash: 66879cd3f9941e568dc8ef3f0f4aa3cdfce4e22a
-  data_hash: b52992a3d40d878ff89b10a41ec1d39d45ad40a6
+  hash: a02da4257acfda5ce844d8eb8f5066775c5fa11b
+  data_hash: 97aea7bc0601f6f042dd7f265d677c1cdf59faae
 plot_id:
   class: integer
 idline_intersect_method:
@@ -19,3 +19,5 @@ angle_degrees:
 date_assessment:
   class: Date
   origin: '1970-01-01'
+idline_intersect_method_3:
+  class: integer

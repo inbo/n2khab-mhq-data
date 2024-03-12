@@ -6,7 +6,7 @@
   - plot_id
   - date_assessment
   hash: 78f471aa4f85062f871858d0abac61c5e69ff66e
-  data_hash: 852eac6bf7646a2ccd2c289bf044e5b3b4429553
+  data_hash: f4c1554452eb55f4305dda90c6da55bd3d71402d
 plot_id:
   class: integer
 db:

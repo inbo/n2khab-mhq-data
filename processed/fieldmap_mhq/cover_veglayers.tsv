@@ -833,6 +833,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 31797	1	shrublayer	0	NA	NA	16231
 31797	1	sphagnumlayer	0	NA	NA	16231
 31797	1	treelayer	0	NA	NA	16231
+32214	1	herblayer	NA	NA	NA	18779
+32214	1	mosslayer	NA	NA	NA	18779
+32214	1	shrublayer	NA	NA	NA	18779
+32214	1	treelayer	NA	NA	NA	18779
 32466	1	herblayer	100	NA	NA	16324
 32466	1	licheneslayer	0	NA	NA	16324
 32466	1	litter	100	NA	NA	16324
@@ -882,6 +886,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 34002	1	shrublayer	0	NA	NA	16330
 34002	1	sphagnumlayer	0	NA	NA	16330
 34002	1	treelayer	0	NA	NA	16330
+34361	1	herblayer	NA	75 - 100 %	87.5	18733
+34361	1	mosslayer	NA	< 5%	2.5	18733
+34361	1	shrublayer	NA	5 - 12,5 %	8.75	18733
+34361	1	treelayer	NA	75 - 100 %	87.5	18733
 34514	1	herblayer	95	NA	NA	16310
 34514	1	licheneslayer	0	NA	NA	16310
 34514	1	litter	10	NA	NA	16310
@@ -1029,6 +1037,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 40146	1	shrublayer	18	NA	NA	19241
 40146	1	sphagnumlayer	0	NA	NA	19241
 40146	1	treelayer	0	NA	NA	19241
+41209	1	herblayer	NA	75 - 100 %	87.5	18726
+41209	1	mosslayer	NA	50 - 75 %	62.5	18726
+41209	1	shrublayer	NA	5 - 12,5 %	8.75	18726
+41209	1	treelayer	NA	75 - 100 %	87.5	18726
 41814	1	herblayer	99	NA	NA	16232
 41814	1	licheneslayer	0	NA	NA	16232
 41814	1	litter	0	NA	NA	16232
@@ -1114,6 +1126,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 44626	1	shrublayer	0	NA	NA	19236
 44626	1	sphagnumlayer	0	NA	NA	19236
 44626	1	treelayer	0	NA	NA	19236
+45305	1	herblayer	NA	75 - 100 %	87.5	18726
+45305	1	mosslayer	NA	12,5 - 25 %	18.75	18726
+45305	1	shrublayer	NA	< 5%	2.5	18726
+45305	1	treelayer	NA	75 - 100 %	87.5	18726
 45526	1	herblayer	NA	75 - 100 %	87.5	16658
 45526	1	mosslayer	NA	25 - 50 %	37.5	16658
 45526	1	shrublayer	NA	75 - 100 %	87.5	16658
@@ -1242,6 +1258,14 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 55058	1	shrublayer	1	NA	NA	16324
 55058	1	sphagnumlayer	0	NA	NA	16324
 55058	1	treelayer	0	NA	NA	16324
+55734	1	herblayer	NA	NA	NA	18758
+55734	1	mosslayer	NA	NA	NA	18758
+55734	1	shrublayer	NA	NA	NA	18758
+55734	1	treelayer	NA	NA	NA	18758
+58198	1	herblayer	NA	NA	NA	18774
+58198	1	mosslayer	NA	NA	NA	18774
+58198	1	shrublayer	NA	NA	NA	18774
+58198	1	treelayer	NA	NA	NA	18774
 59858	1	herblayer	100	NA	NA	16587
 59858	1	licheneslayer	1	NA	NA	16587
 59858	1	litter	15	NA	NA	16587
@@ -1386,6 +1410,14 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 68562	1	shrublayer	0	NA	NA	16587
 68562	1	sphagnumlayer	0	NA	NA	16587
 68562	1	treelayer	0	NA	NA	16587
+68601	1	herblayer	NA	NA	NA	18775
+68601	1	mosslayer	NA	NA	NA	18775
+68601	1	shrublayer	NA	NA	NA	18775
+68601	1	treelayer	NA	NA	NA	18775
+68790	1	herblayer	NA	75 - 100 %	87.5	18767
+68790	1	mosslayer	NA	< 5%	2.5	18767
+68790	1	shrublayer	NA	< 5%	2.5	18767
+68790	1	treelayer	NA	75 - 100 %	87.5	18767
 69097	1	herblayer	NA	NA	NA	16542
 69097	1	mosslayer	NA	NA	NA	16542
 69097	1	shrublayer	NA	NA	NA	16542
@@ -1426,6 +1458,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 70866	1	shrublayer	0	NA	NA	16328
 70866	1	sphagnumlayer	0	NA	NA	16328
 70866	1	treelayer	0	NA	NA	16328
+71478	1	herblayer	NA	NA	NA	18774
+71478	1	mosslayer	NA	NA	NA	18774
+71478	1	shrublayer	NA	NA	NA	18774
+71478	1	treelayer	NA	NA	NA	18774
 71902	1	herblayer	100	NA	NA	17081
 71902	1	licheneslayer	0	NA	NA	17081
 71902	1	litter	70	NA	NA	17081
@@ -1574,6 +1610,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 79986	1	shrublayer	3	NA	NA	19152
 79986	1	sphagnumlayer	0	NA	NA	19152
 79986	1	treelayer	0	NA	NA	19152
+80662	1	herblayer	NA	NA	NA	18775
+80662	1	mosslayer	NA	NA	NA	18775
+80662	1	shrublayer	NA	NA	NA	18775
+80662	1	treelayer	NA	NA	NA	18775
 81374	1	herblayer	99	NA	NA	17101
 81374	1	licheneslayer	0	NA	NA	17101
 81374	1	litter	98	NA	NA	17101
@@ -1623,6 +1663,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 82870	1	shrublayer	NA	NA	NA	17403
 82870	1	sphagnumlayer	NA	NA	NA	17403
 82870	1	treelayer	NA	NA	NA	17403
+83318	1	herblayer	NA	NA	NA	18773
+83318	1	mosslayer	NA	NA	NA	18773
+83318	1	shrublayer	NA	NA	NA	18773
+83318	1	treelayer	NA	NA	NA	18773
 84946	1	herblayer	100	NA	NA	16587
 84946	1	licheneslayer	1	NA	NA	16587
 84946	1	litter	1	NA	NA	16587
@@ -2044,6 +2088,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 111918	1	shrublayer	0	NA	NA	17779
 111918	1	sphagnumlayer	0	NA	NA	17779
 111918	1	treelayer	0	NA	NA	17779
+112286	1	herblayer	NA	NA	NA	18779
+112286	1	mosslayer	NA	NA	NA	18779
+112286	1	shrublayer	NA	NA	NA	18779
+112286	1	treelayer	NA	NA	NA	18779
 112850	1	herblayer	65	NA	NA	17738
 112850	1	licheneslayer	0	NA	NA	17738
 112850	1	litter	6	NA	NA	17738
@@ -2353,14 +2401,14 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 131806	1	shrublayer	0	NA	NA	17094
 131806	1	sphagnumlayer	30	NA	NA	17094
 131806	1	treelayer	0	NA	NA	17094
-132818	1	herblayer	NA	75 - 100 %	87.5	18612
-132818	1	mosslayer	NA	75 - 100 %	87.5	18612
-132818	1	shrublayer	NA	50 - 75 %	62.5	18612
-132818	1	treelayer	NA	12,5 - 25 %	18.75	18612
-132818	2	herblayer	NA	NA	NA	18612
-132818	2	mosslayer	NA	NA	NA	18612
-132818	2	shrublayer	NA	NA	NA	18612
-132818	2	treelayer	NA	NA	NA	18612
+132818	1	herblayer	NA	75 - 100 %	87.5	18374
+132818	1	mosslayer	NA	75 - 100 %	87.5	18374
+132818	1	shrublayer	NA	50 - 75 %	62.5	18374
+132818	1	treelayer	NA	12,5 - 25 %	18.75	18374
+132818	2	herblayer	NA	NA	NA	18374
+132818	2	mosslayer	NA	NA	NA	18374
+132818	2	shrublayer	NA	NA	NA	18374
+132818	2	treelayer	NA	NA	NA	18374
 134098	1	herblayer	100	NA	NA	16322
 134098	1	licheneslayer	2	NA	NA	16322
 134098	1	litter	90	NA	NA	16322
@@ -2392,6 +2440,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 136697	1	mosslayer	NA	< 5%	2.5	16561
 136697	1	shrublayer	NA	25 - 50 %	37.5	16561
 136697	1	treelayer	NA	75 - 100 %	87.5	16561
+137042	1	herblayer	NA	NA	NA	18765
+137042	1	mosslayer	NA	NA	NA	18765
+137042	1	shrublayer	NA	NA	NA	18765
+137042	1	treelayer	NA	NA	NA	18765
 137401	1	herblayer	NA	NA	NA	16560
 137401	1	mosslayer	NA	NA	NA	16560
 137401	1	shrublayer	NA	NA	NA	16560
@@ -2869,6 +2921,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 186850	1	shrublayer	0	NA	NA	17702
 186850	1	sphagnumlayer	0	NA	NA	17702
 186850	1	treelayer	0	NA	NA	17702
+187382	1	herblayer	NA	NA	NA	18779
+187382	1	mosslayer	NA	NA	NA	18779
+187382	1	shrublayer	NA	NA	NA	18779
+187382	1	treelayer	NA	NA	NA	18779
 188022	1	herblayer	NA	50 - 75 %	62.5	16588
 188022	1	mosslayer	NA	5 - 12,5 %	8.75	16588
 188022	1	shrublayer	NA	75 - 100 %	87.5	16588
@@ -2922,6 +2978,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 191966	1	shrublayer	0	NA	NA	17781
 191966	1	sphagnumlayer	0	NA	NA	17781
 191966	1	treelayer	2	NA	NA	17781
+193206	1	herblayer	NA	75 - 100 %	87.5	18801
+193206	1	mosslayer	NA	75 - 100 %	87.5	18801
+193206	1	shrublayer	NA	50 - 75 %	62.5	18801
+193206	1	treelayer	NA	75 - 100 %	87.5	18801
 193246	1	herblayer	100	NA	NA	18116
 193246	1	licheneslayer	0	NA	NA	18116
 193246	1	litter	90	NA	NA	18116
@@ -2970,14 +3030,14 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 200630	1	shrublayer	0	NA	NA	17743
 200630	1	sphagnumlayer	0	NA	NA	17743
 200630	1	treelayer	0	NA	NA	17743
-201689	1	herblayer	NA	75 - 100 %	87.5	16871
-201689	1	mosslayer	NA	5 - 12,5 %	8.75	16871
-201689	1	shrublayer	NA	< 5%	2.5	16871
-201689	1	treelayer	NA	75 - 100 %	87.5	16871
-201689	2	herblayer	NA	NA	NA	16871
-201689	2	mosslayer	NA	NA	NA	16871
-201689	2	shrublayer	NA	NA	NA	16871
-201689	2	treelayer	NA	NA	NA	16871
+201689	1	herblayer	NA	75 - 100 %	87.5	16820
+201689	1	mosslayer	NA	5 - 12,5 %	8.75	16820
+201689	1	shrublayer	NA	< 5%	2.5	16820
+201689	1	treelayer	NA	75 - 100 %	87.5	16820
+201689	2	herblayer	NA	NA	NA	16820
+201689	2	mosslayer	NA	NA	NA	16820
+201689	2	shrublayer	NA	NA	NA	16820
+201689	2	treelayer	NA	NA	NA	16820
 201938	1	herblayer	NA	NA	NA	17738
 201938	1	licheneslayer	NA	NA	NA	17738
 201938	1	litter	NA	NA	NA	17738
@@ -3280,6 +3340,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 226606	1	shrublayer	20	NA	NA	17798
 226606	1	sphagnumlayer	0	NA	NA	17798
 226606	1	treelayer	12	NA	NA	17798
+227286	1	herblayer	NA	NA	NA	18778
+227286	1	mosslayer	NA	NA	NA	18778
+227286	1	shrublayer	NA	NA	NA	18778
+227286	1	treelayer	NA	NA	NA	18778
 229074	1	herblayer	100	NA	NA	17744
 229074	1	licheneslayer	0	NA	NA	17744
 229074	1	litter	100	NA	NA	17744
@@ -3648,6 +3712,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 267190	1	shrublayer	0	NA	NA	16321
 267190	1	sphagnumlayer	0	NA	NA	16321
 267190	1	treelayer	0	NA	NA	16321
+267222	1	herblayer	NA	NA	NA	18778
+267222	1	mosslayer	NA	NA	NA	18778
+267222	1	shrublayer	NA	NA	NA	18778
+267222	1	treelayer	NA	NA	NA	18778
 267474	1	herblayer	99	NA	NA	17744
 267474	1	licheneslayer	1	NA	NA	17744
 267474	1	litter	40	NA	NA	17744
@@ -3670,6 +3738,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 269298	1	shrublayer	0	NA	NA	17351
 269298	1	sphagnumlayer	0	NA	NA	17351
 269298	1	treelayer	0	NA	NA	17351
+270966	1	herblayer	NA	NA	NA	18766
+270966	1	mosslayer	NA	NA	NA	18766
+270966	1	shrublayer	NA	NA	NA	18766
+270966	1	treelayer	NA	NA	NA	18766
 271446	1	herblayer	NA	25 - 50 %	37.5	18019
 271446	1	mosslayer	NA	25 - 50 %	37.5	18019
 271446	1	shrublayer	NA	75 - 100 %	87.5	18019
@@ -3953,6 +4025,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 306130	1	shrublayer	5	NA	NA	19251
 306130	1	sphagnumlayer	0	NA	NA	19251
 306130	1	treelayer	25	NA	NA	19251
+306870	1	herblayer	NA	NA	NA	18752
+306870	1	mosslayer	NA	NA	NA	18752
+306870	1	shrublayer	NA	NA	NA	18752
+306870	1	treelayer	NA	NA	NA	18752
 308098	1	herblayer	100	NA	NA	16212
 308098	1	licheneslayer	0	NA	NA	16212
 308098	1	litter	0	NA	NA	16212
@@ -4165,6 +4241,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 335337	1	mosslayer	NA	NA	NA	16542
 335337	1	shrublayer	NA	NA	NA	16542
 335337	1	treelayer	NA	NA	NA	16542
+335990	1	herblayer	NA	NA	NA	18773
+335990	1	mosslayer	NA	NA	NA	18773
+335990	1	shrublayer	NA	NA	NA	18773
+335990	1	treelayer	NA	NA	NA	18773
 337270	1	herblayer	0	NA	NA	16293
 337270	1	licheneslayer	0	NA	NA	16293
 337270	1	litter	0	NA	NA	16293
@@ -4178,6 +4258,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 337321	1	mosslayer	NA	NA	NA	16542
 337321	1	shrublayer	NA	NA	NA	16542
 337321	1	treelayer	NA	NA	NA	16542
+337846	1	herblayer	NA	75 - 100 %	87.5	18766
+337846	1	mosslayer	NA	NVT : niet van toepassing	0	18766
+337846	1	shrublayer	NA	NVT : niet van toepassing	0	18766
+337846	1	treelayer	NA	25 - 50 %	37.5	18766
 338386	1	herblayer	1	NA	NA	17746
 338386	1	licheneslayer	0	NA	NA	17746
 338386	1	litter	0	NA	NA	17746
@@ -4254,6 +4338,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 347858	1	shrublayer	0	NA	NA	17742
 347858	1	sphagnumlayer	0	NA	NA	17742
 347858	1	treelayer	0	NA	NA	17742
+347878	1	herblayer	NA	NA	NA	18773
+347878	1	mosslayer	NA	NA	NA	18773
+347878	1	shrublayer	NA	NA	NA	18773
+347878	1	treelayer	NA	NA	NA	18773
 349433	1	herblayer	NA	75 - 100 %	87.5	17716
 349433	1	mosslayer	NA	< 5%	2.5	17716
 349433	1	shrublayer	NA	75 - 100 %	87.5	17716
@@ -4312,6 +4400,14 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 361398	1	shrublayer	0	NA	NA	16315
 361398	1	sphagnumlayer	0	NA	NA	16315
 361398	1	treelayer	0	NA	NA	16315
+364262	1	herblayer	NA	NA	NA	18750
+364262	1	mosslayer	NA	NA	NA	18750
+364262	1	shrublayer	NA	NA	NA	18750
+364262	1	treelayer	NA	NA	NA	18750
+364822	1	herblayer	NA	NA	NA	18774
+364822	1	mosslayer	NA	NA	NA	18774
+364822	1	shrublayer	NA	NA	NA	18774
+364822	1	treelayer	NA	NA	NA	18774
 366225	1	herblayer	100	NA	NA	16220
 366225	1	licheneslayer	0	NA	NA	16220
 366225	1	litter	0	NA	NA	16220
@@ -4527,6 +4623,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 398921	1	shrublayer	0	NA	NA	16224
 398921	1	sphagnumlayer	0	NA	NA	16224
 398921	1	treelayer	0	NA	NA	16224
+404306	1	herblayer	NA	NA	NA	18765
+404306	1	mosslayer	NA	NA	NA	18765
+404306	1	shrublayer	NA	NA	NA	18765
+404306	1	treelayer	NA	NA	NA	18765
 409654	1	herblayer	100	NA	NA	16217
 409654	1	licheneslayer	0	NA	NA	16217
 409654	1	litter	0	NA	NA	16217
@@ -4934,6 +5034,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 542834	1	shrublayer	NA	NA	NA	16973
 542834	1	sphagnumlayer	NA	NA	NA	16973
 542834	1	treelayer	NA	NA	NA	16973
+544086	1	herblayer	NA	NA	NA	18774
+544086	1	mosslayer	NA	NA	NA	18774
+544086	1	shrublayer	NA	NA	NA	18774
+544086	1	treelayer	NA	NA	NA	18774
 546002	1	herblayer	55	NA	NA	17364
 546002	1	licheneslayer	0	NA	NA	17364
 546002	1	litter	9	NA	NA	17364
@@ -5314,6 +5418,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 684982	1	shrublayer	0	NA	NA	17752
 684982	1	sphagnumlayer	0	NA	NA	17752
 684982	1	treelayer	0	NA	NA	17752
+697062	1	herblayer	NA	75 - 100 %	87.5	18801
+697062	1	mosslayer	NA	75 - 100 %	87.5	18801
+697062	1	shrublayer	NA	50 - 75 %	62.5	18801
+697062	1	treelayer	NA	75 - 100 %	87.5	18801
 714198	1	herblayer	3	NA	NA	17088
 714198	1	licheneslayer	0	NA	NA	17088
 714198	1	litter	1	NA	NA	17088
@@ -5350,6 +5458,10 @@ plot_id	segment_id	layer	cover	cover_description	cover_mean	date_assessment
 720369	1	shrublayer	0	NA	NA	19166
 720369	1	sphagnumlayer	NA	NA	NA	19166
 720369	1	treelayer	0	NA	NA	19166
+735033	1	herblayer	NA	75 - 100 %	87.5	18738
+735033	1	mosslayer	NA	50 - 75 %	62.5	18738
+735033	1	shrublayer	NA	12,5 - 25 %	18.75	18738
+735033	1	treelayer	NA	75 - 100 %	87.5	18738
 738230	1	herblayer	89	NA	NA	17407
 738230	1	licheneslayer	1	NA	NA	17407
 738230	1	litter	2	NA	NA	17407
