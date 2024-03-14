@@ -37,6 +37,7 @@ An overview of the different versions of the fieldmap databases can be found in 
 db_fieldmap_foresthab_past2020 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB")
 db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
 db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
+db_fieldmap_openhab_2 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v8.FDB")
 
 # check if database is in project folder
 
@@ -1132,7 +1133,10 @@ get_logs_past_2020 <- function(db = db_fieldmap_foresthab_past2020){
 
 # sample_status
 sample_status_openhab <- get_status_openhab() %>%
-    mutate(db = "openhab")
+    mutate(db = "openhab_c1")
+
+sample_status_openhab_c2 <- get_status_openhab(db = db_fieldmap_openhab_2) %>%
+    mutate(db = "openhab_c2") 
 
 sample_status_foresthab_orig <- get_status_foresthab() %>%
     mutate(db = "foresthab")
@@ -1174,6 +1178,7 @@ sample_status_foresthab_past2020 <- sample_status_foresthab_past2020_orig %>%
   filter(!is.na(info_status_fieldwork))
 
 sample_status <- bind_rows(sample_status_openhab, 
+                           sample_status_openhab_c2,
                            sample_status_foresthab,
                            sample_status_foresthab_past2020)
 
