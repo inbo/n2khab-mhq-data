@@ -37,7 +37,7 @@ An overview of the different versions of the fieldmap databases can be found in 
 db_fieldmap_foresthab_past2020 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB")
 db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
 db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
-db_fieldmap_openhab_2 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v8.FDB")
+db_fieldmap_openhab_2 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v8_cycle2.FDB")
 
 # check if database is in project folder
 
@@ -516,7 +516,8 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
   GPS_REF.IDPlots,
   GPS_REF.SingleID as plot_id,
   GPS_REF.X_m as x_measured,
-  GPS_REF.Y_m as y_measured
+  GPS_REF.Y_m as y_measured,
+  GPS_REF.Remark as remark_coord
   FROM GPS_REF"
 
     if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
@@ -529,6 +530,40 @@ get_coordinates_openhab <- function(db = db_fieldmap_openhab){
 
   coordinates <- sqlQuery(connect_db, query_coord) %>%
       filter(!is.na(PLOT_ID))
+
+  odbcClose(connect_db)
+  
+  colnames(coordinates) <- str_to_lower(colnames(coordinates))
+  
+  return(coordinates)
+}
+
+get_coordinates_openhab_c2 <- function(db = db_fieldmap_openhab_2){
+
+  query_coord <- "SELECT
+  GPS_REF.IDPlots,
+  GPS_REF.uniekeID as point_code,
+  GPS_REF.X_m as x_measured,
+  GPS_REF.Y_m as y_measured,
+  GPS_REF.verlegd,
+  GPS_REF.NR_VERVANGPLOT,
+  GPS_REF.Remark as remark_coord,
+  rp.RANKING as ranking_replacement
+  FROM GPS_REF
+  LEFT OUTER JOIN Replacingpoints rp ON RP.Point_code = gps_ref.uniekeid AND RP.rank_rel_b = gps_ref.nr_vervangplot"
+
+    if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    connect_db <-   odbcConnectAccess(db)
+  } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    connect_db <-   odbcConnectAccess2007(db)
+  } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+  }
+
+  coordinates <- sqlQuery(connect_db, query_coord) %>%
+    unique() %>%
+    mutate(plot_id = str_sub(POINT_CODE, end = str_locate(POINT_CODE, "_")[,"start"] - 1),
+           plot_id = as.numeric(plot_id))
 
   odbcClose(connect_db)
   
@@ -733,6 +768,7 @@ get_date_foresthab <- function(db = db_fieldmap_foresthab){
   colnames(observer_date) <- str_to_lower(colnames(observer_date))
   
   observer_date_1 <- observer_date %>%
+    unique() %>%
       group_by(plot_id) %>%
       summarise(n = n(),
                 date_vegetation = as.Date(ifelse(n() > 1, min(date_vegetation, na.rm = TRUE), date_vegetation)),
@@ -748,7 +784,8 @@ get_coordinates_foresthab <- function(db = db_fieldmap_foresthab){
   Plots_Forest_Inventory.IDPlots,
   Plots_Forest_Inventory.Plotnr as plot_id,
   Plots_Forest_Inventory.X_m as x_measured,
-  Plots_Forest_Inventory.Y_m as y_measured
+  Plots_Forest_Inventory.Y_m as y_measured,
+  Plots_Forest_Inventory.remark as remark_coord
   FROM Plots_Forest_Inventory"
   
   connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
@@ -1133,13 +1170,19 @@ get_logs_past_2020 <- function(db = db_fieldmap_foresthab_past2020){
 
 # sample_status
 sample_status_openhab <- get_status_openhab() %>%
-    mutate(db = "openhab_c1")
+    mutate(db = "openhab_c1",
+           mon_cycle = 1)
 
 sample_status_openhab_c2 <- get_status_openhab(db = db_fieldmap_openhab_2) %>%
-    mutate(db = "openhab_c2") 
+    mutate(db = "openhab_c2",
+           mon_cycle = 2) 
+
+check_doubles <- sample_status_openhab_c2 %>%
+  semi_join(sample_status_openhab, by = c("plot_id", "date_status"))
 
 sample_status_foresthab_orig <- get_status_foresthab() %>%
-    mutate(db = "foresthab")
+    mutate(db = "foresthab",
+           mon_cycle = 1)
 
 sample_status_foresthab <- sample_status_foresthab_orig %>%
   mutate(status_fieldwork = ifelse(is.na(info_status_fieldwork), "Opname volledig uitgevoerd",
@@ -1154,7 +1197,8 @@ sample_status_foresthab <- sample_status_foresthab_orig %>%
                                                    ifelse(info_status_fieldwork == "Geen opname : tijdelijk nt toeg", "opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)", "opname nog niet 100% klaar")))))
 
 sample_status_foresthab_past2020_orig <- get_status_foresthab_past2000() %>%
-    mutate(db = "foresthab_past2020")
+    mutate(db = "foresthab_past2020",
+           mon_cycle = 1)
 
 # information on sample_status is missing
 
@@ -1174,7 +1218,7 @@ sample_status_foresthab_past2020 <- sample_status_foresthab_past2020_orig %>%
                                                ifelse(type_observed_circle != habitat_target & !is.na(type_observed_circle) & type_observed_circle != "onbekend", "Geen opname : geen doelhabitat", 
                                                       ifelse(remark %in% c("Geen toelating", "DIEPE,STEILE  OEVERRAND VN BRONBEEK", "hoge afsluiting", "omheind", "Volledig omheind ,afgesloten. Jammer.", "Opname op zicht,pvlk niet toegangkelijk. Knappe veg."), "geen toestemming/geen toegang (eigenaar/hond/vee)",
                                                ifelse(remark %in% c("Hoge waterstand.", "Volledig onder wster.", "Onder water", "Ook niet met lieslaarzen."), "opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)", NA)))))) %>%
-  select(plot_id, date_status, info_status_fieldwork, veg_done, reg_done, dendro_done, info_springveg, springveg, remark4, remark, db) %>%
+  select(mon_cycle, plot_id, date_status, info_status_fieldwork, veg_done, reg_done, dendro_done, info_springveg, springveg, remark4, remark, db) %>%
   filter(!is.na(info_status_fieldwork))
 
 sample_status <- bind_rows(sample_status_openhab, 
@@ -1185,18 +1229,18 @@ sample_status <- bind_rows(sample_status_openhab,
 # sample_status <- sample_status_openhab
 
 check <- sample_status %>%
-    group_by(plot_id) %>%
+    group_by(plot_id, mon_cycle) %>%
     mutate(n = n()) %>%
     ungroup() %>%
     filter(n > 1) # dit zijn plots die in 2 bewegingen zijn afgewerkt - geen fout in data
 
 sample_status_most_recent <- sample_status %>%
-    group_by(plot_id, sampling_unit_code, db) %>%
+    group_by(plot_id, mon_cycle) %>%
       filter(date_status == max(date_status)) %>%
     ungroup()
 
 check <- sample_status_most_recent %>%
-    group_by(plot_id) %>%
+    group_by(plot_id, mon_cycle) %>%
     mutate(n = n()) %>%
     ungroup() %>%
     filter(n > 1)
@@ -1207,12 +1251,17 @@ check_plot_id_missing <- sample_status %>%
 # type_observed
 
 type_observed <- get_type_observed_openhab() %>%
-    bind_rows(get_type_observed_foresthab()) %>%
-    bind_rows(get_type_observed_foresthab_past2000()) %>%
+  mutate(mon_cycle = 1) %>%
+    bind_rows(get_type_observed_openhab(db = db_fieldmap_openhab_2) %>%
+                mutate(mon_cycle = 2)) %>%
+    bind_rows(get_type_observed_foresthab() %>%
+                mutate(mon_cycle = 1)) %>%
+    bind_rows(get_type_observed_foresthab_past2000() %>%
+                mutate(mon_cycle = 1)) %>%
   mutate(landuse = ifelse(str_detect(landuse, "andere"), "andere", landuse))
 
 check <-  type_observed %>%
-    group_by(plot_id, type_observed_circle, type_observed_square, landuse) %>%
+    group_by(mon_cycle, plot_id, type_observed_circle, type_observed_square, landuse) %>%
     mutate(n = n()) %>%
     ungroup() %>%
     filter(n > 1)
@@ -1220,18 +1269,22 @@ check <-  type_observed %>%
 # bedekking van segmenten met hetzelfde habitattype sommeren
 type_observed_corr <- type_observed %>%
     unique() %>%
-    group_by(plot_id, type_observed_circle, type_observed_square, landuse) %>%
+    group_by(mon_cycle, plot_id, type_observed_circle, type_observed_square, landuse) %>%
     summarise(segment_id = segment_id[1],
               area_m2 = sum(area_m2)) %>%
     ungroup() %>%
-    group_by(plot_id) %>%
+    group_by(plot_id, mon_cycle) %>%
     mutate(n_segments = n()) %>%
     ungroup() %>%
     mutate(type_observed_cover_circle = round(ifelse(is.na(area_m2) & n_segments == 1, 100, 100 * area_m2/(pi*18^2)), 0)) %>%
     select(-area_m2, -n_segments)
 
+check_na <- type_observed_corr %>%
+  group_by(mon_cycle, plot_id) %>%
+  filter(any(is.na(type_observed_cover_circle)))
+
 check <-  type_observed_corr %>%
-    group_by(plot_id, type_observed_circle, type_observed_square, landuse) %>%
+    group_by(mon_cycle, plot_id, type_observed_circle, type_observed_square, landuse) %>%
     mutate(n = n()) %>%
     ungroup() %>%
     filter(n > 1)
@@ -1239,25 +1292,51 @@ check <-  type_observed_corr %>%
 # veglayers
 
 cover_veglayers <- get_cover_veglayers_openhab() %>%
-    bind_rows(get_cover_veglayers_foresthab()) %>%
-    bind_rows(get_cover_veglayers_foresthab_past2020())
+  mutate(mon_cycle = 1) %>%
+  bind_rows(get_cover_veglayers_openhab(db_fieldmap_openhab_2) %>%
+  mutate(mon_cycle = 2)) %>%
+    bind_rows(get_cover_veglayers_foresthab() %>%
+  mutate(mon_cycle = 1) ) %>%
+    bind_rows(get_cover_veglayers_foresthab_past2020() %>%
+  mutate(mon_cycle = 1) ) 
+
+cover_veglayers <- cover_veglayers %>%
+  filter(!(segment_id > 1 & is.na(cover))) %>%
+  select(-segment_id) %>%
+  unique()
+
+#check only one record per layer
+check <- cover_veglayers %>%
+  group_by(mon_cycle, plot_id, layer) %>%
+  filter(n() > 1)
 
 #species
 
 cover_species <- get_cover_species_openhab() %>%
-    bind_rows(get_cover_species_foresthab()) %>%
-    bind_rows(get_cover_species_foresthab_past2020())
+  mutate(mon_cycle = 1) %>%
+  bind_rows(get_cover_species_openhab(db_fieldmap_openhab_2) %>%
+  mutate(mon_cycle = 2)) %>%
+    bind_rows(get_cover_species_foresthab() %>%
+  mutate(mon_cycle = 1) ) %>%
+    bind_rows(get_cover_species_foresthab_past2020() %>%
+  mutate(mon_cycle = 1) )
 
 # structure_vars
 
-structure_vars_heath <- get_measurements_heath_circle()
+structure_vars_heath <- get_measurements_heath_circle() %>%
+  mutate(mon_cycle = 1) %>%
+  bind_rows(get_measurements_heath_circle(db = db_fieldmap_openhab_2) %>%
+              mutate(mon_cycle = 2))
 
-structure_vars_6510 <- get_measurements_6510_circle()
+structure_vars_6510 <- get_measurements_6510_circle() %>%
+  mutate(mon_cycle = 1) %>%
+  bind_rows(get_measurements_6510_circle(db = db_fieldmap_openhab_2) %>%
+              mutate(mon_cycle = 2))
 
 structure_vars <- bind_rows(structure_vars_heath, structure_vars_6510)
 
 check <- structure_vars_heath %>%
-    group_by(plot_id, segment_id, structure_var) %>%
+    group_by(mon_cycle, plot_id, segment_id, structure_var) %>%
     mutate(n = n()) %>%
     ungroup() %>%
     filter(n > 1)
@@ -1266,7 +1345,6 @@ check <- structure_vars_heath %>%
 
 trees_a3a4 <- get_treesa3a4_raw() %>%
   bind_rows(get_treesa3a4_past2020())
-
 
 # trees a2
 
@@ -1280,16 +1358,21 @@ logs <- get_logs() %>%
 
 date_assessment_forest <- get_date_foresthab() %>%
     bind_rows(get_date_foresthab_past2020()) %>%
-    mutate(date_assessment = pmin(date_vegetation, date_dendro, na.rm = TRUE))
+    mutate(date_assessment = pmin(date_vegetation, date_dendro, na.rm = TRUE),
+           mon_cycle = 1)
 
 date_assessment <- get_date_openhab() %>%
+  mutate(mon_cycle = 1) %>%
+  bind_rows(get_date_openhab(db = db_fieldmap_openhab_2) %>%
+              mutate(mon_cycle = 2)) %>%
   bind_rows(date_assessment_forest) %>%
-  group_by(plot_id, date_vegetation, date_dendro) %>%
+  unique() %>%
+  group_by(mon_cycle, plot_id, date_vegetation, date_dendro) %>%
   summarise(date_assessment = max(date_assessment)) %>%
   ungroup()
 
 check <- date_assessment %>%
-  group_by(plot_id) %>%
+  group_by(mon_cycle, plot_id) %>%
   mutate(n = n()) %>%
   ungroup() %>%
   filter(n > 1)
@@ -1297,12 +1380,20 @@ check <- date_assessment %>%
 # coordinates
 
 coordinates  <- get_coordinates_openhab() %>%
-    bind_rows(get_coordinates_foresthab()) %>%
-    bind_rows(get_coordinates_foresthab(db = db_fieldmap_foresthab_past2020)) %>%
-    unique()
+  mutate(mon_cycle = 1) %>%
+  bind_rows(get_coordinates_openhab_c2(db = db_fieldmap_openhab_2) %>%
+              mutate(mon_cycle = 2)) %>%
+  bind_rows(get_coordinates_foresthab() %>%
+    mutate(mon_cycle = 1)) %>%
+  bind_rows(get_coordinates_foresthab(db = db_fieldmap_foresthab_past2020) %>%
+              mutate(mon_cycle = 1)) %>%
+  unique() %>%
+  mutate(verlegd = verlegd == 1) %>%
+  select(mon_cycle, plot_id, point_code, everything()) %>%
+  select(-idplots)
 
 check <- coordinates %>%
-  group_by(plot_id) %>%
+  group_by(mon_cycle, plot_id) %>%
   mutate(n = n()) %>%
   ungroup() %>%
   filter(n > 1) # check plot 12710
@@ -1311,31 +1402,46 @@ check <- coordinates %>%
 
 # Check type observed
 
-The type in the center of the plot determines if the sampling unit should be measured or not.
+The type in the centre of the plot determines if the sampling unit should be measured or not.
 
 The type is recorded in the square plot and the circle plot.
 
-We assume that the type in the center of the plot corresponds with the type recorded in the square plot. If the type in the square plot is missing, we assume that the type corresponds with the type recorded in the circle plot. If the circle plot is a mixed plot we assume that the segment with the lowest number contains the center of the plot.
+We assume that the type in the centre of the plot corresponds with the type recorded in the square plot. If the type in the square plot is missing, we assume that the type corresponds with the type recorded in the circle plot. If the circle plot is a mixed plot we assume that the segment with the lowest number contains the centre of the plot.
 
 ```{r}
+
+types <- read_types()
+
+main_types <- types %>%
+  filter(typelevel == "main_type")
+
+subtypes <- types %>%
+  filter(typelevel == "subtype")
+
 type_observed_plot <- type_observed_corr %>%
   mutate(type_observed_circle_description = str_c(ifelse(is.na(type_observed_cover_circle), "?", type_observed_cover_circle), "% ", type_observed_circle)) %>%
-  group_by(plot_id) %>%
+  group_by(mon_cycle, plot_id) %>%
   mutate(type_observed_circle_description = str_c(type_observed_circle_description, collapse = "; "),
          mixed_plot = n() > 1) %>%
   slice_min(order_by = segment_id, n = 1) %>%
   ungroup() %>%
-  mutate(type_observed = ifelse(!is.na(type_observed_square), type_observed_square, type_observed_circle))
+  mutate(type_observed = ifelse(!is.na(type_observed_square), type_observed_square, type_observed_circle),
+         type_observed = ifelse(type_observed_square %in% main_types$type & 
+                                  type_observed_circle %in% subtypes$type &
+                                  str_sub(type_observed_circle, 1, 4) == str_sub(type_observed_square, 1, 4),
+                                type_observed_circle, type_observed)) %>%
+  filter(!(is.na(type_observed_circle) & is.na(type_observed_square)))
 
 check_type <- type_observed_plot %>%
   filter(mixed_plot) 
 
 check_unique_type <- type_observed_plot %>%
-  group_by(plot_id) %>%
+  group_by(mon_cycle, plot_id) %>%
   filter(n_distinct(type_observed) > 1)
 
 type_observed_plot <- type_observed_plot %>%
-  filter(!(plot_id == 659794 & type_observed == "infrastructuur"))
+  filter(!(plot_id == 659794 & type_observed == "infrastructuur"))  %>%
+  filter(!(plot_id == 267222 & is.na(type_observed_circle)))
 
 type_observed_corr <- type_observed_corr %>%
   filter(!(plot_id == 659794 & type_observed_square == "infrastructuur")) %>%
@@ -1356,7 +1462,7 @@ In the table below we check the cases when the cover in the square plot is not r
 
 ```{r}
 check_type %>%
-    select(plot_id, type_observed, type_observed_circle_description) %>%
+    select(mon_cycle, plot_id, type_observed, type_observed_circle_description) %>%
     datatable(filter = "top",
             rownames = FALSE)
 ```
@@ -1368,28 +1474,26 @@ check_type %>%
 ```{r MissingData}
 
 cover_veglayers_plot <- cover_veglayers %>%
-    group_by(plot_id) %>%
+    group_by(mon_cycle, plot_id) %>%
     summarise(cover_veglayer_recorded = sum(!is.na(cover_mean) | !is.na(cover)) > 0) %>%
     ungroup() %>%
     filter(cover_veglayer_recorded)
 
 date_assessment_plot <- date_assessment %>%
-    group_by(plot_id) %>%
+    group_by(mon_cycle, plot_id) %>%
     summarise(date_assessment = min(date_assessment)) %>%
     ungroup()
 
 check_coordinates_double <- coordinates %>%
-  group_by(plot_id) %>%
+  group_by(mon_cycle, plot_id) %>%
   mutate(n = n()) %>%
   ungroup() %>%
   filter(n > 1)
 
-types <- read_types()
-
 check_missing_data <- sample_status_most_recent %>%
     filter(!is.na(plot_id)) %>%
-    left_join(type_observed_plot, by = "plot_id") %>%
-    left_join(date_assessment_plot, by = "plot_id") %>%
+    left_join(type_observed_plot, by = c("plot_id", "mon_cycle")) %>%
+    left_join(date_assessment_plot, by = c("plot_id", "mon_cycle")) %>%
   #opname uitgevoerd cfr invav
     mutate( inaccessible = ifelse(!is.na(info_status_fieldwork) 
                                    & info_status_fieldwork %in% c("tijdelijk geen toestemming/geen toegang (eigenaar/hond/vee)"), "short term", 
@@ -1413,7 +1517,7 @@ check_missing_data <- sample_status_most_recent %>%
 
 assessments <- check_missing_data %>%
   mutate(date_assessment = if_else(is.na(date_assessment), as.Date(date_status), date_assessment)) %>%
-    select(plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record, dendro_record) %>%
+    select(mon_cycle, plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record, dendro_record) %>%
   filter(!(is.na(assessment_source) & is.na(inaccessible) & is.na(not_measurable)))
 
 check <- assessments %>%
