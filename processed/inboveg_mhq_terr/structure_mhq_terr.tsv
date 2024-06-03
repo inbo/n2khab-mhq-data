@@ -2021,8 +2021,8 @@ N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	grkl5	groeiklasse 5	37.5
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	grkl6	groeiklasse 6	37.5
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	dodik	hoeveelheid dik dood hout	0
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	ssbs	sleutelsoorten boom- en struiklaag	100
-N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	doho	aandeel dood hout	3
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	doho	aandeel dood hout	0
+N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	doho	aandeel dood hout	3
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	grkl4	groeiklasse 4	62.5
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	grkl5	groeiklasse 5	37.5
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	ssbs	sleutelsoorten boom- en struiklaag	100
@@ -2854,14 +2854,14 @@ N2000meetnet_Grasland_BHM	IV2023062814335821	dummy data	bos	verbossing	100
 N2000meetnet_Grasland_BHM	IV2023070521085977	654598	bos	verbossing	10
 N2000meetnet_Grasland_BHM	IV2023070521090020	1583446	bos	verbossing	0
 N2000meetnet_Grasland_BHM	IV2023070521090101	498886	bos	verbossing	0
-N2000_Duinen_fieldapp	IV2023090510334887	10219313_2130_hd	bos	verbossing	0
-N2000_Duinen_fieldapp	IV2023090510335160	1013937_2130_hd	bos	verbossing	3
+N2000_Duinen_fieldapp	IV2023090510334887	10219313	bos	verbossing	0
+N2000_Duinen_fieldapp	IV2023090510335160	1013937	bos	verbossing	3
 N2000_Duinen_fieldapp	IV2023090510335391	10184117	bos	verbossing	70
-N2000_Duinen_fieldapp	IV2023090510335534	611505_1	klver	beperkte verstuiving_2120	20
-N2000_Duinen_fieldapp	IV2023090510335534	611505_1	gfixe	gefixeerd_2120	0
-N2000_Duinen_fieldapp	IV2023090510335534	611505_1	rijsh	rijshout bij type 2120	0
-N2000_Duinen_fieldapp	IV2023090510335534	611505_1	stver	sterke verstuiving_2120	40
-N2000_Duinen_fieldapp	IV2023090510335534	611505_1	struc	structuurverstoringen (puin, …)	0.5
+N2000_Duinen_fieldapp	IV2023090510335534	611505	klver	beperkte verstuiving_2120	20
+N2000_Duinen_fieldapp	IV2023090510335534	611505	gfixe	gefixeerd_2120	0
+N2000_Duinen_fieldapp	IV2023090510335534	611505	rijsh	rijshout bij type 2120	0
+N2000_Duinen_fieldapp	IV2023090510335534	611505	stver	sterke verstuiving_2120	40
+N2000_Duinen_fieldapp	IV2023090510335534	611505	struc	structuurverstoringen (puin, …)	0.5
 N2000_Duinen_fieldapp	IV2023090510335618	1047861	klver	beperkte verstuiving_2120	40
 N2000_Duinen_fieldapp	IV2023090510335618	1047861	gfixe	gefixeerd_2120	5
 N2000_Duinen_fieldapp	IV2023090510335618	1047861	rijsh	rijshout bij type 2120	0
@@ -2889,15 +2889,15 @@ N2000_Duinen_fieldapp	IV2023090510340619	10129201	gfixe	gefixeerd_2120	0
 N2000_Duinen_fieldapp	IV2023090510340619	10129201	rijsh	rijshout bij type 2120	0
 N2000_Duinen_fieldapp	IV2023090510340619	10129201	stver	sterke verstuiving_2120	60
 N2000_Duinen_fieldapp	IV2023090510340619	10129201	struc	structuurverstoringen (puin, …)	0
-N2000_Duinen_fieldapp	IV2023090510340710	101169_1	bos	verbossing	0
-N2000_Duinen_fieldapp	IV2023090510340842	10186545_2170	bos	verbossing	22
+N2000_Duinen_fieldapp	IV2023090510340710	101169	bos	verbossing	0
+N2000_Duinen_fieldapp	IV2023090510340842	10186545	bos	verbossing	22
 N2000_Duinen_fieldapp	IV2023090510340919	10260273	bos	verbossing	2
 N2000_Duinen_fieldapp	IV2023090510341314	10010417	klver	beperkte verstuiving_2120	10
 N2000_Duinen_fieldapp	IV2023090510341314	10010417	gfixe	gefixeerd_2120	15
 N2000_Duinen_fieldapp	IV2023090510341314	10010417	rijsh	rijshout bij type 2120	0
 N2000_Duinen_fieldapp	IV2023090510341314	10010417	stver	sterke verstuiving_2120	25
 N2000_Duinen_fieldapp	IV2023090510341314	10010417	struc	structuurverstoringen (puin, …)	0
-N2000_Duinen_fieldapp	IV2023090510341335	10186545_2130_hd	bos	verbossing	5
+N2000_Duinen_fieldapp	IV2023090510341335	10186545	bos	verbossing	5
 N2000_Duinen_fieldapp	IV2023090510341466	10350385	klver	beperkte verstuiving_2120	90
 N2000_Duinen_fieldapp	IV2023090510341466	10350385	gfixe	gefixeerd_2120	0
 N2000_Duinen_fieldapp	IV2023090510341466	10350385	rijsh	rijshout bij type 2120	0
@@ -2908,25 +2908,25 @@ N2000_Duinen_fieldapp	IV2023090510341547	10239793	gfixe	gefixeerd_2120	0
 N2000_Duinen_fieldapp	IV2023090510341547	10239793	rijsh	rijshout bij type 2120	0
 N2000_Duinen_fieldapp	IV2023090510341547	10239793	stver	sterke verstuiving_2120	100
 N2000_Duinen_fieldapp	IV2023090510341547	10239793	struc	structuurverstoringen (puin, …)	7
-N2000_Duinen_fieldapp	IV2023090510341663	20081_1	bos	verbossing	18
+N2000_Duinen_fieldapp	IV2023090510341663	20081	bos	verbossing	18
 N2000_Duinen_fieldapp	IV2023090510341797	10157493	bos	verbossing	35
-N2000_Duinen_fieldapp	IV2023090510341863	10057905_2130_hd	bos	verbossing	0.5
+N2000_Duinen_fieldapp	IV2023090510341863	10057905	bos	verbossing	0.5
 N2000_Duinen_fieldapp	IV2023090510342013	10578737	klver	beperkte verstuiving_2120	0
 N2000_Duinen_fieldapp	IV2023090510342013	10578737	gfixe	gefixeerd_2120	0
 N2000_Duinen_fieldapp	IV2023090510342013	10578737	rijsh	rijshout bij type 2120	0
 N2000_Duinen_fieldapp	IV2023090510342013	10578737	stver	sterke verstuiving_2120	100
 N2000_Duinen_fieldapp	IV2023090510342013	10578737	struc	structuurverstoringen (puin, …)	1
-N2000_Duinen_fieldapp	IV2023090510342143	363313_1	klver	beperkte verstuiving_2120	NA
-N2000_Duinen_fieldapp	IV2023090510342143	363313_1	gfixe	gefixeerd_2120	0
-N2000_Duinen_fieldapp	IV2023090510342143	363313_1	rijsh	rijshout bij type 2120	0
-N2000_Duinen_fieldapp	IV2023090510342143	363313_1	stver	sterke verstuiving_2120	65
-N2000_Duinen_fieldapp	IV2023090510342143	363313_1	struc	structuurverstoringen (puin, …)	35
+N2000_Duinen_fieldapp	IV2023090510342143	363313	klver	beperkte verstuiving_2120	NA
+N2000_Duinen_fieldapp	IV2023090510342143	363313	gfixe	gefixeerd_2120	0
+N2000_Duinen_fieldapp	IV2023090510342143	363313	rijsh	rijshout bij type 2120	0
+N2000_Duinen_fieldapp	IV2023090510342143	363313	stver	sterke verstuiving_2120	65
+N2000_Duinen_fieldapp	IV2023090510342143	363313	struc	structuurverstoringen (puin, …)	35
 N2000_Duinen_fieldapp	IV2023090510342225	10082997	bos	verbossing	0
-N2000_Duinen_fieldapp	IV2023090510342363	163633_1	klver	beperkte verstuiving_2120	0
-N2000_Duinen_fieldapp	IV2023090510342363	163633_1	gfixe	gefixeerd_2120	50
-N2000_Duinen_fieldapp	IV2023090510342363	163633_1	rijsh	rijshout bij type 2120	NA
-N2000_Duinen_fieldapp	IV2023090510342363	163633_1	stver	sterke verstuiving_2120	50
-N2000_Duinen_fieldapp	IV2023090510342363	163633_1	struc	structuurverstoringen (puin, …)	0
+N2000_Duinen_fieldapp	IV2023090510342363	163633	klver	beperkte verstuiving_2120	0
+N2000_Duinen_fieldapp	IV2023090510342363	163633	gfixe	gefixeerd_2120	50
+N2000_Duinen_fieldapp	IV2023090510342363	163633	rijsh	rijshout bij type 2120	NA
+N2000_Duinen_fieldapp	IV2023090510342363	163633	stver	sterke verstuiving_2120	50
+N2000_Duinen_fieldapp	IV2023090510342363	163633	struc	structuurverstoringen (puin, …)	0
 N2000_Duinen_fieldapp	IV2023090510342463	10082417	bos	verbossing	40
 N2000_Duinen_fieldapp	IV2023090510342509	10333745	klver	beperkte verstuiving_2120	20
 N2000_Duinen_fieldapp	IV2023090510342509	10333745	gfixe	gefixeerd_2120	0
@@ -2964,12 +2964,12 @@ N2000_Duinen_fieldapp	IV2023090510343307	651057_1	rijsh	rijshout bij type 2120	0
 N2000_Duinen_fieldapp	IV2023090510343307	651057_1	stver	sterke verstuiving_2120	90
 N2000_Duinen_fieldapp	IV2023090510343307	651057_1	struc	structuurverstoringen (puin, …)	2
 N2000_Duinen_fieldapp	IV2023090510343475	10172209	bos	verbossing	0
-N2000_Duinen_fieldapp	IV2023090510343569	507697_1	klver	beperkte verstuiving_2120	30
-N2000_Duinen_fieldapp	IV2023090510343569	507697_1	gfixe	gefixeerd_2120	0
-N2000_Duinen_fieldapp	IV2023090510343569	507697_1	rijsh	rijshout bij type 2120	0
-N2000_Duinen_fieldapp	IV2023090510343569	507697_1	stver	sterke verstuiving_2120	70
-N2000_Duinen_fieldapp	IV2023090510343569	507697_1	struc	structuurverstoringen (puin, …)	0
-N2000_Duinen_fieldapp	IV2023090510343692	1354545_1	bos	verbossing	10
+N2000_Duinen_fieldapp	IV2023090510343569	507697	klver	beperkte verstuiving_2120	30
+N2000_Duinen_fieldapp	IV2023090510343569	507697	gfixe	gefixeerd_2120	0
+N2000_Duinen_fieldapp	IV2023090510343569	507697	rijsh	rijshout bij type 2120	0
+N2000_Duinen_fieldapp	IV2023090510343569	507697	stver	sterke verstuiving_2120	70
+N2000_Duinen_fieldapp	IV2023090510343569	507697	struc	structuurverstoringen (puin, …)	0
+N2000_Duinen_fieldapp	IV2023090510343692	1354545	bos	verbossing	10
 N2000_Duinen_fieldapp	IV2023090510343845	103601	klver	beperkte verstuiving_2120	0.5
 N2000_Duinen_fieldapp	IV2023090510343845	103601	gfixe	gefixeerd_2120	0
 N2000_Duinen_fieldapp	IV2023090510343845	103601	rijsh	rijshout bij type 2120	0
@@ -2986,7 +2986,7 @@ N2000_Duinen_fieldapp	IV2023092116275149	10233009	gfixe	gefixeerd_2120	50
 N2000_Duinen_fieldapp	IV2023092116275149	10233009	rijsh	rijshout bij type 2120	0
 N2000_Duinen_fieldapp	IV2023092116275149	10233009	stver	sterke verstuiving_2120	5
 N2000_Duinen_fieldapp	IV2023092116275149	10233009	struc	structuurverstoringen (puin, …)	0
-N2000_Duinen_fieldapp	IV2023092116275212	4877105_1	bos	verbossing	0.5
+N2000_Duinen_fieldapp	IV2023092116275212	4877105	bos	verbossing	0.5
 N2000_Duinen_fieldapp	IV2023092116275442	1053873	klver	beperkte verstuiving_2120	15
 N2000_Duinen_fieldapp	IV2023092116275442	1053873	gfixe	gefixeerd_2120	5
 N2000_Duinen_fieldapp	IV2023092116275442	1053873	rijsh	rijshout bij type 2120	0
@@ -3003,7 +3003,7 @@ N2000_Duinen_fieldapp	IV2023110621344809	10415921	bos	verbossing	60
 N2000_Duinen_fieldapp	IV2023110621344900	12644145	bos	verbossing	40
 N2000_Duinen_fieldapp	IV2023110621345140	12054321	bos	verbossing	1
 N2000_Duinen_fieldapp	IV2023110621345242	11530033	bos	verbossing	22
-N2000_Duinen_fieldapp	IV2023110621345316	7335729_1	bos	verbossing	5
+N2000_Duinen_fieldapp	IV2023110621345316	7335729	bos	verbossing	5
 N2000_Duinen_fieldapp	IV2023110621345537	1240881	bos	verbossing	0
 N2000_Duinen_fieldapp	IV2023110621345656	12545841	bos	verbossing	10
 N2000meetnet_Moeras_BHM	IV2023111315034722	1004470	struc	structuurschade	0

@@ -1,0 +1,13 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: recording_givid
+  hash: e4acc72716671f3863823c0f3247805bbf4cd1b1
+  data_hash: 6395059f98bbefd0238f31b5a4b622c0f1a33363
+survey:
+  class: character
+recording_givid:
+  class: character
+plot_id:
+  class: character
