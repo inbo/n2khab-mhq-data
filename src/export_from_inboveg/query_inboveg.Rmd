@@ -35,7 +35,7 @@ update <- TRUE
  
 connection_inboveg <- connect_inbo_dbase(database_name = "D0010_00_Cydonia")
 
-mhq_terr_surveys <- c("N2000meetnet_Grasland", "N2000meetnet_Moerassen", "N2000meetnet_Grasland_BHM", "N2000meetnet_Moeras_BHM", "N2000meetnet_Duinen_BHM", "N2000_Duinen_Fieldapp", "N2000meetnet_Bos_91E0_sf", "N2000meetnet_Heide_BHM", "N2000meetnet_Heide_BHM_2022", "N2000_6510_droogte")
+mhq_terr_surveys <- c("N2000meetnet_Grasland", "N2000meetnet_Moerassen", "N2000meetnet_Grasland_BHM", "N2000meetnet_Moeras_BHM", "N2000meetnet_Duinen_BHM", "N2000_Duinen_Fieldapp", "N2000meetnet_Bos_91E0_sf", "N2000meetnet_Heide_BHM", "N2000meetnet_Heide_BHM_2022", "N2000_6510_droogte", "Schelde-estuarium")
 
 classif_mhq <- get_inboveg_classification(connection = connection_inboveg, survey_name = mhq_terr_surveys, collect = TRUE, multiple = TRUE) %>%
     select(recording_givid = RecordingGivid, survey = Name, type_observed = Classif, classif_type = ActionGroup, classif_key = ListName, type_cover = Cover) %>%
@@ -54,7 +54,26 @@ qualifiers_mhq <- get_inboveg_qualifier(connection = connection_inboveg, survey_
            structure_var = tolower(structure_var),
            cover = as.numeric(cover))
 
+site_qualifiers_moneos <-  get_inboveg_qualifier(connection = connection_inboveg, survey_name = c("N2000meetnet_Bos_91E0_sf", "Schelde-estuarium"), qualifier_type = "SQ", multiple = TRUE) %>%
+  select(survey = Name, recording_givid = RecordingGivid, plot_id = Q1Code)
+
 ```
+
+## Coordinates MONEOS
+
+The coordinates from the MONEOS-PQ's are not in INBOVEG (yet?).
+
+For now we store a csv-file with coordinates in [this google drive folder](https://drive.google.com/drive/folders/1tl0gtQrFdmMtgupffkX8uuMJ0uJbeWKL).
+
+```{r}
+
+path <- fileman_up("n2khab-mhq-data")
+
+coordinates_moneos <- read_csv2(file.path(path, "raw/coordinates_inbo/CoordinatenExtraPQ_LSVI_91E0_2023-12-07.csv")) %>%
+  select(plot_id = "PQ-nummer", plot_pl = PQpl, x = LamX, y = LamY, grts_ranking = Ranking) %>%
+  filter(!is.na(plot_id))
+```
+
 
 ## Write result to .vc file
 
@@ -80,6 +99,8 @@ write_vc(classif_mhq, "classif_mhq_terr", root = path,  sorting = c("recording_g
 write_vc(header_mhq, "header_mhq_terr", root = path,  sorting = c("recording_givid"), strict = FALSE)
 write_vc(qualifiers_mhq, "structure_mhq_terr", root = path,  sorting = c("recording_givid", "structure_var"))
 write_vc(recordings_mhq, "vegetation_mhq_terr", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
+write_vc(site_qualifiers_moneos, "site_qualifiers_moneos", root = path, sorting = c("recording_givid"))
+write_vc(coordinates_moneos, "coordinaten_moneos", root = path, sorting = c("plot_id", "plot_pl"))
 ```
 
 # Query INBOVEG aquatic habitat types
