@@ -6,8 +6,8 @@
   - plot_id
   - segment_id
   - date_assessment
-  hash: b5fb0466260aba3563613775f672ec4fced8b3ab
-  data_hash: 3af40ec2eaaf3ef9c390597a07e46630740033cf
+  hash: a1c755f5aaef9e55012dc7ff76ec47e194e9fb14
+  data_hash: 2c3e84f15587f700124af59a1f1d89e972f0ba21
 plot_id:
   class: integer
 segment_id:
@@ -36,4 +36,6 @@ basalarea_m2:
 vol_stem_m3:
   class: numeric
 vol_tot_m3:
+  class: numeric
+mon_cycle:
   class: numeric

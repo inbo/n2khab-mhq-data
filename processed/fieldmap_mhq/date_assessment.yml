@@ -2,9 +2,11 @@
   git2rdata: 0.4.0
   optimize: yes
   NA string: NA
-  sorting: plot_id
-  hash: a888acb86667e947ab5fd2c2a56dd81093624e36
-  data_hash: 1c7bd7dc8f6894e083c2fc0d60e2335e1d9d31e2
+  sorting:
+  - plot_id
+  - mon_cycle
+  hash: 7028fbd6491de54c3b803cde221f3afdf7d2f000
+  data_hash: 53e5e6e5e38bcc88f6a64efe065aed84da0f23e7
 plot_id:
   class: integer
 date_assessment:
@@ -16,3 +18,5 @@ date_vegetation:
 date_dendro:
   class: Date
   origin: '1970-01-01'
+mon_cycle:
+  class: numeric

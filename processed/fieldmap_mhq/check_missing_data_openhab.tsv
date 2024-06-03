@@ -1,22 +1,29 @@
-plot_id	status_fieldwork	info_status_fieldwork	remark	type_observed_circle	date_assessment	coordinates_record	cover_species_record	structure_openhab_record
-1140086	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17372	0	1	1
-12274	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	16304	0	1	1
-1303926	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17361	0	1	1
-1313142	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17374	0	1	1
-1344438	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	17375	0	1	1
-1442745	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hu	18065	0	1	1
-1566070	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17373	0	1	1
-1743698	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17354	0	1	1
-1971474	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hus	16960	0	1	1
-236370	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	16309	0	1	1
-275830	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	17360	0	1	1
-2934297	Opname volledig uitgevoerd	100% afgewerkt	6510 hu	6510_hu	17693	0	1	1
-3077777	Opname volledig uitgevoerd	100% afgewerkt	50m verlegd nr Z	6510_hua	18415	0	1	1
-317202	Opname volledig uitgevoerd	100% afgewerkt	geen planten te noteren. Vegetatie-opname is afgew	2330_bu	17736	1	0	1
-4003090	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hus	16961	0	1	1
-445266	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	16309	0	1	1
-44626	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	16304	0	1	1
-498514	Opname volledig uitgevoerd	100% afgewerkt	NA	2310	16309	0	1	1
-77394	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	16304	0	1	1
-845457	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hua	16961	0	1	1
-968217	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hua	16953	0	1	1
+plot_id	status_fieldwork	info_status_fieldwork	remark	type_observed_circle	date_assessment	coordinates_record	cover_species_record	structure_openhab_record	mon_cycle
+1140086	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17372	0	1	NA	1
+120110	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+1303926	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17361	0	1	NA	1
+1313142	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17374	0	1	NA	1
+1344438	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	17375	0	1	NA	1
+136402	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+1442745	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hu	18065	0	1	NA	1
+1566070	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17373	0	1	NA	1
+1743698	Opname volledig uitgevoerd	100% afgewerkt	NA	2330_bu	17354	0	1	NA	1
+218322	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+275830	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	17360	0	1	NA	1
+27602	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+2934297	Opname volledig uitgevoerd	100% afgewerkt	6510 hu	6510_hu	17693	0	1	NA	1
+3026	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+3077777	Opname volledig uitgevoerd	100% afgewerkt	50m verlegd nr Z	6510_hua	18415	0	1	NA	1
+317202	Opname volledig uitgevoerd	100% afgewerkt	geen planten te noteren. Vegetatie-opname is afgew	2330_bu	17736	1	0	NA	1
+37330	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+4003090	Opname volledig uitgevoerd	100% afgewerkt	NA	6510_hus	16961	0	1	NA	1
+42934	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+46006	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+498514	Opname volledig uitgevoerd	100% afgewerkt	NA	2310	16309	0	1	NA	1
+54482	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+54994	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+65234	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+65522	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+76242	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	1	1	NA	2
+77394	Opname volledig uitgevoerd	100% afgewerkt	NA	4030	16304	0	1	NA	1
+77394	Opname volledig uitgevoerd	100% afgewerkt	opname door INBO ikv verdroging	NA	NA	0	1	NA	2

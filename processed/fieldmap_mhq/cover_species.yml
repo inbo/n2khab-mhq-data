@@ -7,8 +7,8 @@
   - date_assessment
   - layer
   - name_nl
-  hash: f750c11133f22c2648af146aa1b5394a4a4e5190
-  data_hash: 7c68fc6444b5d454ded345c015d3fa4b6eebe52e
+  hash: 5dd3ee6e417b02c38dea6dd6311d471a6a47a06d
+  data_hash: 475612671e9d6b959c715ff118e5a7f7fc1c54e3
 plot_id:
   class: integer
 layer:
@@ -26,3 +26,5 @@ cover_mean:
 date_assessment:
   class: Date
   origin: '1970-01-01'
+mon_cycle:
+  class: numeric

@@ -6,8 +6,8 @@
   - plot_id
   - date_assessment
   - idline_intersect_method
-  hash: a02da4257acfda5ce844d8eb8f5066775c5fa11b
-  data_hash: 97aea7bc0601f6f042dd7f265d677c1cdf59faae
+  hash: 3aadd2e743c2a17b187448fbe23b2df7f39bbb54
+  data_hash: e6f6a7c8cfbdabd662d6b3f6665a604471e589c3
 plot_id:
   class: integer
 idline_intersect_method:
@@ -21,3 +21,5 @@ date_assessment:
   origin: '1970-01-01'
 idline_intersect_method_3:
   class: integer
+mon_cycle:
+  class: numeric

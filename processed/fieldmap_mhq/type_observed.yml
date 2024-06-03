@@ -6,8 +6,10 @@
   - plot_id
   - segment_id
   - date_assessment
-  hash: ee08042e5db8130af8dfe5c2f8bfe835cd4d7cb4
-  data_hash: 0c42dfcd1d8c9aa9fc66ccc60ff4ae3fb2b32c5e
+  - type_observed_circle
+  - type_observed_square
+  hash: 8b93480bf0a255f7e2294494f9b871a29c87536e
+  data_hash: b34bba3b13d029d6335cf66777ba6a9cc1d0a929
 plot_id:
   class: integer
 type_observed_circle:
@@ -23,3 +25,5 @@ type_observed_cover_circle:
 date_assessment:
   class: Date
   origin: '1970-01-01'
+mon_cycle:
+  class: numeric

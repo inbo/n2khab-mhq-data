@@ -4,14 +4,11 @@
   NA string: NA
   sorting:
   - plot_id
-  - segment_id
   - date_assessment
   - layer
-  hash: c2f52edc537835f3262bf74f9e77cfdad94f4287
-  data_hash: 7b023711663db11600655e2a7683031207aa95ff
+  hash: 09455b738c19091f1fdb47771a9093ee85443127
+  data_hash: ccbd8dac314e9bb9f61b5af0640fd73d55a3be36
 plot_id:
-  class: integer
-segment_id:
   class: integer
 layer:
   class: character
@@ -24,3 +21,5 @@ cover_mean:
 date_assessment:
   class: Date
   origin: '1970-01-01'
+mon_cycle:
+  class: numeric

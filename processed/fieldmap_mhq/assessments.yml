@@ -5,8 +5,9 @@
   sorting:
   - plot_id
   - date_assessment
-  hash: 1bcd6dba23223e3fd0067b245ca9d079697eb24c
-  data_hash: 40113245284447340ba5d6519f8d4f7bcce80a39
+  - mon_cycle
+  hash: 197507a7ea4801806a5490b1f3524390bb28eb85
+  data_hash: 86c03b15570c8a56b33b22dc3f4f5d6b728f27e9
 plot_id:
   class: character
 sampling_unit_code:
@@ -38,3 +39,5 @@ cover_species_record:
   class: logical
 dendro_record:
   class: logical
+mon_cycle:
+  class: numeric

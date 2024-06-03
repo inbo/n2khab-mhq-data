@@ -6,8 +6,8 @@
   - plot_id
   - date_assessment
   - name_nl
-  hash: 72c568a9c2a9f6bf2a6d33117825f73f6ebf2fd8
-  data_hash: aab388347939ca582ed659f1f38dba4a296f3af4
+  hash: 1af4ca6e8b0702ef8c1d0f7934e0d065645fed9a
+  data_hash: 2841ebdf58033a05711c7bb237991936ddff0b96
 plot_id:
   class: integer
 name_nl:
@@ -17,3 +17,5 @@ n_individuals:
 date_assessment:
   class: Date
   origin: '1970-01-01'
+mon_cycle:
+  class: numeric

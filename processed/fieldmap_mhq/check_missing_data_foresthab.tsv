@@ -1,60 +1,29 @@
-plot_id	status_fieldwork	info_status_fieldwork	remark	type_observed_circle	date_assessment	cover_species_record	dendro_record	a2_record	a3a4_record
-10354	Opname volledig uitgevoerd	100% afgewerkt	NA	9160	16575	1	1	0	1
-11126	Opname volledig uitgevoerd	100% afgewerkt	"Twijfelen aan habitatwaardigheid van het bos.Toch maar een opname gedaan. Geen bosbouw nodig.
-"	9120	16584	1	0	0	0
-12470	Opname volledig uitgevoerd	100% afgewerkt	Op  1,3  330  gr  zwarte els x//	91E0_vm	16597	1	1	0	1
-12710	Opname volledig uitgevoerd	100% afgewerkt	" Baak 28 gr  3,3 m ame.vogelkers
-Tiensebaan Molenbeek-Wersbeek/Bekkevoort.."	9120	17704	1	1	0	1
-149225	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-155346	Opname volledig uitgevoerd	100% afgewerkt	kaalkap. BB afgewerkt maar geen bomen in de plot.	91E0_vo	16590	1	0	0	0
-159401	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-16633	Opname volledig uitgevoerd	100% afgewerkt	bosbouw n veg ok	91E0_vc	16559	1	1	0	1
-183593	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-190802	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-201689	Opname volledig uitgevoerd	100% afgewerkt	"dendro ok n vegetatie ok 6/4/15/
-dendro ok 20/1/16
-bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	91E0_vc	16820	1	1	0	1
-211193	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16573	1	1	0	1
-222377	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-234297	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16561	1	1	0	1
-238313	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-27474	Opname volledig uitgevoerd	100% afgewerkt	NA	9190	17989	1	1	0	1
-277225	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-284729	Opname volledig uitgevoerd	100% afgewerkt	vegetatie ok 28/4/1m n 131gr, n geritste grauwe els	91E0_vc	16553	1	1	0	1
-289513	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-292585	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-312553	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-32681	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-330985	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-335337	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-337321	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-346246	Opname volledig uitgevoerd	100% afgewerkt	"baak op 1,4 m \ 210 gr berk
-Kriebekstraat / Houwaart."	91E0_vm	17708	1	1	0	1
-37033	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-381673	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-392617	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-425385	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-431494	Opname volledig uitgevoerd	100% afgewerkt	 Baak 3,3 m 333 gr Bijzondereweg / Bierbeek.	91E0_vo	17707	1	1	0	1
-447209	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-473833	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-478889	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-4945	Opname volledig uitgevoerd	100% afgewerkt	veg n bosbouw ok 21/4/17	9130_end	17277	1	1	0	1
-520582	Opname volledig uitgevoerd	100% afgewerkt	"  Baak 0,7 m 282 gr ame.vogelkers.
-  Wauwendries /Lubbeek."	9120	17707	1	1	0	1
-523346	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-53561	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16563	1	1	0	1
-541718	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
-570886	Opname volledig uitgevoerd	100% afgewerkt	baak op 4m / 20 gr beuk	9130	17716	1	1	0	1
-69097	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
+plot_id	status_fieldwork	info_status_fieldwork	remark	type_observed_circle	date_assessment	cover_species_record	dendro_record	a2_record	a3a4_record	mon_cycle
+10354	Opname volledig uitgevoerd	100% afgewerkt	NA	9160	16575	1	1	0	1	1
+12470	Opname volledig uitgevoerd	100% afgewerkt	Op  1,3  330  gr  zwarte els x//	91E0_vm	16597	1	1	0	1	1
+159401	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+16633	Opname volledig uitgevoerd	100% afgewerkt	bosbouw n veg ok	91E0_vc	16559	1	1	0	1	1
+222377	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+234297	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16561	1	1	0	1	1
+238313	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+289513	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+312553	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+335337	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+37033	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+381673	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+425385	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+473833	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+53561	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16563	1	1	0	1	1
+541718	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0	1
+570886	Opname volledig uitgevoerd	100% afgewerkt	baak op 4m / 20 gr beuk	9130	17716	1	1	0	1	1
 7785	Opname volledig uitgevoerd	100% afgewerkt	"5,46 n92 gr, van geritste berk
 met omtrek van 62cm, vegetatie n dendro ok
-"	9190	16573	1	1	0	1
-85890	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16576	1	1	0	1
+"	9190	16573	1	1	0	1	1
+85890	Opname volledig uitgevoerd	100% afgewerkt	NA	91E0_vc	16576	1	1	0	1	1
 9262	Opname volledig uitgevoerd	100% afgewerkt	"#habitat:9120,  veg gedaan, dendro gedaan
 
-"	9120	17067	1	1	0	1
+"	9120	17067	1	1	0	1	1
 96217	Opname volledig uitgevoerd	100% afgewerkt	"vegetatie afgewerkt 13/5/15 bom
 geplaatst 4.30 m n250gr. vn geritste beuk omtr. 253 cm
 kwelzone mt vc 30 m tn oosten verlegd rasterpunt;
-dendro ok 31/3/16"	91E0_vc	16568	1	1	0	1
-9641	Opname volledig uitgevoerd	100% afgewerkt	NA	NA	NA	0	0	0	0
+dendro ok 31/3/16"	91E0_vc	16568	1	1	0	1	1

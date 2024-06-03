@@ -3,8 +3,8 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 47c82a0308fe3977a50b56a26fa256fc03a504fa
-  data_hash: c263f736f767186aa5ff0ec90ac2005ccd98d39f
+  hash: c5820f212fa4ca6f7af60070b1c1eac4f748cd1a
+  data_hash: c1869ba43ff90f8a170fd5e3667ab300d0b077f1
 plot_id:
   class: character
 sampling_unit_code:
@@ -52,8 +52,6 @@ dendro_record:
   class: logical
 structure_openhab_record:
   class: logical
-navplot_id:
-  class: integer
 veg_done:
   class: integer
 reg_done:
@@ -82,3 +80,5 @@ type_observed:
   class: character
 not_measurable:
   class: character
+mon_cycle:
+  class: numeric
