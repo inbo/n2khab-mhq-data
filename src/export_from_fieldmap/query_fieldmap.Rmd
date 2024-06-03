@@ -1543,14 +1543,14 @@ Possible actions:
 
 ```{r}
 check_missing_data_openhab <- check_missing_data %>%
-    filter(db == "openhab") %>%
+    filter(db %in% c("openhab_c1", "openhab_c2")) %>%
     filter(lsvi_measurement) %>%
     filter(is.na(type_observed_circle) |
                is.na(date_assessment) |
                !coordinates_record |
                !cover_species_record |
                !structure_openhab_record) %>%
-    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, coordinates_record, cover_species_record, structure_openhab_record) 
+    select(plot_id, mon_cycle, date_assessment, status_fieldwork, info_status_fieldwork, remark, type_observed_circle,  coordinates_record, cover_species_record, structure_openhab_record) 
 
 check_missing_data_openhab %>%
     datatable(filter = "top",
@@ -1589,12 +1589,12 @@ Possible actions:
 
 ```{r missingDataOpen2}
 check_missing_data_openhab2 <- check_missing_data %>%
-    filter(db == "openhab" | is.na(db)) %>%
+    filter(db %in% c("openhab_c1", "openhab_c2") | is.na(db)) %>%
   #  filter(!lsvi_measurement | status_fieldwork == "nee" | is.na(status_fieldwork)) %>%
     filter( targethabitat != 'ja' |  (targethabitat == 'ja' & status_fieldwork %in% c("Geen opname gevraagd", "Geen opname uitgevoerd", "Opname gedeeltelijk uitgevoerd")) ) %>%
     filter(cover_species_record |
                structure_openhab_record) %>%
-    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, structure_openhab_record) 
+    select(plot_id, date_assessment, mon_cycle,  status_fieldwork, info_status_fieldwork, remark, type_observed_circle, , cover_species_record, structure_openhab_record) 
 
 check_missing_data_openhab2 %>%
     datatable(filter = "top",
@@ -1648,14 +1648,14 @@ Possible actions:
 
 ```{r MissingDataForest}
 check_missing_data_foresthab <- check_missing_data %>%
-    filter(db == "foresthab") %>%
+    filter(db == c("foresthab", "foresthab_2020")) %>%
     filter(lsvi_measurement) %>%
     filter(is.na(type_observed_circle) |
                is.na(date_assessment) |
                !cover_species_record |
                !dendro_record |
                !a2_record) %>%
-    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, dendro_record, a2_record, a3a4_record) 
+    select(plot_id, date_assessment, mon_cycle, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, cover_species_record, dendro_record, a2_record, a3a4_record) 
 
 check_missing_data_foresthab %>%
   datatable(filter = "top",
@@ -1677,11 +1677,11 @@ Possible actions:
 
 ```{r MissingDataForest2}
 check_missing_data_foresthab2 <- check_missing_data %>%
-    filter(db == "foresthab") %>%
+    filter(db %in% c("foresthab", "foresthab_past2020")) %>%
     filter(!lsvi_measurement | status_fieldwork == "nee") %>%
     filter(cover_species_record |
                dendro_record) %>%
-    select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, dendro_record, a2_record, a3a4_record) 
+    select(plot_id, date_assessment, mon_cycle, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, cover_species_record, dendro_record, a2_record, a3a4_record) 
 
 check_missing_data_foresthab2 %>%
   datatable(filter = "top",
@@ -1692,7 +1692,7 @@ check_missing_data_foresthab2 %>%
 
 ```{r MissingDataForest3}
 check_missing_data_foresthab3 <- check_missing_data %>%
-    filter(db == "foresthab" | is.na(db)) %>%
+    filter(db %in% c("foresthab", "foresthab_past2020") | is.na(db)) %>%
     filter(status_fieldwork == "nee" & info_status_fieldwork == "Geen opname : geen doelhabitat") %>%
     select(plot_id, status_fieldwork, info_status_fieldwork, remark, type_observed_circle, date_assessment, cover_species_record, structure_openhab_record) 
 
@@ -1703,79 +1703,82 @@ check_missing_data_foresthab3 %>%
 
 # Write result to .vc file
 
-
 ```{r write}
 
 sample_status_date <- sample_status_most_recent %>%
-  left_join(select(date_assessment, plot_id, date_assessment), by = "plot_id") %>%
+  left_join(select(date_assessment, plot_id, date_assessment, mon_cycle), by = c("plot_id", "mon_cycle")) %>%
   select(plot_id, date_assessment, everything()) %>%
   mutate(date_status = as.Date(date_status, format = "%Y-%m-%d"),
          date_assessment = if_else(is.na(date_assessment), date_status, date_assessment)) %>%
   select(-navplot_id, -remark4, -springveg, -veg_done, -reg_done, -dendro_done, -info_springveg)
 
 check_double <- sample_status_date %>%
-  group_by(plot_id) %>%
+  group_by(plot_id, mon_cycle) %>%
   filter(n() > 1)
 
 type_observed_date <- type_observed_corr %>%
   unique() %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, segment_id, date_assessment, everything())
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id", "mon_cycle")) %>%
+  select(plot_id, segment_id, mon_cycle, date_assessment, everything())
 
 check <- type_observed_date %>%
-  group_by(plot_id, segment_id) %>%
+  group_by(plot_id, segment_id, mon_cycle) %>%
   filter(n() > 1)
 
 cover_species_date <- cover_species %>%
   mutate(name_sc = ifelse(name_nl == "Tormentil", "Potentilla erecta (L.) Räuschel", name_sc),
-         name_sc = ifelse(name_nl == "Valse voszegge", "Carex cuprina (Sándor ex Heuffel) Nendtvich ex A. Kerner", name_sc)) %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything())
+         name_sc = ifelse(name_nl == "Valse voszegge", "Carex cuprina (Sándor ex Heuffel) Nendtvich ex A. Kerner", name_sc),
+         name_sc = ifelse(name_nl == "Gewone reigersbek s.s.", "Erodium cicutarium (L.) L'Hérit. subsp. cicutarium", name_sc)) %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id", "mon_cycle")) %>%
+  select(plot_id, mon_cycle, date_assessment, everything())
 
 check <- cover_species_date %>%
-  group_by(plot_id, layer, name_nl) %>%
+  group_by(plot_id, mon_cycle, layer, name_nl) %>%
   filter(n() > 1)
 
 cover_veglayers_date <- cover_veglayers %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything())
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id", "mon_cycle")) %>%
+  select(plot_id, mon_cycle, date_assessment, everything())
 
 check <- cover_veglayers_date %>%
-  group_by(plot_id, segment_id, layer) %>%
+  group_by(plot_id, layer, mon_cycle) %>%
   filter(n() > 1)
 
 structure_vars_date <- structure_vars %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything())
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id", "mon_cycle")) %>%
+  select(plot_id, mon_cycle, date_assessment, everything())
 
 check <- structure_vars_date %>%
-  group_by(plot_id, segment_id, structure_var) %>%
+  group_by(plot_id, segment_id, structure_var, mon_cycle) %>%
   filter(n() > 1)
 
 coordinates_date <- coordinates %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything()) %>%
-  select(-idplots) 
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id", "mon_cycle")) %>%
+  select(plot_id, mon_cycle, date_assessment, everything()) 
 
 check <- coordinates_date %>%
-  group_by(plot_id) %>%
+  group_by(plot_id, mon_cycle) %>%
   filter(n() > 1)
 
 logs_date <- logs %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything()) 
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id")) %>%
+  select(plot_id, mon_cycle, date_assessment, everything()) 
 
 trees_a3a4_date <- trees_a3a4 %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, segment_id, tree_id, date_assessment, everything()) 
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = c("plot_id")) %>%
+  select(plot_id, segment_id, tree_id, mon_cycle, date_assessment, everything()) 
 
 check <- trees_a3a4_date %>%
   group_by(plot_id, segment_id, tree_id) %>%
   filter(n() > 1)
 
 trees_a2_date <- trees_a2 %>%
-  inner_join(select(sample_status_date, plot_id, date_assessment), by = "plot_id") %>%
-  select(plot_id, date_assessment, everything()) 
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = "plot_id") %>%
+  select(plot_id, mon_cycle, date_assessment, everything()) 
+
+check_missing_data <- check_missing_data %>%
+  select(-navplot_id) %>%
+  select(plot_id, segment_id, mon_cycle, date_status, everything())
 
 
 path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
@@ -1796,7 +1799,7 @@ if (!dir.exists(path)) {
 
 write_vc(sample_status_date, "sample_status", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(type_observed_date, "type_observed", root = path,  sorting = c("plot_id", "segment_id", "date_assessment", "type_observed_circle", "type_observed_square"), strict = FALSE)
-write_vc(cover_veglayers_date, "cover_veglayers", root = path,  sorting = c("plot_id", "segment_id", "date_assessment", "layer"), strict = FALSE)
+write_vc(cover_veglayers_date, "cover_veglayers", root = path,  sorting = c("plot_id", "date_assessment", "layer"), strict = FALSE)
 write_vc(cover_species_date, "cover_species", root = path,  sorting = c("plot_id", "date_assessment", "layer", "name_nl"), strict = FALSE)
 write_vc(structure_vars_date, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "date_assessment",  "structure_var"), strict = FALSE)
 write_vc(date_assessment, "date_assessment", root = path,  sorting = ("plot_id"))
@@ -1805,9 +1808,9 @@ write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "se
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
 write_vc(logs_date, "logs", root = path,  sorting = c("plot_id", "date_assessment", "idline_intersect_method"), strict = FALSE)
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id", strict = FALSE)
-write_vc(assessments, root = path,  "assessments", sorting = c("plot_id", "date_assessment"), strict = FALSE)
-write_vc(check_missing_data_foresthab, root = path,  "check_missing_data_foresthab", sorting = "plot_id")
-write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = "plot_id")
+write_vc(assessments, root = path,  "assessments", sorting = c("plot_id", "date_assessment", "mon_cycle"), strict = FALSE)
+write_vc(check_missing_data_foresthab, root = path,  "check_missing_data_foresthab", sorting = c("plot_id", "mon_cycle"), strict = FALSE)
+write_vc(check_missing_data_openhab, root = path,  "check_missing_data_openhab", sorting = c("plot_id", "mon_cycle"), strict = FALSE)
 
 ```
 
