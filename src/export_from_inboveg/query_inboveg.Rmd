@@ -46,16 +46,19 @@ header_mhq <- get_inboveg_header(connection = connection_inboveg, survey_name = 
     select(recording_givid = RecordingGivid, survey = Name, user_reference = UserReference, area = Area, vague_date_begin = VagueDateBegin, vague_date_end = VagueDateEnd, latitude = Latitude, longitude = Longitude)
 
 recordings_mhq <- get_inboveg_recording(connection = connection_inboveg, survey_name = mhq_terr_surveys, collect = TRUE, multiple = TRUE) %>%
-    select(survey = Name, recording_givid = RecordingGivid, layer_code = LayerCode, layer_cover = CoverCode, name_original = OriginalName, name_scientific = ScientificName, phenology_code = PhenologyCode, species_cover_code = CoverageCode, species_cover = PctValue, scale = RecordingScale)
+    select(survey = Name, recording_givid = RecordingGivid, layer_code = LayerCode, layer_cover = CoverCode, name_original = OrignalName, name_scientific = ScientificName, phenology_code = PhenologyCode, species_cover_code = CoverageCode, species_cover = PctValue, scale = RecordingScale)
 
 layers_mhq <- get_inboveg_layer_cover(connection = connection_inboveg, survey_name = mhq_terr_surveys, multiple = TRUE) %>%
   select(survey = Name, recording_givid = RecordingGivid, layer_code = LayerCode, layer_description = LayerDescription, layer_cover = CoverCode)
 
 qualifiers_mhq <- get_inboveg_qualifier(connection = connection_inboveg, survey_name = mhq_terr_surveys, qualifier_type = "MQ", multiple = TRUE) %>%
-    select(survey = Name, recording_givid = RecordingGivid, user_reference = UserReference, structure_var_code = Q2Code, structure_var = Q2Description, cover = Q3Description) %>%
+    select(survey = Name, recording_givid = RecordingGivid, user_reference = UserReference, structure_var_code = Q2Code, structure_var = Q2Description, cover = Q3Description, cover_code = Q3Code) %>%
     mutate(structure_var_code = tolower(structure_var_code),
            structure_var = tolower(structure_var),
-           cover = as.numeric(cover))
+           cover = as.numeric(cover)) %>%
+  mutate(cover = ifelse(is.na(cover), 
+                        ifelse(cover_code == "ZS", 0.5, as.numeric(cover_code)),
+                        cover))
 
 site_qualifiers_moneos <-  get_inboveg_qualifier(connection = connection_inboveg, survey_name = c("N2000meetnet_Bos_91E0_sf", "Schelde-estuarium"), qualifier_type = "SQ", multiple = TRUE) %>%
   select(survey = Name, recording_givid = RecordingGivid, plot_id = Q1Code)
@@ -100,7 +103,7 @@ if (!dir.exists(path)) {
 
 write_vc(classif_mhq, "classif_mhq_terr", root = path,  sorting = c("recording_givid", "type_observed"), strict = FALSE)
 write_vc(header_mhq, "header_mhq_terr", root = path,  sorting = c("recording_givid"), strict = FALSE)
-write_vc(qualifiers_mhq, "structure_mhq_terr", root = path,  sorting = c("recording_givid", "structure_var"))
+write_vc(qualifiers_mhq, "structure_mhq_terr", root = path,  sorting = c("recording_givid", "structure_var"), strict = FALSE)
 write_vc(layers_mhq, "layers_mhq_terr", root = path,  sorting = c("recording_givid", "layer_code"))
 write_vc(recordings_mhq, "vegetation_mhq_terr", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
 write_vc(site_qualifiers_moneos, "site_qualifiers_moneos", root = path, sorting = c("recording_givid"))

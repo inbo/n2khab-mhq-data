@@ -1,0 +1,19 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - recording_givid
+  - layer_code
+  hash: 85096e06aa3350a5e032738403e0396fef0f4d21
+  data_hash: 56b34bae55f9cab6cd899b3e8e23f3a5f770b3be
+survey:
+  class: character
+recording_givid:
+  class: character
+layer_code:
+  class: character
+layer_description:
+  class: character
+layer_cover:
+  class: character
