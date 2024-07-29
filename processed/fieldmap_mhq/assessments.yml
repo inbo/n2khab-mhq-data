@@ -6,8 +6,8 @@
   - plot_id
   - date_assessment
   - mon_cycle
-  hash: 197507a7ea4801806a5490b1f3524390bb28eb85
-  data_hash: 86c03b15570c8a56b33b22dc3f4f5d6b728f27e9
+  hash: 588d3bac79293dd43e870157dce3d8fb7fd9a70e
+  data_hash: a6508e5bc045a45e34081684a081f3ee3c98871c
 plot_id:
   class: character
 sampling_unit_code:
@@ -41,3 +41,5 @@ dendro_record:
   class: logical
 mon_cycle:
   class: numeric
+type_target_all:
+  class: character

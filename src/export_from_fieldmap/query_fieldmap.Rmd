@@ -99,6 +99,9 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     Grid_points.Ranking as plot_id,
     Grid_points.Add_date as date_status,
     Grid_points.SingleID as sampling_unit_code,
+    Grid_points.Habsubt1,
+    Grid_points.Habt2,
+    Grid_points.Habsubt2,
     YesNo.Value1 as TargetHabitat,
     QINVAV.Value1 as status_fieldwork,
     QINVAV_EXTRA.Value1 as info_status_fieldwork,
@@ -124,7 +127,11 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
  # selectie van punten die zijn afgewerkt v5--status_fw = afgewerkt (ja/nee) --> v7 Info_status_fieldwerk : opname volledig/gedeeltelijk/niet afgewerkt
  gridpoints <- gridpoints_orig %>%
     #filter(!is.na(status_fieldwork))
-     filter(info_status_fieldwork != 'to do/geen reden/vergeten' & !is.na(info_status_fieldwork)) # 8 : to do/vergeten
+     filter(info_status_fieldwork != 'to do/geen reden/vergeten' & !is.na(info_status_fieldwork)) %>% # 8 : to do/vergeten
+    mutate(type_target_all = ifelse(!is.na(habt2), str_c(habsubt1, habt2, sep = "; "),
+                                    ifelse(!is.na(habsubt2) & habsubt2 != "0", str_c(habsubt1, habsubt2, sep = "; "),
+                                           habsubt1))) %>%
+   select(-habsubt2, -habsubt1, -habt2)
   odbcClose(connect_db)
 
   return(gridpoints)
@@ -325,6 +332,7 @@ get_measurements_heath_circle <- function(db = db_fieldmap_openhab){
 
   query_structurevar_heath <- "SELECT
   SiteDescription_HEIDE.IDPlots as plot_id,
+  S.Area_m2,
   SiteDescription_HEIDE.IDSTANDDESCRIPTION as segment_id,
 SiteDescription_HEIDE.Edit_date as date_sitedescription,
   SiteDescription_HEIDE.Shrub_and_Treelayer_18m,
@@ -341,7 +349,8 @@ SiteDescription_HEIDE.Edit_date as date_sitedescription,
   SiteDescription_HEIDE.Pioneer_Coryn_Aira,
   SiteDescription_HEIDE.Pioneer_Mos,
   SiteDescription_HEIDE.Pioneer_Lichenen
-  FROM SiteDescription_HEIDE;"
+  FROM SiteDescription_HEIDE
+  LEFT JOIN Standdescription S ON SiteDescription_HEIDE.IDSTANDDESCRIPTION = S.ID AND SiteDescription_HEIDE.IDplots = S.IDPlots;"
   
   query_bms <- "SELECT
   QBMS.ID as class_id,
@@ -374,15 +383,15 @@ SiteDescription_HEIDE.Edit_date as date_sitedescription,
 # uitgezonderd bedekking van struik+boomlaag worden alle bedekkingen via BMS-schaal bepaald
   structure_var_bms <- structure_vars %>%
     select(-shrub_and_treelayer_18m) %>%
-    gather(-plot_id, - segment_id, -date_sitedescription, key = "structure_var", value = "class_id") %>%
+    gather(-plot_id, - segment_id, -date_sitedescription, -area_m2, key = "structure_var", value = "class_id") %>%
     mutate(coverscale_name = "Beheermonitoringsschaal") %>%
       left_join(bms2, by = c("class_id")) %>%
-      select(plot_id, segment_id, structure_var, coverscale_name, cover_description, cover_mean) %>%
+      select(plot_id, segment_id, area_m2, structure_var, coverscale_name, cover_description, cover_mean) %>%
       mutate(structure_var = tolower(structure_var))
   
   structure_var_cover <- structure_vars %>%
       mutate(structure_var = "shrub_treelayer") %>%
-      select(plot_id, segment_id, structure_var, cover = shrub_and_treelayer_18m)
+      select(plot_id, segment_id, area_m2, structure_var, cover = shrub_and_treelayer_18m)
       
 
 # alle records als bedekking uitgedrukt
@@ -585,6 +594,8 @@ query_status <- "SELECT G.idplots as navplot_id,
         G.plot_id, 
         G.edit_date AS date_status,
         G.status_fieldwork,
+        G.hab_subtype,
+        G.extra_subtype,
         Q.value1 AS info_status_fieldwork,
         G.veg_done, 
         G.reg_done, 
@@ -604,7 +615,10 @@ colnames(gridpoints_orig) <- str_to_lower(colnames(gridpoints_orig))
 gridpoints <- gridpoints_orig %>%
     filter(!is.na(status_fieldwork)) %>%
     mutate(status_fieldwork = ifelse(status_fieldwork == 2, "nee", 
-                                     ifelse(status_fieldwork == 1, "ja", "onbepaald")))
+                                     ifelse(status_fieldwork == 1, "ja", "onbepaald")),
+           type_target_all = ifelse(!is.na(extra_subtype), str_c(hab_subtype, "; ", extra_subtype),
+                                    hab_subtype)) %>%
+  select(-hab_subtype, -extra_subtype)
 
 odbcClose(connect_db)
 
@@ -911,7 +925,8 @@ get_status_foresthab_past2000 <- function(db = db_fieldmap_foresthab_past2020){
   colnames(plot_status) <- str_to_lower(colnames(plot_status))
   
    plot_status <- plot_status %>%
-    mutate(habitat_target = gsub(" ", "_", habitat_target))
+    mutate(habitat_target = gsub(" ", "_", habitat_target)) %>%
+     rename(type_target_all = habitat_target)
   
   return(plot_status)
   
@@ -1215,10 +1230,10 @@ sample_status_foresthab_past2020 <- sample_status_foresthab_past2020_orig %>%
   mutate(remark = str_trim(remark),
          info_status_fieldwork = ifelse(dendro_record & cover_species_record, "100% afgewerkt",
                                         ifelse(dendro_record | cover_species_record, "opname nog niet 100% klaar",
-                                               ifelse(type_observed_circle != habitat_target & !is.na(type_observed_circle) & type_observed_circle != "onbekend", "Geen opname : geen doelhabitat", 
+                                               ifelse(type_observed_circle != type_target_all & !is.na(type_observed_circle) & type_observed_circle != "onbekend", "Geen opname : geen doelhabitat", 
                                                       ifelse(remark %in% c("Geen toelating", "DIEPE,STEILE  OEVERRAND VN BRONBEEK", "hoge afsluiting", "omheind", "Volledig omheind ,afgesloten. Jammer.", "Opname op zicht,pvlk niet toegangkelijk. Knappe veg."), "geen toestemming/geen toegang (eigenaar/hond/vee)",
                                                ifelse(remark %in% c("Hoge waterstand.", "Volledig onder wster.", "Onder water", "Ook niet met lieslaarzen."), "opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)", NA)))))) %>%
-  select(mon_cycle, plot_id, date_status, info_status_fieldwork, veg_done, reg_done, dendro_done, info_springveg, springveg, remark4, remark, db) %>%
+  select(mon_cycle, plot_id, date_status, info_status_fieldwork, type_target_all, veg_done, reg_done, dendro_done, info_springveg, springveg, remark4, remark, db) %>%
   filter(!is.na(info_status_fieldwork))
 
 sample_status <- bind_rows(sample_status_openhab, 
@@ -1517,7 +1532,7 @@ check_missing_data <- sample_status_most_recent %>%
 
 assessments <- check_missing_data %>%
   mutate(date_assessment = if_else(is.na(date_assessment), as.Date(date_status), date_assessment)) %>%
-    select(mon_cycle, plot_id, sampling_unit_code, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record, dendro_record) %>%
+    select(mon_cycle, plot_id, sampling_unit_code, type_target_all, targethabitat, status_fieldwork,info_status_fieldwork, assessment_source, date_assessment, inaccessible, not_measurable, type_observed,  lsvi_measurement, remark, structure_openhab_record, cover_species_record, dendro_record) %>%
   filter(!(is.na(assessment_source) & is.na(inaccessible) & is.na(not_measurable)))
 
 check <- assessments %>%
@@ -1802,7 +1817,7 @@ write_vc(type_observed_date, "type_observed", root = path,  sorting = c("plot_id
 write_vc(cover_veglayers_date, "cover_veglayers", root = path,  sorting = c("plot_id", "date_assessment", "layer"), strict = FALSE)
 write_vc(cover_species_date, "cover_species", root = path,  sorting = c("plot_id", "date_assessment", "layer", "name_nl"), strict = FALSE)
 write_vc(structure_vars_date, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "date_assessment",  "structure_var"), strict = FALSE)
-write_vc(date_assessment, "date_assessment", root = path,  sorting = ("plot_id"))
+write_vc(date_assessment, "date_assessment", root = path,  sorting = c("plot_id", "mon_cycle"), strict = FALSE)
 write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
