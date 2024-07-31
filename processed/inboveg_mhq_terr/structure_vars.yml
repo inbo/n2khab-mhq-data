@@ -7,12 +7,19 @@
   - segment_id
   - date_assessment
   - structure_var
-  hash: 2e6512bd6b644a1e2bf8a6844624cb4bfecb8a5a
-  data_hash: 52ab7a500b39c36661663a5e38b874eb859b26bf
+  hash: a8200e279535583aef1c1237a32f33e8e2c127a1
+  data_hash: 953be78fa77e02714d505ecbaedf0676e4aed9f9
 plot_id:
   class: integer
+mon_cycle:
+  class: numeric
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
 segment_id:
   class: integer
+area_m2:
+  class: numeric
 structure_var:
   class: character
 coverscale_name:
@@ -22,11 +29,4 @@ cover_description:
 cover_mean:
   class: numeric
 cover:
-  class: numeric
-date_assessment:
-  class: Date
-  origin: '1970-01-01'
-mon_cycle:
-  class: numeric
-area_m2:
   class: numeric
