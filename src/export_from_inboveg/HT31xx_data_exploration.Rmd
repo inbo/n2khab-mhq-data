@@ -79,7 +79,7 @@ site_characteristics %>%
     TRUE ~ value_numeric)) %>% 
   ggplot(aes(x = value_calc)) + 
   geom_histogram() +
-  facet_wrap(~Voorwaarde, scales = "free")
+  facet_wrap(~var, scales = "free")
 ```
 
 ### class variables
@@ -88,7 +88,7 @@ site_characteristics %>%
   filter(is_numeric == FALSE) %>% 
   ggplot(aes(x = value_description)) + 
   geom_bar() +
-  facet_grid(Voorwaarde~., scales = "free") +
+  facet_grid(var~., scales = "free") +
   coord_flip()
 ```
 
@@ -124,8 +124,8 @@ site_characteristics %>%
     is_below_LOQ == TRUE ~ value_numeric/2, # halvering voor waarden < x 
     is_above_LOQ == TRUE ~ value_numeric, # waarde overnemen voor > x
     TRUE ~ value_numeric)) %>%
-  select(user_reference, Voorwaarde, value_calc) %>% 
-  spread(Voorwaarde, value_calc) %>% 
+  select(user_reference, var, value_calc) %>% 
+  spread(var, value_calc) %>% 
   ggplot(aes(x = `diepte van secchibepaling`, y = `secchi-diepte`)) + 
   geom_point() +
   geom_abline(slope = 1, color = "red", linetype = "dashed") 
@@ -156,17 +156,17 @@ data_breed <- header %>%
 
 N_dataset <- nrow(data_breed)
 summary_dataset <- data_breed %>% 
-  gather("Voorwaarde", "value", 
+  gather("var", "value", 
          -recording_givid, -survey, -user_reference, -location, -date, 
          -latitude, -longitude, -type_observed, reliability, -suitable_mhq, 
          -measured, 
          na.rm = TRUE) %>% 
-  group_by(Voorwaarde, type_observed) %>% 
+  group_by(var, type_observed) %>% 
   summarise(number = n(),  
             sd = sd(value),
             ratio_NA = 1- (number/N_dataset)) 
 
-ggplot(summary_dataset, aes(x = ratio_NA, y = Voorwaarde)) +
+ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
   geom_point() + 
   facet_wrap(~type_observed)
 ```

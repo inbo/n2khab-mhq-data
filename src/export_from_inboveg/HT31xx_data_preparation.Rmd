@@ -309,11 +309,11 @@ voor 3160 verschil tussen LSVI versie 2 en versie 3 door verschillende soortenli
 
 ```{r}
 site_characteristics <- bind_rows(structure, layerqual) %>%
-    mutate(Voorwaarde = str_to_lower(var),
-           Voorwaarde = str_remove(Voorwaarde, 
+    mutate(var = str_to_lower(var),
+           var = str_remove(var, 
                              paste(c(" \\(\\%\\)", " in meter", " in m"), 
                                    collapse = "|")),
-           Voorwaarde = str_remove(var, "31xx_lsvi_|31xx_"),
+           var = str_remove(var, "31xx_lsvi_|31xx_"),
            value = str_to_lower(value)) %>% 
   select(-var)
 ```
@@ -322,7 +322,7 @@ replace NA in var en value_description
 ```{r}
 # to do: moet eigenlijk opgelost worden in INBOVEG (opvolgen)
 tbl_var <- site_characteristics %>% 
-  select(survey, var_code, var2 = Voorwaarde) %>% 
+  select(survey, var_code, var2 = var) %>% 
   filter(!is.na(var2)) %>% 
   distinct()
 
@@ -333,7 +333,7 @@ tbl_value_description <- site_characteristics %>%
 
 site_characteristics <- site_characteristics %>%  
   left_join(tbl_var, by = c("survey", "var_code")) %>% 
-  mutate(Voorwaarde = var2) %>% 
+  mutate(var = var2) %>% 
   select(-var2) %>% 
   left_join(tbl_value_description, by = c("survey", "value")) %>% 
   mutate(value_description = vd2) %>% 
@@ -420,7 +420,7 @@ write.csv2(vegetation, paste0(path, "/HT31xx_vegetation.csv"))
 write_vc(header, "HT31xx_header", root = path, 
          sorting = c("recording_givid"), strict = FALSE)
 write_vc(site_characteristics, "HT31xx_site_characteristics", root = path, 
-         sorting = c("recording_givid", "Voorwaarde", "value"), strict = FALSE)
+         sorting = c("recording_givid", "var", "value"), strict = FALSE)
 write_vc(vegetation, "HT31xx_vegetation", root = path, 
          sorting = c("recording_givid", "name", "phenology_code"))
 ```
