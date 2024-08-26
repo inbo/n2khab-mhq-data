@@ -114,7 +114,6 @@ site_characteristics %>%
 ```
 
 te checken (to do: opvolgen):   
-- check max diepte van 75m in lage diepteklasse  
 - in klasse 2-4m één met kleinere maximale diepte (AN_DVH_007_3130n_17)  
 
 ### Secchi-diepte versus diepte Secchibepaling
@@ -174,7 +173,7 @@ ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
 
 conclusie:  
 - % sleutelsoorten niet altijd ingevuld (maar niet nodig voor LSVI-berekening)  
-- maximale diepte niet overal genoteerd (nodig voor LSVI-berekening?)  
+- maximale diepte niet overal genoteerd (maar is niet nodig voor LSVI-berekening)  
 - ter info: verticale structuur zit bij 3130 na niet bij 'verst' --> zit bij HabVl!  
 
 
@@ -237,6 +236,6 @@ verstoring_3160 %>%
   scroll_box(height = "800px")
 ```
 
---> NA bij AN_SNE_001_3160_15, LI_HEU_001_3160_15, LI_TEU_002_3160_14, LI_ZPB_001_2020 (to do: opvolgen)  
+--> NA bij LIMHHE0002_3160_2023, LI_HEU_001_3160_15, LI_TEU_002_3160_14, LI_ZPB_001_3160_20 (to do: opvolgen)  
 --> check: EutrSS < Eutro --> is ok   
 --> check: VZuSS < Vzuur --> is ok  
