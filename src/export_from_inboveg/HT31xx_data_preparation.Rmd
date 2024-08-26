@@ -314,8 +314,7 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
                              paste(c(" \\(\\%\\)", " in meter", " in m"), 
                                    collapse = "|")),
            var = str_remove(var, "31xx_lsvi_|31xx_"),
-           value = str_to_lower(value)) %>% 
-  select(-var)
+           value = str_to_lower(value)) 
 ```
 
 replace NA in var en value_description 
