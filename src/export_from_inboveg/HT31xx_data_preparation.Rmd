@@ -73,18 +73,18 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 3 opnames: op te volgen
+      # to do: 4 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
-      # to do: 2 lege opnames; op te volgen
-no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
       # to do: 1 lege opname; op te volgen
+no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
+      # to do: 2 lege opnames; op te volgen
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 3 opnames 31xx & 25 opnames 2190a: op te volgen
+      # to do: 3 opnames 31xx & 8 opnames 2190a: op te volgen
 no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
   distinct()
 
-# to do: als 2190a-opnames volledig zijn ingevoerd; volledig controleren 
-# (vnl info over layers ontbreekt nog)
+# to do: toevoeging drooggevallen --> suitable_mhq = FALSE
+
 ```
 
 ```{r}
@@ -134,6 +134,7 @@ var_class <- c("boom", "chara", "diept", "horst", "peil", "verst", "permw")
   # klassevariabelen 
 var_multiple <- c("helde", "subst") 
   # klassevariabelen, met meerdere keuzemogelijkheden per bezoek
+  # substraat is bij 2190 zowel zonder als met % opgegeven --> dus bij multiple houden
 var_num_1 <- c("diept") 
   # numerieke variabelen, afgeleid van var_code (= info voor maximale diepte)
 var_num_2 <- c("Seccd", "Secch", "Schom", "HabVl", "Helo") 
@@ -172,7 +173,6 @@ structure_class <- structure_31xx %>%
          value = val2, value_description = var_description_or_value) %>% 
   mutate(value_numeric = NA, is_below_LOQ = FALSE, is_above_LOQ = FALSE, 
          is_numeric = FALSE, unit = "class")
-# to do: opvolgen of substraat bij 2190 als % is opgegeven (dus numeriek) of niet (klasse)
 ```
 
 #### structure - numeriek (in var_code)
@@ -241,8 +241,6 @@ mogelijke probleemgevallen
 structure_num_2 %>% 
   filter(is.na(value_numeric)) %>% 
   select(user_reference, var_code, var, value) 
-# to do: opvolgen of 'zie afgedrukt veldformulier' verwijderd is (1 case; heuvelsven)
-# LI_HEU_001_3130a_22
 ```
 
 indien er probleemgevallen zijn, worden deze voorlopig in de volgende stap gewist  
