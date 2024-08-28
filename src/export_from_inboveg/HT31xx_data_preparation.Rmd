@@ -73,18 +73,20 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 4 opnames: op te volgen
+      # to do: 1 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
       # to do: 1 lege opname; op te volgen
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
       # to do: 2 lege opnames; op te volgen
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 3 opnames 31xx & 8 opnames 2190a: op te volgen
-no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
+      # to do: 2 opnames 31xx & 8 opnames 2190a: op te volgen
+      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn invoerfouten
+      # voorlopig in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
+no_survey <- bind_rows(no_classification, no_structure, no_layers) %>% 
   distinct()
-
-# to do: toevoeging drooggevallen --> suitable_mhq = FALSE
-
+dry <- structure_31xx %>% 
+  filter(var_code == "peil", var_value_code == "Droog")
+      # bij droogval: opname is ongeschikt voor LSVI-bepaling
 ```
 
 ```{r}
@@ -98,7 +100,9 @@ header <- header_31xx %>%
                                   labels = c("gh", stilstaande_typen))) %>% 
   left_join(sitequal, by = c("survey", "recording_givid", "user_reference")) %>% 
   mutate(suitable_mhq = ifelse(test = (type_observed %in% stilstaande_typen), 
-                          yes = TRUE,
+                          yes = ifelse(test = (recording_givid %in% dry$recording_givid),
+                                       yes = FALSE,
+                                       no = TRUE),
                           no = FALSE),
          measured = ifelse(test = recording_givid %in% no_survey$recording_givid,
                          yes = FALSE,
@@ -233,7 +237,6 @@ structure_num_2 <- structure_31xx %>%
          value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))) %>% 
   select(survey, recording_givid, user_reference, var_code = var_value_code, 
          var = var_description_or_value, value, value_description, value_numeric)  
-
 ```
 
 mogelijke probleemgevallen
@@ -374,6 +377,7 @@ vegetation <- vegetation_31xx %>%
   mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific),
          name = case_when(
            name_original %in% c("draadwier", "Draadwier spec.") ~ "Draadwier",
+           name_original %in% c("Chara hispida L.", "Chara hispida") ~ "Chara hispida",
            name_original %in% 
              c("Hydrodictyon reticulatum (Linnaeus) Bory", 
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
