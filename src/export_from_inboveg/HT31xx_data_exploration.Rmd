@@ -114,7 +114,7 @@ site_characteristics %>%
 ```
 
 te checken (to do: opvolgen):   
-- in klasse 2-4m één met kleinere maximale diepte (AN_DVH_007_3130n_17)  
+- in klasse 2-4m één met kleinere maximale diepte (AN_DVH_001_3130n_18)  
 
 ### Secchi-diepte versus diepte Secchibepaling
 ```{r}
@@ -168,7 +168,7 @@ summary_dataset <- data_breed %>%
 
 ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
   geom_point() + 
-  facet_wrap(~type_observed)
+  facet_grid(~type_observed)
 ```
 
 conclusie:  
