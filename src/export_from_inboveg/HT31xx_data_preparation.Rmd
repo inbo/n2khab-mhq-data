@@ -384,13 +384,15 @@ vegetation <- vegetation_31xx %>%
            name_original %in% 
              c("kroossoorten", 
                "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)",
-               "Kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
+               "Kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") 
+           ~ "Lemna",
+           name_original == "Carex viridula s.l." ~ "Carex viridula Michaux",
             TRUE ~ name_original)) %>% 
-  # synoniemen van my taxa oplossen & deze veranderen zodat deze leesbaar zijn door LSVI-rekenmodule 
+        # synoniemen van my taxa en Carex viridula s.l. oplossen & deze veranderen 
+        # zodat deze leesbaar zijn voor de LSVI-rekenmodule 
   select(survey, recording_givid, name, phenology_code, species_cover_code, 
          species_cover, scale) %>% 
   distinct()  # sommige soorten staan er anders dubbel in omdat ze aan verschillende verstoringslagen zijn gekoppeld: Agrostis canina, ...
-
 ```
 
 Sommige taxa zijn een groepering van soorten en hebben geen wetenschappelijke naam in INBOVEG. Voor de ontbrekende namen bij name_scientific, wordt de name_original overgenomen in de 'name'.
