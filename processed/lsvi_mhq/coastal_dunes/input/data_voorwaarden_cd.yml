@@ -1,0 +1,29 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - Voorwaarde
+  hash: affeb399efd65e72388ac764f2149d746513b479
+  data_hash: d912d93538167b4589bf554248490f799364ccec
+ID:
+  class: character
+record_id:
+  class: character
+plot_type:
+  class: character
+Criterium:
+  class: character
+Indicator:
+  class: character
+Voorwaarde:
+  class: character
+Waarde:
+  class: numeric
+Type:
+  class: character
+Invoertype:
+  class: logical
+Eenheid:
+  class: character

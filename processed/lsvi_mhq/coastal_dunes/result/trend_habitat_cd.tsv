@@ -1,0 +1,11 @@
+versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci
+Versie 3	Vlaanderen	c_1	2018	2019	1	12	Binnen & Buiten	2120	19	45.96	20.34	73.91
+Versie 3	Vlaanderen	c_1	2018	2019	2	12	Binnen	2120	18	33.33	14.47	59.64
+Versie 3	Vlaanderen	c_1	2018	2019	2	12	Buiten	2120	1	100	NA	NA
+Versie 3	Vlaanderen	c_1	2018	2019	1	13	Binnen & Buiten	2130_hd	15	73.33	42.93	90.95
+Versie 3	Vlaanderen	c_1	2018	2018	1	18	Binnen & Buiten	2170	6	50	9.12	90.88
+Versie 3	Vlaanderen	c_2	2023	2023	1	12	Binnen & Buiten	2120	19	36.95	13.14	69.42
+Versie 3	Vlaanderen	c_2	2023	2023	2	12	Binnen	2120	18	22.22	7.72	49.4
+Versie 3	Vlaanderen	c_2	2023	2023	2	12	Buiten	2120	1	100	NA	NA
+Versie 3	Vlaanderen	c_2	2023	2023	1	13	Binnen & Buiten	2130_hd	15	73.33	42.93	90.95
+Versie 3	Vlaanderen	c_2	2023	2023	1	18	Binnen & Buiten	2170	6	50	9.12	90.88
