@@ -75,11 +75,39 @@ For now we store a csv-file with coordinates in [this google drive folder](https
 
 path <- fileman_up("n2khab-mhq-data")
 
-coordinates_moneos <- read_csv2(file.path(path, "raw/coordinates_inbo/CoordinatenExtraPQ_LSVI_91E0_2023-12-07.csv")) %>%
+coordinates_moneos_91E0_sf <- read_csv2(file.path(path, "raw/coordinates_inbo/CoordinatenExtraPQ_LSVI_91E0_2023-12-07.csv")) %>%
   select(plot_id = "PQ-nummer", plot_pl = PQpl, x = LamX, y = LamY, grts_ranking = Ranking) %>%
-  filter(!is.na(plot_id))
+  filter(!is.na(plot_id)) %>%
+  arrange(plot_id)
+
+coordinates_moneos_1330_da <- read_csv2(file.path(path, "raw/coordinates_inbo/coördinaten_1330_da.csv")) %>%
+  select(plot_id = id,  x_mean = Lambert_X_mean, y_mean = Lambert_Y_mean, x_l = Lambert_X_l, y_l = Lambert_Y_l, x_r = Lambert_X_r, y_r = Lambert_Y_r) %>%
+  arrange(plot_id)
 ```
 
+## Structure data not in INBOVEG
+
+The structure variables of 1330_da are not in INBOVEG. 
+
+The original data is stored in [this google drive folder](https://drive.google.com/drive/folders/1tl0gtQrFdmMtgupffkX8uuMJ0uJbeWKL).
+
+```{r}
+structure_1330_da_wide <- read_csv2(file.path(path, "raw/structure_variables/Structuurgegevens_1330_da.csv"))
+
+structure_1330_da <- structure_1330_da_wide %>%
+  gather( starts_with("ZSCPQ"), key = "plot_id", value =  "value") %>%
+  mutate(value = ifelse(Voorwaarde %in% c("schorklifvegetaties aanwezig", "habitattype lager dan het klif") & value == "nvt", "nee",
+                         value)) %>%
+  filter(!is.na(value)) %>%
+  filter(Versie != "") %>%
+  group_by(plot_id, Voorwaarde) %>%
+  summarise(value = unique(value)) %>%
+  ungroup() %>%
+  filter(!value %in% c("", "?", "nvt")) %>%
+  rename(structure_var = Voorwaarde) %>%
+  mutate(date = as.Date("2018-11-06"))
+
+```
 
 ## Write result to .vc file
 
@@ -107,7 +135,9 @@ write_vc(qualifiers_mhq, "structure_mhq_terr", root = path,  sorting = c("record
 write_vc(layers_mhq, "layers_mhq_terr", root = path,  sorting = c("recording_givid", "layer_code"))
 write_vc(recordings_mhq, "vegetation_mhq_terr", root = path,  sorting = c("recording_givid", "layer_code", "name_scientific"))
 write_vc(site_qualifiers_moneos, "site_qualifiers_moneos", root = path, sorting = c("recording_givid"))
-write_vc(coordinates_moneos, "coordinaten_moneos", root = path, sorting = c("plot_id", "plot_pl"))
+write_vc(coordinates_moneos_91E0_sf, "coordinates_moneos_91E0_sf", root = path, sorting = c("plot_id", "plot_pl"))
+write_vc(coordinates_moneos_1330_da, "coordinates_moneos_1330_da", root = path, sorting = c("plot_id"))
+write_vc(structure_1330_da, "structure_mhq_1330_da", root = path, sorting = c("plot_id", "structure_var"), strict = FALSE)
 ```
 
 # Query INBOVEG aquatic habitat types
