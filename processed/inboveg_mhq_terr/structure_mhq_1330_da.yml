@@ -1,0 +1,18 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - structure_var
+  hash: 5d4f929b58775c52caf077e780889936f1542647
+  data_hash: 63624863454909612bc254cdb9ddc72a1a0f7f57
+plot_id:
+  class: character
+structure_var:
+  class: character
+value:
+  class: character
+date:
+  class: Date
+  origin: '1970-01-01'
