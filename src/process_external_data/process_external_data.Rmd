@@ -1,0 +1,100 @@
+---
+title: "Process external data not in INBOVEG or fieldmap"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(git2rdata)
+library(n2khab)
+library(sf)
+```
+
+# Bosconstantie and msa forest habitat types
+
+The original data is stored in [this google drive folder](https://drive.google.com/drive/folders/1WUSaPx6sLYWQ4wg-kDvl9oku17CeCuAC).
+
+```{r}
+ 
+data_path_gis <- file.path(fileman_up("n2khab-mhq-data"), "/raw")
+
+bosconstantie <- st_read(dsn = file.path(data_path_gis, "bosconstantie"), layer = "Blftd", quiet = TRUE) %>%
+  select(blk = BLK) %>%
+  st_transform(crs = 31370)
+
+msa <- st_read(dsn = file.path(data_path_gis, "msa"), layer = "Bos_clusters", quiet = TRUE) %>%
+  st_transform(crs = 31370)
+  
+```
+
+## MONEOS: 91E0_sf
+
+```{r}
+
+data_path_processed <- file.path(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_terr")
+
+path <- fileman_up("n2khab-mhq-data")
+
+coordinates_moneos_91E0_sf <- read_vc(file = "coordinates_moneos_91E0_sf",
+                                      root = data_path_processed)
+
+plot_91E0_sf_bosconstantie <- coordinates_moneos_91E0_sf %>%
+  filter(str_detect(plot_pl, "a")) %>%
+  select(plot_id, x, y) %>%
+    filter(!is.na(x)) %>%
+    st_as_sf(coords = c("x", "y"), crs = 31370) %>%
+  st_join(bosconstantie) %>%
+  st_drop_geometry() %>%
+  mutate(bosconstantie = ifelse(blk %in% c("Bos ontstaan voor 1775", "Bos ontstaan tussen 1775 en 1850"), 101,
+                                  ifelse(blk %in% c("Bos ontstaan tussen 1850 en +/- 1930"), 81, NA)))
+    
+plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
+  filter(str_detect(plot_pl, "a")) %>%
+  select(plot_id, x, y) %>%
+    filter(!is.na(x)) %>%
+    st_as_sf(coords = c("x", "y"), crs = 31370) %>%
+  st_join(msa) %>%
+  st_drop_geometry() %>%
+  select(plot_id, MSA = HT91E0_s)
+
+
+
+```
+
+
+
+## Write result to .vc file
+
+```{r, eval= update}
+
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
+
+if (!dir.exists(path)) {
+    
+  dir.create(path)  
+    
+}
+
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/external_data_mhq_terr")
+
+if (!dir.exists(path)) {
+    
+  dir.create(path)  
+    
+}
+
+write_vc(plot_91E0_sf_bosconstantie, "bosconstantie_91E0_sf", root = path, sorting = c("plot_id"))
+write_vc(plot_91E0_sf_msa, "msa_91E0_sf", root = path, sorting = c("plot_id"))
+```

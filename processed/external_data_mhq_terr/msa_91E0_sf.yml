@@ -1,0 +1,11 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: plot_id
+  hash: 315b2311a5629bfc7ff744f156aa7d7888a1973f
+  data_hash: 5f9c74421c8c9a7905cf7e291050cfed90623c15
+plot_id:
+  class: character
+MSA:
+  class: numeric
