@@ -87,7 +87,7 @@ if (!dir.exists(path)) {
     
 }
 
-path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/external_data_mhq_terr")
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/extra_var_mhq")
 
 if (!dir.exists(path)) {
     
