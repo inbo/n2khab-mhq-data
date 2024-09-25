@@ -888,7 +888,29 @@ get_logs <- function(db = db_fieldmap_foresthab){
   
 }
 
-        
+get_shoots <- function(db =  db_fieldmap_foresthab){
+
+query_shoots <- "
+  SELECT Shoots_2eBosinv.IDPlots as plot_id
+  , Shoots_2eBosinv.IDTrees_2eBosinv as tree_id
+  , Shoots_2eBosinv.ID as shoot_id
+  , Shoots_2eBosinv.Perimeter_cm
+  , Shoots_2eBosinv.Height_m as height_shoot_m
+  , Shoots_2eBosinv.DBH_MM
+  FROM Shoots_2eBosinv;
+"
+connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+
+shoots <- sqlQuery(connect_db, query_shoots, stringsAsFactors = TRUE);
+
+odbcClose(connect_db)
+
+colnames(shoots) <- str_to_lower(colnames(shoots))
+
+return(shoots)  
+
+}
+
 ```
 
 ## Functions to access forest hab fieldmap database - past2020
@@ -1006,6 +1028,7 @@ get_treesa3a4_past2020 <- function(db = db_fieldmap_foresthab_past2020){
   query_trees_past2020  <- "
   SELECT Trees_3.IDPlots as plot_id,
   Trees_3.IDSTANDDESCRIPTION_SEGMENTS_3 as segment_id,
+  Trees_3.id as tree_id,
   Trees_3.Perimeter_cm,
   Trees_3.DBH_mm,
   Trees_3.Height_m,
@@ -1176,6 +1199,7 @@ get_logs_past_2020 <- function(db = db_fieldmap_foresthab_past2020){
   return(logs)
   
 }
+
 ```
 
 
@@ -1368,6 +1392,8 @@ trees_a2 <- get_treesa2() %>%
 
 logs <- get_logs() %>%
   bind_rows(get_logs_past_2020())
+
+shoots <- get_shoots()
 
 # date
 
@@ -1789,6 +1815,10 @@ check <- trees_a3a4_date %>%
 
 trees_a2_date <- trees_a2 %>%
   inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = "plot_id") %>%
+  select(plot_id, mon_cycle, date_assessment, everything())
+
+shoots_date <- shoots %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = "plot_id") %>%
   select(plot_id, mon_cycle, date_assessment, everything()) 
 
 check_missing_data <- check_missing_data %>%
@@ -1819,8 +1849,9 @@ write_vc(cover_species_date, "cover_species", root = path,  sorting = c("plot_id
 write_vc(structure_vars_date, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "date_assessment",  "structure_var"), strict = FALSE)
 write_vc(date_assessment, "date_assessment", root = path,  sorting = c("plot_id", "mon_cycle"), strict = FALSE)
 write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
-write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
+write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "tree_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
+write_vc(shoots_date, "shoots", root = path,  sorting = c("plot_id", "tree_id", "shoot_id"), strict = FALSE)
 write_vc(logs_date, "logs", root = path,  sorting = c("plot_id", "date_assessment", "idline_intersect_method"), strict = FALSE)
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id", strict = FALSE)
 write_vc(assessments, root = path,  "assessments", sorting = c("plot_id", "date_assessment", "mon_cycle"), strict = FALSE)

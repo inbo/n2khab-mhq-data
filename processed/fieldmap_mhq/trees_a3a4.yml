@@ -5,9 +5,10 @@
   sorting:
   - plot_id
   - segment_id
+  - tree_id
   - date_assessment
-  hash: a1c755f5aaef9e55012dc7ff76ec47e194e9fb14
-  data_hash: 2c3e84f15587f700124af59a1f1d89e972f0ba21
+  hash: ff99efa8bfe6cc381f1b41dd8eb3aadb45eb47cd
+  data_hash: 4bdde825d7ac1b4411ee8ff395734be6dd5c701e
 plot_id:
   class: integer
 segment_id:

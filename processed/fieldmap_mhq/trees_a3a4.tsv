@@ -682,38 +682,38 @@ plot_id	segment_id	perimeter_cm	dbh_mm	height_m	name_nl	status_tree	coppice_indi
 31414	1	27	86	6.2	Wilde lijsterbes	levend	Individuele boom	Intacte boom	33	17988	NA	NA	NA	1
 31414	1	65	207	18.9	Zwarte els	levend	Hakhoutstoof	Intacte boom	34	17988	NA	NA	NA	1
 31414	1	56	180	17	Zwarte els	levend	Hakhoutstoof	Intacte boom	35	17988	NA	NA	NA	1
-34361	1	101	321	23.4	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.0809282	0.8329935	0.9350456	1
-34361	1	213	678	42.9	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.361035	5.8332669	7.5463467	1
-34361	1	29	92	5.9	Hazelaar	dood	Hakhoutstoof	Niet intacte boom	NA	18733	0.0066476	0.0235471	0.0235471	1
-34361	1	35	111	8.3	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0096769	0.0450008	0.0627575	1
-34361	1	53	169	14.3	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0224318	0.0940231	0.1031856	1
-34361	1	310	987	35.6	Beuk	levend	Individuele boom	Intacte boom	NA	18733	0.7651105	8.8865411	14.5932526	1
-34361	1	89	283	11.9	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.0629018	0.5806426	0.6438964	1
-34361	1	163	519	24.9	Beuk	levend	Individuele boom	Intacte boom	NA	18733	0.2115556	2.4042053	3.0691	1
-34361	1	40	127	11.5	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0126677	0.0525611	0.066135	1
-34361	1	168	535	12.1	Boskers	dood	Individuele boom	Niet intacte boom	NA	18733	0.2248006	2.0341022	2.3397195	1
-34361	1	43	137	11.4	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0147411	0.0596223	0.0712526	1
-34361	1	140	446	23.9	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.1562283	2.0364667	2.3985037	1
-34361	1	109	347	12.7	Beuk	levend	Individuele boom	Intacte boom	NA	18733	0.094569	0.9972639	1.139177	1
-34361	1	121	385	21.8	Gewone esdoorn	levend	Individuele boom	Intacte boom	NA	18733	0.1164156	0.9784765	1.117541	1
-34361	1	101	321	16.5	Gewone esdoorn	levend	Individuele boom	Intacte boom	NA	18733	0.0809282	0.657762	0.7188162	1
-34361	1	22	70	3.5	Gewone esdoorn	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0038485	0.0074663	0.0074663	1
-34361	1	23	73	3.4	Gewone esdoorn	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0041854	0.0089347	0.0089347	1
-34361	1	26	83	6.3	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0054106	0.0445707	0.0725816	1
-34361	1	28	89	6.7	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0062211	0.0431803	0.0686978	1
-34361	1	63	201	11.5	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0317309	0.1448469	0.157813	1
-34361	1	46	146	5.5	Hazelaar	dood	Hakhoutstoof	Niet intacte boom	NA	18733	0.0167415	0.0800111	0.0843472	1
-34361	1	140	446	24.2	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.1562283	2.0364667	2.3985037	1
-34361	1	186	592	31.5	Zomereik	levend	Individuele boom	Intacte boom	NA	18733	0.2752538	3.8695575	4.710721	1
-34361	1	44	140	13.2	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.0153938	0.0633707	0.0687528	1
-34361	1	73	232	10.2	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0422733	0.2089657	0.2322754	1
-34361	1	64	204	9.5	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0326851	0.1504565	0.1641264	1
-34361	1	97	309	24.7	Gewone es	levend	Individuele boom	Intacte boom	NA	18733	0.0749906	0.747789	0.8359941	1
-34361	1	27	86	9.2	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0058088	0.0437743	0.0705191	1
-34361	1	26	83	9.8	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0054106	0.0445707	0.0725816	1
-34361	1	65	207	14.1	Haagbeuk	levend	Hakhoutstoof	Intacte boom	NA	18733	0.0336535	0.1562301	0.1706659	1
-34361	1	45	143	10.2	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0160606	0.0647601	0.0754831	1
-34361	1	75	239	15.5	Haagbeuk	levend	Individuele boom	Intacte boom	NA	18733	0.0448627	0.2255208	0.2521413	1
+34361	1	101	321	23.4	Gewone es	levend	Individuele boom	Intacte boom	1	18733	0.0809282	0.8329935	0.9350456	1
+34361	1	213	678	42.9	Gewone es	levend	Individuele boom	Intacte boom	2	18733	0.361035	5.8332669	7.5463467	1
+34361	1	29	92	5.9	Hazelaar	dood	Hakhoutstoof	Niet intacte boom	3	18733	0.0066476	0.0235471	0.0235471	1
+34361	1	35	111	8.3	Haagbeuk	levend	Individuele boom	Intacte boom	4	18733	0.0096769	0.0450008	0.0627575	1
+34361	1	53	169	14.3	Haagbeuk	levend	Individuele boom	Intacte boom	5	18733	0.0224318	0.0940231	0.1031856	1
+34361	1	310	987	35.6	Beuk	levend	Individuele boom	Intacte boom	7	18733	0.7651105	8.8865411	14.5932526	1
+34361	1	89	283	11.9	Gewone es	levend	Individuele boom	Intacte boom	8	18733	0.0629018	0.5806426	0.6438964	1
+34361	1	163	519	24.9	Beuk	levend	Individuele boom	Intacte boom	9	18733	0.2115556	2.4042053	3.0691	1
+34361	1	40	127	11.5	Haagbeuk	levend	Individuele boom	Intacte boom	10	18733	0.0126677	0.0525611	0.066135	1
+34361	1	168	535	12.1	Boskers	dood	Individuele boom	Niet intacte boom	11	18733	0.2248006	2.0341022	2.3397195	1
+34361	1	43	137	11.4	Haagbeuk	levend	Individuele boom	Intacte boom	12	18733	0.0147411	0.0596223	0.0712526	1
+34361	1	140	446	23.9	Gewone es	levend	Individuele boom	Intacte boom	13	18733	0.1562283	2.0364667	2.3985037	1
+34361	1	109	347	12.7	Beuk	levend	Individuele boom	Intacte boom	14	18733	0.094569	0.9972639	1.139177	1
+34361	1	121	385	21.8	Gewone esdoorn	levend	Individuele boom	Intacte boom	15	18733	0.1164156	0.9784765	1.117541	1
+34361	1	101	321	16.5	Gewone esdoorn	levend	Individuele boom	Intacte boom	16	18733	0.0809282	0.657762	0.7188162	1
+34361	1	22	70	3.5	Gewone esdoorn	levend	Hakhoutstoof	Intacte boom	17	18733	0.0038485	0.0074663	0.0074663	1
+34361	1	23	73	3.4	Gewone esdoorn	levend	Hakhoutstoof	Intacte boom	18	18733	0.0041854	0.0089347	0.0089347	1
+34361	1	26	83	6.3	Haagbeuk	levend	Hakhoutstoof	Intacte boom	19	18733	0.0054106	0.0445707	0.0725816	1
+34361	1	28	89	6.7	Haagbeuk	levend	Individuele boom	Intacte boom	20	18733	0.0062211	0.0431803	0.0686978	1
+34361	1	63	201	11.5	Haagbeuk	levend	Hakhoutstoof	Intacte boom	21	18733	0.0317309	0.1448469	0.157813	1
+34361	1	46	146	5.5	Hazelaar	dood	Hakhoutstoof	Niet intacte boom	22	18733	0.0167415	0.0800111	0.0843472	1
+34361	1	140	446	24.2	Gewone es	levend	Individuele boom	Intacte boom	23	18733	0.1562283	2.0364667	2.3985037	1
+34361	1	186	592	31.5	Zomereik	levend	Individuele boom	Intacte boom	24	18733	0.2752538	3.8695575	4.710721	1
+34361	1	44	140	13.2	Gewone es	levend	Individuele boom	Intacte boom	25	18733	0.0153938	0.0633707	0.0687528	1
+34361	1	73	232	10.2	Haagbeuk	levend	Hakhoutstoof	Intacte boom	26	18733	0.0422733	0.2089657	0.2322754	1
+34361	1	64	204	9.5	Haagbeuk	levend	Hakhoutstoof	Intacte boom	27	18733	0.0326851	0.1504565	0.1641264	1
+34361	1	97	309	24.7	Gewone es	levend	Individuele boom	Intacte boom	28	18733	0.0749906	0.747789	0.8359941	1
+34361	1	27	86	9.2	Haagbeuk	levend	Hakhoutstoof	Intacte boom	29	18733	0.0058088	0.0437743	0.0705191	1
+34361	1	26	83	9.8	Haagbeuk	levend	Hakhoutstoof	Intacte boom	30	18733	0.0054106	0.0445707	0.0725816	1
+34361	1	65	207	14.1	Haagbeuk	levend	Hakhoutstoof	Intacte boom	31	18733	0.0336535	0.1562301	0.1706659	1
+34361	1	45	143	10.2	Haagbeuk	levend	Individuele boom	Intacte boom	32	18733	0.0160606	0.0647601	0.0754831	1
+34361	1	75	239	15.5	Haagbeuk	levend	Individuele boom	Intacte boom	33	18733	0.0448627	0.2255208	0.2521413	1
 36774	1	82	261	26.2	Berk	levend	Individuele boom	Intacte boom	1	17708	NA	NA	NA	1
 36774	1	168	535	26.3	Inlandse eik	levend	Individuele boom	Intacte boom	2	17708	NA	NA	NA	1
 36774	1	89	283	20.6	Ratelpopulier	levend	Individuele boom	Intacte boom	3	17708	NA	NA	NA	1
@@ -746,130 +746,130 @@ plot_id	segment_id	perimeter_cm	dbh_mm	height_m	name_nl	status_tree	coppice_indi
 36774	1	28	89	13.6	Zwarte els	levend	Hakhoutstoof	Intacte boom	30	17708	NA	NA	NA	1
 36774	1	49	156	21.4	Berk	levend	Individuele boom	Intacte boom	31	17708	NA	NA	NA	1
 36774	1	34	108	15.3	Berk	levend	Individuele boom	Intacte boom	32	17708	NA	NA	NA	1
-41209	NA	81	258	22.4	Olm	levend	Individuele boom	Intacte boom	NA	18726	0.0522792	0.5319577	0.5703374	1
-41209	NA	155	493	25.2	Zomereik	levend	Individuele boom	Intacte boom	NA	18726	0.1908902	2.1767509	2.6373251	1
-41209	NA	222	707	37.7	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.3925805	5.0413922	6.1845491	1
-41209	NA	210	668	7.7	Zomereik	dood	Individuele boom	Niet intacte boom	NA	18726	0.3504635	2.3474953	3.0406297	1
-41209	NA	179	570	32.1	Boskers	levend	Individuele boom	Intacte boom	NA	18726	0.2551759	3.5689948	4.0959384	1
-41209	NA	95	302	22.8	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.0716315	0.7370627	0.780886	1
-41209	NA	123	392	25	Populier	levend	Hakhoutstoof	Intacte boom	NA	18726	0.1206874	1.3838899	1.5108135	1
-41209	NA	59	188	3.4	Populier	dood	Hakhoutstoof	Niet intacte boom	NA	18726	0.0277591	0.0722299	0.0740901	1
-41209	NA	129	411	37.2	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.1326702	1.5439781	1.6968838	1
-41209	NA	201	640	33	Gewone es	levend	Hakhoutstoof	Intacte boom	NA	18726	0.3216991	4.7434777	6.1342061	1
-41209	NA	40	127	9.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0126677	0.0803518	0.083404	1
-41209	NA	28	89	5.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0062211	0.0224429	0.0224429	1
-41209	NA	26	83	5.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0054106	0.0156227	0.0156227	1
-41209	NA	34	108	5.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0091609	0.0481418	0.0481418	1
-41209	NA	37	118	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0109359	0.0642509	0.0656463	1
-41209	NA	41	131	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0134782	0.0879716	0.0917439	1
-41209	NA	34	108	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0091609	0.0481418	0.0481418	1
-41209	NA	50	159	17.1	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0198557	0.1497315	0.158636	1
-41209	NA	34	108	15.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0091609	0.0481418	0.0481418	1
-41209	NA	28	89	15.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0062211	0.0224429	0.0224429	1
-41209	NA	50	159	17.3	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0198557	0.1497315	0.158636	1
-41209	NA	22	70	8.3	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0038485	0.0028805	0.0028805	1
-41209	NA	90	286	17.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0642424	0.6157101	0.6815145	1
-41209	NA	58	185	16.6	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0268803	0.2202943	0.23493	1
-41209	NA	34	108	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0091609	0.0481418	0.0481418	1
-41209	NA	30	95	6.9	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0070882	0.0298642	0.0298642	1
-41209	NA	22	70	6.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0038485	0.0028805	0.0028805	1
-41209	NA	26	83	7.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0054106	0.0156227	0.0156227	1
-41209	NA	22	70	7	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0038485	0.0028805	0.0028805	1
-41209	NA	28	89	7.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0062211	0.0224429	0.0224429	1
-41209	NA	36	115	8.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0103869	0.0592177	0.0600437	1
-41209	NA	26	83	6.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0054106	0.0156227	0.0156227	1
-41209	NA	25	80	NA	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0050265	0.0124424	0.0124424	1
-41209	NA	26	83	NA	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0054106	0.0156227	0.0156227	1
-41209	NA	27	86	7.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0058088	0.0189491	0.0189491	1
-41209	NA	34	108	7.6	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0091609	0.0481418	0.0481418	1
-45305	NA	23	73	6.6	Wilg species	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0041854	0.0057001	0.0057001	1
-45305	NA	38	121	11.3	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.011499	0.0334728	0.0334728	1
-45305	NA	34	108	15	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0091609	0.055158	0.055158	1
-45305	NA	36	115	15.8	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0103869	0.0672304	0.0672304	1
-45305	NA	30	95	15.1	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0070882	0.0353941	0.0353941	1
-45305	NA	22	70	9.7	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	NA	18726	0.0038485	0.0073857	0.0073857	1
-45305	NA	33	105	2.2	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	NA	18726	0.008659	0.0146172	0.0146172	1
-45305	NA	25	80	8.3	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0050265	0.0132347	0.0132347	1
-45305	NA	23	73	8.2	Hazelaar	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0041854	0.0060949	0.0060949	1
-45305	NA	147	468	34.3	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.172021	2.0139456	2.2663633	1
-45305	NA	29	92	14.7	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0066476	0.0313402	0.0313402	1
-45305	NA	44	140	17.6	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0153938	0.1185662	0.1185662	1
-45305	NA	25	80	12.7	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0050265	0.0170103	0.0170103	1
-45305	NA	33	105	16.3	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.008659	0.0502634	0.0502634	1
-45305	NA	48	153	20.2	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0183854	0.1501109	0.1501109	1
-45305	NA	48	153	20.2	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0183854	0.1501109	0.1501109	1
-45305	NA	30	95	14.1	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0070882	0.0353941	0.0353941	1
-45305	NA	151	481	26.5	Schietwilg	levend	Individuele boom	Intacte boom	NA	18726	0.1817105	1.8230161	2.0355856	1
-45305	NA	24	76	11.3	Zwarte els	dood	Individuele boom	Niet intacte boom	NA	18726	0.0045365	0.0129167	0.0129167	1
-45305	NA	22	70	10.5	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0038485	0.0074007	0.0074007	1
-45305	NA	27	86	10.7	Zwarte els	dood	Individuele boom	Intacte boom	NA	18726	0.0058088	0.0237983	0.0237983	1
-45305	NA	42	134	16.6	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0141026	0.1050792	0.1050792	1
-45305	NA	22	70	10.3	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0038485	0.0074007	0.0074007	1
-45305	NA	26	83	8.8	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	NA	18726	0.0054106	0.0193114	0.0193114	1
-45305	NA	28	89	14.1	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0062211	0.0274623	0.0274623	1
-45305	NA	123	392	29	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.1206874	1.3438356	1.4707593	1
-45305	NA	30	95	11.5	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0070882	0.0349474	0.0349474	1
-45305	NA	45	143	17.7	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0160606	0.1255204	0.1255204	1
-45305	NA	24	76	5.1	Zwarte els	dood	Individuele boom	Niet intacte boom	NA	18726	0.0045365	0.0094933	0.0094933	1
-45305	NA	40	127	17.2	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0126677	0.0902945	0.0902945	1
-45305	NA	25	80	10.7	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0050265	0.0170103	0.0170103	1
-45305	NA	25	80	10.2	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0050265	0.0170103	0.0170103	1
-45305	NA	33	105	12.1	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.008659	0.0493863	0.0493863	1
-45305	NA	28	89	7.5	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0062211	0.0234838	0.0234838	1
-45305	NA	34	108	10.9	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0091609	0.055158	0.055158	1
-45305	NA	42	134	18	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0141026	0.1050792	0.1050792	1
-45305	NA	33	105	12.2	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.008659	0.0494688	0.0494688	1
-45305	NA	35	111	15.1	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0096769	0.0602111	0.0602111	1
-45305	NA	33	105	15.8	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.008659	0.0502634	0.0502634	1
-45305	NA	34	108	14.3	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0091609	0.055158	0.055158	1
-45305	NA	28	89	15	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0062211	0.0274623	0.0274623	1
-45305	NA	32	102	14.1	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0081713	0.0455861	0.0455861	1
-45305	NA	40	127	14.3	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0126677	0.0902945	0.0902945	1
-45305	NA	35	111	15.8	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0096769	0.0602111	0.0602111	1
-45305	NA	27	86	10.4	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0058088	0.0237983	0.0237983	1
-45305	NA	30	95	13.1	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0070882	0.0353941	0.0353941	1
-45305	NA	24	76	11.8	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0045365	0.0129167	0.0129167	1
-45305	NA	22	70	12	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0038485	0.0074007	0.0074007	1
-45305	NA	32	102	17.7	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0081713	0.0455861	0.0455861	1
-45305	NA	23	73	10.1	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0041854	0.0100425	0.0100425	1
-45305	NA	40	127	18.5	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0126677	0.0902945	0.0902945	1
-45305	NA	147	468	29.6	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.172021	2.0139456	2.2663633	1
-45305	NA	38	121	16.7	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.011499	0.0783895	0.0783895	1
-45305	NA	28	89	10.4	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0062211	0.0268625	0.0268625	1
-45305	NA	32	102	14.8	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0081713	0.0455861	0.0455861	1
-45305	NA	22	70	10.8	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0038485	0.0074007	0.0074007	1
-45305	NA	33	105	15.3	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.008659	0.0502634	0.0502634	1
-45305	NA	39	124	15.6	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0120763	0.0842752	0.0842752	1
-45305	NA	43	137	15.9	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0147411	0.1117159	0.1117159	1
-45305	NA	31	99	15.2	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0076977	0.0410982	0.0410982	1
-45305	NA	41	131	15.5	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0134782	0.0986073	0.0986073	1
-45305	NA	24	76	10.2	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	NA	18726	0.0045365	0.0128581	0.0128581	1
-45305	NA	31	99	16.4	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0076977	0.0410982	0.0410982	1
-45305	NA	22	70	9.6	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	NA	18726	0.0038485	0.0073814	0.0073814	1
-45305	NA	46	146	17.9	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0167415	0.1327419	0.1327419	1
-45305	NA	27	86	13.7	Zwarte els	levend	Individuele boom	Niet intacte boom	NA	18726	0.0058088	0.0237983	0.0237983	1
-45305	NA	40	127	17	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0126677	0.0902945	0.0902945	1
-45305	NA	22	70	9.3	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	NA	18726	0.0038485	0.0073635	0.0073635	1
-45305	NA	24	76	9.7	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0045365	0.0129167	0.0129167	1
-45305	NA	23	73	10.2	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0041854	0.0100656	0.0100656	1
-45305	NA	40	127	15.6	Zwarte els	levend	Hakhoutstoof	Intacte boom	NA	18726	0.0126677	0.0902945	0.0902945	1
-45305	NA	36	115	14.9	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0103869	0.0672304	0.0672304	1
-45305	NA	23	73	8.2	Zwarte els	dood	Individuele boom	Niet intacte boom	NA	18726	0.0041854	0.0096813	0.0096813	1
-45305	NA	38	121	14.9	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.011499	0.0783895	0.0783895	1
-45305	NA	30	95	13.9	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0070882	0.0353941	0.0353941	1
-45305	NA	24	76	10.6	Zwarte els	dood	Individuele boom	Niet intacte boom	NA	18726	0.0045365	0.0128916	0.0128916	1
-45305	NA	38	121	18.6	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.011499	0.0783895	0.0783895	1
-45305	NA	22	70	9.4	Gewone es	levend	Individuele boom	Intacte boom	NA	18726	0.0038485	0.001	0.001	1
-45305	NA	37	118	12.1	Zwarte els	dood	Individuele boom	Niet intacte boom	NA	18726	0.0109359	0.0699591	0.0699591	1
-45305	NA	114	363	20.7	Zomereik	levend	Individuele boom	Intacte boom	NA	18726	0.1034911	0.9622092	1.1166484	1
-45305	NA	50	159	19.2	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0198557	0.1657851	0.1657851	1
-45305	NA	28	89	11.1	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	NA	18726	0.0062211	0.0271998	0.0271998	1
-45305	NA	25	80	10.6	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	NA	18726	0.0050265	0.0170362	0.0170362	1
-45305	NA	168	535	32.2	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.2248006	2.7058739	3.1230884	1
-45305	NA	27	86	14.9	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	NA	18726	0.0058088	0.0237983	0.0237983	1
-45305	NA	73	232	24	Populier	levend	Individuele boom	Intacte boom	NA	18726	0.0422733	0.3565054	0.3704182	1
-45305	NA	24	76	9.5	Zwarte els	levend	Individuele boom	Intacte boom	NA	18726	0.0045365	0.0129167	0.0129167	1
-45305	NA	59	188	16.8	Boswilg	levend	Individuele boom	Intacte boom	NA	18726	0.0277591	0.2134191	0.2157235	1
+41209	NA	81	258	22.4	Olm	levend	Individuele boom	Intacte boom	1	18726	0.0522792	0.5319577	0.5703374	1
+41209	NA	155	493	25.2	Zomereik	levend	Individuele boom	Intacte boom	2	18726	0.1908902	2.1767509	2.6373251	1
+41209	NA	222	707	37.7	Populier	levend	Individuele boom	Intacte boom	3	18726	0.3925805	5.0413922	6.1845491	1
+41209	NA	210	668	7.7	Zomereik	dood	Individuele boom	Niet intacte boom	4	18726	0.3504635	2.3474953	3.0406297	1
+41209	NA	179	570	32.1	Boskers	levend	Individuele boom	Intacte boom	5	18726	0.2551759	3.5689948	4.0959384	1
+41209	NA	95	302	22.8	Populier	levend	Individuele boom	Intacte boom	6	18726	0.0716315	0.7370627	0.780886	1
+41209	NA	123	392	25	Populier	levend	Hakhoutstoof	Intacte boom	7	18726	0.1206874	1.3838899	1.5108135	1
+41209	NA	59	188	3.4	Populier	dood	Hakhoutstoof	Niet intacte boom	8	18726	0.0277591	0.0722299	0.0740901	1
+41209	NA	129	411	37.2	Populier	levend	Individuele boom	Intacte boom	9	18726	0.1326702	1.5439781	1.6968838	1
+41209	NA	201	640	33	Gewone es	levend	Hakhoutstoof	Intacte boom	10	18726	0.3216991	4.7434777	6.1342061	1
+41209	NA	40	127	9.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	11	18726	0.0126677	0.0803518	0.083404	1
+41209	NA	28	89	5.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	12	18726	0.0062211	0.0224429	0.0224429	1
+41209	NA	26	83	5.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	13	18726	0.0054106	0.0156227	0.0156227	1
+41209	NA	34	108	5.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	14	18726	0.0091609	0.0481418	0.0481418	1
+41209	NA	37	118	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	15	18726	0.0109359	0.0642509	0.0656463	1
+41209	NA	41	131	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	16	18726	0.0134782	0.0879716	0.0917439	1
+41209	NA	34	108	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	17	18726	0.0091609	0.0481418	0.0481418	1
+41209	NA	50	159	17.1	Hazelaar	levend	Hakhoutstoof	Intacte boom	18	18726	0.0198557	0.1497315	0.158636	1
+41209	NA	34	108	15.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	19	18726	0.0091609	0.0481418	0.0481418	1
+41209	NA	28	89	15.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	20	18726	0.0062211	0.0224429	0.0224429	1
+41209	NA	50	159	17.3	Hazelaar	levend	Hakhoutstoof	Intacte boom	21	18726	0.0198557	0.1497315	0.158636	1
+41209	NA	22	70	8.3	Hazelaar	levend	Hakhoutstoof	Intacte boom	22	18726	0.0038485	0.0028805	0.0028805	1
+41209	NA	90	286	17.4	Hazelaar	levend	Hakhoutstoof	Intacte boom	23	18726	0.0642424	0.6157101	0.6815145	1
+41209	NA	58	185	16.6	Hazelaar	levend	Hakhoutstoof	Intacte boom	24	18726	0.0268803	0.2202943	0.23493	1
+41209	NA	34	108	16.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	25	18726	0.0091609	0.0481418	0.0481418	1
+41209	NA	30	95	6.9	Hazelaar	levend	Hakhoutstoof	Intacte boom	26	18726	0.0070882	0.0298642	0.0298642	1
+41209	NA	22	70	6.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	27	18726	0.0038485	0.0028805	0.0028805	1
+41209	NA	26	83	7.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	28	18726	0.0054106	0.0156227	0.0156227	1
+41209	NA	22	70	7	Hazelaar	levend	Hakhoutstoof	Intacte boom	29	18726	0.0038485	0.0028805	0.0028805	1
+41209	NA	28	89	7.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	30	18726	0.0062211	0.0224429	0.0224429	1
+41209	NA	36	115	8.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	31	18726	0.0103869	0.0592177	0.0600437	1
+41209	NA	26	83	6.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	32	18726	0.0054106	0.0156227	0.0156227	1
+41209	NA	25	80	NA	Hazelaar	levend	Hakhoutstoof	Intacte boom	33	18726	0.0050265	0.0124424	0.0124424	1
+41209	NA	26	83	NA	Hazelaar	levend	Hakhoutstoof	Intacte boom	34	18726	0.0054106	0.0156227	0.0156227	1
+41209	NA	27	86	7.5	Hazelaar	levend	Hakhoutstoof	Intacte boom	35	18726	0.0058088	0.0189491	0.0189491	1
+41209	NA	34	108	7.6	Hazelaar	levend	Hakhoutstoof	Intacte boom	36	18726	0.0091609	0.0481418	0.0481418	1
+45305	NA	23	73	6.6	Wilg species	levend	Hakhoutstoof	Intacte boom	1	18726	0.0041854	0.0057001	0.0057001	1
+45305	NA	38	121	11.3	Populier	levend	Individuele boom	Intacte boom	2	18726	0.011499	0.0334728	0.0334728	1
+45305	NA	34	108	15	Zwarte els	levend	Individuele boom	Intacte boom	3	18726	0.0091609	0.055158	0.055158	1
+45305	NA	36	115	15.8	Zwarte els	levend	Hakhoutstoof	Intacte boom	4	18726	0.0103869	0.0672304	0.0672304	1
+45305	NA	30	95	15.1	Zwarte els	levend	Hakhoutstoof	Intacte boom	5	18726	0.0070882	0.0353941	0.0353941	1
+45305	NA	22	70	9.7	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	6	18726	0.0038485	0.0073857	0.0073857	1
+45305	NA	33	105	2.2	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	7	18726	0.008659	0.0146172	0.0146172	1
+45305	NA	25	80	8.3	Hazelaar	levend	Hakhoutstoof	Intacte boom	8	18726	0.0050265	0.0132347	0.0132347	1
+45305	NA	23	73	8.2	Hazelaar	levend	Hakhoutstoof	Intacte boom	9	18726	0.0041854	0.0060949	0.0060949	1
+45305	NA	147	468	34.3	Populier	levend	Individuele boom	Intacte boom	10	18726	0.172021	2.0139456	2.2663633	1
+45305	NA	29	92	14.7	Zwarte els	levend	Individuele boom	Intacte boom	11	18726	0.0066476	0.0313402	0.0313402	1
+45305	NA	44	140	17.6	Zwarte els	levend	Individuele boom	Intacte boom	12	18726	0.0153938	0.1185662	0.1185662	1
+45305	NA	25	80	12.7	Zwarte els	levend	Individuele boom	Intacte boom	13	18726	0.0050265	0.0170103	0.0170103	1
+45305	NA	33	105	16.3	Zwarte els	levend	Individuele boom	Intacte boom	14	18726	0.008659	0.0502634	0.0502634	1
+45305	NA	48	153	20.2	Zwarte els	levend	Individuele boom	Intacte boom	15	18726	0.0183854	0.1501109	0.1501109	1
+45305	NA	48	153	20.2	Zwarte els	levend	Individuele boom	Intacte boom	16	18726	0.0183854	0.1501109	0.1501109	1
+45305	NA	30	95	14.1	Zwarte els	levend	Individuele boom	Intacte boom	17	18726	0.0070882	0.0353941	0.0353941	1
+45305	NA	151	481	26.5	Schietwilg	levend	Individuele boom	Intacte boom	18	18726	0.1817105	1.8230161	2.0355856	1
+45305	NA	24	76	11.3	Zwarte els	dood	Individuele boom	Niet intacte boom	19	18726	0.0045365	0.0129167	0.0129167	1
+45305	NA	22	70	10.5	Zwarte els	levend	Individuele boom	Niet intacte boom	20	18726	0.0038485	0.0074007	0.0074007	1
+45305	NA	27	86	10.7	Zwarte els	dood	Individuele boom	Intacte boom	21	18726	0.0058088	0.0237983	0.0237983	1
+45305	NA	42	134	16.6	Zwarte els	levend	Individuele boom	Intacte boom	22	18726	0.0141026	0.1050792	0.1050792	1
+45305	NA	22	70	10.3	Zwarte els	levend	Individuele boom	Intacte boom	23	18726	0.0038485	0.0074007	0.0074007	1
+45305	NA	26	83	8.8	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	24	18726	0.0054106	0.0193114	0.0193114	1
+45305	NA	28	89	14.1	Zwarte els	levend	Hakhoutstoof	Intacte boom	25	18726	0.0062211	0.0274623	0.0274623	1
+45305	NA	123	392	29	Populier	levend	Individuele boom	Intacte boom	26	18726	0.1206874	1.3438356	1.4707593	1
+45305	NA	30	95	11.5	Zwarte els	levend	Individuele boom	Niet intacte boom	27	18726	0.0070882	0.0349474	0.0349474	1
+45305	NA	45	143	17.7	Zwarte els	levend	Individuele boom	Intacte boom	28	18726	0.0160606	0.1255204	0.1255204	1
+45305	NA	24	76	5.1	Zwarte els	dood	Individuele boom	Niet intacte boom	29	18726	0.0045365	0.0094933	0.0094933	1
+45305	NA	40	127	17.2	Zwarte els	levend	Individuele boom	Intacte boom	30	18726	0.0126677	0.0902945	0.0902945	1
+45305	NA	25	80	10.7	Zwarte els	levend	Individuele boom	Intacte boom	31	18726	0.0050265	0.0170103	0.0170103	1
+45305	NA	25	80	10.2	Zwarte els	levend	Individuele boom	Intacte boom	32	18726	0.0050265	0.0170103	0.0170103	1
+45305	NA	33	105	12.1	Zwarte els	levend	Individuele boom	Niet intacte boom	33	18726	0.008659	0.0493863	0.0493863	1
+45305	NA	28	89	7.5	Zwarte els	levend	Individuele boom	Niet intacte boom	34	18726	0.0062211	0.0234838	0.0234838	1
+45305	NA	34	108	10.9	Zwarte els	levend	Individuele boom	Intacte boom	35	18726	0.0091609	0.055158	0.055158	1
+45305	NA	42	134	18	Zwarte els	levend	Individuele boom	Intacte boom	36	18726	0.0141026	0.1050792	0.1050792	1
+45305	NA	33	105	12.2	Zwarte els	levend	Individuele boom	Niet intacte boom	37	18726	0.008659	0.0494688	0.0494688	1
+45305	NA	35	111	15.1	Zwarte els	levend	Individuele boom	Intacte boom	38	18726	0.0096769	0.0602111	0.0602111	1
+45305	NA	33	105	15.8	Zwarte els	levend	Individuele boom	Intacte boom	39	18726	0.008659	0.0502634	0.0502634	1
+45305	NA	34	108	14.3	Zwarte els	levend	Hakhoutstoof	Intacte boom	40	18726	0.0091609	0.055158	0.055158	1
+45305	NA	28	89	15	Zwarte els	levend	Hakhoutstoof	Intacte boom	41	18726	0.0062211	0.0274623	0.0274623	1
+45305	NA	32	102	14.1	Zwarte els	levend	Individuele boom	Intacte boom	42	18726	0.0081713	0.0455861	0.0455861	1
+45305	NA	40	127	14.3	Zwarte els	levend	Individuele boom	Intacte boom	43	18726	0.0126677	0.0902945	0.0902945	1
+45305	NA	35	111	15.8	Zwarte els	levend	Individuele boom	Intacte boom	44	18726	0.0096769	0.0602111	0.0602111	1
+45305	NA	27	86	10.4	Zwarte els	levend	Individuele boom	Intacte boom	45	18726	0.0058088	0.0237983	0.0237983	1
+45305	NA	30	95	13.1	Zwarte els	levend	Hakhoutstoof	Intacte boom	46	18726	0.0070882	0.0353941	0.0353941	1
+45305	NA	24	76	11.8	Zwarte els	levend	Hakhoutstoof	Intacte boom	47	18726	0.0045365	0.0129167	0.0129167	1
+45305	NA	22	70	12	Zwarte els	levend	Hakhoutstoof	Intacte boom	48	18726	0.0038485	0.0074007	0.0074007	1
+45305	NA	32	102	17.7	Zwarte els	levend	Individuele boom	Intacte boom	49	18726	0.0081713	0.0455861	0.0455861	1
+45305	NA	23	73	10.1	Zwarte els	levend	Individuele boom	Niet intacte boom	50	18726	0.0041854	0.0100425	0.0100425	1
+45305	NA	40	127	18.5	Zwarte els	levend	Individuele boom	Intacte boom	51	18726	0.0126677	0.0902945	0.0902945	1
+45305	NA	147	468	29.6	Populier	levend	Individuele boom	Intacte boom	52	18726	0.172021	2.0139456	2.2663633	1
+45305	NA	38	121	16.7	Zwarte els	levend	Individuele boom	Intacte boom	53	18726	0.011499	0.0783895	0.0783895	1
+45305	NA	28	89	10.4	Zwarte els	levend	Individuele boom	Niet intacte boom	54	18726	0.0062211	0.0268625	0.0268625	1
+45305	NA	32	102	14.8	Zwarte els	levend	Individuele boom	Intacte boom	55	18726	0.0081713	0.0455861	0.0455861	1
+45305	NA	22	70	10.8	Zwarte els	levend	Individuele boom	Niet intacte boom	56	18726	0.0038485	0.0074007	0.0074007	1
+45305	NA	33	105	15.3	Zwarte els	levend	Hakhoutstoof	Intacte boom	57	18726	0.008659	0.0502634	0.0502634	1
+45305	NA	39	124	15.6	Zwarte els	levend	Individuele boom	Intacte boom	58	18726	0.0120763	0.0842752	0.0842752	1
+45305	NA	43	137	15.9	Zwarte els	levend	Individuele boom	Intacte boom	59	18726	0.0147411	0.1117159	0.1117159	1
+45305	NA	31	99	15.2	Zwarte els	levend	Hakhoutstoof	Intacte boom	60	18726	0.0076977	0.0410982	0.0410982	1
+45305	NA	41	131	15.5	Zwarte els	levend	Hakhoutstoof	Intacte boom	61	18726	0.0134782	0.0986073	0.0986073	1
+45305	NA	24	76	10.2	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	62	18726	0.0045365	0.0128581	0.0128581	1
+45305	NA	31	99	16.4	Zwarte els	levend	Hakhoutstoof	Intacte boom	63	18726	0.0076977	0.0410982	0.0410982	1
+45305	NA	22	70	9.6	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	64	18726	0.0038485	0.0073814	0.0073814	1
+45305	NA	46	146	17.9	Zwarte els	levend	Individuele boom	Intacte boom	65	18726	0.0167415	0.1327419	0.1327419	1
+45305	NA	27	86	13.7	Zwarte els	levend	Individuele boom	Niet intacte boom	66	18726	0.0058088	0.0237983	0.0237983	1
+45305	NA	40	127	17	Zwarte els	levend	Hakhoutstoof	Intacte boom	67	18726	0.0126677	0.0902945	0.0902945	1
+45305	NA	22	70	9.3	Zwarte els	levend	Hakhoutstoof	Niet intacte boom	68	18726	0.0038485	0.0073635	0.0073635	1
+45305	NA	24	76	9.7	Zwarte els	levend	Hakhoutstoof	Intacte boom	69	18726	0.0045365	0.0129167	0.0129167	1
+45305	NA	23	73	10.2	Zwarte els	levend	Hakhoutstoof	Intacte boom	70	18726	0.0041854	0.0100656	0.0100656	1
+45305	NA	40	127	15.6	Zwarte els	levend	Hakhoutstoof	Intacte boom	71	18726	0.0126677	0.0902945	0.0902945	1
+45305	NA	36	115	14.9	Zwarte els	levend	Individuele boom	Intacte boom	72	18726	0.0103869	0.0672304	0.0672304	1
+45305	NA	23	73	8.2	Zwarte els	dood	Individuele boom	Niet intacte boom	73	18726	0.0041854	0.0096813	0.0096813	1
+45305	NA	38	121	14.9	Zwarte els	levend	Individuele boom	Intacte boom	74	18726	0.011499	0.0783895	0.0783895	1
+45305	NA	30	95	13.9	Zwarte els	levend	Individuele boom	Intacte boom	75	18726	0.0070882	0.0353941	0.0353941	1
+45305	NA	24	76	10.6	Zwarte els	dood	Individuele boom	Niet intacte boom	76	18726	0.0045365	0.0128916	0.0128916	1
+45305	NA	38	121	18.6	Zwarte els	levend	Individuele boom	Intacte boom	77	18726	0.011499	0.0783895	0.0783895	1
+45305	NA	22	70	9.4	Gewone es	levend	Individuele boom	Intacte boom	78	18726	0.0038485	0.001	0.001	1
+45305	NA	37	118	12.1	Zwarte els	dood	Individuele boom	Niet intacte boom	79	18726	0.0109359	0.0699591	0.0699591	1
+45305	NA	114	363	20.7	Zomereik	levend	Individuele boom	Intacte boom	80	18726	0.1034911	0.9622092	1.1166484	1
+45305	NA	50	159	19.2	Zwarte els	levend	Individuele boom	Intacte boom	81	18726	0.0198557	0.1657851	0.1657851	1
+45305	NA	28	89	11.1	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	82	18726	0.0062211	0.0271998	0.0271998	1
+45305	NA	25	80	10.6	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	83	18726	0.0050265	0.0170362	0.0170362	1
+45305	NA	168	535	32.2	Populier	levend	Individuele boom	Intacte boom	84	18726	0.2248006	2.7058739	3.1230884	1
+45305	NA	27	86	14.9	Zwarte els	dood	Hakhoutstoof	Niet intacte boom	85	18726	0.0058088	0.0237983	0.0237983	1
+45305	NA	73	232	24	Populier	levend	Individuele boom	Intacte boom	86	18726	0.0422733	0.3565054	0.3704182	1
+45305	NA	24	76	9.5	Zwarte els	levend	Individuele boom	Intacte boom	87	18726	0.0045365	0.0129167	0.0129167	1
+45305	NA	59	188	16.8	Boswilg	levend	Individuele boom	Intacte boom	88	18726	0.0277591	0.2134191	0.2157235	1
 45526	1	28	93	7.5	Wilg species	levend	Hakhoutstoof	Intacte boom	1	16658	NA	NA	NA	1
 45526	1	25	83	7.5	Wilg species	levend	Hakhoutstoof	Intacte boom	2	16658	NA	NA	NA	1
 45526	1	26	86	7.5	Wilg species	levend	Hakhoutstoof	Intacte boom	3	16658	NA	NA	NA	1
@@ -2054,8 +2054,8 @@ plot_id	segment_id	perimeter_cm	dbh_mm	height_m	name_nl	status_tree	coppice_indi
 612246	1	26	83	8.3	Zwarte els	levend	Hakhoutstoof	Intacte boom	3	18024	NA	NA	NA	1
 612246	1	162	516	20	Zwarte els	levend	Hakhoutstoof	Intacte boom	4	18024	NA	NA	NA	1
 612246	1	47	150	8.7	Inlandse eik	levend	Individuele boom	Intacte boom	5	18024	NA	NA	NA	1
-612246	1	101	321	19.6	Zwarte els	levend	Hakhoutstoof	Intacte boom	7	18024	NA	NA	NA	1
 612246	1	57	181	16.3	Zwarte els	levend	Individuele boom	Intacte boom	6	18024	NA	NA	NA	1
+612246	1	101	321	19.6	Zwarte els	levend	Hakhoutstoof	Intacte boom	7	18024	NA	NA	NA	1
 612246	1	70	223	14.8	Zwarte els	levend	Hakhoutstoof	Intacte boom	8	18024	NA	NA	NA	1
 612246	1	54	172	11.3	Zwarte els	levend	Hakhoutstoof	Intacte boom	9	18024	NA	NA	NA	1
 612246	1	44	140	7.8	Zwarte els	levend	Hakhoutstoof	Intacte boom	10	18024	NA	NA	NA	1
