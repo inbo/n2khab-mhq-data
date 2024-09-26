@@ -73,18 +73,20 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 3 opnames: op te volgen
+      # to do: 1 opnames: op te volgen
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
-      # to do: 2 lege opnames; op te volgen
-no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
       # to do: 1 lege opname; op te volgen
+no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
+      # to do: 2 lege opnames; op te volgen
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 3 opnames 31xx & 25 opnames 2190a: op te volgen
-no_survey <- bind_rows(no_classification, no_structure, no_layers, no_vegetation) %>% 
+      # to do: 2 opnames 31xx & 8 opnames 2190a: op te volgen
+      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn invoerfouten
+      # voorlopig in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
+no_survey <- bind_rows(no_classification, no_structure, no_layers) %>% 
   distinct()
-
-# to do: als 2190a-opnames volledig zijn ingevoerd; volledig controleren 
-# (vnl info over layers ontbreekt nog)
+dry <- structure_31xx %>% 
+  filter(var_code == "peil", var_value_code == "Droog")
+      # bij droogval: opname is ongeschikt voor LSVI-bepaling
 ```
 
 ```{r}
@@ -98,7 +100,9 @@ header <- header_31xx %>%
                                   labels = c("gh", stilstaande_typen))) %>% 
   left_join(sitequal, by = c("survey", "recording_givid", "user_reference")) %>% 
   mutate(suitable_mhq = ifelse(test = (type_observed %in% stilstaande_typen), 
-                          yes = TRUE,
+                          yes = ifelse(test = (recording_givid %in% dry$recording_givid),
+                                       yes = FALSE,
+                                       no = TRUE),
                           no = FALSE),
          measured = ifelse(test = recording_givid %in% no_survey$recording_givid,
                          yes = FALSE,
@@ -111,7 +115,7 @@ beschrijving van enkele kolommen:
 
 * type_observed: gh (-9, geen habitat); `r stilstaande_typen`  
 * reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
-* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren 
+* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van van de lijst of indien drooggevallen 
 * measured (TRUE/FALSE): geeft aan of er al dan niet een vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
 
 ```{r}
@@ -134,6 +138,7 @@ var_class <- c("boom", "chara", "diept", "horst", "peil", "verst", "permw")
   # klassevariabelen 
 var_multiple <- c("helde", "subst") 
   # klassevariabelen, met meerdere keuzemogelijkheden per bezoek
+  # substraat is bij 2190 zowel zonder als met % opgegeven --> dus bij multiple houden
 var_num_1 <- c("diept") 
   # numerieke variabelen, afgeleid van var_code (= info voor maximale diepte)
 var_num_2 <- c("Seccd", "Secch", "Schom", "HabVl", "Helo") 
@@ -172,7 +177,6 @@ structure_class <- structure_31xx %>%
          value = val2, value_description = var_description_or_value) %>% 
   mutate(value_numeric = NA, is_below_LOQ = FALSE, is_above_LOQ = FALSE, 
          is_numeric = FALSE, unit = "class")
-# to do: opvolgen of substraat bij 2190 als % is opgegeven (dus numeriek) of niet (klasse)
 ```
 
 #### structure - numeriek (in var_code)
@@ -233,7 +237,6 @@ structure_num_2 <- structure_31xx %>%
          value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))) %>% 
   select(survey, recording_givid, user_reference, var_code = var_value_code, 
          var = var_description_or_value, value, value_description, value_numeric)  
-
 ```
 
 mogelijke probleemgevallen
@@ -241,8 +244,6 @@ mogelijke probleemgevallen
 structure_num_2 %>% 
   filter(is.na(value_numeric)) %>% 
   select(user_reference, var_code, var, value) 
-# to do: opvolgen of 'zie afgedrukt veldformulier' verwijderd is (1 case; heuvelsven)
-# LI_HEU_001_3130a_22
 ```
 
 indien er probleemgevallen zijn, worden deze voorlopig in de volgende stap gewist  
@@ -317,8 +318,6 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
                                    collapse = "|")),
            var = str_remove(var, "31xx_lsvi_|31xx_"),
            value = str_to_lower(value)) 
-# to do (later): if you use de 'Voorwaarde'-name in the LSVI-database for 'var' you do 
-# not have to change it afterwards when calculating LSVI. 
 ```
 
 replace NA in var en value_description 
@@ -378,19 +377,22 @@ vegetation <- vegetation_31xx %>%
   mutate(name = ifelse(is.na(name_scientific), name_original, name_scientific),
          name = case_when(
            name_original %in% c("draadwier", "Draadwier spec.") ~ "Draadwier",
+           name_original %in% c("Chara hispida L.", "Chara hispida") ~ "Chara hispida",
            name_original %in% 
              c("Hydrodictyon reticulatum (Linnaeus) Bory", 
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
            name_original %in% 
              c("kroossoorten", 
                "kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)",
-               "Kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") ~ "Lemna",
+               "Kroossoorten (= Lemna sp., Spirodela polyrhiza, Wolffia arrhiza Uitz. Lemna trisulca)") 
+           ~ "Lemna",
+           name_original == "Carex viridula s.l." ~ "Carex viridula Michaux",
             TRUE ~ name_original)) %>% 
-  # synoniemen van my taxa oplossen & deze veranderen zodat deze leesbaar zijn door LSVI-rekenmodule 
+        # synoniemen van my taxa en Carex viridula s.l. oplossen & deze veranderen 
+        # zodat deze leesbaar zijn voor de LSVI-rekenmodule 
   select(survey, recording_givid, name, phenology_code, species_cover_code, 
          species_cover, scale) %>% 
   distinct()  # sommige soorten staan er anders dubbel in omdat ze aan verschillende verstoringslagen zijn gekoppeld: Agrostis canina, ...
-
 ```
 
 Sommige taxa zijn een groepering van soorten en hebben geen wetenschappelijke naam in INBOVEG. Voor de ontbrekende namen bij name_scientific, wordt de name_original overgenomen in de 'name'.

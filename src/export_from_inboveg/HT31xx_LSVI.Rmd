@@ -49,7 +49,8 @@ invoervereisten <- geefInvoervereisten(Versie = "Versie 3",
 invoervereisten %>% 
   kable() %>% 
   kable_styling() %>% 
-  scroll_box(width = "800px")
+  scroll_box(width = "800px") %>% 
+  scroll_box(height = "500px")
 
 soortenlijsten <- geefSoortenlijst(Versie = "Versie 3",
                                    Habitattype = c("3110", "3130", "3140", "3150", "3160", "2190"),
@@ -102,7 +103,7 @@ Type <- c("Decimaal getal", "Ja/nee", rep("Percentage", 4), "Ja/nee",
 invoervereisten_join <- data.frame(rel_var, Criterium, Indicator, Voorwaarde, 
                                    Type) %>% 
   mutate(Invoertype = NA)
-# suggestie Toon: var in HT31xx_data_prep direct veranderen in Voorwaarde (to do later)
+# suggestie Toon: var in HT31xx_data_prep direct veranderen in Voorwaarde (to do later - veel werk)
 ```
 
 ```{r}
@@ -166,7 +167,7 @@ data_soortenkenmerken <- vegetation %>%
     name == "Chara hispida L." ~ "Chara major",
     # Chara hispida L. wordt niet herkend door berekenLSVIbasis; 
     # door omzetting naar de oude naam Chara major wordt dit wel correct doorgerekend; 
-    # to do (later) aanpassing in inboveg-survey: 
+    # to do (later; indien nodig) aanpassing in inboveg-survey: 
     # 1/ toevoeging Chara hispida aan Futon-lijst of 
     # juiste Futon-lijst toevoegen aan survey (Sophie V./Pieter VdB); 
     # 2/ daarna aanpassen in LSVI-rekenmodule (Els L.)
@@ -209,15 +210,23 @@ Warning messages:
 2: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
   Volgende records uit Data_voorwaarden kunnen niet gekoppeld worden aan indicatoren uit de databank omdat de criterium-indicator-voorwaarde-combinatie niet voorkomt bij de LSVI-regels van het opgegeven habitattype: 
   <IV2021110112004579, Structuur, verticale structuur, bedekking helofyten> 
-  --> habitattype 3130n; opmerking te negeren; dit werd extra genoteerd  
+    --> habitattype 3130n; opmerking te negeren; dit werd extra genoteerd  
   <IV2021103012423456, Structuur, horizontale structuur, grootste vegetatievlek in m²>
-  --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd 
-
+    --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd 
+  <IV2024011111212549, Verstoring, verzuring, bedekking verzuring> 
+    --> habitattype 3150; opmerking te negeren; bedekking verzuring is eigenlijk niet relevant; werd blijkbaar extra genoteerd
+  <IV2024011616290864, Structuur, verticale structuur, bedekking helofyten> 
+    --> habitattype 3130n; % helofyten teveel; opgaande vegetatie ontbreekt
+  <IV2024011710122457, Structuur, verticale structuur, bedekking helofyten> 
+    --> habitattype 3130n; % helofyten teveel; opgaande vegetatie ontbreekt
+  <IV2023112914403467, Structuur, horizontale structuur, grootste vegetatievlek in m²>
+    --> habitattype 3160; opmerking te negeren; dit werd extra genoteerd (tenzij dit hoort bij verzuring; dit ontbreekt)
+ 
 3: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
-  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie (VoorwaardeID 2139, 2) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2021103012423456, IV2023011817014307,... Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur, verticale structuur en Voorwaarde = contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie.
+  De waarde(n) voor de voorwaarde(n) contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie grootste vegetatievlek in m², bedekking submerse vegetatie, bedekking overhangende bomen en struiken (VoorwaardeID 2139, 2, 2321, 1480, 1178) kunnen niet berekend worden voor opname(n) IV2021012910413902, IV2023011817014307, IV2023080114033170, IV2023083109223750, IV2024011616290864, IV2024011710122457, IV2024051512574509. Geef de waarde voor deze voorwaarde rechtstreeks in als input van de functie 'berekenLSVIBasis' via tabel 'Data_voorwaarden' (zie ?berekenLSVIbasis voor meer info). Vermeld hierbij Criterium = Structuur, Indicator = horizontale structuur, verticale structuur en Voorwaarde = contact met 7110 of 7140_oli, % begroeid met opgaande vegetatie.
   --> missing values; aan te vullen door Jo/Kevin (to do opvolgen; ook voor 2190)
 
-4: There were 2 warnings in `summarise()`.
+4: There were 12 warnings in `summarise()`.
 The first warning was:
 ℹ In argument: `Index_min_criterium = min(.data$Verschilscore, na.rm = na.rm)`.
 ℹ In group 1321: `ID = "IV2021012910413902"`, `Habitattype = "3160"`, `Versie = "Versie 3"`, `Criterium = "Structuur"`, `Kwaliteitsniveau =
@@ -249,7 +258,7 @@ ResKT <- ResDetail %>%
 ```{r}
 resultaat_tabel <- ResKT %>% 
   select(location, Habitattype, date, Versie, 
-         `% begroeid met opgaande vegetatie`:`kranswiervelden voor > = 50 % sleutelsoorten`) 
+         `% begroeid met opgaande vegetatie`:`scoresom niet-hydrofyten`) 
 resultaat_tabel %>% 
   kable() %>% 
   column_spec(5, background = ifelse(is.na(resultaat_tabel[5]), "white", 
@@ -276,6 +285,20 @@ resultaat_tabel %>%
                             ifelse(resultaat_tabel[15] == TRUE, "green", "red"))) %>% 
   column_spec(16, background = ifelse(is.na(resultaat_tabel[16]), "white", 
                             ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%
+  column_spec(17, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%
+  column_spec(18, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%
+  column_spec(19, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%  
+  column_spec(20, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%
+  column_spec(21, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%
+  column_spec(22, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%
+  column_spec(23, background = ifelse(is.na(resultaat_tabel[16]), "white", 
+                            ifelse(resultaat_tabel[16] == TRUE, "green", "red"))) %>%  
   kable_styling() %>% 
   scroll_box(height = "500px")
 # to do (later): code opmaak inkorten
@@ -285,14 +308,21 @@ figuur eindoordeel per locatie
 ```{r}
 ResGlob %>% 
   mutate(Habitattype = as.factor(Habitattype), 
-         Status2 = ifelse(Status == T, "gunstig", "ongunstig")) %>% 
-  ggplot(aes(x = Habitattype, fill = Status2)) +
+         status = ifelse(Status == T, "gunstig", "ongunstig")) %>% 
+  ggplot(aes(x = Habitattype, fill = status)) +
+  scale_fill_manual(values = c("gunstig" = "green",
+                               "ongunstig" = "red")) +
   geom_bar()
 ```
 
+# export brondata
+```{r}
+write.csv2(data_habitat, paste0(path, "/HT31xx_data_habitat.csv"))
+write.csv2(data_voorwaarden, paste0(path, "/HT31xx_data_voorwaarden.csv"))
+write.csv2(data_soortenkenmerken, paste0(path, "/HT31xx_data_soortenkenmerken.csv"))
+```
 
 # export resultaten 
-
 ```{r}
 write.csv2(ResDetail, paste0(path, "/HT31xx_ResultaatLSVI_detail.csv"))
 write.csv2(ResCrit, paste0(path, "/HT31xx_ResultaatLSVI_criteria.csv"))
