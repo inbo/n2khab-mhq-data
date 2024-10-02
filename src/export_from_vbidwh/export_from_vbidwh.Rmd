@@ -1,0 +1,240 @@
+---
+title: "Export data from the forest inventory analysis database"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(git2rdata)
+library(n2khab)
+library(RODBC)
+```
+
+# Analysis database
+
+We make use of following data sources (see [google drive](https://drive.google.com/drive/folders/1TjONf7WuoEYM6TzfHp9UW5KVw6ljMDgs)):
+
++ `vbi_strata_v2024-01-24.accdb`: observed habitat type (only available for the more recently measured plots)
++ `vbi_meetproces_v2022-11-15.accdb`: recorded coordinates
++ `vbi_analysedatabank_v2023-08-22.accdb`: contains information on the plots for which vegetation and dendrometric data is recorded
+
+```{r}
+
+data_path_vbi <- file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi")
+
+db_strata <- "vbi_strata_v2024-01-24.accdb"
+db_meetproces <- "vbi_meetproces_v2022-11-15.accdb"
+db_analyse <- "vbi_analysedatabank_v2023-08-22.accdb"
+
+connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_strata))
+strata_orig <- sqlFetch(connect_db, "tblplotstratadynamic")
+odbcClose(connect_db)
+
+connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_meetproces))
+coordinaten_orig <- sqlFetch(connect_db, "tblcoordinaten")
+plot_weights_orig <- sqlFetch(connect_db,"tblPlotWeights")
+odbcClose(connect_db)
+
+connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_analyse))
+bestandskarakt_orig <- sqlFetch(connect_db, "tbl2BestandskaraktKwal")
+cover_species_orig <- sqlFetch(connect_db, "tbl11VegetatieSamenstelling")
+vegetatie_orig <- sqlFetch(connect_db, "tbl4Vegetatie")
+boomsoort_orig <- sqlFetch(connect_db, "tbl10BoomSoorten")
+trees_orig <- sqlFetch(connect_db, "tbl0Boom")
+deadwood_orig <-  sqlFetch(connect_db, "tbl6DeadWood")
+odbcClose(connect_db)
+
+strata <- strata_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, periode = Periode, landuse = LandUse, stand_type = StandType, type_observed = Habitat) %>%
+  filter(!is.na(stand_type)) %>%
+  select(-stand_type)
+
+coordinaten <- coordinaten_orig %>%
+  select(plot_id = idplots, x, y, type_coord = type, periode, plotweight)
+
+bestandskarakt <- bestandskarakt_orig %>%
+  select(plot_id = IDPlots, periode = Periode, segment_id = IDSegments, stand_type = v2_StandType)
+
+
+
+coord_recent <- coordinaten %>%
+  semi_join(cover_species_vbi, by = c("plot_id")) %>%
+  group_by(plot_id) %>%
+  slice_max(periode) %>%
+  ungroup()
+
+#write_csv2(coord_recent, "../output/coord_vbi.csv")
+```
+
+## Vegetation
+
+```{r}
+cover_species_vbi <- cover_species_orig %>%
+  select(plot_id = IDPlots, vbi_cycle = Periode, layer = Layer, name_nl = NameNl, 
+         name_sc = NameSc, cover_mean = Cover,  cover_description =  Cover_categ, is_tree = Tree) %>%
+  mutate(layer = ifelse(layer == "b", "treelayer",
+                      ifelse(layer == "k", "herblayer",
+                             ifelse(layer == "s", "shrublayer", 
+                                    ifelse(layer == "m", "mosslayer", NA)))),
+         is_tree = is_tree == 1)
+
+cover_veglayers_vbi <- cover_species_vbi %>%
+  group_by(plot_id, vbi_cycle, layer) %>%
+  summarise(cover_mean = 1 - prod(1 - cover_mean/100)) %>%
+  ungroup() %>%
+  mutate(cover_mean = round(cover_mean * 100, 1))
+```
+## Treesa3a4
+
+```{r}
+trees_a3a4 <- trees_orig %>%
+  filter(ID != 0) %>%
+  mutate(dbh_mm = Diameter_cm * 10,
+         coppice_individual = ifelse(Coppice_IndividualCode == 10, "Individuele boom", "Hakhoutstoof"),
+         intact_tree = ifelse(IntactTreeCode == 10, "Intacte boom", "Niet intacte boom")) %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, tree_id = ID, vbi_cycle = Periode, perimeter_cm = Perimeter_cm, dbh_mm, height_m = Height_m,
+         name_nl = NameNl, name_sc = Species, status_tree = StatusTree, coppice_individual, intact_tree, basalarea_m2 = BasalArea_m2, vol_stem_m3 = Volume_m3, vol_tot_m3 = VolumeInclCrown_m3)
+
+
+  
+```
+
+## Plot weights
+
+```{r}
+plot_weight <- trees_orig %>%
+  filter(ID != 0) %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, plot_weight = PlotWeight, segment_weight = SegmentWeight) %>%
+  unique() %>%
+  arrange(plot_id, vbi_cycle, segment_id) %>%
+  mutate(plot_weight = ifelse(is.na(plot_weight) | plot_weight > 1, 1, plot_weight))
+
+plot_areas <- trees_orig %>%
+  filter(ID != 0) %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, area_a4_m2 = AreaA4_m2, area_a3_m2 = AreaA3_m2,
+         area_a4_m2_plot = AreaA4_m2_Plot, area_a3_m2_plot = AreaA3_m2_Plot) %>%
+  filter(!(is.na(area_a4_m2_plot) | is.na(area_a3_m2_plot))) %>%
+  unique()
+
+plot_weight <- plot_weight %>%
+  left_join(plot_areas, by = c("plot_id", "segment_id", "vbi_cycle")) %>%
+  mutate(area_a4_m2_plot = ifelse(is.na(area_a4_m2_plot), max(area_a4_m2_plot, na.rm = TRUE), area_a4_m2_plot),
+         area_a3_m2_plot = ifelse(is.na(area_a3_m2_plot), max(area_a3_m2_plot, na.rm = TRUE), area_a3_m2_plot),
+         segment_weight = ifelse(is.na(segment_weight), 0, segment_weight))
+```
+
+```{r}
+plot_weight_metadata <- plot_weights_orig %>%
+  select(plot_id = idplots, segment_id = idsegments, vbi_cycle = periode, plot_weight = plotweight, segment_weight = segmentweight,
+         area_a3_m2 = areaa3_m2, area_a4_m2 = areaa4_m2) %>%
+  group_by(plot_id, vbi_cycle) %>%
+  mutate(area_a3_m2_plot = sum(area_a3_m2),
+         area_a4_m2_plot = sum(area_a4_m2)) %>%
+  ungroup()
+
+missing_segment <- plot_weight %>%
+  anti_join(plot_weight_metadata, by = c("plot_id", "segment_id", "vbi_cycle"))
+
+check_missing_plot <- plot_weight %>%
+  anti_join(plot_weight_metadata, by = c("plot_id", "vbi_cycle"))
+
+plot_weight_complete <- plot_weight_metadata %>%
+  bind_rows(missing_segment)
+```
+
+
+
+## Analyse variables
+
+```{r}
+veg_av <- vegetatie_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, natural_reg = v0_NV, natural_reg_autocht = v4_NVAutochtPres) %>%
+  pivot_longer(cols = c("natural_reg", "natural_reg_autocht"),
+               names_to = "variable",
+               values_to = "value")
+
+trees_a2 <- boomsoort_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, stem_density_a2_ha = v6_StamtalA2_ha) %>%
+  group_by(plot_id, segment_id, vbi_cycle) %>%
+  summarise(stem_density_a2_ha = sum(stem_density_a2_ha)) %>%
+  ungroup() %>%
+  pivot_longer(cols = c("stem_density_a2_ha"),
+               names_to = "variable",
+               values_to = "value")
+
+deadwood <- deadwood_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, snags_vol = v1_VolumeSnags, logs_vol = v3_VolumeLogs, alive_vol = TotalVolumeLevend) %>%
+  pivot_longer(cols = c("snags_vol", "logs_vol", "alive_vol"),
+               names_to = "variable",
+               values_to = "value")
+
+vbi_av <- veg_av %>%
+  bind_rows(trees_a2, deadwood) %>%
+  arrange(plot_id, segment_id, vbi_cycle) %>%
+  mutate(value = round(value, 3))
+
+```
+
+
+
+# Observed habitat types
+
+The observed habitat types in the vbi plots is based on:
+
++ habitatmap 2023
++ vbi assessments (only for a part of the vbi plots)
++ manual control (when the assessed habitat type does not correspond with the habitatmap 2023)
+
+A file with an overview of the observed types is created with the code in this [repo](https://github.com/inbo/n2khab-mhq-design/tree/master/mhq_terr_forests/source).
+
+A backup of the file is stored [here](https://drive.google.com/drive/folders/1TjONf7WuoEYM6TzfHp9UW5KVw6ljMDgs)
+
+```{r}
+type_observed_orig <- read_csv2(file.path(data_path_vbi, "type_observed_vbi.csv")) 
+
+type_observed <- type_observed_orig %>%
+  rename(vbi_cycle = periode, type_observed = type)
+```
+
+
+
+# Write result to .vc file
+
+```{r, eval= update}
+
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
+
+if (!dir.exists(path)) {
+    
+  dir.create(path)  
+    
+}
+
+path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/dwh_vbi")
+
+if (!dir.exists(path)) {
+    
+  dir.create(path)  
+    
+}
+
+write_vc(cover_species_vbi, "cover_species", root = path, sorting = c("plot_id", "vbi_cycle", "layer", "name_sc"))
+write_vc(cover_veglayers_vbi, "cover_veglayers", root = path, sorting = c("plot_id", "vbi_cycle", "layer"))
+write_vc(trees_a3a4, "trees_a3a4", root = path, sorting = c("plot_id", "vbi_cycle", "segment_id", "tree_id"))
+write_vc(type_observed, "type_observed", root = path, sorting = c("plot_id", "vbi_cycle", "type_observed"), strict = FALSE)
+write_vc(vbi_av, "analysis_variable", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
+write_vc(plot_weight_complete, "plot_weight", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
+
+```
