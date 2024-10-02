@@ -73,6 +73,71 @@ plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
 
 ```
 
+## vbi forest
+
+```{r}
+data_path_vbi <- file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi")
+
+db_meetproces <- file.path(data_path_vbi, "vbi_meetproces_v2022-11-15.accdb")
+
+connect_db <-   odbcConnectAccess2007(db_meetproces)
+coordinaten_orig <- sqlFetch(connect_db, "tblcoordinaten")
+odbcClose(connect_db)
+
+coordinates_vbi <- coordinaten_orig %>%
+  select(plot_id = idplots, periode, x, y)
+
+vbi_bosconstantie <- coordinates_vbi %>%
+  st_as_sf(coords = c("x", "y"), crs = 31370) %>%
+  st_join(bosconstantie) %>%
+  st_drop_geometry() %>%
+  filter(!is.na(blk))
+
+vbi_msa <- coordinates_vbi %>%
+  st_as_sf(coords = c("x", "y"), crs = 31370) %>%
+  st_join(msa) %>%
+  st_drop_geometry() %>%
+  filter(!is.na(Bos)) %>%
+  select(plot_id, periode, starts_with("HT")) %>%
+  pivot_longer(cols = starts_with("HT"),
+               names_to = "type",
+               values_to = "MSA") %>%
+  mutate(type = str_remove(type, "HT"),
+         type = ifelse(type == "91E0_s", "91E0_sf", type))
+
+```
+
+## mhq forest
+
+```{r}
+data_path_mhq <- file.path(fileman_up("n2khab-mhq-data"), "/processed/fieldmap_mhq")
+
+coordinates_mhq <- read_vc("coordinates", root = data_path_mhq)
+
+coordinates_mhq <- coordinates_mhq %>%
+  select(plot_id, date_assessment, x_measured, y_measured)
+
+mhq_bosconstantie <- coordinates_mhq %>%
+  st_as_sf(coords = c("x_measured", "y_measured"), crs = 31370) %>%
+  st_join(bosconstantie) %>%
+  st_drop_geometry() %>%
+  filter(!is.na(blk)) %>%
+  unique()
+
+mhq_msa <- coordinates_mhq %>%
+  st_as_sf(coords = c("x_measured", "y_measured"), crs = 31370) %>%
+  st_join(msa) %>%
+  st_drop_geometry() %>%
+  filter(!is.na(Bos)) %>%
+  select(plot_id, date_assessment, starts_with("HT")) %>%
+  pivot_longer(cols = starts_with("HT"),
+               names_to = "type",
+               values_to = "MSA") %>%
+  mutate(type = str_remove(type, "HT"),
+         type = ifelse(type == "91E0_s", "91E0_sf", type)) %>%
+  unique()
+
+```
 
 
 ## Write result to .vc file
@@ -97,4 +162,9 @@ if (!dir.exists(path)) {
 
 write_vc(plot_91E0_sf_bosconstantie, "bosconstantie_91E0_sf", root = path, sorting = c("plot_id"))
 write_vc(plot_91E0_sf_msa, "msa_91E0_sf", root = path, sorting = c("plot_id"))
+write_vc(mhq_bosconstantie, "bosconstantie_mhq", root = path, sorting = c("plot_id", "date_assessment"), strict = FALSE)
+write_vc(mhq_msa, "msa_mhq", root = path, sorting = c("plot_id", "date_assessment", "type"), strict = FALSE)
+write_vc(vbi_bosconstantie, "bosconstantie_vbi", root = path, sorting = c("plot_id", "periode"))
+write_vc(vbi_msa, "msa_vbi", root = path, sorting = c("plot_id", "periode", "type"))
+
 ```
