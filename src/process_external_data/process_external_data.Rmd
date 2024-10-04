@@ -20,6 +20,7 @@ library(tidyverse)
 library(git2rdata)
 library(n2khab)
 library(sf)
+library(RODBC)
 ```
 
 # Bosconstantie and msa forest habitat types
