@@ -1460,7 +1460,7 @@ logs <- get_logs() %>%
 
 shoots <- get_shoots()
 
-# standdiscription
+# standdescription
 
 standdescription <- get_standdescription() %>%
   bind_rows(get_standdescription_past2020())
@@ -1895,7 +1895,7 @@ check_missing_data <- check_missing_data %>%
   select(-navplot_id) %>%
   select(plot_id, segment_id, mon_cycle, date_status, everything())
 
-standdiscription_date <- standdescription %>%
+standdescription_date <- standdescription %>%
   inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = "plot_id") %>%
   select(plot_id, mon_cycle, date_assessment, everything()) %>%
   mutate(landuse =ifelse(plot_id == 11126, "andere (stort, grondwinning)", landuse))
@@ -1929,7 +1929,7 @@ write_vc(date_assessment, "date_assessment", root = path,  sorting = c("plot_id"
 write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "tree_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
-write_vc(standdiscription_date, "standdiscription_date", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
+write_vc(standdescription_date, "standdescription_date", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
 write_vc(shoots_date, "shoots", root = path,  sorting = c("plot_id", "tree_id", "shoot_id"), strict = FALSE)
 write_vc(logs_date, "logs", root = path,  sorting = c("plot_id", "date_assessment", "idline_intersect_method"), strict = FALSE)
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id", strict = FALSE)
