@@ -824,10 +824,12 @@ get_treesa3a4_raw <- function(db = db_fieldmap_foresthab){
   Trees_2eBosinv.DBH_mm,
   Trees_2eBosinv.Height_m,
   qTreeSpecies.Value1 as name_nl,
+  qTreeSpeciesScientific.Value1 as name_sc,
   qStatusTree.Value1 as status_tree,
   qCoppice_Individual.Value1 as coppice_individual,
   qIntactTree.Value1 as intact_tree
   FROM Trees_2eBosinv 
+  LEFT JOIN qTreeSpeciesScientific ON Trees_2eBosinv.Species_Scientific = qTreeSpeciesScientific.ID
   LEFT JOIN qTreeSpecies ON Trees_2eBosinv.Species = qTreeSpecies.ID
   LEFT JOIN qStatusTree ON Trees_2eBosinv.Status_tree = qStatusTree.ID
   LEFT JOIN qCoppice_Individual ON Trees_2eBosinv.CodeCoppice_Individual = qCoppice_Individual.ID
@@ -909,6 +911,35 @@ colnames(shoots) <- str_to_lower(colnames(shoots))
 
 return(shoots)  
 
+}
+
+get_standdescription <- function(db = db_fieldmap_foresthab){
+  
+  query_stand <- "SELECT 
+                  Standdescription_segments.IDPlots as plot_id,
+                  Standdescription_segments.ID as segment_id,
+                  Standdescription_segments.Area_m2 as area_a4_m2,
+                  qLanduse.Value1 as landuse,
+                  qStandType.Value1 as stand_type,
+                  qStandAge.Value1 as stand_age,
+                  qMixType.Value1 as mix_type
+                  FROM Standdescription_segments
+                  INNER JOIN qStandType ON qStandType.ID = Standdescription_segments.StandType
+                  INNER JOIN qLanduse ON qLanduse.ID = Standdescription_segments.Landuse
+                  INNER JOIN qStandAge ON qStandAge.ID = Standdescription_segments.StandAge
+                  INNER JOIN qMixType ON qMixType.ID = Standdescription_segments.MixType;"
+  
+  connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+
+  standdescription <- sqlQuery(connect_db, query_stand, stringsAsFactors = FALSE) %>%
+    unique()
+
+  odbcClose(connect_db)
+  
+  colnames(standdescription) <- str_to_lower(colnames(standdescription))
+  
+  return(standdescription)
+  
 }
 
 ```
@@ -1036,11 +1067,13 @@ get_treesa3a4_past2020 <- function(db = db_fieldmap_foresthab_past2020){
   Trees_3.VOL_STEM_M3,
   Trees_3.VOL_TOT_M3,
   qTreeSpecies.Value1 as name_nl,
+  qTreeSpeciesScientific.Value1 as name_sc,
   qStatusTree.Value1 as status_tree,
   qCoppice_Individual.Value1 as coppice_individual,
   qIntactTree.Value1 as intact_tree
   FROM Trees_3 
   LEFT JOIN qTreeSpecies ON Trees_3.Species = qTreeSpecies.ID
+  LEFT JOIN qTreeSpeciesScientific ON Trees_3.Species_scientific = qTreeSpeciesScientific.ID
   LEFT JOIN qStatusTree ON Trees_3.Status_tree = qStatusTree.ID
   LEFT JOIN qCoppice_Individual ON Trees_3.CodeCoppice_Individual = qCoppice_Individual.ID
   LEFT JOIN qIntactTree ON Trees_3.IntactTree = qIntactTree.ID;
@@ -1059,7 +1092,7 @@ get_treesa3a4_past2020 <- function(db = db_fieldmap_foresthab_past2020){
 
 get_cover_species_foresthab_past2020 <- function(db = db_fieldmap_foresthab_past2020){
 
-  query_herblayer<-"SELECT Herblayer_3.IDPlots as plot_id,
+  query_herblayer <-"SELECT Herblayer_3.IDPlots as plot_id,
   Herblayer_3.Species as name_id,
   qVEG_HerbSpecies.Value1 as name_nl,
   qVEG_HerbSpeciesScientific.Value1 as name_sc,
@@ -1197,6 +1230,38 @@ get_logs_past_2020 <- function(db = db_fieldmap_foresthab_past2020){
   colnames(logs) <- str_to_lower(colnames(logs))
   
   return(logs)
+  
+}
+
+get_standdescription_past2020 <- function(db = db_fieldmap_foresthab_past2020){
+  
+  query_stand <- "SELECT 
+                  Standdescription_segments_3.IDPlots as plot_id,
+                  Standdescription_segments_3.ID as segment_id,
+                  Standdescription_segments_3.Area_m2 as area_a4_m2,
+                  qStandType.Value1 as stand_type,
+                  qStandAge.Value1 as stand_age,
+                  qStanddescr_landuse.value1 as landuse,
+                  qMixType.Value1 as mix_type
+                  FROM Standdescription_segments_3
+                  INNER JOIN qStandType ON qStandType.ID = Standdescription_segments_3.StandType
+                  INNER JOIN qStandAge ON qStandAge.ID = Standdescription_segments_3.StandAge
+                  INNER JOIN qStanddescr_landuse ON qStanddescr_landuse.ID = Standdescription_segments_3.landuse
+                  INNER JOIN qMixType ON qMixType.ID = Standdescription_segments_3.MixType;"
+  
+  connect_db <- odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+
+  standdescription <- sqlQuery(connect_db, query_stand, stringsAsFactors = FALSE) %>%
+    unique() 
+
+  odbcClose(connect_db)
+  
+  colnames(standdescription) <- str_to_lower(colnames(standdescription))
+  
+  standdescription <- standdescription %>%
+    mutate(landuse = str_to_lower(landuse))
+  
+  return(standdescription)
   
 }
 
@@ -1394,6 +1459,11 @@ logs <- get_logs() %>%
   bind_rows(get_logs_past_2020())
 
 shoots <- get_shoots()
+
+# standdiscription
+
+standdescription <- get_standdescription() %>%
+  bind_rows(get_standdescription_past2020())
 
 # date
 
@@ -1825,6 +1895,14 @@ check_missing_data <- check_missing_data %>%
   select(-navplot_id) %>%
   select(plot_id, segment_id, mon_cycle, date_status, everything())
 
+standdiscription_date <- standdescription %>%
+  inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = "plot_id") %>%
+  select(plot_id, mon_cycle, date_assessment, everything()) %>%
+  mutate(landuse =ifelse(plot_id == 11126, "andere (stort, grondwinning)", landuse))
+
+check_missing_data <- check_missing_data %>%
+  select(-navplot_id) %>%
+  select(plot_id, segment_id, mon_cycle, date_status, everything())
 
 path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")
 
@@ -1851,6 +1929,7 @@ write_vc(date_assessment, "date_assessment", root = path,  sorting = c("plot_id"
 write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "tree_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
+write_vc(standdiscription_date, "standdiscription_date", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
 write_vc(shoots_date, "shoots", root = path,  sorting = c("plot_id", "tree_id", "shoot_id"), strict = FALSE)
 write_vc(logs_date, "logs", root = path,  sorting = c("plot_id", "date_assessment", "idline_intersect_method"), strict = FALSE)
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id", strict = FALSE)

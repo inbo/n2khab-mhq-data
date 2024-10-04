@@ -64,11 +64,6 @@ strata <- strata_orig %>%
 coordinaten <- coordinaten_orig %>%
   select(plot_id = idplots, x, y, type_coord = type, periode, plotweight)
 
-bestandskarakt <- bestandskarakt_orig %>%
-  select(plot_id = IDPlots, periode = Periode, segment_id = IDSegments, stand_type = v2_StandType)
-
-
-
 coord_recent <- coordinaten %>%
   semi_join(cover_species_vbi, by = c("plot_id")) %>%
   group_by(plot_id) %>%
@@ -109,6 +104,14 @@ trees_a3a4 <- trees_orig %>%
 
 
   
+```
+
+## Stand description
+
+```{r}
+bestandskarakt <- bestandskarakt_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, stand_type = v2_StandType, stand_age = v5_StandAge, stand_mixture = v4_MixType) %>%
+  pivot_longer(cols = c("stand_type", "stand_age", "stand_mixture"), names_to = "variable", values_to = "category")
 ```
 
 ## Plot weights
@@ -205,10 +208,9 @@ A backup of the file is stored [here](https://drive.google.com/drive/folders/1Tj
 type_observed_orig <- read_csv2(file.path(data_path_vbi, "type_observed_vbi.csv")) 
 
 type_observed <- type_observed_orig %>%
+  mutate(type = ifelse(type == "91EO_va", "91E0_va", type)) %>%
   rename(vbi_cycle = periode, type_observed = type)
 ```
-
-
 
 # Write result to .vc file
 
@@ -235,6 +237,7 @@ write_vc(cover_veglayers_vbi, "cover_veglayers", root = path, sorting = c("plot_
 write_vc(trees_a3a4, "trees_a3a4", root = path, sorting = c("plot_id", "vbi_cycle", "segment_id", "tree_id"))
 write_vc(type_observed, "type_observed", root = path, sorting = c("plot_id", "vbi_cycle", "type_observed"), strict = FALSE)
 write_vc(vbi_av, "analysis_variable", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
+write_vc(bestandskarakt, "stand_description", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
 write_vc(plot_weight_complete, "plot_weight", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
 
 ```

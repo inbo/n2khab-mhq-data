@@ -1,0 +1,29 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  - date_assessment
+  hash: d0627d9c9cbf72bde8d98946eee2ba4ebe01cbe9
+  data_hash: c9b4bee7da08b48019f6d16aff647063d342ed28
+plot_id:
+  class: integer
+mon_cycle:
+  class: numeric
+date_assessment:
+  class: Date
+  origin: '1970-01-01'
+segment_id:
+  class: integer
+area_a4_m2:
+  class: numeric
+landuse:
+  class: character
+stand_type:
+  class: character
+stand_age:
+  class: character
+mix_type:
+  class: character
