@@ -1,0 +1,89 @@
+title: "Calculate area a3 plot, a2 plot and vegetation plot segmets"
+date: "`r lubridate::now()`"
+output: 
+  html_document:
+    number_sections: yes
+    toc: TRUE
+    toc_float:
+      collapsed: FALSE
+      smooth_scroll: FALSE
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(n2khab)
+library(git2rdata)
+library(sf)
+
+```
+
+```{r}
+maplayers_2020 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/maplayers_v2020")
+
+standdescr <- read_vc(root = file.path(fileman_up("n2khab-mhq-data"), "processed/fieldmap_mhq"), "standdescription_date") 
+
+standdescr_2020 <- standdescr %>%
+  filter(year(date_assessment) < 2021)
+
+standdescr_segment_2020 <- standdescr %>%
+  filter(year(date_assessment) < 2021) %>%
+  group_by(plot_id, date_assessment) %>%
+  filter(n() > 1) %>%
+  ungroup() %>%
+  select(plot_id, segment_id, date_assessment, area_a4_m2_orig = area_a4_m2)
+```
+
+```{r}
+
+plot_id = 18290
+
+calc_area_plot <- function(plot_id, maplayers = maplayers_2020) {
+  
+  segments_orig <- st_read(dsn = file.path(maplayers, plot_id),
+                      layer = "Standdescription_segments_polyg",
+                      quiet = TRUE)
+  
+  colnames(segments_orig) <- str_to_lower(colnames(segments_orig))
+  
+  segments <- segments_orig %>%
+    select(plot_id = idplots, segment_id = id)
+  
+  plot_a3 <- tibble( x = 0, y = 0) %>%
+    st_as_sf(coords = c("x", "y")) %>%
+    st_buffer(dist = 9)
+  
+  area_a3_plot <- plot_a3 %>%
+    st_intersection(segments) %>%
+    mutate(area_a3_m2 = st_area(geometry)) %>%
+    st_drop_geometry()
+  
+  area_plot <- segments %>%
+    mutate(area_a4_m2 = st_area(geometry)) %>%
+    st_drop_geometry() %>%
+    left_join(area_a3_plot, by = c("plot_id", "segment_id")) %>%
+    mutate(area_a3_m2 = ifelse(is.na(area_a3_m2), 0, area_a3_m2))
+  
+  return(area_plot)
+}
+
+area_plot_segments <- NULL
+
+for (plot_id in unique(standdescr_segment_2020$plot_id)) {
+  
+  temp <- calc_area_plot(plot_id = plot_id)
+  
+  area_plot_segments <- temp %>%
+    bind_rows(area_plot_segments)
+  
+}
+
+area_plot_segments_2020 <- standdescr_segment_2020 %>%
+  left_join(area_plot_segments, by = c("plot_id", "segment_id")) %>%
+  arrange(plot_id, segment_id)
+```
+
