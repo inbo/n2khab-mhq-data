@@ -7,8 +7,8 @@
   - segment_id
   - tree_id
   - date_assessment
-  hash: f48c805989c6f5a5420c37a91ab013b7838a587e
-  data_hash: 18532375af3c6d3b5921277df2b17b4fec4b3dd1
+  hash: c5058842e9b73e4792374898bf14166b82ecb35f
+  data_hash: eea660dd0984906daf53a7fb1595f5c47dc267b8
 plot_id:
   class: integer
 segment_id:
@@ -42,3 +42,5 @@ mon_cycle:
   class: numeric
 name_sc:
   class: character
+tree_species_id:
+  class: integer

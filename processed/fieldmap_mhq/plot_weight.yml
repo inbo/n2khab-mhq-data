@@ -6,8 +6,8 @@
   - plot_id
   - segment_id
   - date_assessment
-  hash: 604a3c63a475c821ff14c4994028de2d888f1636
-  data_hash: 9741470d1e9ffa2602f60dcb801bd2760e336f94
+  hash: 172a072a48927e0691d3884c8266e68153c404d5
+  data_hash: ced0b9e6b08842c645d924db81fd518373e49941
 plot_id:
   class: numeric
 segment_id:
@@ -24,4 +24,10 @@ area_a3_m2:
 plot_weight:
   class: numeric
 segment_weight:
+  class: numeric
+landuse:
+  class: character
+area_a4_m2_plot:
+  class: numeric
+area_a3_m2_plot:
   class: numeric

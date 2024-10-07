@@ -1,0 +1,481 @@
+plot_id	mon_cycle	date_assessment	segment_id	area_a4_m2	landuse	variable	category
+2182	1	16562	1	1017.888	bos	mix_type	stamgewijs
+2182	1	16562	1	1017.888	bos	stand_age	41 - 60 jaar
+2182	1	16562	1	1017.888	bos	stand_type	gemengd naaldhout
+2198	1	16546	1	738.059	bos	mix_type	stamgewijs
+2198	1	16546	1	738.059	bos	stand_age	61 - 80 jaar
+2198	1	16546	1	738.059	bos	stand_type	loofhout
+2198	1	16546	2	207.694	infrastructuur (wegen, spoorwegen, kanalen)	mix_type	niet van toepassing
+2198	1	16546	2	207.694	infrastructuur (wegen, spoorwegen, kanalen)	stand_age	niet van toepassing
+2198	1	16546	2	207.694	infrastructuur (wegen, spoorwegen, kanalen)	stand_type	niet van toepassing
+2198	1	16546	3	72.131	infrastructuur (wegen, spoorwegen, kanalen)	mix_type	niet van toepassing
+2198	1	16546	3	72.131	infrastructuur (wegen, spoorwegen, kanalen)	stand_age	niet van toepassing
+2198	1	16546	3	72.131	infrastructuur (wegen, spoorwegen, kanalen)	stand_type	niet van toepassing
+2742	1	16604	1	1017.888	bos	mix_type	stamgewijs
+2742	1	16604	1	1017.888	bos	stand_age	21 - 40 jaar
+2742	1	16604	1	1017.888	bos	stand_type	loofhout
+3894	1	16545	1	1017.888	bos	mix_type	homogeen
+3894	1	16545	1	1017.888	bos	stand_age	101 - 120 jaar
+3894	1	16545	1	1017.888	bos	stand_type	loofhout
+3970	1	16576	1	1011.05	bos	mix_type	stamgewijs
+3970	1	16576	1	1011.05	bos	stand_age	61 - 80 jaar
+3970	1	16576	1	1011.05	bos	stand_type	loofhout
+3970	1	16576	2	6.835	infrastructuur (wegen, spoorwegen, kanalen)	mix_type	niet van toepassing
+3970	1	16576	2	6.835	infrastructuur (wegen, spoorwegen, kanalen)	stand_age	niet van toepassing
+3970	1	16576	2	6.835	infrastructuur (wegen, spoorwegen, kanalen)	stand_type	niet van toepassing
+4945	1	17277	1	1017.888	bos	mix_type	stamgewijs
+4945	1	17277	1	1017.888	bos	stand_age	121 - 140 jaar
+4945	1	17277	1	1017.888	bos	stand_type	loofhout
+5702	1	16573	1	1017.888	bos	mix_type	stamgewijs
+5702	1	16573	1	1017.888	bos	stand_age	61 - 80 jaar
+5702	1	16573	1	1017.888	bos	stand_type	gemengd naaldhout
+6278	1	16562	1	1017.888	bos	mix_type	stamgewijs
+6278	1	16562	1	1017.888	bos	stand_age	21 - 40 jaar
+6278	1	16562	1	1017.888	bos	stand_type	loofhout
+7078	1	16562	1	1017.888	bos	mix_type	stamgewijs
+7078	1	16562	1	1017.888	bos	stand_age	41 - 60 jaar
+7078	1	16562	1	1017.888	bos	stand_type	loofhout
+7145	1	16553	1	1017.888	bos	mix_type	homogeen
+7145	1	16553	1	1017.888	bos	stand_age	81 - 100 jaar
+7145	1	16553	1	1017.888	bos	stand_type	loofhout
+7785	1	16573	1	1017.888	bos	mix_type	stamgewijs
+7785	1	16573	1	1017.888	bos	stand_age	41 - 60 jaar
+7785	1	16573	1	1017.888	bos	stand_type	loofhout
+8121	1	16554	1	1017.888	bos	mix_type	stamgewijs
+8121	1	16554	1	1017.888	bos	stand_age	61 - 80 jaar
+8121	1	16554	1	1017.888	bos	stand_type	loofhout
+8217	1	17288	1	1017.888	bos	mix_type	stamgewijs
+8217	1	17288	1	1017.888	bos	stand_age	121 - 140 jaar
+8217	1	17288	1	1017.888	bos	stand_type	loofhout
+9262	1	17067	1	1017.888	bos	mix_type	stamgewijs
+9262	1	17067	1	1017.888	bos	stand_age	81 - 100 jaar
+9262	1	17067	1	1017.888	bos	stand_type	loofhout
+10354	1	16575	1	1017.888	bos	mix_type	stamgewijs
+10354	1	16575	1	1017.888	bos	stand_age	41 - 60 jaar
+10354	1	16575	1	1017.888	bos	stand_type	loofhout
+10513	1	18001	1	1017.846	bos	mix_type	stamgewijs
+10513	1	18001	1	1017.846	bos	stand_age	1 - 20 jaar
+10513	1	18001	1	1017.846	bos	stand_type	loofhout
+11126	1	16584	1	590.002	bos	mix_type	stamgewijs
+11126	1	16584	1	590.002	bos	stand_age	1 - 20 jaar
+11126	1	16584	1	590.002	bos	stand_type	loofhout
+11126	1	16584	2	427.883	andere (stort, grondwinning)	mix_type	niet van toepassing
+11126	1	16584	2	427.883	andere (stort, grondwinning)	stand_age	niet van toepassing
+11126	1	16584	2	427.883	andere (stort, grondwinning)	stand_type	niet van toepassing
+11481	1	17998	1	1017.846	bos	mix_type	groepsgewijze
+11481	1	17998	1	1017.846	bos	stand_age	1 - 20 jaar
+11481	1	17998	1	1017.846	bos	stand_type	loofhout
+11865	1	16554	1	1017.888	bos	mix_type	stamgewijs
+11865	1	16554	1	1017.888	bos	stand_age	41 - 60 jaar
+11865	1	16554	1	1017.888	bos	stand_type	loofhout
+12470	1	16597	1	1017.888	bos	mix_type	homogeen
+12470	1	16597	1	1017.888	bos	stand_age	41 - 60 jaar
+12470	1	16597	1	1017.888	bos	stand_type	loofhout
+12710	1	17704	1	1017.846	bos	mix_type	homogeen
+12710	1	17704	1	1017.846	bos	stand_age	101 - 120 jaar
+12710	1	17704	1	1017.846	bos	stand_type	loofhout
+14457	1	17714	1	1017.846	bos	mix_type	stamgewijs
+14457	1	17714	1	1017.846	bos	stand_age	121 - 140 jaar
+14457	1	17714	1	1017.846	bos	stand_type	loofhout
+15782	1	16562	1	1017.888	bos	mix_type	homogeen
+15782	1	16562	1	1017.888	bos	stand_age	41 - 60 jaar
+15782	1	16562	1	1017.888	bos	stand_type	loofhout
+16633	1	16559	1	972.493	bos	mix_type	homogeen
+16633	1	16559	1	972.493	bos	stand_age	41 - 60 jaar
+16633	1	16559	1	972.493	bos	stand_type	loofhout
+16633	1	16559	2	45.392	water (poel, vijver, beek)	mix_type	niet van toepassing
+16633	1	16559	2	45.392	water (poel, vijver, beek)	stand_age	niet van toepassing
+16633	1	16559	2	45.392	water (poel, vijver, beek)	stand_type	niet van toepassing
+18290	1	17990	1	632.287	bos	mix_type	stamgewijs
+18290	1	17990	1	632.287	bos	stand_age	61 - 80 jaar
+18290	1	17990	1	632.287	bos	stand_type	loofhout
+18290	1	17990	2	385.6	akker	mix_type	niet van toepassing
+18290	1	17990	2	385.6	akker	stand_age	niet van toepassing
+18290	1	17990	2	385.6	akker	stand_type	niet van toepassing
+18898	1	17991	1	725.586	bos	mix_type	stamgewijs
+18898	1	17991	1	725.586	bos	stand_age	81 - 100 jaar
+18898	1	17991	1	725.586	bos	stand_type	loofhout
+18898	1	17991	2	127.56	infrastructuur (wegen, spoorwegen, kanalen)	mix_type	niet van toepassing
+18898	1	17991	2	127.56	infrastructuur (wegen, spoorwegen, kanalen)	stand_age	niet van toepassing
+18898	1	17991	2	127.56	infrastructuur (wegen, spoorwegen, kanalen)	stand_type	niet van toepassing
+18898	1	17991	3	164.739	bos	mix_type	stamgewijs
+18898	1	17991	3	164.739	bos	stand_age	1 - 20 jaar
+18898	1	17991	3	164.739	bos	stand_type	loofhout
+19762	1	17994	1	1017.885	bos	mix_type	stamgewijs
+19762	1	17994	1	1017.885	bos	stand_age	81 - 100 jaar
+19762	1	17994	1	1017.885	bos	stand_type	loofhout
+20274	1	17990	1	1017.885	bos	mix_type	stamgewijs
+20274	1	17990	1	1017.885	bos	stand_age	61 - 80 jaar
+20274	1	17990	1	1017.885	bos	stand_type	loofhout
+20470	1	17990	1	1017.846	bos	mix_type	stamgewijs
+20470	1	17990	1	1017.846	bos	stand_age	81 - 100 jaar
+20470	1	17990	1	1017.846	bos	stand_type	loofhout
+20614	1	17709	1	1017.846	bos	mix_type	stamgewijs
+20614	1	17709	1	1017.846	bos	stand_age	61 - 80 jaar
+20614	1	17709	1	1017.846	bos	stand_type	loofhout
+21025	1	18002	1	1017.846	bos	mix_type	stamgewijs
+21025	1	18002	1	1017.846	bos	stand_age	61 - 80 jaar
+21025	1	18002	1	1017.846	bos	stand_type	loofhout
+22726	1	17710	1	1017.846	bos	mix_type	stamgewijs
+22726	1	17710	1	1017.846	bos	stand_age	61 - 80 jaar
+22726	1	17710	1	1017.846	bos	stand_type	loofhout
+23238	1	17711	1	1017.846	bos	mix_type	stamgewijs
+23238	1	17711	1	1017.846	bos	stand_age	81 - 100 jaar
+23238	1	17711	1	1017.846	bos	stand_type	loofhout
+23257	1	16621	1	766.434	bos	mix_type	stamgewijs
+23257	1	16621	1	766.434	bos	stand_age	1 - 20 jaar
+23257	1	16621	1	766.434	bos	stand_type	loofhout
+23257	1	16621	2	251.451	bos	mix_type	stamgewijs
+23257	1	16621	2	251.451	bos	stand_age	1 - 20 jaar
+23257	1	16621	2	251.451	bos	stand_type	loofhout
+23385	1	17687	1	1017.846	bos	mix_type	homogeen
+23385	1	17687	1	1017.846	bos	stand_age	41 - 60 jaar
+23385	1	17687	1	1017.846	bos	stand_type	loofhout
+26393	1	17269	1	1017.888	bos	mix_type	stamgewijs
+26393	1	17269	1	1017.888	bos	stand_age	> 160 jaar
+26393	1	17269	1	1017.888	bos	stand_type	loofhout
+26822	1	17710	1	636.176	bos	mix_type	stamgewijs
+26822	1	17710	1	636.176	bos	stand_age	41 - 60 jaar
+26822	1	17710	1	636.176	bos	stand_type	loofhout
+26822	1	17710	2	381.71	bos	mix_type	homogeen
+26822	1	17710	2	381.71	bos	stand_age	1 - 20 jaar
+26822	1	17710	2	381.71	bos	stand_type	loofhout
+27474	1	17989	1	1017.885	bos	mix_type	stamgewijs
+27474	1	17989	1	1017.885	bos	stand_age	81 - 100 jaar
+27474	1	17989	1	1017.885	bos	stand_type	loofhout
+28546	1	18002	1	1017.885	bos	mix_type	stamgewijs
+28546	1	18002	1	1017.885	bos	stand_age	21 - 40 jaar
+28546	1	18002	1	1017.885	bos	stand_type	loofhout
+31414	1	17988	1	1017.885	bos	mix_type	homogeen
+31414	1	17988	1	1017.885	bos	stand_age	21 - 40 jaar
+31414	1	17988	1	1017.885	bos	stand_type	loofhout
+32214	1	18779	1	1017.888	bos	mix_type	stamgewijs
+32214	1	18779	1	1017.888	bos	stand_age	101 - 120 jaar
+32214	1	18779	1	1017.888	bos	stand_type	loofhout
+34361	1	18733	1	1017.888	bos	mix_type	stamgewijs
+34361	1	18733	1	1017.888	bos	stand_age	121 - 140 jaar
+34361	1	18733	1	1017.888	bos	stand_type	loofhout
+36774	1	17708	1	1017.846	bos	mix_type	stamgewijs
+36774	1	17708	1	1017.846	bos	stand_age	ongelijkjarig
+36774	1	17708	1	1017.846	bos	stand_type	loofhout
+41209	1	18726	1	1017.888	bos	mix_type	stamgewijs
+41209	1	18726	1	1017.888	bos	stand_age	101 - 120 jaar
+41209	1	18726	1	1017.888	bos	stand_type	loofhout
+45305	1	18726	1	1017.888	bos	mix_type	stamgewijs
+45305	1	18726	1	1017.888	bos	stand_age	61 - 80 jaar
+45305	1	18726	1	1017.888	bos	stand_type	loofhout
+45526	1	16658	1	1017.888	bos	mix_type	homogeen
+45526	1	16658	1	1017.888	bos	stand_age	21 - 40 jaar
+45526	1	16658	1	1017.888	bos	stand_type	loofhout
+53561	1	16563	1	43.237	bos	mix_type	stamgewijs
+53561	1	16563	1	43.237	bos	stand_age	61 - 80 jaar
+53561	1	16563	1	43.237	bos	stand_type	loofhout
+53561	1	16563	2	508.852	bos	mix_type	stamgewijs
+53561	1	16563	2	508.852	bos	stand_age	81 - 100 jaar
+53561	1	16563	2	508.852	bos	stand_type	loofhout
+53561	1	16563	3	465.795	bos	mix_type	stamgewijs
+53561	1	16563	3	465.795	bos	stand_age	21 - 40 jaar
+53561	1	16563	3	465.795	bos	stand_type	loofhout
+53970	1	18373	1	1017.888	bos	mix_type	homogeen
+53970	1	18373	1	1017.888	bos	stand_age	21 - 40 jaar
+53970	1	18373	1	1017.888	bos	stand_type	loofhout
+55734	1	18758	1	1017.888	bos	mix_type	stamgewijs
+55734	1	18758	1	1017.888	bos	stand_age	21 - 40 jaar
+55734	1	18758	1	1017.888	bos	stand_type	loofhout
+58198	1	18774	1	1017.888	bos	mix_type	stamgewijs
+58198	1	18774	1	1017.888	bos	stand_age	1 - 20 jaar
+58198	1	18774	1	1017.888	bos	stand_type	loofhout
+68601	1	18775	1	1017.888	bos	mix_type	stamgewijs
+68601	1	18775	1	1017.888	bos	stand_age	41 - 60 jaar
+68601	1	18775	1	1017.888	bos	stand_type	loofhout
+68790	1	18767	1	1017.888	bos	mix_type	homogeen
+68790	1	18767	1	1017.888	bos	stand_age	21 - 40 jaar
+68790	1	18767	1	1017.888	bos	stand_type	loofhout
+71478	1	18774	1	1017.888	bos	mix_type	stamgewijs
+71478	1	18774	1	1017.888	bos	stand_age	21 - 40 jaar
+71478	1	18774	1	1017.888	bos	stand_type	loofhout
+80662	1	18775	1	1017.888	bos	mix_type	stamgewijs
+80662	1	18775	1	1017.888	bos	stand_age	41 - 60 jaar
+80662	1	18775	1	1017.888	bos	stand_type	loofhout
+83318	1	18773	1	1017.888	bos	mix_type	homogeen
+83318	1	18773	1	1017.888	bos	stand_age	21 - 40 jaar
+83318	1	18773	1	1017.888	bos	stand_type	loofhout
+85529	1	16581	1	687.559	bos	mix_type	stamgewijs
+85529	1	16581	1	687.559	bos	stand_age	61 - 80 jaar
+85529	1	16581	1	687.559	bos	stand_type	loofhout
+85529	1	16581	2	330.326	grasland	mix_type	niet van toepassing
+85529	1	16581	2	330.326	grasland	stand_age	niet van toepassing
+85529	1	16581	2	330.326	grasland	stand_type	niet van toepassing
+85890	1	16576	1	737.462	bos	mix_type	stamgewijs
+85890	1	16576	1	737.462	bos	stand_age	41 - 60 jaar
+85890	1	16576	1	737.462	bos	stand_type	loofhout
+85890	1	16576	2	212.907	bos	mix_type	stamgewijs
+85890	1	16576	2	212.907	bos	stand_age	41 - 60 jaar
+85890	1	16576	2	212.907	bos	stand_type	loofhout
+85890	1	16576	3	15.986	water (poel, vijver, beek)	mix_type	niet van toepassing
+85890	1	16576	3	15.986	water (poel, vijver, beek)	stand_age	niet van toepassing
+85890	1	16576	3	15.986	water (poel, vijver, beek)	stand_type	niet van toepassing
+85890	1	16576	4	51.531	grasland	mix_type	niet van toepassing
+85890	1	16576	4	51.531	grasland	stand_age	niet van toepassing
+85890	1	16576	4	51.531	grasland	stand_type	niet van toepassing
+88274	1	16588	1	680.635	bos	mix_type	stamgewijs
+88274	1	16588	1	680.635	bos	stand_age	21 - 40 jaar
+88274	1	16588	1	680.635	bos	stand_type	loofhout
+88274	1	16588	2	337.251	bos	mix_type	homogeen
+88274	1	16588	2	337.251	bos	stand_age	41 - 60 jaar
+88274	1	16588	2	337.251	bos	stand_type	naaldhout
+96217	1	16568	1	50.926	bos	mix_type	homogeen
+96217	1	16568	1	50.926	bos	stand_age	81 - 100 jaar
+96217	1	16568	1	50.926	bos	stand_type	loofhout
+96217	1	16568	2	966.959	bos	mix_type	homogeen
+96217	1	16568	2	966.959	bos	stand_age	81 - 100 jaar
+96217	1	16568	2	966.959	bos	stand_type	loofhout
+103609	1	16552	1	408.696	bos	mix_type	stamgewijs
+103609	1	16552	1	408.696	bos	stand_age	41 - 60 jaar
+103609	1	16552	1	408.696	bos	stand_type	gemengd loofhout
+103609	1	16552	2	609.189	bos	mix_type	stamgewijs
+103609	1	16552	2	609.189	bos	stand_age	41 - 60 jaar
+103609	1	16552	2	609.189	bos	stand_type	gemengd loofhout
+104342	1	16548	1	1017.888	bos	mix_type	stamgewijs
+104342	1	16548	1	1017.888	bos	stand_age	41 - 60 jaar
+104342	1	16548	1	1017.888	bos	stand_type	loofhout
+112286	1	18779	1	1017.888	foa	mix_type	niet van toepassing
+112286	1	18779	1	1017.888	foa	stand_age	niet van toepassing
+112286	1	18779	1	1017.888	foa	stand_type	niet van toepassing
+121042	1	16589	1	1017.888	bos	mix_type	stamgewijs
+121042	1	16589	1	1017.888	bos	stand_age	21 - 40 jaar
+121042	1	16589	1	1017.888	bos	stand_type	loofhout
+132818	1	18374	1	785.827	bos	mix_type	homogeen
+132818	1	18374	1	785.827	bos	stand_age	21 - 40 jaar
+132818	1	18374	1	785.827	bos	stand_type	loofhout
+132818	1	18374	2	232.058	heide	mix_type	niet van toepassing
+132818	1	18374	2	232.058	heide	stand_age	niet van toepassing
+132818	1	18374	2	232.058	heide	stand_type	niet van toepassing
+136697	1	16561	1	1017.888	bos	mix_type	stamgewijs
+136697	1	16561	1	1017.888	bos	stand_age	21 - 40 jaar
+136697	1	16561	1	1017.888	bos	stand_type	loofhout
+137042	1	18765	1	1017.888	bos	mix_type	stamgewijs
+137042	1	18765	1	1017.888	bos	stand_age	1 - 20 jaar
+137042	1	18765	1	1017.888	bos	stand_type	loofhout
+137401	1	16560	1	1017.888	bos	mix_type	homogeen
+137401	1	16560	1	1017.888	bos	stand_age	21 - 40 jaar
+137401	1	16560	1	1017.888	bos	stand_type	loofhout
+139577	1	16563	1	1017.888	bos	mix_type	homogeen
+139577	1	16563	1	1017.888	bos	stand_age	61 - 80 jaar
+139577	1	16563	1	1017.888	bos	stand_type	loofhout
+140006	1	16597	1	1017.888	bos	mix_type	homogeen
+140006	1	16597	1	1017.888	bos	stand_age	21 - 40 jaar
+140006	1	16597	1	1017.888	bos	stand_type	loofhout
+146265	1	16552	1	906.351	bos	mix_type	stamgewijs
+146265	1	16552	1	906.351	bos	stand_age	101 - 120 jaar
+146265	1	16552	1	906.351	bos	stand_type	loofhout
+147174	1	16596	1	1017.888	bos	mix_type	homogeen
+147174	1	16596	1	1017.888	bos	stand_age	21 - 40 jaar
+147174	1	16596	1	1017.888	bos	stand_type	loofhout
+155346	1	16590	1	1017.888	bos - kapvlakte	mix_type	niet van toepassing
+155346	1	16590	1	1017.888	bos - kapvlakte	stand_age	niet van toepassing
+155346	1	16590	1	1017.888	bos - kapvlakte	stand_type	kapvlakte
+159414	1	16604	1	847.006	bos	mix_type	homogeen
+159414	1	16604	1	847.006	bos	stand_age	21 - 40 jaar
+159414	1	16604	1	847.006	bos	stand_type	loofhout
+159414	1	16604	2	170.879	bos	mix_type	homogeen
+159414	1	16604	2	170.879	bos	stand_age	61 - 80 jaar
+159414	1	16604	2	170.879	bos	stand_type	naaldhout
+163513	1	16562	1	1017.888	bos	mix_type	stamgewijs
+163513	1	16562	1	1017.888	bos	stand_age	21 - 40 jaar
+163513	1	16562	1	1017.888	bos	stand_type	loofhout
+164793	1	16553	1	186.417	bos	mix_type	stamgewijs
+164793	1	16553	1	186.417	bos	stand_age	61 - 80 jaar
+164793	1	16553	1	186.417	bos	stand_type	loofhout
+164793	1	16553	2	813.399	bos	mix_type	stamgewijs
+164793	1	16553	2	813.399	bos	stand_age	61 - 80 jaar
+164793	1	16553	2	813.399	bos	stand_type	loofhout
+164793	1	16553	3	18.07	akker	mix_type	niet van toepassing
+164793	1	16553	3	18.07	akker	stand_age	niet van toepassing
+164793	1	16553	3	18.07	akker	stand_type	niet van toepassing
+165913	1	16932	1	798.932	bos	mix_type	stamgewijs
+165913	1	16932	1	798.932	bos	stand_age	21 - 40 jaar
+165913	1	16932	1	798.932	bos	stand_type	loofhout
+187382	1	18779	1	1017.888	bos	mix_type	stamgewijs
+187382	1	18779	1	1017.888	bos	stand_age	81 - 100 jaar
+187382	1	18779	1	1017.888	bos	stand_type	loofhout
+188022	1	16588	1	1017.888	bos	mix_type	stamgewijs
+188022	1	16588	1	1017.888	bos	stand_age	21 - 40 jaar
+188022	1	16588	1	1017.888	bos	stand_type	loofhout
+193206	1	18801	1	1017.888	bos	mix_type	homogeen
+193206	1	18801	1	1017.888	bos	stand_age	41 - 60 jaar
+193206	1	18801	1	1017.888	bos	stand_type	loofhout
+196022	1	17983	1	1017.885	bos	mix_type	stamgewijs
+196022	1	17983	1	1017.885	bos	stand_age	21 - 40 jaar
+196022	1	17983	1	1017.885	bos	stand_type	loofhout
+198137	1	16567	1	1017.888	bos	mix_type	stamgewijs
+198137	1	16567	1	1017.888	bos	stand_age	41 - 60 jaar
+198137	1	16567	1	1017.888	bos	stand_type	loofhout
+201689	1	16820	1	949.208	bos	mix_type	stamgewijs
+201689	1	16820	1	949.208	bos	stand_age	21 - 40 jaar
+201689	1	16820	1	949.208	bos	stand_type	loofhout
+201689	1	16820	2	68.677	water (poel, vijver, beek)	mix_type	niet van toepassing
+201689	1	16820	2	68.677	water (poel, vijver, beek)	stand_age	niet van toepassing
+201689	1	16820	2	68.677	water (poel, vijver, beek)	stand_type	niet van toepassing
+205113	1	16566	1	1017.888	bos	mix_type	stamgewijs
+205113	1	16566	1	1017.888	bos	stand_age	81 - 100 jaar
+205113	1	16566	1	1017.888	bos	stand_type	loofhout
+211193	1	16573	1	1017.888	bos	mix_type	stamgewijs
+211193	1	16573	1	1017.888	bos	stand_age	41 - 60 jaar
+211193	1	16573	1	1017.888	bos	stand_type	loofhout
+213138	1	17995	1	1017.885	bos	mix_type	stamgewijs
+213138	1	17995	1	1017.885	bos	stand_age	41 - 60 jaar
+213138	1	17995	1	1017.885	bos	stand_type	loofhout
+219694	1	17666	1	1017.846	bos	mix_type	stamgewijs
+219694	1	17666	1	1017.846	bos	stand_age	41 - 60 jaar
+219694	1	17666	1	1017.846	bos	stand_type	loofhout
+227286	1	18778	1	1017.888	bos	mix_type	stamgewijs
+227286	1	18778	1	1017.888	bos	stand_age	101 - 120 jaar
+227286	1	18778	1	1017.888	bos	stand_type	loofhout
+230930	1	16608	1	1017.888	bos	mix_type	homogeen
+230930	1	16608	1	1017.888	bos	stand_age	21 - 40 jaar
+230930	1	16608	1	1017.888	bos	stand_type	loofhout
+234297	1	16561	1	1017.888	bos	mix_type	stamgewijs
+234297	1	16561	1	1017.888	bos	stand_age	41 - 60 jaar
+234297	1	16561	1	1017.888	bos	stand_type	loofhout
+237970	1	17995	1	1017.885	bos	mix_type	stamgewijs
+237970	1	17995	1	1017.885	bos	stand_age	21 - 40 jaar
+237970	1	17995	1	1017.885	bos	stand_type	loofhout
+248402	1	16603	1	1017.888	infrastructuur (wegen, spoorwegen, kanalen)	mix_type	niet van toepassing
+248402	1	16603	1	1017.888	infrastructuur (wegen, spoorwegen, kanalen)	stand_age	niet van toepassing
+248402	1	16603	1	1017.888	infrastructuur (wegen, spoorwegen, kanalen)	stand_type	niet van toepassing
+253593	1	17269	1	1017.888	bos	mix_type	stamgewijs
+253593	1	17269	1	1017.888	bos	stand_age	61 - 80 jaar
+253593	1	17269	1	1017.888	bos	stand_type	loofhout
+257081	1	16553	1	1017.888	bos	mix_type	stamgewijs
+257081	1	16553	1	1017.888	bos	stand_age	21 - 40 jaar
+257081	1	16553	1	1017.888	bos	stand_type	loofhout
+260082	1	17997	1	1017.885	bos	mix_type	homogeen
+260082	1	17997	1	1017.885	bos	stand_age	21 - 40 jaar
+260082	1	17997	1	1017.885	bos	stand_type	loofhout
+267222	1	18778	1	1017.888	bos	mix_type	stamgewijs
+267222	1	18778	1	1017.888	bos	stand_age	41 - 60 jaar
+267222	1	18778	1	1017.888	bos	stand_type	loofhout
+267513	1	17715	1	1017.846	bos	mix_type	stamgewijs
+267513	1	17715	1	1017.846	bos	stand_age	21 - 40 jaar
+267513	1	17715	1	1017.846	bos	stand_type	loofhout
+270966	1	18766	1	1017.888	bos	mix_type	stamgewijs
+270966	1	18766	1	1017.888	bos	stand_age	1 - 20 jaar
+270966	1	18766	1	1017.888	bos	stand_type	loofhout
+271446	1	18019	1	1017.846	bos	mix_type	stamgewijs
+271446	1	18019	1	1017.846	bos	stand_age	41 - 60 jaar
+271446	1	18019	1	1017.846	bos	stand_type	loofhout
+284729	1	16553	1	1017.888	bos	mix_type	homogeen
+284729	1	16553	1	1017.888	bos	stand_age	41 - 60 jaar
+284729	1	16553	1	1017.888	bos	stand_type	loofhout
+298918	1	17709	1	1017.846	bos	mix_type	stamgewijs
+298918	1	17709	1	1017.846	bos	stand_age	21 - 40 jaar
+298918	1	17709	1	1017.846	bos	stand_type	loofhout
+298937	1	16554	1	442.001	bos	mix_type	stamgewijs
+298937	1	16554	1	442.001	bos	stand_age	21 - 40 jaar
+298937	1	16554	1	442.001	bos	stand_type	loofhout
+298937	1	16554	2	258.064	bos	mix_type	stamgewijs
+298937	1	16554	2	258.064	bos	stand_age	81 - 100 jaar
+298937	1	16554	2	258.064	bos	stand_type	loofhout
+298937	1	16554	3	317.82	water (poel, vijver, beek)	mix_type	niet van toepassing
+298937	1	16554	3	317.82	water (poel, vijver, beek)	stand_age	niet van toepassing
+298937	1	16554	3	317.82	water (poel, vijver, beek)	stand_type	niet van toepassing
+300534	1	17751	1	1017.846	bos	mix_type	stamgewijs
+300534	1	17751	1	1017.846	bos	stand_age	41 - 60 jaar
+300534	1	17751	1	1017.846	bos	stand_type	loofhout
+302006	1	17988	1	1017.885	bos	mix_type	stamgewijs
+302006	1	17988	1	1017.885	bos	stand_age	61 - 80 jaar
+302006	1	17988	1	1017.885	bos	stand_type	loofhout
+306870	1	18752	1	1017.888	bos	mix_type	stamgewijs
+306870	1	18752	1	1017.888	bos	stand_age	81 - 100 jaar
+306870	1	18752	1	1017.888	bos	stand_type	loofhout
+311602	1	17987	1	773.685	bos	mix_type	stamgewijs
+311602	1	17987	1	773.685	bos	stand_age	41 - 60 jaar
+311602	1	17987	1	773.685	bos	stand_type	loofhout
+311602	1	17987	2	244.2	bos	mix_type	stamgewijs
+311602	1	17987	2	244.2	bos	stand_age	61 - 80 jaar
+311602	1	17987	2	244.2	bos	stand_type	gemengd loofhout
+313305	1	17976	1	1017.846	bos	mix_type	homogeen
+313305	1	17976	1	1017.846	bos	stand_age	81 - 100 jaar
+313305	1	17976	1	1017.846	bos	stand_type	loofhout
+315062	1	17989	1	1017.885	bos	mix_type	stamgewijs
+315062	1	17989	1	1017.885	bos	stand_age	41 - 60 jaar
+315062	1	17989	1	1017.885	bos	stand_type	loofhout
+320902	1	17717	1	1017.846	bos	mix_type	stamgewijs
+320902	1	17717	1	1017.846	bos	stand_age	21 - 40 jaar
+320902	1	17717	1	1017.846	bos	stand_type	loofhout
+337846	1	18766	1	1017.888	bos	mix_type	homogeen
+337846	1	18766	1	1017.888	bos	stand_age	21 - 40 jaar
+337846	1	18766	1	1017.888	bos	stand_type	loofhout
+346246	1	17708	1	1017.846	bos	mix_type	stamgewijs
+346246	1	17708	1	1017.846	bos	stand_age	21 - 40 jaar
+346246	1	17708	1	1017.846	bos	stand_type	loofhout
+347878	1	18773	1	1017.888	bos	mix_type	stamgewijs
+347878	1	18773	1	1017.888	bos	stand_age	41 - 60 jaar
+347878	1	18773	1	1017.888	bos	stand_type	loofhout
+349433	1	17716	1	1017.846	bos	mix_type	stamgewijs
+349433	1	17716	1	1017.846	bos	stand_age	21 - 40 jaar
+349433	1	17716	1	1017.846	bos	stand_type	loofhout
+349906	1	18765	1	1017.888	bos	mix_type	stamgewijs
+349906	1	18765	1	1017.888	bos	stand_age	41 - 60 jaar
+349906	1	18765	1	1017.888	bos	stand_type	loofhout
+364262	1	18750	1	1017.888	bos	mix_type	homogeen
+364262	1	18750	1	1017.888	bos	stand_age	21 - 40 jaar
+364262	1	18750	1	1017.888	bos	stand_type	loofhout
+364822	1	18774	1	1017.888	bos	mix_type	stamgewijs
+364822	1	18774	1	1017.888	bos	stand_age	41 - 60 jaar
+364822	1	18774	1	1017.888	bos	stand_type	loofhout
+404306	1	18765	1	1017.888	bos	mix_type	stamgewijs
+404306	1	18765	1	1017.888	bos	stand_age	41 - 60 jaar
+404306	1	18765	1	1017.888	bos	stand_type	loofhout
+428057	1	18043	1	1017.846	bos	mix_type	stamgewijs
+428057	1	18043	1	1017.846	bos	stand_age	41 - 60 jaar
+428057	1	18043	1	1017.846	bos	stand_type	loofhout
+431494	1	17707	1	1017.846	bos	mix_type	homogeen
+431494	1	17707	1	1017.846	bos	stand_age	21 - 40 jaar
+431494	1	17707	1	1017.846	bos	stand_type	loofhout
+463833	1	18011	1	1017.846	bos	mix_type	stamgewijs
+463833	1	18011	1	1017.846	bos	stand_age	61 - 80 jaar
+463833	1	18011	1	1017.846	bos	stand_type	loofhout
+466745	1	17680	1	1017.846	bos	mix_type	stamgewijs
+466745	1	17680	1	1017.846	bos	stand_age	61 - 80 jaar
+466745	1	17680	1	1017.846	bos	stand_type	loofhout
+472889	1	17949	1	1017.846	bos	mix_type	homogeen
+472889	1	17949	1	1017.846	bos	stand_age	61 - 80 jaar
+472889	1	17949	1	1017.846	bos	stand_type	loofhout
+516441	1	17687	1	1017.846	bos	mix_type	homogeen
+516441	1	17687	1	1017.846	bos	stand_age	41 - 60 jaar
+516441	1	17687	1	1017.846	bos	stand_type	loofhout
+520582	1	17707	1	1017.846	bos	mix_type	stamgewijs
+520582	1	17707	1	1017.846	bos	stand_age	81 - 100 jaar
+520582	1	17707	1	1017.846	bos	stand_type	loofhout
+527030	1	18752	1	1017.888	bos	mix_type	homogeen
+527030	1	18752	1	1017.888	bos	stand_age	1 - 20 jaar
+527030	1	18752	1	1017.888	bos	stand_type	loofhout
+544086	1	18774	1	1017.888	bos	mix_type	stamgewijs
+544086	1	18774	1	1017.888	bos	stand_age	61 - 80 jaar
+544086	1	18774	1	1017.888	bos	stand_type	loofhout
+552537	1	17668	1	1017.846	bos	mix_type	stamgewijs
+552537	1	17668	1	1017.846	bos	stand_age	61 - 80 jaar
+552537	1	17668	1	1017.846	bos	stand_type	gemengd loofhout
+570886	1	17716	1	1017.846	bos	mix_type	homogeen
+570886	1	17716	1	1017.846	bos	stand_age	41 - 60 jaar
+570886	1	17716	1	1017.846	bos	stand_type	loofhout
+612246	1	18024	1	1017.846	bos	mix_type	stamgewijs
+612246	1	18024	1	1017.846	bos	stand_age	61 - 80 jaar
+612246	1	18024	1	1017.846	bos	stand_type	loofhout
+616665	1	17673	1	1017.846	bos	mix_type	stamgewijs
+616665	1	17673	1	1017.846	bos	stand_age	41 - 60 jaar
+616665	1	17673	1	1017.846	bos	stand_type	loofhout
+642585	1	17941	1	1017.846	bos	mix_type	stamgewijs
+642585	1	17941	1	1017.846	bos	stand_age	141 - 160 jaar
+642585	1	17941	1	1017.846	bos	stand_type	loofhout
+697062	1	18801	1	1017.888	bos	mix_type	stamgewijs
+697062	1	18801	1	1017.888	bos	stand_age	21 - 40 jaar
+697062	1	18801	1	1017.888	bos	stand_type	loofhout
+735033	1	18738	1	1017.888	bos	mix_type	stamgewijs
+735033	1	18738	1	1017.888	bos	stand_age	ongelijkjarig
+735033	1	18738	1	1017.888	bos	stand_type	loofhout
+738265	1	18766	1	1017.888	bos	mix_type	homogeen
+738265	1	18766	1	1017.888	bos	stand_age	61 - 80 jaar
+738265	1	18766	1	1017.888	bos	stand_type	loofhout

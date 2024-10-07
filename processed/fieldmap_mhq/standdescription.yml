@@ -6,8 +6,9 @@
   - plot_id
   - segment_id
   - date_assessment
-  hash: d0627d9c9cbf72bde8d98946eee2ba4ebe01cbe9
-  data_hash: c9b4bee7da08b48019f6d16aff647063d342ed28
+  - variable
+  hash: 5d9030b165276ee27d48b0e4b4d25ed187aaf71f
+  data_hash: 025e5c4f4a017bb33c2fbdd47ae2a6cad8178790
 plot_id:
   class: integer
 mon_cycle:
@@ -21,9 +22,7 @@ area_a4_m2:
   class: numeric
 landuse:
   class: character
-stand_type:
+variable:
   class: character
-stand_age:
-  class: character
-mix_type:
+category:
   class: character
