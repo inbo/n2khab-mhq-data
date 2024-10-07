@@ -98,19 +98,23 @@ area_plot_all <- standdescr_2020 %>%
   bind_rows(area_plot_segments_2020) %>%
   select(plot_id, segment_id, mon_cycle, date_assessment, area_a4_m2, area_a3_m2, landuse) %>%
   group_by(plot_id, date_assessment) %>%
-  mutate(plot_weight = sum(area_a4_m2 * (landuse %in% c("bos", "bos - kapvlakte")))/ sum(area_a4_m2),
-         segment_weight = area_a3_m2/ sum(area_a3_m2)) %>%
+  mutate(area_a4_m2_plot = sum(area_a4_m2 * (landuse %in% c("bos", "bos - kapvlakte"))),
+         area_a3_m2_plot = sum(area_a3_m2 * (landuse %in% c("bos", "bos - kapvlakte"))),
+         plot_weight = sum(area_a4_m2 * (landuse %in% c("bos", "bos - kapvlakte"))) / sum(area_a4_m2),
+         segment_weight = ifelse(area_a3_m2_plot == 0, 0, area_a3_m2 * (landuse %in% c("bos", "bos - kapvlakte")) / area_a3_m2_plot),
+         ) %>%
   ungroup() %>%
   mutate(area_a3_m2 = round(area_a3_m2, 3),
          area_a4_m2 = round(area_a4_m2, 3),
+         area_a3_m2_plot = round(area_a3_m2_plot, 3),
+         area_a4_m2_plot = round(area_a4_m2_plot, 3),
          plot_weight = round(plot_weight, 5),
          segment_weight = round(segment_weight, 5)) %>%
-  ungroup() %>%
-  select(-landuse)
+  ungroup()
 
 
 write_vc(area_plot_all, root = file.path(fileman_up("n2khab-mhq-data"), "processed/fieldmap_mhq"), file = "plot_weight",
-         sorting = c("plot_id", "segment_id", "date_assessment")) 
+         sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE) 
 
 ```
 
