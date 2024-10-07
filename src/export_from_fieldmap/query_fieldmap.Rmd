@@ -823,6 +823,7 @@ get_treesa3a4_raw <- function(db = db_fieldmap_foresthab){
   Trees_2eBosinv.Perimeter_cm,
   Trees_2eBosinv.DBH_mm,
   Trees_2eBosinv.Height_m,
+  Trees_2eBosinv.Species as tree_species_id,
   qTreeSpecies.Value1 as name_nl,
   qTreeSpeciesScientific.Value1 as name_sc,
   qStatusTree.Value1 as status_tree,
@@ -1066,6 +1067,7 @@ get_treesa3a4_past2020 <- function(db = db_fieldmap_foresthab_past2020){
   Trees_3.BASALAREA_M2,
   Trees_3.VOL_STEM_M3,
   Trees_3.VOL_TOT_M3,
+  Trees_3.species as tree_species_id,
   qTreeSpecies.Value1 as name_nl,
   qTreeSpeciesScientific.Value1 as name_sc,
   qStatusTree.Value1 as status_tree,
@@ -1898,7 +1900,8 @@ check_missing_data <- check_missing_data %>%
 standdescription_date <- standdescription %>%
   inner_join(select(sample_status_date, plot_id, date_assessment, mon_cycle), by = "plot_id") %>%
   select(plot_id, mon_cycle, date_assessment, everything()) %>%
-  mutate(landuse =ifelse(plot_id == 11126, "andere (stort, grondwinning)", landuse))
+  mutate(landuse =ifelse(plot_id == 11126 & segment_id == 2, "andere (stort, grondwinning)", landuse)) %>%
+  pivot_longer(cols = c("stand_age", "stand_type", "mix_type"), names_to = "variable", values_to = "category")
 
 check_missing_data <- check_missing_data %>%
   select(-navplot_id) %>%
@@ -1929,7 +1932,7 @@ write_vc(date_assessment, "date_assessment", root = path,  sorting = c("plot_id"
 write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "tree_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
-write_vc(standdescription_date, "standdescription_date", root = path,  sorting = c("plot_id", "segment_id", "date_assessment"), strict = FALSE)
+write_vc(standdescription_date, "standdescription", root = path,  sorting = c("plot_id", "segment_id", "date_assessment", "variable"), strict = FALSE)
 write_vc(shoots_date, "shoots", root = path,  sorting = c("plot_id", "tree_id", "shoot_id"), strict = FALSE)
 write_vc(logs_date, "logs", root = path,  sorting = c("plot_id", "date_assessment", "idline_intersect_method"), strict = FALSE)
 write_vc(check_missing_data, root = path,  "data_overview", sorting = "plot_id", strict = FALSE)
