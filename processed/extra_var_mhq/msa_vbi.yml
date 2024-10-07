@@ -1,0 +1,18 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - periode
+  - type
+  hash: 7072314ba8f68c3d444a9733142fb4e2a87f270c
+  data_hash: 7ffcfc25aa6d3ddf710e65998cd83055ee944bec
+plot_id:
+  class: numeric
+periode:
+  class: integer
+type:
+  class: character
+MSA:
+  class: numeric
