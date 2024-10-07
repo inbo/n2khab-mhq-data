@@ -30,17 +30,20 @@ standdescr <- read_vc(root = file.path(fileman_up("n2khab-mhq-data"), "processed
 standdescr_2020 <- standdescr %>%
   filter(year(date_assessment) < 2021)
 
+standdescr_past_2020 <- standdescr %>%
+  filter(year(date_assessment) >= 2021)
+
 standdescr_segment_2020 <- standdescr %>%
   filter(year(date_assessment) < 2021) %>%
   group_by(plot_id, date_assessment) %>%
   filter(n() > 1) %>%
   ungroup() %>%
-  select(plot_id, segment_id, date_assessment, area_a4_m2_orig = area_a4_m2)
+  select(plot_id, segment_id, date_assessment, mon_cycle, landuse, area_a4_m2_orig = area_a4_m2)
+
+
 ```
 
 ```{r}
-
-plot_id = 18290
 
 calc_area_plot <- function(plot_id, maplayers = maplayers_2020) {
   
@@ -84,6 +87,30 @@ for (plot_id in unique(standdescr_segment_2020$plot_id)) {
 
 area_plot_segments_2020 <- standdescr_segment_2020 %>%
   left_join(area_plot_segments, by = c("plot_id", "segment_id")) %>%
-  arrange(plot_id, segment_id)
+  arrange(plot_id, segment_id) 
+
+check_area_a4 <- all(round(area_plot_segments_2020$area_a4_m2_orig) == round(area_plot_segments_2020$area_a4_m2))
+
+area_plot_all <- standdescr_2020 %>%
+  anti_join(area_plot_segments_2020, by = "plot_id") %>%
+  bind_rows(standdescr_past_2020) %>%
+  mutate(area_a3_m2 =  9 ^ 2 * pi) %>%
+  bind_rows(area_plot_segments_2020) %>%
+  select(plot_id, segment_id, mon_cycle, date_assessment, area_a4_m2, area_a3_m2, landuse) %>%
+  group_by(plot_id, date_assessment) %>%
+  mutate(plot_weight = sum(area_a4_m2 * (landuse %in% c("bos", "bos - kapvlakte")))/ sum(area_a4_m2),
+         segment_weight = area_a3_m2/ sum(area_a3_m2)) %>%
+  ungroup() %>%
+  mutate(area_a3_m2 = round(area_a3_m2, 3),
+         area_a4_m2 = round(area_a4_m2, 3),
+         plot_weight = round(plot_weight, 5),
+         segment_weight = round(segment_weight, 5)) %>%
+  ungroup() %>%
+  select(-landuse)
+
+
+write_vc(area_plot_all, root = file.path(fileman_up("n2khab-mhq-data"), "processed/fieldmap_mhq"), file = "plot_weight",
+         sorting = c("plot_id", "segment_id", "date_assessment")) 
+
 ```
 
