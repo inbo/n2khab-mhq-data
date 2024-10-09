@@ -28,7 +28,7 @@ We make use of following data sources (see [google drive](https://drive.google.c
 
 + `vbi_strata_v2024-01-24.accdb`: observed habitat type (only available for the more recently measured plots)
 + `vbi_meetproces_v2022-11-15.accdb`: recorded coordinates
-+ `vbi_analysedatabank_v2023-08-22.accdb`: contains information on the plots for which vegetation and dendrometric data is recorded
++ `vbi_analysedatabank_v2024-07-01.accdb`: contains information on the plots for which vegetation and dendrometric data is recorded
 
 ```{r}
 
@@ -36,7 +36,7 @@ data_path_vbi <- file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi")
 
 db_strata <- "vbi_strata_v2024-01-24.accdb"
 db_meetproces <- "vbi_meetproces_v2022-11-15.accdb"
-db_analyse <- "vbi_analysedatabank_v2023-08-22.accdb"
+db_analyse <- "vbi_analysedatabank_v2024-07-01.accdb"
 
 connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_strata))
 strata_orig <- sqlFetch(connect_db, "tblplotstratadynamic")
@@ -63,12 +63,12 @@ strata <- strata_orig %>%
 
 coordinaten <- coordinaten_orig %>%
   select(plot_id = idplots, x, y, type_coord = type, periode, plotweight)
-
-coord_recent <- coordinaten %>%
-  semi_join(cover_species_vbi, by = c("plot_id")) %>%
-  group_by(plot_id) %>%
-  slice_max(periode) %>%
-  ungroup()
+# 
+# coord_recent <- coordinaten %>%
+#   semi_join(cover_species_vbi, by = c("plot_id")) %>%
+#   group_by(plot_id) %>%
+#   slice_max(periode) %>%
+#   ungroup()
 
 #write_csv2(coord_recent, "../output/coord_vbi.csv")
 ```
@@ -87,7 +87,7 @@ cover_species_vbi <- cover_species_orig %>%
 
 cover_veglayers_vbi <- cover_species_vbi %>%
   group_by(plot_id, vbi_cycle, layer) %>%
-  summarise(cover_mean = 1 - prod(1 - cover_mean/100)) %>%
+  summarise(cover_mean = 1 - prod(1 - cover_mean/100, na.rm = TRUE)) %>%
   ungroup() %>%
   mutate(cover_mean = round(cover_mean * 100, 1))
 ```
@@ -102,8 +102,6 @@ trees_a3a4 <- trees_orig %>%
   select(plot_id = IDPlots, segment_id = IDSegments, tree_id = ID, vbi_cycle = Periode, perimeter_cm = Perimeter_cm, dbh_mm, height_m = Height_m,
          name_nl = NameNl, name_sc = Species, status_tree = StatusTree, coppice_individual, intact_tree, basalarea_m2 = BasalArea_m2, vol_stem_m3 = Volume_m3, vol_tot_m3 = VolumeInclCrown_m3)
 
-
-  
 ```
 
 ## Stand description
@@ -138,7 +136,7 @@ plot_weight <- plot_weight %>%
          segment_weight = ifelse(is.na(segment_weight), 0, segment_weight))
 ```
 
-```{r}
+```{r, eval = FALSE}
 plot_weight_metadata <- plot_weights_orig %>%
   select(plot_id = idplots, segment_id = idsegments, vbi_cycle = periode, plot_weight = plotweight, segment_weight = segmentweight,
          area_a3_m2 = areaa3_m2, area_a4_m2 = areaa4_m2) %>%
@@ -168,12 +166,11 @@ veg_av <- vegetatie_orig %>%
                names_to = "variable",
                values_to = "value")
 
-trees_a2 <- boomsoort_orig %>%
-  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, stem_density_a2_ha = v6_StamtalA2_ha) %>%
-  group_by(plot_id, segment_id, vbi_cycle) %>%
-  summarise(stem_density_a2_ha = sum(stem_density_a2_ha)) %>%
-  ungroup() %>%
-  pivot_longer(cols = c("stem_density_a2_ha"),
+trees_av <- boomsoort_orig %>%
+  mutate(status_tree = ifelse(StatusTreeCode == 1, "levend",
+                              ifelse(StatusTreeCode == 2, "dood", NA))) %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, name_nl = SpeciesGroup, status_tree, stem_density_a2_ha = v6_StamtalA2_ha, basal_area_ha = v2_BasalArea_ha, volume_ha = v3_Volume_ha) %>%
+  pivot_longer(cols = c("stem_density_a2_ha", "basal_area_ha", "volume_ha"),
                names_to = "variable",
                values_to = "value")
 
@@ -211,6 +208,54 @@ type_observed <- type_observed_orig %>%
   mutate(type = ifelse(type == "91EO_va", "91E0_va", type)) %>%
   rename(vbi_cycle = periode, type_observed = type)
 ```
+# Parameters for volume calculation
+
+```{r}
+
+db_external_data <- "VBIExterneData.accdb"
+
+  query_tarieven2ing <- "
+    SELECT
+      tblTariefgroepBoomsoort.ID as tree_species_id
+      , tblTariefgroepBoomsoort.Value as name_nl
+      , tblTarieven_2ing.Tarief as tarief
+      , tblTarieven_2ing.groepNaam as tree_species_group
+      , tblTarieven_2ing.a
+      , tblTarieven_2ing.b
+      , tblTarieven_2ing.c
+      , tblTarieven_2ing.d
+      , tblTarieven_2ing.e
+      , tblTarieven_2ing.f
+      , tblTarieven_2ing.g
+      , tblTarieven_2ing.Formule_type as formule_type
+      FROM tblTariefgroepBoomsoort
+      INNER JOIN tblTarieven_2ing ON tblTariefgroepBoomsoort.TariefID = tblTarieven_2ing.groepID
+      ;"
+  
+ query_tarieven1ing <- "
+    SELECT tblTariefgroepBoomsoort.ID as tree_species_id
+    , tblTariefgroepBoomsoort.Value as name_nl
+    , tblTariefgroepBoomsoort.TariefID as tarief_id
+    , tblTarieven_1ing.groepNaam as tree_species_group
+    , tblTarieven_1ing.a
+    , tblTarieven_1ing.b
+    , tblTarieven_1ing.c
+    , tblTarieven_1ing.d
+    , tblTarieven_1ing.Tarief as tarief
+    FROM tblTariefgroepBoomsoort
+    LEFT JOIN tblTarieven_1ing ON tblTariefgroepBoomsoort.TariefID = tblTarieven_1ing.groepID
+    ;"
+
+  connect_db <- odbcConnectAccess2007(file.path(data_path_vbi, db_external_data))
+
+  vol_parameters_2input <- sqlQuery(connect_db, query_tarieven2ing, stringsAsFactors = TRUE)
+  vol_parameters_1input <- sqlQuery(connect_db, query_tarieven1ing, stringsAsFactors = TRUE)
+  
+  odbcClose(connect_db)
+
+```
+
+
 
 # Write result to .vc file
 
@@ -234,10 +279,11 @@ if (!dir.exists(path)) {
 
 write_vc(cover_species_vbi, "cover_species", root = path, sorting = c("plot_id", "vbi_cycle", "layer", "name_sc"))
 write_vc(cover_veglayers_vbi, "cover_veglayers", root = path, sorting = c("plot_id", "vbi_cycle", "layer"))
-write_vc(trees_a3a4, "trees_a3a4", root = path, sorting = c("plot_id", "vbi_cycle", "segment_id", "tree_id"))
+write_vc(trees_a3a4, "trees_a3a4", root = path, sorting = c("plot_id", "vbi_cycle", "segment_id", "tree_id"), strict = FALSE)
 write_vc(type_observed, "type_observed", root = path, sorting = c("plot_id", "vbi_cycle", "type_observed"), strict = FALSE)
 write_vc(vbi_av, "analysis_variable", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
 write_vc(bestandskarakt, "stand_description", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
-write_vc(plot_weight_complete, "plot_weight", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
-
+write_vc(plot_weight, "plot_weight", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
+write_vc(vol_parameters_2input, "vol_parameters_2input", root = path, sorting = c("tree_species_id"), strict = FALSE)
+write_vc(vol_parameters_1input, "vol_parameters_1input", root = path, sorting = c("tree_species_id"), strict = FALSE)
 ```
