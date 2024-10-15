@@ -1,0 +1,437 @@
+---
+title: "Check habitat type vbi"
+output: html_document
+date: "2024-10-14"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse) 
+library(n2khab)
+library(sf)
+library(RODBC)
+library(git2rdata)
+library(DT)
+```
+
+
+# Existing table of observed habitat types that have already been checked
+
+The git2Rdata file 'type_observed' gives an overview of the observed habitat types in the sampling units of the Flemish forest inventory (VBI).
+It is based on VBI-assessments, the habitatmap and manual checks.
+
+In the file [check_vbi_habitatmap_controle.csv](https://drive.google.com/drive/folders/1pqMzRD-wGZCjhgEfRMarRSQpazs9nVnR), the plots with a mismatch between the observed type and the habitatmap are manually checked, and a conclusion is provided.
+
+```{r}
+
+path_vbi <- str_c(fileman_up("n2khab-mhq-data"), "/processed/dwh_vbi")
+type_observed_orig <- read_vc( "type_observed", root = path_vbi)
+
+type_observed_checked <- read_csv2(file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi/check_vbi_habitatmap_controle.csv")) %>%
+  filter(plot_id != 0)
+
+```
+
+# Observed habitat types for sampling units from Flemish Forest inventory
+
+## Analysis database
+
+We make use of following data sources (see [google drive](https://drive.google.com/drive/folders/1TjONf7WuoEYM6TzfHp9UW5KVw6ljMDgs)):
+
++ `vbi_strata_v2024-01-24.accdb`: observed habitat type (only available for the more recently measured plots)
++ `vbi_meetproces_v2022-11-15.accdb`: recorded coordinates
++ `vbi_analysedatabank_v2024-07-01.accdb`: contains information on the plots for which vegetation and dendrometric data is recorded
+
+```{r}
+
+data_path_vbi <- file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi")
+
+db_strata <- "vbi_strata_v2024-07-01.accdb"
+db_meetproces <- "vbi_meetproces_v2024-08-15.accdb"
+db_analyse <- "vbi_analysedatabank_v2024-10-15.accdb"
+
+connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_strata))
+strata_orig <- sqlFetch(connect_db, "tblplotstratadynamic")
+odbcClose(connect_db)
+
+connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_meetproces))
+coordinaten_orig <- sqlFetch(connect_db, "tblcoordinaten")
+odbcClose(connect_db)
+
+connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_analyse))
+bestandskarakt_orig <- sqlFetch(connect_db, "tbl2BestandskaraktKwal")
+cover_species_vbi <- sqlFetch(connect_db, "tbl11VegetatieSamenstelling")
+measurements_vbi <- sqlFetch(connect_db, "tbl4Vegetatie")
+odbcClose(connect_db)
+
+strata <- strata_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, periode = Periode, landuse = LandUse, stand_type = StandType, type_observed = Habitat) %>%
+  filter(!is.na(stand_type)) %>%
+  select(-stand_type)
+
+coordinaten <- coordinaten_orig %>%
+  select(plot_id = idplots, x, y, type_coord = type, periode, plotweight)
+
+bestandskarakt <- bestandskarakt_orig %>%
+  select(plot_id = IDPlots, periode = Periode, segment_id = IDSegments, stand_type = v2_StandType, date_dendro = DateDendro)
+
+measurements_vbi <- measurements_vbi %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, periode = Periode, veg_record = VegRecord, dendro_record = DendroRecord, dendro_record_zero = DendroRecordZero)
+
+cover_species_vbi <- cover_species_vbi %>%
+  select(plot_id = IDPlots, periode = Periode, layer = Layer, name_nl = NameNl, name_sc = NameSc, cover_categ =  Cover_categ, date_veg = DateVeg)
+
+coord_recent <- coordinaten %>%
+  semi_join(cover_species_vbi, by = c("plot_id")) %>%
+  group_by(plot_id) %>%
+  slice_max(periode) %>%
+  ungroup()
+
+#write_csv2(coord_recent, "../output/coord_vbi.csv")
+```
+
+Based on the coordinates we make an overlay with [habitatmap_terr_2023] ADDLINK
+
+```{r}
+habmap_terr <- read_habitatmap_terr(keep_aq_types = FALSE)
+
+```
+
+Let's check the version.
+
+```{r}
+check_version <- tibble(version_name = "habitatmap_terr_2023_v1",
+                        md5_zenodo = "aed93b1293021a83d3dbe2db50b46585",
+                        md5_file = md5sum(file.path(fileman_up("n2khab_data"), "20_processed/habitatmap_terr/habitatmap_terr.gpkg")))
+
+check_version %>%
+  kable() %>%
+  kable_styling()
+
+```
+
+
+```{r}
+# check existing records
+
+check <- type_observed_orig %>%
+  filter(str_detect(source, "vbi")) %>%
+  left_join(strata, by = c("plot_id", "periode")) %>%
+  mutate(type_observed = str_replace(type_observed, " ", "_"),
+         match = type_observed == type)
+
+all(check$match)
+```
+
+
+## Comparison of observed type during VBI-assessment and habitatmap 2023
+
+```{r}
+bestandskarakt_actual <- bestandskarakt %>%
+  group_by(plot_id) %>%
+  slice_max(periode) %>%
+  ungroup() %>%
+  filter(segment_id == 1) %>%
+  filter(periode > 1) %>%
+  filter(!is.na(stand_type))
+
+vbi_meetpunten_new <- bestandskarakt_actual %>%
+  left_join(strata, by = c("plot_id", "periode", "segment_id")) %>%
+  filter(!is.na(type_observed)) %>%
+  anti_join(type_observed_checked, by = c("plot_id", "periode")) %>%
+  anti_join(type_observed_orig, by = c("plot_id", "periode")) %>%
+  left_join(coordinaten, by = c("plot_id", "periode")) %>%
+  st_as_sf(coords = c("x", "y"), crs = 31370) %>%
+  st_join(select(habmap_terr$habitatmap_terr_polygons, polygon_id))
+
+type_habmap <- type_observed_orig %>%
+  filter(source == "habitatmap2023")
+
+check_update <- bestandskarakt_actual %>%
+  left_join(strata, by = c("plot_id", "periode", "segment_id")) %>%
+  filter(!is.na(type_observed)) %>%
+  semi_join(type_habmap, by = c("plot_id", "periode"))
+
+vbi_meetpunten_hab <- vbi_meetpunten_new %>%
+  st_drop_geometry() %>%
+  left_join(habmap_terr$habitatmap_terr_types, by = "polygon_id") %>%
+  mutate(main_type = str_sub(type, 1, 4)) %>%
+  left_join(measurements_vbi, by = c("plot_id", "segment_id", "periode")) %>%
+  mutate(measured = veg_record & (is.na(dendro_record) | (dendro_record | dendro_record_zero))) %>%
+  filter(!(is.na(type) & type_observed == "geen habitat en geen rbb"))
+
+vbi_meetpunten_hab_observed <- vbi_meetpunten_hab %>%
+  filter(!is.na(type_observed)) %>%
+  filter(measured) %>%
+  mutate(type_observed_std = ifelse(type_observed == "9 : bossen", "9xxx",
+                                ifelse(!str_sub(type_observed, 1, 2) == "91", "gh", type_observed)),
+         type_observed_std = str_replace(type_observed_std, " ", "_")) %>% 
+  mutate(main_type_observed = str_sub(type_observed_std, 1, 4),
+         main_type = ifelse(is.na(main_type), "gh", main_type),
+         type = if_else(is.na(type), "gh", as.character(type)),
+         phab = ifelse(is.na(phab), 100, phab))
+
+```
+
+## Data cleaining
+
+Let's clean up a bit.
+
+Let's first remove the records for which both the habitatmap type and the observed type does not belong to the 91xx habitat group.
+This also includes the recorded habitat type `9 : bossen`.
+
+```{r}
+vbi_meetpunten_hab_observed_filter1 <- vbi_meetpunten_hab_observed %>%
+  filter(str_sub(main_type, 1, 2) == "91" | str_sub(main_type_observed, 1, 2) == "91")
+
+remove_filter1 <- vbi_meetpunten_hab_observed %>%
+  anti_join(vbi_meetpunten_hab_observed_filter1, by = c("plot_id", "type"))
+```
+
+Some examples of removed records:
+
+```{r}
+remove_filter1 %>%
+  select(plot_id, type_observed, polygon_id, type, main_type, phab) 
+```
+
+Next, we remove the plots with observed_type = no habitat `gh` and the plot is situated in a polygon that only partially contain 91xx.
+
+```{r}
+vbi_meetpunten_hab_observed <- vbi_meetpunten_hab_observed_filter1 %>%
+  mutate(cover_91xx = ifelse(str_sub(main_type, 1, 2) == "91", phab, 0)) %>%
+  group_by(plot_id) %>%
+  mutate(phab_91xx = sum(cover_91xx),
+         any_match_type = any(type_observed_std == type),
+         any_match_main_type = any(main_type_observed == main_type),
+         n_types = n()) %>%
+  ungroup()
+
+vbi_meetpunten_hab_observed_filter2 <- vbi_meetpunten_hab_observed %>%
+  filter(!(type_observed_std == "gh" & phab_91xx < 100))
+```
+
+The removed records:
+
+```{r}
+
+remove_filter2 <- vbi_meetpunten_hab_observed %>%
+  anti_join(vbi_meetpunten_hab_observed_filter2, by = c("plot_id", "type"))
+
+remove_filter2 %>%
+  select(plot_id, type_observed, polygon_id, type, main_type, phab, phab_91xx) 
+```
+
+In case of habitatmap polygons with different types, and when one of these types correspond with the observed type we remove the habitatmap type that does not correspond with the observed type.
+
+```{r}
+
+vbi_meetpunten_hab_observed_filter3 <- vbi_meetpunten_hab_observed_filter2 %>%
+  filter(!(n_types > 1 & any_match_type & type != type_observed_std)) 
+
+```
+
+The removed records:
+
+```{r}
+
+remove_filter3 <- vbi_meetpunten_hab_observed_filter2 %>%
+  anti_join(vbi_meetpunten_hab_observed_filter3, by = c("plot_id", "type"))
+
+remove_filter3 %>%
+  select(plot_id, type_observed_std, polygon_id, type, main_type, phab, any_match_type, n_types) 
+```
+
+Next, also in case of habitatmap polygons with different **main** types, and when one of these **main** types correspond with the observed **main** type we remove the habitatmap **main** type that does not correspond with the observed **main** type.
+
+```{r}
+vbi_meetpunten_hab_observed_filter4 <- vbi_meetpunten_hab_observed_filter3 %>%
+  group_by(plot_id) %>%
+  mutate(n_types = n(),
+         n_main_types = n_distinct(main_type)) %>%
+  ungroup() %>%
+  filter(!(n_main_types > 1 & any_match_main_type & main_type != main_type_observed)) %>%
+  filter(!(cover_91xx == 0 & phab_91xx > 0))
+  
+```
+
+```{r}
+
+remove_filter4 <- vbi_meetpunten_hab_observed_filter3 %>%
+  anti_join(vbi_meetpunten_hab_observed_filter4, by = c("plot_id", "type"))
+
+remove_filter4 %>%
+  select(plot_id, type_observed_std, polygon_id, type, main_type, phab, any_match_main_type) 
+```
+
+Finally, we also remove the plots with stand_type = `open ruimte binnen bos` and`naaldhout`.
+
+```{r}
+
+vbi_meetpunten_hab_observed_filter5 <- vbi_meetpunten_hab_observed_filter4 %>%
+  filter(!stand_type %in% c("open ruimte binnen bos", "naaldhout"))
+  
+prop_type_match <- sum(vbi_meetpunten_hab_observed_filter5$any_match_type) / nrow(vbi_meetpunten_hab_observed_filter5)
+
+prop_main_type_match <- sum(vbi_meetpunten_hab_observed_filter5$any_match_main_type) / nrow(vbi_meetpunten_hab_observed_filter5)
+
+```
+
+
+```{r}
+# notes from LG
+# 161026 : plotcentrum valt in een beek, om die reden aangeduid als open ruimte binnen bos cfr ons protocol (jammer genoeg geen foto voorhanden)
+# 207065 : opmerking “wilgenstruweel - heischraal grasland - 9190”: mozaïeksituatie + aangeduid als niet toegankelijk voor de meting
+# 321136 : zeer dicht nat wilgenstruweel
+
+remove_filter5 <- vbi_meetpunten_hab_observed_filter4 %>%
+  anti_join(vbi_meetpunten_hab_observed_filter5, by = c("plot_id", "type"))
+
+remove_filter5 %>%
+  select(plot_id, stand_type, type_observed_std, polygon_id, type, main_type, phab) 
+```
+
+After these steps we see that the observed type corresponds with the habitatmap type for `r round(100 * prop_type_match)` % of the records.
+When we only consider the main type, we have a match of `r round(100 * prop_main_type_match)` %.
+
+Now, for some records we can decide what is the most probable type in case of a mismatch between the observed type and the habitatmap type.
+
++ Rule 1: When the observed type = `9 : bossen` and the habitatmap polygon contains only one forest type, we assume that the habitatmap type is correct.
+
++ Rule 2: When the observed type = `91E0*` and the habitatmap polygon contains only one 91E0 type, we assume that the habitatmap type is correct.
+
+```{r}
+vbi_meetpunten_hab_observed_rule1 <- vbi_meetpunten_hab_observed_filter5 %>%
+  mutate(type_decided = ifelse(type_observed_std == type, type, NA),
+         type_decided = ifelse(type_observed_std == "9xxx" & n_types == 1, type, type_decided),
+         type_decided = ifelse(type_observed_std == "91E0*" & n_types == 1 & main_type == "91E0", type, type_decided))
+
+```
+
+Now, let 's check the result. Below we show the number of plots per type where we have a match between the habitatmap type and the observed type.
+
+```{r}
+compare <- vbi_meetpunten_hab_observed_rule1 %>%
+  rename(type_vbi = type_observed_std, type_habitatmap = type) %>%
+  group_by(type_vbi, type_habitatmap) %>%
+  summarise(n = n()) %>%
+  arrange(type_vbi)
+
+compare %>%
+  datatable(rownames = FALSE,
+            filter = "top")
+  
+```
+
+## We have a match!
+
+```{r}
+type_match <- vbi_meetpunten_hab_observed_rule1 %>%
+  filter(!is.na(type_decided)) %>%
+  mutate(source_vbi = type_decided == type_observed_std,
+         source_habmap = type_decided == type,
+         source = ifelse(source_vbi & source_habmap, "assessment_vbi/habitatmap2023",
+                         ifelse(source_vbi, "assessment_vbi", "habitatmap2023"))) %>%
+  select(plot_id, periode, date_dendro, type = type_decided, phab, source)
+```
+
+```{r}
+type_match %>%
+  datatable(rownames = FALSE, filter = "top")
+```
+
+The observed habitat types with a match between vbi-assessment and the habitatmap can be added to the table 'type_observed'.
+
+```{r}
+check_record <- type_match %>%
+  semi_join(type_observed_orig, by = c("plot_id", "periode"))
+
+check_plot_update <- type_match %>%
+  semi_join(type_observed_orig, by = c("plot_id"))
+
+# add date
+type_observed_orig <- type_observed_orig %>%
+  left_join(select(bestandskarakt, plot_id, segment_id, periode, date_dendro), by = c("plot_id", "periode")) %>%
+  filter(segment_id == 1) %>%
+  select(-segment_id)
+
+type_observed_update <- type_observed_orig %>%
+  bind_rows(type_match) %>%
+  arrange(plot_id, periode) %>%
+  group_by(plot_id, periode, date_dendro, type, source, note_manual_check) %>%
+  summarise(phab = sum(phab)) %>%
+  ungroup()
+
+check <- type_observed_update %>%
+  group_by(plot_id, periode, type) %>%
+  filter(n() > 1)
+
+write_vc(type_observed_update, file = "type_observed_update", root = path_vbi, sorting = c("plot_id", "periode", "type"), strict = FALSE)
+write_csv2(type_observed_update, str_c("../../output/type_observed_vbi", date, ".csv"), na = "")
+```
+
+## We do not have a match: manual check needed!
+
+```{r}
+if (!file.exists("../output/habitatmap_source.csv")) {
+  
+  habitatmap <- read_habitatmap()
+
+  habitatmap_source <- habitatmap %>%
+    st_drop_geometry() %>%
+    semi_join(vbi_meetpunten_hab, by = "polygon_id") %>%
+    select(polygon_id, source_habitatmap = source)
+  
+  rm(habitatmap)
+  
+  write_csv2(habitatmap_source, "../../output/habitatmap_source.csv")
+  
+} else {
+  
+  habitatmap_source <- read_csv2("../../output/habitatmap_source.csv")
+  
+}
+
+vbi_meetpunten_hab_observed <- vbi_meetpunten_hab_observed_rule1 %>%
+  left_join(habitatmap_source, by = "polygon_id") 
+
+check_vbi_habitatmap <- vbi_meetpunten_hab_observed %>%
+  filter(is.na(type_decided)) %>%
+  group_by(plot_id, stand_type, type_observed_std, polygon_id, source_habitatmap, periode, date_dendro, measured, veg_record, dendro_record, dendro_record_zero) %>%
+  summarise(type_habitatmap = str_c(str_c(phab, " % ", type), collapse = "; ")) %>%
+  ungroup() %>%
+  left_join(coordinaten, by = c("plot_id", "periode")) %>%
+  select(x, y, plot_id, periode, date_dendro, stand_type, type_observed_vbi = type_observed_std, type_habitatmap, polygon_id, source_habitatmap, vbi_measured = measured)
+
+check_vbi_habitatmap_specieslist <- check_vbi_habitatmap %>%
+  select(plot_id, periode, type_observed_vbi, type_habitatmap) %>%
+  left_join(cover_species_vbi, by = c("periode", "plot_id")) %>%
+  arrange(plot_id, layer)
+
+date <- Sys.Date()
+
+check_vbi_habitatmap %>%
+  write_csv2(str_c("../../output/check_vbi_habitatmap_", date, ".csv"))
+
+check_vbi_habitatmap_specieslist %>%
+  write_csv2(str_c("../../output/check_vbi_habitatmap_specieslist_", date, ".csv"))
+
+vbi_habitatmap_not_observed <- vbi_meetpunten_hab %>%
+  filter(is.na(type_observed)) %>%
+  left_join(habitatmap_source, by = "polygon_id") %>%
+  group_by(plot_id, polygon_id, source_habitatmap) %>%
+  summarise(type_habitatmap = str_c(str_c(phab, " % ", type), collapse = "; ")) %>%
+  ungroup() %>%
+  filter(!is.na(polygon_id)) %>%
+  mutate(bron_kartering = ifelse(str_detect(source_habitatmap, "o"), "orthofoto interpretatie",
+                       ifelse(str_detect(source_habitatmap, "l"), "literatuur",
+                              ifelse(str_detect(source_habitatmap, "ex"), "externe experten", "terreinbezoek"))),
+         jaar_kartering = as.numeric(str_sub(source_habitatmap, 1, 2)),
+         jaar_kartering = ifelse(jaar_kartering < 50, jaar_kartering + 2000, jaar_kartering + 1900))
+         
+
+```
+
+## Now let's include the results of the manual check
+
+
