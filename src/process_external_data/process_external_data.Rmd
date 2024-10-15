@@ -106,6 +106,15 @@ vbi_msa <- coordinates_vbi %>%
   mutate(type = str_remove(type, "HT"),
          type = ifelse(type == "91E0_s", "91E0_sf", type))
 
+# msa 91E0_vc geldt ook voor 91E0_va -> toevoegen
+vbi_msa_91E0_va <- vbi_msa %>%
+  filter(type == "91E0_vc") %>%
+  mutate(type = "91E0_va")
+
+vbi_msa <- vbi_msa %>%
+  bind_rows(vbi_msa_91E0_va) %>%
+  arrange(plot_id, periode, type)
+
 ```
 
 ## mhq forest
@@ -137,6 +146,15 @@ mhq_msa <- coordinates_mhq %>%
   mutate(type = str_remove(type, "HT"),
          type = ifelse(type == "91E0_s", "91E0_sf", type)) %>%
   unique()
+
+# msa 91E0_vc geldt ook voor 91E0_va -> toevoegen
+mhq_msa_91E0_va <- mhq_msa %>%
+  filter(type == "91E0_vc") %>%
+  mutate(type = "91E0_va")
+
+mhq_msa <- mhq_msa %>%
+  bind_rows(mhq_msa_91E0_va) %>%
+  arrange(plot_id, date_assessment, type)
 
 ```
 
