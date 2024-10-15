@@ -34,9 +34,9 @@ We make use of following data sources (see [google drive](https://drive.google.c
 
 data_path_vbi <- file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi")
 
-db_strata <- "vbi_strata_v2024-01-24.accdb"
-db_meetproces <- "vbi_meetproces_v2022-11-15.accdb"
-db_analyse <- "vbi_analysedatabank_v2024-07-01.accdb"
+db_strata <- "vbi_strata_v2024-07-01.accdb"
+db_meetproces <- "vbi_meetproces_v2024-08-15.accdb"
+db_analyse <- "vbi_analysedatabank_v2024-10-15.accdb"
 
 connect_db <-   odbcConnectAccess2007(file.path(data_path_vbi, db_strata))
 strata_orig <- sqlFetch(connect_db, "tblplotstratadynamic")
@@ -108,9 +108,22 @@ trees_a3a4 <- trees_orig %>%
 
 ```{r}
 bestandskarakt <- bestandskarakt_orig %>%
-  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, stand_type = v2_StandType, stand_age = v5_StandAge, stand_mixture = v4_MixType) %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, date_dendro = DateDendro, stand_type = v2_StandType, stand_age = v5_StandAge, stand_mixture = v4_MixType) %>%
+  mutate(date_dendro = as.Date(str_c(date_dendro, "-01-01"))) %>%
   pivot_longer(cols = c("stand_type", "stand_age", "stand_mixture"), names_to = "variable", values_to = "category")
 ```
+
+## Missing values
+
+```{r}
+missing_values <- vegetatie_orig %>%
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode,  VegRecord, VegRecordZero, HerbRecord, HerbRecordZero, DendroRecord, DendroRecordZero, RegRecord, RegRecordZero, RegNonResponsType) %>%
+  mutate(herb_missing_value = !VegRecord & !VegRecordZero,
+         dendro_missing_value = !DendroRecord & !DendroRecordZero,
+         reg_missing_value = !RegRecord & !RegRecordZero) %>%
+  select(plot_id, segment_id, vbi_cycle, herb_missing_value, dendro_missing_value, reg_missing_value)
+```
+
 
 ## Plot weights
 
@@ -155,8 +168,6 @@ plot_weight_complete <- plot_weight_metadata %>%
   bind_rows(missing_segment)
 ```
 
-
-
 ## Analyse variables
 
 ```{r}
@@ -166,11 +177,14 @@ veg_av <- vegetatie_orig %>%
                names_to = "variable",
                values_to = "value")
 
-trees_av <- boomsoort_orig %>%
+trees_a2 <- boomsoort_orig %>%
   mutate(status_tree = ifelse(StatusTreeCode == 1, "levend",
                               ifelse(StatusTreeCode == 2, "dood", NA))) %>%
-  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, name_nl = SpeciesGroup, status_tree, stem_density_a2_ha = v6_StamtalA2_ha, basal_area_ha = v2_BasalArea_ha, volume_ha = v3_Volume_ha) %>%
-  pivot_longer(cols = c("stem_density_a2_ha", "basal_area_ha", "volume_ha"),
+  select(plot_id = IDPlots, segment_id = IDSegments, vbi_cycle = Periode, name_nl = SpeciesGroup, status_tree, stem_density_a2_ha = v6_StamtalA2_ha) %>%
+  group_by(plot_id, segment_id, vbi_cycle) %>%
+  summarise(stem_density_a2_ha = sum(stem_density_a2_ha)) %>%
+  ungroup() %>%
+  pivot_longer(cols = c("stem_density_a2_ha"),
                names_to = "variable",
                values_to = "value")
 
@@ -212,7 +226,7 @@ type_observed <- type_observed_orig %>%
 
 ```{r}
 
-db_external_data <- "VBIExterneData.accdb"
+db_external_data <- "VBIExterneData_v2024-04-04.accdb"
 
   query_tarieven2ing <- "
     SELECT
@@ -255,8 +269,6 @@ db_external_data <- "VBIExterneData.accdb"
 
 ```
 
-
-
 # Write result to .vc file
 
 ```{r, eval= update}
@@ -284,6 +296,7 @@ write_vc(type_observed, "type_observed", root = path, sorting = c("plot_id", "vb
 write_vc(vbi_av, "analysis_variable", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
 write_vc(bestandskarakt, "stand_description", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
 write_vc(plot_weight, "plot_weight", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
+write_vc(missing_values, "missing_values", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
 write_vc(vol_parameters_2input, "vol_parameters_2input", root = path, sorting = c("tree_species_id"), strict = FALSE)
 write_vc(vol_parameters_1input, "vol_parameters_1input", root = path, sorting = c("tree_species_id"), strict = FALSE)
 ```
