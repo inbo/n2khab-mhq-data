@@ -85,6 +85,11 @@ no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid")
       # voorlopig in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
 no_survey <- bind_rows(no_classification, no_structure, no_layers) %>% 
   distinct()
+
+unreliable <- c("IV2023081816341823", "IV2024050816231992")
+  # IV2023081816341823 = WV_ZWI_006_2190a_19: soortgegevens ontbreken, maar % lagen is wel ingevuld; is in 2020 opnieuw gekarteerd, dus deze van 2019 mag genegeerd worden
+  # IV2024050816231992 = WV_ZWI_133_2190a_18: soortgegevens ontbreken, maar % lagen is wel ingevuld; opname te negeren (to do opvolgen)
+
 dry <- structure_31xx %>% 
   filter(var_code == "peil", var_value_code == "Droog")
       # bij droogval: opname is ongeschikt voor LSVI-bepaling
@@ -105,7 +110,7 @@ header <- header_31xx %>%
                                        yes = FALSE,
                                        no = TRUE),
                           no = FALSE),
-         measured = ifelse(test = recording_givid %in% no_survey$recording_givid,
+         measured = ifelse(test = recording_givid %in% c(no_survey$recording_givid, unreliable),
                          yes = FALSE,
                          no = TRUE)) %>% 
   select(recording_givid, survey, user_reference, location, date = vague_date_begin, 
@@ -117,7 +122,7 @@ beschrijving van enkele kolommen:
 * type_observed: gh (-9, geen habitat); `r stilstaande_typen`  
 * reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
 * suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van van de lijst of indien drooggevallen 
-* measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- of layerkenmerken genoteerd) wordt als FALSE beschouwd  
+* measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- of layerkenmerken genoteerd) of tegenstrijdige gegevens in de opname wordt als FALSE beschouwd  
 
 ```{r}
 header %>% 
