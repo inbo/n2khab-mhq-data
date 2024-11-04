@@ -73,14 +73,15 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 1 opnames: op te volgen
+      # 0 opnames; ok
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
-      # to do: 1 lege opname; op te volgen
+      # 0 opnames; ok
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
-      # to do: 2 lege opnames; op te volgen
+      # 1 opname zonder lagen en taxa: WV_ZEB_004_2190a_20; 
+      # --> dit is geen typisch duinwater dus twijfel of dit 2190a is; 
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 2 opnames 31xx & 8 opnames 2190a: op te volgen
-      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn invoerfouten
+      # to do: 1 opnames 31xx & 4 opnames 2190a: op te volgen
+      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn mogelijk invoerfouten
       # voorlopig in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
 no_survey <- bind_rows(no_classification, no_structure, no_layers) %>% 
   distinct()
@@ -116,7 +117,7 @@ beschrijving van enkele kolommen:
 * type_observed: gh (-9, geen habitat); `r stilstaande_typen`  
 * reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
 * suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van van de lijst of indien drooggevallen 
-* measured (TRUE/FALSE): geeft aan of er al dan niet een vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
+* measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- of layerkenmerken genoteerd) wordt als FALSE beschouwd  
 
 ```{r}
 header %>% 
@@ -231,8 +232,8 @@ structure_num_2 <- structure_31xx %>%
                      paste(c("Niet genoteerd", "\\?"), collapse = "|"))) %>% 
   mutate(value_description = NA,
          value_numeric = case_when(
-           value == "0-x-1" ~ "0.5",
-           value == "<1" ~ "0.5",
+           value == "0-x-1" ~ "1",
+           value == "<1" ~ "1",
            TRUE ~ str_remove(value, "[<>]")),
          value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))) %>% 
   select(survey, recording_givid, user_reference, var_code = var_value_code, 
@@ -252,7 +253,8 @@ indien er probleemgevallen zijn, worden deze voorlopig in de volgende stap gewis
 structure_num_2 <- structure_num_2 %>%  
   filter(!is.na(value_numeric)) %>% 
   mutate(is_below_LOQ = case_when(
-            value == "<1" ~ FALSE,
+            value == "0-x-1" ~ TRUE,
+            value == "<1" ~ TRUE,
             str_starts(value, "<") ~ TRUE,
             TRUE ~ FALSE), 
          is_above_LOQ = ifelse(test = str_starts(value, ">"),
@@ -267,7 +269,7 @@ structure_num_2 <- structure_num_2 %>%
 structure <- bind_rows(structure_class, structure_num_1, structure_num_2)
 ```
 
-<!-- to do: nog aanvullen  -->
+<!-- to do later: nog aanvullen  -->
 beschrijving van enkele variabelen:  
 
 * Seccd: Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)
@@ -322,7 +324,7 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
 
 replace NA in var en value_description 
 ```{r}
-# to do: moet eigenlijk opgelost worden in INBOVEG (opvolgen)
+# to do later: moet eigenlijk opgelost worden in INBOVEG (opvolgen)
 tbl_var <- site_characteristics %>% 
   select(survey, var_code, var2 = var) %>% 
   filter(!is.na(var2)) %>% 
@@ -378,6 +380,7 @@ vegetation <- vegetation_31xx %>%
          name = case_when(
            name_original %in% c("draadwier", "Draadwier spec.") ~ "Draadwier",
            name_original %in% c("Chara hispida L.", "Chara hispida") ~ "Chara hispida",
+           name_original %in% c("Enteromorpha", "Enteromorpha spec.") ~ "Enteromorpha spec.",
            name_original %in% 
              c("Hydrodictyon reticulatum (Linnaeus) Bory", 
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
