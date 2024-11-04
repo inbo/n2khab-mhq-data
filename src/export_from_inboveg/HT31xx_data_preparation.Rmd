@@ -380,7 +380,7 @@ vegetation <- vegetation_31xx %>%
          name = case_when(
            name_original %in% c("draadwier", "Draadwier spec.") ~ "Draadwier",
            name_original %in% c("Chara hispida L.", "Chara hispida") ~ "Chara hispida",
-           name_original %in% c("Enteromorpha", "Enteromorpha spec.") ~ "Enteromorpha spec.",
+           name_original %in% c("Enteromorpha", "Enteromorpha spec.") ~ "Enteromorpha",
            name_original %in% 
              c("Hydrodictyon reticulatum (Linnaeus) Bory", 
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
