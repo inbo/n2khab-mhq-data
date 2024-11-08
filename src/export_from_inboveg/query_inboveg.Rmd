@@ -165,7 +165,7 @@ classif_mhq <- get_inboveg_classification(connection = connection_inboveg,
 header_mhq <- get_inboveg_header(connection = connection_inboveg, 
                                  survey_name = surveys, multiple = TRUE,
                                  collect = TRUE) %>%
-    select(recording_givid = RecordingGivid, survey = Name, user_reference = UserReference, 
+    select(recording_givid = RecordingGivid, survey = SurveyName, user_reference = UserReference, 
            location = LocationCode, area = Area, vague_date_begin = VagueDateBegin, 
            vague_date_end = VagueDateEnd, latitude = Latitude, longitude = Longitude)
 
@@ -173,7 +173,7 @@ recordings_mhq <- get_inboveg_recording(connection = connection_inboveg,
                                         survey_name = surveys, multiple = TRUE,
                                         collect = TRUE) %>%
     select(survey = Name, recording_givid = RecordingGivid, layer_code = LayerCode, 
-           layer_cover = CoverCode, name_original = OrignalName, name_scientific = ScientificName, 
+           layer_cover = CoverCode, name_original = OriginalName, name_scientific = ScientificName, 
            phenology_code = PhenologyCode, species_cover_code = CoverageCode, species_cover = PctValue, 
            scale = RecordingScale)
 
