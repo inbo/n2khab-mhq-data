@@ -363,8 +363,8 @@ N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	klver	beperkte verstuiv
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	gfixe	gefixeerd_2120	0	0
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	rijsh	rijshout bij type 2120	0	0
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	struc	structuurverstoringen (puin, …)	0	0
-N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	bos	verbossing	1	1
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	bos	verbossing	0	0
+N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	bos	verbossing	1	1
 N2000meetnet_Duinen_BHM	IV2019032212232276	double_11923249	bos	verbossing	65	65
 N2000meetnet_Duinen_BHM	IV2019032213402331	10415921_2170	bos	verbossing	1	1
 N2000meetnet_Heide_BHM	IV2020011710281344	734	calcl	calluna_climaxfase	3	T
@@ -1926,7 +1926,7 @@ N2000_Duinen_fieldapp	IV2021091710581912	1676465_1	bos	verbossing	2	2
 N2000_Duinen_fieldapp	IV2021091710582095	7050417	bos	verbossing	0.5	0-x-1
 N2000_Duinen_fieldapp	IV2021091710582214	wn_24	bos	verbossing	5	5
 N2000_Duinen_fieldapp	IV2021091710582364	10048689_1	bos	verbossing	0	0
-N2000_Duinen_fieldapp	IV2021091710582555	wn_05	bos	verbossing	35	35
+N2000_Duinen_fieldapp	IV2021091710582555	unknown	bos	verbossing	35	35
 N2000_Duinen_fieldapp	IV2021091710582633	wn_12	struc	structuurverstoringen (puin, …)	0	0
 N2000_Duinen_fieldapp	IV2021091710582633	wn_12	bos	verbossing	0	0
 N2000_Duinen_fieldapp	IV2021091710582765	wn_17	bos	verbossing	10	10
@@ -3360,7 +3360,7 @@ N2000_Duinen_fieldapp	IV2024091815482492	435377	pioni	pionier_2160	0	0
 N2000_Duinen_fieldapp	IV2024091815482492	435377	bos	verbossing	25	25
 N2000_Duinen_fieldapp	IV2024091815482553	5461169	bos	verbossing	0	0
 N2000_Duinen_fieldapp	IV2024091815482673	1922225	bos	verbossing	10	10
-N2000_Duinen_fieldapp	IV2024091815482810	999217_1	bos	verbossing	6	6
+N2000_Duinen_fieldapp	IV2024091815482810	dp_03	bos	verbossing	6	6
 N2000_Duinen_fieldapp	IV2024091815482907	2430129	bos	verbossing	25	25
 N2000_Duinen_fieldapp	IV2024091815482907	2430129	bos	verbossing	95	95
 N2000_Duinen_fieldapp	IV2024091815483040	1060401	clima	climax_2160	37.5	KB
@@ -3376,7 +3376,7 @@ N2000meetnet_Grasland_BHM	IV2024102917222428	780114	bos	verbossing	5	5
 N2000meetnet_Grasland_BHM	IV2024102917222475	583378	bos	verbossing	0	0
 N2000meetnet_Grasland_BHM	IV2024102917222545	648914	bos	verbossing	0	0
 N2000meetnet_Grasland_BHM	IV2024102917222629	487606	bos	verbossing	55	55
-N2000meetnet_Moeras_BHM	IV2024102917222684	2056882	bos	verbossing	4	4
+N2000meetnet_Moeras_BHM	IV2024102917222684	2056822	bos	verbossing	4	4
 N2000meetnet_Moeras_BHM	IV2024102917222707	1766326	bos	verbossing	0.5	0-x-1
 N2000meetnet_Moeras_BHM	IV2024102917222744	1576886	bos	verbossing	1	1
 N2000meetnet_Moeras_BHM	IV2024102917222849	1008246	bos	verbossing	80	80
@@ -3391,7 +3391,7 @@ N2000meetnet_Grasland_BHM	IV2024102917223266	309458	bos	verbossing	1	1
 N2000meetnet_Grasland_BHM	IV2024102917223389	983990	bos	verbossing	0	0
 N2000meetnet_Grasland_BHM	IV2024102917232311	540658	bos	verbossing	1	1
 N2000meetnet_Grasland_BHM	IV2024102917232338	2334002	bos	verbossing	0	0
-N2000meetnet_Grasland_BHM	IV2024102917232386	6343910	bos	verbossing	0	0
+N2000meetnet_Grasland_BHM	IV2024102917232386	5295334	bos	verbossing	0	0
 N2000meetnet_Grasland_BHM	IV2024102917232470	781906	bos	verbossing	30	30
 N2000meetnet_Grasland_BHM	IV2024102917342269	2552882	bos	verbossing	0.5	0-x-1
 N2000meetnet_Grasland_BHM	IV2024102917342339	5783154	bos	verbossing	10	10
