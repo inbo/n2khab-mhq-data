@@ -296,35 +296,6 @@ Sommige taxa zijn een groepering van soorten en hebben geen wetenschappelijke na
 vegetation %>% head() %>% kable() %>% kable_styling() %>% scroll_box(width = "800px")
 ```
 
-# data controle 
-
-##  input
-
-```{r, eval = FALSE}
-this_sample <- "Dommel_14"
-
-header_sel <- header_3260 %>% filter(str_detect(user_reference, this_sample))
-
-classif_sel <- classif_3260  %>% semi_join(header_sel, by = "recording_givid")
-structure_sel <- structure_3260  %>% semi_join(header_sel, by = "recording_givid")
-sitequal_sel <- sitequal_3260  %>% semi_join(header_sel, by = "recording_givid")
-layerqual_sel <- layerqual_3260  %>% semi_join(header_sel, by = "recording_givid")
-vegetation_sel <- vegetation_3260  %>% semi_join(header_sel, by = "recording_givid")
-```
-
-dit is ok; alles zit erin
-
-##  output
-
-```{r, eval = FALSE}
-header_sel <- header %>%  
-  filter(str_detect(user_reference, this_sample))
-
-site_characteristics_sel <- site_characteristics %>% semi_join(header_sel, by = "recording_givid")
-vegetation_sel <- vegetation %>% semi_join(header_sel, by = "recording_givid")
-```
-
-dit is ok; alles zit erin
 
 # data export
 

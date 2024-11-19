@@ -45,6 +45,7 @@ this_survey <- c("HT31xx_LSVI_StilstaandeWateren", "HT2190_a_LSVI_StilstaandeWat
 
 classif_31xx <- classif_mhq_aq %>% filter(survey %in% this_survey)
 header_31xx <- header_mhq_aq %>% filter(survey %in% this_survey)
+  # aantal op 2024-11-19: 732 records
 structure_31xx <- structure_mhq_aq %>% filter(survey %in% this_survey)
 sitequal_31xx <- sitequal_mhq_aq %>% filter(survey %in% this_survey)
 layerqual_31xx <-  layerqual_mhq_aq %>% filter(survey %in% this_survey)
@@ -73,17 +74,36 @@ sitequal <- sitequal_31xx %>%
 identify recording_givid with no or partial measurements
 ```{r}
 no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid") 
-      # to do: 1 opnames: op te volgen
+      # 0 opnames; ok
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
-      # to do: 1 lege opname; op te volgen
+      # 0 opnames; ok
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
-      # to do: 2 lege opnames; op te volgen
+      # 1 opname zonder lagen en taxa: WV_ZEB_004_2190a_20; 
+      # --> dit is geen typisch duinwater dus twijfel of dit 2190a is; 
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 2 opnames 31xx & 8 opnames 2190a: op te volgen
-      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn invoerfouten
+      # to do: 1 opnames 31xx & 4 opnames 2190a: op te volgen
+      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn mogelijk invoerfouten
       # voorlopig in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
 no_survey <- bind_rows(no_classification, no_structure, no_layers) %>% 
   distinct()
+
+unreliable <- c("IV2023081816341823", "IV2024050816231992")
+  # IV2023081816341823 = WV_ZWI_006_2190a_19: soortgegevens ontbreken, maar % lagen is wel ingevuld; is in 2020 opnieuw gekarteerd, dus deze van 2019 mag genegeerd worden
+  # IV2024050816231992 = WV_ZWI_133_2190a_18: soortgegevens ontbreken, maar % lagen is wel ingevuld; opname te negeren (to do opvolgen)
+
+habitat_uncertain <- c("IV2024050616074409", "IV2024051511574873", "IV2023081715554080",
+                       "IV2024051512574509", "IV2024050817260020", "IV2024050815575205",
+                       "IV2024050816070592")
+  # toekenning tot 2190a is wellicht niet correct, omdat dit eerder aanleunt bij 
+  # plassen uit polders (KRW-type Ami of Ai)
+  # IV2024050616074409 = WV_CAB_031_2190a_18
+  # IV2024051511574873 = WV_MID_001_2190a_19
+  # IV2023081715554080 = WV_ZEB_003_2190a_19
+  # IV2024051512574509 = WV_ZEB_004_2190a_20
+  # IV2024050817260020 = WV_ZEB_007_2190a20
+  # IV2024050815575205 = WVLKNO106_2190a_20
+  # IV2024050816070592 = WVLKNO0352_2190a_20
+
 dry <- structure_31xx %>% 
   filter(var_code == "peil", var_value_code == "Droog")
       # bij droogval: opname is ongeschikt voor LSVI-bepaling
@@ -100,11 +120,12 @@ header <- header_31xx %>%
                                   labels = c("gh", stilstaande_typen))) %>% 
   left_join(sitequal, by = c("survey", "recording_givid", "user_reference")) %>% 
   mutate(suitable_mhq = ifelse(test = (type_observed %in% stilstaande_typen), 
-                          yes = ifelse(test = (recording_givid %in% dry$recording_givid),
+                          yes = ifelse(test = (recording_givid %in% c(dry$recording_givid,
+                                                                      habitat_uncertain)),
                                        yes = FALSE,
                                        no = TRUE),
                           no = FALSE),
-         measured = ifelse(test = recording_givid %in% no_survey$recording_givid,
+         measured = ifelse(test = recording_givid %in% c(no_survey$recording_givid, unreliable),
                          yes = FALSE,
                          no = TRUE)) %>% 
   select(recording_givid, survey, user_reference, location, date = vague_date_begin, 
@@ -115,8 +136,8 @@ beschrijving van enkele kolommen:
 
 * type_observed: gh (-9, geen habitat); `r stilstaande_typen`  
 * reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
-* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van van de lijst of indien drooggevallen 
-* measured (TRUE/FALSE): geeft aan of er al dan niet een vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- layer- of vegetatieknemerken genoteerd) wordt als FALSE beschouwd  
+* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van de lijst, indien drooggevallen of indien het toegekende habitattype onzeker is
+* measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- of layerkenmerken genoteerd) of tegenstrijdige gegevens in de opname wordt als FALSE beschouwd  
 
 ```{r}
 header %>% 
@@ -231,8 +252,8 @@ structure_num_2 <- structure_31xx %>%
                      paste(c("Niet genoteerd", "\\?"), collapse = "|"))) %>% 
   mutate(value_description = NA,
          value_numeric = case_when(
-           value == "0-x-1" ~ "0.5",
-           value == "<1" ~ "0.5",
+           value == "0-x-1" ~ "1",
+           value == "<1" ~ "1",
            TRUE ~ str_remove(value, "[<>]")),
          value_numeric = as.numeric(str_replace(value_numeric, ",", "\\."))) %>% 
   select(survey, recording_givid, user_reference, var_code = var_value_code, 
@@ -252,7 +273,8 @@ indien er probleemgevallen zijn, worden deze voorlopig in de volgende stap gewis
 structure_num_2 <- structure_num_2 %>%  
   filter(!is.na(value_numeric)) %>% 
   mutate(is_below_LOQ = case_when(
-            value == "<1" ~ FALSE,
+            value == "0-x-1" ~ TRUE,
+            value == "<1" ~ TRUE,
             str_starts(value, "<") ~ TRUE,
             TRUE ~ FALSE), 
          is_above_LOQ = ifelse(test = str_starts(value, ">"),
@@ -267,7 +289,7 @@ structure_num_2 <- structure_num_2 %>%
 structure <- bind_rows(structure_class, structure_num_1, structure_num_2)
 ```
 
-<!-- to do: nog aanvullen  -->
+<!-- to do later: nog aanvullen  -->
 beschrijving van enkele variabelen:  
 
 * Seccd: Secchi-diepte in m: bepaling doorzicht adhv meting met Secchi-schijf (zie protocol SVP-403)
@@ -322,7 +344,7 @@ site_characteristics <- bind_rows(structure, layerqual) %>%
 
 replace NA in var en value_description 
 ```{r}
-# to do: moet eigenlijk opgelost worden in INBOVEG (opvolgen)
+# to do later: moet eigenlijk opgelost worden in INBOVEG (opvolgen)
 tbl_var <- site_characteristics %>% 
   select(survey, var_code, var2 = var) %>% 
   filter(!is.na(var2)) %>% 
@@ -378,6 +400,7 @@ vegetation <- vegetation_31xx %>%
          name = case_when(
            name_original %in% c("draadwier", "Draadwier spec.") ~ "Draadwier",
            name_original %in% c("Chara hispida L.", "Chara hispida") ~ "Chara hispida",
+           name_original %in% c("Enteromorpha", "Enteromorpha spec.") ~ "Enteromorpha",
            name_original %in% 
              c("Hydrodictyon reticulatum (Linnaeus) Bory", 
                "Hydrodictyon reticulatum Lagerh.") ~ "Hydrodictyon reticulatum",
