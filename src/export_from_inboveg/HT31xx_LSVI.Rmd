@@ -32,9 +32,12 @@ maakConnectiePool()
 ```{r}
 path <- str_c(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_aq")
 
-header <- read_vc("HT31xx_header", root = path)
-site_characteristics <- read_vc("HT31xx_site_characteristics", root = path)
-vegetation <- read_vc("HT31xx_vegetation", root = path)
+header <- read_vc("HT31xx_header", root = path) %>% 
+  as.data.frame()
+site_characteristics <- read_vc("HT31xx_site_characteristics", root = path) %>% 
+  as.data.frame()
+vegetation <- read_vc("HT31xx_vegetation", root = path) %>% 
+  as.data.frame()
 ```
 to do (later): link maken met xls met svz van monitoring
 
