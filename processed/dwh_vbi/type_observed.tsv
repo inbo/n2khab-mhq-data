@@ -1,922 +1,1154 @@
-plot_id	vbi_cycle	type_observed	source	note_manual_check	phab
-17144	2	91E0	habitatmap2023	NA	30
-26148	2	9120	habitatmap2023	NA	100
-27131	2	9190	habitatmap2023	NA	30
-27156	2	9120	habitatmap2023	NA	30
-27156	2	9120_qb	habitatmap2023	NA	70
-35106	2	91E0_vm	habitatmap2023	NA	100
-35114	2	9120	habitatmap2023	NA	100
-74049	2	91E0_vo	habitatmap2023	NA	100
-74050	2	9190	habitatmap2023	NA	50
-74067	2	9120	habitatmap2023	NA	30
-74067	2	9190	habitatmap2023	NA	70
-74090	2	9190	habitatmap2023	NA	100
-74143	2	9120	habitatmap2023	NA	100
-77038	2	9190	habitatmap2023	NA	70
-77040	2	9190	habitatmap2023	NA	100
-77048	2	9120	habitatmap2023	NA	30
-78033	2	9190	habitatmap2023	NA	100
-78041	2	9190	habitatmap2023	NA	100
-78044	2	9190	habitatmap2023	NA	50
-78046	2	9190	habitatmap2023	NA	100
-78059	2	9190	habitatmap2023	NA	100
-78060	2	9190	habitatmap2023	NA	100
-78133	2	9120	habitatmap2023	NA	100
-78135	2	9190	habitatmap2023	NA	50
-78148	2	9120	habitatmap2023	NA	100
-78156	2	9120	habitatmap2023	NA	100
-81133	3	9190	assessment_vbi/habitatmap2023	NA	70
-82126	2	9120_qb	habitatmap2023	NA	100
-83070	2	91E0_vm	habitatmap2023	NA	100
-83116	2	9190	habitatmap2023	NA	50
-83121	2	91E0_va	habitatmap2023	NA	0
-83121	2	91E0_vn	habitatmap2023	NA	100
-83147	2	9120	habitatmap2023	NA	100
-84016	2	91E0_vn	habitatmap2023	NA	100
-85064	3	9190	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-85126	2	9120_qb	habitatmap2023	NA	70
-85147	3	9120	manual_check/habitatmap2023	vegopname	NA
-85155	3	9190	assessment_vbi/habitatmap2023	NA	50
-85156	3	9190	manual_check/assessment_vbi	twijfel	NA
-86044	3	9190	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-86117	2	9120	manual_check/habitatmap2023	9120vs9190	NA
-86134	2	9120	manual_check/habitatmap2023	9120vs9190	NA
-86136	2	9120	manual_check/habitatmap2023	9120vs9190	NA
-86141	2	9120	assessment_vbi/habitatmap2023	NA	100
-86142	2	9190	assessment_vbi/habitatmap2023	NA	100
-86144	2	9120	habitatmap2023	NA	100
-86149	2	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-87010	2	9190	habitatmap2023	NA	100
-87119	2	9120	habitatmap2023	NA	90
-87119	2	9190	habitatmap2023	NA	10
-87123	2	9120	habitatmap2023	NA	0
-87123	2	91E0_vn	habitatmap2023	NA	60
-87127	2	9190	habitatmap2023	NA	100
-87131	2	9120	habitatmap2023	NA	0
-87131	2	91E0_vn	habitatmap2023	NA	100
-87135	2	9120	habitatmap2023	NA	100
-88040	2	9190	habitatmap2023	NA	100
-88092	2	9160	habitatmap2023	NA	30
-88113	2	9120	habitatmap2023	NA	100
-88121	2	9120	habitatmap2023	NA	100
-88123	2	9190	habitatmap2023	NA	95
-88129	2	9120	habitatmap2023	NA	100
-88134	2	9190	habitatmap2023	NA	70
-88144	2	91E0_vm	habitatmap2023	NA	100
-88155	2	9190	habitatmap2023	NA	100
-88156	2	91E0_vm	habitatmap2023	NA	100
-88160	2	91E0_vm	habitatmap2023	NA	80
-88160	2	91E0_vo	habitatmap2023	NA	20
-91017	2	9190	habitatmap2023	NA	50
-91025	2	9190	habitatmap2023	NA	30
-91108	2	9190	habitatmap2023	NA	30
-91123	2	9190	habitatmap2023	NA	30
-91143	2	9190	habitatmap2023	NA	100
-95001	2	9190	habitatmap2023	NA	100
-95004	2	9190	habitatmap2023	NA	10
-95011	2	9190	habitatmap2023	NA	20
-95030	2	9190	habitatmap2023	NA	20
-95041	2	91E0_vo	habitatmap2023	NA	100
-96103	3	9190	manual_check/assessment_vbi	vegopname	NA
-96124	3	9190	manual_check/habitatmap2023	9120vs9190	NA
-124152	2	9120	assessment_vbi/habitatmap2023	NA	70
-128016	2	9120	habitatmap2023	NA	100
-128039	2	9120	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA
-128138	2	9120	habitatmap2023	NA	100
-128147	2	9120	habitatmap2023	NA	100
-131044	2	9120	habitatmap2023	NA	100
-131159	2	91E0_vn	habitatmap2023	NA	100
-132097	2	9120	habitatmap2023	NA	100
-133153	3	91E0_va	manual_check/habitatmap2023	buiten areaal 9130	NA
-134040	2	9120	assessment_vbi/habitatmap2023	NA	100
-134128	2	9120	assessment_vbi/habitatmap2023	NA	100
-135054	2	91E0_va	habitatmap2023	NA	100
-135069	2	9120	habitatmap2023	NA	100
-135081	2	9120	habitatmap2023	NA	100
-135082	2	9120	habitatmap2023	NA	100
-135083	2	9120	habitatmap2023	NA	85
-135083	2	91E0_vn	habitatmap2023	NA	15
-135098	2	9120	habitatmap2023	NA	100
-135099	2	9120	habitatmap2023	NA	100
-135102	2	9120	habitatmap2023	NA	100
-135118	2	9160	habitatmap2023	NA	100
-135132	2	9120	habitatmap2023	NA	100
-136040	2	9120	habitatmap2023	NA	100
-136102	2	9120	habitatmap2023	NA	100
-136113	2	9120	habitatmap2023	NA	100
-136114	2	9120	habitatmap2023	NA	100
-136121	2	9120	habitatmap2023	NA	100
-136121	2	91E0_vo	habitatmap2023	NA	0
-136143	2	9120	habitatmap2023	NA	30
-137010	3	91E0_va	habitatmap2023	NA	100
-137011	3	9120	assessment_vbi/habitatmap2023	NA	100
-137028	3	9120	manual_check/habitatmap2023	vegopname	NA
-137035	3	9120	assessment_vbi/habitatmap2023	NA	100
-137037	3	9120	assessment_vbi/habitatmap2023	NA	100
-137045	3	9120	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA
-137052	3	9120	assessment_vbi/habitatmap2023	NA	100
-137053	3	9120	assessment_vbi/habitatmap2023	NA	100
-137054	3	9120	assessment_vbi/habitatmap2023	NA	100
-137060	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-137076	3	9190	manual_check/assessment_vbi	twijfel	NA
-138016	2	9190	manual_check/assessment_vbi	twijfel	NA
-138019	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-138020	3	9120	assessment_vbi/habitatmap2023	NA	95
-138024	2	9120	manual_check/habitatmap2023	9120vs9190	NA
-138027	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-138028	3	9120	assessment_vbi/habitatmap2023	NA	70
-138036	3	9120	assessment_vbi/habitatmap2023	NA	100
-138097	3	9120	assessment_vbi/habitatmap2023	NA	100
-138098	3	9120	habitatmap2023	NA	100
-142137	2	9120	habitatmap2023	NA	100
-144048	3	91E0_vm	assessment_vbi/habitatmap2023	NA	30
-144055	3	91E0_vm	manual_check/habitatmap2023	vegopname	NA
-144056	3	9120	habitatmap2023	NA	100
-147004	2	9120	habitatmap2023	NA	100
-147049	2	91E0_va	habitatmap2023	NA	100
-147059	2	9120	habitatmap2023	NA	100
-147067	2	9120	habitatmap2023	NA	100
-147068	2	91E0_va	habitatmap2023	NA	100
-147141	2	91E0_vn	habitatmap2023	NA	100
-148025	3	91E0_va	manual_check	vegopname en/of bosleeftijd	NA
-148045	3	9120	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA
-154013	2	9190	habitatmap2023	NA	100
-154019	2	9120	habitatmap2023	NA	100
-154032	2	9120	habitatmap2023	NA	70
-154032	2	91E0_va	habitatmap2023	NA	30
-154072	2	9120	habitatmap2023	NA	30
-154072	2	9120_qb	habitatmap2023	NA	70
-154091	2	9120	habitatmap2023	NA	100
-154101	2	9120	habitatmap2023	NA	100
-155024	2	9120	assessment_vbi/habitatmap2023	NA	100
-155133	2	91E0_vn	habitatmap2023	NA	20
-155136	2	91E0_vn	habitatmap2023	NA	20
-155139	3	91E0_sf	assessment_vbi/habitatmap2023	NA	100
-156056	2	91E0_vn	habitatmap2023	NA	100
-156064	2	91E0_vn	habitatmap2023	NA	100
-156072	2	91E0_vn	habitatmap2023	NA	100
-156107	2	91E0_vn	habitatmap2023	NA	100
-156108	2	91E0_vn	habitatmap2023	NA	100
-156114	2	91E0	habitatmap2023	NA	20
-156114	2	91E0_vn	habitatmap2023	NA	80
-156117	2	91E0_sf	habitatmap2023	NA	100
-156118	2	91E0_vn	habitatmap2023	NA	100
-156121	2	91E0_vn	habitatmap2023	NA	30
-156124	2	91E0_vn	habitatmap2023	NA	70
-156125	2	91E0_vn	habitatmap2023	NA	70
-156146	2	91E0_vn	habitatmap2023	NA	100
-156159	2	91E0_vm	habitatmap2023	NA	5
-157050	2	91E0	habitatmap2023	NA	30
-157051	2	9120	habitatmap2023	NA	100
-157054	2	9120	habitatmap2023	NA	100
-157063	2	9120	habitatmap2023	NA	100
-157067	2	9120	habitatmap2023	NA	30
-157083	2	91E0_vn	habitatmap2023	NA	30
-157084	2	9120	habitatmap2023	NA	100
-157091	2	9120	habitatmap2023	NA	100
-158033	2	9120	habitatmap2023	NA	70
-158033	2	9160	habitatmap2023	NA	30
-158069	2	9160	habitatmap2023	NA	100
-158091	2	9160	habitatmap2023	NA	20
-158103	2	9120	habitatmap2023	NA	100
-158118	2	91E0_va	habitatmap2023	NA	100
-161033	2	9120	habitatmap2023	NA	30
-161033	2	9190	habitatmap2023	NA	70
-161039	3	91E0_va	manual_check	vegopname	NA
-161082	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-161085	3	9120	assessment_vbi/habitatmap2023	NA	100
-161093	3	9120	habitatmap2023	NA	100
-161095	3	91E0_va	assessment_vbi/habitatmap2023	NA	20
-161111	3	9120	manual_check/habitatmap2023	vegopname	NA
-161114	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-161118	3	91E0_vm	assessment_vbi/habitatmap2023	NA	90
-161129	3	91E0_va	manual_check	vegopname	NA
-161130	3	91E0_va	manual_check/habitatmap2023	vegopname	NA
-161132	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-161133	3	9120	assessment_vbi/habitatmap2023	NA	100
-161134	3	9120	assessment_vbi/habitatmap2023	NA	40
-162006	2	9160	manual_check/habitatmap2023	vegopname	NA
-162019	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-162027	2	9120	habitatmap2023	NA	100
-162032	2	9120	habitatmap2023	NA	100
-162035	3	9120	assessment_vbi/habitatmap2023	NA	100
-162038	2	91E0_va	manual_check/habitatmap2023	vegopname	NA
-162042	3	9190	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-162043	3	9120	assessment_vbi/habitatmap2023	NA	100
-162051	3	91E0_va	manual_check/habitatmap2023	vegopname	NA
-162054	2	9190	habitatmap2023	NA	70
-162062	2	91E0_vm	manual_check/habitatmap2023	vegopname	NA
-162066	3	9120	manual_check	vegopname en/of bosleeftijd	NA
-162078	2	9190	habitatmap2023	NA	100
-162085	2	91E0_vm	manual_check/habitatmap2023	ghvs91E0_vn	NA
-162090	3	9120	manual_check/habitatmap2023	vegopname	NA
-162093	2	9120	assessment_vbi/habitatmap2023	NA	100
-162098	3	9160	assessment_vbi/habitatmap2023	NA	60
-162100	3	9120	manual_check/habitatmap2023	vegopname	NA
-162101	2	9120	habitatmap2023	NA	100
-162126	2	9120	manual_check	vegopname en/of bosleeftijd	NA
-162129	3	9120	manual_check/habitatmap2023	vegopname	NA
-163003	2	91E0_vm	habitatmap2023	NA	100
-163006	2	91E0_va	habitatmap2023	NA	30
-163006	2	91E0_vn	habitatmap2023	NA	70
-163021	2	91E0_va	habitatmap2023	NA	70
-163021	2	91E0_vn	habitatmap2023	NA	30
-163094	2	9190	habitatmap2023	NA	100
-163136	2	91E0_vm	habitatmap2023	NA	90
-163136	2	91E0_vo	habitatmap2023	NA	10
-163147	2	9120	habitatmap2023	NA	70
-163147	2	9190	habitatmap2023	NA	30
-164011	2	9120	habitatmap2023	NA	25
-164124	2	91E0_vm	habitatmap2023	NA	100
-164126	2	9190	habitatmap2023	NA	80
-165046	3	9190	assessment_vbi/habitatmap2023	NA	100
-165062	3	9120	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA
-165087	3	9120	habitatmap2023	NA	100
-166005	2	9190	habitatmap2023	NA	100
-166032	2	91E0_vo	assessment_vbi/habitatmap2023	NA	20
-166050	3	9190	manual_check/assessment_vbi	twijfel	NA
-166092	3	9190	assessment_vbi/habitatmap2023	NA	100
-166156	3	9120	manual_check/habitatmap2023	vegopname	NA
-167001	2	9120	habitatmap2023	NA	100
-167132	2	9120	habitatmap2023	NA	100
-167133	2	9120	habitatmap2023	NA	60
-167133	2	91E0	habitatmap2023	NA	20
-167136	2	9120	habitatmap2023	NA	100
-168107	2	9120	habitatmap2023	NA	70
-168107	2	91E0_va	habitatmap2023	NA	30
-168147	2	9190	habitatmap2023	NA	70
-168147	2	91E0_vm	habitatmap2023	NA	30
-171073	2	91E0_vn	habitatmap2023	NA	100
-172012	3	9190	manual_check/assessment_vbi	naaldhout	NA
-172052	3	91E0_vm	assessment_vbi/habitatmap2023	NA	50
-172099	3	9120	habitatmap2023	NA	20
-172099	3	91E0_vm	habitatmap2023	NA	30
-172099	3	91E0_vo	habitatmap2023	NA	50
-172100	3	91E0_vm	assessment_vbi/habitatmap2023	NA	70
-172146	3	91E0_vn	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-173155	3	91E0_vo	assessment_vbi/habitatmap2023	NA	100
-174001	2	91E0_vn	habitatmap2023	NA	20
-174012	2	9190	habitatmap2023	NA	70
-174048	2	91E0_vn	habitatmap2023	NA	70
-174122	2	91E0	habitatmap2023	NA	70
-175007	2	91E0_vn	habitatmap2023	NA	100
-175008	2	91E0_vn	habitatmap2023	NA	100
-175066	2	91E0_vm	habitatmap2023	NA	30
-175068	2	9190	habitatmap2023	NA	10
-175130	2	9190	habitatmap2023	NA	100
-175146	2	91E0_vm	habitatmap2023	NA	100
-175154	2	91E0_va	habitatmap2023	NA	20
-175154	2	91E0_vn	habitatmap2023	NA	20
-176058	3	91E0_vm	assessment_vbi/habitatmap2023	NA	100
-176060	3	91E0_vm	assessment_vbi/habitatmap2023	NA	30
-176117	3	9190	habitatmap2023	NA	10
-176159	3	91E0_vm	assessment_vbi/habitatmap2023	NA	100
-177119	2	9190	habitatmap2023	NA	100
-177120	2	9190	habitatmap2023	NA	100
-177124	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-178012	2	9190	habitatmap2023	NA	90
-178012	2	9190	habitatmap2023	NA	10
-178042	2	9190	habitatmap2023	NA	100
-178147	2	9190	habitatmap2023	NA	30
-181003	2	91E0_vo	habitatmap2023	NA	100
-181035	2	91E0_vn	habitatmap2023	NA	100
-181060	2	91E0_vn	habitatmap2023	NA	70
-181060	2	91E0_vo	habitatmap2023	NA	30
-181085	2	91E0_vn	habitatmap2023	NA	100
-181155	2	9190	habitatmap2023	NA	100
-182143	2	91E0_vm	habitatmap2023	NA	30
-182151	2	9190	habitatmap2023	NA	100
-182152	2	91E0_vm	habitatmap2023	NA	100
-182157	2	9120	habitatmap2023	NA	100
-182158	2	9120	habitatmap2023	NA	30
-182158	2	9190	habitatmap2023	NA	70
-182160	2	91E0_vm	habitatmap2023	NA	100
-183153	3	91E0_vm	assessment_vbi/habitatmap2023	NA	100
-185023	2	9120	habitatmap2023	NA	100
-185047	2	91E0_vc	habitatmap2023	NA	10
-185047	2	91E0_vm	habitatmap2023	NA	60
-185143	2	9120	habitatmap2023	NA	100
-186107	2	91E0_vm	habitatmap2023	NA	100
-186108	2	91E0_vc	habitatmap2023	NA	10
-186108	2	91E0_vm	habitatmap2023	NA	90
-186113	2	91E0	habitatmap2023	NA	30
-186130	2	9120	habitatmap2023	NA	100
-186157	2	9120_qb	habitatmap2023	NA	30
-187001	3	91E0_vm	assessment_vbi/habitatmap2023	NA	80
-187009	3	9190	assessment_vbi/habitatmap2023	NA	100
-187058	3	9120	manual_check/habitatmap2023	vegopname	NA
-187082	3	91E0	manual_check	vegopname	NA
-187124	3	9190	manual_check/assessment_vbi	vegopname	NA
-202023	3	9120	assessment_vbi/habitatmap2023	NA	100
-202040	2	9120	habitatmap2023	NA	100
-203009	3	9120	habitatmap2023	NA	100
-203018	3	9120	manual_check/habitatmap2023	vegopname	NA
-203031	2	9120	habitatmap2023	NA	70
-203031	2	9160	habitatmap2023	NA	30
-203039	2	9120	habitatmap2023	NA	85
-203039	2	9160	habitatmap2023	NA	15
-204022	2	9120	assessment_vbi/habitatmap2023	NA	70
-206047	3	9120	assessment_vbi/habitatmap2023	NA	100
-206086	3	9120	manual_check/habitatmap2023	vegopname	NA
-207011	3	9160	habitatmap2023	NA	70
-207011	3	91E0_va	habitatmap2023	NA	30
-207033	3	9120	manual_check/habitatmap2023	vegopname	NA
-207049	3	9120	manual_check/habitatmap2023	vegopname	NA
-207057	3	9120	assessment_vbi/habitatmap2023	NA	100
-211004	2	9120	habitatmap2023	NA	100
-211096	2	9120	habitatmap2023	NA	100
-211115	2	91E0_va	habitatmap2023	NA	100
-211115	2	91E0_vc	habitatmap2023	NA	0
-212002	2	9120	habitatmap2023	NA	100
-212006	2	9120	habitatmap2023	NA	100
-212018	2	9120	habitatmap2023	NA	100
-212040	2	91E0_va	habitatmap2023	NA	100
-213030	3	9120	assessment_vbi/habitatmap2023	NA	100
-213033	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-213037	3	9120	assessment_vbi/habitatmap2023	NA	100
-213041	3	91E0_va	manual_check/assessment_vbi	vegopname	NA
-213047	3	9120	assessment_vbi/habitatmap2023	NA	100
-213050	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-213067	3	91E0_vn	assessment_vbi/habitatmap2023	NA	100
-213076	3	9120	assessment_vbi/habitatmap2023	NA	100
-214103	2	91E0_va	manual_check/habitatmap2023	91E0vs9160	NA
-215068	2	9120	habitatmap2023	NA	100
-218005	2	9120	assessment_vbi/habitatmap2023	NA	100
-218131	3	91E0_va	manual_check	vegopname	NA
-221010	2	91E0_vm	habitatmap2023	NA	70
-221010	2	91E0_vn	habitatmap2023	NA	30
-221018	2	91E0_va	habitatmap2023	NA	20
-221018	2	91E0_vn	habitatmap2023	NA	80
-222108	2	9120	habitatmap2023	NA	20
-222132	2	91E0_vn	habitatmap2023	NA	100
-223096	2	91E0_vm	habitatmap2023	NA	10
-224080	3	91E0_sf	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-224137	3	91E0_vn	habitatmap2023	NA	100
-225036	2	9120	habitatmap2023	NA	100
-225086	2	9130_end	habitatmap2023	NA	30
-225086	2	91E0_va	habitatmap2023	NA	60
-225086	2	91E0_vc	habitatmap2023	NA	10
-225095	2	9120	habitatmap2023	NA	100
-225096	2	91E0_va	habitatmap2023	NA	100
-225102	2	9130_end	habitatmap2023	NA	70
-225102	2	91E0_va	habitatmap2023	NA	30
-226018	2	91E0_va	habitatmap2023	NA	100
-226019	2	9120	habitatmap2023	NA	100
-226022	2	9120	habitatmap2023	NA	100
-226036	2	91E0_va	habitatmap2023	NA	100
-226044	2	9120	habitatmap2023	NA	100
-226059	2	9130_end	habitatmap2023	NA	30
-226060	2	91E0_va	habitatmap2023	NA	30
-226063	2	9120	habitatmap2023	NA	30
-226063	2	9130_end	habitatmap2023	NA	70
-226119	2	9130_end	habitatmap2023	NA	100
-226120	2	91E0_va	habitatmap2023	NA	100
-226148	2	91E0_va	habitatmap2023	NA	80
-226148	2	91E0_vc	habitatmap2023	NA	15
-226160	2	9130_end	habitatmap2023	NA	70
-226160	2	91E0_va	habitatmap2023	NA	30
-227019	2	9130_end	habitatmap2023	NA	100
-227037	2	9120	habitatmap2023	NA	90
-227037	2	9120_qb	habitatmap2023	NA	10
-227050	2	91E0_va	habitatmap2023	NA	30
-227081	2	91E0_va	habitatmap2023	NA	100
-227142	2	9130_end	habitatmap2023	NA	100
-227153	2	9130_end	habitatmap2023	NA	100
-228022	3	91E0_va	manual_check	vegopname en/of bosleeftijd	NA
-228133	3	91E0_va	manual_check	vegopname en/of bosleeftijd	NA
-228141	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-231103	2	91E0_sf	assessment_vbi/habitatmap2023	NA	100
-232003	2	91E0_vn	habitatmap2023	NA	100
-232010	2	91E0_va	habitatmap2023	NA	20
-232032	2	91E0_vm	habitatmap2023	NA	100
-232060	2	9160	habitatmap2023	NA	100
-232075	2	9120	habitatmap2023	NA	100
-232092	2	9120	habitatmap2023	NA	100
-232093	2	91E0_vn	habitatmap2023	NA	100
-232100	2	9120	habitatmap2023	NA	100
-232153	2	9120	habitatmap2023	NA	100
-232154	2	9120	habitatmap2023	NA	100
-233118	2	91E0_va	habitatmap2023	NA	100
-234013	2	9120	habitatmap2023	NA	70
-234035	2	9120	habitatmap2023	NA	20
-234069	2	9160	habitatmap2023	NA	100
-234112	2	9120	habitatmap2023	NA	100
-234159	2	91E0_vn	habitatmap2023	NA	100
-235082	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-235117	2	9120	habitatmap2023	NA	95
-235117	2	9130_end	habitatmap2023	NA	5
-235125	2	9120	habitatmap2023	NA	100
-235128	2	9120	habitatmap2023	NA	60
-235128	2	9130_end	habitatmap2023	NA	20
-235128	2	91E0_vn	habitatmap2023	NA	20
-235133	2	9120	habitatmap2023	NA	100
-235159	2	91E0_vn	habitatmap2023	NA	100
-236111	2	91E0_va	habitatmap2023	NA	100
-236116	2	9130_end	habitatmap2023	NA	100
-236131	2	9130_end	habitatmap2023	NA	100
-236143	2	91E0_va	habitatmap2023	NA	30
-236143	2	91E0_vn	habitatmap2023	NA	70
-237014	2	91E0_va	habitatmap2023	NA	100
-237029	2	91E0_va	habitatmap2023	NA	70
-237029	2	91E0_vn	habitatmap2023	NA	30
-237042	2	9160	habitatmap2023	NA	100
-237063	2	9120	habitatmap2023	NA	100
-237129	2	9130_end	habitatmap2023	NA	10
-237149	2	91E0_vn	habitatmap2023	NA	100
-237153	2	91E0_vn	habitatmap2023	NA	100
-238002	2	9120	habitatmap2023	NA	25
-238002	2	9160	habitatmap2023	NA	70
-238010	2	91E0_va	habitatmap2023	NA	30
-238025	2	9120	habitatmap2023	NA	60
-238025	2	91E0_vm	habitatmap2023	NA	20
-238046	2	9120_qb	habitatmap2023	NA	20
-238047	2	9120_qb	habitatmap2023	NA	20
-238055	2	9120	habitatmap2023	NA	30
-238064	2	9120	habitatmap2023	NA	30
-238064	2	9160	habitatmap2023	NA	70
-238126	2	9160	habitatmap2023	NA	90
-238140	2	9160	habitatmap2023	NA	100
-238147	2	91E0_va	habitatmap2023	NA	100
-238148	2	9160	habitatmap2023	NA	100
-241019	3	9120	assessment_vbi/habitatmap2023	NA	100
-241090	3	9120	habitatmap2023	NA	20
-241090	3	9160	habitatmap2023	NA	60
-241090	3	91E0_va	habitatmap2023	NA	20
-241122	3	91E0_vn	manual_check	ghvs91E0_vn	NA
-241139	3	91E0_vm	assessment_vbi/habitatmap2023	NA	100
-242003	3	9160	manual_check/habitatmap2023	fout habkaart, polygoongrens	NA
-242128	2	9120	habitatmap2023	NA	40
-243024	2	91E0_vm	habitatmap2023	NA	100
-243032	2	91E0_vn	habitatmap2023	NA	20
-243042	2	9120	habitatmap2023	NA	100
-243048	2	9160	habitatmap2023	NA	100
-243051	2	9160	habitatmap2023	NA	100
-243055	2	9190	habitatmap2023	NA	80
-243055	2	91E0_vm	habitatmap2023	NA	20
-243062	2	9120	habitatmap2023	NA	30
-243070	2	9120	habitatmap2023	NA	20
-243074	2	9120	habitatmap2023	NA	100
-243077	2	9190	habitatmap2023	NA	100
-243082	2	9160	habitatmap2023	NA	100
-243094	2	91E0_va	habitatmap2023	NA	100
-243102	2	9120	habitatmap2023	NA	20
-243113	2	9120_qb	habitatmap2023	NA	40
-243118	2	91E0_va	habitatmap2023	NA	30
-243118	2	91E0_vm	habitatmap2023	NA	70
-243127	2	91E0_vm	habitatmap2023	NA	100
-243134	2	91E0_vm	habitatmap2023	NA	100
-243140	2	9120_qb	habitatmap2023	NA	100
-243148	2	9120	habitatmap2023	NA	80
-243148	2	9160	habitatmap2023	NA	20
-244003	2	91E0_vm	habitatmap2023	NA	10
-244006	2	91E0_vm	habitatmap2023	NA	100
-244017	2	91E0_vn	habitatmap2023	NA	70
-244018	2	91E0_vn	habitatmap2023	NA	100
-244053	2	9120	habitatmap2023	NA	100
-244137	2	9120	habitatmap2023	NA	100
-245010	3	91E0_vn	manual_check/habitatmap2023	vegopname	NA
-245075	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-245085	3	9130	manual_check/assessment_vbi	buiten areaal 9130	NA
-245086	3	9160	manual_check/habitatmap2023	buiten areaal 9130	NA
-245100	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-245122	3	9160	assessment_vbi/habitatmap2023	NA	100
-245123	3	9160	assessment_vbi/habitatmap2023	NA	100
-245133	3	9160	manual_check/habitatmap2023	buiten areaal 9130	NA
-245147	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-245148	3	9160	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-245155	3	9160	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-245159	3	9160	assessment_vbi/habitatmap2023	NA	100
-246058	3	91E0_vn	manual_check/habitatmap2023	vegopname	NA
-246088	2	9120	habitatmap2023	NA	20
-246088	2	9190	habitatmap2023	NA	80
-246119	2	9160	habitatmap2023	NA	100
-246120	2	9160	habitatmap2023	NA	60
-246152	2	9120	habitatmap2023	NA	100
-246159	2	9120	habitatmap2023	NA	100
-247004	2	9190	habitatmap2023	NA	100
-247049	2	91E0_vm	habitatmap2023	NA	30
-247049	2	91E0_vo	habitatmap2023	NA	70
-247051	2	9120	habitatmap2023	NA	80
-247057	2	9120_qb	habitatmap2023	NA	100
-247068	2	9120	habitatmap2023	NA	100
-247080	2	9120	habitatmap2023	NA	100
-247082	2	9120_qb	habitatmap2023	NA	70
-247090	2	9120_qb	habitatmap2023	NA	100
-247096	2	9120	habitatmap2023	NA	20
-247100	2	9120	habitatmap2023	NA	90
-247100	2	9160	habitatmap2023	NA	10
-247109	2	9190	habitatmap2023	NA	85
-247109	2	91E0_vo	habitatmap2023	NA	15
-247112	2	91E0_va	habitatmap2023	NA	100
-247115	2	9160	habitatmap2023	NA	60
-247120	2	91E0_va	habitatmap2023	NA	20
-247120	2	91E0_vm	habitatmap2023	NA	80
-247121	2	9160	habitatmap2023	NA	100
-247127	2	9120	habitatmap2023	NA	10
-247127	2	9160	habitatmap2023	NA	40
-247127	2	91E0_vm	habitatmap2023	NA	50
-247136	2	9120	habitatmap2023	NA	100
-247143	2	9160	habitatmap2023	NA	100
-247150	2	9120	habitatmap2023	NA	100
-247158	2	9120	habitatmap2023	NA	70
-247158	2	9190	habitatmap2023	NA	30
-248026	2	91E0_va	habitatmap2023	NA	100
-248113	2	91E0_va	habitatmap2023	NA	20
-248113	2	91E0_vm	habitatmap2023	NA	10
-248121	2	9160	habitatmap2023	NA	100
-248132	2	9120	habitatmap2023	NA	100
-248135	2	9160	habitatmap2023	NA	70
-248135	2	91E0_va	habitatmap2023	NA	30
-251027	2	91E0_vm	habitatmap2023	NA	70
-251112	2	91E0_vm	habitatmap2023	NA	100
-251116	2	9120	habitatmap2023	NA	20
-252015	3	91E0_vm	habitatmap2023	NA	100
-252044	3	9120	manual_check	9120vs9190	NA
-252089	3	91E0_vm	habitatmap2023	NA	30
-252090	3	91E0_vm	assessment_vbi/habitatmap2023	NA	30
-253102	2	91E0_vn	habitatmap2023	NA	100
-253104	2	91E0_vm	habitatmap2023	NA	100
-253142	2	9190	habitatmap2023	NA	70
-253142	2	91E0_vm	habitatmap2023	NA	30
-253151	2	91E0_vo	manual_check/habitatmap2023	vegopname	NA
-253157	2	91E0_vm	manual_check/habitatmap2023	vegopname	NA
-253158	2	9120	manual_check/habitatmap2023	vegopname	NA
-254066	2	9120	habitatmap2023	NA	100
-254067	2	9120	habitatmap2023	NA	80
-254068	2	91E0_vm	habitatmap2023	NA	80
-254074	2	91E0_vm	habitatmap2023	NA	100
-254093	2	9190	habitatmap2023	NA	100
-254103	2	9120	habitatmap2023	NA	100
-254110	2	9120	habitatmap2023	NA	100
-254125	2	91E0_vm	habitatmap2023	NA	100
-254129	2	91E0_vm	habitatmap2023	NA	10
-255017	2	91E0_vm	habitatmap2023	NA	100
-255063	2	9120	habitatmap2023	NA	100
-255068	2	9120	habitatmap2023	NA	100
-255105	2	9120	habitatmap2023	NA	100
-255107	2	9160	habitatmap2023	NA	70
-255123	2	9120	habitatmap2023	NA	20
-255123	2	9160	habitatmap2023	NA	20
-255123	2	91E0_va	habitatmap2023	NA	60
-255148	2	9120	habitatmap2023	NA	70
-255148	2	9160	habitatmap2023	NA	30
-255158	2	91E0_va	habitatmap2023	NA	100
-256047	3	9190	manual_check/habitatmap2023	vegopname	NA
-256091	3	9120	manual_check/assessment_vbi	vegopname	NA
-256110	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-256127	3	9120	manual_check	vegopname	NA
-257002	3	91E0_vm	habitatmap2023	NA	30
-257003	3	91E0_vo	manual_check/assessment_vbi	vegopname	NA
-257006	2	9120	habitatmap2023	NA	70
-257011	3	9190	assessment_vbi/habitatmap2023	NA	100
-257027	3	91E0_vn	manual_check/assessment_vbi	vegopname	NA
-257039	2	91E0_vo	habitatmap2023	NA	40
-257045	2	91E0_vm	manual_check	vegopname	NA
-257050	3	91E0_vn	manual_check/assessment_vbi	vegopname	NA
-257057	3	91E0_vn	manual_check/assessment_vbi	twijfel	NA
-257071	2	91E0_vm	manual_check/habitatmap2023	vegopname	NA
-257082	3	91E0_vn	manual_check/assessment_vbi	twijfel	NA
-257106	3	91E0_va	manual_check/assessment_vbi	juiste locatie?	NA
-258029	2	91E0_vo	habitatmap2023	NA	100
-258040	2	91E0_vo	habitatmap2023	NA	10
-258049	2	91E0_vn	habitatmap2023	NA	70
-258061	2	9120	habitatmap2023	NA	100
-258076	2	9120	habitatmap2023	NA	50
-258076	2	9190	habitatmap2023	NA	50
-261013	2	91E0_vm	habitatmap2023	NA	100
-261021	2	91E0_vm	habitatmap2023	NA	10
-261075	2	9190	habitatmap2023	NA	100
-261108	2	9190	habitatmap2023	NA	50
-261126	2	9190	habitatmap2023	NA	100
-261144	2	91E0_vo	habitatmap2023	NA	100
-261154	2	9190	habitatmap2023	NA	20
-262049	2	9190	habitatmap2023	NA	70
-262079	2	9190	habitatmap2023	NA	30
-262083	2	91E0_vc	habitatmap2023	NA	10
-262083	2	91E0_vm	habitatmap2023	NA	60
-262095	2	9190	habitatmap2023	NA	30
-262104	2	9190	habitatmap2023	NA	100
-263020	3	9190	manual_check/habitatmap2023	vegopname	NA
-265063	2	9190	habitatmap2023	NA	100
-265130	2	91E0_vo	habitatmap2023	NA	25
-266002	2	9190	habitatmap2023	NA	100
-266010	2	9190	habitatmap2023	NA	100
-266037	2	9190	habitatmap2023	NA	80
-266054	2	9190	habitatmap2023	NA	100
-266104	2	9190	habitatmap2023	NA	100
-266112	2	9120	habitatmap2023	NA	100
-266133	2	9120	habitatmap2023	NA	100
-274006	2	9120	habitatmap2023	NA	100
-274116	2	9130_end	habitatmap2023	NA	100
-282096	2	9120	habitatmap2023	NA	70
-282112	3	9120	assessment_vbi/habitatmap2023	NA	100
-282143	3	9120	manual_check/assessment_vbi	vegopname	NA
-282150	3	9120	assessment_vbi/habitatmap2023	NA	100
-282151	3	9120	assessment_vbi/habitatmap2023	NA	100
-285027	2	9130_end	habitatmap2023	NA	100
-285062	2	9130_end	habitatmap2023	NA	100
-286027	3	9120	assessment_vbi/habitatmap2023	NA	100
-293064	3	9130_end	manual_check/habitatmap2023	ok	NA
-293069	3	9120	assessment_vbi/habitatmap2023	NA	100
-293128	3	9130_end	manual_check/habitatmap2023	ok	NA
-296073	2	9130_end	habitatmap2023	NA	100
-296124	2	9130_end	habitatmap2023	NA	100
-297095	3	9130_end	assessment_vbi/habitatmap2023	NA	60
-297096	3	91E0_vc	assessment_vbi/habitatmap2023	NA	100
-297103	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-297104	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-298053	2	9130_end	assessment_vbi/habitatmap2023	NA	100
-298075	3	91E0_va	manual_check	fout habkaart, polygoongrens	NA
-298088	2	9130_end	manual_check/assessment_vbi	vegopname	NA
-298100	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-301008	2	9130_end	habitatmap2023	NA	100
-301014	2	9120	habitatmap2023	NA	100
-301015	2	91E0_va	habitatmap2023	NA	100
-301022	2	9120	habitatmap2023	NA	100
-301022	2	91E0_vc	habitatmap2023	NA	0
-301029	2	91E0_va	habitatmap2023	NA	100
-301097	2	9130_end	habitatmap2023	NA	100
-301153	2	9130_end	habitatmap2023	NA	100
-302006	2	9130_end	habitatmap2023	NA	60
-302006	2	91E0_va	habitatmap2023	NA	40
-302008	2	9130_end	habitatmap2023	NA	100
-302116	2	91E0_vc	habitatmap2023	NA	20
-303012	2	91E0_va	habitatmap2023	NA	100
-303039	2	91E0_vn	habitatmap2023	NA	100
-303045	2	91E0_va	habitatmap2023	NA	70
-304015	3	91E0_va	habitatmap2023	NA	100
-304023	3	91E0_vm	assessment_vbi/habitatmap2023	NA	30
-304044	3	91E0_va	manual_check/assessment_vbi	vegopname	NA
-304051	3	91E0_vn	habitatmap2023	NA	100
-304082	3	91E0_va	manual_check/assessment_vbi	vegopname	NA
-305002	2	91E0_va	habitatmap2023	NA	100
-305076	2	9130_end	habitatmap2023	NA	100
-305082	2	9130_end	habitatmap2023	NA	20
-305082	2	91E0_va	habitatmap2023	NA	80
-305086	2	9130_end	habitatmap2023	NA	95
-305086	2	91E0_vc	habitatmap2023	NA	5
-305094	2	9130_end	habitatmap2023	NA	100
-305097	2	9120	habitatmap2023	NA	50
-305097	2	9130_end	habitatmap2023	NA	50
-305098	2	9130_end	habitatmap2023	NA	100
-306012	2	9130_end	habitatmap2023	NA	100
-306081	2	9120	habitatmap2023	NA	70
-306081	2	9130_end	habitatmap2023	NA	30
-306098	2	9130_end	habitatmap2023	NA	100
-307014	2	91E0_vn	habitatmap2023	NA	100
-307038	2	91E0_vn	habitatmap2023	NA	100
-307058	2	91E0_vn	habitatmap2023	NA	100
-307086	2	9120	habitatmap2023	NA	30
-307086	2	9130_end	habitatmap2023	NA	70
-307110	2	91E0_va	habitatmap2023	NA	100
-307113	2	9130_end	habitatmap2023	NA	100
-307122	2	9130_end	habitatmap2023	NA	100
-308014	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-308015	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-308023	3	9130_end	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA
-308069	3	91E0_va	habitatmap2023	NA	100
-308077	3	91E0_vc	assessment_vbi/habitatmap2023	NA	100
-308093	3	9130_end	manual_check	vegopname	NA
-308101	3	9130_end	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA
-311027	3	91E0_vc	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-311043	3	91E0_va	manual_check	vegopname	NA
-311049	3	91E0_vn	habitatmap2023	NA	100
-311074	3	9130_end	manual_check/assessment_vbi	vegopname	NA
-311133	2	91E0_va	habitatmap2023	NA	30
-312033	2	91E0_va	habitatmap2023	NA	100
-312042	2	91E0_va	habitatmap2023	NA	70
-312042	2	91E0_vc	habitatmap2023	NA	30
-312081	2	91E0_va	habitatmap2023	NA	70
-312081	2	91E0_vn	habitatmap2023	NA	30
-312108	2	91E0_va	habitatmap2023	NA	100
-312108	2	91E0_vc	habitatmap2023	NA	0
-312108	2	91E0_vm	habitatmap2023	NA	0
-314072	2	9120	habitatmap2023	NA	100
-314079	2	9120	habitatmap2023	NA	100
-314080	2	9120	habitatmap2023	NA	100
-314092	2	9120	habitatmap2023	NA	100
-314150	2	9160	habitatmap2023	NA	20
-314151	2	9120	habitatmap2023	NA	100
-314152	2	9120	habitatmap2023	NA	100
-314159	2	9120	habitatmap2023	NA	100
-315010	3	91E0_vn	manual_check/assessment_vbi	vegopname	NA
-315018	3	91E0_vn	manual_check/habitatmap2023	vegopname	NA
-315056	2	9130_end	habitatmap2023	NA	100
-315062	2	91E0_va	habitatmap2023	NA	100
-315063	2	91E0_va	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA
-315120	2	9120	habitatmap2023	NA	70
-315120	2	9130_end	habitatmap2023	NA	30
-316065	2	91E0_va	habitatmap2023	NA	60
-316065	2	91E0_vc	habitatmap2023	NA	40
-316066	2	91E0_va	habitatmap2023	NA	95
-316066	2	91E0_vc	habitatmap2023	NA	5
-316105	2	91E0_va	habitatmap2023	NA	100
-317088	2	9120	habitatmap2023	NA	100
-317090	2	9130_end	habitatmap2023	NA	85
-317090	2	91E0_va	habitatmap2023	NA	15
-317095	2	9120	habitatmap2023	NA	100
-317096	2	9120	habitatmap2023	NA	100
-317102	2	9120	habitatmap2023	NA	100
-317103	2	9160	habitatmap2023	NA	100
-317104	2	9120	habitatmap2023	NA	100
-317105	2	9130_end	habitatmap2023	NA	100
-317106	2	9130_end	habitatmap2023	NA	100
-317110	2	9120	habitatmap2023	NA	100
-317111	2	9120	habitatmap2023	NA	100
-317112	2	9160	habitatmap2023	NA	100
-317119	2	9120	habitatmap2023	NA	100
-317120	2	9120	habitatmap2023	NA	100
-317126	2	9120	habitatmap2023	NA	100
-317127	2	9120	habitatmap2023	NA	100
-317128	2	9120	habitatmap2023	NA	100
-317135	2	9120	habitatmap2023	NA	100
-317136	2	9120	habitatmap2023	NA	100
-317143	2	9120	habitatmap2023	NA	100
-317144	2	9120	habitatmap2023	NA	100
-317155	2	9120	habitatmap2023	NA	70
-318004	2	9120	habitatmap2023	NA	100
-318011	2	9120	habitatmap2023	NA	100
-318012	2	9120	habitatmap2023	NA	100
-318015	2	9120	habitatmap2023	NA	100
-318018	2	9120	habitatmap2023	NA	30
-318019	2	9120	habitatmap2023	NA	100
-318022	2	9120	habitatmap2023	NA	100
-318027	2	9120	habitatmap2023	NA	100
-318028	2	9120	habitatmap2023	NA	100
-318029	2	9120	habitatmap2023	NA	100
-318030	2	9120	habitatmap2023	NA	100
-318035	2	9120	habitatmap2023	NA	100
-318036	2	9120	habitatmap2023	NA	100
-318038	2	9120	habitatmap2023	NA	100
-318039	2	9120	habitatmap2023	NA	100
-318044	2	9120	habitatmap2023	NA	100
-318077	2	9120	habitatmap2023	NA	100
-318081	2	9120	habitatmap2023	NA	100
-318082	2	9120	habitatmap2023	NA	100
-318089	2	9120	habitatmap2023	NA	100
-318090	2	9120	habitatmap2023	NA	100
-318092	2	9120	habitatmap2023	NA	100
-318097	2	9120	habitatmap2023	NA	100
-318098	2	91E0_vn	habitatmap2023	NA	100
-318103	2	9120	habitatmap2023	NA	100
-318106	2	9120	habitatmap2023	NA	100
-318114	2	9120	habitatmap2023	NA	100
-318121	2	9120	habitatmap2023	NA	100
-318122	2	9120	habitatmap2023	NA	100
-318129	2	9120	habitatmap2023	NA	100
-318137	2	9120	habitatmap2023	NA	100
-321005	3	91E0_va	manual_check/habitatmap2023	vegopname	NA
-321007	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-321036	3	91E0_vm	assessment_vbi/habitatmap2023	NA	30
-321038	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-321042	3	9160	manual_check/habitatmap2023	vegopname	NA
-321043	3	9160	manual_check/habitatmap2023	vegopname	NA
-321049	3	9120	assessment_vbi/habitatmap2023	NA	100
-321053	3	9120	manual_check/habitatmap2023	vegopname	NA
-321054	3	9160	assessment_vbi/habitatmap2023	NA	15
-321055	3	9120	manual_check/habitatmap2023	vegopname	NA
-321081	3	9120	assessment_vbi/habitatmap2023	NA	5
-321082	3	9120	assessment_vbi/habitatmap2023	NA	100
-321120	3	91E0_vm	assessment_vbi/habitatmap2023	NA	25
-321132	3	9120	assessment_vbi/habitatmap2023	NA	100
-321140	3	9120	assessment_vbi/habitatmap2023	NA	100
-321148	3	9120	assessment_vbi/habitatmap2023	NA	100
-321156	3	9120	assessment_vbi/habitatmap2023	NA	100
-321159	3	91E0_vm	manual_check/habitatmap2023	vegopname	NA
-322006	2	9120	habitatmap2023	NA	30
-322007	2	9120	habitatmap2023	NA	70
-322008	2	9120_qb	habitatmap2023	NA	30
-322056	2	9120	habitatmap2023	NA	30
-322097	3	91E0_vm	manual_check/habitatmap2023	vegopname	NA
-322106	3	9120	assessment_vbi/habitatmap2023	NA	100
-322112	2	91E0_va	habitatmap2023	NA	100
-322116	3	9160	manual_check/assessment_vbi	twijfel	NA
-322131	3	9120	assessment_vbi/habitatmap2023	NA	20
-322138	3	9120	assessment_vbi/habitatmap2023	NA	70
-322146	3	9120	assessment_vbi/habitatmap2023	NA	100
-323044	2	9160	habitatmap2023	NA	30
-323044	2	91E0_va	habitatmap2023	NA	70
-323047	2	9120	habitatmap2023	NA	30
-323047	2	9160	habitatmap2023	NA	70
-323049	2	9120	habitatmap2023	NA	100
-323079	2	91E0_va	habitatmap2023	NA	100
-323109	2	9120_qb	habitatmap2023	NA	100
-323131	2	9120	habitatmap2023	NA	100
-323148	2	9160	habitatmap2023	NA	100
-324007	2	9120	habitatmap2023	NA	100
-324016	2	9160	habitatmap2023	NA	100
-324024	2	9160	habitatmap2023	NA	100
-324036	2	9120	habitatmap2023	NA	70
-324036	2	9160	habitatmap2023	NA	30
-324043	2	9120	habitatmap2023	NA	100
-324058	2	91E0_va	habitatmap2023	NA	20
-324060	2	9120	habitatmap2023	NA	100
-324071	2	9160	habitatmap2023	NA	100
-324075	2	9120	habitatmap2023	NA	100
-325007	3	9160	assessment_vbi/habitatmap2023	NA	30
-325016	3	91E0_va	manual_check/habitatmap2023	vegopname	NA
-325020	3	9120	manual_check/habitatmap2023	vegopname	NA
-325022	3	9130_end	manual_check/habitatmap2023	vegopname	NA
-325028	3	9120	habitatmap2023	NA	100
-325066	3	91E0_va	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-325071	3	91E0_vn	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA
-325078	3	91E0_va	manual_check/habitatmap2023	vegopname	NA
-325093	3	91E0_vn	manual_check/assessment_vbi	vegopname	NA
-325101	3	9120	manual_check/habitatmap2023	vegopname	NA
-325120	3	91E0_vn	manual_check	vegopname en/of bosleeftijd	NA
-326012	3	9120	assessment_vbi/habitatmap2023	NA	90
-326016	2	91E0_va	habitatmap2023	NA	60
-326016	2	91E0_vm	habitatmap2023	NA	40
-326017	3	9120	habitatmap2023	NA	100
-326020	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-326021	2	9120	habitatmap2023	NA	20
-326021	2	9190	habitatmap2023	NA	80
-326022	2	9120	habitatmap2023	NA	70
-326022	2	9190	habitatmap2023	NA	30
-326026	3	9120	assessment_vbi/habitatmap2023	NA	100
-326027	3	9120	assessment_vbi/habitatmap2023	NA	50
-326028	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd, twijfel mogelijk	NA
-326029	2	9120	habitatmap2023	NA	100
-326030	2	9120	habitatmap2023	NA	100
-326034	3	9190	manual_check/habitatmap2023	vegopname	NA
-326035	3	9160	assessment_vbi/habitatmap2023	NA	100
-326036	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd, twijfel mogelijk	NA
-326037	2	9120	habitatmap2023	NA	100
-326038	2	9120	habitatmap2023	NA	100
-326041	3	9120	assessment_vbi/habitatmap2023	NA	100
-326042	3	9120	manual_check/habitatmap2023	vegopname	NA
-326043	3	9160	assessment_vbi/habitatmap2023	NA	100
-326044	3	9160	assessment_vbi/habitatmap2023	NA	100
-326045	2	9160	habitatmap2023	NA	100
-326051	3	9120	manual_check/habitatmap2023	vegopname	NA
-331002	2	9160	habitatmap2023	NA	100
-331082	2	9120	habitatmap2023	NA	100
-332061	3	9120	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA
-332087	2	9120	habitatmap2023	NA	50
-332087	2	9160	habitatmap2023	NA	30
-332096	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-332104	3	91E0_vm	assessment_vbi/habitatmap2023	NA	30
-332116	3	91E0_vn	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA
-332123	3	9120	assessment_vbi/habitatmap2023	NA	100
-332134	3	9160	manual_check/assessment_vbi	vegopname	NA
-332138	3	9120	manual_check/habitatmap2023	vegopname	NA
-332150	3	91E0_vn	manual_check	vegopname	NA
-334055	2	9190	habitatmap2023	NA	100
-334063	2	9160	habitatmap2023	NA	30
-334108	2	9120	habitatmap2023	NA	70
-334108	2	9160	habitatmap2023	NA	30
-335037	2	91E0_va	habitatmap2023	NA	100
-336040	3	91E0_vn	manual_check	vegopname	NA
-336078	3	9160	assessment_vbi/habitatmap2023	NA	100
-337110	2	91E0_va	habitatmap2023	NA	20
-337135	2	9120	habitatmap2023	NA	70
-337135	2	9160	habitatmap2023	NA	30
-337146	3	9160	manual_check/assessment_vbi	vegopname	NA
-341022	2	9120	habitatmap2023	NA	100
-341047	2	9120	habitatmap2023	NA	100
-341100	2	91E0	habitatmap2023	NA	60
-341109	2	9160	habitatmap2023	NA	70
-341121	2	9120	habitatmap2023	NA	100
-341137	2	9160	habitatmap2023	NA	20
-341137	2	91E0_va	habitatmap2023	NA	60
-341145	2	9160	habitatmap2023	NA	100
-345004	2	91E0_va	habitatmap2023	NA	5
-345004	2	91E0_vm	habitatmap2023	NA	95
-347088	3	9120	manual_check/habitatmap2023	vegopname	NA
-347104	3	9130	manual_check/assessment_vbi	vegopname	NA
-348095	2	9110	habitatmap2023	NA	100
-348103	2	9110	habitatmap2023	NA	100
-348116	3	9160	assessment_vbi/habitatmap2023	NA	100
-348125	2	9110	habitatmap2023	NA	100
-348129	3	9120	manual_check/habitatmap2023	9120vs9190	NA
-348133	2	9110	habitatmap2023	NA	100
-348136	2	91E0_vc	assessment_vbi/habitatmap2023	NA	5
-348139	3	9110	assessment_vbi/habitatmap2023	NA	100
-348140	3	9110	manual_check/habitatmap2023	vegopname	NA
-348149	2	9160	habitatmap2023	NA	100
-348156	3	9110	assessment_vbi/habitatmap2023	NA	100
-374008	2	91E0_va	manual_check/habitatmap2023	vegopname	NA
-383011	2	91E0_va	habitatmap2023	NA	30
-383011	2	91E0_vc	habitatmap2023	NA	70
-384016	3	9130_end	manual_check/habitatmap2023	vegopname	NA
-384030	3	9130_end	manual_check/assessment_vbi	vegopname	NA
-384032	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-391033	3	9130_end	assessment_vbi/habitatmap2023	NA	100
-392005	2	9120	habitatmap2023	NA	70
-392005	2	9130_end	habitatmap2023	NA	30
-392014	2	9130_end	habitatmap2023	NA	45
-392014	2	91E0_va	habitatmap2023	NA	50
-392014	2	91E0_vc	habitatmap2023	NA	5
-392037	2	9120	habitatmap2023	NA	70
-392037	2	9130_end	habitatmap2023	NA	30
-392040	2	9120	habitatmap2023	NA	95
-392040	2	9130_end	habitatmap2023	NA	5
-392046	2	9130_end	habitatmap2023	NA	100
-392047	2	9130_end	habitatmap2023	NA	100
-392054	2	9130_end	habitatmap2023	NA	100
-392055	2	9130_end	habitatmap2023	NA	100
-392059	2	9130_end	habitatmap2023	NA	100
-392060	2	9130_end	habitatmap2023	NA	100
-392063	2	9130_end	habitatmap2023	NA	100
-392067	2	9130_end	habitatmap2023	NA	100
-413019	3	9160	habitatmap2023	NA	100
+plot_id	source	note_manual_check	phab	date_dendro	vbi_cycle	type_observed
+17144	habitatmap2023	NA	30	2014	2	91E0
+26148	habitatmap2023	NA	100	2010	2	9120
+27131	habitatmap2023	NA	30	2017	2	9190
+27156	habitatmap2023	NA	30	2017	2	9120
+27156	habitatmap2023	NA	70	2017	2	9120_qb
+35106	habitatmap2023	NA	100	2013	2	91E0_vm
+35106	assessment_vbi/habitatmap2023	NA	100	2024	3	91E0_vm
+35114	habitatmap2023	NA	100	2013	2	9120
+35114	manual_check/habitatmap2023	vegopname	NA	2024	3	9120
+35149	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2023	3	gh
+74049	habitatmap2023	NA	100	2014	2	91E0_vo
+74049	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_vo
+74050	habitatmap2023	NA	50	2014	2	9190
+74050	assessment_vbi/habitatmap2023	NA	50	2024	3	9190
+74067	habitatmap2023	NA	30	2014	2	9120
+74067	habitatmap2023	NA	70	2014	2	9190
+74067	assessment_vbi/habitatmap2023	NA	70	2024	3	9190
+74072	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2023	3	gh
+74090	habitatmap2023	NA	100	2014	2	9190
+74143	habitatmap2023	NA	100	2013	2	9120
+74143	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+77038	habitatmap2023	NA	70	2014	2	9190
+77040	habitatmap2023	NA	100	2014	2	9190
+77048	habitatmap2023	NA	30	2014	2	9120
+78005	manual_check	vegopname, bosleeftijd	NA	2022	3	gh
+78033	habitatmap2023	NA	100	2014	2	9190
+78033	manual_check/habitatmap2023	twijfel, bosleeftijd	NA	2024	3	9190
+78037	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	9190
+78038	manual_check	vegopname, bosleeftijd	NA	2023	3	gh
+78041	habitatmap2023	NA	100	2014	2	9190
+78044	habitatmap2023	NA	50	2014	2	9190
+78044	assessment_vbi/habitatmap2023	NA	50	2023	3	9190
+78046	habitatmap2023	NA	100	2012	2	9190
+78046	assessment_vbi/habitatmap2023	NA	100	2023	3	9190
+78059	habitatmap2023	NA	100	2014	2	9190
+78060	habitatmap2023	NA	100	2014	2	9190
+78133	habitatmap2023	NA	100	2013	2	9120
+78133	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+78135	habitatmap2023	NA	50	2013	2	9190
+78135	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2023	3	9190
+78148	habitatmap2023	NA	100	2014	2	9120
+78148	manual_check/assessment_vbi	vegopname, bosleeftijd	NA	2023	3	gh
+78156	habitatmap2023	NA	100	2014	2	9120
+78156	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+81133	assessment_vbi/habitatmap2023	NA	70	2021	3	9190
+82126	habitatmap2023	NA	100	2018	2	9120_qb
+83070	habitatmap2023	NA	100	2015	2	91E0_vm
+83116	habitatmap2023	NA	50	2017	2	9190
+83121	habitatmap2023	NA	0	2017	2	91E0_va
+83121	habitatmap2023	NA	100	2017	2	91E0_vn
+83147	habitatmap2023	NA	100	2017	2	9120
+84016	habitatmap2023	NA	100	2014	2	91E0_vn
+85064	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2021	3	9190
+85126	habitatmap2023	NA	70	2011	2	9120_qb
+85147	manual_check/habitatmap2023	vegopname	NA	2022	3	9120
+85155	assessment_vbi/habitatmap2023	NA	50	2022	3	9190
+85156	manual_check/assessment_vbi	twijfel	NA	2022	3	9190
+86044	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	9190
+86117	manual_check/habitatmap2023	9120vs9190	NA	2018	2	9120
+86134	manual_check/habitatmap2023	9120vs9190	NA	2017	2	9120
+86136	manual_check/habitatmap2023	9120vs9190	NA	2018	2	9120
+86141	assessment_vbi/habitatmap2023	NA	100	2017	2	9120
+86142	assessment_vbi/habitatmap2023	NA	100	2017	2	9190
+86144	habitatmap2023	NA	100	2018	2	9120
+86149	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2018	2	9120
+87010	habitatmap2023	NA	100	2017	2	9190
+87119	habitatmap2023	NA	90	2016	2	9120
+87119	habitatmap2023	NA	10	2016	2	9190
+87123	habitatmap2023	NA	0	2017	2	9120
+87123	habitatmap2023	NA	60	2017	2	91E0_vn
+87127	habitatmap2023	NA	100	2015	2	9190
+87131	habitatmap2023	NA	0	2017	2	9120
+87131	habitatmap2023	NA	100	2017	2	91E0_vn
+87135	habitatmap2023	NA	100	2015	2	9120
+88040	habitatmap2023	NA	100	2014	2	9190
+88092	habitatmap2023	NA	30	2015	2	9160
+88113	habitatmap2023	NA	100	2014	2	9120
+88121	habitatmap2023	NA	100	2014	2	9120
+88123	habitatmap2023	NA	95	2014	2	9190
+88129	habitatmap2023	NA	100	2014	2	9120
+88134	habitatmap2023	NA	70	2014	2	9190
+88144	habitatmap2023	NA	100	2014	2	91E0_vm
+88155	habitatmap2023	NA	100	2014	2	9190
+88156	habitatmap2023	NA	100	2015	2	91E0_vm
+88160	habitatmap2023	NA	80	2014	2	91E0_vm
+88160	habitatmap2023	NA	20	2014	2	91E0_vo
+91017	habitatmap2023	NA	50	2013	2	9190
+91025	habitatmap2023	NA	30	2013	2	9190
+91091	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2024	3	gh
+91108	habitatmap2023	NA	30	2013	2	9190
+91116	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2024	3	gh
+91123	habitatmap2023	NA	30	2013	2	9190
+91139	manual_check/habitatmap2023	naaldhout, vegopname, bosleeftijd	NA	2024	3	gh
+91143	habitatmap2023	NA	100	2013	2	9190
+91143	assessment_vbi/habitatmap2023	NA	100	2023	3	9190
+91145	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2024	3	gh
+95001	habitatmap2023	NA	100	2013	2	9190
+95001	manual_check/habitatmap2023	vegopname	NA	2024	3	9190
+95004	habitatmap2023	NA	10	2013	2	9190
+95004	assessment_vbi/habitatmap2023	NA	10	2024	3	9190
+95011	habitatmap2023	NA	20	2013	2	9190
+95011	assessment_vbi/habitatmap2023	NA	20	2024	3	9190
+95030	habitatmap2023	NA	20	2012	2	9190
+95030	assessment_vbi/habitatmap2023	NA	20	2023	3	9190
+95033	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2024	3	gh
+95041	habitatmap2023	NA	100	2014	2	91E0_vo
+95041	manual_check/habitatmap2023	vegopname	NA	2024	3	91E0_vo
+96103	manual_check/assessment_vbi	vegopname	NA	2020	3	9190
+96124	manual_check/habitatmap2023	9120vs9190	NA	2021	3	9190
+124152	assessment_vbi/habitatmap2023	NA	70	2017	2	9120
+128016	habitatmap2023	NA	100	2018	2	9120
+128039	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA	2018	2	9120
+128138	habitatmap2023	NA	100	2017	2	9120
+128147	habitatmap2023	NA	100	2017	2	9120
+131044	habitatmap2023	NA	100	2015	2	9120
+131159	habitatmap2023	NA	100	2014	2	91E0_vn
+132097	habitatmap2023	NA	100	2014	2	9120
+132097	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+132103	manual_check/assessment_vbi	vegopname, bodemkaart	NA	2022	3	9190
+132138	manual_check/assessment_vbi	vegopname	NA	2023	3	9120
+133153	manual_check/habitatmap2023	buiten areaal 9130	NA	2021	3	91E0_va
+134040	assessment_vbi/habitatmap2023	NA	100	2017	2	9120
+134128	assessment_vbi/habitatmap2023	NA	100	2018	2	9120
+135054	habitatmap2023	NA	100	2014	2	91E0_va
+135069	habitatmap2023	NA	100	2014	2	9120
+135081	habitatmap2023	NA	100	2015	2	9120
+135082	habitatmap2023	NA	100	2015	2	9120
+135083	habitatmap2023	NA	85	2015	2	9120
+135083	habitatmap2023	NA	15	2015	2	91E0_vn
+135098	habitatmap2023	NA	100	2015	2	9120
+135099	habitatmap2023	NA	100	2015	2	9120
+135102	habitatmap2023	NA	100	2014	2	9120
+135118	habitatmap2023	NA	100	2014	2	9160
+135132	habitatmap2023	NA	100	2015	2	9120
+136007	manual_check/habitatmap2023	vegopname, bodemkaart	NA	2022	3	9120
+136040	habitatmap2023	NA	100	2012	2	9120
+136040	manual_check/habitatmap2023	vegopname, bodemkaart	NA	2022	3	9120
+136102	habitatmap2023	NA	100	2012	2	9120
+136102	manual_check/habitatmap2023	vegopname, bodemkaart	NA	2023	3	9120
+136108	manual_check	vegopname	NA	2023	3	9120
+136113	habitatmap2023	NA	100	2013	2	9120
+136113	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+136114	habitatmap2023	NA	100	2013	2	9120
+136114	manual_check/habitatmap2023	bosleeftijd	NA	2023	3	9120
+136121	habitatmap2023	NA	100	2013	2	9120
+136121	habitatmap2023	NA	0	2013	2	91E0_vo
+136121	manual_check/assessment_vbi	bodemkaart, vegopname	NA	2023	3	9190
+136134	manual_check	vegopname, bosleeftijd	NA	2022	3	9120
+136143	habitatmap2023	NA	30	2012	2	9120
+136145	manual_check/habitatmap2023	vegopname, geen boshabitat	NA	2023	3	gh
+136155	manual_check/habitatmap2023	naaldhout	NA	2023	3	gh
+136159	manual_check/habitatmap2023	naaldhout	NA	2022	3	gh
+136160	manual_check/habitatmap2023	naaldhout	NA	2022	3	gh
+137010	habitatmap2023	NA	100	2021	3	91E0_va
+137011	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+137028	manual_check/habitatmap2023	vegopname	NA	2021	3	9120
+137035	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+137037	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+137045	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA	2020	3	9120
+137052	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+137053	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+137054	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+137060	manual_check/habitatmap2023	9120vs9190	NA	2021	3	9120
+137076	manual_check/assessment_vbi	twijfel	NA	2021	3	9190
+138016	manual_check/assessment_vbi	twijfel	NA	2018	2	9190
+138019	manual_check/habitatmap2023	9120vs9190	NA	2019	3	9120
+138020	assessment_vbi/habitatmap2023	NA	95	2020	3	9120
+138024	manual_check/habitatmap2023	9120vs9190	NA	2018	2	9120
+138027	manual_check/habitatmap2023	9120vs9190	NA	2020	3	9120
+138028	assessment_vbi/habitatmap2023	NA	70	2019	3	9120
+138036	assessment_vbi/habitatmap2023	NA	100	2019	3	9120
+138097	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+138098	habitatmap2023	NA	100	2020	3	9120
+142137	habitatmap2023	NA	100	2015	2	9120
+143143	manual_check/assessment_vbi	vegopname, bosleeftijd	NA	2022	3	9120
+144048	assessment_vbi/habitatmap2023	NA	30	2021	3	91E0_vm
+144055	manual_check/habitatmap2023	vegopname	NA	2021	3	91E0_vm
+144056	habitatmap2023	NA	100	2021	3	9120
+147003	manual_check/habitatmap2023	geen boshabitat	NA	2023	3	gh
+147004	habitatmap2023	NA	100	2014	2	9120
+147004	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+147049	habitatmap2023	NA	100	2014	2	91E0_va
+147049	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_va
+147059	habitatmap2023	NA	100	2014	2	9120
+147059	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+147067	habitatmap2023	NA	100	2014	2	9120
+147067	manual_check/habitatmap2023	bosleeftijd	NA	2023	3	9120
+147068	habitatmap2023	NA	100	2014	2	91E0_va
+147068	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	91E0_va
+147141	habitatmap2023	NA	100	2013	2	91E0_vn
+147141	manual_check/assessment_vbi	twijfel	NA	2022	3	gh
+148025	manual_check	vegopname en/of bosleeftijd	NA	2022	3	91E0_va
+148045	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA	2021	3	9120
+154013	habitatmap2023	NA	100	2013	2	9190
+154013	manual_check/habitatmap2023	vegopname, bodemkaart	NA	2023	3	9190
+154019	habitatmap2023	NA	100	2013	2	9120
+154019	manual_check/habitatmap2023	vegopname	NA	2024	3	9120
+154032	habitatmap2023	NA	70	2013	2	9120
+154032	habitatmap2023	NA	30	2013	2	91E0_va
+154032	manual_check/habitatmap2023	vegopname, twijfel	NA	2023	3	91E0_va
+154072	habitatmap2023	NA	30	2012	2	9120
+154072	habitatmap2023	NA	70	2012	2	9120_qb
+154072	assessment_vbi/habitatmap2023	NA	30	2023	3	9120
+154087	manual_check/assessment_vbi	vegopname	NA	2023	3	9160
+154091	habitatmap2023	NA	100	2013	2	9120
+154091	manual_check/habitatmap2023	twijfel	NA	2024	3	9120
+154101	habitatmap2023	NA	100	2012	2	9120
+155024	assessment_vbi/habitatmap2023	NA	100	2018	2	9120
+155133	habitatmap2023	NA	20	2018	2	91E0_vn
+155136	habitatmap2023	NA	20	2018	2	91E0_vn
+155139	assessment_vbi/habitatmap2023	NA	100	2019	3	91E0_sf
+156056	habitatmap2023	NA	100	2016	2	91E0_vn
+156064	habitatmap2023	NA	100	2016	2	91E0_vn
+156072	habitatmap2023	NA	100	2016	2	91E0_vn
+156107	habitatmap2023	NA	100	2017	2	91E0_vn
+156108	habitatmap2023	NA	100	2017	2	91E0_vn
+156114	habitatmap2023	NA	20	2017	2	91E0
+156114	habitatmap2023	NA	80	2017	2	91E0_vn
+156117	habitatmap2023	NA	100	2016	2	91E0_sf
+156118	habitatmap2023	NA	100	2016	2	91E0_vn
+156121	habitatmap2023	NA	30	2017	2	91E0_vn
+156124	habitatmap2023	NA	70	2018	2	91E0_vn
+156125	habitatmap2023	NA	70	2017	2	91E0_vn
+156146	habitatmap2023	NA	100	2018	2	91E0_vn
+156159	habitatmap2023	NA	5	2016	2	91E0_vm
+157050	habitatmap2023	NA	30	2015	2	91E0
+157051	habitatmap2023	NA	100	2015	2	9120
+157054	habitatmap2023	NA	100	2014	2	9120
+157063	habitatmap2023	NA	100	2014	2	9120
+157067	habitatmap2023	NA	30	2015	2	9120
+157083	habitatmap2023	NA	30	2015	2	91E0_vn
+157084	habitatmap2023	NA	100	2014	2	9120
+157091	habitatmap2023	NA	100	2015	2	9120
+158033	habitatmap2023	NA	70	2013	2	9120
+158033	habitatmap2023	NA	30	2013	2	9160
+158069	habitatmap2023	NA	100	2013	2	9160
+158091	habitatmap2023	NA	20	2013	2	9160
+158103	habitatmap2023	NA	100	2013	2	9120
+158103	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+158118	habitatmap2023	NA	100	2013	2	91E0_va
+158118	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_va
+161033	habitatmap2023	NA	30	2012	2	9120
+161033	habitatmap2023	NA	70	2012	2	9190
+161039	manual_check	vegopname	NA	2021	3	91E0_va
+161082	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2021	3	9120
+161085	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+161093	habitatmap2023	NA	100	2021	3	9120
+161095	assessment_vbi/habitatmap2023	NA	20	2021	3	91E0_va
+161111	manual_check/habitatmap2023	vegopname	NA	2021	3	9120
+161114	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	91E0_va
+161118	assessment_vbi/habitatmap2023	NA	90	2021	3	91E0_vm
+161129	manual_check	vegopname	NA	2021	3	91E0_va
+161130	manual_check/habitatmap2023	vegopname	NA	2021	3	91E0_va
+161132	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2021	3	9120
+161133	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+161134	assessment_vbi/habitatmap2023	NA	40	2021	3	9120
+162006	manual_check/habitatmap2023	vegopname	NA	2018	2	9160
+162019	manual_check/habitatmap2023	9120vs9190	NA	2020	3	9120
+162027	habitatmap2023	NA	100	2010	2	9120
+162032	habitatmap2023	NA	100	2018	2	9120
+162035	assessment_vbi/habitatmap2023	NA	100	2019	3	9120
+162038	manual_check/habitatmap2023	vegopname	NA	2018	2	91E0_va
+162042	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2019	3	9190
+162043	assessment_vbi/habitatmap2023	NA	100	2019	3	9120
+162051	manual_check/habitatmap2023	vegopname	NA	2019	3	91E0_va
+162054	habitatmap2023	NA	70	2018	2	9190
+162062	manual_check/habitatmap2023	vegopname	NA	2018	2	91E0_vm
+162066	manual_check	vegopname en/of bosleeftijd	NA	2019	3	9120
+162078	habitatmap2023	NA	100	2018	2	9190
+162085	manual_check/habitatmap2023	ghvs91E0_vn	NA	2018	2	91E0_vm
+162090	manual_check/habitatmap2023	vegopname	NA	2019	3	9120
+162093	assessment_vbi/habitatmap2023	NA	100	2018	2	9120
+162098	assessment_vbi/habitatmap2023	NA	60	2019	3	9160
+162100	manual_check/habitatmap2023	vegopname	NA	2019	3	9120
+162101	habitatmap2023	NA	100	2018	2	9120
+162126	manual_check	vegopname en/of bosleeftijd	NA	2018	2	9120
+162129	manual_check/habitatmap2023	vegopname	NA	2019	3	9120
+163003	habitatmap2023	NA	100	2017	2	91E0_vm
+163006	habitatmap2023	NA	30	2016	2	91E0_va
+163006	habitatmap2023	NA	70	2016	2	91E0_vn
+163021	habitatmap2023	NA	70	2015	2	91E0_va
+163021	habitatmap2023	NA	30	2015	2	91E0_vn
+163094	habitatmap2023	NA	100	2015	2	9190
+163136	habitatmap2023	NA	90	2015	2	91E0_vm
+163136	habitatmap2023	NA	10	2015	2	91E0_vo
+163147	habitatmap2023	NA	70	2016	2	9120
+163147	habitatmap2023	NA	30	2016	2	9190
+164011	habitatmap2023	NA	25	2014	2	9120
+164124	habitatmap2023	NA	100	2015	2	91E0_vm
+164126	habitatmap2023	NA	80	2014	2	9190
+165046	assessment_vbi/habitatmap2023	NA	100	2021	3	9190
+165062	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA	2021	3	9120
+165087	habitatmap2023	NA	100	2021	3	9120
+166005	habitatmap2023	NA	100	2018	2	9190
+166032	assessment_vbi/habitatmap2023	NA	20	2018	2	91E0_vo
+166050	manual_check/assessment_vbi	twijfel	NA	2019	3	9190
+166092	assessment_vbi/habitatmap2023	NA	100	2019	3	9190
+166156	manual_check/habitatmap2023	vegopname	NA	2019	3	9120
+167001	habitatmap2023	NA	100	2016	2	9120
+167132	habitatmap2023	NA	100	2016	2	9120
+167133	habitatmap2023	NA	60	2015	2	9120
+167133	habitatmap2023	NA	20	2015	2	91E0
+167136	habitatmap2023	NA	100	2015	2	9120
+168107	habitatmap2023	NA	70	2014	2	9120
+168107	habitatmap2023	NA	30	2014	2	91E0_va
+168147	habitatmap2023	NA	70	2014	2	9190
+168147	habitatmap2023	NA	30	2014	2	91E0_vm
+171073	habitatmap2023	NA	100	2013	2	91E0_vn
+171073	manual_check/habitatmap2023	vegopname, twijfel	NA	2023	3	91E0_vn
+171100	manual_check/habitatmap2023	vegopname, bosleeftijd, twijfel	NA	2023	3	gh
+171123	manual_check/habitatmap2023	vegopname	NA	2023	3	gh
+172012	manual_check/assessment_vbi	naaldhout	NA	2021	3	9190
+172052	assessment_vbi/habitatmap2023	NA	50	2021	3	91E0_vm
+172099	habitatmap2023	NA	20	2021	3	9120
+172099	habitatmap2023	NA	30	2021	3	91E0_vm
+172099	habitatmap2023	NA	50	2021	3	91E0_vo
+172100	assessment_vbi/habitatmap2023	NA	70	2021	3	91E0_vm
+172146	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2021	3	91E0_vn
+173155	assessment_vbi/habitatmap2023	NA	100	2020	3	91E0_vo
+174001	habitatmap2023	NA	20	2016	2	91E0_vn
+174012	habitatmap2023	NA	70	2016	2	9190
+174048	habitatmap2023	NA	70	2015	2	91E0_vn
+174122	habitatmap2023	NA	70	2016	2	91E0
+175007	habitatmap2023	NA	100	2012	2	91E0_vn
+175007	manual_check/assessment_vbi	vegopname	NA	2023	3	gh
+175008	habitatmap2023	NA	100	2012	2	91E0_vn
+175051	manual_check/habitatmap2023	twijfel	NA	2024	3	gh
+175066	habitatmap2023	NA	30	2013	2	91E0_vm
+175068	habitatmap2023	NA	10	2013	2	9190
+175071	manual_check/habitatmap2023	vegopname, rand polygoon, twijfel	NA	2023	3	9120
+175092	manual_check/habitatmap2023	rand polygoon	NA	2024	3	gh
+175130	habitatmap2023	NA	100	2013	2	9190
+175130	assessment_vbi/habitatmap2023	NA	100	2023	3	9190
+175146	habitatmap2023	NA	100	2013	2	91E0_vm
+175146	manual_check/assessment_vbi	twijfel, rand polygoon	NA	2023	3	gh
+175153	manual_check/assessment_vbi	vegopname, twijfel	NA	2024	3	91E0_vm
+175154	habitatmap2023	NA	20	2013	2	91E0_va
+175154	habitatmap2023	NA	20	2013	2	91E0_vn
+175154	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_va
+176058	assessment_vbi/habitatmap2023	NA	100	2021	3	91E0_vm
+176060	assessment_vbi/habitatmap2023	NA	30	2021	3	91E0_vm
+176117	habitatmap2023	NA	10	NA	3	9190
+176159	assessment_vbi/habitatmap2023	NA	100	2021	3	91E0_vm
+177119	habitatmap2023	NA	100	2017	2	9190
+177120	habitatmap2023	NA	100	2017	2	9190
+177124	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2019	3	9120
+178012	habitatmap2023	NA	100	2016	2	9190
+178042	habitatmap2023	NA	100	2016	2	9190
+178147	habitatmap2023	NA	30	2017	2	9190
+181003	habitatmap2023	NA	100	2014	2	91E0_vo
+181035	habitatmap2023	NA	100	2014	2	91E0_vn
+181060	habitatmap2023	NA	70	2014	2	91E0_vn
+181060	habitatmap2023	NA	30	2014	2	91E0_vo
+181085	habitatmap2023	NA	100	2014	2	91E0_vn
+181155	habitatmap2023	NA	100	2014	2	9190
+182143	habitatmap2023	NA	30	2012	2	91E0_vm
+182149	manual_check/habitatmap2023	vegopname	NA	2022	3	gh
+182151	habitatmap2023	NA	100	2012	2	9190
+182151	manual_check/habitatmap2023	vegopname, twijfel	NA	2022	3	9190
+182152	habitatmap2023	NA	100	2012	2	91E0_vm
+182152	assessment_vbi/habitatmap2023	NA	100	2022	3	91E0_vm
+182157	habitatmap2023	NA	100	2012	2	9120
+182157	manual_check/habitatmap2023	vegopname	NA	2022	3	9120
+182158	habitatmap2023	NA	30	2012	2	9120
+182158	habitatmap2023	NA	70	2012	2	9190
+182158	assessment_vbi/habitatmap2023	NA	70	2022	3	9190
+182160	habitatmap2023	NA	100	2012	2	91E0_vm
+182160	assessment_vbi/habitatmap2023	NA	100	2022	3	91E0_vm
+183153	assessment_vbi/habitatmap2023	NA	100	2021	3	91E0_vm
+185023	habitatmap2023	NA	100	2014	2	9120
+185047	habitatmap2023	NA	10	2014	2	91E0_vc
+185047	habitatmap2023	NA	60	2014	2	91E0_vm
+185143	habitatmap2023	NA	100	2014	2	9120
+186107	habitatmap2023	NA	100	2013	2	91E0_vm
+186108	habitatmap2023	NA	10	2013	2	91E0_vc
+186108	habitatmap2023	NA	90	2013	2	91E0_vm
+186113	habitatmap2023	NA	30	2013	2	91E0
+186117	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2022	3	gh
+186124	manual_check/habitatmap2023	vegopname	NA	2024	3	9120
+186130	habitatmap2023	NA	100	2013	2	9120
+186130	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	9120
+186141	manual_check/assessment_vbi	vegopname, twijfel	NA	2022	3	9190
+186157	habitatmap2023	NA	30	2012	2	9120_qb
+187001	assessment_vbi/habitatmap2023	NA	80	2021	3	91E0_vm
+187009	assessment_vbi/habitatmap2023	NA	100	2021	3	9190
+187058	manual_check/habitatmap2023	vegopname	NA	2021	3	9120
+187082	manual_check	vegopname	NA	2021	3	91E0
+187124	manual_check/assessment_vbi	vegopname	NA	2021	3	9190
+202023	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+202040	habitatmap2023	NA	100	2011	2	9120
+203009	habitatmap2023	NA	100	2020	3	9120
+203018	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+203031	habitatmap2023	NA	70	2016	2	9120
+203031	habitatmap2023	NA	30	2016	2	9160
+203039	habitatmap2023	NA	85	2016	2	9120
+203039	habitatmap2023	NA	15	2016	2	9160
+204022	assessment_vbi/habitatmap2023	NA	70	2018	2	9120
+206047	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+206086	manual_check/habitatmap2023	vegopname	NA	2021	3	9120
+207011	habitatmap2023	NA	70	NA	3	9160
+207011	habitatmap2023	NA	30	NA	3	91E0_va
+207033	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+207049	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+207057	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+211004	habitatmap2023	NA	100	2015	2	9120
+211096	habitatmap2023	NA	100	2014	2	9120
+211115	habitatmap2023	NA	100	2015	2	91E0_va
+211115	habitatmap2023	NA	0	2015	2	91E0_vc
+212002	habitatmap2023	NA	100	2014	2	9120
+212006	habitatmap2023	NA	100	2012	2	9120
+212006	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+212007	manual_check/habitatmap2023	naaldhout	NA	2023	3	gh
+212011	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	gh
+212018	habitatmap2023	NA	100	2013	2	9120
+212018	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+212040	habitatmap2023	NA	100	2013	2	91E0_va
+212040	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_va
+213030	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+213033	manual_check/habitatmap2023	9120vs9190	NA	2022	3	9120
+213037	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+213041	manual_check/assessment_vbi	vegopname	NA	2022	3	91E0_va
+213047	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+213050	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	91E0_va
+213067	assessment_vbi/habitatmap2023	NA	100	2022	3	91E0_vn
+213076	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+214103	manual_check/habitatmap2023	91E0vs9160	NA	2017	2	91E0_va
+215068	habitatmap2023	NA	100	2015	2	9120
+218005	assessment_vbi/habitatmap2023	NA	100	2018	2	9120
+218131	manual_check	vegopname	NA	2019	3	91E0_va
+221010	habitatmap2023	NA	70	2017	2	91E0_vm
+221010	habitatmap2023	NA	30	2017	2	91E0_vn
+221018	habitatmap2023	NA	20	2017	2	91E0_va
+221018	habitatmap2023	NA	80	2017	2	91E0_vn
+222108	habitatmap2023	NA	20	2015	2	9120
+222132	habitatmap2023	NA	100	2015	2	91E0_vn
+223096	habitatmap2023	NA	10	2013	2	91E0_vm
+223096	manual_check/habitatmap2023	vegopname	NA	2022	3	91E0_vm
+224080	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2021	3	91E0_sf
+224137	habitatmap2023	NA	100	2022	3	91E0_vn
+225036	habitatmap2023	NA	100	2017	2	9120
+225086	habitatmap2023	NA	30	2016	2	9130_end
+225086	habitatmap2023	NA	60	2016	2	91E0_va
+225086	habitatmap2023	NA	10	2016	2	91E0_vc
+225095	habitatmap2023	NA	100	2016	2	9120
+225096	habitatmap2023	NA	100	2016	2	91E0_va
+225102	habitatmap2023	NA	70	2016	2	9130_end
+225102	habitatmap2023	NA	30	2016	2	91E0_va
+226018	habitatmap2023	NA	100	2015	2	91E0_va
+226019	habitatmap2023	NA	100	2015	2	9120
+226022	habitatmap2023	NA	100	2014	2	9120
+226036	habitatmap2023	NA	100	2015	2	91E0_va
+226044	habitatmap2023	NA	100	2015	2	9120
+226059	habitatmap2023	NA	30	2015	2	9130_end
+226060	habitatmap2023	NA	30	2015	2	91E0_va
+226063	habitatmap2023	NA	30	2014	2	9120
+226063	habitatmap2023	NA	70	2014	2	9130_end
+226119	habitatmap2023	NA	100	2014	2	9130_end
+226120	habitatmap2023	NA	100	2014	2	91E0_va
+226148	habitatmap2023	NA	80	2015	2	91E0_va
+226148	habitatmap2023	NA	15	2015	2	91E0_vc
+226160	habitatmap2023	NA	70	2014	2	9130_end
+226160	habitatmap2023	NA	30	2014	2	91E0_va
+227019	habitatmap2023	NA	100	2013	2	9130_end
+227019	assessment_vbi/habitatmap2023	NA	100	2023	3	9130_end
+227037	habitatmap2023	NA	90	2013	2	9120
+227037	habitatmap2023	NA	10	2013	2	9120_qb
+227037	assessment_vbi/habitatmap2023	NA	90	2022	3	9120
+227050	habitatmap2023	NA	30	2014	2	91E0_va
+227050	assessment_vbi/habitatmap2023	NA	30	2023	3	91E0_va
+227081	habitatmap2023	NA	100	2013	2	91E0_va
+227081	assessment_vbi/habitatmap2023	NA	100	2023	3	91E0_va
+227142	habitatmap2023	NA	100	2013	2	9130_end
+227142	manual_check/habitatmap2023	vegopname	NA	2022	3	9130_end
+227153	habitatmap2023	NA	100	2013	2	9130_end
+227153	assessment_vbi/habitatmap2023	NA	100	2023	3	9130_end
+228022	manual_check	vegopname en/of bosleeftijd	NA	2021	3	91E0_va
+228133	manual_check	vegopname en/of bosleeftijd	NA	2020	3	91E0_va
+228141	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	91E0_va
+231103	assessment_vbi/habitatmap2023	NA	100	2018	2	91E0_sf
+232003	habitatmap2023	NA	100	2017	2	91E0_vn
+232010	habitatmap2023	NA	20	2017	2	91E0_va
+232032	habitatmap2023	NA	100	2016	2	91E0_vm
+232060	habitatmap2023	NA	100	2017	2	9160
+232075	habitatmap2023	NA	100	2017	2	9120
+232092	habitatmap2023	NA	100	2017	2	9120
+232093	habitatmap2023	NA	100	2015	2	91E0_vn
+232100	habitatmap2023	NA	100	2017	2	9120
+232153	habitatmap2023	NA	100	2017	2	9120
+232154	habitatmap2023	NA	100	2017	2	9120
+233118	habitatmap2023	NA	100	2015	2	91E0_va
+234003	manual_check/habitatmap2023	bosleeftijd, vegopname	NA	2023	3	gh
+234013	habitatmap2023	NA	70	2012	2	9120
+234029	manual_check/assessment_vbi	vegopname	NA	2023	3	91E0_vm
+234035	habitatmap2023	NA	20	2013	2	9120
+234035	manual_check/assessment_vbi	vegopname	NA	2023	3	9160
+234069	habitatmap2023	NA	100	2012	2	9160
+234069	assessment_vbi/habitatmap2023	NA	100	2023	3	9160
+234097	manual_check	twijfel, vegopname	NA	2024	3	91E0_vn
+234112	habitatmap2023	NA	100	2012	2	9120
+234112	manual_check/habitatmap2023	vegopname	NA	2022	3	9120
+234159	habitatmap2023	NA	100	2012	2	91E0_vn
+234159	manual_check/assessment_vbi	vegopname	NA	2023	3	gh
+235082	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2019	3	9120
+235117	habitatmap2023	NA	95	2017	2	9120
+235117	habitatmap2023	NA	5	2017	2	9130_end
+235125	habitatmap2023	NA	100	2017	2	9120
+235128	habitatmap2023	NA	60	2017	2	9120
+235128	habitatmap2023	NA	20	2017	2	9130_end
+235128	habitatmap2023	NA	20	2017	2	91E0_vn
+235133	habitatmap2023	NA	100	2017	2	9120
+235159	habitatmap2023	NA	100	2018	2	91E0_vn
+236111	habitatmap2023	NA	100	2015	2	91E0_va
+236116	habitatmap2023	NA	100	2016	2	9130_end
+236131	habitatmap2023	NA	100	2016	2	9130_end
+236143	habitatmap2023	NA	30	2015	2	91E0_va
+236143	habitatmap2023	NA	70	2015	2	91E0_vn
+237014	habitatmap2023	NA	100	2014	2	91E0_va
+237029	habitatmap2023	NA	70	2014	2	91E0_va
+237029	habitatmap2023	NA	30	2014	2	91E0_vn
+237042	habitatmap2023	NA	100	2014	2	9160
+237063	habitatmap2023	NA	100	2014	2	9120
+237129	habitatmap2023	NA	10	2014	2	9130_end
+237149	habitatmap2023	NA	100	2014	2	91E0_vn
+237153	habitatmap2023	NA	100	2014	2	91E0_vn
+238002	habitatmap2023	NA	25	2013	2	9120
+238002	habitatmap2023	NA	70	2013	2	9160
+238002	assessment_vbi/habitatmap2023	NA	25	2023	3	9120
+238010	habitatmap2023	NA	30	2013	2	91E0_va
+238025	habitatmap2023	NA	60	2013	2	9120
+238025	habitatmap2023	NA	20	2013	2	91E0_vm
+238025	manual_check/assessment_vbi	vegopname	NA	2024	3	9160
+238046	habitatmap2023	NA	20	2012	2	9120_qb
+238046	manual_check	vegopname, areaal 9130	NA	2023	3	9160
+238047	habitatmap2023	NA	20	2012	2	9120_qb
+238047	manual_check	vegopname, bosleeftijd	NA	2023	3	gh
+238055	habitatmap2023	NA	30	2012	2	9120
+238055	manual_check	vegopname, areaal 9130	NA	2023	3	9160
+238064	habitatmap2023	NA	30	2012	2	9120
+238064	habitatmap2023	NA	70	2012	2	9160
+238064	manual_check/habitatmap2023	vegopname, areaal 9130	NA	2023	3	9160
+238126	habitatmap2023	NA	90	2012	2	9160
+238126	manual_check/habitatmap2023	vegopname, areaal 9130	NA	2023	3	9160
+238140	habitatmap2023	NA	100	2013	2	9160
+238140	assessment_vbi/habitatmap2023	NA	100	2023	3	9160
+238147	habitatmap2023	NA	100	2013	2	91E0_va
+238147	manual_check/assessment_vbi	vegopname	NA	2023	3	9160
+238148	habitatmap2023	NA	100	2013	2	9160
+238148	assessment_vbi/habitatmap2023	NA	100	2023	3	9160
+241019	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+241090	habitatmap2023	NA	20	2021	3	9120
+241090	habitatmap2023	NA	60	2021	3	9160
+241090	habitatmap2023	NA	20	2021	3	91E0_va
+241122	manual_check	ghvs91E0_vn	NA	2022	3	91E0_vn
+241139	assessment_vbi/habitatmap2023	NA	100	2022	3	91E0_vm
+242003	manual_check/habitatmap2023	fout habkaart, polygoongrens	NA	2020	3	9160
+242128	habitatmap2023	NA	40	2017	2	9120
+243024	habitatmap2023	NA	100	2015	2	91E0_vm
+243032	habitatmap2023	NA	20	2015	2	91E0_vn
+243042	habitatmap2023	NA	100	2016	2	9120
+243048	habitatmap2023	NA	100	2015	2	9160
+243051	habitatmap2023	NA	100	2016	2	9160
+243055	habitatmap2023	NA	80	2015	2	9190
+243055	habitatmap2023	NA	20	2015	2	91E0_vm
+243062	habitatmap2023	NA	30	2015	2	9120
+243070	habitatmap2023	NA	20	2015	2	9120
+243074	habitatmap2023	NA	100	2016	2	9120
+243077	habitatmap2023	NA	100	2015	2	9190
+243082	habitatmap2023	NA	100	2016	2	9160
+243094	habitatmap2023	NA	100	2015	2	91E0_va
+243102	habitatmap2023	NA	20	2015	2	9120
+243113	habitatmap2023	NA	40	2016	2	9120_qb
+243118	habitatmap2023	NA	30	2015	2	91E0_va
+243118	habitatmap2023	NA	70	2015	2	91E0_vm
+243127	habitatmap2023	NA	100	2015	2	91E0_vm
+243134	habitatmap2023	NA	100	2015	2	91E0_vm
+243140	habitatmap2023	NA	100	2016	2	9120_qb
+243148	habitatmap2023	NA	80	2016	2	9120
+243148	habitatmap2023	NA	20	2016	2	9160
+244003	habitatmap2023	NA	10	2014	2	91E0_vm
+244006	habitatmap2023	NA	100	2015	2	91E0_vm
+244017	habitatmap2023	NA	70	2014	2	91E0_vn
+244018	habitatmap2023	NA	100	2014	2	91E0_vn
+244053	habitatmap2023	NA	100	2014	2	9120
+244137	habitatmap2023	NA	100	2014	2	9120
+245010	manual_check/habitatmap2023	vegopname	NA	2022	3	91E0_vn
+245075	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	9120
+245085	manual_check/assessment_vbi	buiten areaal 9130	NA	2020	3	9130
+245086	manual_check/habitatmap2023	buiten areaal 9130	NA	2020	3	9160
+245100	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	91E0_va
+245122	assessment_vbi/habitatmap2023	NA	100	2022	3	9160
+245123	assessment_vbi/habitatmap2023	NA	100	2022	3	9160
+245133	manual_check/habitatmap2023	buiten areaal 9130	NA	2020	3	9160
+245147	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	91E0_va
+245148	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	9160
+245155	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	9160
+245159	assessment_vbi/habitatmap2023	NA	100	2020	3	9160
+246058	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_vn
+246088	habitatmap2023	NA	20	2017	2	9120
+246088	habitatmap2023	NA	80	2017	2	9190
+246119	habitatmap2023	NA	100	2018	2	9160
+246120	habitatmap2023	NA	60	2018	2	9160
+246152	habitatmap2023	NA	100	2017	2	9120
+246159	habitatmap2023	NA	100	2017	2	9120
+247004	habitatmap2023	NA	100	2016	2	9190
+247049	habitatmap2023	NA	30	2017	2	91E0_vm
+247049	habitatmap2023	NA	70	2017	2	91E0_vo
+247051	habitatmap2023	NA	80	2016	2	9120
+247057	habitatmap2023	NA	100	2016	2	9120_qb
+247068	habitatmap2023	NA	100	2016	2	9120
+247080	habitatmap2023	NA	100	2015	2	9120
+247082	habitatmap2023	NA	70	2016	2	9120_qb
+247090	habitatmap2023	NA	100	2016	2	9120_qb
+247096	habitatmap2023	NA	20	2015	2	9120
+247100	habitatmap2023	NA	90	2016	2	9120
+247100	habitatmap2023	NA	10	2016	2	9160
+247109	habitatmap2023	NA	85	2015	2	9190
+247109	habitatmap2023	NA	15	2015	2	91E0_vo
+247112	habitatmap2023	NA	100	2015	2	91E0_va
+247115	habitatmap2023	NA	60	2016	2	9160
+247120	habitatmap2023	NA	20	2015	2	91E0_va
+247120	habitatmap2023	NA	80	2015	2	91E0_vm
+247121	habitatmap2023	NA	100	2016	2	9160
+247127	habitatmap2023	NA	10	2015	2	9120
+247127	habitatmap2023	NA	40	2015	2	9160
+247127	habitatmap2023	NA	50	2015	2	91E0_vm
+247136	habitatmap2023	NA	100	2015	2	9120
+247143	habitatmap2023	NA	100	2015	2	9160
+247150	habitatmap2023	NA	100	2015	2	9120
+247158	habitatmap2023	NA	70	2015	2	9120
+247158	habitatmap2023	NA	30	2015	2	9190
+248026	habitatmap2023	NA	100	2014	2	91E0_va
+248113	habitatmap2023	NA	20	2014	2	91E0_va
+248113	habitatmap2023	NA	10	2014	2	91E0_vm
+248121	habitatmap2023	NA	100	2014	2	9160
+248132	habitatmap2023	NA	100	2014	2	9120
+248135	habitatmap2023	NA	70	2014	2	9160
+248135	habitatmap2023	NA	30	2014	2	91E0_va
+251001	manual_check	vegopname, twijfel	NA	2024	3	91E0_vn
+251025	manual_check	vegopname? geen boomlaag?	NA	2023	3	91E0_vm
+251026	manual_check	vegopname	NA	2023	3	91E0_vm
+251027	habitatmap2023	NA	70	2013	2	91E0_vm
+251112	habitatmap2023	NA	100	2012	2	91E0_vm
+251112	assessment_vbi/habitatmap2023	NA	100	2022	3	91E0_vm
+251116	habitatmap2023	NA	20	2013	2	9120
+251118	manual_check/assessment_vbi	vegopname	NA	2022	3	91E0_vm
+251130	manual_check	vegopname	NA	2024	3	gh
+251139	manual_check/habitatmap2023	naaldhout, bosleeftijd, twijfel	NA	2023	3	gh
+251140	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2024	3	gh
+252015	habitatmap2023	NA	100	NA	3	91E0_vm
+252044	manual_check	9120vs9190	NA	2021	3	9120
+252089	habitatmap2023	NA	30	2021	3	91E0_vm
+252090	assessment_vbi/habitatmap2023	NA	30	2021	3	91E0_vm
+253102	habitatmap2023	NA	100	2017	2	91E0_vn
+253104	habitatmap2023	NA	100	2017	2	91E0_vm
+253142	habitatmap2023	NA	70	2017	2	9190
+253142	habitatmap2023	NA	30	2017	2	91E0_vm
+253151	manual_check/habitatmap2023	vegopname	NA	2017	2	91E0_vo
+253157	manual_check/habitatmap2023	vegopname	NA	2017	2	91E0_vm
+253158	manual_check/habitatmap2023	vegopname	NA	2017	2	9120
+254066	habitatmap2023	NA	100	2016	2	9120
+254067	habitatmap2023	NA	80	2016	2	9120
+254068	habitatmap2023	NA	80	2016	2	91E0_vm
+254074	habitatmap2023	NA	100	2017	2	91E0_vm
+254093	habitatmap2023	NA	100	2015	2	9190
+254103	habitatmap2023	NA	100	2015	2	9120
+254110	habitatmap2023	NA	100	2015	2	9120
+254125	habitatmap2023	NA	100	2015	2	91E0_vm
+254129	habitatmap2023	NA	10	2016	2	91E0_vm
+255017	habitatmap2023	NA	100	2013	2	91E0_vm
+255017	habitatmap2023	NA	100	2023	3	91E0_vm
+255063	habitatmap2023	NA	100	2012	2	9120
+255063	manual_check/habitatmap2023	bosleeftijd	NA	2022	3	9120
+255067	manual_check/assessment_vbi	vegopname	NA	2023	3	91E0_va
+255068	habitatmap2023	NA	100	2013	2	9120
+255068	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+255105	habitatmap2023	NA	100	2013	2	9120
+255105	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+255107	habitatmap2023	NA	70	2013	2	9160
+255123	habitatmap2023	NA	20	2013	2	9120
+255123	habitatmap2023	NA	20	2013	2	9160
+255123	habitatmap2023	NA	60	2013	2	91E0_va
+255123	assessment_vbi/habitatmap2023	NA	20	2023	3	9120
+255148	habitatmap2023	NA	70	2013	2	9120
+255148	habitatmap2023	NA	30	2013	2	9160
+255148	assessment_vbi/habitatmap2023	NA	30	2023	3	9160
+255158	habitatmap2023	NA	100	2012	2	91E0_va
+255158	assessment_vbi/habitatmap2023	NA	100	2022	3	91E0_va
+256047	manual_check/habitatmap2023	vegopname	NA	2020	3	9190
+256091	manual_check/assessment_vbi	vegopname	NA	2021	3	9120
+256110	manual_check/habitatmap2023	9120vs9190	NA	2020	3	9120
+256127	manual_check	vegopname	NA	2020	3	9120
+257002	habitatmap2023	NA	30	2020	3	91E0_vm
+257003	manual_check/assessment_vbi	vegopname	NA	2019	3	91E0_vo
+257006	habitatmap2023	NA	70	2017	2	9120
+257011	assessment_vbi/habitatmap2023	NA	100	2019	3	9190
+257027	manual_check/assessment_vbi	vegopname	NA	2019	3	91E0_vn
+257039	habitatmap2023	NA	40	2017	2	91E0_vo
+257045	manual_check	vegopname	NA	2017	2	91E0_vm
+257050	manual_check/assessment_vbi	vegopname	NA	2019	3	91E0_vn
+257057	manual_check/assessment_vbi	twijfel	NA	2019	3	91E0_vn
+257071	manual_check/habitatmap2023	vegopname	NA	2017	2	91E0_vm
+257082	manual_check/assessment_vbi	twijfel	NA	2019	3	91E0_vn
+257106	manual_check/assessment_vbi	juiste locatie?	NA	2019	3	91E0_va
+258029	habitatmap2023	NA	100	2015	2	91E0_vo
+258040	habitatmap2023	NA	10	2015	2	91E0_vo
+258049	habitatmap2023	NA	70	2016	2	91E0_vn
+258061	habitatmap2023	NA	100	2015	2	9120
+258076	habitatmap2023	NA	50	2016	2	9120
+258076	habitatmap2023	NA	50	2016	2	9190
+261013	habitatmap2023	NA	100	2014	2	91E0_vm
+261021	habitatmap2023	NA	10	2014	2	91E0_vm
+261075	habitatmap2023	NA	100	2015	2	9190
+261108	habitatmap2023	NA	50	2015	2	9190
+261126	habitatmap2023	NA	100	2014	2	9190
+261144	habitatmap2023	NA	100	2014	2	91E0_vo
+261154	habitatmap2023	NA	20	2015	2	9190
+262020	manual_check/habitatmap2023	naaldhout? bosleeftijd	NA	2023	3	gh
+262024	manual_check/assessment_vbi	vegopname, bosleeftijd	NA	2022	3	9190
+262043	manual_check	vegopname, bosleeftijd	NA	2023	3	gh
+262049	habitatmap2023	NA	70	2013	2	9190
+262049	assessment_vbi/habitatmap2023	NA	70	2023	3	9190
+262056	manual_check/habitatmap2023	naaldhout	NA	2022	3	gh
+262068	manual_check/assessment_vbi	vegopname	NA	2023	3	91E0_vm
+262071	manual_check/assessment_vbi	vegopname, twijfel	NA	2022	3	9190
+262079	habitatmap2023	NA	30	2012	2	9190
+262079	assessment_vbi/habitatmap2023	NA	30	2022	3	9190
+262083	habitatmap2023	NA	10	2013	2	91E0_vc
+262083	habitatmap2023	NA	60	2013	2	91E0_vm
+262083	assessment_vbi/habitatmap2023	NA	60	2023	3	91E0_vm
+262091	manual_check/habitatmap2023	vegopname, bosleeftijd, twijfel	NA	2023	3	gh
+262092	manual_check/habitatmap2023	vegpname, bosleeftijd, twijfel	NA	2023	3	gh
+262095	habitatmap2023	NA	30	2012	2	9190
+262095	assessment_vbi/habitatmap2023	NA	30	2022	3	9190
+262104	habitatmap2023	NA	100	2012	2	9190
+262104	assessment_vbi/habitatmap2023	NA	100	2022	3	9190
+262111	manual_check/habitatmap2023	naaldhout, boomlaag??, positie??	NA	2022	3	gh
+262112	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2022	3	gh
+262117	manual_check/habitatmap2023	geen boshabitat, vegopname	NA	2022	3	gh
+262128	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2022	3	gh
+262135	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2022	3	gh
+262157	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2022	3	gh
+263020	manual_check/habitatmap2023	vegopname	NA	2021	3	9190
+265063	habitatmap2023	NA	100	2014	2	9190
+265130	habitatmap2023	NA	25	2014	2	91E0_vo
+266002	habitatmap2023	NA	100	2013	2	9190
+266002	assessment_vbi/habitatmap2023	NA	100	2023	3	9190
+266004	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2023	3	gh
+266005	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2022	3	gh
+266006	manual_check/habitatmap2023	bosleeftijd, naaldhout, twijfel	NA	2022	3	gh
+266010	habitatmap2023	NA	100	2013	2	9190
+266010	assessment_vbi/habitatmap2023	NA	100	2023	3	9190
+266014	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2022	3	gh
+266022	manual_check/habitatmap2023	bosleeftijd, naaldhout, twijfel	NA	2022	3	gh
+266037	habitatmap2023	NA	80	2013	2	9190
+266037	assessment_vbi/habitatmap2023	NA	80	2022	3	9190
+266051	assessment_vbi/habitatmap2023	NA	100	2023	3	9190
+266054	habitatmap2023	NA	100	2012	2	9190
+266054	assessment_vbi/habitatmap2023	NA	100	2022	3	9190
+266077	manual_check/habitatmap2023	bosleeftijd	NA	2022	3	gh
+266078	manual_check	geen boshabitat!!, opname	NA	2022	3	gh
+266079	manual_check/habitatmap2023	bosleeftijd	NA	2022	3	gh
+266083	manual_check/habitatmap2023	bosleeftijd, naaldhout, twijfel	NA	2023	3	gh
+266085	manual_check	geen boshabitat, bosleeftijd	NA	2022	3	gh
+266101	manual_check/habitatmap2023	bosleeftijd, naaldhout	NA	2022	3	gh
+266104	habitatmap2023	NA	100	2012	2	9190
+266104	assessment_vbi/habitatmap2023	NA	100	2022	3	9190
+266112	habitatmap2023	NA	100	2013	2	9120
+266112	manual_check/habitatmap2023	vegopname	NA	2022	3	9120
+266124	manual_check/habitatmap2023	bosleeftijd, naaldhout	NA	2023	3	gh
+266129	manual_check/assessment_vbi	bosleeftijd, vegopname	NA	2023	3	9190
+266133	habitatmap2023	NA	100	2012	2	9120
+266133	manual_check/assessment_vbi	vegopname	NA	2022	3	9190
+266142	manual_check/habitatmap2023	naaldhout	NA	2022	3	gh
+266143	manual_check/habitatmap2023	naaldhout	NA	2022	3	gh
+266147	manual_check/assessment_vbi	bosleeftijd	NA	2024	3	9190
+266150	manual_check/habitatmap2023	naaldhout	NA	2022	3	gh
+266156	manual_check/habitatmap2023	bosleeftijd, twijfel	NA	2024	3	gh
+274006	habitatmap2023	NA	100	2014	2	9120
+274116	habitatmap2023	NA	100	2015	2	9130_end
+282096	habitatmap2023	NA	70	2011	2	9120
+282112	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+282143	manual_check/assessment_vbi	vegopname	NA	2020	3	9120
+282150	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+282151	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+285027	habitatmap2023	NA	100	2014	2	9130_end
+285027	assessment_vbi/habitatmap2023	NA	100	2023	3	9130_end
+285062	habitatmap2023	NA	100	2013	2	9130_end
+285062	assessment_vbi/habitatmap2023	NA	100	2022	3	9130_end
+286027	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+292136	manual_check/habitatmap2023	vegopname	NA	2023	3	gh
+293064	manual_check/habitatmap2023	ok	NA	2020	3	9130_end
+293069	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+293128	manual_check/habitatmap2023	ok	NA	2021	3	9130_end
+296073	habitatmap2023	NA	100	2014	2	9130_end
+296124	habitatmap2023	NA	100	2014	2	9130_end
+296124	assessment_vbi/habitatmap2023	NA	100	2023	3	9130_end
+297095	assessment_vbi/habitatmap2023	NA	60	2020	3	9130_end
+297096	assessment_vbi/habitatmap2023	NA	100	2020	3	91E0_vc
+297103	assessment_vbi/habitatmap2023	NA	100	2020	3	9130_end
+297104	assessment_vbi/habitatmap2023	NA	100	2021	3	9130_end
+298053	assessment_vbi/habitatmap2023	NA	100	2018	2	9130_end
+298075	manual_check	fout habkaart, polygoongrens	NA	2019	3	91E0_va
+298088	manual_check/assessment_vbi	vegopname	NA	2018	2	9130_end
+298100	assessment_vbi/habitatmap2023	NA	100	2019	3	9130_end
+301008	habitatmap2023	NA	100	2016	2	9130_end
+301014	habitatmap2023	NA	100	2016	2	9120
+301015	habitatmap2023	NA	100	2016	2	91E0_va
+301022	habitatmap2023	NA	100	2016	2	9120
+301022	habitatmap2023	NA	0	2016	2	91E0_vc
+301029	habitatmap2023	NA	100	2015	2	91E0_va
+301097	habitatmap2023	NA	100	2017	2	9130_end
+301153	habitatmap2023	NA	100	2017	2	9130_end
+302006	habitatmap2023	NA	60	2014	2	9130_end
+302006	habitatmap2023	NA	40	2014	2	91E0_va
+302008	habitatmap2023	NA	100	2014	2	9130_end
+302116	habitatmap2023	NA	20	2015	2	91E0_vc
+303012	habitatmap2023	NA	100	2013	2	91E0_va
+303039	habitatmap2023	NA	100	2013	2	91E0_vn
+303039	manual_check/habitatmap2023	twijfel	NA	2023	3	91E0_vn
+303043	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	gh
+303045	habitatmap2023	NA	70	2013	2	91E0_va
+303045	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_va
+303153	manual_check/assessment_vbi	vegopname	NA	2023	3	91E0_vc
+304015	habitatmap2023	NA	100	2021	3	91E0_va
+304023	assessment_vbi/habitatmap2023	NA	30	2021	3	91E0_vm
+304044	manual_check/assessment_vbi	vegopname	NA	2022	3	91E0_va
+304051	habitatmap2023	NA	100	2022	3	91E0_vn
+304082	manual_check/assessment_vbi	vegopname	NA	2022	3	91E0_va
+305002	habitatmap2023	NA	100	2017	2	91E0_va
+305076	habitatmap2023	NA	100	2016	2	9130_end
+305082	habitatmap2023	NA	20	2016	2	9130_end
+305082	habitatmap2023	NA	80	2016	2	91E0_va
+305086	habitatmap2023	NA	95	2016	2	9130_end
+305086	habitatmap2023	NA	5	2016	2	91E0_vc
+305094	habitatmap2023	NA	100	2016	2	9130_end
+305097	habitatmap2023	NA	50	2016	2	9120
+305097	habitatmap2023	NA	50	2016	2	9130_end
+305098	habitatmap2023	NA	100	2016	2	9130_end
+306012	habitatmap2023	NA	100	2015	2	9130_end
+306081	habitatmap2023	NA	70	2015	2	9120
+306081	habitatmap2023	NA	30	2015	2	9130_end
+306098	habitatmap2023	NA	100	2015	2	9130_end
+307014	habitatmap2023	NA	100	2013	2	91E0_vn
+307038	habitatmap2023	NA	100	2013	2	91E0_vn
+307038	manual_check/assessment_vbi	twijfel, vegopname	NA	2023	3	91E0_va
+307058	habitatmap2023	NA	100	2014	2	91E0_vn
+307085	assessment_vbi/habitatmap2023	NA	100	2023	3	9130_end
+307086	habitatmap2023	NA	30	2013	2	9120
+307086	habitatmap2023	NA	70	2013	2	9130_end
+307086	manual_check	naaldhout	NA	2022	3	gh
+307110	habitatmap2023	NA	100	2013	2	91E0_va
+307110	manual_check/habitatmap2023	vegopname	NA	2023	3	91E0_va
+307113	habitatmap2023	NA	100	2014	2	9130_end
+307113	assessment_vbi/habitatmap2023	NA	100	2023	3	9130_end
+307122	habitatmap2023	NA	100	2013	2	9130_end
+307122	manual_check/habitatmap2023	twijfel, vegopname	NA	2023	3	9130_end
+308014	assessment_vbi/habitatmap2023	NA	100	2020	3	9130_end
+308015	assessment_vbi/habitatmap2023	NA	100	2020	3	9130_end
+308023	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA	2020	3	9130_end
+308069	habitatmap2023	NA	100	2020	3	91E0_va
+308077	assessment_vbi/habitatmap2023	NA	100	2020	3	91E0_vc
+308093	manual_check	vegopname	NA	2020	3	9130_end
+308101	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA	2020	3	9130_end
+311027	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	91E0_vc
+311043	manual_check	vegopname	NA	2020	3	91E0_va
+311049	habitatmap2023	NA	100	2020	3	91E0_vn
+311074	manual_check/assessment_vbi	vegopname	NA	2020	3	9130_end
+311133	habitatmap2023	NA	30	2017	2	91E0_va
+312033	habitatmap2023	NA	100	2016	2	91E0_va
+312042	habitatmap2023	NA	70	2016	2	91E0_va
+312042	habitatmap2023	NA	30	2016	2	91E0_vc
+312081	habitatmap2023	NA	70	2016	2	91E0_va
+312081	habitatmap2023	NA	30	2016	2	91E0_vn
+312108	habitatmap2023	NA	100	2016	2	91E0_va
+312108	habitatmap2023	NA	0	2016	2	91E0_vc
+312108	habitatmap2023	NA	0	2016	2	91E0_vm
+314056	manual_check	vegopname, bosleeftijd	NA	2023	3	9160
+314072	habitatmap2023	NA	100	2012	2	9120
+314072	manual_check	vegopname, bosleeftijd	NA	2023	3	9160
+314079	habitatmap2023	NA	100	2012	2	9120
+314079	manual_check/assessment_vbi	rand polygoon	NA	2023	3	gh
+314080	habitatmap2023	NA	100	2012	2	9120
+314092	habitatmap2023	NA	100	2013	2	9120
+314150	habitatmap2023	NA	20	2012	2	9160
+314150	manual_check	vegopname, bosleeftijd	NA	2023	3	gh
+314151	habitatmap2023	NA	100	2012	2	9120
+314151	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	9120
+314152	habitatmap2023	NA	100	2012	2	9120
+314152	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+314159	habitatmap2023	NA	100	2012	2	9120
+314159	manual_check/habitatmap2023	vergopname, bosleeftijd	NA	2023	3	9120
+315010	manual_check/assessment_vbi	vegopname	NA	2020	3	91E0_vn
+315018	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_vn
+315056	habitatmap2023	NA	100	2017	2	9130_end
+315062	habitatmap2023	NA	100	2017	2	91E0_va
+315063	manual_check/assessment_vbi	fout habkaart, polygoongrens	NA	2017	2	91E0_va
+315120	habitatmap2023	NA	70	2017	2	9120
+315120	habitatmap2023	NA	30	2017	2	9130_end
+316065	habitatmap2023	NA	60	2016	2	91E0_va
+316065	habitatmap2023	NA	40	2016	2	91E0_vc
+316066	habitatmap2023	NA	95	2016	2	91E0_va
+316066	habitatmap2023	NA	5	2016	2	91E0_vc
+316105	habitatmap2023	NA	100	2016	2	91E0_va
+317088	habitatmap2023	NA	100	2014	2	9120
+317090	habitatmap2023	NA	85	2014	2	9130_end
+317090	habitatmap2023	NA	15	2014	2	91E0_va
+317095	habitatmap2023	NA	100	2014	2	9120
+317096	habitatmap2023	NA	100	2014	2	9120
+317102	habitatmap2023	NA	100	2014	2	9120
+317103	habitatmap2023	NA	100	2014	2	9160
+317104	habitatmap2023	NA	100	2014	2	9120
+317105	habitatmap2023	NA	100	2014	2	9130_end
+317106	habitatmap2023	NA	100	2014	2	9130_end
+317110	habitatmap2023	NA	100	2014	2	9120
+317111	habitatmap2023	NA	100	2014	2	9120
+317112	habitatmap2023	NA	100	2014	2	9160
+317119	habitatmap2023	NA	100	2014	2	9120
+317120	habitatmap2023	NA	100	2014	2	9120
+317126	habitatmap2023	NA	100	2014	2	9120
+317127	habitatmap2023	NA	100	2014	2	9120
+317128	habitatmap2023	NA	100	2014	2	9120
+317135	habitatmap2023	NA	100	2014	2	9120
+317136	habitatmap2023	NA	100	2014	2	9120
+317143	habitatmap2023	NA	100	2014	2	9120
+317144	habitatmap2023	NA	100	2014	2	9120
+317155	habitatmap2023	NA	70	2014	2	9120
+318004	habitatmap2023	NA	100	2013	2	9120
+318004	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318011	habitatmap2023	NA	100	2013	2	9120
+318011	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318012	habitatmap2023	NA	100	2013	2	9120
+318012	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318015	habitatmap2023	NA	100	2012	2	9120
+318015	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	9120
+318018	habitatmap2023	NA	30	2013	2	9120
+318018	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318019	habitatmap2023	NA	100	2013	2	9120
+318019	manual_check/assessment_vbi	vegopname	NA	2023	3	9160
+318020	manual_check	rand polygoon	NA	2023	3	gn
+318022	habitatmap2023	NA	100	2012	2	9120
+318022	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	9120
+318027	habitatmap2023	NA	100	2013	2	9120
+318027	manual_check/assessment_vbi	vegopname	NA	2023	3	9160
+318028	habitatmap2023	NA	100	2013	2	9120
+318028	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318029	habitatmap2023	NA	100	2012	2	9120
+318029	manual_check/habitatmap2023	vegopname, bosleeftijd	NA	2023	3	9120
+318030	habitatmap2023	NA	100	2012	2	9120
+318031	manual_check/habitatmap2023	luchtfoto naaldhout	NA	2023	3	gh
+318035	habitatmap2023	NA	100	2013	2	9120
+318035	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318036	habitatmap2023	NA	100	2013	2	9120
+318036	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318038	habitatmap2023	NA	100	2012	2	9120
+318038	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318039	habitatmap2023	NA	100	2012	2	9120
+318039	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318044	habitatmap2023	NA	100	2013	2	9120
+318044	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318047	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318077	habitatmap2023	NA	100	2012	2	9120
+318077	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318081	habitatmap2023	NA	100	2013	2	9120
+318081	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318082	habitatmap2023	NA	100	2013	2	9120
+318082	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318089	habitatmap2023	NA	100	2013	2	9120
+318089	assessment_vbi/habitatmap2023	NA	100	2023	3	9160
+318090	habitatmap2023	NA	100	2013	2	9120
+318090	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318092	habitatmap2023	NA	100	2013	2	9120
+318092	manual_check	vegopname	NA	2023	3	9160
+318096	manual_check	vegopname	NA	2023	3	9160
+318097	habitatmap2023	NA	100	2013	2	9120
+318097	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318098	habitatmap2023	NA	100	2013	2	91E0_vn
+318098	manual_check	vegopname	NA	2023	3	91E0_va
+318103	habitatmap2023	NA	100	2012	2	9120
+318103	manual_check/habitatmap2023	vegopname	NA	2023	3	9120
+318106	habitatmap2023	NA	100	2013	2	9120
+318110	manual_check	bosleeftijd, vegopname	NA	2023	3	9120
+318113	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318114	habitatmap2023	NA	100	2013	2	9120
+318114	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318121	habitatmap2023	NA	100	2013	2	9120
+318121	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318122	habitatmap2023	NA	100	2013	2	9120
+318122	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318129	habitatmap2023	NA	100	2013	2	9120
+318129	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+318137	habitatmap2023	NA	100	2013	2	9120
+318137	manual_check	vegopname	NA	2023	3	9160
+321005	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_va
+321007	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	91E0_va
+321036	assessment_vbi/habitatmap2023	NA	30	2022	3	91E0_vm
+321038	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	9120
+321042	manual_check/habitatmap2023	vegopname	NA	2022	3	9160
+321043	manual_check/habitatmap2023	vegopname	NA	2022	3	9160
+321049	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+321053	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+321054	assessment_vbi/habitatmap2023	NA	15	2020	3	9160
+321055	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+321081	assessment_vbi/habitatmap2023	NA	5	2022	3	9120
+321082	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+321120	assessment_vbi/habitatmap2023	NA	25	2020	3	91E0_vm
+321132	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+321140	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+321148	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+321156	assessment_vbi/habitatmap2023	NA	100	2022	3	9120
+321159	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_vm
+322006	habitatmap2023	NA	30	2017	2	9120
+322007	habitatmap2023	NA	70	2017	2	9120
+322008	habitatmap2023	NA	30	2017	2	9120_qb
+322056	habitatmap2023	NA	30	2017	2	9120
+322097	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_vm
+322106	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+322112	habitatmap2023	NA	100	2017	2	91E0_va
+322116	manual_check/assessment_vbi	twijfel	NA	2020	3	9160
+322131	assessment_vbi/habitatmap2023	NA	20	2020	3	9120
+322138	assessment_vbi/habitatmap2023	NA	70	2020	3	9120
+322146	assessment_vbi/habitatmap2023	NA	100	2020	3	9120
+323044	habitatmap2023	NA	30	2016	2	9160
+323044	habitatmap2023	NA	70	2016	2	91E0_va
+323047	habitatmap2023	NA	30	2015	2	9120
+323047	habitatmap2023	NA	70	2015	2	9160
+323049	habitatmap2023	NA	100	2016	2	9120
+323079	habitatmap2023	NA	100	2015	2	91E0_va
+323109	habitatmap2023	NA	100	2015	2	9120_qb
+323131	habitatmap2023	NA	100	2016	2	9120
+323148	habitatmap2023	NA	100	2016	2	9160
+324007	habitatmap2023	NA	100	2014	2	9120
+324016	habitatmap2023	NA	100	2014	2	9160
+324024	habitatmap2023	NA	100	2014	2	9160
+324036	habitatmap2023	NA	70	2014	2	9120
+324036	habitatmap2023	NA	30	2014	2	9160
+324043	habitatmap2023	NA	100	2014	2	9120
+324058	habitatmap2023	NA	20	2014	2	91E0_va
+324060	habitatmap2023	NA	100	2014	2	9120
+324071	habitatmap2023	NA	100	2014	2	9160
+324075	habitatmap2023	NA	100	2014	2	9120
+325007	assessment_vbi/habitatmap2023	NA	30	2020	3	9160
+325016	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_va
+325020	manual_check/habitatmap2023	vegopname	NA	2022	3	9120
+325022	manual_check/habitatmap2023	vegopname	NA	2020	3	9130_end
+325028	habitatmap2023	NA	100	NA	3	9120
+325066	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2022	3	91E0_va
+325071	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA	2020	3	91E0_vn
+325078	manual_check/habitatmap2023	vegopname	NA	2020	3	91E0_va
+325093	manual_check/assessment_vbi	vegopname	NA	2020	3	91E0_vn
+325101	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+325120	manual_check	vegopname en/of bosleeftijd	NA	2020	3	91E0_vn
+326012	assessment_vbi/habitatmap2023	NA	90	2020	3	9120
+326016	habitatmap2023	NA	60	2017	2	91E0_va
+326016	habitatmap2023	NA	40	2017	2	91E0_vm
+326017	habitatmap2023	NA	100	2019	3	9120
+326020	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	9120
+326021	habitatmap2023	NA	20	2017	2	9120
+326021	habitatmap2023	NA	80	2017	2	9190
+326022	habitatmap2023	NA	70	2017	2	9120
+326022	habitatmap2023	NA	30	2017	2	9190
+326026	assessment_vbi/habitatmap2023	NA	100	2019	3	9120
+326027	assessment_vbi/habitatmap2023	NA	50	2019	3	9120
+326028	manual_check/habitatmap2023	vegopname en/of bosleeftijd, twijfel mogelijk	NA	2020	3	9120
+326029	habitatmap2023	NA	100	2017	2	9120
+326030	habitatmap2023	NA	100	2017	2	9120
+326034	manual_check/habitatmap2023	vegopname	NA	2019	3	9190
+326035	assessment_vbi/habitatmap2023	NA	100	2019	3	9160
+326036	manual_check/habitatmap2023	vegopname en/of bosleeftijd, twijfel mogelijk	NA	2019	3	9120
+326037	habitatmap2023	NA	100	2017	2	9120
+326038	habitatmap2023	NA	100	2017	2	9120
+326041	assessment_vbi/habitatmap2023	NA	100	2019	3	9120
+326042	manual_check/habitatmap2023	vegopname	NA	2019	3	9120
+326043	assessment_vbi/habitatmap2023	NA	100	2019	3	9160
+326044	assessment_vbi/habitatmap2023	NA	100	2019	3	9160
+326045	habitatmap2023	NA	100	2017	2	9160
+326051	manual_check/habitatmap2023	vegopname	NA	2019	3	9120
+331002	habitatmap2023	NA	100	2013	2	9160
+331002	manual_check/assessment_vbi	vegopname	NA	2024	3	9120
+331082	habitatmap2023	NA	100	2013	2	9120
+331082	assessment_vbi/habitatmap2023	NA	100	2023	3	9120
+332061	manual_check/habitatmap2023	vegopname en/of bosleeftijd	NA	2020	3	9120
+332087	habitatmap2023	NA	50	2010	2	9120
+332087	habitatmap2023	NA	30	2010	2	9160
+332096	manual_check/habitatmap2023	9120vs9190	NA	2020	3	9120
+332104	assessment_vbi/habitatmap2023	NA	30	2020	3	91E0_vm
+332116	manual_check/assessment_vbi	vegopname en/of bosleeftijd	NA	2021	3	91E0_vn
+332123	assessment_vbi/habitatmap2023	NA	100	2021	3	9120
+332134	manual_check/assessment_vbi	vegopname	NA	2020	3	9160
+332138	manual_check/habitatmap2023	vegopname	NA	2021	3	9120
+332150	manual_check	vegopname	NA	2020	3	91E0_vn
+334055	habitatmap2023	NA	100	2015	2	9190
+334063	habitatmap2023	NA	30	2015	2	9160
+334108	habitatmap2023	NA	70	2016	2	9120
+334108	habitatmap2023	NA	30	2016	2	9160
+335011	manual_check	vegopname	NA	2023	3	9160
+335037	habitatmap2023	NA	100	2012	2	91E0_va
+335037	manual_check/assessment_vbi	vegopname, bosleeftijd	NA	2022	3	gh
+336040	manual_check	vegopname	NA	2020	3	91E0_vn
+336078	assessment_vbi/habitatmap2023	NA	100	2020	3	9160
+337110	habitatmap2023	NA	20	2016	2	91E0_va
+337135	habitatmap2023	NA	70	2016	2	9120
+337135	habitatmap2023	NA	30	2016	2	9160
+337146	manual_check/assessment_vbi	vegopname	NA	2020	3	9160
+341022	habitatmap2023	NA	100	2014	2	9120
+341047	habitatmap2023	NA	100	2014	2	9120
+341100	habitatmap2023	NA	60	2014	2	91E0
+341109	habitatmap2023	NA	70	2014	2	9160
+341121	habitatmap2023	NA	100	2014	2	9120
+341137	habitatmap2023	NA	20	2014	2	9160
+341137	habitatmap2023	NA	60	2014	2	91E0_va
+341145	habitatmap2023	NA	100	2014	2	9160
+342026	manual_check/habitatmap2023	bosleeftijd	NA	2024	3	gh
+345004	habitatmap2023	NA	5	2014	2	91E0_va
+345004	habitatmap2023	NA	95	2014	2	91E0_vm
+347088	manual_check/habitatmap2023	vegopname	NA	2020	3	9120
+347104	manual_check/assessment_vbi	vegopname	NA	2020	3	9130
+348095	habitatmap2023	NA	100	2016	2	9110
+348103	habitatmap2023	NA	100	2016	2	9110
+348116	assessment_vbi/habitatmap2023	NA	100	2020	3	9160
+348125	habitatmap2023	NA	100	2016	2	9110
+348129	manual_check/habitatmap2023	9120vs9190	NA	2020	3	9120
+348133	habitatmap2023	NA	100	2016	2	9110
+348136	assessment_vbi/habitatmap2023	NA	5	2016	2	91E0_vc
+348139	assessment_vbi/habitatmap2023	NA	100	2020	3	9110
+348140	manual_check/habitatmap2023	vegopname	NA	2020	3	9110
+348149	habitatmap2023	NA	100	2016	2	9160
+348156	assessment_vbi/habitatmap2023	NA	100	2020	3	9110
+374008	manual_check/habitatmap2023	vegopname	NA	2018	2	91E0_va
+383011	habitatmap2023	NA	30	2013	2	91E0_va
+383011	habitatmap2023	NA	70	2013	2	91E0_vc
+383011	assessment_vbi/habitatmap2023	NA	70	2023	3	91E0_vc
+384016	manual_check/habitatmap2023	vegopname	NA	2020	3	9130_end
+384030	manual_check/assessment_vbi	vegopname	NA	2020	3	9130_end
+384032	assessment_vbi/habitatmap2023	NA	100	2020	3	9130_end
+391033	assessment_vbi/habitatmap2023	NA	100	2019	3	9130_end
+392005	habitatmap2023	NA	70	2015	2	9120
+392005	habitatmap2023	NA	30	2015	2	9130_end
+392014	habitatmap2023	NA	45	2015	2	9130_end
+392014	habitatmap2023	NA	50	2015	2	91E0_va
+392014	habitatmap2023	NA	5	2015	2	91E0_vc
+392037	habitatmap2023	NA	70	2015	2	9120
+392037	habitatmap2023	NA	30	2015	2	9130_end
+392040	habitatmap2023	NA	95	2015	2	9120
+392040	habitatmap2023	NA	5	2015	2	9130_end
+392046	habitatmap2023	NA	100	2015	2	9130_end
+392047	habitatmap2023	NA	100	2015	2	9130_end
+392054	habitatmap2023	NA	100	2015	2	9130_end
+392055	habitatmap2023	NA	100	2015	2	9130_end
+392059	habitatmap2023	NA	100	2016	2	9130_end
+392060	habitatmap2023	NA	100	2016	2	9130_end
+392063	habitatmap2023	NA	100	2015	2	9130_end
+392067	habitatmap2023	NA	100	2016	2	9130_end
+413019	habitatmap2023	NA	100	2020	3	9160

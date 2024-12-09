@@ -12,6 +12,7 @@ library(sf)
 library(RODBC)
 library(git2rdata)
 library(DT)
+library(kableExtra)
 ```
 
 
@@ -25,7 +26,9 @@ In the file [check_vbi_habitatmap_controle.csv](https://drive.google.com/drive/f
 ```{r}
 
 path_vbi <- str_c(fileman_up("n2khab-mhq-data"), "/processed/dwh_vbi")
-type_observed_orig <- read_vc( "type_observed", root = path_vbi)
+type_observed_orig <- read_vc( "type_observed", root = path_vbi) %>%
+  rename(periode = vbi_cycle,
+         type = type_observed)
 
 type_observed_checked <- read_csv2(file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi/check_vbi_habitatmap_controle.csv")) %>%
   filter(plot_id != 0)
@@ -38,9 +41,9 @@ type_observed_checked <- read_csv2(file.path(fileman_up("n2khab-mhq-data"), "/ra
 
 We make use of following data sources (see [google drive](https://drive.google.com/drive/folders/1TjONf7WuoEYM6TzfHp9UW5KVw6ljMDgs)):
 
-+ `vbi_strata_v2024-01-24.accdb`: observed habitat type (only available for the more recently measured plots)
-+ `vbi_meetproces_v2022-11-15.accdb`: recorded coordinates
-+ `vbi_analysedatabank_v2024-07-01.accdb`: contains information on the plots for which vegetation and dendrometric data is recorded
++ `vbi_strata_v2024-07-01.accdb`: observed habitat type (only available for the more recently measured plots)
++ `vbi_meetproces_v2024-08-15.accdb`: recorded coordinates
++ `vbi_analysedatabank_v2024-10-15.accdb`: contains information on the plots for which vegetation and dendrometric data is recorded
 
 ```{r}
 
@@ -101,7 +104,7 @@ Let's check the version.
 
 ```{r}
 check_version <- tibble(version_name = "habitatmap_terr_2023_v1",
-                        md5_zenodo = "aed93b1293021a83d3dbe2db50b46585",
+                        md5_zenodo = "0e11e93c909b0044de94326debf3dfce",
                         md5_file = md5sum(file.path(fileman_up("n2khab_data"), "20_processed/habitatmap_terr/habitatmap_terr.gpkg")))
 
 check_version %>%
@@ -111,7 +114,7 @@ check_version %>%
 ```
 
 
-```{r}
+```{r, eval = FALSE}
 # check existing records
 
 check <- type_observed_orig %>%
@@ -410,11 +413,11 @@ check_vbi_habitatmap_specieslist <- check_vbi_habitatmap %>%
 
 date <- Sys.Date()
 
-check_vbi_habitatmap %>%
-  write_csv2(str_c("../../output/check_vbi_habitatmap_", date, ".csv"))
+# check_vbi_habitatmap %>%
+#   write_csv2(str_c("../../output/check_vbi_habitatmap_", date, ".csv"))
 
-check_vbi_habitatmap_specieslist %>%
-  write_csv2(str_c("../../output/check_vbi_habitatmap_specieslist_", date, ".csv"))
+# check_vbi_habitatmap_specieslist %>%
+#   write_csv2(str_c("../../output/check_vbi_habitatmap_specieslist_", date, ".csv"))
 
 vbi_habitatmap_not_observed <- vbi_meetpunten_hab %>%
   filter(is.na(type_observed)) %>%
@@ -434,4 +437,46 @@ vbi_habitatmap_not_observed <- vbi_meetpunten_hab %>%
 
 ## Now let's include the results of the manual check
 
+```{r}
+manual_check <- read_csv2(file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi/check_vbi_habitatmap_2024-12-05.csv"))
+
+manual_check <- manual_check %>%
+  select(plot_id, periode, date_dendro = date_dendr, type_vbi = type_obser, type_habmap = type_habit, type_control = verdict, note_manual_check = reason) %>%
+  filter(!is.na(type_control)) %>%
+  mutate(type_control = ifelse(type_control %in% c("geen boshabitat", "gh"), "gh", type_control),
+         # 'twijfel' toevoegen aan opmerkingen en verwijderen in type
+         note_manual_check = ifelse(str_detect(type_control, ", twijfel"),
+                                    ifelse(!str_detect(note_manual_check, "twijfel"), 
+                                           str_c(note_manual_check, ", twijfel"), note_manual_check),
+                                    note_manual_check),
+         type_control = str_remove(type_control, ", twijfel"),
+         type = ifelse(type_control == "twijfel", type_vbi, type_control),
+         source_vbi = type == type_vbi,
+         source_habmap = str_detect(type_habmap, type),
+         uncertain = type_control == "twijfel",
+         source = str_c("manual_check", ifelse(source_vbi, "/assessment_vbi", ""),
+                        ifelse(source_habmap, "/habitatmap2023", ""))) %>%
+  select(plot_id, periode, date_dendro, type, source, note_manual_check)
+         
+
+```
+
+```{r}
+check_record <- manual_check %>%
+  semi_join(type_observed_orig, by = c("plot_id", "periode"))
+
+check_plot_update <- manual_check %>%
+  semi_join(type_observed_orig, by = c("plot_id"))
+
+check_plot_new <- manual_check %>%
+  anti_join(type_observed_orig, by = c("plot_id"))
+
+type_observed_update2 <- type_observed_update %>%
+  bind_rows(manual_check) %>%
+  arrange(plot_id, periode)
+
+check <- type_observed_update2 %>%
+  group_by(plot_id, periode, type) %>%
+  filter(n() > 1)
+```
 

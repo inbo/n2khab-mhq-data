@@ -6,17 +6,19 @@
   - plot_id
   - vbi_cycle
   - type_observed
-  hash: b5cbd51c479ac4bd8ee9eae97d218f9402aa9878
-  data_hash: 887a237a1089c7ec3eee638cb27de58541936892
+  hash: b5ce75e47daf2722ac37115600a09d2cabb3f6ae
+  data_hash: bf5e43315a16cbdbc1cb5c75db1b70f03b720efb
 plot_id:
   class: numeric
-vbi_cycle:
-  class: numeric
-type_observed:
-  class: character
 source:
   class: character
 note_manual_check:
   class: character
 phab:
   class: numeric
+date_dendro:
+  class: numeric
+vbi_cycle:
+  class: numeric
+type_observed:
+  class: character
