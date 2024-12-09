@@ -1,0 +1,22 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - vbi_cycle
+  - type_observed
+  hash: b5cbd51c479ac4bd8ee9eae97d218f9402aa9878
+  data_hash: 887a237a1089c7ec3eee638cb27de58541936892
+plot_id:
+  class: numeric
+vbi_cycle:
+  class: numeric
+type_observed:
+  class: character
+source:
+  class: character
+note_manual_check:
+  class: character
+phab:
+  class: numeric
