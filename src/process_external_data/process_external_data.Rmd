@@ -107,7 +107,7 @@ vbi_msa <- coordinates_vbi %>%
   select(plot_id, periode, polygon_id) %>%
   left_join(msa_clusters, by = "polygon_id") %>%
   left_join(msa_type, by = "cluster_id") %>%
-  select(plot_id, periode, habitattype, msa_area_ha) %>%
+  select(plot_id, periode, type, msa_area_ha) %>%
   filter(!is.na(msa_area_ha)) %>%
   unique()
 
@@ -137,7 +137,7 @@ mhq_msa <- coordinates_mhq %>%
   select(plot_id, date_assessment, polygon_id) %>%
   left_join(msa_clusters, by = "polygon_id") %>%
   left_join(msa_type, by = "cluster_id") %>%
-  select(plot_id, date_assessment, habitattype, msa_area_ha) %>%
+  select(plot_id, date_assessment, type, msa_area_ha) %>%
   filter(!is.na(msa_area_ha)) %>%
   unique()
 
@@ -167,8 +167,8 @@ if (!dir.exists(path)) {
 write_vc(plot_91E0_sf_bosconstantie, "bosconstantie_91E0_sf", root = path, sorting = c("plot_id"))
 write_vc(plot_91E0_sf_msa, "msa_91E0_sf", root = path, sorting = c("plot_id"), strict = FALSE)
 write_vc(mhq_bosconstantie, "bosconstantie_mhq", root = path, sorting = c("plot_id", "date_assessment"), strict = FALSE)
-write_vc(mhq_msa, "msa_mhq", root = path, sorting = c("plot_id", "date_assessment", "habitattype"), strict = FALSE)
+write_vc(mhq_msa, "msa_mhq", root = path, sorting = c("plot_id", "date_assessment", "type"), strict = FALSE)
 write_vc(vbi_bosconstantie, "bosconstantie_vbi", root = path, sorting = c("plot_id", "periode"))
-write_vc(vbi_msa, "msa_vbi", root = path, sorting = c("plot_id", "periode", "habitattype"), strict = FALSE)
+write_vc(vbi_msa, "msa_vbi", root = path, sorting = c("plot_id", "periode", "type"), strict = FALSE)
 
 ```

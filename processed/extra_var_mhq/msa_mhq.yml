@@ -5,15 +5,15 @@
   sorting:
   - plot_id
   - date_assessment
-  - habitattype
-  hash: 64b1c5107f5d2901b298346d770fffebd3b09821
-  data_hash: fc73dcac0ea587dae19927b8094dffb55a68f487
+  - type
+  hash: 7304bb3bfdec26919c2d15843c6adb5767742013
+  data_hash: 9a67abe2c5459f095f136dec71eb25dc00c10daa
 plot_id:
   class: numeric
 date_assessment:
   class: Date
   origin: '1970-01-01'
-habitattype:
-  class: character
 msa_area_ha:
   class: numeric
+type:
+  class: character
