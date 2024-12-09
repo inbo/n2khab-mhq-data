@@ -78,12 +78,14 @@ no_classification <- anti_join(header_31xx, classif_31xx, by = "recording_givid"
 no_structure <- anti_join(header_31xx, structure_31xx, by = "recording_givid") 
       # 0 opnames; ok
 no_layers <- anti_join(header_31xx, layerqual_31xx, by = "recording_givid") 
-      # 1 opname zonder lagen en taxa: WV_ZEB_004_2190a_20; 
+      # 1 opname zonder lagen en taxa: WV_ZEB_004_2190a_20 (zie verder); 
       # --> dit is geen typisch duinwater dus twijfel of dit 2190a is; 
 no_vegetation <- anti_join(header_31xx, vegetation_31xx, by = "recording_givid") 
-      # to do: 1 opnames 31xx & 4 opnames 2190a: op te volgen
-      # een aantal opnames hebben effectief geen soorten in de opname; andere zijn mogelijk invoerfouten
-      # voorlopig in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
+      # 1 opname 31xx & 4 opnames 2190a: 
+      # WV_ZWI_060_2190a_20: deze opname heeft effectief geen soorten in de opname; 
+      # AN_BLO_001_GH_20: 'geen habitat' dus wordt sowieso genegeerd (zie suitable_mhq)
+      # andere: mogelijk invoerfouten (zie unreliable)
+      # no_vegetation in analyse laten (owv effectieve opnames zonder soorten; zie 2190a)
 no_survey <- bind_rows(no_classification, no_structure, no_layers) %>% 
   distinct()
 
@@ -104,24 +106,34 @@ habitat_uncertain <- c("IV2024050616074409", "IV2024051511574873", "IV2023081715
   # IV2024050815575205 = WVLKNO106_2190a_20
   # IV2024050816070592 = WVLKNO0352_2190a_20
 
+relevee_not_relevant <- c("IV2024103111193960", "IV2024101016162129")
+# schrap herhaalde opnames van een zone die niet relevant is voor de LSVI-bepaling:
+# IV2024103111193960 = ANTBCT0019_3160_24; deze opname is te ruim; enkel het waterdeel te beschouwen
+# IV2024101016162129 = LIMZNH0338_3110x_24; omdat dit enkel de zone is met waterlobelia
+
 dry <- structure_31xx %>% 
-  filter(var_code == "peil", var_value_code == "Droog")
-      # bij droogval: opname is ongeschikt voor LSVI-bepaling
+  filter(var_code == "peil", var_value_code == "Droog",
+         !str_detect(user_reference, "3130n"))
+      # bij droogval: opname is ongeschikt voor LSVI-bepaling; uitgezonderd bij subtype 3130n
 ```
 
 ```{r}
+sort(unique(classif_31xx$type_observed))
+
 stilstaande_typen <- c("2190", "2190_a", "3110", "3130_aom", "3130_na", "3140", "3150", "3160")
 
 header <- header_31xx %>% 
   left_join(select(classif_31xx, recording_givid, type_observed, classif_key), 
             by = "recording_givid") %>% 
+  filter(!type_observed == "7140_oli") %>% # type niet relevant voor beoordeling
   mutate(type_observed = factor(type_observed, 
                                   levels = c("-9", stilstaande_typen),
                                   labels = c("gh", stilstaande_typen))) %>% 
   left_join(sitequal, by = c("survey", "recording_givid", "user_reference")) %>% 
   mutate(suitable_mhq = ifelse(test = (type_observed %in% stilstaande_typen), 
                           yes = ifelse(test = (recording_givid %in% c(dry$recording_givid,
-                                                                      habitat_uncertain)),
+                                                                      habitat_uncertain,
+                                                                      relevee_not_relevant)),
                                        yes = FALSE,
                                        no = TRUE),
                           no = FALSE),
@@ -136,8 +148,27 @@ beschrijving van enkele kolommen:
 
 * type_observed: gh (-9, geen habitat); `r stilstaande_typen`  
 * reliability: betrouwbaarheid vegetatieopname: hoog (misschien soorten over het hoofd gezien); matig (waarschijnlijk soorten over het hoofd gezien); laag (zeker soorten over het hoofd gezien)  
-* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van de lijst, indien drooggevallen of indien het toegekende habitattype onzeker is
+* suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van de lijst, indien drooggevallen, indien het toegekende habitattype onzeker is of indien tweemaal gemeten binnen hetzelfde jaar
 * measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- of layerkenmerken genoteerd) of tegenstrijdige gegevens in de opname wordt als FALSE beschouwd  
+
+```{r}
+# dubbel_ingevoerd
+doublerecords_header1 <- header %>% 
+  select(user_reference, recording_givid) %>% 
+  distinct() %>% 
+  count(user_reference) %>% 
+  filter(n>1)
+doublerecords_header1
+# 2 to do: opvolgen
+
+doublerecords_header2 <- header %>% 
+  filter(!(user_reference %in% doublerecords_header1$user_reference)) %>% 
+  count(user_reference) %>% 
+  filter(n>1)
+doublerecords_header2
+# ok
+```
+
 
 ```{r}
 header %>% 
