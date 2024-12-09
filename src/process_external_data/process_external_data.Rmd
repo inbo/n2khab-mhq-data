@@ -35,9 +35,11 @@ bosconstantie <- st_read(dsn = file.path(data_path_gis, "bosconstantie"), layer 
   select(blk = BLK) %>%
   st_transform(crs = 31370)
 
-msa <- st_read(dsn = file.path(data_path_gis, "msa"), layer = "Bos_clusters", quiet = TRUE) %>%
-  st_transform(crs = 31370)
+msa_clusters <- read_csv2(file.path(data_path_gis, "msa/clusters_msa_v2023.csv"))
+
+msa_type <- read_csv2(file.path(data_path_gis, "msa/msa_v2023.csv"))
   
+habmap_terr <- read_habitatmap_terr()
 ```
 
 ## MONEOS: 91E0_sf
@@ -66,9 +68,13 @@ plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
   select(plot_id, x, y) %>%
     filter(!is.na(x)) %>%
     st_as_sf(coords = c("x", "y"), crs = 31370) %>%
-  st_join(msa) %>%
+  st_join(select(habmap_terr$habitatmap_terr_polygons, polygon_id)) %>%
   st_drop_geometry() %>%
-  select(plot_id, MSA = HT91E0_s)
+  select(plot_id, polygon_id) %>%
+  left_join(msa_clusters, by = "polygon_id") %>%
+  left_join(msa_type, by = "cluster_id") %>%
+  unique() %>%
+  select(plot_id, msa_area_ha)
 
 
 
@@ -79,7 +85,7 @@ plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
 ```{r}
 data_path_vbi <- file.path(fileman_up("n2khab-mhq-data"), "/raw/vbi")
 
-db_meetproces <- file.path(data_path_vbi, "vbi_meetproces_v2022-11-15.accdb")
+db_meetproces <- file.path(data_path_vbi, "vbi_meetproces_v2024-08-15.accdb")
 
 connect_db <-   odbcConnectAccess2007(db_meetproces)
 coordinaten_orig <- sqlFetch(connect_db, "tblcoordinaten")
@@ -96,24 +102,14 @@ vbi_bosconstantie <- coordinates_vbi %>%
 
 vbi_msa <- coordinates_vbi %>%
   st_as_sf(coords = c("x", "y"), crs = 31370) %>%
-  st_join(msa) %>%
+  st_join(select(habmap_terr$habitatmap_terr_polygons, polygon_id)) %>%
   st_drop_geometry() %>%
-  filter(!is.na(Bos)) %>%
-  select(plot_id, periode, starts_with("HT")) %>%
-  pivot_longer(cols = starts_with("HT"),
-               names_to = "type",
-               values_to = "MSA") %>%
-  mutate(type = str_remove(type, "HT"),
-         type = ifelse(type == "91E0_s", "91E0_sf", type))
-
-# msa 91E0_vc geldt ook voor 91E0_va -> toevoegen
-vbi_msa_91E0_va <- vbi_msa %>%
-  filter(type == "91E0_vc") %>%
-  mutate(type = "91E0_va")
-
-vbi_msa <- vbi_msa %>%
-  bind_rows(vbi_msa_91E0_va) %>%
-  arrange(plot_id, periode, type)
+  select(plot_id, periode, polygon_id) %>%
+  left_join(msa_clusters, by = "polygon_id") %>%
+  left_join(msa_type, by = "cluster_id") %>%
+  select(plot_id, periode, habitattype, msa_area_ha) %>%
+  filter(!is.na(msa_area_ha)) %>%
+  unique()
 
 ```
 
@@ -136,25 +132,14 @@ mhq_bosconstantie <- coordinates_mhq %>%
 
 mhq_msa <- coordinates_mhq %>%
   st_as_sf(coords = c("x_measured", "y_measured"), crs = 31370) %>%
-  st_join(msa) %>%
+  st_join(select(habmap_terr$habitatmap_terr_polygons, polygon_id)) %>%
   st_drop_geometry() %>%
-  filter(!is.na(Bos)) %>%
-  select(plot_id, date_assessment, starts_with("HT")) %>%
-  pivot_longer(cols = starts_with("HT"),
-               names_to = "type",
-               values_to = "MSA") %>%
-  mutate(type = str_remove(type, "HT"),
-         type = ifelse(type == "91E0_s", "91E0_sf", type)) %>%
+  select(plot_id, date_assessment, polygon_id) %>%
+  left_join(msa_clusters, by = "polygon_id") %>%
+  left_join(msa_type, by = "cluster_id") %>%
+  select(plot_id, date_assessment, habitattype, msa_area_ha) %>%
+  filter(!is.na(msa_area_ha)) %>%
   unique()
-
-# msa 91E0_vc geldt ook voor 91E0_va -> toevoegen
-mhq_msa_91E0_va <- mhq_msa %>%
-  filter(type == "91E0_vc") %>%
-  mutate(type = "91E0_va")
-
-mhq_msa <- mhq_msa %>%
-  bind_rows(mhq_msa_91E0_va) %>%
-  arrange(plot_id, date_assessment, type)
 
 ```
 
@@ -180,10 +165,10 @@ if (!dir.exists(path)) {
 }
 
 write_vc(plot_91E0_sf_bosconstantie, "bosconstantie_91E0_sf", root = path, sorting = c("plot_id"))
-write_vc(plot_91E0_sf_msa, "msa_91E0_sf", root = path, sorting = c("plot_id"))
+write_vc(plot_91E0_sf_msa, "msa_91E0_sf", root = path, sorting = c("plot_id"), strict = FALSE)
 write_vc(mhq_bosconstantie, "bosconstantie_mhq", root = path, sorting = c("plot_id", "date_assessment"), strict = FALSE)
-write_vc(mhq_msa, "msa_mhq", root = path, sorting = c("plot_id", "date_assessment", "type"), strict = FALSE)
+write_vc(mhq_msa, "msa_mhq", root = path, sorting = c("plot_id", "date_assessment", "habitattype"), strict = FALSE)
 write_vc(vbi_bosconstantie, "bosconstantie_vbi", root = path, sorting = c("plot_id", "periode"))
-write_vc(vbi_msa, "msa_vbi", root = path, sorting = c("plot_id", "periode", "type"))
+write_vc(vbi_msa, "msa_vbi", root = path, sorting = c("plot_id", "periode", "habitattype"), strict = FALSE)
 
 ```

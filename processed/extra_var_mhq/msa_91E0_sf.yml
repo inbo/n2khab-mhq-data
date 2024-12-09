@@ -3,9 +3,9 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 315b2311a5629bfc7ff744f156aa7d7888a1973f
-  data_hash: 5f9c74421c8c9a7905cf7e291050cfed90623c15
+  hash: 03fd65a620ca6d6d57a9c45093d45abff0594394
+  data_hash: cf879c5a6123b63262bc8c548b7c9ebcde97a7cb
 plot_id:
   class: character
-MSA:
+msa_area_ha:
   class: numeric

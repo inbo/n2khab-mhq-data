@@ -5,14 +5,14 @@
   sorting:
   - plot_id
   - periode
-  - type
-  hash: 7072314ba8f68c3d444a9733142fb4e2a87f270c
-  data_hash: abaffcda65ff3edba3805529a30bd8bfebe0fd8e
+  - habitattype
+  hash: 4368ed6b4d3b72189a9d905c7d25b2769932d55f
+  data_hash: 0aa0154b84e5319ac7c392bc55160974d6d2063e
 plot_id:
   class: numeric
 periode:
   class: integer
-type:
+habitattype:
   class: character
-MSA:
+msa_area_ha:
   class: numeric
