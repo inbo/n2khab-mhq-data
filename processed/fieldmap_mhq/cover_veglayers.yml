@@ -7,7 +7,7 @@
   - date_assessment
   - layer
   hash: 09455b738c19091f1fdb47771a9093ee85443127
-  data_hash: ccbd8dac314e9bb9f61b5af0640fd73d55a3be36
+  data_hash: 5223105f71d90684a492bccef881178a45d24e49
 plot_id:
   class: integer
 layer:

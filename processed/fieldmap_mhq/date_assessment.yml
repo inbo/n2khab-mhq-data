@@ -6,7 +6,7 @@
   - plot_id
   - mon_cycle
   hash: 7028fbd6491de54c3b803cde221f3afdf7d2f000
-  data_hash: 53e5e6e5e38bcc88f6a64efe065aed84da0f23e7
+  data_hash: 3206af5e6dfe53023c864e151c1002f3a2950bdd
 plot_id:
   class: integer
 date_assessment:

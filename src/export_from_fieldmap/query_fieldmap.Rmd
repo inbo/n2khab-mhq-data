@@ -38,6 +38,7 @@ db_fieldmap_foresthab_past2020 <- file.path(fileman_up("n2khab-mhq-data"), "raw/
 db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
 db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
 db_fieldmap_openhab_2 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v8_cycle2.FDB")
+db_fieldmap_openhab_2024 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/access_openhab_v2024.accdb")
 
 # check if database is in project folder
 
@@ -48,6 +49,12 @@ if (!file.exists(db_fieldmap_foresthab)) {
 }
 
 if (!file.exists(db_fieldmap_openhab)) {
+  
+  stop(cat("Fieldmap database for open habitat types not found."))
+  
+}
+
+if (!file.exists(db_fieldmap_openhab_2024)) {
   
   stop(cat("Fieldmap database for open habitat types not found."))
   
@@ -95,7 +102,7 @@ coverscales <- scales_orig %>%
 
 get_status_openhab <- function(db = db_fieldmap_openhab){
 
-query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
+query_gridpoints_accdb <- "SELECT Grid_points.IDPlots as navplot_id,
     Grid_points.Ranking as plot_id,
     Grid_points.Add_date as date_status,
     Grid_points.SingleID as sampling_unit_code,
@@ -106,22 +113,44 @@ query_gridpoints <- "SELECT Grid_points.IDPlots as navplot_id,
     QINVAV.Value1 as status_fieldwork,
     QINVAV_EXTRA.Value1 as info_status_fieldwork,
     Grid_points.Remark as remark
-    FROM Grid_points 
-    LEFT JOIN qFieldteam ON Grid_points.Fieldteam = qFieldteam.ID
-    LEFT JOIN QINVAV_EXTRA ON Grid_points.INFO_STATUS_FIELDWORK = QINVAV_EXTRA.ID
-    LEFT JOIN QINVAV ON Grid_points.INVAVAILABLE = QINVAV.ID
+    FROM ((Grid_points
+    LEFT JOIN QINVAV_EXTRA ON Grid_points.INFO_STATUS_FIELDWORK = QINVAV_EXTRA.ID)
+    LEFT JOIN QINVAV ON Grid_points.INVAVAILABLE = QINVAV.ID)
+    LEFT JOIN [YesNo] ON Grid_points.TARGETHABITAT = YesNo.ID;"
+
+query_gridpoints_fb <- "SELECT Grid_points.IDPlots as navplot_id,
+    Grid_points.Ranking as plot_id,
+    Grid_points.Add_date as date_status,
+    Grid_points.SingleID as sampling_unit_code,
+    Grid_points.Habsubt1,
+    Grid_points.Habt2,
+    Grid_points.Habsubt2,
+    YesNo.Value1 as TargetHabitat,
+    QINVAV.Value1 as status_fieldwork,
+    QINVAV_EXTRA.Value1 as info_status_fieldwork,
+    Grid_points.Remark as remark
+    FROM ((Grid_points
+    LEFT JOIN QINVAV_EXTRA ON Grid_points.INFO_STATUS_FIELDWORK = QINVAV_EXTRA.ID)
+    LEFT JOIN QINVAV ON Grid_points.INVAVAILABLE = QINVAV.ID)
     LEFT JOIN YesNo ON Grid_points.TARGETHABITAT = YesNo.ID;"
 
   if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
+    
     connect_db <-   odbcConnectAccess(db)
+    gridpoints_orig <- sqlQuery(connect_db, query_gridpoints_accdb)
+    
   } else if (str_sub(db, nchar(db) - 5, nchar(db)) == ".accdb") {
+    
     connect_db <-   odbcConnectAccess2007(db)
+    gridpoints_orig <- sqlQuery(connect_db, query_gridpoints_accdb)
+    
   } else if (str_sub(db, nchar(db) - 3, nchar(db)) == ".FDB") {
+    
     connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
+    gridpoints_orig <- sqlQuery(connect_db, query_gridpoints_fb)
+    
   }
 
- gridpoints_orig <- sqlQuery(connect_db, query_gridpoints)
- 
  colnames(gridpoints_orig) <- str_to_lower(colnames(gridpoints_orig))
  
  # selectie van punten die zijn afgewerkt v5--status_fw = afgewerkt (ja/nee) --> v7 Info_status_fieldwerk : opname volledig/gedeeltelijk/niet afgewerkt
@@ -238,9 +267,9 @@ get_cover_species_openhab <- function(db = db_fieldmap_openhab){
   qVEG_HerbSpeciesScientific.Value1 as name_sc,
   Herblayer.Coverage_date1 as class_id,
   qLondo.Value1 as cover_description
-  FROM Herblayer
-  LEFT JOIN qVEG_HerbSpecies ON Herblayer.Species = qVEG_HerbSpecies.ID
-  LEFT JOIN qVEG_HerbSpeciesScientific ON Herblayer.Species_scientific = qVEG_HerbSpeciesScientific.ID
+  FROM ((Herblayer
+  LEFT JOIN qVEG_HerbSpecies ON Herblayer.Species = qVEG_HerbSpecies.ID)
+  LEFT JOIN qVEG_HerbSpeciesScientific ON Herblayer.Species_scientific = qVEG_HerbSpeciesScientific.ID)
   LEFT JOIN qLondo ON Herblayer.Coverage_date1 = qLondo.ID;
   "
 
@@ -251,9 +280,9 @@ get_cover_species_openhab <- function(db = db_fieldmap_openhab){
   qVEG_TreeSpeciesScientific.Value1 as name_sc,
   Shrublayer.Coverage as class_id,
   qLondo.Value1 as cover_description
-  FROM Shrublayer
-  LEFT JOIN qVEG_TreeSpecies ON Shrublayer.Species = qVEG_TreeSpecies.ID
-  LEFT JOIN qVEG_TreeSpeciesScientific ON Shrublayer.Species_Scientific = qVEG_TreeSpeciesScientific.ID
+  FROM ((Shrublayer
+  LEFT JOIN qVEG_TreeSpecies ON Shrublayer.Species = qVEG_TreeSpecies.ID)
+  LEFT JOIN qVEG_TreeSpeciesScientific ON Shrublayer.Species_Scientific = qVEG_TreeSpeciesScientific.ID)
   LEFT JOIN qLondo ON Shrublayer.Coverage = qLondo.ID;
   "
 
@@ -264,9 +293,9 @@ get_cover_species_openhab <- function(db = db_fieldmap_openhab){
   qVEG_TreeSpeciesScientific.Value1 as name_sc,
   Treelayer.Coverage as class_id,
   qLondo.Value1 as cover_description
-  FROM Treelayer
-  LEFT JOIN qVEG_TreeSpecies ON Treelayer.Species = qVEG_TreeSpecies.ID
-  LEFT JOIN qVEG_TreeSpeciesScientific ON Treelayer.Species_Scientific = qVEG_TreeSpeciesScientific.ID
+  FROM ((Treelayer
+  LEFT JOIN qVEG_TreeSpecies ON Treelayer.Species = qVEG_TreeSpecies.ID)
+  LEFT JOIN qVEG_TreeSpeciesScientific ON Treelayer.Species_Scientific = qVEG_TreeSpeciesScientific.ID)
   LEFT JOIN qLondo ON Treelayer.Coverage = qLondo.ID;
   "
 
@@ -277,9 +306,9 @@ get_cover_species_openhab <- function(db = db_fieldmap_openhab){
   qVEG_MossSpeciesScientific.Value1 as name_sc,
   Mosslayer.Coverage as class_id,
   qLondo.Value1 as cover_description
-  FROM Mosslayer
-  LEFT JOIN qVEG_MossSpecies ON Mosslayer.Species = qVEG_MossSpecies.ID
-  LEFT JOIN qVEG_MossSpeciesScientific ON Mosslayer.Species_Scientific = qVEG_MossSpeciesScientific.ID
+  FROM ((Mosslayer
+  LEFT JOIN qVEG_MossSpecies ON Mosslayer.Species = qVEG_MossSpecies.ID)
+  LEFT JOIN qVEG_MossSpeciesScientific ON Mosslayer.Species_Scientific = qVEG_MossSpeciesScientific.ID)
   LEFT JOIN qLondo ON Mosslayer.Coverage = qLondo.ID;
   "
 
@@ -559,7 +588,7 @@ get_coordinates_openhab_c2 <- function(db = db_fieldmap_openhab_2){
   GPS_REF.Remark as remark_coord,
   rp.RANKING as ranking_replacement
   FROM GPS_REF
-  LEFT OUTER JOIN Replacingpoints rp ON RP.Point_code = gps_ref.uniekeid AND RP.rank_rel_b = gps_ref.nr_vervangplot"
+  LEFT OUTER JOIN Replacingpoints rp ON (RP.Point_code = gps_ref.uniekeid) AND (RP.rank_rel_b = gps_ref.nr_vervangplot);"
 
     if (str_sub(db, nchar(db) - 3, nchar(db)) == ".mdb") {
     connect_db <-   odbcConnectAccess(db)
@@ -569,10 +598,17 @@ get_coordinates_openhab_c2 <- function(db = db_fieldmap_openhab_2){
     connect_db <-   odbcDriverConnect(paste("DRIVER={Firebird/InterBase(r) driver};UID=SYSDBA;PWD=masterkey; DBNAME=", db))
   }
 
-  coordinates <- sqlQuery(connect_db, query_coord) %>%
+  coordinates <- sqlQuery(connect_db, query_coord)
+  
+  colnames(coordinates) <- str_to_lower(colnames(coordinates))
+  
+  coordinates <- coordinates %>%
     unique() %>%
-    mutate(plot_id = str_sub(POINT_CODE, end = str_locate(POINT_CODE, "_")[,"start"] - 1),
-           plot_id = as.numeric(plot_id))
+    mutate(plot_id = ifelse(str_detect(point_code, "_"),
+                            str_sub(point_code, end = str_locate(point_code, "_")[,"start"] - 1),
+                            point_code),
+           plot_id = as.numeric(plot_id),
+           point_code = as.character(point_code))
 
   odbcClose(connect_db)
   
@@ -1283,6 +1319,10 @@ sample_status_openhab_c2 <- get_status_openhab(db = db_fieldmap_openhab_2) %>%
     mutate(db = "openhab_c2",
            mon_cycle = 2) 
 
+sample_status_openhab_2024 <- get_status_openhab(db = db_fieldmap_openhab_2024) %>%
+    mutate(db = "openhab_c2",
+           mon_cycle = 2) 
+
 check_doubles <- sample_status_openhab_c2 %>%
   semi_join(sample_status_openhab, by = c("plot_id", "date_status"))
 
@@ -1329,6 +1369,7 @@ sample_status_foresthab_past2020 <- sample_status_foresthab_past2020_orig %>%
 
 sample_status <- bind_rows(sample_status_openhab, 
                            sample_status_openhab_c2,
+                           sample_status_openhab_2024,
                            sample_status_foresthab,
                            sample_status_foresthab_past2020)
 
@@ -1359,6 +1400,8 @@ check_plot_id_missing <- sample_status %>%
 type_observed <- get_type_observed_openhab() %>%
   mutate(mon_cycle = 1) %>%
     bind_rows(get_type_observed_openhab(db = db_fieldmap_openhab_2) %>%
+                mutate(mon_cycle = 2)) %>%
+  bind_rows(get_type_observed_openhab(db = db_fieldmap_openhab_2024) %>%
                 mutate(mon_cycle = 2)) %>%
     bind_rows(get_type_observed_foresthab() %>%
                 mutate(mon_cycle = 1)) %>%
@@ -1401,6 +1444,8 @@ cover_veglayers <- get_cover_veglayers_openhab() %>%
   mutate(mon_cycle = 1) %>%
   bind_rows(get_cover_veglayers_openhab(db_fieldmap_openhab_2) %>%
   mutate(mon_cycle = 2)) %>%
+  bind_rows(get_cover_veglayers_openhab(db_fieldmap_openhab_2024) %>%
+  mutate(mon_cycle = 2)) %>%
     bind_rows(get_cover_veglayers_foresthab() %>%
   mutate(mon_cycle = 1) ) %>%
     bind_rows(get_cover_veglayers_foresthab_past2020() %>%
@@ -1422,6 +1467,8 @@ cover_species <- get_cover_species_openhab() %>%
   mutate(mon_cycle = 1) %>%
   bind_rows(get_cover_species_openhab(db_fieldmap_openhab_2) %>%
   mutate(mon_cycle = 2)) %>%
+    bind_rows(get_cover_species_openhab(db_fieldmap_openhab_2024) %>%
+  mutate(mon_cycle = 2)) %>%
     bind_rows(get_cover_species_foresthab() %>%
   mutate(mon_cycle = 1) ) %>%
     bind_rows(get_cover_species_foresthab_past2020() %>%
@@ -1432,11 +1479,15 @@ cover_species <- get_cover_species_openhab() %>%
 structure_vars_heath <- get_measurements_heath_circle() %>%
   mutate(mon_cycle = 1) %>%
   bind_rows(get_measurements_heath_circle(db = db_fieldmap_openhab_2) %>%
+              mutate(mon_cycle = 2)) %>%
+  bind_rows(get_measurements_heath_circle(db = db_fieldmap_openhab_2024) %>%
               mutate(mon_cycle = 2))
 
 structure_vars_6510 <- get_measurements_6510_circle() %>%
   mutate(mon_cycle = 1) %>%
   bind_rows(get_measurements_6510_circle(db = db_fieldmap_openhab_2) %>%
+              mutate(mon_cycle = 2)) %>%
+  bind_rows(get_measurements_6510_circle(db = db_fieldmap_openhab_2024) %>%
               mutate(mon_cycle = 2))
 
 structure_vars <- bind_rows(structure_vars_heath, structure_vars_6510)
@@ -1478,6 +1529,8 @@ date_assessment <- get_date_openhab() %>%
   mutate(mon_cycle = 1) %>%
   bind_rows(get_date_openhab(db = db_fieldmap_openhab_2) %>%
               mutate(mon_cycle = 2)) %>%
+  bind_rows(get_date_openhab(db = db_fieldmap_openhab_2024) %>%
+              mutate(mon_cycle = 2)) %>%
   bind_rows(date_assessment_forest) %>%
   unique() %>%
   group_by(mon_cycle, plot_id, date_vegetation, date_dendro) %>%
@@ -1496,6 +1549,8 @@ coordinates  <- get_coordinates_openhab() %>%
   mutate(mon_cycle = 1) %>%
   bind_rows(get_coordinates_openhab_c2(db = db_fieldmap_openhab_2) %>%
               mutate(mon_cycle = 2)) %>%
+  bind_rows(get_coordinates_openhab_c2(db = db_fieldmap_openhab_2024) %>%
+              mutate(mon_cycle = 2)) %>%
   bind_rows(get_coordinates_foresthab() %>%
     mutate(mon_cycle = 1)) %>%
   bind_rows(get_coordinates_foresthab(db = db_fieldmap_foresthab_past2020) %>%
@@ -1503,7 +1558,8 @@ coordinates  <- get_coordinates_openhab() %>%
   unique() %>%
   mutate(verlegd = verlegd == 1) %>%
   select(mon_cycle, plot_id, point_code, everything()) %>%
-  select(-idplots)
+  select(-idplots) %>%
+  filter(!is.na(plot_id))
 
 check <- coordinates %>%
   group_by(mon_cycle, plot_id) %>%
@@ -1625,7 +1681,7 @@ check_missing_data <- sample_status_most_recent %>%
          a2_record = ifelse(db %in% c("foresthab", "foresthab_past2020"), plot_id %in% trees_a2$plot_id, NA), 
          logs_record = ifelse(db %in% c("foresthab", "foresthab_past2020"), plot_id %in% logs$plot_id, NA), 
          dendro_record = a3a4_record | a2_record | logs_record, 
-         structure_openhab_record = ifelse(db == "openhab" | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
+         structure_openhab_record = ifelse(str_detect(db, "openhab") | is.na(db), plot_id %in% structure_vars$plot_id, NA)) %>%
   mutate(plot_id = as.character(plot_id))
 
 assessments <- check_missing_data %>%
@@ -1904,7 +1960,6 @@ standdescription_date <- standdescription %>%
   pivot_longer(cols = c("stand_age", "stand_type", "mix_type"), names_to = "variable", values_to = "category")
 
 check_missing_data <- check_missing_data %>%
-  select(-navplot_id) %>%
   select(plot_id, segment_id, mon_cycle, date_status, everything())
 
 path <- str_c(fileman_up("n2khab-mhq-data"), "/processed")

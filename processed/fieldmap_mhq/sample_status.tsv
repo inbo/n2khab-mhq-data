@@ -36,6 +36,7 @@ plot_id	db	date_status	status_fieldwork	targethabitat	info_status_fieldwork	rema
 6962	openhab_c1	16190	Geen opname uitgevoerd	onbepaald	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	permanenet begraasd door schapen	16209	6962_6510_hu	1	6510_hu
 7078	foresthab	16562	Niet van toepassing	NA	nvt - geen doelhabitat	geen habitat	16562	NA	1	91E0_vo
 7145	foresthab	17073	Opname volledig uitgevoerd	NA	100% afgewerkt	geen 9160, wel opname ==> 91E0_vm?	16553	NA	1	9160
+7318	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	Geen doelhabitat op rasterpunt, noch op de vervangpunten.	19879	7318_1	2	6510_hu
 7401	foresthab	17084	Niet van toepassing	NA	nvt - geen doelhabitat	"geen opname,geen vochtindicatoren, massale esdoornverjonging.
 
 "	17084	NA	1	91E0_vm
@@ -198,6 +199,7 @@ bosbouw ok 25/1/17"	16621	NA	1	91E0_vc
 38545	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16220	38545_6510_hua	1	6510_hua
 38545	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19143	38545_2	2	6510_hua
 38610	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19255	38610_1	2	4030
+39762	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19905	39762_1	2	2310
 40054	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17133	40054_4010	1	4010
 40054	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19599	40054_1	2	4010
 40146	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16321	40146_2310	1	2310; 4010
@@ -229,6 +231,7 @@ gaat.
 46662	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16968	46662_6510_hu	1	6510_hu
 47446	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16234	47446_6510_hu	1	6510_hu
 47666	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17347	47666_4030	1	4030
+47666	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19912	47666_1	2	4030
 50102	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16315	50102_4030	1	4030
 53126	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16211	53126_6510_hu	1	6510_hu
 53561	foresthab	16841	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16563	NA	1	91E0_vc
@@ -240,7 +243,9 @@ gaat.
 55058	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16324	55058_2330_bu	1	2330_bu
 55058	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19544	55058_1	2	2330_bu
 55518	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19524	55518_1	2	2330_dw
+55670	openhab_c2	19859	Niet van toepassing	nee	nvt - geen doelhabitat	vergrassing / struisgras	19859	55670_1	2	2310
 55734	foresthab_past2020	18758	NA	NA	Geen opname : geen doelhabitat	NA	18758	NA	1	91E0_vm
+57398	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19898	57398_1	2	4030
 58198	foresthab_past2020	18774	NA	NA	Geen opname : geen doelhabitat	Hoge waterstand.	18774	NA	1	91E0_vm
 59858	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	is waarschijnlijk 4030	16587	59858_2310	1	2310
 60894	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17126	60894_4010	1	4010
@@ -261,6 +266,7 @@ gaat.
 66006	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19620	66006_1	2	2310
 66270	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	4010, gemaaid maar toch opname gedaan.	17099	66270_4010	1	4010
 67161	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	bos	16213	67161_6510_hu	1	6510_hu
+67282	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19909	67282_1	2	4030
 68562	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	100% pijpenstrootje	16587	68562_4010	1	4010
 68601	foresthab_past2020	18775	NA	NA	Geen opname : geen doelhabitat	NA	18775	NA	1	91E0_vm
 68790	foresthab_past2020	18767	NA	NA	opname nog niet 100% klaar	"Opname op zicht,pvlk niet toegangkelijk.
@@ -270,6 +276,7 @@ Knappe veg."	18767	NA	1	91E0_vm
 69558	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16329	69558_2310	1	2310
 70582	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16318	70582_2330_bu	1	2330_bu
 70866	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	geen opname owv geen heidehabitat, maar struisgral	16328	70866_4030	1	4030
+71238	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	omwoeling door everzwijnen	19899	71238_1	2	4030
 71478	foresthab_past2020	18774	NA	NA	opname nog niet 100% klaar	Volledig onder wster.	18774	NA	1	91E0_vm
 71902	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17081	71902_4010	1	4010
 72690	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16302	72690_4010	1	4010; 4030
@@ -288,6 +295,7 @@ Knappe veg."	18767	NA	1	91E0_vm
 77394	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16304	77394_4030	1	4030
 77394	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	opname door INBO ikv verdroging	19125	77394_1	2	4030
 78294	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	doelhabitat 6510hu	16955	78294_6510_hu	1	6510_hu
+78294	openhab_c2	19835	Opname volledig uitgevoerd	onbepaald	100% afgewerkt	Geen doelhabitat meer, geen kensoorten(een enkele vossenstaart  of echte koekoeksbloem in de vegetatievlek), te lage bedekking van begeleidende soorten. Wel opname gedaan.	19879	78294_2	2	6510_hu
 78558	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16293	78558_4030	1	4030
 79089	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	brandnetelruigte	16232	79089_6510_hu	1	6510_hu
 79986	openhab_c1	16197	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16224	79986_6510_hu	1	6510_hu
@@ -301,6 +309,7 @@ Knappe veg."	18767	NA	1	91E0_vm
 82654	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17130	82654_4010	1	4010
 82870	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	verbost	17403	82870_2330_bu	1	2330_bu
 83318	foresthab_past2020	18773	NA	NA	Geen opname : geen doelhabitat	NA	18773	NA	1	91E0_vm
+84598	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	geen internet	19894	84598_1	2	4010
 84946	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	waarschijnlijk 4030 en geen 2310	16587	84946_2310	1	2310
 85529	foresthab	16891	Opname volledig uitgevoerd	NA	100% afgewerkt	"bom op 5m n 117 gr, vn geritste 
 boskers vn 45cm/ vegetatie ok op 26/5/15"	16581	NA	1	91E0_vc
@@ -314,6 +323,7 @@ boskers vn 45cm/ vegetatie ok op 26/5/15"	16581	NA	1	91E0_vc
 90846	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19248	90846_1	2	2310
 91122	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17350	91122_4030	1	4030
 91410	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17071	91410_4030	1	4030
+91410	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19893	91410_1	2	4030
 91446	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16233	91446_6510_hu	1	6510_hu
 91510	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16687	91510_2310	1	2310; 2330_bu
 91510	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19597	91510_1	2	2330_bu
@@ -348,6 +358,8 @@ dendro ok 31/3/16"	16568	NA	1	91E0_vc
 "	16959	100297_6510_hu	1	6510_hu
 100297	openhab_c2	19117	Opname gedeeltelijk uitgevoerd	onbepaald	opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)	gemaaid	19146	100297_2	2	6510_hu
 100626	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17354	100626_4030	1	4030
+100626	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	4030	19893	100626_1	2	2310
+100662	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	geitenbegrazing	19899	100662_1	2	4030
 102098	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16324	102098_2310	1	2310
 102098	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19241	102098_1	2	2310
 103350	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16323	103350_4010	1	4010
@@ -378,6 +390,7 @@ helft cirkelplot en pq recent gechopperd."	17779	111918_4030	1	4030
 115422	openhab_c2	19125	Niet van toepassing	nee	nvt - geen doelhabitat	bos, geen heide meer volgens heidesleutel	19523	115422_1	2	2310
 115638	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17401	115638_4030	1	4030
 116434	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17751	116434_4030	1	4030
+116434	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19909	116434_1	2	2310
 116946	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	plot ligt in bosvegetatie geheel onder de kroonslu	16324	116946_2310	1	2310; 2330_bu
 117202	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16323	117202_2310	1	2310
 117202	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19251	117202_1	2	2310
@@ -389,6 +402,7 @@ helft cirkelplot en pq recent gechopperd."	17779	111918_4030	1	4030
 120110	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	opname door INBO ikv verdroging	19125	120110_1	2	4010
 120478	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19587	120478_1	2	2310
 120530	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17374	120530_4030	1	4030
+120530	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19912	120530_1	2	4030
 121042	foresthab	18612	Opname gedeeltelijk uitgevoerd	NA	opname nog niet 100% klaar	X// zw-els 0,5m op 42gr.	16589	NA	1	91E0_vo
 121734	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	geen opname geen typische soorten,	16211	121734_6510_hu	1	6510_hu
 122578	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16311	122578_4010	1	4010; 4030
@@ -405,6 +419,7 @@ helft cirkelplot en pq recent gechopperd."	17779	111918_4030	1	4030
 127218	openhab_c2	19117	Geen opname uitgevoerd	ja	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	geen ontvangst RTK = onder hoogspanningskabels en Nederlands internet 	19117	127218_2	2	6510_hu
 127710	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	"opname gedaan, 2310
 "	17121	127710_4010	1	4010
+127710	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19893	127710_1	2	2310
 128350	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	"geen doelvegetatie
 "	16223	128350_6510_hus	1	6510_hus
 128657	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19163	128657_1	2	6510_hua
@@ -436,6 +451,7 @@ helft cirkelplot en pq recent gechopperd."	17779	111918_4030	1	4030
 143602	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	bos	16209	143602_6510_hu	1	6510_hu
 144094	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16316	144094_2310	1	2310; 4010
 144094	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19249	144094_1	2	2310
+145106	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19912	145106_1	2	4030
 146265	foresthab	16871	Opname volledig uitgevoerd	NA	100% afgewerkt	dendro ok 11/3/16vegetatie ok 22/4/15/ bom 66gr, n 0,66m vn geritste es hakhout 54cm	16552	NA	1	91E0_vc
 146966	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	Brandnetelruigte met riet. Geen doelhabitat binnen	17660	146966_6510_hu	1	6510_hu
 147062	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19613	147062_1	2	2330_bu
@@ -458,10 +474,13 @@ helft cirkelplot en pq recent gechopperd."	17779	111918_4030	1	4030
 154834	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17744	154834_4010	1	4010
 155346	foresthab	18376	Opname volledig uitgevoerd	NA	100% afgewerkt	kaalkap. BB afgewerkt maar geen bomen in de plot.	16590	NA	1	91E0_vo
 156382	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	2310	17414	156382_2310	1	2310
+156382	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19899	156382_1	2	2310
 157542	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17675	157542_6510_hu	1	6510_hu
 158002	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17347	158002_2310	1	2310
+158002	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19913	158002_1	2	2310
 159198	openhab_c1	17343	Geen opname gevraagd 	ja	te hoge RANKING	NA	17343	159198_4010	1	4010
 159314	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17372	159314_4030	1	4030
+159314	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19906	159314_1	2	4030
 159401	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
 159414	foresthab	17198	Opname volledig uitgevoerd	NA	100% afgewerkt	punt op 1m/8gr.X// berk.	16604	NA	1	91E0_vo
 160374	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17735	160374_2330_bu	1	2330_bu
@@ -489,12 +508,14 @@ n adelaarsvaren."	16609	NA	1	91E0_vo
 "	17416	170206_4030	1	4030
 170294	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	uitgedroogd ven, geen doelhabitat	17813	170294_4030	1	4030
 170834	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17354	170834_2330_bu	1	2330_bu
+170834	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19905	170834_1	2	2330_bu
 171545	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	171545_6510_hu	1	6510_hu
 174134	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	geen typische soorten	17680	174134_6510_hu	1	6510_hu
 174302	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19524	174302_1	2	4010
 174546	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17746	174546_2310	1	2310
 175582	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19536	175582_1	2	4010
 175698	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17372	175698_4030	1	4030
+175698	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19906	175698_1	2	4030
 176862	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	"4010
 
 "	17414	176862_2310	1	2310; 4010
@@ -504,18 +525,23 @@ n adelaarsvaren."	16609	NA	1	91E0_vo
 179922	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17744	179922_2310	1	2310
 180625	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	180625_6510_hu	1	6510_hu
 181234	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17350	181234_4030	1	4030
+181234	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19907	181234_1	2	4030
 182054	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17674	182054_6510_hu	1	6510_hu
 182482	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17737	182482_4030	1	4030
 183593	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
 183734	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17688	183734_6510_hu	1	6510_hu
+183734	openhab_c2	19835	Opname gedeeltelijk uitgevoerd	ja	tijdelijk geen toestemming/geen toegang (eigenaar/hond/vee)	grasland nog onder water. in samenspraak met eigenaar opname niet uitgevoerd om gras niet plat te lopen, graag verwittigen. hoofdzakelijk of enkel grote vossenstaart als sleutelsoort	19877	183734_1	2	6510_hu
 186850	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17702	186850_6510_hu	1	6510_hu
 187382	foresthab_past2020	18779	NA	NA	Geen opname : geen doelhabitat	NA	18779	NA	1	91E0_vo
 188022	foresthab	17191	Opname volledig uitgevoerd	NA	100% afgewerkt	Op  0,6 m  90 gr  berk x//.	16588	NA	1	91E0_vo
 190162	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17374	190162_4030	1	4030
+190162	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19909	190162_1	2	4030
 190802	foresthab	16601	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16601	NA	1	91E0_sf
 190902	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17688	190902_6510_hu	1	6510_hu
+190902	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	eigenaar wordt graag verwittigd	19877	190902_2	2	6510_hu
 191442	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17749	191442_2310	1	2310
 191698	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17375	191698_2310	1	2310; 4010
+191698	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19895	191698_1	2	4030
 191966	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	4030	17781	191966_4030	1	4030
 192022	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	"geen doelhabitat binnen 100 meter.
 "	17680	192022_6510_hu	1	6510_hu
@@ -556,7 +582,9 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 "	18109	213726_4010	1	4010
 213942	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16318	213942_2330_bu	1	2330_bu
 216018	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17745	216018_4010	1	4010
+216018	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19895	216018_1	2	4010
 216118	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17676	216118_6510_hu	1	6510_hu
+216118	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	aanmelden onthaal mil. airbase schaffen	19879	216118_1	2	6510_hu
 216438	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17078	216438_2330_bu	1	2330_bu
 216786	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17742	216786_2310	1	2310
 216798	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	bos	17415	216798_2310	1	2310; 4030
@@ -564,6 +592,7 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 217049	foresthab	16917	Niet van toepassing	NA	nvt - geen doelhabitat	gn habitat	16917	NA	1	91E0_vc
 218038	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17753	218038_4030	1	4030
 218086	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18059	218086_6510_hu	1	6510_hu
+218086	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	perceel omgevormd met italiaans raaigras	19880	218086_1	2	6510_hu
 218162	openhab_c1	16197	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16972	218162_6510_hu	1	6510_hu
 218322	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16332	218322_2330_bu	1	2330_bu; 2310
 218322	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	opname door INBO ikv verdroging	19125	218322_1	2	4030
@@ -581,6 +610,8 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 223570	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16210	223570_6510_hu	1	6510_hu
 224726	foresthab	16548	Niet van toepassing	NA	nvt - geen doelhabitat	Geen doelhabitat ==> 9160 ==> geen opname	16548	NA	1	91E0_vc
 224850	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17372	224850_4030	1	4030
+224850	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19906	224850_1	2	4030
+225334	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19898	225334_1	2	2310
 225910	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16336	225910_2330_bu	1	2330_bu
 226014	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18071	226014_4010	1	4010
 226230	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16321	226230_2330_bu	1	2330_bu; 2310
@@ -592,6 +623,7 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 229362	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19263	229362_1	2	2330_dw
 230110	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	"4010 > opname
 "	17757	230110_2310	1	2310; 4010
+230774	openhab_c2	19859	Geen opname uitgevoerd	onbepaald	geen toestemming/geen toegang (eigenaar/hond/vee)	sibelco=actieve groeve	19892	230774_1	2	2330_bu
 230930	foresthab	17190	Opname volledig uitgevoerd	NA	100% afgewerkt	;;punt op 4m/220gr.X//berk. BB opgemeten met reverse m. 	16608	NA	1	91E0_vo
 231702	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16217	231702_6510_hus	1	6510_hus
 231702	openhab_c2	19117	Geen opname uitgevoerd	onbepaald	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	gemaaid (op 31/05/22)	19117	231702_1	2	6510_hus
@@ -604,6 +636,7 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 236370	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16309	236370_2330_bu	1	2330_bu
 236370	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19237	236370_1	2	2330_bu
 236530	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17350	236530_4030	1	4030
+236530	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19908	236530_1	2	4010
 236657	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18417	236657_6510_hu	1	6510_hu
 236754	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17743	236754_2310	1	2310
 237970	foresthab	17995	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	17995	NA	1	91E0_vo
@@ -615,6 +648,7 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 239838	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17416	239838_4030	1	4030
 239901	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19513	239901_1	2	6510_hu
 240466	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17357	240466_2310	1	2310
+240466	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19905	240466_1	2	2310
 240914	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	verbossing	17359	240914_2330_bu	1	2330_bu
 241234	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17372	241234_4030	1	4030
 241630	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	bos	17763	241630_2310	1	2310; 4010
@@ -622,7 +656,9 @@ bom geplaatst op 3,12m n 355gr vn geritste gew,esdoorn omtr, 47cm,"	16820	NA	1	9
 242262	openhab_c2	19489	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19520	242262_1	2	6510_hu
 242398	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	"2310
 "	17399	242398_2310	1	2310
+242398	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19894	242398_1	2	2310
 243698	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17351	243698_4010	1	4010
+243698	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19908	243698_1	2	4010
 243846	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16212	243846_6510_hu	1	6510_hu
 245458	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17744	245458_2310	1	2310
 248402	foresthab	16603	Niet van toepassing	NA	nvt - geen doelhabitat	Hoogspannnskabine INFRAX	16603	NA	1	91E0_vo
@@ -657,6 +693,7 @@ bosbouw ok 25/1/17"	16553	NA	1	91E0_vc
 267513	foresthab	18323	Opname volledig uitgevoerd	NA	100% afgewerkt	"baak op 1m / 188gr zw-els
 Seepscherf / Baardegem"	17715	NA	1	91E0_vc
 269298	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17351	269298_4010	1	4010; 4030
+269298	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19908	269298_1	2	4010
 270034	foresthab	17989	Niet van toepassing	NA	nvt - geen doelhabitat	qb	17989	NA	1	91E0_vo
 270966	foresthab_past2020	18766	NA	NA	Geen opname : geen doelhabitat	NA	18766	NA	1	91E0_vo
 271446	foresthab	18379	Opname volledig uitgevoerd	NA	100% afgewerkt	91EO_vo : ingemeten + veg 	18019	NA	1	91E0_vo
@@ -670,6 +707,7 @@ Seepscherf / Baardegem"	17715	NA	1	91E0_vc
 276438	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19593	276438_1	2	2330
 277214	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	4010	17763	277214_2310	1	2310; 4010
 277225	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
+279146	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	1/3de van plot is 4030=nw-strook	19894	279146_1	2	2310
 279478	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16316	279478_2330_bu	1	2330_bu; 2310
 281177	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19503	281177_1	2	6510_hu
 281554	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17745	281554_2310	1	2310
@@ -680,12 +718,14 @@ Seepscherf / Baardegem"	17715	NA	1	91E0_vc
 284729	foresthab	16553	Opname volledig uitgevoerd	NA	100% afgewerkt	vegetatie ok 28/4/1m n 131gr, n geritste grauwe els	16553	NA	1	91E0_vc
 285906	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17743	285906_2310	1	2310
 286294	openhab_c2	19489	Niet van toepassing	nee	nvt - geen doelhabitat	ook vervangpunten geen habitat	19509	286294_1	2	6510_hu
+287094	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19914	287094_1	2	2310
 289078	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17788	289078_2330_bu	1	2330_bu
 289234	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17746	289234_2310	1	2310
 289513	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
 289746	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17749	289746_2310	1	2310
 290098	openhab_c1	16190	Geen opname uitgevoerd	onbepaald	geen toestemming/geen toegang (eigenaar/hond/vee)	NA	16190	290098_6510_hu	1	6510_hu
 290870	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17788	290870_2310	1	2310
+291550	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19893	291550_1	2	2310
 292585	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
 293598	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	4010	18120	293598_4010	1	4010
 294610	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17742	294610_2310	1	2310; 4010
@@ -694,6 +734,7 @@ Seepscherf / Baardegem"	17715	NA	1	91E0_vc
 296658	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17751	296658_2310	1	2310; 4030
 297201	openhab_c2	19117	Niet van toepassing	nee	nvt - geen doelhabitat	terreinwerk overbodig bij nazien rasterpt en 2 vervangptn	19507	297201_1	2	6510_hu
 297234	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17353	297234_4010	1	4010
+297234	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	is geen 2310	19893	297234_2	2	2310
 298918	foresthab	18334	Opname volledig uitgevoerd	NA	100% afgewerkt	"baak op 334 gr \1,3m ze
 Keulestraat/Tielt-winge"	17709	NA	1	91E0_vo
 298937	foresthab	18613	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16554	NA	1	91E0_vc
@@ -707,9 +748,11 @@ Keulestraat/Tielt-winge"	17709	NA	1	91E0_vo
 303721	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	vervangpunt 2	19513	303721_1	2	6510_hu
 304338	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16335	304338_2330_bu	1	2330_bu; 2310
 304850	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17374	304850_4010	1	4010
+304850	openhab_c2	19859	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	19909	304850_1	2	4010
 306130	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16323	306130_2330_bu	1	2330_bu; 2310
 306130	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19251	306130_1	2	2310
 306870	foresthab_past2020	18752	NA	NA	Geen opname : geen doelhabitat	NA	18752	NA	1	91E0_vo
+307574	openhab_c2	19859	Geen opname uitgevoerd	onbepaald	geen toestemming/geen toegang (eigenaar/hond/vee)	sibelco=actieve groeve	19892	307574_1	2	2330_bu
 308098	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16212	308098_6510_huk	1	6510_huk
 308098	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19146	308098_2	2	6510_huk
 310994	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17744	310994_2310	1	2310
@@ -724,16 +767,21 @@ Keulestraat/Tielt-winge"	17709	NA	1	91E0_vo
 316114	foresthab	18002	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	91Evm dominant bosbies met holpijp	18002	NA	1	91E0_vo
 316601	foresthab	17948	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	NA	17948	NA	1	91E0_vc
 316626	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17751	316626_2310	1	2310
+316646	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	misschien huk, kamgras talrijk aanwezig, ook gewone agrimonie als randsoort	19880	316646_1	2	6510_hu
 317202	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	geen planten te noteren. Vegetatie-opname is afgew	17736	317202_2330_bu	1	2330_bu
+317814	openhab_c2	19859	Niet van toepassing	nee	nvt - geen doelhabitat	NA	19891	317814_1	2	2310
 320902	foresthab	18612	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	"Baak geplaatst 40 cm 20 gr. Gravenveldstraat / Bierbeek.
 Niet toegangkelijk op 9/03/2020,hoge waterstand.
 Idem op 5/11/2020.
 "	17717	NA	1	91E0_vc
 321169	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19166	321169_1	2	6510_hua
 322002	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17745	322002_2310	1	2310; 4010
+324029	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	Rasterpunt ligt in brandnetelruigte op door schapen begraasde talud. Reservepunten liggen deels op kortgegraasde en gemaaide vlak stuk. En deels buiten de draad, maar ook daar geen doelhabitat. Zie foto's 1, 2 en 3	19885	324029_1	2	6510_hu
 324318	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17396	324318_2310	1	2310
+324318	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19898	324318_1	2	2330_bu
 327153	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	verlegd 30m ten oosten vn originele plot(in gracht	16967	327153_6510_hua	1	6510_hua
 327153	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19167	327153_2	2	6510_hua
+328406	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	Rasterpunt en vervangpunten liggen paardenweitjes.	19835	328406_1	2	6510_hu
 330194	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17749	330194_4010	1	4010
 330706	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17745	330706_2310	1	2310
 330985	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
@@ -753,6 +801,7 @@ Idem op 5/11/2020.
 "	17399	340702_2310	1	2310
 342750	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	"4010
 "	18117	342750_4010	1	4010
+343314	openhab_c2	19859	Niet van toepassing	nee	nvt - geen doelhabitat	verbost/verkaveld	19894	343314_1	2	2310
 344798	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	4010	18109	344798_4010	1	4010
 345014	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17408	345014_2310	1	2310
 346246	foresthab	18487	Opname volledig uitgevoerd	NA	100% afgewerkt	"baak op 1,4 m \ 210 gr berk
@@ -767,6 +816,7 @@ Seepscherf/Baardegem
 357086	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	"4010
 "	18074	357086_4010	1	4010
 358610	openhab_c1	16293	Niet van toepassing	nee	nvt - geen doelhabitat	geen opname owv niet nodig, wel heidevegetatie maa	16324	358610_2330_bu	1	2330_bu; 2310
+358930	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	NA	19887	358930_1	2	6510_hu
 359134	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18117	359134_4010	1	4010
 359449	foresthab	17997	Niet van toepassing	NA	nvt - geen doelhabitat	NA	17997	NA	1	91E0_vc
 359574	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17417	359574_2330_bu	1	2330_bu
@@ -775,6 +825,7 @@ Seepscherf/Baardegem
 364262	foresthab_past2020	18750	NA	NA	Geen opname : geen doelhabitat	NA	18750	NA	1	91E0_vo
 364729	foresthab_past2020	18767	NA	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	omheind	18767	NA	1	91E0_vc
 364822	foresthab_past2020	18774	NA	NA	Geen opname : geen doelhabitat	NA	18774	NA	1	91E0_vo
+365590	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	rasterpunt en grootste deel van de vervangpunten ligt in het bos. Rest van vervangpunten ligt in omheinde begraasde weilandjes. Geen opname.	19835	365590_1	2	6510_hu
 366225	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16220	366225_6510_hua	1	6510_hua
 366225	openhab_c2	19117	Niet van toepassing	nee	nvt - geen doelhabitat	"zou een bestaand meetpunt moeten zijn maar ligt en lag op betonweg.
 
@@ -799,6 +850,7 @@ Seepscherf/Baardegem
 389854	openhab_c1	17343	Geen opname gevraagd 	ja	te hoge RANKING	4030> geen opname	18068	389854_4010	1	4010
 390801	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16190	390801_6510_hua	1	6510_hua
 391154	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17350	391154_4010	1	4010
+391154	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19908	391154_1	2	4010
 392342	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	2330-bu. 	17417	392342_2330_bu	1	2330_bu
 392617	foresthab	16542	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	16542	NA	1	91E0_sf
 393950	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18067	393950_4010	1	4010
@@ -842,6 +894,7 @@ dus geen ty"	16224	398921_6510_hu	1	6510_hu
 458194	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19606	458194_1	2	2330_dw
 458462	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16315	458462_2330_bu	1	2330_bu; 2310
 459222	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16339	459222_2330_bu	1	2330_bu; 2310
+459798	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19873	459798_1	2	6510_hu
 463798	openhab_c1	16293	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16322	463798_2330_bu	1	2330_bu; 2310
 463833	foresthab	18381	Opname volledig uitgevoerd	NA	100% afgewerkt	 4.72m n 262 gr vn Po nr 1	18011	NA	1	91E0_vc
 466745	foresthab	18381	Opname volledig uitgevoerd	NA	100% afgewerkt	veg ok, bb ok	17680	NA	1	91E0_vc
@@ -899,19 +952,23 @@ Afgesloten op 1/3/2020 na eerste bezoek op 27/2."	17715	NA	1	91E0_vc
 577849	foresthab	18284	Geen opname uitgevoerd	NA	geen toestemming/geen toegang (eigenaar/hond/vee)	NA	18284	NA	1	91E0_vc
 579958	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17072	579958_2330_bu	1	2330_bu
 583030	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17073	583030_2330_bu	1	2330_bu
+583030	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19892	583030_1	2	2330_bu
 585810	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16211	585810_6510_hu	1	6510_hu
 589110	openhab_c1	16197	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16233	589110_6510_hu	1	6510_hu
 589698	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16225	589698_6510_huk	1	6510_huk
 589698	openhab_c2	19117	Niet van toepassing	nee	nvt - geen doelhabitat	NA	19150	589698_4	2	6510_huk
 594870	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17764	594870_2330_bu	1	2330_bu
 602846	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17077	602846_2330_bu	1	2330_bu
+602846	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19898	602846_1	2	2330_bu
 604274	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	geen opname, geen doelvegetatie in plot, ook te we	16226	604274_6510_hu	1	6510_hu
 605493	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16227	605493_6510_hu	1	6510_hu
 605493	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19146	605493_2	2	6510_hu
 608550	openhab_c1	16197	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16975	608550_6510_hu	1	6510_hu
+608550	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	vernatting, riet en zeggevegetatie	19887	608550_2	2	6510_hu
 612246	foresthab	18613	Opname volledig uitgevoerd	NA	100% afgewerkt	"91E0_vm, te nat om veilig op te meten 1e terreinbezoek. 
 Opgemeten in oktober 2020."	18024	NA	1	91E0_vc
 616665	foresthab	17941	Opname volledig uitgevoerd	NA	100% afgewerkt	NA	17673	NA	1	91E0_vc
+618646	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	plot in rozenstruweel. verlegd naar vervangpunt 1	19877	618646_1	2	6510_hu
 624918	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	"Geen opname
 "	16224	624918_6510_hu	1	6510_hu
 631129	foresthab	17987	Niet van toepassing	NA	nvt - geen doelhabitat	NA	17987	NA	1	91E0_vc
@@ -924,6 +981,7 @@ Opgemeten in oktober 2020."	18024	NA	1	91E0_vc
 643970	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16231	643970_6510_hu	1	6510_hu; 6510_huk
 643970	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19146	643970_2	2	6510_hu
 648566	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17073	648566_2330_bu	1	2330_bu
+648566	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19892	648566_1	2	2330_bu
 654873	foresthab	18043	Niet van toepassing	NA	nvt - geen doelhabitat	vroegere bronbeek,, nu febr, 2019 niet meer waterhoudend, en zonder vegetatie	18043	NA	1	91E0_vc
 656246	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17079	656246_2330_bu	1	2330_bu
 659330	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16223	659330_6510_huk	1	6510_huk
@@ -935,6 +993,7 @@ Opgemeten in oktober 2020."	18024	NA	1	91E0_vc
 676914	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16218	676914_6510_hu	1	6510_hu
 677174	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16233	677174_6510_hu	1	6510_hu
 684982	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17752	684982_2330_bu	1	2330_bu
+688094	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	verlegd punt, rasterpunt stond blank. 	19874	688094_1	2	6510_hu
 695122	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17354	695122_2330_bu	1	2330_bu
 697062	foresthab_past2020	18751	NA	NA	opname nog niet 100% klaar	NA	18801	NA	1	91E0_vo
 704498	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	704498_6510_hu	1	6510_hu
@@ -969,23 +1028,29 @@ Opgemeten in oktober 2020."	18024	NA	1	91E0_vc
 821462	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17095	821462_2330_bu	1	2330_bu
 828626	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17364	828626_2330_bu	1	2330_bu
 830290	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17357	830290_2330_bu	1	2330_bu
+830770	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19887	830770_1	2	6510_hu
+831366	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	NA	19891	831366_1	2	6510_hu
 832386	openhab_c1	16190	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	vegetatie-opname niet volledig (bedekkingen?)	16225	832386_6510_huk	1	6510_huk; 6510_hu
 837842	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17077	837842_2330_bu	1	2330_bu
 845457	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16961	845457_6510_hua	1	6510_hua
 845457	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19163	845457_1	2	6510_hua
 853714	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19255	853714_1	2	2330_dw
 857281	openhab_c1	16940	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	(c) LG : onvolledige vegetatie-opname	16959	857281_6510_hu	1	6510_hu
+859446	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	hu richting huk	19885	859446_1	2	6510_hu
 863169	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	opname verlegd, 50 meter ten zuiden van origineel 	16960	863169_6510_hu	1	6510_hu
 863826	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19264	863826_1	2	2330_dw
 866386	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	866386_6510_hu	1	6510_hu
 870694	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16974	870694_6510_huk	1	6510_huk
 877942	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17074	877942_2330_bu	1	2330_bu
+877942	openhab_c2	19859	Niet van toepassing	nee	nvt - geen doelhabitat	NA	19892	877942_2	2	2330_bu
 881590	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17756	881590_2330_bu	1	2330_bu
 884022	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	verlegd op 40m naar zzo.	17680	884022_6510_hu	1	6510_hu
+884022	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	hoge waterstand, minder soorten aanwezig	19884	884022_2	2	6510_hu
 884342	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17079	884342_2330_bu	1	2330_bu
 886994	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17077	886994_2330_bu	1	2330_bu
 901945	openhab_c1	17660	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	nog te doen	17660	901945_6510_hu	1	6510_hu
 905190	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17688	905190_6510_hu	1	6510_hu
+905190	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	vegetatie grotendeels afgestorven wegens langdurig hoge waterstand	19880	905190_1	2	6510_hu
 905458	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	905458_6510_hu	1	6510_hu
 915089	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16190	915089_6510_hua	1	6510_hua
 919185	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19143	919185_1	2	6510_hua
@@ -1002,6 +1067,7 @@ Opgemeten in oktober 2020."	18024	NA	1	91E0_vc
 951006	openhab_c2	19125	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19523	951006_1	2	2330
 961362	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17360	961362_2330_bu	1	2330_bu
 963294	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17063	963294_2330_bu	1	2330_bu
+963294	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19894	963294_1	2	2330_bu
 966569	openhab_c1	16940	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	NA	16940	966569_2330_bu	1	2330_bu
 968217	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16953	968217_6510_hua	1	6510_hua
 968217	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19144	968217_1	2	6510_hua
@@ -1015,6 +1081,7 @@ Opgemeten in oktober 2020."	18024	NA	1	91E0_vc
 998709	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18411	998709_6510_hu	1	6510_hu
 1000374	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17406	1000374_2330_bu	1	2330_bu
 1003230	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17059	1003230_2330_bu	1	2330_bu
+1003230	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19895	1003230_1	2	2330_bu
 1007490	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16226	1007490_6510_huk	1	6510_huk
 1012342	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	naaldbos	17731	1012342_2330_bu	1	2330_bu
 1012662	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17765	1012662_2330_bu	1	2330_bu
@@ -1140,10 +1207,12 @@ Is op bodemkaart niet ingekleurd als l"	17778	1114582_2330_bu	1	2330_bu
 1442745	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18065	1442745_6510_hu	1	6510_hu
 1447497	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	"gh
 "	17689	1447497_6510_hu	1	6510_hu
+1452338	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19913	1452338_1	2	2330_dw
 1454214	openhab_c1	17660	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	Gemaaid op 25/5/2020	17660	1454214_6510_hu	1	6510_hu
 1454814	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	2330_bu	17415	1454814_2330_bu	1	2330_bu
 1470918	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17687	1470918_6510_hu	1	6510_hu
 1471094	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17735	1471094_2330_bu	1	2330_bu
+1473234	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19912	1473234_1	2	2330_dw
 1473617	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	1473617_6510_hu	1	6510_hu
 1474033	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	10m exact verlegd nr z	17696	1474033_6510_hua	1	6510_hua
 1478129	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17674	1478129_6510_hua	1	6510_hua
@@ -1157,6 +1226,7 @@ Geen toelating op 25/5 202"	17660	1478566_6510_hu	1	6510_hu
 1490550	openhab_c1	17343	Geen opname gevraagd 	onbepaald	voldoende opnames beschikbaar	NA	17343	1490550_2330_bu	1	2330_bu
 1496521	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	1496521_6510_hu	1	6510_hu
 1500498	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17700	1500498_6510_hu	1	6510_hu
+1500498	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19888	1500498_1	2	6510_huk
 1500534	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17373	1500534_2330_bu	1	2330_bu
 1501490	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17346	1501490_2330_bu	1	2330_bu
 1504306	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17689	1504306_6510_hu	1	6510_hu
@@ -1178,11 +1248,13 @@ Geen toelating op 25/5 202"	17660	1478566_6510_hu	1	6510_hu
 1549622	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17680	1549622_6510_hu	1	6510_hu
 1558738	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17736	1558738_2330_bu	1	2330_bu
 1562998	openhab_c1	17343	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17360	1562998_2330_bu	1	2330_bu
+1565906	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19902	1565906_1	2	2330_dw
 1566070	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17373	1566070_2330_bu	1	2330_bu
 1566166	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	twijfelgeval voor opname als 2330_bu	17456	1566166_2330_bu	1	2330_bu
 1569666	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16213	1569666_6510_huk	1	6510_huk
 1569666	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19150	1569666_2	2	6510_huk
 1576501	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	1576501_6510_hu	1	6510_hu
+1584722	openhab_c2	19859	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19907	1584722_1	2	2330_dw
 1590198	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17375	1590198_2330_bu	1	2330_bu
 1594578	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17744	1594578_2330_bu	1	2330_bu
 1599794	openhab_c1	17344	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17346	1599794_2330_bu	1	2330_bu
@@ -1210,11 +1282,13 @@ Geen toelating op 25/5 202"	17660	1478566_6510_hu	1	6510_hu
 1786806	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17406	1786806_2330_bu	1	2330_bu
 1789878	openhab_c1	17343	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17750	1789878_2330_bu	1	2330_bu
 1793318	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16974	1793318_6510_huk	1	6510_huk
+1793318	openhab_c2	19835	Opname gedeeltelijk uitgevoerd	onbepaald	opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)	begraasd	19835	1793318_2	2	6510_huk
 1803138	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	1803138_6510_huk	1	6510_huk
 1820185	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	"te vroeg gemaaid evolutie nr hu 6510
 "	17693	1820185_6510_hua	1	6510_hua
 1834481	openhab_c1	17660	Opname gedeeltelijk uitgevoerd	ja	opname nog niet 100% klaar	nog doen	17660	1834481_6510_hua	1	6510_hua
 1835906	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	midden in struweel ruigte	16212	1835906_6510_huk	1	6510_huk
+1861942	openhab_c2	19859	Niet van toepassing	nee	nvt - geen doelhabitat	alle doelvegetatie en kenmerken aanwezig mbt 2330-dw, momenteel sterk optredende verbossing 60% en verruiging wegens geen beheer. oostkant vegetatievlek richting 4030	19895	1861942_1	2	2330_dw
 1868674	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	1868674_6510_huk	1	6510_huk
 1875842	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16225	1875842_6510_huk	1	6510_huk
 1885058	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	1885058_6510_huk	1	6510_huk
@@ -1255,17 +1329,20 @@ Is reeds gemaaid 15 / 06 / 2"	17660	2248114_6510_huk	1	6510_huk
 2463377	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	2463377_6510_hua	1	6510_hua
 2487953	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	2487953_6510_hua	1	6510_hua
 2495762	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16966	2495762_6510_hus	1	6510_hus
+2495762	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19885	2495762_2	2	6510_hus
 2513586	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	2513586_6510_huk	1	6510_huk
 2526705	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	2526705_6510_hua	1	6510_hua
 2585474	openhab_c1	17660	Geen opname uitgevoerd	onbepaald	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	zwaar begraasd plus droogte = korte zeer moeilijk 	17660	2585474_6510_huk	1	6510_huk
 2627217	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	2627217_6510_hua	1	6510_hua
 2645426	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17690	2645426_6510_huk	1	6510_huk
+2645426	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19886	2645426_1	2	6510_huk
 2663298	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	2663298_6510_huk	1	6510_huk
 2674098	openhab_c1	17660	Geen opname uitgevoerd	ja	opname onmogelijk (gemaaid/begraasd/te nat/ondoordringbaar)	"Zwaar begraasde weide.  15 / 06 / 2018
 Gemaaid op"	17660	2674098_6510_huk	1	6510_huk
 2733713	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	40 mtr oostwaarts verlegd gezien oorspronkelijk in	18052	2733713_6510_hua	1	6510_hua
 2736818	openhab_c1	16940	Niet van toepassing	nee	nvt - geen doelhabitat	NA	16940	2736818_6510_huk	1	6510_huk
 2841894	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17673	2841894_6510_huk	1	6510_huk
+2841894	openhab_c2	19835	Opname gedeeltelijk uitgevoerd	onbepaald	opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)	begraasd	19835	2841894_1	2	6510_huk
 2867990	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16212	2867990_6510_hus	1	6510_hus
 2867990	openhab_c2	19117	Opname volledig uitgevoerd	ja	100% afgewerkt	Geen pimpernel gezien	19145	2867990_1	2	6510_hus
 2891673	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18418	2891673_6510_hua	1	6510_hua
@@ -1275,6 +1352,7 @@ Gemaaid op"	17660	2674098_6510_huk	1	6510_huk
 2934297	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	6510 hu	17693	2934297_6510_hua	1	6510_hua
 2942609	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	10 meter nr N verlegd 	18052	2942609_6510_hua	1	6510_hua
 2954514	openhab_c1	16190	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16962	2954514_6510_hus	1	6510_hus
+2954514	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19885	2954514_2	2	6510_hus
 2967065	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	60m verlegd op90gr/westen	17694	2967065_6510_hua	1	6510_hua
 2998962	openhab_c1	17660	Opname gedeeltelijk uitgevoerd	ja	opname tijdelijk onmogelijk (gemaaid/te nat/ondoordringbaar)	Gemaaid op 2/06/2020	17660	2998962_6510_huk	1	6510_huk
 3044226	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	3044226_6510_huk	1	6510_huk
@@ -1283,9 +1361,11 @@ Gemaaid op"	17660	2674098_6510_huk	1	6510_huk
 3077777	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	50m verlegd nr Z	18415	3077777_6510_hua	1	6510_hua
 3085969	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	geendoelhabitat	17660	3085969_6510_hua	1	6510_hua
 3120562	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17693	3120562_6510_huk	1	6510_huk
+3120562	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19886	3120562_1	2	6510_huk
 3132850	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	Is gemaaid,raaigrasweide met hoogstam.  15 / 06 / 	18410	3132850_6510_huk	1	6510_huk
 3153026	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18404	3153026_6510_huk	1	6510_huk
 3163010	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17709	3163010_6510_huk	1	6510_huk
+3163010	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19886	3163010_1	2	6510_huk
 3170178	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18066	3170178_6510_huk	1	6510_huk
 3170201	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	NA	17660	3170201_6510_hua	1	6510_hua
 3173042	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	Begraasd 2/6/2020	18415	3173042_6510_huk	1	6510_huk
@@ -1303,15 +1383,19 @@ Is reeds gemaaid 15/06/2018  "	17660	3296690_6510_huk	1	6510_huk
 3829634	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18065	3829634_6510_huk	1	6510_huk
 3906994	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	"Weide is begraasd en gemaaid.
 Idem 2020.Geen voll"	17690	3906994_6510_huk	1	6510_huk
+3906994	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19886	3906994_1	2	6510_huk
 3956146	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17693	3956146_6510_huk	1	6510_huk
 4003090	openhab_c1	16940	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	16961	4003090_6510_hus	1	6510_hus
+4003090	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	NA	19885	4003090_1	2	6510_hus
 4122918	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17669	4122918_6510_huk	1	6510_huk
+4122918	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	verruiging aan de randen vh perceel	19887	4122918_2	2	6510_huk
 4252546	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	engels raaigras	17660	4252546_6510_huk	1	6510_huk
 4256642	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17710	4256642_6510_huk	1	6510_huk
 4330770	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	6510_hus	18409	4330770_6510_hus	1	6510_hus
 4346754	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18065	4346754_6510_huk	1	6510_huk
 4351326	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	"6510 hus
 "	17673	4351326_6510_hus	1	6510_hus
+4351326	openhab_c2	19835	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	19880	4351326_1	2	6510_hus
 4390190	openhab_c1	17660	Niet van toepassing	nee	nvt - geen doelhabitat	te weinig typische soorten	18030	4390190_6510_hus	1	6510_hus
 4417666	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17709	4417666_6510_huk	1	6510_huk
 4502402	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	17710	4502402_6510_huk	1	6510_huk
@@ -1322,8 +1406,10 @@ Idem 2020.Geen voll"	17690	3906994_6510_huk	1	6510_huk
 6151006	openhab_c1	16190	Niet van toepassing	nee	nvt - geen doelhabitat	geen opname, geen kensoorten noch doelvegetatie in	16958	6151006_6510_hus	1	6510_hus
 6165778	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	6510_hus	18401	6165778_6510_hus	1	6510_hus
 6201542	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18039	6201542_6510_hus	1	6510_hus
+6201542	openhab_c2	19835	Niet van toepassing	nee	nvt - geen doelhabitat	alle soorten aanwezig, maar dominantie door gestreepte witbol.	19891	6201542_1	2	6510_hus
 6427922	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	6510hus	18051	6427922_6510_hus	1	6510_hus
 6448478	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	6510-hus.Ligt op het uitrijspoor van de maaimachin	17675	6448478_6510_hus	1	6510_hus
+6448478	openhab_c2	19835	Opname volledig uitgevoerd	onbepaald	100% afgewerkt	Geen habitat, wel opname omwille van bestaand meetpunt.	19880	6448478_1	2	6510_hus
 6523158	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	verlegd op 40m/N	18032	6523158_6510_hus	1	6510_hus
 6690066	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18052	6690066_6510_hus	1	6510_hus
 7062294	openhab_c1	17660	Opname volledig uitgevoerd	ja	100% afgewerkt	NA	18031	7062294_6510_hus	1	6510_hus
