@@ -5,8 +5,8 @@
   sorting:
   - id
   - type_analysis
-  hash: d3411faf7e711171c63cb1d347457f27cdf3a6b0
-  data_hash: 90659e988bc16ce7436558268b9785ac993b0f5a
+  hash: 94d22f91540903e121941f63d5e2cdd030414917
+  data_hash: 8119e6ffb4a2ac639d659221c6dd00afe5fc8849
 id:
   class: character
 type_analysis:
@@ -20,4 +20,12 @@ index_min_min:
 index_min_harm:
   class: numeric
 index_harm_harm:
+  class: numeric
+n_zb_ongunstig:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+index_mean_ind:
+  class: numeric
+index_mean_crit:
   class: numeric

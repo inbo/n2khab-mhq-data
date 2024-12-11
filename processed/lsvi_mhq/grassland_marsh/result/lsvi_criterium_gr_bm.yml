@@ -6,8 +6,8 @@
   - id
   - type_analysis
   - criterium
-  hash: ded3bf682ae9d8d37e459555811a5efe62ffcd97
-  data_hash: 5df2c0a46de48dfac0e8023a45e42f2e12eb87bf
+  hash: f45f7ab68681f8a17b1869374b0b1c9cc2ccc742
+  data_hash: 884d3de28163a1d55466b9f3e15355a801107f62
 id:
   class: character
 type_analysis:
@@ -21,4 +21,10 @@ aggregatiemethode:
 index_min_criterium:
   class: numeric
 index_harm_criterium:
+  class: numeric
+n_zb_ongunstig:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+index_mean_ind:
   class: numeric

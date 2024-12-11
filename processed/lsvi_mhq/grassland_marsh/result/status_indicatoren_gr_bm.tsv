@@ -1,271 +1,289 @@
-versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	aandeel_gunstig	aandeel_gunstig_llci	aandeelgunstig_ulci
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo	Verstoring	verdroging	zb	79.85	67.27	88.43
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	55.5	46.77	63.9
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	sleutelsoorten	b	40.99	32.8	49.7
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	eutrofiëring	zb	88.14	79.84	93.31
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbossing	b	85.55	77.5	91.05
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbraming	b	97.69	93.59	99.19
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	73.23	64.78	80.27
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vermossing	zb	95.49	90.35	97.96
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	94.93	89	97.75
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo	Verstoring	verdroging	zb	79.63	66.4	88.55
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	57.85	48.32	66.84
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	sleutelsoorten	b	41.45	32.65	50.83
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	eutrofiëring	zb	90.7	82.84	95.17
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbossing	b	87.69	80.08	92.66
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbraming	b	97.31	92.59	99.06
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	72.69	63.2	80.48
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vermossing	zb	95.37	89.48	98.04
-Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	94.72	87.87	97.8
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	40.78	23.33	60.9
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Vegetatie	sleutelsoorten	b	38.1	18.39	62.7
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	eutrofiëring	zb	72.16	42.06	90.25
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	verbossing	b	72.16	42.06	90.25
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	76.62	59.33	88.05
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	vermossing	zb	96.27	77.26	99.49
-Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	96.27	77.26	99.49
-Versie 3	Vlaanderen	2	49	Buiten	6230_hmo	Verstoring	verdroging	zb	83.33	35.39	97.86
-Versie 3	Vlaanderen	2	49	Buiten	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Vegetatie	bedekking sleutelsoorten	b	30.69	19.4	44.89
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Vegetatie	sleutelsoorten	b	22.24	12.67	36.03
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	eutrofiëring	zb	90.37	79.28	95.83
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	verbossing	b	86.14	73.89	93.17
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	verbraming	b	95.77	84.45	98.95
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	vergrassing inclusief vervilting	zb	69.06	55.31	80.11
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	vermossing	zb	97.89	86.24	99.71
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Vegetatie	bedekking sleutelsoorten	b	65.91	52.82	76.95
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Vegetatie	sleutelsoorten	b	44.55	32.32	57.47
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	eutrofiëring	zb	90.3	79.68	95.67
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	verbossing	b	85.08	73.44	92.16
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	verbraming	b	98.26	88.44	99.76
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	72.88	60.02	82.79
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	vermossing	zb	93.79	84.13	97.73
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	90.3	79.68	95.67
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Vegetatie	bedekking sleutelsoorten	b	82.48	69.21	90.8
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Vegetatie	sleutelsoorten	b	61.02	46.47	73.83
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	eutrofiëring	zb	96.04	85.13	99.04
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	verbossing	b	93.79	82.1	98.03
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	verbraming	b	97.74	85.39	99.69
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	vergrassing inclusief vervilting	zb	88.13	75.63	94.67
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	vermossing	zb	95.48	83.47	98.88
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Vegetatie	sleutelsoorten	b	32.64	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	eutrofiëring	zb	44.91	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	strooisellaag	b	100	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	verbossing	b	67.36	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	verbraming	b	100	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	55.09	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	vermossing	zb	100	NA	NA
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	100	NA	NA
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Structuur	levensvormen	b	32.53	23.78	42.7
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Vegetatie	bedekking sleutelsoorten	b	39.99	30.57	50.22
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Vegetatie	sleutelsoorten	b	18.73	12.03	27.99
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	eutrofiëring	zb	76.78	67.21	84.21
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verbossing	b	93.76	86.59	97.21
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verbraming	b	98.92	92.51	99.85
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verdroging	zb	70.17	60.2	78.53
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	vergrassing inclusief vervilting	zb	97.84	91.6	99.47
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	vermossing	zb	86.92	78.41	92.4
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	vernatting	zb	72.01	62.06	80.19
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verruiging inclusief ruderalisering	zb	81.72	72.6	88.3
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verzuring	zb	90.29	82.23	94.92
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Structuur	levensvormen	b	35.84	25.7	47.42
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Vegetatie	bedekking sleutelsoorten	b	42.93	32.12	54.45
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Vegetatie	sleutelsoorten	b	19.91	12.27	30.65
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	eutrofiëring	zb	78.76	67.89	86.67
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verbossing	b	93.36	84.82	97.25
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verbraming	b	98.67	90.89	99.82
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verdroging	zb	71.67	60.35	80.79
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	vergrassing inclusief vervilting	zb	97.35	89.77	99.35
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	vermossing	zb	84.95	74.9	91.43
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	vernatting	zb	70.8	59.4	80.07
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verruiging inclusief ruderalisering	zb	82.75	72.3	89.81
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verzuring	zb	88.05	78.4	93.74
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Structuur	levensvormen	b	18.18	6.87	40.1
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	27.27	12.61	49.36
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Vegetatie	sleutelsoorten	b	13.64	4.37	35.29
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	eutrofiëring	zb	68.18	46.23	84.23
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verbossing	b	95.45	73.15	99.39
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verdroging	zb	63.64	41.95	80.91
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	100	100	100
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	vermossing	zb	95.45	73.15	99.39
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	vernatting	zb	77.27	55.2	90.37
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	77.27	55.2	90.37
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verzuring	zb	100	100	100
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	32.65	23.87	42.85
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	39.77	30.33	50.04
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	18.8	12.07	28.09
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	76.7	67.1	84.16
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	93.73	86.54	97.2
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	98.92	92.48	99.85
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	70.43	60.42	78.79
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	97.83	91.57	99.47
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	87.24	78.67	92.68
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	71.91	61.92	80.12
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	81.65	72.5	88.25
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	90.26	82.16	94.9
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Structuur	levensvormen	b	0	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Vegetatie	bedekking sleutelsoorten	b	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	eutrofiëring	zb	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	strooisellaag	b	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verbossing	b	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verbraming	b	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verdroging	zb	0	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	vergrassing inclusief vervilting	zb	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	vermossing	zb	0	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	vernatting	zb	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verruiging inclusief ruderalisering	zb	100	NA	NA
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verzuring	zb	100	NA	NA
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Structuur	dominantie van één soort	b	37.02	26.37	49.11
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Vegetatie	bedekking sleutelsoorten	b	8.61	3.57	19.35
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Vegetatie	sleutelsoorten	b	2.31	0.97	5.44
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	eutrofiëring	zb	49.26	37.16	61.44
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	verbossing	b	97.42	94.72	98.75
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	verbraming	b	99.17	96.78	99.79
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	vergrassing inclusief vervilting	zb	60	47.27	71.51
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	86.28	73.26	93.52
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_hus; 6510_hua	Structuur	verticale structuur	b	77.94	63.45	87.79
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hua	Verstoring	verdroging	zb	96.89	78.19	99.63
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hua	Verstoring	vernatting	zb	93.77	75.65	98.65
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_huk	Structuur	levensvormen	b	5.32	1.17	21.13
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_hua	Structuur	verticale structuur	b	76.15	59.99	87.18
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Structuur	dominantie van één soort	b	36.05	24.47	49.53
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Vegetatie	bedekking sleutelsoorten	b	8.51	3.09	21.33
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Vegetatie	sleutelsoorten	b	1.81	0.56	5.63
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	eutrofiëring	zb	50.67	37.18	64.07
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	verbossing	b	97.42	94.42	98.83
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	verbraming	b	99.05	96.32	99.76
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	vergrassing inclusief vervilting	zb	61.35	47.01	73.95
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	84.35	69.88	92.6
-Versie 3	Vlaanderen	2	62	Binnen	6510_hua	Verstoring	verdroging	zb	100	NA	NA
-Versie 3	Vlaanderen	2	62	Binnen	6510_hua	Verstoring	vernatting	zb	100	NA	NA
-Versie 3	Vlaanderen	2	62	Binnen	6510_huk	Structuur	levensvormen	b	4	0.5	25.65
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_hua; 6510_hus	Structuur	verticale structuur	b	91.27	79.86	96.5
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Structuur	dominantie van één soort	b	43.87	24.37	65.47
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Vegetatie	bedekking sleutelsoorten	b	9.31	3.92	20.52
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Vegetatie	sleutelsoorten	b	5.88	1.93	16.56
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	eutrofiëring	zb	39.26	21.22	60.8
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	verbossing	b	97.38	84.64	99.6
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	vergrassing inclusief vervilting	zb	50.5	29.9	70.93
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	99.92	99.39	99.99
-Versie 3	Vlaanderen	2	62	Buiten	6510_hua	Verstoring	verdroging	zb	96.15	74.62	99.53
-Versie 3	Vlaanderen	2	62	Buiten	6510_hua	Verstoring	vernatting	zb	92.31	71.92	98.25
-Versie 3	Vlaanderen	2	62	Buiten	6510_huk	Structuur	levensvormen	b	12.5	1.54	56.67
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Structuur	dominantie van één soort	b	47.89	36.8	59.19
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Structuur	verticale structuur	b	80.95	70.35	88.39
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Vegetatie	bedekking sleutelsoorten	b	6.74	2.81	15.29
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	eutrofiëring	zb	57.32	45.87	68.04
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	verbossing	b	89.04	79.66	94.4
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	verbraming	b	97.3	89.74	99.33
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	65.68	54.22	75.56
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	97.21	89.82	99.28
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Structuur	dominantie van één soort	b	37.37	19.41	59.65
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Structuur	verticale structuur	b	81.32	61.72	92.15
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Vegetatie	bedekking sleutelsoorten	b	18.68	7.86	38.23
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Vegetatie	sleutelsoorten	b	9.34	2.84	26.62
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	eutrofiëring	zb	59.52	37.02	78.62
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	vergrassing inclusief vervilting	zb	47.06	24.42	70.99
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Structuur	dominantie van één soort	b	57.92	40.45	73.61
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Vegetatie	bedekking sleutelsoorten	b	1.95	0.27	12.91
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Vegetatie	sleutelsoorten	b	12.08	4.47	28.74
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	eutrofiëring	zb	29.48	16.27	47.36
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	verbossing	b	91.3	75.43	97.29
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	verbraming	b	96.62	79.31	99.53
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	89.35	73.82	96.15
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Structuur	dominantie van één soort	b	30.48	17.16	48.12
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Structuur	verticale structuur	b	77.22	59.25	88.77
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Vegetatie	bedekking sleutelsoorten	b	9.76	3.16	26.41
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	eutrofiëring	zb	51.77	34.86	68.29
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	53.25	36.19	69.59
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	80.48	62.75	90.98
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Structuur	(korst)moslaag	b	29.28	18.49	43.05
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Structuur	dominantie van één soort	b	68.86	55.04	79.98
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	23.71	14.04	37.17
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	61.04	51.24	70.03
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	94.21	88.97	97.05
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	79.88	70.75	86.7
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vergrassing	zb	69.28	58.68	78.17
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verruiging	zb	87.27	79.31	92.45
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_oli	Structuur	veenmossen	zb	24.85	14.4	39.39
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	75.63	61.24	85.9
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Structuur	(korst)moslaag	b	30	18.66	44.46
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Structuur	dominantie van één soort	b	68	53.5	79.7
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	24	13.91	38.17
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	62.12	52.09	71.21
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	95.64	90.43	98.07
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	verbossing	zb	80.67	71.24	87.55
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	vergrassing	zb	67.91	57.03	77.14
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	verruiging	zb	86.7	78.44	92.12
-Versie 3	Vlaanderen	2	78	Binnen	7140_oli	Structuur	veenmossen	zb	22.92	12.89	37.4
-Versie 3	Vlaanderen	2	78	Binnen	7140_oli	Vegetatie	bedekking sleutelsoorten	b	75	60.37	85.52
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Structuur	(korst)moslaag	b	20	2.53	70.62
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Structuur	dominantie van één soort	b	80	29.38	97.47
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	20	2.53	70.62
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	36.82	6.16	83.8
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	62.09	22.22	90.38
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	62.09	22.22	90.38
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	vergrassing	zb	100	100	100
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	verruiging	zb	100	100	100
-Versie 3	Vlaanderen	2	78	Buiten	7140_oli	Structuur	veenmossen	zb	100	NA	NA
-Versie 3	Vlaanderen	2	78	Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	100	NA	NA
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Vegetatie	sleutelsoorten	b	13	6.25	25.07
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	eutrofiëring	zb	84.56	72.51	91.92
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	verbossing	zb	73.42	60.12	83.5
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	vergrassing	zb	92.57	81.58	97.23
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	verruiging	zb	79.58	66.55	88.41
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Vegetatie	sleutelsoorten	b	89.84	77.54	95.77
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	eutrofiëring	zb	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	verbossing	zb	83.75	70.46	91.76
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	vergrassing	zb	55.31	41.11	68.7
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	verruiging	zb	91.88	79.99	96.97
+versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	aandeel_gunstig	aandeel_gunstig_llci	aandeelgunstig_ulci	n_obs
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Structuur	dominantie van één soort	zb	98.56	89.9	99.81	58
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Structuur	microreliëf	zb	87.72	75.41	94.33	58
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	62.08	48	74.38	58
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	71.47	57.49	82.27	58
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	72.56	58.83	83.04	58
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	82.31	69.16	90.61	58
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Structuur	dominantie van één soort	zb	97.67	84.46	99.69	43
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Structuur	microreliëf	zb	88.37	74.4	95.21	43
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	67.44	51.76	79.99	43
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Vegetatie	sleutelsoorten	b	74.42	58.94	85.5	43
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Verstoring	overgang naar rbbzil	zb	72.09	56.51	83.7	43
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Verstoring	rietontwikkeling	zb	83.72	69.06	92.22	43
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Structuur	dominantie van één soort	zb	100	100	100	15
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Structuur	microreliëf	zb	86.67	58.34	96.79	15
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	53.33	28.65	76.48	15
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	66.67	39.8	85.81	15
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	73.33	45.8	89.95	15
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	80	52.05	93.65	15
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo	Verstoring	verdroging	zb	81.49	68.87	89.76	59
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo	Verstoring	vernatting	zb	100	100	100	59
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	55.56	47.02	63.78	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	sleutelsoorten	b	40.15	32.23	48.63	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	eutrofiëring	zb	90.31	83.97	94.32	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	strooisellaag	b	100	100	100	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbossing	b	86.52	79.78	91.27	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbraming	b	97.8	93.96	99.22	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	77.04	69.04	83.46	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vermossing	zb	95.55	90.89	97.88	165
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	97.84	95.08	99.06	165
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo	Verstoring	verdroging	zb	81.13	67.91	89.73	53
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo	Verstoring	vernatting	zb	100	100	100	53
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	64.75	55.58	72.95	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	sleutelsoorten	b	47.17	37.94	56.6	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	eutrofiëring	zb	92.56	86.43	96.05	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	strooisellaag	b	100	100	100	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbossing	b	87.5	80.12	92.4	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verbraming	b	96.56	90.73	98.77	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	81.52	73.57	87.49	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	vermossing	zb	93.91	87.08	97.25	127
+Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	97.49	94	98.97	127
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	39.26	24.88	55.78	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Vegetatie	sleutelsoorten	b	27.71	15.51	44.47	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	eutrofiëring	zb	86.33	70.91	94.24	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	strooisellaag	b	100	100	100	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	verbossing	b	84.78	69.49	93.16	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	verbraming	b	100	100	100	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	69.09	52.09	82.13	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	vermossing	zb	98.45	89.51	99.79	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	98.45	89.51	99.79	38
+Versie 3	Vlaanderen	2	49	Buiten	6230_hmo	Verstoring	verdroging	zb	83.33	35.37	97.86	6
+Versie 3	Vlaanderen	2	49	Buiten	6230_hmo	Verstoring	vernatting	zb	100	100	100	6
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Vegetatie	bedekking sleutelsoorten	b	25.11	15.6	37.81	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Vegetatie	sleutelsoorten	b	16.73	9.14	28.62	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	eutrofiëring	zb	86.14	72.74	93.54	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	strooisellaag	b	100	100	100	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	verbossing	b	84.74	71.39	92.52	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	verbraming	b	97.21	89.29	99.32	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	vergrassing inclusief vervilting	zb	68.12	53.52	79.86	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	vermossing	zb	98.6	90.52	99.81	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100	56
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Vegetatie	bedekking sleutelsoorten	b	68.88	55.81	79.5	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Vegetatie	sleutelsoorten	b	42.16	30.05	55.29	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	eutrofiëring	zb	89.38	77.77	95.29	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	strooisellaag	b	100	100	100	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	verbossing	b	80.33	67.4	88.98	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	verbraming	b	98.42	89.43	99.78	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	76.76	64.06	85.96	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	vermossing	zb	92.53	81.09	97.28	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	89.38	77.77	95.29	59
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Vegetatie	bedekking sleutelsoorten	b	79.23	64.49	88.9	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Vegetatie	sleutelsoorten	b	62.19	47.2	75.17	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	eutrofiëring	zb	95.45	83.19	98.89	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	strooisellaag	b	100	100	100	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	verbossing	b	91.48	79.09	96.83	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	verbraming	b	98.02	86.96	99.73	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	vergrassing inclusief vervilting	zb	86.35	72.52	93.81	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	vermossing	zb	94.05	82.88	98.1	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100	46
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Vegetatie	sleutelsoorten	b	18.66	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	eutrofiëring	zb	54.23	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	strooisellaag	b	100	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	verbossing	b	81.34	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	verbraming	b	100	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	45.77	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	vermossing	zb	100	NA	NA	4
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	100	NA	NA	4
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Structuur	levensvormen	b	28.74	20.5	38.67	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Vegetatie	bedekking sleutelsoorten	b	38.69	29.14	49.21	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Vegetatie	sleutelsoorten	b	17	10.7	25.95	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	eutrofiëring	zb	73.42	63.5	81.43	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	strooisellaag	b	100	100	100	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verbossing	b	94.97	88.26	97.94	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verbraming	b	99.04	93.29	99.87	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verdroging	zb	70.41	59.82	79.17	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	vergrassing inclusief vervilting	zb	98.08	92.48	99.53	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	vermossing	zb	85.49	75.63	91.8	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	vernatting	zb	73.9	64.08	81.79	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verruiging inclusief ruderalisering	zb	81.56	72.34	88.21	97
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	Verstoring	verzuring	zb	91.38	84.04	95.52	97
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Structuur	levensvormen	b	32.51	22.72	44.12	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Vegetatie	bedekking sleutelsoorten	b	42.78	31.6	54.75	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Vegetatie	sleutelsoorten	b	18.21	10.94	28.74	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	eutrofiëring	zb	75.29	64.12	83.86	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	strooisellaag	b	100	100	100	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verbossing	b	94.8	86.71	98.07	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verbraming	b	98.7	91.05	99.82	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verdroging	zb	72.83	60.53	82.41	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	vergrassing inclusief vervilting	zb	97.4	89.95	99.37	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	vermossing	zb	81.93	69.66	89.95	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	vernatting	zb	72.69	61.33	81.71	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verruiging inclusief ruderalisering	zb	83.09	72.73	90.06	75
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	Verstoring	verzuring	zb	88.3	78.74	93.89	75
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Structuur	levensvormen	b	18.18	6.87	40.11	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	27.27	12.61	49.36	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Vegetatie	sleutelsoorten	b	13.64	4.37	35.3	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	eutrofiëring	zb	68.18	46.22	84.23	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verbossing	b	95.45	73.15	99.39	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verbraming	b	100	100	100	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verdroging	zb	63.64	41.95	80.91	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	100	100	100	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	vermossing	zb	95.45	73.15	99.39	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	vernatting	zb	77.27	55.19	90.37	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	77.27	55.19	90.37	22
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	Verstoring	verzuring	zb	100	100	100	22
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	29.56	21.18	39.58	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	36.95	27.74	47.2	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	17.49	11.03	26.59	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	72.66	62.64	80.82	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	94.83	87.95	97.87	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	99.01	93.11	99.87	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	72.41	62.35	80.63	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	98.03	92.28	99.52	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	87.93	79.71	93.11	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	73.15	63.23	81.2	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	81.03	71.66	87.83	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	91.13	83.63	95.39	96
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Structuur	levensvormen	b	0	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Vegetatie	bedekking sleutelsoorten	b	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Vegetatie	sleutelsoorten	b	0	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	eutrofiëring	zb	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	strooisellaag	b	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verbossing	b	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verbraming	b	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verdroging	zb	0	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	vergrassing inclusief vervilting	zb	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	vermossing	zb	0	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	vernatting	zb	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verruiging inclusief ruderalisering	zb	100	NA	NA	1
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	Verstoring	verzuring	zb	100	NA	NA	1
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Structuur	dominantie van één soort	b	45.15	29.82	61.45	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Vegetatie	bedekking sleutelsoorten	b	3.16	1.67	5.89	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Vegetatie	sleutelsoorten	b	1.18	0.47	2.89	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	eutrofiëring	zb	47.33	31.76	63.44	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	strooisellaag	b	100	100	100	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	verbossing	b	89.88	74.07	96.51	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	verbraming	b	99.09	97.49	99.68	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	vergrassing inclusief vervilting	zb	61.18	44.49	75.61	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	95.52	78.75	99.19	190
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_hus; 6510_hua	Structuur	verticale structuur	b	86.56	71.8	94.22	156
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hua	Verstoring	verdroging	zb	96.18	74.83	99.53	27
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hua	Verstoring	vernatting	zb	92.36	72.13	98.26	27
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_huk	Structuur	levensvormen	b	6.79	1.52	25.57	34
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_hua	Structuur	verticale structuur	b	81.69	71.67	88.73	106
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Structuur	dominantie van één soort	b	47.94	38.03	58.01	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Vegetatie	bedekking sleutelsoorten	b	6.33	2.84	13.52	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Vegetatie	sleutelsoorten	b	1.04	0.33	3.26	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	eutrofiëring	zb	56.26	46.12	65.9	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	strooisellaag	b	100	100	100	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	verbossing	b	89.76	81.72	94.5	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	verbraming	b	95.85	89.48	98.43	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	vergrassing inclusief vervilting	zb	69.53	59.37	78.09	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	97.22	91.46	99.13	132
+Versie 3	Vlaanderen	2	62	Binnen	6510_hua	Verstoring	verdroging	zb	100	NA	NA	1
+Versie 3	Vlaanderen	2	62	Binnen	6510_hua	Verstoring	vernatting	zb	100	NA	NA	1
+Versie 3	Vlaanderen	2	62	Binnen	6510_huk	Structuur	levensvormen	b	3.85	0.48	24.78	26
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_hua; 6510_hus	Structuur	verticale structuur	b	87.82	67.36	96.18	50
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Structuur	dominantie van één soort	b	44.36	25.58	64.9	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Vegetatie	bedekking sleutelsoorten	b	2.27	0.96	5.27	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Vegetatie	sleutelsoorten	b	1.21	0.4	3.59	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	eutrofiëring	zb	44.83	25.98	65.29	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	strooisellaag	b	100	100	100	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	verbossing	b	89.92	67.78	97.42	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	verbraming	b	100	100	100	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	vergrassing inclusief vervilting	zb	58.85	38.11	76.86	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	95.04	71.69	99.31	58
+Versie 3	Vlaanderen	2	62	Buiten	6510_hua	Verstoring	verdroging	zb	96.15	74.62	99.53	26
+Versie 3	Vlaanderen	2	62	Buiten	6510_hua	Verstoring	vernatting	zb	92.31	71.92	98.25	26
+Versie 3	Vlaanderen	2	62	Buiten	6510_huk	Structuur	levensvormen	b	12.5	1.54	56.57	8
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Structuur	dominantie van één soort	b	44.95	28.05	63.1	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Structuur	verticale structuur	b	87.35	70.62	95.2	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Vegetatie	bedekking sleutelsoorten	b	1.41	0.55	3.61	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Vegetatie	sleutelsoorten	b	0	0	0	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	eutrofiëring	zb	47.49	30.25	65.35	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	strooisellaag	b	100	100	100	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	verbossing	b	89.05	71.3	96.38	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	verbraming	b	99.15	97.24	99.74	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	62.51	43.67	78.19	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	95.09	76.23	99.15	95
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Structuur	dominantie van één soort	b	45.87	28.09	64.76	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Structuur	verticale structuur	b	77.07	57.23	89.41	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Vegetatie	bedekking sleutelsoorten	b	22.93	10.61	42.73	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Vegetatie	sleutelsoorten	b	11.47	3.71	30.35	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	eutrofiëring	zb	50.31	31.89	68.65	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	strooisellaag	b	100	100	100	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	verbossing	b	100	100	100	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	verbraming	b	100	100	100	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	vergrassing inclusief vervilting	zb	35.02	19.39	54.7	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100	27
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Structuur	dominantie van één soort	b	51.67	34.65	68.31	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Vegetatie	bedekking sleutelsoorten	b	6.79	1.62	24.35	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Vegetatie	sleutelsoorten	b	11.87	4.35	28.49	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	eutrofiëring	zb	35.6	21.01	53.45	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	strooisellaag	b	100	100	100	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	verbossing	b	88.13	71.51	95.65	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	verbraming	b	94.92	81.51	98.75	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	86.43	68.27	94.96	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Structuur	dominantie van één soort	b	35.43	20.14	54.41	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Structuur	verticale structuur	b	83	67.52	91.98	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Vegetatie	bedekking sleutelsoorten	b	7.29	2.3	20.75	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Vegetatie	sleutelsoorten	b	0	0	0	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	eutrofiëring	zb	47.1	30.17	64.72	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	strooisellaag	b	100	100	100	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	verbossing	b	100	100	100	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	verbraming	b	100	100	100	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	52.43	34.77	69.5	34
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	85.43	70.41	93.52	34
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Structuur	(korst)moslaag	b	28.33	17.83	41.88	56
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Structuur	dominantie van één soort	b	73.4	59.94	83.58	56
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	23.12	13.66	36.38	56
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	100	100	56
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	37.75	28.96	47.43	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	88.64	79.45	94.03	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	73.71	63.45	81.91	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vergrassing	zb	81.46	73.27	87.57	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verruiging	zb	86.24	77.4	91.99	105
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_oli	Structuur	veenmossen	zb	26.25	15.56	40.73	49
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	73.37	58.8	84.17	49
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Structuur	(korst)moslaag	b	29.41	18.28	43.69	51
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Structuur	dominantie van één soort	b	72.55	58.35	83.29	51
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	23.53	13.63	37.5	51
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso	Verstoring	invasieve exoten	zb	100	100	100	51
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	40.59	31.24	50.68	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	91.01	82.21	95.68	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	verbossing	zb	76.42	66.19	84.29	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	vergrassing	zb	79.78	71.03	86.39	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	Verstoring	verruiging	zb	85	75.53	91.22	99
+Versie 3	Vlaanderen	2	78	Binnen	7140_oli	Structuur	veenmossen	zb	25	14.48	39.63	48
+Versie 3	Vlaanderen	2	78	Binnen	7140_oli	Vegetatie	bedekking sleutelsoorten	b	72.92	58.18	83.9	48
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Structuur	(korst)moslaag	b	20	2.54	70.59	5
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Structuur	dominantie van één soort	b	80	29.41	97.46	5
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	20	2.54	70.59	5
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	100	100	5
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	6.42	0.77	37.85	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	62.57	22.36	90.66	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	43.85	12.6	80.89	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	vergrassing	zb	100	100	100	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	Verstoring	verruiging	zb	100	100	100	6
+Versie 3	Vlaanderen	2	78	Buiten	7140_oli	Structuur	veenmossen	zb	100	NA	NA	1
+Versie 3	Vlaanderen	2	78	Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	100	NA	NA	1
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Vegetatie	sleutelsoorten	b	12.15	5.82	23.64	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	eutrofiëring	zb	83.26	70.56	91.17	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	strooisellaag	b	100	100	100	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	structuurschade	b	100	100	100	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	verbossing	zb	67.08	53.46	78.33	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	vergrassing	zb	93.06	82.65	97.42	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	vermossing	zb	100	100	100	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	Verstoring	verruiging	zb	82.64	70.36	90.52	56
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Vegetatie	sleutelsoorten	b	91.81	79.84	96.94	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	eutrofiëring	zb	100	100	100	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	strooisellaag	b	100	100	100	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	structuurschade	b	100	100	100	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	verbossing	zb	87.71	74.96	94.45	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	vergrassing	zb	56.98	42.69	70.19	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	vermossing	zb	100	100	100	49
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	Verstoring	verruiging	zb	93.85	82.32	98.04	49

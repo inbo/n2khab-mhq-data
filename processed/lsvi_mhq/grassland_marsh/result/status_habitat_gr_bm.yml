@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: c007e543a296681e3b73f95fe28fa3f5ef6f6b80
-  data_hash: a54cb36c72ea7e361a267ba5985617815ce4a4df
+  hash: 28d3fbbffed1f437506d044633f0f5e8a3877c68
+  data_hash: c82902af0ec431022cacc354ebf6666615226c80
 versie:
   class: character
 schaal:
@@ -261,3 +261,5 @@ aandeel_gunstig_llci:
   class: numeric
 aandeel_gunstig_ulci:
   class: numeric
+n_obs:
+  class: integer

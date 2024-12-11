@@ -5,8 +5,8 @@
   sorting:
   - ID
   - Habitattype
-  hash: da5c0f63f36a7f6898e099fb2997d9c5de7cf90c
-  data_hash: d358ca727cf12a9906252e963a943f88758a6ae1
+  hash: 53b2c528ee3abe2294ecbda3eea1e794cc2e6c1e
+  data_hash: 71fabce4a0e7c42ca168c5b2131a3c9ad8d52201
 ID:
   class: character
 survey:
@@ -37,4 +37,6 @@ n_type_target:
 cover_target:
   class: numeric
 Habitattype:
+  class: character
+link_mhq:
   class: character

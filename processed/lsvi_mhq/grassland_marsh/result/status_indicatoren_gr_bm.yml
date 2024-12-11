@@ -9,8 +9,8 @@
   - habitatsubtype
   - criterium
   - indicator
-  hash: 7b16f497f56ce2a82a3a3cff13688c16b0420a3f
-  data_hash: d03d939d0247948077caf102937bf5b1c15881dd
+  hash: 9c417f97e32860fc28440bd36250debf4bd33805
+  data_hash: 0a7421e2ec062d49c829baebd2d452c36d8b37e5
 versie:
   class: character
 schaal:
@@ -269,3 +269,5 @@ aandeel_gunstig_llci:
   class: numeric
 aandeelgunstig_ulci:
   class: numeric
+n_obs:
+  class: integer
