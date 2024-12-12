@@ -478,5 +478,9 @@ type_observed_update2 <- type_observed_update %>%
 check <- type_observed_update2 %>%
   group_by(plot_id, periode, type) %>%
   filter(n() > 1)
+
+type_observed_update2 %>%
+  rename(vbi_cycle = periode, type_observed = type) %>%
+  write_vc(file = "type_observed", root = path_vbi, sorting = c("plot_id", "vbi_cycle", "type_observed"), strict = FALSE)
 ```
 

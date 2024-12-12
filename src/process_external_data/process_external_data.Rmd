@@ -76,8 +76,6 @@ plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
   unique() %>%
   select(plot_id, msa_area_ha)
 
-
-
 ```
 
 ## vbi forest
@@ -123,21 +121,39 @@ coordinates_mhq <- read_vc("coordinates", root = data_path_mhq)
 coordinates_mhq <- coordinates_mhq %>%
   select(plot_id, date_assessment, x_measured, y_measured)
 
+#2180
+data_path_mhq_duinen <- file.path(fileman_up("n2khab-mhq-data"), "/processed/inboveg_mhq_terr")
+
+header_mhq_duinen <- read_vc("header_mhq_terr", root = data_path_mhq_duinen) %>%
+  filter(str_detect(survey, "Duinen")) %>%
+  filter(area == 9)
+
+coordinates_mhq_duinen <- header_mhq_duinen %>%
+  select(plot_id = user_reference, recording_givid, date_assessment = vague_date_begin, x_measured = longitude, y_measured = latitude) %>%
+  mutate(date_assessment = as.Date(date_assessment)) %>%
+  unique() %>%
+  st_as_sf(coords = c("x_measured", "y_measured"), crs = 4326) %>%
+  st_transform(crs = 31370)
+
 mhq_bosconstantie <- coordinates_mhq %>%
+  mutate(plot_id = as.character(plot_id)) %>%
   st_as_sf(coords = c("x_measured", "y_measured"), crs = 31370) %>%
+  bind_rows(coordinates_mhq_duinen) %>%
   st_join(bosconstantie) %>%
   st_drop_geometry() %>%
   filter(!is.na(blk)) %>%
   unique()
 
 mhq_msa <- coordinates_mhq %>%
+  mutate(plot_id = as.character(plot_id)) %>%
   st_as_sf(coords = c("x_measured", "y_measured"), crs = 31370) %>%
+  bind_rows(coordinates_mhq_duinen) %>%
   st_join(select(habmap_terr$habitatmap_terr_polygons, polygon_id)) %>%
   st_drop_geometry() %>%
-  select(plot_id, date_assessment, polygon_id) %>%
+  select(plot_id, recording_givid, date_assessment, polygon_id) %>%
   left_join(msa_clusters, by = "polygon_id") %>%
   left_join(msa_type, by = "cluster_id") %>%
-  select(plot_id, date_assessment, type, msa_area_ha) %>%
+  select(plot_id, recording_givid, date_assessment, type, msa_area_ha) %>%
   filter(!is.na(msa_area_ha)) %>%
   unique()
 
