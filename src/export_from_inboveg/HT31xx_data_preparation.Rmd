@@ -45,7 +45,7 @@ this_survey <- c("HT31xx_LSVI_StilstaandeWateren", "HT2190_a_LSVI_StilstaandeWat
 
 classif_31xx <- classif_mhq_aq %>% filter(survey %in% this_survey)
 header_31xx <- header_mhq_aq %>% filter(survey %in% this_survey)
-  # aantal op 2024-11-19: 732 records
+  # aantal op 2024-12-12: 957 records
 structure_31xx <- structure_mhq_aq %>% filter(survey %in% this_survey)
 sitequal_31xx <- sitequal_mhq_aq %>% filter(survey %in% this_survey)
 layerqual_31xx <-  layerqual_mhq_aq %>% filter(survey %in% this_survey)
@@ -151,6 +151,7 @@ beschrijving van enkele kolommen:
 * suitable_mhq (TRUE/FALSE): geschiktheid voor opname in het habitatkwaliteitsmeetnet: TRUE indien type_observed een type bevat van de lijst van stilstaande wateren; FALSE: indien geen type van de lijst, indien drooggevallen, indien het toegekende habitattype onzeker is of indien tweemaal gemeten binnen hetzelfde jaar
 * measured (TRUE/FALSE): geeft aan of er al dan niet een volledige vegetatieopname is uitgevoerd (TRUE); een onvolledige opname (geen structuur- of layerkenmerken genoteerd) of tegenstrijdige gegevens in de opname wordt als FALSE beschouwd  
 
+Zijn er dubbel ingevoerde opnames?
 ```{r}
 # dubbel_ingevoerd
 doublerecords_header1 <- header %>% 
@@ -159,14 +160,14 @@ doublerecords_header1 <- header %>%
   count(user_reference) %>% 
   filter(n>1)
 doublerecords_header1
-# 2 to do: opvolgen
+# nee; ok
 
 doublerecords_header2 <- header %>% 
   filter(!(user_reference %in% doublerecords_header1$user_reference)) %>% 
   count(user_reference) %>% 
   filter(n>1)
 doublerecords_header2
-# ok
+# nee; ok
 ```
 
 
