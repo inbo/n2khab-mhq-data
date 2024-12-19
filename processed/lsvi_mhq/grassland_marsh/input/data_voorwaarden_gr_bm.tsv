@@ -311,6 +311,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 1498805_2023-10-12	IV2023112418244914	circle	Structuur	microreliëf	bedekking microrelief	100	Percentage	NA	%
 1500498_2018-06-18	1500498_2018-06-18	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 1500498_2018-06-18	1500498_2018-06-18	circle	Verstoring	verbossing	bedekking verbossing	8	Percentage	NA	%
+1500498_2024-06-14	1500498_2024-06-14	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+1500498_2024-06-14	1500498_2024-06-14	circle	Verstoring	verbossing	bedekking verbossing	16	Percentage	NA	%
 1504306_2018-06-07	1504306_2018-06-07	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 1504306_2018-06-07	1504306_2018-06-07	circle	Verstoring	verbossing	bedekking verbossing	1	Percentage	NA	%
 1508278_2019-07-10	IV2020031911190774	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -488,6 +490,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 1905938_2023-06-09	1905938_2023-06-09	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 190902_2018-06-06	190902_2018-06-06	square	Verstoring	strooisellaag	bedekking strooisellaag	20	Percentage	NA	%
 190902_2018-06-06	190902_2018-06-06	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+190902_2024-06-03	190902_2024-06-03	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+190902_2024-06-03	190902_2024-06-03	circle	Verstoring	verbossing	bedekking verbossing	30	Percentage	NA	%
 1913782_2018-07-10	IV2019020119240586	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 1913782_2018-07-10	IV2019020111131657	circle	Verstoring	structuurschade	bedekking structuurschade	0	Percentage	NA	%
 1913782_2018-07-10	IV2019020111131657	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
@@ -577,6 +581,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 2160774_2024-06-26	IV2024102917342525	circle	Verstoring	verbossing	bedekking verbossing	40	Percentage	NA	%
 216118_2018-05-25	216118_2018-05-25	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 216118_2018-05-25	216118_2018-05-25	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+216118_2024-06-05	216118_2024-06-05	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+216118_2024-06-05	216118_2024-06-05	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 2163698_2020-07-24	IV2020122120080835	square	Verstoring	strooisellaag	bedekking strooisellaag	4	Percentage	NA	%
 2163698_2020-07-24	IV2020122119483530	circle	Verstoring	verbossing	bedekking verbossing	4	Percentage	NA	%
 2173889_2016-08-30	IV2017020308555607	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -683,6 +689,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 2479154_2024-06-25	IV2024102917342374	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 2495762_2016-06-14	2495762_2016-06-14	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 2495762_2016-06-14	2495762_2016-06-14	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+2495762_2024-06-11	2495762_2024-06-11	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+2495762_2024-06-11	2495762_2024-06-11	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 2500918_2019-07-05	IV2020021416372690	square	Verstoring	strooisellaag	bedekking strooisellaag	1	Percentage	NA	%
 2500918_2019-07-05	IV2020021416312620	circle	Verstoring	structuurschade	bedekking structuurschade	0	Percentage	NA	%
 2500918_2019-07-05	IV2020021416312620	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
@@ -718,6 +726,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 2645158_2020-07-09	IV2020092113020783	circle	Verstoring	verbossing	bedekking verbossing	22	Percentage	NA	%
 2645426_2018-06-08	2645426_2018-06-08	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 2645426_2018-06-08	2645426_2018-06-08	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+2645426_2024-06-12	2645426_2024-06-12	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+2645426_2024-06-12	2645426_2024-06-12	circle	Verstoring	verbossing	bedekking verbossing	45	Percentage	NA	%
 2664513_2015-07-10	IV2017010922225486	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 2664513_2015-07-10	IV2017010922050123	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 267986_2016-09-13	IV2017021513305863	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -791,6 +801,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 2945974_2020-09-10	IV2020091516571792	circle	Verstoring	verbossing	bedekking verbossing	1	Percentage	NA	%
 2954514_2016-06-10	2954514_2016-06-10	square	Verstoring	strooisellaag	bedekking strooisellaag	15	Percentage	NA	%
 2954514_2016-06-10	2954514_2016-06-10	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+2954514_2024-06-11	2954514_2024-06-11	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+2954514_2024-06-11	2954514_2024-06-11	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 2967065_2018-06-12	2967065_2018-06-12	square	Verstoring	strooisellaag	bedekking strooisellaag	5	Percentage	NA	%
 2967065_2018-06-12	2967065_2018-06-12	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 2977246_7140_oli_2020-10-14	IV2021012511343208	square	Verstoring	strooisellaag	bedekking strooisellaag	80	Percentage	NA	%
@@ -855,6 +867,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 311262_2022-08-23	IV2022092721013515	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3120562_2018-06-11	3120562_2018-06-11	square	Verstoring	strooisellaag	bedekking strooisellaag	1	Percentage	NA	%
 3120562_2018-06-11	3120562_2018-06-11	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+3120562_2024-06-12	3120562_2024-06-12	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+3120562_2024-06-12	3120562_2024-06-12	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3132850_2020-05-28	3132850_2020-05-28	square	Verstoring	strooisellaag	bedekking strooisellaag	95	Percentage	NA	%
 3132850_2020-05-28	3132850_2020-05-28	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3134649_2018-05-31	IV2019010209450232	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -869,6 +883,10 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 3160082_2019-07-03	IV2020031719424607	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3163010_2018-06-27	3163010_2018-06-27	square	Verstoring	strooisellaag	bedekking strooisellaag	10	Percentage	NA	%
 3163010_2018-06-27	3163010_2018-06-27	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+3163010_2024-06-12	3163010_2024-06-12	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+3163010_2024-06-12	3163010_2024-06-12	circle	Verstoring	verbossing	bedekking verbossing	1	Percentage	NA	%
+316646_2024-06-06	316646_2024-06-06	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+316646_2024-06-06	316646_2024-06-06	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3170178_2019-06-19	3170178_2019-06-19	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 3170178_2019-06-19	3170178_2019-06-19	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3173042_2020-06-02	3173042_2020-06-02	square	Verstoring	strooisellaag	bedekking strooisellaag	4	Percentage	NA	%
@@ -1014,6 +1032,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 386674_2022-06-10	386674_2022-06-10	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3906994_2018-06-08	3906994_2018-06-08	square	Verstoring	strooisellaag	bedekking strooisellaag	15	Percentage	NA	%
 3906994_2018-06-08	3906994_2018-06-08	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+3906994_2024-06-12	3906994_2024-06-12	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+3906994_2024-06-12	3906994_2024-06-12	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3927238_2022-06-24	IV2022062413525561	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 3927238_2022-06-24	IV2022062413515410	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 3956146_2018-06-11	3956146_2018-06-11	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -1053,6 +1073,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 409654_2020-05-21	IV2022062815251419	circle	Verstoring	verbossing	bedekking verbossing	3	Percentage	NA	%
 4122918_2018-05-18	4122918_2018-05-18	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 4122918_2018-05-18	4122918_2018-05-18	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+4122918_2024-06-13	4122918_2024-06-13	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+4122918_2024-06-13	4122918_2024-06-13	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 412726_2019-05-23	IV2020022714374375	square	Verstoring	strooisellaag	bedekking strooisellaag	5	Percentage	NA	%
 412726_2019-05-23	IV2020022714231094	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 412726_2023-10-09	IV2023100917114784	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -1086,6 +1108,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 4346754_2019-06-18	4346754_2019-06-18	circle	Verstoring	verbossing	bedekking verbossing	1	Percentage	NA	%
 4351326_2018-05-22	4351326_2018-05-22	square	Verstoring	strooisellaag	bedekking strooisellaag	2	Percentage	NA	%
 4351326_2018-05-22	4351326_2018-05-22	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+4351326_2024-06-06	4351326_2024-06-06	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+4351326_2024-06-06	4351326_2024-06-06	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 4370774_2019-07-05	IV2020021916032116	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 4370774_2019-07-05	IV2020021915563894	circle	Verstoring	structuurschade	bedekking structuurschade	0	Percentage	NA	%
 4370774_2019-07-05	IV2020021915563894	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
@@ -1124,6 +1148,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 455349_2022-09-20	IV2022092720573400	circle	Structuur	microreliëf	bedekking microrelief	100	Percentage	NA	%
 4576306_2018-06-12	IV2019020812125743	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 4576306_2018-06-12	IV2019020811552696	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+459798_2024-05-30	459798_2024-05-30	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+459798_2024-05-30	459798_2024-05-30	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 4598982_2015-06-19	IV2017021312171588	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 4598982_2015-06-19	IV2017021311505729	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 4598982_2022-06-24	IV2022062413525437	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -1290,6 +1316,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 6152326_2022-07-04	IV2022091211043505	circle	Verstoring	verbossing	bedekking verbossing	2	Percentage	NA	%
 6165778_2020-05-19	6165778_2020-05-19	square	Verstoring	strooisellaag	bedekking strooisellaag	70	Percentage	NA	%
 6165778_2020-05-19	6165778_2020-05-19	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+618646_2024-06-03	618646_2024-06-03	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+618646_2024-06-03	618646_2024-06-03	circle	Verstoring	verbossing	bedekking verbossing	2	Percentage	NA	%
 6194105_2017-06-20	IV2017113011505228	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 6194105_2017-06-20	IV2017113010285455	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 619506_2016-08-25	IV2017013016040477	square	Verstoring	strooisellaag	bedekking strooisellaag	1	Percentage	NA	%
@@ -1326,6 +1354,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 643970_2022-06-03	643970_2022-06-03	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 6448478_2018-05-24	6448478_2018-05-24	square	Verstoring	strooisellaag	bedekking strooisellaag	20	Percentage	NA	%
 6448478_2018-05-24	6448478_2018-05-24	circle	Verstoring	verbossing	bedekking verbossing	2	Percentage	NA	%
+6448478_2024-06-06	6448478_2024-06-06	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+6448478_2024-06-06	6448478_2024-06-06	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 64777_2022-08-18	IV2022092721054994	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 64777_2022-08-18	IV2022092721033366	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 648914_2016-08-18	IV2017012613530004	square	Verstoring	strooisellaag	bedekking strooisellaag	3	Percentage	NA	%
@@ -1377,6 +1407,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 678638_2022-08-23	IV2022092721013396	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 6792238_2018-06-06	IV2019010216405649	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 6792238_2018-06-06	IV2019010216252659	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+688094_2024-05-31	688094_2024-05-31	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+688094_2024-05-31	688094_2024-05-31	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 6923026_2019-07-03	IV2020031814183054	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 6923026_2019-07-03	IV2020031814463025	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 6948370_2017-07-03	IV2018030714233862	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -1462,6 +1494,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 781906_2024-06-28	IV2024102917232470	circle	Verstoring	verbossing	bedekking verbossing	30	Percentage	NA	%
 78294_2016-06-03	78294_2016-06-03	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 78294_2016-06-03	78294_2016-06-03	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+78294_2024-06-05	78294_2024-06-05	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+78294_2024-06-05	78294_2024-06-05	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 7839026_2019-07-02	IV2020031219413746	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 7839026_2019-07-02	IV2020031220232348	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 783954_2017-06-30	IV2018030715551163	square	Verstoring	strooisellaag	bedekking strooisellaag	9	Percentage	NA	%
@@ -1504,6 +1538,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 823129_2024-06-28	IV2024062911272413	circle	Verstoring	verbossing	bedekking verbossing	5	Percentage	NA	%
 826486_2023-08-03	IV2023112210415553	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 826486_2023-08-03	IV2023112210394800	circle	Verstoring	verbossing	bedekking verbossing	6	Percentage	NA	%
+830770_2024-06-13	830770_2024-06-13	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+830770_2024-06-13	830770_2024-06-13	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 8363961_2018-06-01	IV2019022114510668	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 8363961_2018-06-01	IV2019022114385849	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 840662_2024-06-24	IV2024062806512261	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -1530,6 +1566,8 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 857298_2023-07-24	IV2023112210404868	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 857298_2024-08-07	IV2024102917244007	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 857298_2024-08-07	IV2024102917223132	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+859446_2024-06-11	859446_2024-06-11	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+859446_2024-06-11	859446_2024-06-11	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 863169_2016-06-08	863169_2016-06-08	square	Verstoring	strooisellaag	bedekking strooisellaag	1	Percentage	NA	%
 863169_2016-06-08	863169_2016-06-08	circle	Verstoring	verbossing	bedekking verbossing	1	Percentage	NA	%
 863862_2015-06-29	IV2017020714540212	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
@@ -1556,12 +1594,16 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 880094_2016-10-07	IV2017021511480087	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 884022_2018-05-29	884022_2018-05-29	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 884022_2018-05-29	884022_2018-05-29	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+884022_2024-06-10	884022_2024-06-10	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+884022_2024-06-10	884022_2024-06-10	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 89810_2016-08-18	IV2017012613170767	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 89810_2016-08-18	IV2017012613001528	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 89810_2023-07-05	IV2023112211595021	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 89810_2023-07-05	IV2023112211585273	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 905190_2018-06-06	905190_2018-06-06	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 905190_2018-06-06	905190_2018-06-06	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
+905190_2024-06-06	905190_2024-06-06	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
+905190_2024-06-06	905190_2024-06-06	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 905382_2015-06-11	IV2017022015390187	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%
 905382_2015-06-11	IV2017022015155634	circle	Verstoring	verbossing	bedekking verbossing	0	Percentage	NA	%
 905382_2022-06-20	IV2022062019015574	square	Verstoring	strooisellaag	bedekking strooisellaag	0	Percentage	NA	%

@@ -237,6 +237,15 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 10291313_2120_2019-10-18	IV2020031719352910	square	Verstoring	verruiging	bedekking verruiging	0	Percentage	NA	%
 10291313_2120_2019-10-18	IV2020031719352910	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 10291313_2120_2019-10-18	IV2020031719305514	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
+10291313_2120_2024-07-02	IV2024070821532575	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	square	Verstoring	exoten	bedekking overige exoten	4	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	square	Structuur	kruidlaag	bedekking soorten pionierduingrasland	17.5232	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	circle	Verstoring	structuurverstoring	bedekking structuurverstoring	0	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	square	Verstoring	vergrassing	bedekking vergrassing	11.8208	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	square	Verstoring	verruiging	bedekking verruiging	0	Percentage	NA	%
+10291313_2120_2024-07-02	IV2024070821532575	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
+10291313_2120_2024-07-02	IV2024070821532575	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 10300977_2023-09-07	IV2023092116275524	square	Structuur	(korst)moslaag	bedekking alle mossen	16.6666666666667	Percentage	NA	%
 10300977_2023-09-07	IV2023092116275524	square	Verstoring	exoten	bedekking overige exoten	7.77777777777779	Percentage	NA	%
 10300977_2023-09-07	IV2023092116275524	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -481,6 +490,9 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 1057969_2022-10-06	IV2023010321143063	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 1057969_2022-10-06	IV2023010321143063	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 1060149_2180_2020-09-14	IV2020120216123940	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1060149_2180_2020-09-14	IV2020120216140340	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
+1060401_2024-09-10	IV2024091815483040	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
+1060401_2024-09-10	IV2024091815483040	circle	Structuur	horizontale structuur	open plekken aanwezig	3	Percentage	NA	%
 10606705_2120_2019-10-18	IV2020031718454661	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 10606705_2120_2019-10-18	IV2020031718454661	square	Verstoring	exoten	bedekking overige exoten	17.1428571428571	Percentage	NA	%
 10606705_2120_2019-10-18	IV2020031718404748	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -526,8 +538,12 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 10672241_2120_2019-10-18	IV2020031718194416	square	Verstoring	verruiging	bedekking verruiging	0	Percentage	NA	%
 10672241_2120_2019-10-18	IV2020031718194416	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 10672241_2120_2019-10-18	IV2020031718111730	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
+1069233_2024-09-03	IV2024090407102262	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
+1069233_2024-09-03	IV2024090407102262	circle	Structuur	horizontale structuur	open plekken aanwezig	1	Percentage	NA	%
 107697_2022-08-31	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+107697_2022-08-31	IV2023010321143122	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 1090737_2022-08-12	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1090737_2022-08-12	IV2023010321142576	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 110385_2020-07-15	IV2021011409540831	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 110385_2020-07-15	IV2021011409540831	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 110705_2020-07-14	IV2021011321462517	square	Structuur	(korst)moslaag	bedekking alle mossen	50	Percentage	NA	%
@@ -541,6 +557,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 110705_2020-07-14	IV2021011321424591	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 1113397_2020-09-14	IV2021021215555995	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 1113397_2020-09-14	IV2021021215555995	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1113397_2020-09-14	IV2021021217063708	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 1113397_2020-09-14	IV2021021215555995	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 111985_2020-07-20	IV2021011513563616	square	Structuur	(korst)moslaag	bedekking alle mossen	20	Percentage	NA	%
 111985_2020-07-20	IV2021011513563616	square	Verstoring	exoten	bedekking overige exoten	1.33333333333333	Percentage	NA	%
@@ -552,8 +569,11 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 111985_2020-07-20	IV2021011513563616	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 111985_2020-07-20	IV2021011513522454	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 11573_2180_2020-09-09	IV2020120215592681	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+11573_2180_2020-09-09	IV2020120216014961	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 1158961_2022-09-27	IV2022092720533554	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1158961_2022-09-27	IV2022092720553887	square	Structuur	minimum structuurareaal	MSA	35.8613	Decimaal getal	NA	ha
 1172657_2180_2020-09-21	IV2020120111495894	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1172657_2180_2020-09-21	IV2020120112025970	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 120945_2020-07-14	IV2021011321315520	square	Structuur	(korst)moslaag	bedekking alle mossen	94.7368421052632	Percentage	NA	%
 120945_2020-07-14	IV2021011321315520	square	Verstoring	exoten	bedekking overige exoten	4.21052631578947	Percentage	NA	%
 120945_2020-07-14	IV2021011321285193	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -592,10 +612,13 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 12545841_2170_2018-09-20	IV2019022017090395	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 12545841_2170_2018-09-20	IV2019022017090395	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 1298609_2020-09-01	IV2021020911184688	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1298609_2020-09-01	IV2021020911210746	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 1303729_2022-08-30	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1303729_2022-08-30	IV2023010321145173	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 130865_2021-08-10	IV2022031620244735	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 130865_2021-08-10	IV2022031620244735	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 1322293_2022-08-02	IV2022092721073439	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1322293_2022-08-02	IV2022092721094272	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 136885_2021-08-09	IV2022030213233916	square	Structuur	(korst)moslaag	bedekking alle mossen	100	Percentage	NA	%
 136885_2021-08-09	IV2022030213233916	square	Verstoring	exoten	bedekking overige exoten	1.11111111111111	Percentage	NA	%
 136885_2021-08-09	IV2022030213183192	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -608,8 +631,11 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 137393_2160_2020-08-19	IV2020120210211261	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 137393_2160_2020-08-19	IV2020120210211261	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 1391925_2022-08-02	IV2022092721054491	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1391925_2022-08-02	IV2022092721073759	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 1418417_2022-08-11	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1418417_2022-08-11	IV2023010321143202	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 1434801_2022-08-30	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1434801_2022-08-30	IV2023010321143943	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 143797_2020-07-09	IV2021011312154589	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 143797_2020-07-09	IV2021011312154589	square	Verstoring	exoten	bedekking overige exoten	0	Percentage	NA	%
 143797_2020-07-09	IV2021011312123392	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -620,14 +646,21 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 143797_2020-07-09	IV2021011312154589	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 143797_2020-07-09	IV2021011312123392	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 1462325_2022-08-02	IV2022092721053652	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1462325_2022-08-02	IV2022092721074657	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 1484977_2022-09-02	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1484977_2022-09-02	IV2023010321142600	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 1506613_2022-08-04	IV2022092721054248	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1506613_2022-08-04	IV2022092721074543	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 152753_2022-09-06	IV2023010321144893	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 152753_2022-09-06	IV2023010321144893	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 1550513_2022-09-08	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1550513_2022-09-08	IV2023010321144453	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 1565873_2022-08-31	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1565873_2022-08-31	IV2023010321145474	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 1566897_2022-09-02	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1566897_2022-09-02	IV2023010321144390	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 1630385_2022-09-30	IV2022093016593511	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1630385_2022-09-30	IV2022101501181245	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 163633_2023-08-31	IV2023090510342363	square	Structuur	(korst)moslaag	bedekking alle mossen	1.33333333333333	Percentage	NA	%
 163633_2023-08-31	IV2023090510342363	square	Verstoring	exoten	bedekking overige exoten	5.33333333333333	Percentage	NA	%
 163633_2023-08-31	IV2023090510342363	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -638,12 +671,15 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 163633_2023-08-31	IV2023090510342363	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 163633_2023-08-31	IV2023090510342363	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 1670453_2022-08-04	IV2022092721054382	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1670453_2022-08-04	IV2022092721073635	square	Structuur	minimum structuurareaal	MSA	13.5744	Decimaal getal	NA	ha
 1680561_2022-08-11	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
-169137_1_2024-07-03	IV2024070821532853	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
-169137_1_2024-07-03	IV2024070821532853	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
+1680561_2022-08-11	IV2023010321143662	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 169137_2021-08-24	IV2022051221331057	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 169137_2021-08-24	IV2022051221331057	circle	Structuur	horizontale structuur	open plekken aanwezig	37.5	Percentage	NA	%
+169137_2024-07-03	IV2024070821532853	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
+169137_2024-07-03	IV2024070821532853	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 1696945_2022-08-30	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1696945_2022-08-30	IV2023010321145220	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 1710001_2020-08-24	IV2021020816225981	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 1710001_2020-08-24	IV2021020816225981	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 174897_2020-07-28	IV2021011914253938	square	Structuur	(korst)moslaag	bedekking alle mossen	55.5555555555556	Percentage	NA	%
@@ -658,7 +694,9 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 1792053_2022-08-04	IV2022092721054068	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 1792053_2022-08-04	IV2022092721054068	circle	Structuur	horizontale structuur	open plekken aanwezig	0.5	Percentage	NA	%
 1812657_2022-09-08	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1812657_2022-09-08	IV2023010321150183	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 1892529_2022-09-30	IV2022093016593283	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1892529_2022-09-30	IV2022093017003811	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 192305_2021-08-03	IV2022031611480796	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 192305_2021-08-03	IV2022031611480796	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 192625_2020-07-14	IV2021011321561657	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
@@ -671,6 +709,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 192625_2020-07-14	IV2021011321561657	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 192625_2020-07-14	IV2021011321523331	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 1953969_2022-09-30	IV2022093016593450	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1953969_2022-09-30	IV2022093017003798	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 196021_2020-07-09	IV2021011314105671	square	Structuur	(korst)moslaag	bedekking alle mossen	47.0588235294118	Percentage	NA	%
 196021_2020-07-09	IV2021011314105671	square	Verstoring	exoten	bedekking overige exoten	4.70588235294118	Percentage	NA	%
 196021_2020-07-09	IV2021011313511379	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -681,30 +720,51 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 196021_2020-07-09	IV2021011314105671	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 196021_2020-07-09	IV2021011313511379	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 1986613_2022-08-02	IV2022092721053236	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+1986613_2022-08-02	IV2022092721074597	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 2003969_2022-08-01	IV2022092721073360	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2003969_2022-08-01	IV2022092721094103	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 2003969_2023-06-06	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2003969_2023-06-06	IV2023090510341181	square	Structuur	minimum structuurareaal	MSA	20.4504	Decimaal getal	NA	ha
 2090161_2022-08-30	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2090161_2022-08-30	IV2023010321145991	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 2108725_2022-08-02	IV2022092721073659	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2108725_2022-08-02	IV2022092721094321	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 2139313_2022-08-30	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2139313_2022-08-30	IV2023010321145091	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 2145589_2022-08-04	IV2022092721054044	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2145589_2022-08-04	IV2022092721074131	square	Structuur	minimum structuurareaal	MSA	0.5397	Decimaal getal	NA	ha
 2151425_2022-08-01	IV2022092721073344	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2151425_2022-08-01	IV2022092721093900	square	Structuur	minimum structuurareaal	MSA	20.4504	Decimaal getal	NA	ha
 2178357_2022-08-02	IV2022092721053763	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2178357_2022-08-02	IV2022092721074393	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 2178865_2020-08-24	IV2021020910155441	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 2178865_2020-08-24	IV2021020910155441	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 2205109_2022-08-01	IV2022092721093754	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2205109_2022-08-01	IV2022092721104462	square	Structuur	minimum structuurareaal	MSA	20.4504	Decimaal getal	NA	ha
 2207537_2022-09-27	IV2022092720533546	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2207537_2022-09-27	IV2022092720553570	square	Structuur	minimum structuurareaal	MSA	35.8613	Decimaal getal	NA	ha
 2221233_2022-08-11	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2221233_2022-08-11	IV2023010321143811	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 228977_2020-07-23	IV2021011523012885	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 228977_2020-07-23	IV2021011523012885	circle	Structuur	horizontale structuur	open plekken aanwezig	3	Percentage	NA	%
 2314293_2023-08-25	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2314293_2023-08-25	IV2023090510341228	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 2352305_2023-08-21	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2352305_2023-08-21	IV2023090510340108	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 2358709_2023-09-04	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2358709_2023-09-04	IV2023090510335850	square	Structuur	minimum structuurareaal	MSA	13.6624	Decimaal getal	NA	ha
 2401457_2023-08-21	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2401457_2023-08-21	IV2023090510341018	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 240433_2180_2020-09-16	IV2020122314440629	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+240433_2180_2020-09-16	IV2020122315100049	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 2456885_1_2023-08-25	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2456885_1_2023-08-25	IV2023090510342981	square	Structuur	minimum structuurareaal	MSA	13.5744	Decimaal getal	NA	ha
 2466993_2023-08-21	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+2466993_2023-08-21	IV2023090510343777	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 255153_2180_2020-09-21	IV2020113016470340	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+255153_2180_2020-09-21	IV2020113016571783	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 256177_2022-09-07	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+256177_2022-09-07	IV2023010321144081	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 25777_2021-08-24	IV2022051121463601	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 25777_2021-08-24	IV2022051121463601	square	Verstoring	exoten	bedekking overige exoten	100	Percentage	NA	%
 25777_2021-08-24	IV2022051121423253	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -724,7 +784,9 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 259889_2021-08-06	IV2022031616040407	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 259889_2021-08-06	IV2022031615394807	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 268341_2180_2020-09-14	IV2020120410244162	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+268341_2180_2020-09-14	IV2020120410471019	square	Structuur	minimum structuurareaal	MSA	3.1221	Decimaal getal	NA	ha
 273717_2180_2020-09-07	IV2020120215071324	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+273717_2180_2020-09-07	IV2020120215103764	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 2741_2021-08-09	IV2022030210245061	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 2741_2021-08-09	IV2022030210245061	square	Verstoring	exoten	bedekking overige exoten	0	Percentage	NA	%
 2741_2021-08-09	IV2022030210174364	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -783,6 +845,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 3665713_2020-07-30	IV2021021219501413	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 3665713_2020-07-30	IV2021021219501413	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 369841_2022-08-12	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+369841_2022-08-12	IV2023010321143434	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 370101_2021-08-10	IV2022030320363678	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 370101_2021-08-10	IV2022030320363678	circle	Structuur	horizontale structuur	open plekken aanwezig	3	Percentage	NA	%
 371505_2020-07-28	IV2021011911441348	square	Structuur	(korst)moslaag	bedekking alle mossen	57.1428571428571	Percentage	NA	%
@@ -848,6 +911,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 405041_2021-08-20	IV2022051114301465	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 405041_2021-08-20	IV2022051114301465	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 413749_2180_2020-09-09	IV2020120215370449	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+413749_2180_2020-09-09	IV2020120215384647	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 415921_2021-08-25	IV2022051309175981	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
 415921_2021-08-25	IV2022051309175981	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 425269_2020-07-07	IV2021011309183055	square	Structuur	(korst)moslaag	bedekking alle mossen	22.2222222222222	Percentage	NA	%
@@ -869,6 +933,9 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 431281_2021-08-24	IV2022051121553852	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 431281_2021-08-24	IV2022051121522097	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 435377_2023-08-21	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+435377_2023-08-21	IV2023090510341997	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
+435377_2024-09-12	IV2024091815482492	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
+435377_2024-09-12	IV2024091815482492	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 438065_2021-08-03	IV2022031610320843	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 438065_2021-08-03	IV2022031610320843	square	Verstoring	exoten	bedekking overige exoten	5	Percentage	NA	%
 438065_2021-08-03	IV2022031610244106	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -908,7 +975,9 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 461493_2021-08-09	IV2022030210363565	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 461493_2021-08-09	IV2022030210333141	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 470325_2180_2020-09-09	IV2020120215451489	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+470325_2180_2020-09-09	IV2020120215464258	square	Structuur	minimum structuurareaal	MSA	28.1866	Decimaal getal	NA	ha
 501937_2022-09-08	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+501937_2022-09-08	IV2023010321143786	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 507697_2023-08-11	IV2023090510343569	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 507697_2023-08-11	IV2023090510343569	square	Verstoring	exoten	bedekking overige exoten	0	Percentage	NA	%
 507697_2023-08-11	IV2023090510343569	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -921,6 +990,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 511793_2160_2020-09-28	IV2020122316022040	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 511793_2160_2020-09-28	IV2020122316022040	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 512177_2020-09-17	IV2021020912560994	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+512177_2020-09-17	IV2021020913072938	square	Structuur	minimum structuurareaal	MSA	12.7263	Decimaal getal	NA	ha
 51313_2020-07-10	IV2021011317445965	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 51313_2020-07-10	IV2021011317445965	square	Verstoring	exoten	bedekking overige exoten	1.25	Percentage	NA	%
 51313_2020-07-10	IV2021011317421312	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -951,6 +1021,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 514741_2021-08-09	IV2022030213394969	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 514741_2021-08-09	IV2022030213370159	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 517297_2022-08-31	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+517297_2022-08-31	IV2023010321145661	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 5297_2120_2020-08-27	IV2020120214062624	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 5297_2120_2020-08-27	IV2020120214062624	square	Verstoring	exoten	bedekking overige exoten	2.5	Percentage	NA	%
 5297_2120_2020-08-27	IV2020120213594183	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -961,6 +1032,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 5297_2120_2020-08-27	IV2020120214062624	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 5297_2120_2020-08-27	IV2020120213594183	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 530485_2022-08-04	IV2022092721053921	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+530485_2022-08-04	IV2022092721074784	square	Structuur	minimum structuurareaal	MSA	3.1221	Decimaal getal	NA	ha
 532849_2021-08-11	IV2022042717430997	square	Structuur	(korst)moslaag	bedekking alle mossen	25	Percentage	NA	%
 532849_2021-08-11	IV2022042717430997	square	Verstoring	exoten	bedekking overige exoten	0	Percentage	NA	%
 532849_2021-08-11	IV2022042717395837	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -974,24 +1046,18 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 556341_2020-07-06	IV2021011213483112	circle	Structuur	horizontale structuur	open plekken aanwezig	0.5	Percentage	NA	%
 556849_2021-08-17	IV2022050314444562	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
 556849_2021-08-17	IV2022050314444562	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	square	Verstoring	exoten	bedekking overige exoten	4	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	square	Structuur	kruidlaag	bedekking soorten pionierduingrasland	17.5232	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	circle	Verstoring	structuurverstoring	bedekking structuurverstoring	0	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	square	Verstoring	vergrassing	bedekking vergrassing	11.8208	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	square	Verstoring	verruiging	bedekking verruiging	0	Percentage	NA	%
-560166_v2018_2024-07-02	IV2024070821532575	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
-560166_v2018_2024-07-02	IV2024070821532575	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 562353_2020-09-22	IV2021011813155073	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 562353_2020-09-22	IV2021011813155073	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 566449_2022-08-12	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+566449_2022-08-12	IV2023010321152468	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 567473_2180_2020-09-25	IV2020122315442760	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+567473_2180_2020-09-25	IV2020122315464658	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 595121_2022-10-12	IV2023010321144200	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 595121_2022-10-12	IV2023010321144200	circle	Structuur	horizontale structuur	open plekken aanwezig	1	Percentage	NA	%
 606001_2021-08-20	IV2022051114041101	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
 606001_2021-08-20	IV2022051114041101	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 606261_2180_2020-09-07	IV2020120215283175	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+606261_2180_2020-09-07	IV2020120215303595	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 611505_2023-08-30	IV2023090510335534	square	Structuur	(korst)moslaag	bedekking alle mossen	1.04166666666667	Percentage	NA	%
 611505_2023-08-30	IV2023090510335534	square	Verstoring	exoten	bedekking overige exoten	2.08333333333333	Percentage	NA	%
 611505_2023-08-30	IV2023090510335534	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -1033,6 +1099,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 634417_2021-08-16	IV2022042911542414	square	Structuur	horizontale structuur	fijnmazige afwisseling	1	Ja/nee	NA	NA
 634417_2021-08-16	IV2022042911313354	circle	Structuur	dynamiek	spontane verstuiving aanwezig	1	Ja/nee	NA	NA
 648369_2180_2020-09-25	IV2020122315515392	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+648369_2180_2020-09-25	IV2020122315542805	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 64949_2020-07-09	IV2021011312210575	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 64949_2020-07-09	IV2021011312210575	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 651057_1_2023-08-22	IV2023090510343307	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
@@ -1072,6 +1139,7 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 758961_2022-10-07	IV2023010321143364	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 758961_2022-10-07	IV2023010321143364	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 764081_2022-09-08	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+764081_2022-09-08	IV2023010321142744	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 776369_2022-09-30	IV2022093016593645	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 776369_2022-09-30	IV2022093016593645	circle	Structuur	horizontale structuur	open plekken aanwezig	37.5	Percentage	NA	%
 798257_2022-09-28	IV2022092815443741	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
@@ -1117,9 +1185,11 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 923569_2022-09-27	IV2022092720513272	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 923569_2022-09-27	IV2022092720513272	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 940085_2022-08-04	IV2022092721053521	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+940085_2022-08-04	IV2022092721074228	square	Structuur	minimum structuurareaal	MSA	0.4884	Decimaal getal	NA	ha
 945969_2022-09-27	IV2022092720523337	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 945969_2022-09-27	IV2022092720523337	circle	Structuur	horizontale structuur	open plekken aanwezig	2.8	Percentage	NA	%
 959925_2022-08-01	IV2022092721093501	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+959925_2022-08-01	IV2022092721104370	square	Structuur	minimum structuurareaal	MSA	2.7534	Decimaal getal	NA	ha
 96433_2021-08-23	IV2022051116124938	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 96433_2021-08-23	IV2022051116124938	square	Verstoring	exoten	bedekking overige exoten	50	Percentage	NA	%
 96433_2021-08-23	IV2022051116090484	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -1136,14 +1206,21 @@ ID	record_id	plot_type	Criterium	Indicator	Voorwaarde	Waarde	Type	Invoertype	Een
 992433_2022-10-05	IV2023010321142965	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 992433_2022-10-05	IV2023010321142965	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 bd_01_2022-06-30	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+bd_01_2022-06-30	IV2023010321142829	square	Structuur	minimum structuurareaal	MSA	20.4504	Decimaal getal	NA	ha
 bd_02_2022-08-01	IV2022092721073587	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+bd_02_2022-08-01	IV2022092721094472	square	Structuur	minimum structuurareaal	MSA	3.2084	Decimaal getal	NA	ha
 bd_03_2022-08-01	IV2022092721073450	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+bd_03_2022-08-01	IV2022092721094098	square	Structuur	minimum structuurareaal	MSA	20.4504	Decimaal getal	NA	ha
 BD_06_2180_2020-09-28	IV2020122316500539	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+BD_06_2180_2020-09-28	IV2020122316540893	square	Structuur	minimum structuurareaal	MSA	6.2467	Decimaal getal	NA	ha
 bd_13_2020-07-14	IV2021011409405597	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 bd_13_2020-07-14	IV2021011409405597	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 Ca_04_2180_2020-09-17	IV2020122315175746	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+Ca_04_2180_2020-09-17	IV2020122315202968	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 Ca_06_2180_2020-09-17	IV2020122315372252	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+Ca_06_2180_2020-09-17	IV2020122315393420	square	Structuur	minimum structuurareaal	MSA	12.7263	Decimaal getal	NA	ha
 Ca_12_2020-09-17	IV2021020913215942	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+Ca_12_2020-09-17	IV2021020913245178	square	Structuur	minimum structuurareaal	MSA	12.7263	Decimaal getal	NA	ha
 double_358577_2021-08-23	IV2022051121315448	square	Structuur	(korst)moslaag	bedekking alle mossen	0	Percentage	NA	%
 double_358577_2021-08-23	IV2022051121315448	square	Verstoring	exoten	bedekking overige exoten	0	Percentage	NA	%
 double_358577_2021-08-23	IV2022051121280729	circle	Verstoring	rijshout	bedekking rijshout	0	Percentage	NA	%
@@ -1166,7 +1243,9 @@ double_hs_13_2020-08-19	IV2021031015595629	circle	Structuur	horizontale structuu
 dp_09_2021-08-18	IV2022051014311949	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 dp_09_2021-08-18	IV2022051014311949	circle	Structuur	horizontale structuur	open plekken aanwezig	3	Percentage	NA	%
 ha_02_2022-08-05	IV2022092721033636	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+ha_02_2022-08-05	IV2022092721054626	square	Structuur	minimum structuurareaal	MSA	35.8613	Decimaal getal	NA	ha
 ha_14_2022-08-05	IV2022092721033513	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+ha_14_2022-08-05	IV2022092721054872	square	Structuur	minimum structuurareaal	MSA	35.8613	Decimaal getal	NA	ha
 hb_01_2021-08-23	IV2022051115414552	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 hb_01_2021-08-23	IV2022051115414552	circle	Structuur	horizontale structuur	open plekken aanwezig	37.5	Percentage	NA	%
 hs_04_2021-08-19	IV2022051017294517	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
@@ -1174,16 +1253,21 @@ hs_04_2021-08-19	IV2022051017294517	circle	Structuur	horizontale structuur	open 
 hs_05_2021-08-19	IV2022032121272563	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 hs_05_2021-08-19	IV2022032121272563	circle	Structuur	horizontale structuur	open plekken aanwezig	37.5	Percentage	NA	%
 hs_09_2022-09-02	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+hs_09_2022-09-02	IV2023010321144939	square	Structuur	minimum structuurareaal	MSA	23.3002	Decimaal getal	NA	ha
 hs_12_2021-08-19	IV2022032120074193	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 hs_12_2021-08-19	IV2022032120074193	circle	Structuur	horizontale structuur	open plekken aanwezig	37.5	Percentage	NA	%
 KD_05_2180_2020-09-21	IV2020113017361075	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+KD_05_2180_2020-09-21	IV2020113017513017	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 nd_03_2021-08-25	IV2022051222520494	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 nd_03_2021-08-25	IV2022051222520494	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 nd_15_2021-08-25	IV2022051222194996	circle	Structuur	horizontale structuur	aantal struweelsoorten	4	Geheel getal	NA	NA
 nd_15_2021-08-25	IV2022051222194996	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 OH_01_2180_2020-09-21	IV2020113021114309	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+OH_01_2180_2020-09-21	IV2020113021140253	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 OH_02_2020-09-25	IV2021031016342319	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+OH_02_2020-09-25	IV2021031016363298	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 OH_03_2020-09-25	IV2021021816364719	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+OH_03_2020-09-25	IV2021021816514337	square	Structuur	minimum structuurareaal	MSA	29.5408	Decimaal getal	NA	ha
 oh_08_2021-08-26	IV2022051309565349	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
 oh_08_2021-08-26	IV2022051309565349	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 sc_03_2021-08-16	IV2022042912314790	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
@@ -1201,21 +1285,28 @@ WN_29_2020-08-27	IV2021020813375412	circle	Structuur	horizontale structuur	open 
 wo_03_2021-08-24	IV2022051222053917	circle	Structuur	horizontale structuur	aantal struweelsoorten	2	Geheel getal	NA	NA
 wo_03_2021-08-24	IV2022051222053917	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 wz_08_2022-09-06	NA	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+wz_08_2022-09-06	IV2023010321143488	square	Structuur	minimum structuurareaal	MSA	55.8672	Decimaal getal	NA	ha
 WZ_22_2020-09-22	IV2021031211493518	circle	Structuur	horizontale structuur	aantal struweelsoorten	NA	Geheel getal	NA	NA
 WZ_22_2020-09-22	IV2021031211493518	circle	Structuur	horizontale structuur	open plekken aanwezig	NA	Percentage	NA	%
 WZ_23_2180_2020-09-22	IV2020122415455466	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+WZ_23_2180_2020-09-22	IV2020122415495361	square	Structuur	minimum structuurareaal	MSA	0	Decimaal getal	NA	ha
 WZ_24_2160_2020-09-22	IV2020122415564970	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 WZ_24_2160_2020-09-22	IV2020122415564970	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 ZW_04_2180_2020-09-01	IV2020120214121489	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+ZW_04_2180_2020-09-01	IV2020120214143341	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 ZW_05_2020-09-14	IV2021021516334763	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 ZW_05_2020-09-14	IV2021021516334763	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 zw_10_2180_2020-09-10	IV2020120216061586	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+zw_10_2180_2020-09-10	IV2020120216081388	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 zw_11_2022-08-02	IV2022092721053334	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+zw_11_2022-08-02	IV2022092721074444	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 zw_15_2021-08-05	IV2022030112232741	circle	Structuur	horizontale structuur	aantal struweelsoorten	1	Geheel getal	NA	NA
 zw_15_2021-08-05	IV2022030112232741	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 zw_16_2021-08-05	IV2022022819065319	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
 zw_16_2021-08-05	IV2022022819065319	circle	Structuur	horizontale structuur	open plekken aanwezig	15	Percentage	NA	%
 ZW_17_2020-09-14	IV2021021118354522	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+ZW_17_2020-09-14	IV2021021208503675	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha
 ZW_27_2160_2020-09-14	IV2020120216201945	circle	Structuur	horizontale structuur	aantal struweelsoorten	3	Geheel getal	NA	NA
 ZW_27_2160_2020-09-14	IV2020120216201945	circle	Structuur	horizontale structuur	open plekken aanwezig	0	Percentage	NA	%
 zw_28_2022-08-04	IV2022092721053463	circle	Vegetatie	sleutelsoorten van de boom- en struiklaag	grondvlak sleutelsoorten boom- en struiklaag	NA	Percentage	NA	%
+zw_28_2022-08-04	IV2022092721073974	square	Structuur	minimum structuurareaal	MSA	24.3825	Decimaal getal	NA	ha

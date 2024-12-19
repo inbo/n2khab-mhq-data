@@ -6,14 +6,16 @@
   - plot_id
   - date_assessment
   - type
-  hash: 7304bb3bfdec26919c2d15843c6adb5767742013
-  data_hash: 9a67abe2c5459f095f136dec71eb25dc00c10daa
+  hash: faccf43146e5241a7c131da70b3ea6c50559dcd1
+  data_hash: 7956eb88e08079df0a2d25da4f20d1248e64e562
 plot_id:
-  class: numeric
+  class: character
 date_assessment:
   class: Date
   origin: '1970-01-01'
 msa_area_ha:
   class: numeric
 type:
+  class: character
+recording_givid:
   class: character

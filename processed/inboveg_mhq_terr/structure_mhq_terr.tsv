@@ -363,8 +363,8 @@ N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	klver	beperkte verstuiv
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	gfixe	gefixeerd_2120	0	0
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	rijsh	rijshout bij type 2120	0	0
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	struc	structuurverstoringen (puin, …)	0	0
-N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	bos	verbossing	0	0
 N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	bos	verbossing	1	1
+N2000meetnet_Duinen_BHM	IV2019032212064389	10153777_2120	bos	verbossing	0	0
 N2000meetnet_Duinen_BHM	IV2019032212232276	double_11923249	bos	verbossing	65	65
 N2000meetnet_Duinen_BHM	IV2019032213402331	10415921_2170	bos	verbossing	1	1
 N2000meetnet_Heide_BHM	IV2020011710281344	734	calcl	calluna_climaxfase	3	T
@@ -3272,8 +3272,8 @@ N2000_Duinen_fieldapp	IV2024082122133256	1992497	bos	verbossing	3	3
 N2000_Duinen_fieldapp	IV2024082122133333	16772913	bos	verbossing	45	45
 N2000_Duinen_fieldapp	IV2024082122133521	1700017	bos	verbossing	0	0
 N2000_Duinen_fieldapp	IV2024082122133676	10252081	bos	verbossing	0	0
-N2000_Duinen_fieldapp	IV2024082122133768	1797937	bos	verbossing	25	25
 N2000_Duinen_fieldapp	IV2024082122133768	1797937	bos	verbossing	20	20
+N2000_Duinen_fieldapp	IV2024082122133768	1797937	bos	verbossing	25	25
 N2000_Duinen_fieldapp	IV2024082622132273	126769	bos	verbossing	12	12
 N2000_Duinen_fieldapp	IV2024082622132455	1898673	bos	verbossing	0	0
 N2000_Duinen_fieldapp	IV2024082622132513	1748785	bos	verbossing	2	2
@@ -3360,7 +3360,7 @@ N2000_Duinen_fieldapp	IV2024091815482492	435377	pioni	pionier_2160	0	0
 N2000_Duinen_fieldapp	IV2024091815482492	435377	bos	verbossing	25	25
 N2000_Duinen_fieldapp	IV2024091815482553	5461169	bos	verbossing	0	0
 N2000_Duinen_fieldapp	IV2024091815482673	1922225	bos	verbossing	10	10
-N2000_Duinen_fieldapp	IV2024091815482810	dp_03	bos	verbossing	6	6
+N2000_Duinen_fieldapp	IV2024091815482810	999217	bos	verbossing	6	6
 N2000_Duinen_fieldapp	IV2024091815482907	2430129	bos	verbossing	25	25
 N2000_Duinen_fieldapp	IV2024091815482907	2430129	bos	verbossing	95	95
 N2000_Duinen_fieldapp	IV2024091815483040	1060401	clima	climax_2160	37.5	KB

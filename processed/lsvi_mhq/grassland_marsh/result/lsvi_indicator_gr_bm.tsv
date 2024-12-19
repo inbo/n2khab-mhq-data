@@ -1695,6 +1695,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1500498_2018-06-18	6510_huk	Verstoring	verbraming	b	1	1
 1500498_2018-06-18	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	0	-0.8098
 1500498_2018-06-18	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.6188
+1500498_2024-06-14	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-0.7667
+1500498_2024-06-14	6510_huk	Structuur	dominantie van één soort	b	1	0.2
+1500498_2024-06-14	6510_huk	Verstoring	eutrofiëring	zb	1	0.7387
+1500498_2024-06-14	6510_huk	Structuur	levensvormen	b	0	-1
+1500498_2024-06-14	6510_huk	Vegetatie	sleutelsoorten	b	0	-0.8
+1500498_2024-06-14	6510_huk	Verstoring	strooisellaag	b	1	1
+1500498_2024-06-14	6510_huk	Verstoring	verbossing	b	0	-0.0667
+1500498_2024-06-14	6510_huk	Verstoring	verbraming	b	1	1
+1500498_2024-06-14	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.488
+1500498_2024-06-14	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.3401
 1504306_2018-06-07	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
 1504306_2018-06-07	6510_hu	Structuur	dominantie van één soort	b	0	-0.4
 1504306_2018-06-07	6510_hu	Verstoring	eutrofiëring	zb	0	-0.8218
@@ -2685,6 +2695,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 190902_2018-06-06	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.9016
 190902_2018-06-06	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8683
 190902_2018-06-06	6510_hu	Structuur	verticale structuur	b	1	0.7998
+190902_2024-06-03	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+190902_2024-06-03	6510_hu	Structuur	dominantie van één soort	b	0	-0.2
+190902_2024-06-03	6510_hu	Verstoring	eutrofiëring	zb	1	0.0973
+190902_2024-06-03	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+190902_2024-06-03	6510_hu	Verstoring	strooisellaag	b	1	1
+190902_2024-06-03	6510_hu	Verstoring	verbossing	b	0	-0.2222
+190902_2024-06-03	6510_hu	Verstoring	verbraming	b	1	1
+190902_2024-06-03	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.92
+190902_2024-06-03	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.9667
+190902_2024-06-03	6510_hu	Structuur	verticale structuur	b	1	0.2317
 1913782_2018-07-10	7140_meso	Structuur	(korst)moslaag	b	1	0.1288
 1913782_2018-07-10	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	0	-0.9337
 1913782_2018-07-10	7140_meso	Structuur	dominantie van één soort	b	1	0.4286
@@ -3114,6 +3134,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 216118_2018-05-25	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.1245
 216118_2018-05-25	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.9337
 216118_2018-05-25	6510_hu	Structuur	verticale structuur	b	1	0.2484
+216118_2024-06-05	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.8347
+216118_2024-06-05	6510_hu	Structuur	dominantie van één soort	b	1	0.6
+216118_2024-06-05	6510_hu	Verstoring	eutrofiëring	zb	1	0.228
+216118_2024-06-05	6510_hu	Vegetatie	sleutelsoorten	b	0	-0.7143
+216118_2024-06-05	6510_hu	Verstoring	strooisellaag	b	1	1
+216118_2024-06-05	6510_hu	Verstoring	verbossing	b	1	1
+216118_2024-06-05	6510_hu	Verstoring	verbraming	b	1	1
+216118_2024-06-05	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.921
+216118_2024-06-05	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.6
+216118_2024-06-05	6510_hu	Structuur	verticale structuur	b	1	0.3516
 2163698_2020-07-24	6230_hn	Vegetatie	bedekking sleutelsoorten	b	1	0.2318
 2163698_2020-07-24	6230_hn	Verstoring	eutrofiëring	zb	1	0.703
 2163698_2020-07-24	6230_hn	Vegetatie	sleutelsoorten	b	1	0
@@ -3717,6 +3747,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2495762_2016-06-14	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	0	-0.1936
 2495762_2016-06-14	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8347
 2495762_2016-06-14	6510_hus	Structuur	verticale structuur	b	1	0.3943
+2495762_2024-06-11	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.9333
+2495762_2024-06-11	6510_hu	Structuur	dominantie van één soort	b	1	0.2
+2495762_2024-06-11	6510_hu	Verstoring	eutrofiëring	zb	1	0.3067
+2495762_2024-06-11	6510_hu	Vegetatie	sleutelsoorten	b	0	-0.8571
+2495762_2024-06-11	6510_hu	Verstoring	strooisellaag	b	1	1
+2495762_2024-06-11	6510_hu	Verstoring	verbossing	b	1	1
+2495762_2024-06-11	6510_hu	Verstoring	verbraming	b	1	1
+2495762_2024-06-11	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.007
+2495762_2024-06-11	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+2495762_2024-06-11	6510_hu	Structuur	verticale structuur	b	1	0.2247
 2500918_2019-07-05	7140_meso	Structuur	(korst)moslaag	b	1	0.3224
 2500918_2019-07-05	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	1	0.2929
 2500918_2019-07-05	7140_meso	Structuur	dominantie van één soort	b	1	0.2857
@@ -3925,6 +3965,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2645426_2018-06-08	6510_huk	Verstoring	verbraming	b	0	-0.01
 2645426_2018-06-08	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.4746
 2645426_2018-06-08	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8687
+2645426_2024-06-12	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+2645426_2024-06-12	6510_hu	Structuur	dominantie van één soort	b	0	-0.94
+2645426_2024-06-12	6510_hu	Verstoring	eutrofiëring	zb	1	1
+2645426_2024-06-12	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+2645426_2024-06-12	6510_hu	Verstoring	strooisellaag	b	1	1
+2645426_2024-06-12	6510_hu	Verstoring	verbossing	b	0	-0.3889
+2645426_2024-06-12	6510_hu	Verstoring	verbraming	b	0	-0.9667
+2645426_2024-06-12	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	1
+2645426_2024-06-12	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.7667
+2645426_2024-06-12	6510_hu	Structuur	verticale structuur	b	0	-1
 2664513_2015-07-10	6410_mo	Vegetatie	bedekking sleutelsoorten	b	1	0.1111
 2664513_2015-07-10	6410_mo	Verstoring	eutrofiëring	zb	0	-0.0074
 2664513_2015-07-10	6410_mo	Structuur	levensvormen	b	1	0.1548
@@ -4291,6 +4341,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2954514_2016-06-10	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	0	-0.7695
 2954514_2016-06-10	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	1	0.804
 2954514_2016-06-10	6510_hus	Structuur	verticale structuur	b	0	-0.3853
+2954514_2024-06-11	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.9007
+2954514_2024-06-11	6510_hu	Structuur	dominantie van één soort	b	1	0
+2954514_2024-06-11	6510_hu	Verstoring	eutrofiëring	zb	0	-0.3139
+2954514_2024-06-11	6510_hu	Vegetatie	sleutelsoorten	b	0	-0.7143
+2954514_2024-06-11	6510_hu	Verstoring	strooisellaag	b	1	1
+2954514_2024-06-11	6510_hu	Verstoring	verbossing	b	1	1
+2954514_2024-06-11	6510_hu	Verstoring	verbraming	b	1	1
+2954514_2024-06-11	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.287
+2954514_2024-06-11	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.868
+2954514_2024-06-11	6510_hu	Structuur	verticale structuur	b	1	0.5105
 2967065_2018-06-12	6510_hua	Vegetatie	bedekking sleutelsoorten	b	1	0.1376
 2967065_2018-06-12	6510_hua	Structuur	dominantie van één soort	b	1	0
 2967065_2018-06-12	6510_hua	Verstoring	eutrofiëring	zb	0	-0.3347
@@ -4633,6 +4693,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3120562_2018-06-11	6510_huk	Verstoring	verbraming	b	1	0.9
 3120562_2018-06-11	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.3824
 3120562_2018-06-11	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+3120562_2024-06-12	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-1
+3120562_2024-06-12	6510_huk	Structuur	dominantie van één soort	b	0	-0.8
+3120562_2024-06-12	6510_huk	Verstoring	eutrofiëring	zb	0	-0.86
+3120562_2024-06-12	6510_huk	Structuur	levensvormen	b	0	-0.9
+3120562_2024-06-12	6510_huk	Vegetatie	sleutelsoorten	b	0	-1
+3120562_2024-06-12	6510_huk	Verstoring	strooisellaag	b	1	1
+3120562_2024-06-12	6510_huk	Verstoring	verbossing	b	1	1
+3120562_2024-06-12	6510_huk	Verstoring	verbraming	b	1	0.9
+3120562_2024-06-12	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.9208
+3120562_2024-06-12	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	1
 3132850_2020-05-28	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-1
 3132850_2020-05-28	6510_huk	Structuur	dominantie van één soort	b	1	0.2
 3132850_2020-05-28	6510_huk	Verstoring	eutrofiëring	zb	0	-0.16
@@ -4705,6 +4775,26 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3163010_2018-06-27	6510_huk	Verstoring	verbraming	b	1	1
 3163010_2018-06-27	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.725
 3163010_2018-06-27	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8363
+3163010_2024-06-12	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-1
+3163010_2024-06-12	6510_huk	Structuur	dominantie van één soort	b	1	0
+3163010_2024-06-12	6510_huk	Verstoring	eutrofiëring	zb	1	0.8667
+3163010_2024-06-12	6510_huk	Structuur	levensvormen	b	0	-1
+3163010_2024-06-12	6510_huk	Vegetatie	sleutelsoorten	b	0	-1
+3163010_2024-06-12	6510_huk	Verstoring	strooisellaag	b	1	1
+3163010_2024-06-12	6510_huk	Verstoring	verbossing	b	1	0.9
+3163010_2024-06-12	6510_huk	Verstoring	verbraming	b	1	1
+3163010_2024-06-12	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.8228
+3163010_2024-06-12	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.3519
+316646_2024-06-06	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+316646_2024-06-06	6510_hu	Structuur	dominantie van één soort	b	0	-0.6
+316646_2024-06-06	6510_hu	Verstoring	eutrofiëring	zb	0	-0.7805
+316646_2024-06-06	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+316646_2024-06-06	6510_hu	Verstoring	strooisellaag	b	1	1
+316646_2024-06-06	6510_hu	Verstoring	verbossing	b	1	1
+316646_2024-06-06	6510_hu	Verstoring	verbraming	b	1	1
+316646_2024-06-06	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.7865
+316646_2024-06-06	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+316646_2024-06-06	6510_hu	Structuur	verticale structuur	b	1	0.2778
 3170178_2019-06-19	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-0.9667
 3170178_2019-06-19	6510_huk	Structuur	dominantie van één soort	b	0	-0.8
 3170178_2019-06-19	6510_huk	Verstoring	eutrofiëring	zb	1	0.6442
@@ -5504,6 +5594,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3906994_2018-06-08	6510_huk	Verstoring	verbraming	b	1	1
 3906994_2018-06-08	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.764
 3906994_2018-06-08	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+3906994_2024-06-12	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-0.9667
+3906994_2024-06-12	6510_huk	Structuur	dominantie van één soort	b	1	0
+3906994_2024-06-12	6510_huk	Verstoring	eutrofiëring	zb	0	-0.1854
+3906994_2024-06-12	6510_huk	Structuur	levensvormen	b	0	-0.801
+3906994_2024-06-12	6510_huk	Vegetatie	sleutelsoorten	b	0	-0.8
+3906994_2024-06-12	6510_huk	Verstoring	strooisellaag	b	1	1
+3906994_2024-06-12	6510_huk	Verstoring	verbossing	b	1	1
+3906994_2024-06-12	6510_huk	Verstoring	verbraming	b	1	1
+3906994_2024-06-12	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.9404
+3906994_2024-06-12	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.9667
 3927238_2022-06-24	6410_mo	Vegetatie	bedekking sleutelsoorten	b	1	0.4274
 3927238_2022-06-24	6410_mo	Verstoring	eutrofiëring	zb	1	0.9
 3927238_2022-06-24	6410_mo	Structuur	levensvormen	b	1	0.379
@@ -5724,6 +5824,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 4122918_2018-05-18	6510_huk	Verstoring	verbraming	b	1	1
 4122918_2018-05-18	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	0	-0.58
 4122918_2018-05-18	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8363
+4122918_2024-06-13	6510_huk	Vegetatie	bedekking sleutelsoorten	b	0	-0.9667
+4122918_2024-06-13	6510_huk	Structuur	dominantie van één soort	b	1	0.6
+4122918_2024-06-13	6510_huk	Verstoring	eutrofiëring	zb	1	0.2539
+4122918_2024-06-13	6510_huk	Structuur	levensvormen	b	0	-1
+4122918_2024-06-13	6510_huk	Vegetatie	sleutelsoorten	b	0	-0.8
+4122918_2024-06-13	6510_huk	Verstoring	strooisellaag	b	1	1
+4122918_2024-06-13	6510_huk	Verstoring	verbossing	b	1	1
+4122918_2024-06-13	6510_huk	Verstoring	verbraming	b	1	1
+4122918_2024-06-13	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	1	0.7642
+4122918_2024-06-13	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8683
 412726_2019-05-23	6230_ha	Vegetatie	bedekking sleutelsoorten	b	0	-0.702
 412726_2019-05-23	6230_ha	Verstoring	eutrofiëring	zb	1	1
 412726_2019-05-23	6230_ha	Vegetatie	sleutelsoorten	b	0	-0.5
@@ -5902,6 +6012,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 4351326_2018-05-22	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	1	0.98
 4351326_2018-05-22	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	1	1
 4351326_2018-05-22	6510_hus	Structuur	verticale structuur	b	1	0.0396
+4351326_2024-06-06	6510_hus	Vegetatie	bedekking sleutelsoorten	b	1	0.0199
+4351326_2024-06-06	6510_hus	Structuur	dominantie van één soort	b	0	-0.2
+4351326_2024-06-06	6510_hus	Verstoring	eutrofiëring	zb	1	0.6129
+4351326_2024-06-06	6510_hus	Vegetatie	sleutelsoorten	b	0	-0.5714
+4351326_2024-06-06	6510_hus	Verstoring	strooisellaag	b	1	1
+4351326_2024-06-06	6510_hus	Verstoring	verbossing	b	1	1
+4351326_2024-06-06	6510_hus	Verstoring	verbraming	b	1	1
+4351326_2024-06-06	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	1	0.176
+4351326_2024-06-06	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	1	0.9007
+4351326_2024-06-06	6510_hus	Structuur	verticale structuur	b	1	0.3206
 4370774_2019-07-05	7140_meso	Structuur	(korst)moslaag	b	0	-0.605
 4370774_2019-07-05	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	1	0
 4370774_2019-07-05	7140_meso	Structuur	dominantie van één soort	b	1	0.5614
@@ -6121,6 +6241,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 4576306_2018-06-12	6410_mo	Verstoring	vernatting	zb	1	0.9667
 4576306_2018-06-12	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	1	0.801
 4576306_2018-06-12	6410_mo	Verstoring	verzuring	zb	1	1
+459798_2024-05-30	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.9007
+459798_2024-05-30	6510_hu	Structuur	dominantie van één soort	b	0	-0.4
+459798_2024-05-30	6510_hu	Verstoring	eutrofiëring	zb	1	0.5479
+459798_2024-05-30	6510_hu	Vegetatie	sleutelsoorten	b	0	-0.7143
+459798_2024-05-30	6510_hu	Verstoring	strooisellaag	b	1	1
+459798_2024-05-30	6510_hu	Verstoring	verbossing	b	1	1
+459798_2024-05-30	6510_hu	Verstoring	verbraming	b	1	1
+459798_2024-05-30	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.6596
+459798_2024-05-30	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	0	-0.04
+459798_2024-05-30	6510_hu	Structuur	verticale structuur	b	1	0.3644
 4598982_2015-06-19	6410_mo	Vegetatie	bedekking sleutelsoorten	b	1	0.4915
 4598982_2015-06-19	6410_mo	Verstoring	eutrofiëring	zb	1	1
 4598982_2015-06-19	6410_mo	Structuur	levensvormen	b	1	0.3046
@@ -7021,6 +7151,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 6165778_2020-05-19	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	0	-0.6832
 6165778_2020-05-19	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	0	-0.02
 6165778_2020-05-19	6510_hus	Structuur	verticale structuur	b	0	-0.472
+618646_2024-06-03	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+618646_2024-06-03	6510_hu	Structuur	dominantie van één soort	b	0	-0.2
+618646_2024-06-03	6510_hu	Verstoring	eutrofiëring	zb	1	0.5776
+618646_2024-06-03	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+618646_2024-06-03	6510_hu	Verstoring	strooisellaag	b	1	1
+618646_2024-06-03	6510_hu	Verstoring	verbossing	b	1	0.8
+618646_2024-06-03	6510_hu	Verstoring	verbraming	b	1	1
+618646_2024-06-03	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.7289
+618646_2024-06-03	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.5479
+618646_2024-06-03	6510_hu	Structuur	verticale structuur	b	1	0.7059
 6194105_2017-06-20	6410_mo	Vegetatie	bedekking sleutelsoorten	b	1	0.0613
 6194105_2017-06-20	6410_mo	Verstoring	eutrofiëring	zb	1	0.3188
 6194105_2017-06-20	6410_mo	Structuur	levensvormen	b	0	-0.3
@@ -7266,6 +7406,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 6448478_2018-05-24	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	1	0.7702
 6448478_2018-05-24	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	0	-0.4286
 6448478_2018-05-24	6510_hus	Structuur	verticale structuur	b	1	0.0392
+6448478_2024-06-06	6510_hus	Vegetatie	bedekking sleutelsoorten	b	0	-0.9667
+6448478_2024-06-06	6510_hus	Structuur	dominantie van één soort	b	0	-0.2
+6448478_2024-06-06	6510_hus	Verstoring	eutrofiëring	zb	0	-0.1268
+6448478_2024-06-06	6510_hus	Vegetatie	sleutelsoorten	b	0	-0.8571
+6448478_2024-06-06	6510_hus	Verstoring	strooisellaag	b	1	1
+6448478_2024-06-06	6510_hus	Verstoring	verbossing	b	1	1
+6448478_2024-06-06	6510_hus	Verstoring	verbraming	b	1	1
+6448478_2024-06-06	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	0	-0.2474
+6448478_2024-06-06	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+6448478_2024-06-06	6510_hus	Structuur	verticale structuur	b	1	0.7347
 64777_2022-08-18	6230_ha	Vegetatie	bedekking sleutelsoorten	b	0	-0.702
 64777_2022-08-18	6230_ha	Verstoring	eutrofiëring	zb	1	1
 64777_2022-08-18	6230_ha	Vegetatie	sleutelsoorten	b	0	-0.5
@@ -7568,6 +7718,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 6792238_2018-06-06	6230_hn	Verstoring	vergrassing inclusief vervilting	zb	1	0.844
 6792238_2018-06-06	6230_hn	Verstoring	vermossing	zb	0	-0.7143
 6792238_2018-06-06	6230_hn	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+688094_2024-05-31	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.9007
+688094_2024-05-31	6510_hu	Structuur	dominantie van één soort	b	0	-0.6
+688094_2024-05-31	6510_hu	Verstoring	eutrofiëring	zb	1	0.8683
+688094_2024-05-31	6510_hu	Vegetatie	sleutelsoorten	b	0	-0.7143
+688094_2024-05-31	6510_hu	Verstoring	strooisellaag	b	1	1
+688094_2024-05-31	6510_hu	Verstoring	verbossing	b	1	1
+688094_2024-05-31	6510_hu	Verstoring	verbraming	b	1	1
+688094_2024-05-31	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.921
+688094_2024-05-31	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.9667
+688094_2024-05-31	6510_hu	Structuur	verticale structuur	b	1	0.8366
 6923026_2019-07-03	6410_ve	Vegetatie	bedekking sleutelsoorten	b	0	-0.9
 6923026_2019-07-03	6410_ve	Verstoring	eutrofiëring	zb	1	0.504
 6923026_2019-07-03	6410_ve	Structuur	levensvormen	b	0	-1
@@ -8012,6 +8172,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 78294_2016-06-03	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	1
 78294_2016-06-03	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	1
 78294_2016-06-03	6510_hu	Structuur	verticale structuur	b	1	0.6905
+78294_2024-06-05	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+78294_2024-06-05	6510_hu	Structuur	dominantie van één soort	b	0	-0.2
+78294_2024-06-05	6510_hu	Verstoring	eutrofiëring	zb	0	-0.0021
+78294_2024-06-05	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+78294_2024-06-05	6510_hu	Verstoring	strooisellaag	b	1	1
+78294_2024-06-05	6510_hu	Verstoring	verbossing	b	1	1
+78294_2024-06-05	6510_hu	Verstoring	verbraming	b	1	1
+78294_2024-06-05	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.8
+78294_2024-06-05	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+78294_2024-06-05	6510_hu	Structuur	verticale structuur	b	1	0.4543
 7839026_2019-07-02	6410_mo	Vegetatie	bedekking sleutelsoorten	b	0	-1
 7839026_2019-07-02	6410_mo	Verstoring	eutrofiëring	zb	0	-0.0514
 7839026_2019-07-02	6410_mo	Structuur	levensvormen	b	0	-1
@@ -8257,6 +8427,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 826486_2023-08-03	6230_hmo	Verstoring	vermossing	zb	1	1
 826486_2023-08-03	6230_hmo	Verstoring	vernatting	zb	1	0.7357
 826486_2023-08-03	6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	0	-0.0199
+830770_2024-06-13	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.9667
+830770_2024-06-13	6510_hu	Structuur	dominantie van één soort	b	0	-0.2
+830770_2024-06-13	6510_hu	Verstoring	eutrofiëring	zb	0	-0.2045
+830770_2024-06-13	6510_hu	Vegetatie	sleutelsoorten	b	0	-0.8571
+830770_2024-06-13	6510_hu	Verstoring	strooisellaag	b	1	1
+830770_2024-06-13	6510_hu	Verstoring	verbossing	b	1	1
+830770_2024-06-13	6510_hu	Verstoring	verbraming	b	1	1
+830770_2024-06-13	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	0	-0.5715
+830770_2024-06-13	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+830770_2024-06-13	6510_hu	Structuur	verticale structuur	b	1	0.1429
 8363961_2018-06-01	6410_mo	Vegetatie	bedekking sleutelsoorten	b	0	-0.9
 8363961_2018-06-01	6410_mo	Verstoring	eutrofiëring	zb	1	0.504
 8363961_2018-06-01	6410_mo	Structuur	levensvormen	b	1	0.12
@@ -8382,6 +8562,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 857298_2024-08-07	6230_hn	Verstoring	vergrassing inclusief vervilting	zb	1	0.674
 857298_2024-08-07	6230_hn	Verstoring	vermossing	zb	1	1
 857298_2024-08-07	6230_hn	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+859446_2024-06-11	6510_hus	Vegetatie	bedekking sleutelsoorten	b	0	-0.3067
+859446_2024-06-11	6510_hus	Structuur	dominantie van één soort	b	1	0.4
+859446_2024-06-11	6510_hus	Verstoring	eutrofiëring	zb	0	-0.1334
+859446_2024-06-11	6510_hus	Vegetatie	sleutelsoorten	b	0	-0.7143
+859446_2024-06-11	6510_hus	Verstoring	strooisellaag	b	1	1
+859446_2024-06-11	6510_hus	Verstoring	verbossing	b	1	1
+859446_2024-06-11	6510_hus	Verstoring	verbraming	b	1	1
+859446_2024-06-11	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	1	0.4902
+859446_2024-06-11	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8667
+859446_2024-06-11	6510_hus	Structuur	verticale structuur	b	1	0.4565
 863169_2016-06-08	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-0.3333
 863169_2016-06-08	6510_hu	Structuur	dominantie van één soort	b	0	-0.4
 863169_2016-06-08	6510_hu	Verstoring	eutrofiëring	zb	0	-0.0416
@@ -8509,6 +8699,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 884022_2018-05-29	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	0	-0.4811
 884022_2018-05-29	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.9667
 884022_2018-05-29	6510_hu	Structuur	verticale structuur	b	0	-0.1351
+884022_2024-06-10	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+884022_2024-06-10	6510_hu	Structuur	dominantie van één soort	b	1	0
+884022_2024-06-10	6510_hu	Verstoring	eutrofiëring	zb	1	0.8667
+884022_2024-06-10	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+884022_2024-06-10	6510_hu	Verstoring	strooisellaag	b	1	1
+884022_2024-06-10	6510_hu	Verstoring	verbossing	b	1	1
+884022_2024-06-10	6510_hu	Verstoring	verbraming	b	1	1
+884022_2024-06-10	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.9208
+884022_2024-06-10	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	1
+884022_2024-06-10	6510_hu	Structuur	verticale structuur	b	0	-1
 89810_2016-08-18	6230_ha	Vegetatie	bedekking sleutelsoorten	b	0	-0.605
 89810_2016-08-18	6230_ha	Verstoring	eutrofiëring	zb	1	0.801
 89810_2016-08-18	6230_ha	Vegetatie	sleutelsoorten	b	0	-0.25
@@ -8537,6 +8737,16 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 905190_2018-06-06	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	1	0.9404
 905190_2018-06-06	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.803
 905190_2018-06-06	6510_hu	Structuur	verticale structuur	b	1	0.2778
+905190_2024-06-06	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	-1
+905190_2024-06-06	6510_hu	Structuur	dominantie van één soort	b	0	-0.04
+905190_2024-06-06	6510_hu	Verstoring	eutrofiëring	zb	1	0.9007
+905190_2024-06-06	6510_hu	Vegetatie	sleutelsoorten	b	0	-1
+905190_2024-06-06	6510_hu	Verstoring	strooisellaag	b	1	1
+905190_2024-06-06	6510_hu	Verstoring	verbossing	b	1	1
+905190_2024-06-06	6510_hu	Verstoring	verbraming	b	1	1
+905190_2024-06-06	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	0	-0.04
+905190_2024-06-06	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	1	0.8667
+905190_2024-06-06	6510_hu	Structuur	verticale structuur	b	0	-1
 905382_2015-06-11	6410_mo	Vegetatie	bedekking sleutelsoorten	b	0	-0.3139
 905382_2015-06-11	6410_mo	Verstoring	eutrofiëring	zb	1	0.9
 905382_2015-06-11	6410_mo	Structuur	levensvormen	b	0	-0.801

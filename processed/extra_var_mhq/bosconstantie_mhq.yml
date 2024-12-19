@@ -5,12 +5,14 @@
   sorting:
   - plot_id
   - date_assessment
-  hash: 142e4662e25af50af2456e2bfa02453e7a170a31
-  data_hash: 2841c16e2a718220eb393f7e411108f74b12334e
+  hash: 155162b910bf1200b5c7902bd5b7159b8d7ed28f
+  data_hash: 2ff5a4118b8ac3867fd099d591957a049ad34e35
 plot_id:
-  class: numeric
+  class: character
 date_assessment:
   class: Date
   origin: '1970-01-01'
 blk:
+  class: character
+recording_givid:
   class: character

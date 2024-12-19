@@ -12,13 +12,13 @@ Versie 3	Vlaanderen	c_1	2015	2021	3	49	Binnen & Buiten	6230_hnk	1	100	NA	NA
 Versie 3	Vlaanderen	c_1	2015	2018	1	54	Binnen & Buiten	6410_mo	33	15.31	6.06	33.63
 Versie 3	Vlaanderen	c_1	2015	2018	2	54	Binnen	6410_mo	27	14.81	5.36	34.81
 Versie 3	Vlaanderen	c_1	2015	2018	2	54	Buiten	6410_mo	6	16.67	2.03	65.91
-Versie 3	Vlaanderen	c_1	2014	2018	1	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	41	3.36	0.92	11.49
-Versie 3	Vlaanderen	c_1	2014	2018	2	62	Binnen	6510_hus; 6510_hu; 6510_huk	28	12.72	3.71	35.52
-Versie 3	Vlaanderen	c_1	2014	2018	2	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	13	0.73	0.08	6.52
-Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_hu	21	2.56	0.49	12.25
+Versie 3	Vlaanderen	c_1	2014	2018	1	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	56	27.2	8.5	60.06
+Versie 3	Vlaanderen	c_1	2014	2018	2	62	Binnen	6510_hus; 6510_hu; 6510_huk	40	16.57	6.46	36.37
+Versie 3	Vlaanderen	c_1	2014	2018	2	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	16	30.19	7.64	69.34
+Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_hu	26	29.35	8.58	64.76
 Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_hua	5	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_huk	6	33.95	7.98	75.27
-Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_hus	9	0	0	0
+Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_huk	12	33.33	12.23	64.21
+Versie 3	Vlaanderen	c_1	2014	2018	3	62	Binnen & Buiten	6510_hus	13	6.08	0.76	35.2
 Versie 3	Vlaanderen	c_1	2015	2019	1	78	Binnen & Buiten	7140_meso; 7140_oli	26	19.3	7.68	40.74
 Versie 3	Vlaanderen	c_1	2015	2019	2	78	Binnen	7140_meso; 7140_oli	24	20.94	8.33	43.54
 Versie 3	Vlaanderen	c_1	2015	2019	2	78	Buiten	7140_meso	2	0	NA	NA
@@ -37,13 +37,13 @@ Versie 3	Vlaanderen	c_2	2022	2024	3	49	Binnen & Buiten	6230_hnk	1	100	NA	NA
 Versie 3	Vlaanderen	c_2	2022	2024	1	54	Binnen & Buiten	6410_mo	33	13.55	5.41	30.05
 Versie 3	Vlaanderen	c_2	2022	2024	2	54	Binnen	6410_mo	27	18.52	7.53	38.81
 Versie 3	Vlaanderen	c_2	2022	2024	2	54	Buiten	6410_mo	6	0	0	0
-Versie 3	Vlaanderen	c_2	2020	2023	1	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	41	14.08	5.75	30.56
-Versie 3	Vlaanderen	c_2	2020	2023	2	62	Binnen	6510_hu; 6510_hus; 6510_huk	28	45.11	26.46	65.25
-Versie 3	Vlaanderen	c_2	2020	2023	2	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	13	5.36	1.37	18.82
-Versie 3	Vlaanderen	c_2	2020	2023	3	62	Binnen & Buiten	6510_hu	25	10.36	3.67	25.92
-Versie 3	Vlaanderen	c_2	2020	2023	3	62	Binnen & Buiten	6510_hua	7	42.86	13.54	78.23
-Versie 3	Vlaanderen	c_2	2020	2023	3	62	Binnen & Buiten	6510_huk	4	57.19	NA	NA
-Versie 3	Vlaanderen	c_2	2020	2023	3	62	Binnen & Buiten	6510_hus	5	0	0	0
+Versie 3	Vlaanderen	c_2	2020	2024	1	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	56	36.94	15.2	65.68
+Versie 3	Vlaanderen	c_2	2020	2024	2	62	Binnen	6510_hu; 6510_hus; 6510_huk	40	43.61	27.56	61.13
+Versie 3	Vlaanderen	c_2	2020	2024	2	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	16	35.06	10.44	71.45
+Versie 3	Vlaanderen	c_2	2020	2024	3	62	Binnen & Buiten	6510_hu	33	35.75	12.69	68.05
+Versie 3	Vlaanderen	c_2	2020	2024	3	62	Binnen & Buiten	6510_hua	7	42.86	13.77	77.88
+Versie 3	Vlaanderen	c_2	2020	2024	3	62	Binnen & Buiten	6510_huk	9	63.31	30.01	87.41
+Versie 3	Vlaanderen	c_2	2020	2024	3	62	Binnen & Buiten	6510_hus	7	11.14	1.32	53.95
 Versie 3	Vlaanderen	c_2	2022	2024	1	78	Binnen & Buiten	7140_meso; 7140_oli	26	33.88	17.61	55.12
 Versie 3	Vlaanderen	c_2	2022	2024	2	78	Binnen	7140_meso; 7140_oli	24	32.51	16.09	54.76
 Versie 3	Vlaanderen	c_2	2022	2024	2	78	Buiten	7140_meso	2	50	NA	NA
