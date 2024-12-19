@@ -207,10 +207,14 @@ resultaat <- berekenLSVIbasis(
 
 Warning messages:
 1: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken, ConnectieLSVIhabitats,  :
+  Volgende soortnamen zijn niet teruggevonden in de databank: Drepanocladus aduncus (Hedw.) Warnst..  Check de spelling en/of laat de auteursnaam weg bij genera.
+--> soort extra genoteerd als overige soort; geen probleem, wordt niet gebruikt in LSVI-bepaling
+  
+2: In invoercontroleData_soortenKenmerken(Data_soortenKenmerken, ConnectieLSVIhabitats,  :
   Bij Data_soortenKenmerken is niet voor alle soorten de kolom Vegetatielaag ingevuld
   --> Vegetatielaag niet ingevuld; geen probleem, wordt niet gebruikt in LSVI-bepaling
 
-2: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
+3: In berekenLSVIbasis(Versie = "Versie 3", Kwaliteitsniveau = "1",  :
   Volgende records uit Data_voorwaarden kunnen niet gekoppeld worden aan indicatoren uit de databank omdat de criterium-indicator-voorwaarde-combinatie niet voorkomt bij de LSVI-regels van het opgegeven habitattype: 
   <IV2021110112004579, Structuur, verticale structuur, bedekking helofyten> 
     --> habitattype 3130n; opmerking te negeren; dit werd extra genoteerd  
@@ -224,10 +228,8 @@ Warning messages:
     --> ANTKAL0356_3160_24; opmerking te negeren; dit werd extra genoteerd
   <IV2024101413031672, Structuur, verticale structuur, bedekking helofyten> 
     --> LIMZNH0150_3130n_24; opmerking te negeren; dit werd extra genoteerd
-  <IV2024103013174404, Verstoring, verzuring, bedekking verzuring> 
-    --> LIMDPB0311_3150_24; opmerking te negeren; dit werd extra genoteerd
 
-3: There was 1 warning in `summarise()`.
+4: There was 1 warning in `summarise()`.
 ℹ In argument: `Index_min_criterium = min(.data$Verschilscore, na.rm = na.rm)`.
 ℹ In group 1646: `ID = "IV2024050817015004"`, `Habitattype = "2190_a"`, `Versie = "Versie 3"`, `Criterium = "Vegetatie"`, `Kwaliteitsniveau = 1`.
   --> dit is een opname die effectief geen soorten bevat
