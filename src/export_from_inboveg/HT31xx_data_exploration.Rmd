@@ -113,8 +113,8 @@ site_characteristics %>%
   coord_flip()
 ```
 
-te checken (to do: opvolgen):   
-- in klasse 2-4m één met kleinere maximale diepte (AN_DVH_001_3130n_18)  
+ter info:   
+- in klasse 2-4m één met kleinere maximale diepte (AN_DVH_001_3130n_18); diepteklasse winter = 2-4m; diepteklasse zomer is 0-2m  
 
 ### Secchi-diepte versus diepte Secchibepaling
 ```{r}
@@ -173,6 +173,8 @@ ggplot(summary_dataset, aes(x = ratio_NA, y = var)) +
 
 conclusie:  
 - % sleutelsoorten niet altijd ingevuld (maar niet nodig voor LSVI-berekening)  
+- Vgras, Vzuur, EutSS bij 3160/3130 niet altijd ingevuld (dit was nodig voor berekening LSVI versie 2 & wordt sinds 2024 niet meer op het veld genoteerd)
+- een aantal kenmerken exrta genoteerd bij bepaalde habitattypen; maar deze zijn niet relevant voor de LSVI-berekening (Isoet bij 3130_aom, OverS bij 3150, Helo bij 3130_na, ...) 
 - maximale diepte niet overal genoteerd (maar is niet nodig voor LSVI-berekening)  
 - ter info: verticale structuur zit bij 3130 na niet bij 'verst' --> zit bij HabVl!  
 
@@ -217,7 +219,8 @@ vegetation %>%
 ```
 
 ### check: voor habitattype 3160
-Zijn zowel "Vzuur", "VZuSS","Eutro" als "EutSS" ingevuld?
+Zijn zowel "Vzuur", "VZuSS","Eutro" als "EutSS" ingevuld?  
+Is voor alle opnames steeds Eutro en VZuSS ingevuld (nodig voor LSVI versie 3)?
 ```{r}
 header_3160 <- header %>% 
   filter(type_observed == "3160")
@@ -226,7 +229,17 @@ verstoring_3160 <- site_characteristics %>%
   semi_join(header_3160, by = "user_reference") %>% 
   filter(var_code %in% c("Vzuur", "VZuSS","Eutro", "EutSS")) %>% 
   select(user_reference, var_code, value) %>% 
-  spread(var_code, value)  
+  spread(var_code, value) %>% 
+  mutate(Vzuur = ifelse(Vzuur == "0-x-1", 0.5, as.numeric(Vzuur)),
+         VZuSS = ifelse(VZuSS == "0-x-1", 0.5, as.numeric(VZuSS)),
+         Eutro = ifelse(Eutro == "0-x-1", 0.5, as.numeric(Eutro)),
+         EutSS = ifelse(EutSS == "0-x-1", 0.5, as.numeric(EutSS)),
+         Vzuur_fout = ifelse(Vzuur < VZuSS, TRUE, FALSE),
+         Eutro_fout = ifelse(Eutro < EutSS, TRUE, FALSE))
+
+verstoring_3160 %>% 
+  filter(is.na(Eutro)|is.na(VZuSS))
+# ANTKAL0385_3160_24 VZuSS ontbreekt
 ```
 
 ```{r}
@@ -236,6 +249,5 @@ verstoring_3160 %>%
   scroll_box(height = "800px")
 ```
 
---> NA bij LIMHHE0002_3160_2023, LI_HEU_001_3160_15, LI_TEU_002_3160_14, LI_ZPB_001_3160_20 (to do: opvolgen)  
 --> check: EutrSS < Eutro --> is ok   
 --> check: VZuSS < Vzuur --> is ok  
