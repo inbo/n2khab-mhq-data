@@ -78,8 +78,24 @@ path <- fileman_up("n2khab-mhq-data")
 coordinates_moneos_91E0_sf <- read_csv2(file.path(path, "raw/coordinates_inbo/CoordinatenExtraPQ_LSVI_91E0_2025-01-07.csv")) %>%
   select(plot_id = "PQ-nummer", plot_pl = PQpl, x = LamX, y = LamY, grts_ranking = Ranking) %>%
   filter(!is.na(plot_id)) %>%
-  arrange(plot_id)
+  arrange(plot_id) %>%
+  filter(str_detect(plot_pl, "a"))
 
+# for some pq's coordinates are missing --> use origonal coordiantes of sampling units based on ranking
+refpoints <- read_vc(root = file.path(fileman_up("n2khab-sample-admin"), "data/mhq_terr/"), file = "mhq_terr_refpoints")
+
+coords_orig <- refpoints %>%
+  select(grts_ranking, x, y)
+
+coordinates_moneos_91E0_sf_add <- coordinates_moneos_91E0_sf %>%
+  filter(is.na(x)) %>%
+  select(-x, -y) %>%
+  left_join(coords_orig, by = "grts_ranking")
+
+coordinates_moneos_91E0_sf <- coordinates_moneos_91E0_sf %>%
+  filter(!is.na(x)) %>%
+  bind_rows(coordinates_moneos_91E0_sf_add)
+  
 coordinates_moneos_1330_da <- read_csv2(file.path(path, "raw/coordinates_inbo/coördinaten_1330_da.csv")) %>%
   select(plot_id = id,  x_mean = Lambert_X_mean, y_mean = Lambert_Y_mean, x_l = Lambert_X_l, y_l = Lambert_Y_l, x_r = Lambert_X_r, y_r = Lambert_Y_r) %>%
   arrange(plot_id)
