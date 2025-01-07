@@ -75,7 +75,7 @@ For now we store a csv-file with coordinates in [this google drive folder](https
 
 path <- fileman_up("n2khab-mhq-data")
 
-coordinates_moneos_91E0_sf <- read_csv2(file.path(path, "raw/coordinates_inbo/CoordinatenExtraPQ_LSVI_91E0_2023-12-07.csv")) %>%
+coordinates_moneos_91E0_sf <- read_csv2(file.path(path, "raw/coordinates_inbo/CoordinatenExtraPQ_LSVI_91E0_2025-01-07.csv")) %>%
   select(plot_id = "PQ-nummer", plot_pl = PQpl, x = LamX, y = LamY, grts_ranking = Ranking) %>%
   filter(!is.na(plot_id)) %>%
   arrange(plot_id)
