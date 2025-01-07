@@ -2005,6 +2005,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121010562649	BV21/050	grkl1	groeiklasse 1	15	B
 N2000meetnet_Bos_91E0_sf	IV2021121010562649	BV21/050	grkl2	groeiklasse 2	0.5	ZS
 N2000meetnet_Bos_91E0_sf	IV2021121010562649	BV21/050	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2021121010562649	BV21/050	grkl5	groeiklasse 5	37.5	KB
+N2000meetnet_Bos_91E0_sf	IV2021121010562649	BV21/050	of	overstromingsregime	29	29
 N2000meetnet_Bos_91E0_sf	IV2021121010562649	BV21/050	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	calpa	bedekking caltha palustris	1	r1
@@ -2014,6 +2015,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	grkl5	groeiklasse 5	15	B
 N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	grkl7	groeiklasse 7	0.5	ZS
 N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	dodik	hoeveelheid dik dood hout	0	4
+N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	of	overstromingsregime	47	47
 N2000meetnet_Bos_91E0_sf	IV2021121012021172	BV21/053	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	caram	bedekking cardamine amara	1	p1
@@ -2021,10 +2023,12 @@ N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	grkl4	groeiklasse 4	1.5	WT
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	grkl5	groeiklasse 5	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	grkl6	groeiklasse 6	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	dodik	hoeveelheid dik dood hout	0	3
+N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	of	overstromingsregime	20	20
 N2000meetnet_Bos_91E0_sf	IV2021121012265816	BV21/054	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	grkl4	groeiklasse 4	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	grkl5	groeiklasse 5	37.5	KB
+N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	of	overstromingsregime	28	28
 N2000meetnet_Bos_91E0_sf	IV2021121013463152	BV21/055	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2021121013573179	BV21/056	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2021121013573179	BV21/056	grkl2	groeiklasse 2	1.5	WT
@@ -2035,6 +2039,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121013573179	BV21/056	ssbs	sleutelsoorten boom- e
 N2000meetnet_Bos_91E0_sf	IV2021121014112438	BV21/057	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2021121014112438	BV21/057	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2021121014112438	BV21/057	grkl5	groeiklasse 5	37.5	KB
+N2000meetnet_Bos_91E0_sf	IV2021121014112438	BV21/057	of	overstromingsregime	27	27
 N2000meetnet_Bos_91E0_sf	IV2021121014112438	BV21/057	ssbs	sleutelsoorten boom- en struiklaag	70	70
 N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	grkl1	groeiklasse 1	15	B
@@ -2042,6 +2047,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	grkl3	groeiklasse 3	1	S
 N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	grkl5	groeiklasse 5	15	B
 N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	dodik	hoeveelheid dik dood hout	0	0
+N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	of	overstromingsregime	41	41
 N2000meetnet_Bos_91E0_sf	IV2021121014201006	BV21/058	ssbs	sleutelsoorten boom- en struiklaag	90	90
 N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	doho	aandeel dood hout	0	0
 N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	calpa	bedekking caltha palustris	1	p1
@@ -2049,6 +2055,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	caram	bedekking cardamine a
 N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	grkl2	groeiklasse 2	1.5	WT
 N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	grkl4	groeiklasse 4	87.5	D
 N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	dodik	hoeveelheid dik dood hout	0	0
+N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	of	overstromingsregime	25	25
 N2000meetnet_Bos_91E0_sf	IV2021121014550732	BV21/059	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	calpa	bedekking caltha palustris	1	p1
@@ -2057,6 +2064,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	grkl2	groeiklasse 2	1.5	WT
 N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	grkl4	groeiklasse 4	15	B
 N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	grkl5	groeiklasse 5	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	dodik	hoeveelheid dik dood hout	0	0
+N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	of	overstromingsregime	30	30
 N2000meetnet_Bos_91E0_sf	IV2021121015095749	BV21/060	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	caram	bedekking cardamine amara	1	r1
@@ -2064,6 +2072,7 @@ N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	grkl3	groeiklasse 3	1.5	WT
 N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	grkl4	groeiklasse 4	87.5	D
 N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	grkl5	groeiklasse 5	15	B
 N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	dodik	hoeveelheid dik dood hout	0	0
+N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	of	overstromingsregime	26	26
 N2000meetnet_Bos_91E0_sf	IV2021121015355696	BV21/061	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Duinen_BHM	IV2022022620200442	11375793	bos	verbossing	1	1
 N2000meetnet_Duinen_BHM	IV2022022621455747	10327217	bos	verbossing	11	11
@@ -2492,6 +2501,7 @@ N2000meetnet_Bos_91E0_sf	IV2022092214172685	BV22/085	klvoo	bedekking kruidlaag (
 N2000meetnet_Bos_91E0_sf	IV2022092214172685	BV22/085	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092214172685	BV22/085	grkl5	groeiklasse 5	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092214172685	BV22/085	dodik	hoeveelheid dik dood hout	0	3
+N2000meetnet_Bos_91E0_sf	IV2022092214172685	BV22/085	of	overstromingsregime	22	22
 N2000meetnet_Bos_91E0_sf	IV2022092214172685	BV22/085	ssbs	sleutelsoorten boom- en struiklaag	60	60
 N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	caram	bedekking cardamine amara	1	p1
@@ -2501,6 +2511,7 @@ N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	grkl2	groeiklasse 2	0.5	ZS
 N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	grkl4	groeiklasse 4	15	B
 N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	grkl5	groeiklasse 5	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	dodik	hoeveelheid dik dood hout	0	1
+N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	of	overstromingsregime	25	25
 N2000meetnet_Bos_91E0_sf	IV2022092214294369	BV22/086	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	calpa	bedekking caltha palustris	1	r1
@@ -2510,24 +2521,28 @@ N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	grkl1	groeiklasse 1	15	B
 N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	grkl2	groeiklasse 2	1	S
 N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	grkl5	groeiklasse 5	37.5	KB
+N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	of	overstromingsregime	41	41
 N2000meetnet_Bos_91E0_sf	IV2022092214380635	BV22/087	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	klvoo	bedekking kruidlaag (voorjaar)	80	80
 N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	grkl2	groeiklasse 2	1	S
 N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	grkl4	groeiklasse 4	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	grkl5	groeiklasse 5	37.5	KB
+N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	of	overstromingsregime	21	21
 N2000meetnet_Bos_91E0_sf	IV2022092214433481	BV22/088	ssbs	sleutelsoorten boom- en struiklaag	90	90
 N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	calpa	bedekking caltha palustris	1	p1
 N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	klvoo	bedekking kruidlaag (voorjaar)	30	30
 N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	grkl4	groeiklasse 4	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	grkl5	groeiklasse 5	37.5	KB
+N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	of	overstromingsregime	32	32
 N2000meetnet_Bos_91E0_sf	IV2022092214481900	BV22/089	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	caram	bedekking cardamine amara	2	a2
 N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	klvoo	bedekking kruidlaag (voorjaar)	80	80
 N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	grkl4	groeiklasse 4	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	grkl5	groeiklasse 5	15	B
+N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	of	overstromingsregime	28	28
 N2000meetnet_Bos_91E0_sf	IV2022092214541032	BV22/090	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	caram	bedekking cardamine amara	1	r1
@@ -2535,6 +2550,7 @@ N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	klvoo	bedekking kruidlaag (
 N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	grkl5	groeiklasse 5	15	B
 N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	dodik	hoeveelheid dik dood hout	0	1
+N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	of	overstromingsregime	31	31
 N2000meetnet_Bos_91E0_sf	IV2022092215014232	BV22/091	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	klvoo	bedekking kruidlaag (voorjaar)	85	85
@@ -2543,6 +2559,7 @@ N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	grkl2	groeiklasse 2	1	S
 N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	grkl5	groeiklasse 5	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	dodik	hoeveelheid dik dood hout	0	1
+N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	of	overstromingsregime	21	21
 N2000meetnet_Bos_91E0_sf	IV2022092215103643	BV22/092	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	klvoo	bedekking kruidlaag (voorjaar)	90	90
@@ -2550,6 +2567,7 @@ N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	grkl2	groeiklasse 2	1.5	WT
 N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	grkl4	groeiklasse 4	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	grkl5	groeiklasse 5	15	B
 N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	dodik	hoeveelheid dik dood hout	0	3
+N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	of	overstromingsregime	34	34
 N2000meetnet_Bos_91E0_sf	IV2022092215204159	BV22/093	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	doho	aandeel dood hout	3	3
 N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	caram	bedekking cardamine amara	2	a2
@@ -2560,6 +2578,7 @@ N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	grkl4	groeiklasse 4	15	B
 N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	grkl5	groeiklasse 5	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	grkl6	groeiklasse 6	15	B
 N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	grkl7	groeiklasse 7	15	B
+N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	of	overstromingsregime	28	28
 N2000meetnet_Bos_91E0_sf	IV2022092215375594	BV22/094	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Duinen_BHM	IV2022092720513272	923569	clima	climax_2160	62.5	HB
 N2000meetnet_Duinen_BHM	IV2022092720513272	923569	degne	degeneratie_2160	0.1	ZSR
@@ -2931,6 +2950,7 @@ N2000meetnet_Bos_91E0_sf	IV2023082314042047	BV23/034	doho	aandeel dood hout	0	0
 N2000meetnet_Bos_91E0_sf	IV2023082314042047	BV23/034	klvoo	bedekking kruidlaag (voorjaar)	80	80
 N2000meetnet_Bos_91E0_sf	IV2023082314042047	BV23/034	grkl4	groeiklasse 4	87.5	D
 N2000meetnet_Bos_91E0_sf	IV2023082314042047	BV23/034	grkl5	groeiklasse 5	1	S
+N2000meetnet_Bos_91E0_sf	IV2023082314042047	BV23/034	of	overstromingsregime	21	21
 N2000meetnet_Bos_91E0_sf	IV2023082314042047	BV23/034	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000_Duinen_fieldapp	IV2023090510334887	10219313	bos	verbossing	0	0
 N2000_Duinen_fieldapp	IV2023090510335160	1013937	bos	verbossing	3	3
@@ -3150,6 +3170,7 @@ N2000meetnet_Bos_91E0_sf	IV2024042613154169	BV23/035	klvoo	bedekking kruidlaag (
 N2000meetnet_Bos_91E0_sf	IV2024042613154169	BV23/035	grkl2	groeiklasse 2	1	S
 N2000meetnet_Bos_91E0_sf	IV2024042613154169	BV23/035	grkl4	groeiklasse 4	62.5	HB
 N2000meetnet_Bos_91E0_sf	IV2024042613154169	BV23/035	grkl5	groeiklasse 5	0.5	ZS
+N2000meetnet_Bos_91E0_sf	IV2024042613154169	BV23/035	of	overstromingsregime	34	34
 N2000meetnet_Bos_91E0_sf	IV2024042613154169	BV23/035	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	caram	bedekking cardamine amara	2	a2
@@ -3157,6 +3178,7 @@ N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	klvoo	bedekking kruidlaag (
 N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	grkl2	groeiklasse 2	1	S
 N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	grkl4	groeiklasse 4	87.5	D
 N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	grkl5	groeiklasse 5	0.5	ZS
+N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	of	overstromingsregime	41	41
 N2000meetnet_Bos_91E0_sf	IV2024042614002207	BV23/036	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	caram	bedekking cardamine amara	1	a1
@@ -3167,6 +3189,7 @@ N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	grkl4	groeiklasse 4	15	B
 N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	grkl5	groeiklasse 5	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	grkl6	groeiklasse 6	15	B
 N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	dodik	hoeveelheid dik dood hout	0	2
+N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	of	overstromingsregime	36	36
 N2000meetnet_Bos_91E0_sf	IV2024042614393033	BV23/037	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	caram	bedekking cardamine amara	1	p1
@@ -3175,6 +3198,7 @@ N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	grkl1	groeiklasse 1	15	B
 N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	grkl4	groeiklasse 4	37.5	KB
 N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	grkl5	groeiklasse 5	15	B
 N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	dodik	hoeveelheid dik dood hout	0	3
+N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	of	overstromingsregime	28	28
 N2000meetnet_Bos_91E0_sf	IV2024042615355001	BV23/038	ssbs	sleutelsoorten boom- en struiklaag	100	100
 N2000meetnet_Bos_91E0_sf	IV2024042616023224	BV23/039	doho	aandeel dood hout	4	4
 N2000meetnet_Bos_91E0_sf	IV2024042616023224	BV23/039	klvoo	bedekking kruidlaag (voorjaar)	10	10
