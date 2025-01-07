@@ -3,11 +3,11 @@
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: a9d6801fd96a0aa92f4fa6f87a1be1ca523d5cc0
-  data_hash: ab860004cdb2850e17b8684332cbce33dd8c603d
+  hash: 9c4bc7337296bbbf78c59769435c6e37ee0f4b63
+  data_hash: e0c86a350feddec9cfd1d68ac611578748aba9d6
 plot_id:
   class: character
-blk:
-  class: character
 bosconstantie:
+  class: numeric
+jaar_bos:
   class: numeric

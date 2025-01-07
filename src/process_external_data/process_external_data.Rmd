@@ -35,6 +35,8 @@ bosconstantie <- st_read(dsn = file.path(data_path_gis, "bosconstantie"), layer 
   select(blk = BLK) %>%
   st_transform(crs = 31370)
 
+bosconstantie_91E0_sf <- read_csv2(file.path(data_path_gis, "bosconstantie/bosconstantie_91E0_sf_20241216.csv"))
+
 msa_clusters <- read_csv2(file.path(data_path_gis, "msa/clusters_msa_v2023.csv"))
 
 msa_type <- read_csv2(file.path(data_path_gis, "msa/msa_v2023.csv"))
@@ -53,18 +55,14 @@ path <- fileman_up("n2khab-mhq-data")
 coordinates_moneos_91E0_sf <- read_vc(file = "coordinates_moneos_91E0_sf",
                                       root = data_path_processed)
 
-plot_91E0_sf_bosconstantie <- coordinates_moneos_91E0_sf %>%
-  filter(str_detect(plot_pl, "a")) %>%
-  select(plot_id, x, y) %>%
-    filter(!is.na(x)) %>%
-    st_as_sf(coords = c("x", "y"), crs = 31370) %>%
-  st_join(bosconstantie) %>%
-  st_drop_geometry() %>%
-  mutate(bosconstantie = ifelse(blk %in% c("Bos ontstaan voor 1775", "Bos ontstaan tussen 1775 en 1850"), 101,
-                                  ifelse(blk %in% c("Bos ontstaan tussen 1850 en +/- 1930"), 81, NA)))
-    
+plot_91E0_sf_bosconstantie <- bosconstantie_91E0_sf %>%
+  select(plot_id, jaar_bos = bosconstantie) %>%
+  mutate(bosconstantie = 2025 - jaar_bos + 2)
+
+msa_type_91E0_sf <- msa_type %>%
+  filter(type == "91E0_sf")
+
 plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
-  filter(str_detect(plot_pl, "a")) %>%
   select(plot_id, x, y) %>%
     filter(!is.na(x)) %>%
     st_as_sf(coords = c("x", "y"), crs = 31370) %>%
@@ -72,9 +70,9 @@ plot_91E0_sf_msa <- coordinates_moneos_91E0_sf %>%
   st_drop_geometry() %>%
   select(plot_id, polygon_id) %>%
   left_join(msa_clusters, by = "polygon_id") %>%
-  left_join(msa_type, by = "cluster_id") %>%
-  unique() %>%
-  select(plot_id, msa_area_ha)
+  left_join(msa_type_91E0_sf, by = "cluster_id") %>%
+  select(plot_id, msa_area_ha) %>%
+  unique()
 
 ```
 
@@ -180,7 +178,7 @@ if (!dir.exists(path)) {
     
 }
 
-write_vc(plot_91E0_sf_bosconstantie, "bosconstantie_91E0_sf", root = path, sorting = c("plot_id"))
+write_vc(plot_91E0_sf_bosconstantie, "bosconstantie_91E0_sf", root = path, sorting = c("plot_id"), strict = FALSE)
 write_vc(plot_91E0_sf_msa, "msa_91E0_sf", root = path, sorting = c("plot_id"), strict = FALSE)
 write_vc(mhq_bosconstantie, "bosconstantie_mhq", root = path, sorting = c("plot_id", "date_assessment"), strict = FALSE)
 write_vc(mhq_msa, "msa_mhq", root = path, sorting = c("plot_id", "date_assessment", "type"), strict = FALSE)
