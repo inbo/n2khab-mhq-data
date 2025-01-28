@@ -35,6 +35,12 @@ bosconstantie <- st_read(dsn = file.path(data_path_gis, "bosconstantie"), layer 
   select(blk = BLK) %>%
   st_transform(crs = 31370)
 
+check_bc <- bosconstantie %>%
+  st_drop_geometry() %>%
+  group_by(blk) %>%
+  summarise(n = n()) %>%
+  ungroup()
+
 bosconstantie_91E0_sf <- read_csv2(file.path(data_path_gis, "bosconstantie/bosconstantie_91E0_sf_20241216.csv"))
 
 msa_clusters <- read_csv2(file.path(data_path_gis, "msa/clusters_msa_v2023.csv"))
