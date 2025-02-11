@@ -1,0 +1,132 @@
+---
+title: "Data heide Groot Schietveld"
+output: html_document
+date: "2025-02-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(git2rdata)
+library(tidyverse)
+library(sf)
+library(n2khab)
+library(kableExtra)
+library(leaflet)
+```
+
+# Selectie opnames meetnet habitatkwaliteit
+
+Tabellen met een overzicht van de meetpunten en de opnames van het meetnet habitatkwaliteit zijn terug te vinden in de [n2khab-sample-admin]((https://github.com/inbo/n2khab-sample-admin/) repository.
+
+We maken een selectie van opnames met habitattypes 4010, 4030 en 7140_oli die in het Groot Schietveld gelegen zijn.
+
+```{r}
+path_admin <- file.path(fileman_up("n2khab-sample-admin"), "data/mhq_terr/rapportage2025" )
+
+#roi: region of interest
+path_roi <- file.path(fileman_up("n2khab-mhq-data"), "raw/roi/groot_schietveld")
+
+#overzicht opgemeten meetpunten 4010, 4030, 7140_oli
+type_select <- c("4010", "4030", "7140_oli")
+
+roi_select <- st_read(dsn = path_roi, "groot_schietveld") %>%
+  select(code_md = HOOFDCODE) %>%
+  st_transform(crs = 31370)
+
+#coördinaten
+mhq_refpoints <- read_vc(file = "mhq_terr_refpoints", root = path_admin)
+
+mhq_measurements <- read_vc(file = "mhq_terr_measurements", root = path_admin) 
+
+mhq_measurements_select <- mhq_measurements %>%
+  filter(type %in% type_select) %>%
+  mutate(link_mhq = ifelse(!is.na(user_reference), user_reference, db_ref)) %>%
+  left_join(mhq_refpoints, by = "point_code") %>%
+  st_as_sf(coords = c("x", "y"), crs = 31370, remove = FALSE) %>%
+  st_join(roi_select) %>%
+  filter(!is.na(code_md))
+  
+```
+
+```{r}
+roi_select %>%
+  st_transform(4326) %>%
+  leaflet() %>%
+  addTiles() %>%
+  addPolygons() %>%
+  addCircleMarkers(data = st_transform(mhq_measurements_select, crs = 4326), label = ~type)
+```
+
+# LSVI data
+
+```{r}
+path_lsvi <- file.path(fileman_up("n2khab-mhq-data"), "processed")
+
+```
+
+De berekende lsvi-indicatoren van de meetpunten van het meetnet habitatkwaliteit zijn terug te vinden in de [n2khab-mhq-data](https://github.com/inbo/n2khab-mhq-data/tree) repository.
+
+Door deze repo lokaal te clonen kan de data via onderstaande code ingelezen worden.
+
+De LSVI data bestaat uit 3 niveaus:
+
++ lsvi_detail: de waarde en de beoordeling van elke voorwaarde (een indicator bestaat meetstal uit 1, maar soms ook uit 2 voorwaarden)
++ lsvi_indicator: de beoordeling van elke indicator
++ lsvi_globaal: de beoordeling per meetpunt op basis van de beoordeling van de indicatoren
+
+```{r}
+lsvi_detail_gr_bm <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/grassland_marsh/result"),
+                             file = "lsvi_detail_gr_bm")
+
+lsvi_detail_hs <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/heath_inland_dunes/result"),
+                             file = "lsvi_detail_hs_id")
+
+lsvi_indicator_gr_bm <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/grassland_marsh/result"),
+                             file = "lsvi_indicator_gr_bm")
+
+lsvi_indicator_hs <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/heath_inland_dunes/result"),
+                             file = "lsvi_indicator_hs_id")
+
+lsvi_globaal_gr_bm <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/grassland_marsh/result"),
+                             file = "lsvi_globaal_gr_bm")
+
+lsvi_globaal_hs <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/heath_inland_dunes/result"),
+                             file = "lsvi_globaal_hs_id")
+
+mhq_measurements_select <- mhq_measurements_select %>%
+  st_drop_geometry() %>%
+  mutate(id = str_c(link_mhq, "_", measurement_date)) %>%
+  select(id, point_code, type, measurement_date, x, y,)
+
+lsvi_detail_select <- lsvi_detail_gr_bm %>%
+  bind_rows(lsvi_detail_hs) %>%
+  semi_join(mhq_measurements_select, by = "id")
+
+lsvi_indicator_select <- lsvi_indicator_gr_bm %>%
+  bind_rows(lsvi_indicator_hs) %>%
+  semi_join(mhq_measurements_select, by = "id")
+
+lsvi_globaal_select <- lsvi_globaal_gr_bm %>%
+  bind_rows(lsvi_globaal_hs) %>%
+  semi_join(mhq_measurements_select, by = "id")
+
+check <- mhq_measurements_select %>%
+  mutate(lsvi_data = id %in% lsvi_detail_select$id)
+
+```
+
+```{r}
+mhq_measurements_select %>%
+  write_csv2("../../output/data_groot_schietveld/mhq_measurements.csv")
+
+lsvi_detail_select %>%
+  write_csv2("../../output/data_groot_schietveld/lsvi_detail_select.csv")
+
+lsvi_indicator_select %>%
+  write_csv2("../../output/data_groot_schietveld/lsvi_indicator_select.csv")
+
+lsvi_globaal_select %>%
+  write_csv2("../../output/data_groot_schietveld/lsvi_globaal_select.csv")
+
+```
+
