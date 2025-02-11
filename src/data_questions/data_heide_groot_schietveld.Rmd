@@ -60,7 +60,7 @@ roi_select %>%
 # LSVI data
 
 ```{r}
-path_lsvi <- file.path(fileman_up("n2khab-mhq-data"), "processed")
+path_mhq <- file.path(fileman_up("n2khab-mhq-data"), "processed")
 
 ```
 
@@ -75,22 +75,22 @@ De LSVI data bestaat uit 3 niveaus:
 + lsvi_globaal: de beoordeling per meetpunt op basis van de beoordeling van de indicatoren
 
 ```{r}
-lsvi_detail_gr_bm <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/grassland_marsh/result"),
+lsvi_detail_gr_bm <- read_vc(root = file.path(path_mhq, "lsvi_mhq/grassland_marsh/result"),
                              file = "lsvi_detail_gr_bm")
 
-lsvi_detail_hs <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/heath_inland_dunes/result"),
+lsvi_detail_hs <- read_vc(root = file.path(path_mhq, "lsvi_mhq/heath_inland_dunes/result"),
                              file = "lsvi_detail_hs_id")
 
-lsvi_indicator_gr_bm <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/grassland_marsh/result"),
+lsvi_indicator_gr_bm <- read_vc(root = file.path(path_mhq, "lsvi_mhq/grassland_marsh/result"),
                              file = "lsvi_indicator_gr_bm")
 
-lsvi_indicator_hs <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/heath_inland_dunes/result"),
+lsvi_indicator_hs <- read_vc(root = file.path(path_mhq, "lsvi_mhq/heath_inland_dunes/result"),
                              file = "lsvi_indicator_hs_id")
 
-lsvi_globaal_gr_bm <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/grassland_marsh/result"),
+lsvi_globaal_gr_bm <- read_vc(root = file.path(path_mhq, "lsvi_mhq/grassland_marsh/result"),
                              file = "lsvi_globaal_gr_bm")
 
-lsvi_globaal_hs <- read_vc(root = file.path(path_lsvi, "lsvi_mhq/heath_inland_dunes/result"),
+lsvi_globaal_hs <- read_vc(root = file.path(path_mhq, "lsvi_mhq/heath_inland_dunes/result"),
                              file = "lsvi_globaal_hs_id")
 
 mhq_measurements_select <- mhq_measurements_select %>%
@@ -128,5 +128,48 @@ lsvi_indicator_select %>%
 lsvi_globaal_select %>%
   write_csv2("../../output/data_groot_schietveld/lsvi_globaal_select.csv")
 
+```
+
+# Ruwe data
+
+De [n2khab-mhq-data](https://github.com/inbo/n2khab-mhq-data/tree) repository bevat ook de ruwe meetgegevens van ANB die geëxporteerd werden uit Fieldmap.
+
+```{r}
+
+#anb
+cover_species_anb <- read_vc(root = file.path(path_mhq, "fieldmap_mhq"),
+                         file = "cover_species")
+
+cover_species_select <- cover_species_anb %>%
+  mutate(id = str_c(plot_id, "_", date_assessment)) %>%
+  semi_join(mhq_measurements_select, by = "id")
+
+structure_vars_anb <- read_vc(root = file.path(path_mhq, "fieldmap_mhq"),
+                         file = "structure_vars")
+
+structure_vars_select <- structure_vars_anb %>%
+  mutate(id = str_c(plot_id, "_", date_assessment)) %>%
+  semi_join(mhq_measurements_select, by = "id")
+
+cover_veglayers_anb <- read_vc(root = file.path(path_mhq, "fieldmap_mhq"),
+                         file = "cover_veglayers")
+
+cover_veglayers_select <- cover_veglayers_anb %>%
+  mutate(id = str_c(plot_id, "_", date_assessment)) %>%
+  semi_join(mhq_measurements_select, by = "id")
+
+check <- mhq_measurements_select %>%
+  mutate(raw_data = id %in% cover_species_select$id)
+```
+
+```{r}
+cover_species_select %>%
+  write_csv2("../../output/data_groot_schietveld/cover_species_select.csv")
+
+structure_vars_select %>%
+  write_csv2("../../output/data_groot_schietveld/structure_vars_select.csv")
+
+cover_veglayers_select %>%
+  write_csv2("../../output/data_groot_schietveld/cover_veglayers_select.csv")
 ```
 
