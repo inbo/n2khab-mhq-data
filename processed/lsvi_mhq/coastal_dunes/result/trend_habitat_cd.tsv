@@ -1,11 +1,29 @@
-versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci
-Versie 3	Vlaanderen	c_1	2018	2019	1	12	Binnen & Buiten	2120	19	45.96	20.34	73.91
-Versie 3	Vlaanderen	c_1	2018	2019	2	12	Binnen	2120	18	33.33	14.47	59.64
-Versie 3	Vlaanderen	c_1	2018	2019	2	12	Buiten	2120	1	100	NA	NA
-Versie 3	Vlaanderen	c_1	2018	2019	1	13	Binnen & Buiten	2130_hd	15	73.33	42.93	90.95
-Versie 3	Vlaanderen	c_1	2018	2018	1	18	Binnen & Buiten	2170	6	50	9.12	90.88
-Versie 3	Vlaanderen	c_2	2023	2023	1	12	Binnen & Buiten	2120	19	36.95	13.14	69.42
-Versie 3	Vlaanderen	c_2	2023	2023	2	12	Binnen	2120	18	22.22	7.72	49.4
-Versie 3	Vlaanderen	c_2	2023	2023	2	12	Buiten	2120	1	100	NA	NA
-Versie 3	Vlaanderen	c_2	2023	2023	1	13	Binnen & Buiten	2130_hd	15	73.33	42.93	90.95
-Versie 3	Vlaanderen	c_2	2023	2023	1	18	Binnen & Buiten	2170	6	50	9.12	90.88
+versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	2120	Binnen & Buiten	NA	21	aandeel_gunstig	45.82	13.34	82.02	NA
+Versie 3	Vlaanderen	c_1	2018	2019	SBZH	2120	Binnen	NA	20	aandeel_gunstig	33.6	15.02	57.03	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitatsubtype	2130	Binnen & Buiten	2130_hd	17	aandeel_gunstig	83.77	56.89	98.43	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	2130	Binnen & Buiten	2130_hd;2130_had	18	aandeel_gunstig	66.02	28.34	91.96	NA
+Versie 3	Vlaanderen	c_1	2018	2019	SBZH	2130	Binnen	2130_hd;2130_had	18	aandeel_gunstig	65.12	26.36	91.44	NA
+Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	2170	Binnen & Buiten	NA	7	aandeel_gunstig	42.16	12.61	76.21	NA
+Versie 3	Vlaanderen	c_1	2018	2018	SBZH	2170	Binnen	NA	7	aandeel_gunstig	42.93	12.3	77.32	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	2120	Binnen & Buiten	NA	21	aandeel_gunstig	38.84	9.61	79.96	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	2120	Binnen & Buiten	NA	21	verschil_aandeel_gunstig_abs	-6.97	-52.92	46.96	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	2120	Binnen & Buiten	NA	21	verschil_aandeel_gunstig_rel	7.32	-80.64	276.53	10
+Versie 3	Vlaanderen	c_2	2023	2024	SBZH	2120	Binnen	NA	20	aandeel_gunstig	23.74	8.63	47.92	NA
+Versie 3	Vlaanderen	c_2	2023	2024	SBZH	2120	Binnen	NA	20	verschil_aandeel_gunstig_abs	-9.85	-36.92	18.96	10
+Versie 3	Vlaanderen	c_2	2023	2024	SBZH	2120	Binnen	NA	20	verschil_aandeel_gunstig_rel	-21.75	-75.51	91.5	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitatsubtype	2130	Binnen & Buiten	2130_hd	17	aandeel_gunstig	83.29	55.96	98.27	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitatsubtype	2130	Binnen & Buiten	2130_hd	17	verschil_aandeel_gunstig_abs	-0.48	-26.34	25.28	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitatsubtype	2130	Binnen & Buiten	2130_hd	17	verschil_aandeel_gunstig_rel	0.79	-30.51	41.89	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	2130	Binnen & Buiten	2130_hd;2130_had	18	aandeel_gunstig	65.9	29.43	92.1	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	2130	Binnen & Buiten	2130_hd;2130_had	18	verschil_aandeel_gunstig_abs	-0.12	-46.19	46	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	2130	Binnen & Buiten	2130_hd;2130_had	18	verschil_aandeel_gunstig_rel	8.56	-57.4	136.96	10
+Versie 3	Vlaanderen	c_2	2023	2024	SBZH	2130	Binnen	2130_hd;2130_had	18	aandeel_gunstig	65.69	28.15	91.79	NA
+Versie 3	Vlaanderen	c_2	2023	2024	SBZH	2130	Binnen	2130_hd;2130_had	18	verschil_aandeel_gunstig_abs	0.56	-47.04	45.66	10
+Versie 3	Vlaanderen	c_2	2023	2024	SBZH	2130	Binnen	2130_hd;2130_had	18	verschil_aandeel_gunstig_rel	11.22	-60.9	163.43	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	2170	Binnen & Buiten	NA	7	aandeel_gunstig	57.03	22.04	85.32	NA
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	2170	Binnen & Buiten	NA	7	verschil_aandeel_gunstig_abs	14.87	-35.76	58.35	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	2170	Binnen & Buiten	NA	7	verschil_aandeel_gunstig_rel	70.23	-55.74	382.68	10
+Versie 3	Vlaanderen	c_2	2023	2023	SBZH	2170	Binnen	NA	7	aandeel_gunstig	57.58	22.63	86.95	NA
+Versie 3	Vlaanderen	c_2	2023	2023	SBZH	2170	Binnen	NA	7	verschil_aandeel_gunstig_abs	14.65	-34.66	58.31	10
+Versie 3	Vlaanderen	c_2	2023	2023	SBZH	2170	Binnen	NA	7	verschil_aandeel_gunstig_rel	69.21	-55.1	383.3	10

@@ -1,0 +1,42 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - Habitattype
+  hash: 53b2c528ee3abe2294ecbda3eea1e794cc2e6c1e
+  data_hash: e319a122e0ad02977d096068fa25c5cba0ef8ba4
+ID:
+  class: character
+survey:
+  class: character
+record_id_square:
+  class: character
+record_id_circle:
+  class: character
+date:
+  class: Date
+  origin: '1970-01-01'
+type_observed:
+  class: character
+subtype_defined:
+  class: logical
+type_cover:
+  class: numeric
+type_cover_all:
+  class: character
+is_type_target:
+  class: logical
+is_maintype_target:
+  class: logical
+any_type_target:
+  class: logical
+n_type_target:
+  class: integer
+cover_target:
+  class: numeric
+Habitattype:
+  class: character
+link_mhq:
+  class: character

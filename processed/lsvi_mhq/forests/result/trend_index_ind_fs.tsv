@@ -1,0 +1,249 @@
+schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	klasse
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	-0.127507840393272	-0.46576033839112	0.210744657604576	10
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.174921915001046	-0.0620782711844252	0.411922101186516	8
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.022051823794029	-0.120387850169476	0.0762842025814179	9
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.147363823705206	-0.0154410293455971	0.31016867675601	8
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	0.0561071953141873	-0.186540240963735	0.298754631592109	10
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.616397235910853	0.0494878229659903	1.18330664885572	2
+Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	Structuur	verticale structuur	b	0	0	0	4
+Vlaanderen	sbzh	9110	Binnen	NA	Structuur	aandeel dood hout	b	-0.101	-0.543176	0.341176	10
+Vlaanderen	sbzh	9110	Binnen	NA	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	sbzh	9110	Binnen	NA	Structuur	horizontale structuur - groeiklassen	b	0.16665	-0.159984	0.493284	10
+Vlaanderen	sbzh	9110	Binnen	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	0	0	4
+Vlaanderen	sbzh	9110	Binnen	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9110	Binnen	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9110	Binnen	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.1636	-0.0398479999999999	0.367048	8
+Vlaanderen	sbzh	9110	Binnen	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	0.1095	0.0442320000000001	0.174768	2
+Vlaanderen	sbzh	9110	Binnen	NA	Verstoring	verruiging	zb	0.6003	-0.184288	1.384888	10
+Vlaanderen	sbzh	9110	Binnen	NA	Structuur	verticale structuur	b	0	0	0	4
+Vlaanderen	sbzh	9110	Buiten	NA	Structuur	aandeel dood hout	b	-0.3681	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Structuur	bosconstantie	zb	0	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.25	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.2222	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Structuur	minimum structuurareaal	zb	0	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.4285	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Verstoring	verruiging	zb	0.7625	NA	NA	NA
+Vlaanderen	sbzh	9110	Buiten	NA	Structuur	verticale structuur	b	0	NA	NA	NA
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	0.0918367704025338	-0.00442601940946227	0.18809956021453	8
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Structuur	bosconstantie	zb	0.00283078187883675	-0.000388212677113996	0.00604977643478749	4
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.0667472301161615	0.00455951386872424	0.128934946363599	2
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.01495121071345	-0.104750868160569	0.0748484467336695	9
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	-0.0123268680632025	-0.0346327655094034	0.00997902938299832	4
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0119330383323779	-0.053273381677659	0.0294073050129032	4
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0259784259835564	-0.0503804855769204	-0.00157636639019241	5
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.0168193387269445	-0.0766191468535122	0.110257824307401	8
+Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	Structuur	verticale structuur	b	0.104424794329236	-0.0250927933976431	0.233942382056116	8
+Vlaanderen	sbzh	9120	Binnen	NA	Structuur	aandeel dood hout	b	0.0683932203389831	-0.0630309870779785	0.199817427755945	8
+Vlaanderen	sbzh	9120	Binnen	NA	Structuur	bosconstantie	zb	0.00338983050847458	-0.0012675582286969	0.00804721924564605	4
+Vlaanderen	sbzh	9120	Binnen	NA	Structuur	horizontale structuur - groeiklassen	b	0.0197745762711864	-0.0623283727696365	0.101877525312009	8
+Vlaanderen	sbzh	9120	Binnen	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0166440677966102	-0.122037402131304	0.088749266538084	9
+Vlaanderen	sbzh	9120	Binnen	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9120	Binnen	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9120	Binnen	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.010735593220339	-0.0376606150965648	0.0591318015372428	4
+Vlaanderen	sbzh	9120	Binnen	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0482305084745763	-0.0812842677283056	-0.015176749220847	5
+Vlaanderen	sbzh	9120	Binnen	NA	Verstoring	verruiging	zb	-0.0300423728813559	-0.168796060490799	0.108711314728087	10
+Vlaanderen	sbzh	9120	Binnen	NA	Structuur	verticale structuur	b	0.209035593220339	0.0189137213075785	0.3991574651331	2
+Vlaanderen	sbzh	9120	Buiten	NA	Structuur	aandeel dood hout	b	0.115238636363636	-0.0281472825803616	0.258624555307634	8
+Vlaanderen	sbzh	9120	Buiten	NA	Structuur	bosconstantie	zb	0.00227272727272727	-0.00218181818181818	0.00672727272727273	4
+Vlaanderen	sbzh	9120	Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.113636363636364	0.0195215369849584	0.207751190287769	2
+Vlaanderen	sbzh	9120	Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0132613636363636	-0.165768279197075	0.139245551924347	10
+Vlaanderen	sbzh	9120	Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	-0.0246318181818182	-0.0729101818181818	0.0236465454545455	4
+Vlaanderen	sbzh	9120	Buiten	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9120	Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0345613636363636	-0.104230477208312	0.0351077499355846	9
+Vlaanderen	sbzh	9120	Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.00376590909090909	-0.0392985115503471	0.0317666933685289	4
+Vlaanderen	sbzh	9120	Buiten	NA	Verstoring	verruiging	zb	0.0635977272727273	-0.0591247850637164	0.186320239609171	8
+Vlaanderen	sbzh	9120	Buiten	NA	Structuur	verticale structuur	b	0	-0.169929342856782	0.169929342856782	10
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Structuur	aandeel dood hout	b	0.0958526709472183	-0.183685699462317	0.375391041356754	10
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Structuur	bosconstantie	zb	0.008096959825608	-0.00490138511694237	0.0210953047681584	4
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	-0.199809864086721	-0.402256606559496	0.00263687838605489	9
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0145766461212554	-0.153864289683705	0.124710997441194	10
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	0.0460556092901475	-0.0541348644675026	0.146246083047798	8
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0835488261926502	-0.370287120715258	0.203189468329958	10
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0370680602940368	-0.103573703441984	0.0294375828539107	9
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Verstoring	verruiging	zb	0.137860778169499	-0.127269339145582	0.40299089548458	10
+Vlaanderen	Habitatsubtype	9130	Binnen & Buiten	9130_end	Structuur	verticale structuur	b	0.0610397056327571	-0.0717475296168203	0.193826940882335	8
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	aandeel dood hout	b	0.0958526709472183	-0.183685699462317	0.375391041356754	10
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	bosconstantie	zb	0.008096959825608	-0.00490138511694237	0.0210953047681584	4
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	-0.199809864086721	-0.402256606559496	0.00263687838605489	9
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0145766461212554	-0.153864289683705	0.124710997441194	10
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	0.0460556092901475	-0.0541348644675026	0.146246083047798	8
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0835488261926502	-0.370287120715258	0.203189468329958	10
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0370680602940368	-0.103573703441984	0.0294375828539107	9
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	verruiging	zb	0.137860778169499	-0.127269339145582	0.40299089548458	10
+Vlaanderen	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	verticale structuur	b	0.0610397056327571	-0.0717475296168203	0.193826940882335	8
+Vlaanderen	sbzh	9130	Binnen	9130_end	Structuur	aandeel dood hout	b	0.147546153846154	-0.100411819236151	0.395504126928458	10
+Vlaanderen	sbzh	9130	Binnen	9130_end	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	sbzh	9130	Binnen	9130_end	Structuur	horizontale structuur - groeiklassen	b	-0.108976923076923	-0.320154185612397	0.102200339458551	10
+Vlaanderen	sbzh	9130	Binnen	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0244923076923077	-0.238699643703127	0.189715028318512	10
+Vlaanderen	sbzh	9130	Binnen	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	0.0773846153846154	-0.0742892307692308	0.229058461538462	8
+Vlaanderen	sbzh	9130	Binnen	9130_end	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9130	Binnen	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0882076923076923	-0.41350167825229	0.237086293636905	10
+Vlaanderen	sbzh	9130	Binnen	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0375769230769231	-0.127071099476926	0.0519172533230796	9
+Vlaanderen	sbzh	9130	Binnen	9130_end	Verstoring	verruiging	zb	0.0603	-0.164919628588948	0.285519628588948	10
+Vlaanderen	sbzh	9130	Binnen	9130_end	Structuur	verticale structuur	b	0.102561538461538	-0.0984590769230769	0.303582153846154	8
+Vlaanderen	sbzh	9130	Buiten	9130_end	Structuur	aandeel dood hout	b	0.01986	-0.712231772825893	0.751951772825893	10
+Vlaanderen	sbzh	9130	Buiten	9130_end	Structuur	bosconstantie	zb	0.02	-0.0192	0.0592	4
+Vlaanderen	sbzh	9130	Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	-0.33334	-0.783630775380709	0.116950775380709	10
+Vlaanderen	sbzh	9130	Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	0	0	4
+Vlaanderen	sbzh	9130	Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9130	Buiten	9130_end	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9130	Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0767	-0.703024972359876	0.549624972359877	10
+Vlaanderen	sbzh	9130	Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.03632	-0.140669328694726	0.0680293286947262	9
+Vlaanderen	sbzh	9130	Buiten	9130_end	Verstoring	verruiging	zb	0.25188	-0.447945308859747	0.951705308859747	10
+Vlaanderen	sbzh	9130	Buiten	9130_end	Structuur	verticale structuur	b	0	0	0	4
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	0.133682794638482	-0.0933800584336618	0.360745647710625	8
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.0666038173256474	-0.0194707140159296	0.152678348667224	8
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.161273195428825	0.0318264689032789	0.290719921954371	2
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	0.000388328271369981	-0.000247378926803266	0.00102403546954323	4
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.00569252460829622	-0.0686380300062407	0.0572529807896482	4
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0198949415103703	-0.117145168220159	0.0773552851994184	9
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Verstoring	verruiging	zb	-0.1529690522603	-0.362111740109618	0.0561736355890185	9
+Vlaanderen	Habitattype	9160	Binnen & Buiten	NA	Structuur	verticale structuur	b	-0.0115343982199353	-0.259383233540679	0.236314437100808	10
+Vlaanderen	sbzh	9160	Binnen	NA	Structuur	aandeel dood hout	b	0.0884823529411765	-0.230539029616748	0.407503735499101	10
+Vlaanderen	sbzh	9160	Binnen	NA	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	sbzh	9160	Binnen	NA	Structuur	horizontale structuur - groeiklassen	b	0.0882352941176471	-0.0141795367314769	0.190650124966771	8
+Vlaanderen	sbzh	9160	Binnen	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.0925764705882353	-0.0301107157363729	0.215263656912843	8
+Vlaanderen	sbzh	9160	Binnen	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9160	Binnen	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9160	Binnen	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.00210588235294117	-0.0757727634303862	0.0799845281362686	4
+Vlaanderen	sbzh	9160	Binnen	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0309058823529412	-0.173365803615805	0.111554038909923	10
+Vlaanderen	sbzh	9160	Binnen	NA	Verstoring	verruiging	zb	-0.192623529411765	-0.463802294241756	0.0785552354182265	9
+Vlaanderen	sbzh	9160	Binnen	NA	Structuur	verticale structuur	b	-0.0196117647058824	-0.273084621607187	0.233861092195422	10
+Vlaanderen	sbzh	9160	Buiten	NA	Structuur	aandeel dood hout	b	0.198228571428571	-0.0955599609639189	0.492017103821062	8
+Vlaanderen	sbzh	9160	Buiten	NA	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	sbzh	9160	Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.0357142857142857	-0.130919044285047	0.202347615713619	10
+Vlaanderen	sbzh	9160	Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.259371428571429	-0.0367513430036959	0.555494200146553	8
+Vlaanderen	sbzh	9160	Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9160	Buiten	NA	Structuur	minimum structuurareaal	zb	0.00094285714285715	-0.000905142857142864	0.00279085714285716	4
+Vlaanderen	sbzh	9160	Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0168285714285714	-0.133164183219057	0.0995070403619146	9
+Vlaanderen	sbzh	9160	Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.00417142857142859	-0.105195155659013	0.0968522985161555	9
+Vlaanderen	sbzh	9160	Buiten	NA	Verstoring	verruiging	zb	-0.0963428571428571	-0.446126079717449	0.253440365431735	10
+Vlaanderen	sbzh	9160	Buiten	NA	Structuur	verticale structuur	b	0	-0.570261829581231	0.570261829581231	10
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	0.248961931603032	0.0710480148206156	0.426875848385448	2
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Structuur	bosconstantie	zb	0.0100160948183183	0.000479991474377627	0.0195521981622589	3
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	-0.0108175384506126	-0.102431595346502	0.0807965184452766	9
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0529522429867416	-0.191625895412386	0.0857214094389027	9
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.103340600689898	-0.00158576038833091	0.208266961768127	8
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.083085802300416	-0.171249902360919	0.00507829776008661	9
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.0473227956683421	-0.0643503834437759	0.15899597478046	8
+Vlaanderen	Habitattype	9190	Binnen & Buiten	NA	Structuur	verticale structuur	b	0.239244406539696	0.019280236316609	0.459208576762783	2
+Vlaanderen	sbzh	9190	Binnen	NA	Structuur	aandeel dood hout	b	0.190433333333333	0.0182629750874674	0.362603691579199	2
+Vlaanderen	sbzh	9190	Binnen	NA	Structuur	bosconstantie	zb	0.00926111111111111	-0.00346733589907881	0.021989558121301	4
+Vlaanderen	sbzh	9190	Binnen	NA	Structuur	horizontale structuur - groeiklassen	b	-0.0462944444444444	-0.14262522838238	0.0500363394934916	9
+Vlaanderen	sbzh	9190	Binnen	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.0194611111111111	-0.182528633573227	0.221450855795449	10
+Vlaanderen	sbzh	9190	Binnen	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9190	Binnen	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9190	Binnen	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.135066666666667	-0.0548024473327622	0.324935780666096	8
+Vlaanderen	sbzh	9190	Binnen	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.102277777777778	-0.257939203172142	0.053383647616587	9
+Vlaanderen	sbzh	9190	Binnen	NA	Verstoring	verruiging	zb	0.0999722222222222	-0.0459372666600875	0.245881711104532	8
+Vlaanderen	sbzh	9190	Binnen	NA	Structuur	verticale structuur	b	0.0740722222222222	-0.182272818218694	0.330417262663139	10
+Vlaanderen	sbzh	9190	Buiten	NA	Structuur	aandeel dood hout	b	0.288515789473684	-0.00518525835227623	0.582216837299645	8
+Vlaanderen	sbzh	9190	Buiten	NA	Structuur	bosconstantie	zb	0.0105263157894737	-0.00365138074773792	0.0247040123266853	4
+Vlaanderen	sbzh	9190	Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	0.0131578947368421	-0.134767168850298	0.161082958323982	10
+Vlaanderen	sbzh	9190	Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.101889473684211	-0.294489484340302	0.0907105369718805	9
+Vlaanderen	sbzh	9190	Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	0	0	0	4
+Vlaanderen	sbzh	9190	Buiten	NA	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	sbzh	9190	Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0.0819	-0.0347985084210415	0.198598508421042	8
+Vlaanderen	sbzh	9190	Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0701157894736842	-0.172474603031519	0.032243024084151	9
+Vlaanderen	sbzh	9190	Buiten	NA	Verstoring	verruiging	zb	0.0117421052631579	-0.154110584834847	0.177594795361163	10
+Vlaanderen	sbzh	9190	Buiten	NA	Structuur	verticale structuur	b	0.350868421052632	0.0139645704661311	0.687772271639132	2
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Structuur	aandeel dood hout	b	-0.2982	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Structuur	bosconstantie	zb	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Structuur	horizontale structuur - groeiklassen	b	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Verstoring	invasieve exoten van de kruidlaag	zb	-0.251	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Structuur	minimum structuurareaal	zb	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Vegetatie	sleutelsoorten van de kruidlaag	b	0.0282	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_sf	Verstoring	verruiging	zb	-0.0762	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Structuur	aandeel dood hout	b	0.0396297560826758	-0.251099852296018	0.33035936446137	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Structuur	bosconstantie	zb	0.00388661094746339	-0.00510367350854334	0.0128768954034701	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Structuur	horizontale structuur - groeiklassen	b	-0.0487624462522374	-0.21473336044654	0.117208467942065	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.00321308721988347	-0.0120976730056689	0.0185238474454358	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	0.0424978659607612	-0.111409577537401	0.196405309458924	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.00181312860119764	-0.310921373566984	0.307295116364589	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0.0413968959453544	-0.0497824562253307	0.132576248116039	8
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Verstoring	verruiging	zb	0.00852208909934166	-0.193619511972836	0.21066369017152	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_va	Structuur	verticale structuur	b	-0.182338858080679	-0.516788633863919	0.15211091770256	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Structuur	aandeel dood hout	b	0.0819803295145888	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Structuur	bosconstantie	zb	0.0675703676000455	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	-0.233035582761158	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	0.225765043650519	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Structuur	minimum structuurareaal	zb	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.299827999445356	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	0.379893371064724	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Verstoring	verruiging	zb	-0.230112251125101	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vc	Structuur	verticale structuur	b	0.894666072569419	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Structuur	aandeel dood hout	b	0.0625300514698943	-0.204616099724722	0.32967620266451	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Structuur	bosconstantie	zb	0.00554985593813242	-0.00671330366557019	0.017813015541835	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	-0.164198484950873	-0.341657367578577	0.0132603976768309	9
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0178458049889318	-0.0395407292527874	0.00384911927492384	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	-0.0800664156867331	-0.195987661482621	0.0358548301091544	9
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Structuur	minimum structuurareaal	zb	0	0	0	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0169254290136326	-0.288663231543402	0.254812373516137	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.078719782922125	-0.203423048827915	0.0459834829836652	9
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Verstoring	verruiging	zb	-0.116284633565383	-0.361916837283395	0.129347570152629	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vm	Structuur	verticale structuur	b	-0.244966855549801	-0.486963243871308	-0.00297046722829281	6
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Structuur	aandeel dood hout	b	0.16287809968672	-0.0747969784633385	0.400553177836778	8
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	0.0127682958157231	-0.120648621031407	0.146185212662853	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.0233951755504034	-0.241904757225247	0.288695108326054	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0.0723337007522133	-0.0841362867226247	0.228803688227051	8
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Structuur	minimum structuurareaal	zb	0.0191915255734156	-0.0216739471204891	0.0600569982673203	4
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0633995771150932	-0.341077442245059	0.214278288014872	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0658561014040624	-0.121803101052156	-0.00990910175596835	6
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Verstoring	verruiging	zb	-0.0402945223189531	-0.274324717256442	0.193735672618536	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vn	Structuur	verticale structuur	b	-0.0904463309254849	-0.530346612663659	0.349453950812689	10
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Structuur	aandeel dood hout	b	-0.0377	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Structuur	bosconstantie	zb	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	0.125	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.0487	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Structuur	minimum structuurareaal	zb	0	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.83265	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Vegetatie	sleutelsoorten van de kruidlaag	b	0.11145	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Verstoring	verruiging	zb	-0.3457	NA	NA	NA
+Vlaanderen	Habitatsubtype	91E0	Binnen & Buiten	91E0_vo	Structuur	verticale structuur	b	0	NA	NA	NA
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	aandeel dood hout	b	0.0666218946299661	-0.0806077086689751	0.213851497928907	8
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	bosconstantie	zb	0.00528150698299911	-0.00109172253646209	0.0116547365024603	4
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	horizontale structuur - groeiklassen	b	-0.06486602347368	-0.157259077031618	0.0275270300842577	9
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	0.0125117476065642	-0.0673634120955979	0.0923869073087264	4
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	minimum structuurareaal	zb	0.00479802398075324	-0.00429067956571359	0.0138867275272201	4
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0583529616032005	-0.219955531392013	0.103249608185612	10
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0057478919841118	-0.065769280801825	0.0542734968336014	4
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Verstoring	verruiging	zb	-0.0603665352532561	-0.179189063247526	0.0584559927410134	9
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_vo; 91E0_vn; 91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.00375493734983219	-0.0706425992412734	0.0781524739409378	4
+Vlaanderen	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_vm; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	verticale structuur	b	-0.133566465054291	-0.316869866427268	0.0497369363186867	9
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	aandeel dood hout	b	0.0884728373036898	-0.082748266168239	0.259693940775619	8
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	bosconstantie	zb	0.0112172233886111	-0.000876067633414364	0.0233105144106367	4
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	horizontale structuur - groeiklassen	b	-0.0267262271679423	-0.127231640750434	0.0737791864145498	9
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	0.0861181021319764	-0.018111246515685	0.190347450779638	8
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	minimum structuurareaal	zb	-0.000525575528681717	-0.00128738298402658	0.00023623192666315	4
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0220033440580095	-0.205114389919821	0.161107701803802	10
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	0.0292039661429182	-0.0600633962816058	0.118471328567442	8
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Verstoring	verruiging	zb	-0.134673015183496	-0.282354005411929	0.0130079750449367	9
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_vo; 91E0_vn; 91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	-0.0373959048060799	-0.144540638590445	0.0697488289782856	9
+Vlaanderen	sbzh	91E0	Binnen	91E0_va; 91E0_vm; 91E0_vo; 91E0_vn; 91E0_vc	Structuur	verticale structuur	b	0.0179062283204329	-0.175537252300672	0.211349708941537	10
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Structuur	aandeel dood hout	b	0.047179269944044	-0.202498434029194	0.296856973917282	10
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Structuur	bosconstantie	zb	0	0	0	4
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Structuur	horizontale structuur - groeiklassen	b	-0.0988022136071013	-0.260025580522567	0.0624211533083642	9
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	0.0382684847445708	-0.0661863739956727	0.142723343484814	8
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	-0.0529820275090258	-0.17339243201269	0.0674283769946383	9
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Structuur	minimum structuurareaal	zb	0.00953487898905317	-0.00955661320848876	0.0286263711865951	4
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	-0.0906962788669366	-0.368325454476655	0.186932896742782	10
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	-0.0368475049292605	-0.116875448711114	0.043180438852593	9
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Verstoring	verruiging	zb	0.00575020042208649	-0.184502295215671	0.196002696059844	10
+Vlaanderen	sbzh	91E0	Buiten	91E0_va; 91E0_vm; 91E0_vn; 91E0_vc	Structuur	verticale structuur	b	-0.26060785006386	-0.575403425823059	0.0541877256953393	9

@@ -1,0 +1,39 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - habitattype
+  - type_resultaat
+  - sbzh
+  - habitatsubtype
+  hash: 728e22113325975e3443849ecfa594c1843c537e
+  data_hash: 6ae0d3534d76783b4bc34a041e5036bab0ac16da
+versie:
+  class: character
+schaal:
+  class: character
+type_resultaat:
+  class: character
+habitattype:
+  class: character
+sbzh:
+  class: character
+habitatsubtype:
+  class: character
+n_obs:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+aandeel_gunstig_llci:
+  class: numeric
+aandeel_gunstig_ulci:
+  class: numeric
+beoordeling:
+  class: character
+opp_uitspraak_ha:
+  class: numeric
+opp_onbekend_ha:
+  class: numeric
+opp_totaal_ha:
+  class: numeric

@@ -1,21 +1,21 @@
-versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	n_obs
-Versie 3	Vlaanderen	1	12	Binnen & Buiten	2120	43.99	32.49	56.18	80
-Versie 3	Vlaanderen	2	12	Binnen	2120	34.25	24.11	46.05	73
-Versie 3	Vlaanderen	2	12	Buiten	2120	85.71	40.8	98.12	7
-Versie 3	Vlaanderen	1	13	Binnen & Buiten	2130_hd; 2130_had	70.22	59.39	79.17	107
-Versie 3	Vlaanderen	2	13	Binnen	2130_hd; 2130_had	73.21	63.19	81.3	103
-Versie 3	Vlaanderen	2	13	Buiten	2130_hd; 2130_had	37.94	NA	NA	4
-Versie 3	Vlaanderen	3	13	Binnen & Buiten	2130_had	63.24	46.13	77.56	35
-Versie 3	Vlaanderen	3	13	Binnen & Buiten	2130_hd	71.46	58.85	81.43	72
-Versie 3	Vlaanderen	1	17	Binnen & Buiten	2160	82.67	73.31	89.23	90
-Versie 3	Vlaanderen	2	17	Binnen	2160	81.61	71.85	88.53	87
-Versie 3	Vlaanderen	2	17	Buiten	2160	100	NA	NA	3
-Versie 3	Vlaanderen	1	18	Binnen & Buiten	2170	48.57	31.98	65.48	35
-Versie 3	Vlaanderen	1	19	Binnen & Buiten	2180	49.44	38.79	60.15	85
-Versie 3	Vlaanderen	2	19	Binnen	2180	48.78	37.97	59.71	82
-Versie 3	Vlaanderen	2	19	Buiten	2180	66.67	NA	NA	3
-Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_mp; 2190_overig	41.21	27.9	55.94	59
-Versie 3	Vlaanderen	2	20	Binnen	2190_mp; 2190_overig	41.39	28.01	56.17	57
-Versie 3	Vlaanderen	2	20	Buiten	2190_overig	0	NA	NA	2
-Versie 3	Vlaanderen	3	20	Binnen & Buiten	2190_mp	38.24	23.28	55.8	34
-Versie 3	Vlaanderen	3	20	Binnen & Buiten	2190_overig	55.15	34.96	73.77	25
+versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	n_obs	beoordeling
+Versie 3	Vlaanderen	1	12	Binnen & Buiten	2120	45.1	33.56	57.2	80	2
+Versie 3	Vlaanderen	2	12	Binnen	2120	35.62	25.32	47.44	73	2
+Versie 3	Vlaanderen	2	12	Buiten	2120	85.71	40.8	98.12	7	3
+Versie 3	Vlaanderen	1	13	Binnen & Buiten	2130_hd; 2130_had	69.35	59.02	78.05	115	3
+Versie 3	Vlaanderen	2	13	Binnen	2130_hd; 2130_had	72.97	63.12	80.99	110	3
+Versie 3	Vlaanderen	2	13	Buiten	2130_hd; 2130_had	30.18	5.68	75.61	5	3
+Versie 3	Vlaanderen	3	13	Binnen & Buiten	2130_had	65.49	49.49	78.61	40	3
+Versie 3	Vlaanderen	3	13	Binnen & Buiten	2130_hd	70.04	58.05	79.8	75	3
+Versie 3	Vlaanderen	1	17	Binnen & Buiten	2160	81.15	71.8	87.92	93	3
+Versie 3	Vlaanderen	2	17	Binnen	2160	80	70.27	87.13	90	3
+Versie 3	Vlaanderen	2	17	Buiten	2160	100	NA	NA	3	3
+Versie 3	Vlaanderen	1	18	Binnen & Buiten	2170	51.28	35.3	67	39	2
+Versie 3	Vlaanderen	1	19	Binnen & Buiten	2180	8.22	3.91	16.47	85	2
+Versie 3	Vlaanderen	2	19	Binnen	2180	8.54	4.06	17.07	82	2
+Versie 3	Vlaanderen	2	19	Buiten	2180	0	NA	NA	3	3
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_mp; 2190_overig	96.04	91.05	98.3	67	1
+Versie 3	Vlaanderen	2	20	Binnen	2190_mp; 2190_overig	96.02	91	98.29	65	1
+Versie 3	Vlaanderen	2	20	Buiten	2190_overig	100	NA	NA	2	3
+Versie 3	Vlaanderen	3	20	Binnen & Buiten	2190_mp	100	100	100	39	1
+Versie 3	Vlaanderen	3	20	Binnen & Buiten	2190_overig	77.48	57.56	89.72	28	3

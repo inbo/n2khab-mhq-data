@@ -1,0 +1,29 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - Vegetatielaag
+  - Kenmerk
+  - Eenheid
+  hash: 473ed69f1fd21ba86635660354131aed2a12693e
+  data_hash: 116436b1e5672cc5a0633fae05782cc7932bcd52
+ID:
+  class: character
+record_id:
+  class: character
+Vegetatielaag:
+  class: character
+Kenmerk:
+  class: character
+TypeKenmerk:
+  class: character
+Type:
+  class: character
+Eenheid:
+  class: character
+Waarde:
+  class: numeric
+Invoertype:
+  class: logical

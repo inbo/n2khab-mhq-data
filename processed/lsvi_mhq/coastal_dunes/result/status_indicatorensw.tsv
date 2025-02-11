@@ -1,0 +1,89 @@
+versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Structuur	bedekking overhangende bomen en struiken	zb	40	99.77	97.92	99.97	1
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Structuur	horizontale structuur	zb	40	55.07	17.7	87.48	3
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Structuur	robuuste monocotylen	zb	40	63.76	19.39	92.79	3
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Structuur	verbossing	zb	40	94.96	68.88	99.38	3
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Vegetatie	bedekking sleutelsoorten	b	40	61	23.6	88.79	3
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Verstoring	eutrofiëring	zb	40	99.43	96.36	99.91	1
+Versie 3	Vlaanderen	1	20	Binnen & Buiten	2190_a	Verstoring	invasieve exoten	zb	40	98.92	94.15	99.81	1
+Versie 3	Vlaanderen	1	28	Binnen & Buiten	3110	Structuur	horizontale structuur	zb	4	21.08	NA	NA	3
+Versie 3	Vlaanderen	1	28	Binnen & Buiten	3110	Structuur	verticale structuur	zb	4	22.94	NA	NA	3
+Versie 3	Vlaanderen	1	28	Binnen & Buiten	3110	Vegetatie	sleutelsoorten	b	4	59.36	NA	NA	3
+Versie 3	Vlaanderen	1	28	Binnen & Buiten	3110	Verstoring	eutrofiëring	zb	4	61.72	NA	NA	3
+Versie 3	Vlaanderen	1	28	Binnen & Buiten	3110	Verstoring	invasieve exoten	zb	4	77.06	NA	NA	3
+Versie 3	Vlaanderen	1	28	Binnen & Buiten	3110	Verstoring	verzuring	zb	4	100	NA	NA	3
+Versie 3	Vlaanderen	1	29	Binnen & Buiten	3130_aom; 3130_na	Structuur	horizontale structuur	zb	204	49.02	39.09	59.02	2
+Versie 3	Vlaanderen	1	29	Binnen & Buiten	3130_aom; 3130_na	Structuur	verticale structuur	zb	204	76.8	69.12	83.04	3
+Versie 3	Vlaanderen	1	29	Binnen & Buiten	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	204	6.78	3.73	12.02	2
+Versie 3	Vlaanderen	1	29	Binnen & Buiten	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	204	75.14	67.3	81.62	3
+Versie 3	Vlaanderen	1	29	Binnen & Buiten	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	204	38.84	29.61	48.95	2
+Versie 3	Vlaanderen	1	29	Binnen & Buiten	3130_aom; 3130_na	Verstoring	verzuring	zb	204	96.19	92.74	98.03	1
+Versie 3	Vlaanderen	2	29	Binnen	3130_aom; 3130_na	Structuur	horizontale structuur	zb	178	52.72	42.53	62.68	2
+Versie 3	Vlaanderen	2	29	Binnen	3130_aom; 3130_na	Structuur	verticale structuur	zb	178	73.19	64.44	80.43	3
+Versie 3	Vlaanderen	2	29	Binnen	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	178	9.17	5.09	15.95	2
+Versie 3	Vlaanderen	2	29	Binnen	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	178	70.85	62.01	78.36	3
+Versie 3	Vlaanderen	2	29	Binnen	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	178	34.61	26.53	43.68	2
+Versie 3	Vlaanderen	2	29	Binnen	3130_aom; 3130_na	Verstoring	verzuring	zb	178	94.99	90.42	97.44	1
+Versie 3	Vlaanderen	2	29	Buiten	3130_aom; 3130_na	Structuur	horizontale structuur	zb	26	38.47	17.92	64.16	2
+Versie 3	Vlaanderen	2	29	Buiten	3130_aom; 3130_na	Structuur	verticale structuur	zb	26	87.1	69.65	95.21	3
+Versie 3	Vlaanderen	2	29	Buiten	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	26	0	0	0	2
+Versie 3	Vlaanderen	2	29	Buiten	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	26	87.37	68.62	95.63	3
+Versie 3	Vlaanderen	2	29	Buiten	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	26	50.91	27.3	74.12	2
+Versie 3	Vlaanderen	2	29	Buiten	3130_aom; 3130_na	Verstoring	verzuring	zb	26	99.6	96.97	99.95	1
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_aom	Structuur	horizontale structuur	zb	110	36.99	25.88	49.68	2
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_aom	Structuur	verticale structuur	zb	110	67.25	55.45	77.22	3
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_aom	Vegetatie	sleutelsoorten	b	110	9.97	5.05	18.74	2
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_aom	Verstoring	eutrofiëring	zb	110	69.29	57.67	78.89	3
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_aom	Verstoring	invasieve exoten	zb	110	37.82	26.25	50.97	2
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_aom	Verstoring	verzuring	zb	110	93.09	86.72	96.53	1
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_na	Structuur	horizontale structuur	zb	94	62.8	48.4	75.25	3
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_na	Structuur	verticale structuur	zb	94	87.75	77.78	93.62	1
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_na	Vegetatie	sleutelsoorten	b	94	3.13	0.9	10.34	2
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_na	Verstoring	eutrofiëring	zb	94	81.85	71.03	89.24	3
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_na	Verstoring	invasieve exoten	zb	94	40.01	26.16	55.67	2
+Versie 3	Vlaanderen	3	29	Binnen & Buiten	3130_na	Verstoring	verzuring	zb	94	99.75	98.16	99.97	1
+Versie 3	Vlaanderen	1	32	Binnen & Buiten	3140	Structuur	horizontale structuur	zb	45	59.88	28.37	84.9	3
+Versie 3	Vlaanderen	1	32	Binnen & Buiten	3140	Structuur	verticale structuur	zb	45	89.87	60.02	98.13	3
+Versie 3	Vlaanderen	1	32	Binnen & Buiten	3140	Vegetatie	sleutelsoorten	b	45	53.23	22.3	81.86	3
+Versie 3	Vlaanderen	1	32	Binnen & Buiten	3140	Verstoring	eutrofiëring	zb	45	40.98	15.38	72.63	2
+Versie 3	Vlaanderen	1	32	Binnen & Buiten	3140	Verstoring	invasieve exoten	zb	45	1.97	0.58	6.52	2
+Versie 3	Vlaanderen	2	32	Binnen	3140	Structuur	horizontale structuur	zb	27	48.53	13.32	85.26	3
+Versie 3	Vlaanderen	2	32	Binnen	3140	Structuur	verticale structuur	zb	27	92.43	75.55	97.97	1
+Versie 3	Vlaanderen	2	32	Binnen	3140	Vegetatie	sleutelsoorten	b	27	72.25	26.13	95.04	3
+Versie 3	Vlaanderen	2	32	Binnen	3140	Verstoring	eutrofiëring	zb	27	72.8	26.39	95.23	3
+Versie 3	Vlaanderen	2	32	Binnen	3140	Verstoring	invasieve exoten	zb	27	6.13	1.44	22.62	2
+Versie 3	Vlaanderen	2	32	Buiten	3140	Structuur	horizontale structuur	zb	18	64.38	25.34	90.59	3
+Versie 3	Vlaanderen	2	32	Buiten	3140	Structuur	verticale structuur	zb	18	88.86	45.54	98.7	3
+Versie 3	Vlaanderen	2	32	Buiten	3140	Vegetatie	sleutelsoorten	b	18	45.68	11.53	84.44	3
+Versie 3	Vlaanderen	2	32	Buiten	3140	Verstoring	eutrofiëring	zb	18	28.35	6.12	70.61	2
+Versie 3	Vlaanderen	2	32	Buiten	3140	Verstoring	invasieve exoten	zb	18	0.32	0.07	1.46	2
+Versie 3	Vlaanderen	1	33	Binnen & Buiten	3150	Structuur	horizontale structuur	zb	65	35.3	15.78	61.37	2
+Versie 3	Vlaanderen	1	33	Binnen & Buiten	3150	Structuur	verticale structuur	zb	65	85.26	64.49	94.85	3
+Versie 3	Vlaanderen	1	33	Binnen & Buiten	3150	Vegetatie	sleutelsoorten	b	65	15.64	5.6	36.71	2
+Versie 3	Vlaanderen	1	33	Binnen & Buiten	3150	Verstoring	eutrofiëring	zb	65	96.69	91.27	98.79	1
+Versie 3	Vlaanderen	1	33	Binnen & Buiten	3150	Verstoring	invasieve exoten	zb	65	15.18	6.16	32.79	2
+Versie 3	Vlaanderen	2	33	Binnen	3150	Structuur	horizontale structuur	zb	50	33.46	13.15	62.56	2
+Versie 3	Vlaanderen	2	33	Binnen	3150	Structuur	verticale structuur	zb	50	82.08	52.34	95.03	3
+Versie 3	Vlaanderen	2	33	Binnen	3150	Vegetatie	sleutelsoorten	b	50	24.36	8.56	52.57	2
+Versie 3	Vlaanderen	2	33	Binnen	3150	Verstoring	eutrofiëring	zb	50	95.89	87.61	98.72	1
+Versie 3	Vlaanderen	2	33	Binnen	3150	Verstoring	invasieve exoten	zb	50	12.39	4.71	28.82	2
+Versie 3	Vlaanderen	2	33	Buiten	3150	Structuur	horizontale structuur	zb	15	38.25	7.65	82.23	3
+Versie 3	Vlaanderen	2	33	Buiten	3150	Structuur	verticale structuur	zb	15	90.35	65.45	97.89	3
+Versie 3	Vlaanderen	2	33	Buiten	3150	Vegetatie	sleutelsoorten	b	15	1.7	0.23	11.66	2
+Versie 3	Vlaanderen	2	33	Buiten	3150	Verstoring	eutrofiëring	zb	15	97.97	88.05	99.69	1
+Versie 3	Vlaanderen	2	33	Buiten	3150	Verstoring	invasieve exoten	zb	15	19.65	3.72	60.76	2
+Versie 3	Vlaanderen	1	34	Binnen & Buiten	3160	Structuur	horizontale structuur	zb	48	18.02	7.68	36.74	2
+Versie 3	Vlaanderen	1	34	Binnen & Buiten	3160	Vegetatie	sleutelsoorten	b	48	21.78	9.86	41.47	2
+Versie 3	Vlaanderen	1	34	Binnen & Buiten	3160	Verstoring	eutrofiëring	zb	48	55.98	30.42	78.72	3
+Versie 3	Vlaanderen	1	34	Binnen & Buiten	3160	Verstoring	invasieve exoten	zb	48	98.68	90.03	99.84	1
+Versie 3	Vlaanderen	1	34	Binnen & Buiten	3160	Verstoring	verzuring	zb	48	70.73	28.91	93.49	3
+Versie 3	Vlaanderen	2	34	Binnen	3160	Structuur	horizontale structuur	zb	46	18.44	7.78	37.71	2
+Versie 3	Vlaanderen	2	34	Binnen	3160	Vegetatie	sleutelsoorten	b	46	22.28	9.98	42.58	2
+Versie 3	Vlaanderen	2	34	Binnen	3160	Verstoring	eutrofiëring	zb	46	56.32	30.3	79.27	3
+Versie 3	Vlaanderen	2	34	Binnen	3160	Verstoring	invasieve exoten	zb	46	98.65	89.77	99.84	1
+Versie 3	Vlaanderen	2	34	Binnen	3160	Verstoring	verzuring	zb	46	70.05	28.18	93.31	3
+Versie 3	Vlaanderen	2	34	Buiten	3160	Structuur	horizontale structuur	zb	2	0	NA	NA	3
+Versie 3	Vlaanderen	2	34	Buiten	3160	Vegetatie	sleutelsoorten	b	2	0	NA	NA	3
+Versie 3	Vlaanderen	2	34	Buiten	3160	Verstoring	eutrofiëring	zb	2	41.5	NA	NA	3
+Versie 3	Vlaanderen	2	34	Buiten	3160	Verstoring	invasieve exoten	zb	2	100	NA	NA	3
+Versie 3	Vlaanderen	2	34	Buiten	3160	Verstoring	verzuring	zb	2	100	NA	NA	3

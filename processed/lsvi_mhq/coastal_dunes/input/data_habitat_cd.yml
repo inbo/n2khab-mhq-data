@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
   - ID
   - Habitattype
   hash: 53b2c528ee3abe2294ecbda3eea1e794cc2e6c1e
-  data_hash: a0e58158a59778ced85f42efb5a9b66a98553df1
+  data_hash: f6f07638362805bc7bfced3f64eeac245e8f4110
 ID:
   class: character
 survey:

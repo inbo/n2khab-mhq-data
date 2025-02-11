@@ -1,0 +1,16 @@
+versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling
+Versie 3	Vlaanderen	1	35	Binnen & Buiten	3260	Structuur	horizontale structuur	zb	108	16.43	10.32	25.15	2
+Versie 3	Vlaanderen	1	35	Binnen & Buiten	3260	Structuur	verticale structuur	zb	108	83.6	74.65	89.83	3
+Versie 3	Vlaanderen	1	35	Binnen & Buiten	3260	Vegetatie	sleutelsoorten	b	108	19.31	12.65	28.34	2
+Versie 3	Vlaanderen	1	35	Binnen & Buiten	3260	Verstoring	eutrofiëring	zb	108	86.41	78.36	91.78	1
+Versie 3	Vlaanderen	1	35	Binnen & Buiten	3260	Verstoring	invasieve exoten	zb	108	50.23	40.6	59.85	2
+Versie 3	Vlaanderen	2	35	Binnen	3260	Structuur	horizontale structuur	zb	81	13.58	7.61	23.07	2
+Versie 3	Vlaanderen	2	35	Binnen	3260	Structuur	verticale structuur	zb	81	90.12	81.29	95.04	1
+Versie 3	Vlaanderen	2	35	Binnen	3260	Vegetatie	sleutelsoorten	b	81	16.05	9.47	25.89	2
+Versie 3	Vlaanderen	2	35	Binnen	3260	Verstoring	eutrofiëring	zb	81	85.19	75.51	91.47	1
+Versie 3	Vlaanderen	2	35	Binnen	3260	Verstoring	invasieve exoten	zb	81	53.09	42.07	63.81	2
+Versie 3	Vlaanderen	2	35	Buiten	3260	Structuur	horizontale structuur	zb	27	22.22	10.2	41.81	2
+Versie 3	Vlaanderen	2	35	Buiten	3260	Structuur	verticale structuur	zb	27	70.37	50.64	84.61	3
+Versie 3	Vlaanderen	2	35	Buiten	3260	Vegetatie	sleutelsoorten	b	27	25.93	12.74	45.63	2
+Versie 3	Vlaanderen	2	35	Buiten	3260	Verstoring	eutrofiëring	zb	27	88.89	70.26	96.44	3
+Versie 3	Vlaanderen	2	35	Buiten	3260	Verstoring	invasieve exoten	zb	27	44.44	27	63.37	2

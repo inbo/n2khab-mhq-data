@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
   - id
   - type_analysis
   hash: 0f04486dcb959e4e64f4be2f669ddb03a9b37f2e
-  data_hash: 8d54c5b0a7d756ceb02fbb4ddbdc93130a04ad61
+  data_hash: ec39947d7c4a2555daf25c986df368c5647e4dc5
 id:
   class: character
 type_analysis:

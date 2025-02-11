@@ -1,0 +1,60 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - Habitattype
+  hash: 62d5fb3aed7d4bef5788920dbb8e5dac99c2c037
+  data_hash: 66a9aa8fad94509fbcea50d880e6f690020341ac
+ID:
+  class: character
+survey:
+  class: character
+record_id_square:
+  class: character
+record_id_circle:
+  class: character
+date:
+  class: Date
+  origin: '1970-01-01'
+type_observed:
+  class: character
+subtype_defined:
+  class: logical
+type_cover:
+  class: numeric
+type_cover_all:
+  class: character
+plot_id:
+  class: character
+is_type_target:
+  class: logical
+is_maintype_target:
+  class: logical
+any_type_target:
+  class: logical
+n_type_target:
+  class: integer
+cover_target:
+  class: numeric
+Habitattype:
+  class: character
+vbi_cycle:
+  class: numeric
+source:
+  class: character
+note_manual_check:
+  class: character
+phab:
+  class: numeric
+link_mhq:
+  class: character
+segment_id:
+  class: numeric
+dendro_missing_value:
+  class: logical
+reg_missing_value:
+  class: logical
+herb_missing_value:
+  class: logical

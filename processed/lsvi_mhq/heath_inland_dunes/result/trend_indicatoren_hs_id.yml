@@ -1,0 +1,73 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - periode
+  - habitattype
+  - type_resultaat
+  - sbzh
+  - habitatsubtype
+  - criterium
+  - indicator
+  hash: 9b45939d930658c19f2cda99d84bd10d13b91dde
+  data_hash: 4aa13ff5e7c6ace559ebeeb12b985ae286b8818f
+versie:
+  class: character
+schaal:
+  class: character
+periode:
+  class: character
+year_min:
+  class: numeric
+year_max:
+  class: numeric
+type_resultaat:
+  class: character
+n_obs:
+  class: integer
+habitattype:
+  class: character
+sbzh:
+  class: character
+habitatsubtype:
+  class: character
+criterium:
+  class: character
+indicator:
+  class: character
+belang:
+  class: character
+parameter:
+  class: character
+mean:
+  class: numeric
+llci_0.95:
+  class: numeric
+ulci_0.95:
+  class: numeric
+klasse:
+  class: factor
+  labels:
+  - ++
+  - +
+  - +~
+  - '~'
+  - -~
+  - '-'
+  - --
+  - ?+
+  - ?-
+  - '?'
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  ordered: no

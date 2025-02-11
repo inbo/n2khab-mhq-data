@@ -1,0 +1,4 @@
+schaal	type_resultaat	habitattype	sbzh	habitatsubtype	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	index_diff_rel	index_diff_rel_llci_0.95	index_diff_rel_ulci_0.95	klasse
+Vlaanderen	Habitattype	3	Binnen & Buiten	NA	-0.0688433358721799	-0.15388217006923	0.0161954983248702	-0.397	-0.887	0.093	9
+Vlaanderen	SBZH	3	Binnen	NA	0.00703608571428571	-0.0845077468346091	0.0985799182631805	0.067	-0.802	0.936	10
+Vlaanderen	SBZH	3	Buiten	NA	-0.220938	-0.385964100657906	-0.0559118993420939	-0.712	-1.244	-0.18	7

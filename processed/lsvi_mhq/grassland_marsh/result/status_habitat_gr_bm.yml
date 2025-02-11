@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: 28d3fbbffed1f437506d044633f0f5e8a3877c68
-  data_hash: 7dc849cea4b61fbc14f205305a3c91c50fa8739e
+  hash: 558ad93fced1f4bb7f24a4f1ede99866401c867d
+  data_hash: 3f44b752245e0597254a836a5e780a55fd751f2c
 versie:
   class: character
 schaal:
@@ -100,7 +100,6 @@ habitattype:
   - rbbkam
   - rbbkam+
   - rbbvos
-  - rbbvos+
   - rbbzil
   - rbbzil+
   - '7110'
@@ -212,7 +211,6 @@ habitattype:
   - 71
   - 72
   - 73
-  - 74
   - 75
   - 76
   - 77
@@ -263,3 +261,14 @@ aandeel_gunstig_ulci:
   class: numeric
 n_obs:
   class: integer
+beoordeling:
+  class: factor
+  labels:
+  - Gunstig
+  - Ongunstig
+  - Onbekend
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no

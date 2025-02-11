@@ -1,0 +1,13 @@
+versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	3260	Binnen & Buiten	NA	1	aandeel_gunstig	6.53	0.77	23.69	NA
+Versie 3	Vlaanderen	c_1	2015	2020	SBZH	3260	Binnen	NA	1	aandeel_gunstig	9.29	1.69	26.37	NA
+Versie 3	Vlaanderen	c_1	2016	2021	SBZH	3260	Buiten	NA	1	aandeel_gunstig	0.54	0	0	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	1	aandeel_gunstig	8.21	1.24	26.38	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	1.68	-13.54	17.23	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	116.86	-78.33	756.3	10
+Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3260	Binnen	NA	1	aandeel_gunstig	12.03	2.43	32.35	NA
+Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3260	Binnen	NA	1	verschil_aandeel_gunstig_abs	2.75	-11.66	20.6	10
+Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3260	Binnen	NA	1	verschil_aandeel_gunstig_rel	72.04	-66.98	410.06	10
+Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3260	Buiten	NA	1	aandeel_gunstig	0.14	0	0.02	NA
+Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3260	Buiten	NA	1	verschil_aandeel_gunstig_abs	-0.39	0	0.02	4
+Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3260	Buiten	NA	1	verschil_aandeel_gunstig_rel	NA	NA	NA	10

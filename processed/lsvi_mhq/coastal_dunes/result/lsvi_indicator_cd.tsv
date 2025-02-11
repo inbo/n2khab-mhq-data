@@ -52,8 +52,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10057905_2023-08-14	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10057905_2023-08-14	2130_hd	Verstoring	overbetreding	b	1	1
 10057905_2023-08-14	2130_hd	Verstoring	overige exoten	b	1	0.9
-10057905_2023-08-14	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10057905_2023-08-14	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10057905_2023-08-14	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10057905_2023-08-14	2130_hd	Verstoring	verbossing	b	1	1
 10057905_2023-08-14	2130_hd	Verstoring	vergrassing	zb	1	0.7357
 10057905_2023-08-14	2130_hd	Verstoring	verruiging	zb	1	1
@@ -72,8 +71,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	overbetreding	b	1	1
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	overige exoten	b	1	0.9
-10057905_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10057905_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10057905_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	verbossing	b	1	1
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	vergrassing	zb	1	0.6667
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	verruiging	zb	1	1
@@ -99,39 +97,35 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10071601_2120_2019-10-23	2120	Verstoring	structuurverstoring	b	1	1
 10071601_2120_2019-10-23	2120	Verstoring	vergrassing	zb	0	-0.219
 10071601_2120_2019-10-23	2120	Verstoring	verruiging	zb	1	1
-10082417_2023-08-07	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5444
+10082417_2023-08-07	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5351
 10082417_2023-08-07	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10082417_2023-08-07	2130_hd	Verstoring	overbetreding	b	1	1
 10082417_2023-08-07	2130_hd	Verstoring	overige exoten	b	1	1
-10082417_2023-08-07	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10082417_2023-08-07	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10082417_2023-08-07	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10082417_2023-08-07	2130_hd	Verstoring	verbossing	b	1	1
 10082417_2023-08-07	2130_hd	Verstoring	vergrassing	zb	1	0.9007
 10082417_2023-08-07	2130_hd	Verstoring	verruiging	zb	1	0.6
-10082417_2130_hd_2019-10-18	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+10082417_2130_hd_2019-10-18	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9598
 10082417_2130_hd_2019-10-18	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10082417_2130_hd_2019-10-18	2130_hd	Verstoring	overbetreding	b	1	1
 10082417_2130_hd_2019-10-18	2130_hd	Verstoring	overige exoten	b	1	1
-10082417_2130_hd_2019-10-18	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10082417_2130_hd_2019-10-18	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10082417_2130_hd_2019-10-18	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10082417_2130_hd_2019-10-18	2130_hd	Verstoring	verbossing	b	1	1
 10082417_2130_hd_2019-10-18	2130_hd	Verstoring	vergrassing	zb	1	0.9333
 10082417_2130_hd_2019-10-18	2130_hd	Verstoring	verruiging	zb	1	0.9
-10082997_2023-09-04	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.96
+10082997_2023-09-04	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9
 10082997_2023-09-04	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10082997_2023-09-04	2130_hd	Verstoring	overbetreding	b	1	1
 10082997_2023-09-04	2130_hd	Verstoring	overige exoten	b	1	1
-10082997_2023-09-04	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10082997_2023-09-04	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10082997_2023-09-04	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10082997_2023-09-04	2130_hd	Verstoring	verbossing	b	1	1
 10082997_2023-09-04	2130_hd	Verstoring	vergrassing	zb	1	0.2667
 10082997_2023-09-04	2130_hd	Verstoring	verruiging	zb	1	0.9
-10082997_2130_hd_2019-10-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10082997_2130_hd_2019-10-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9789
 10082997_2130_hd_2019-10-14	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10082997_2130_hd_2019-10-14	2130_hd	Verstoring	overbetreding	b	1	1
 10082997_2130_hd_2019-10-14	2130_hd	Verstoring	overige exoten	b	1	0.9
-10082997_2130_hd_2019-10-14	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10082997_2130_hd_2019-10-14	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10082997_2130_hd_2019-10-14	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10082997_2130_hd_2019-10-14	2130_hd	Verstoring	verbossing	b	1	1
 10082997_2130_hd_2019-10-14	2130_hd	Verstoring	vergrassing	zb	1	0.9333
 10082997_2130_hd_2019-10-14	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -157,12 +151,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1009077_2120_2019-10-17	2120	Verstoring	structuurverstoring	b	1	1
 1009077_2120_2019-10-17	2120	Verstoring	vergrassing	zb	1	0.67
 1009077_2120_2019-10-17	2120	Verstoring	verruiging	zb	1	1
-10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6567
+10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6386
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	overbetreding	b	1	1
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	overige exoten	b	1	0.9
-10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	verbossing	b	1	1
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	vergrassing	zb	1	0.6427
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -170,8 +163,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10104625_2024-07-04	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10104625_2024-07-04	2130_hd	Verstoring	overbetreding	b	1	1
 10104625_2024-07-04	2130_hd	Verstoring	overige exoten	b	1	1
-10104625_2024-07-04	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	1	0.125
-10104625_2024-07-04	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10104625_2024-07-04	2130_hd	Vegetatie	sleutelsoorten	b	1	0.125
 10104625_2024-07-04	2130_hd	Verstoring	verbossing	b	1	1
 10104625_2024-07-04	2130_hd	Verstoring	vergrassing	zb	1	0.868
 10104625_2024-07-04	2130_hd	Verstoring	verruiging	zb	1	1
@@ -179,8 +171,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10104625_2130_hd_2019-10-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10104625_2130_hd_2019-10-23	2130_hd	Verstoring	overbetreding	b	1	1
 10104625_2130_hd_2019-10-23	2130_hd	Verstoring	overige exoten	b	1	1
-10104625_2130_hd_2019-10-23	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-10104625_2130_hd_2019-10-23	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10104625_2130_hd_2019-10-23	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 10104625_2130_hd_2019-10-23	2130_hd	Verstoring	verbossing	b	1	1
 10104625_2130_hd_2019-10-23	2130_hd	Verstoring	vergrassing	zb	1	0.9007
 10104625_2130_hd_2019-10-23	2130_hd	Verstoring	verruiging	zb	1	1
@@ -189,12 +180,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1011505_2022-09-27	2160	Verstoring	overige exoten	b	1	1
 1011505_2022-09-27	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 1011505_2022-09-27	2160	Verstoring	verbossing	b	0	-0.1111
-101169_2023-08-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8824
+101169_2023-08-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8787
 101169_2023-08-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 101169_2023-08-16	2130_hd	Verstoring	overbetreding	b	1	1
 101169_2023-08-16	2130_hd	Verstoring	overige exoten	b	1	0.9
-101169_2023-08-16	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-101169_2023-08-16	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+101169_2023-08-16	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 101169_2023-08-16	2130_hd	Verstoring	verbossing	b	1	1
 101169_2023-08-16	2130_hd	Verstoring	vergrassing	zb	1	0.7047
 101169_2023-08-16	2130_hd	Verstoring	verruiging	zb	1	0.8
@@ -269,12 +259,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10138801_2120_2019-10-31	2120	Verstoring	structuurverstoring	b	1	1
 10138801_2120_2019-10-31	2120	Verstoring	vergrassing	zb	1	0.3378
 10138801_2120_2019-10-31	2120	Verstoring	verruiging	zb	1	1
-1013937_2023-08-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6606
+1013937_2023-08-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6501
 1013937_2023-08-14	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1013937_2023-08-14	2130_hd	Verstoring	overbetreding	b	1	1
 1013937_2023-08-14	2130_hd	Verstoring	overige exoten	b	1	0.9
-1013937_2023-08-14	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-1013937_2023-08-14	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.25
+1013937_2023-08-14	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.25
 1013937_2023-08-14	2130_hd	Verstoring	verbossing	b	1	1
 1013937_2023-08-14	2130_hd	Verstoring	vergrassing	zb	1	0.8347
 1013937_2023-08-14	2130_hd	Verstoring	verruiging	zb	1	1
@@ -289,21 +278,19 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1013937_2120_2019-10-25	2120	Verstoring	structuurverstoring	b	1	1
 1013937_2120_2019-10-25	2120	Verstoring	vergrassing	zb	0	-1
 1013937_2120_2019-10-25	2120	Verstoring	verruiging	zb	1	1
-1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7464
+1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.733
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	overbetreding	b	1	1
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	overige exoten	b	1	1
-1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	verbossing	b	1	1
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	vergrassing	zb	1	0.3067
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	verruiging	zb	1	1
-1015221_2023-08-07	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9404
+1015221_2023-08-07	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9366
 1015221_2023-08-07	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1015221_2023-08-07	2130_hd	Verstoring	overbetreding	b	1	1
 1015221_2023-08-07	2130_hd	Verstoring	overige exoten	b	1	0.9
-1015221_2023-08-07	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-1015221_2023-08-07	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+1015221_2023-08-07	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 1015221_2023-08-07	2130_hd	Verstoring	verbossing	b	1	1
 1015221_2023-08-07	2130_hd	Verstoring	vergrassing	zb	1	0.4827
 1015221_2023-08-07	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -311,8 +298,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1015221_2130_hd_2019-10-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1015221_2130_hd_2019-10-16	2130_hd	Verstoring	overbetreding	b	1	1
 1015221_2130_hd_2019-10-16	2130_hd	Verstoring	overige exoten	b	1	1
-1015221_2130_hd_2019-10-16	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-1015221_2130_hd_2019-10-16	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+1015221_2130_hd_2019-10-16	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 1015221_2130_hd_2019-10-16	2130_hd	Verstoring	verbossing	b	1	1
 1015221_2130_hd_2019-10-16	2130_hd	Verstoring	vergrassing	zb	1	0.8347
 1015221_2130_hd_2019-10-16	2130_hd	Verstoring	verruiging	zb	1	0.801
@@ -338,84 +324,75 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10153777_2120_2018-07-16	2120	Verstoring	structuurverstoring	b	1	1
 10153777_2120_2018-07-16	2120	Verstoring	vergrassing	zb	1	1
 10153777_2120_2018-07-16	2120	Verstoring	verruiging	zb	1	1
-10157365_2023-09-05	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.96
+10157365_2023-09-05	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9596
 10157365_2023-09-05	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157365_2023-09-05	2130_hd	Verstoring	overbetreding	b	1	1
 10157365_2023-09-05	2130_hd	Verstoring	overige exoten	b	1	1
-10157365_2023-09-05	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10157365_2023-09-05	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10157365_2023-09-05	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10157365_2023-09-05	2130_hd	Verstoring	verbossing	b	1	1
 10157365_2023-09-05	2130_hd	Verstoring	vergrassing	zb	1	0.7387
 10157365_2023-09-05	2130_hd	Verstoring	verruiging	zb	0	-0.4111
-10157365_2130_hd_2019-10-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9406
+10157365_2130_hd_2019-10-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9394
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	overbetreding	b	1	1
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	overige exoten	b	1	1
-10157365_2130_hd_2019-10-28	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10157365_2130_hd_2019-10-28	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10157365_2130_hd_2019-10-28	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	verbossing	b	1	1
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	vergrassing	zb	1	0.8347
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	verruiging	zb	0	-0.3333
-10157493_2023-08-01	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.823
+10157493_2023-08-01	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8175
 10157493_2023-08-01	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157493_2023-08-01	2130_hd	Verstoring	overbetreding	b	1	1
 10157493_2023-08-01	2130_hd	Verstoring	overige exoten	b	1	0.9
-10157493_2023-08-01	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10157493_2023-08-01	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10157493_2023-08-01	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10157493_2023-08-01	2130_hd	Verstoring	verbossing	b	1	0.6
 10157493_2023-08-01	2130_hd	Verstoring	vergrassing	zb	1	0.6
 10157493_2023-08-01	2130_hd	Verstoring	verruiging	zb	1	1
-10157493_2130_hd_2019-10-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10157493_2130_hd_2019-10-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.975
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	overbetreding	b	1	0.9
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	overige exoten	b	1	1
-10157493_2130_hd_2019-10-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10157493_2130_hd_2019-10-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10157493_2130_hd_2019-10-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	verbossing	b	1	1
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	vergrassing	zb	1	0.6667
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	verruiging	zb	1	1
-10157873_2023-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.1881
+10157873_2023-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.1716
 10157873_2023-08-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157873_2023-08-10	2130_hd	Verstoring	overbetreding	b	1	1
 10157873_2023-08-10	2130_hd	Verstoring	overige exoten	b	1	1
-10157873_2023-08-10	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10157873_2023-08-10	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	1	0
+10157873_2023-08-10	2130_hd	Vegetatie	sleutelsoorten	b	1	0
 10157873_2023-08-10	2130_hd	Verstoring	verbossing	b	1	1
 10157873_2023-08-10	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 10157873_2023-08-10	2130_hd	Verstoring	verruiging	zb	1	1
-10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7685
+10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7563
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	overbetreding	b	1	1
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	overige exoten	b	1	1
-10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	verbossing	b	1	1
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	vergrassing	zb	1	0.7357
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	verruiging	zb	1	1
-10160821_2130_hd_2019-10-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10160821_2130_hd_2019-10-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.975
 10160821_2130_hd_2019-10-14	2130_hd	Verstoring	invasieve exoten	zb	0	-0.01
 10160821_2130_hd_2019-10-14	2130_hd	Verstoring	overbetreding	b	1	1
 10160821_2130_hd_2019-10-14	2130_hd	Verstoring	overige exoten	b	1	1
-10160821_2130_hd_2019-10-14	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10160821_2130_hd_2019-10-14	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10160821_2130_hd_2019-10-14	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10160821_2130_hd_2019-10-14	2130_hd	Verstoring	verbossing	b	1	1
 10160821_2130_hd_2019-10-14	2130_hd	Verstoring	vergrassing	zb	1	1
 10160821_2130_hd_2019-10-14	2130_hd	Verstoring	verruiging	zb	1	0.9
-10172209_2023-08-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10172209_2023-08-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9792
 10172209_2023-08-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10172209_2023-08-16	2130_hd	Verstoring	overbetreding	b	1	1
 10172209_2023-08-16	2130_hd	Verstoring	overige exoten	b	1	1
-10172209_2023-08-16	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10172209_2023-08-16	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10172209_2023-08-16	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10172209_2023-08-16	2130_hd	Verstoring	verbossing	b	1	1
 10172209_2023-08-16	2130_hd	Verstoring	vergrassing	zb	1	0.9007
 10172209_2023-08-16	2130_hd	Verstoring	verruiging	zb	1	0.8
-10172209_2130_hd_2019-10-22	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10172209_2130_hd_2019-10-22	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9798
 10172209_2130_hd_2019-10-22	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10172209_2130_hd_2019-10-22	2130_hd	Verstoring	overbetreding	b	1	1
 10172209_2130_hd_2019-10-22	2130_hd	Verstoring	overige exoten	b	1	1
-10172209_2130_hd_2019-10-22	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10172209_2130_hd_2019-10-22	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10172209_2130_hd_2019-10-22	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10172209_2130_hd_2019-10-22	2130_hd	Verstoring	verbossing	b	1	1
 10172209_2130_hd_2019-10-22	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 10172209_2130_hd_2019-10-22	2130_hd	Verstoring	verruiging	zb	1	0.8
@@ -423,8 +400,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10184117_2023-08-01	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10184117_2023-08-01	2130_hd	Verstoring	overbetreding	b	1	1
 10184117_2023-08-01	2130_hd	Verstoring	overige exoten	b	1	1
-10184117_2023-08-01	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10184117_2023-08-01	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10184117_2023-08-01	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10184117_2023-08-01	2130_hd	Verstoring	verbossing	b	1	1
 10184117_2023-08-01	2130_hd	Verstoring	vergrassing	zb	0	-0.0496
 10184117_2023-08-01	2130_hd	Verstoring	verruiging	zb	1	0.6
@@ -432,17 +408,15 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10184117_2130_HD_2019-10-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10184117_2130_HD_2019-10-17	2130_hd	Verstoring	overbetreding	b	1	1
 10184117_2130_HD_2019-10-17	2130_hd	Verstoring	overige exoten	b	1	1
-10184117_2130_HD_2019-10-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10184117_2130_HD_2019-10-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10184117_2130_HD_2019-10-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10184117_2130_HD_2019-10-17	2130_hd	Verstoring	verbossing	b	1	0.604
 10184117_2130_HD_2019-10-17	2130_hd	Verstoring	vergrassing	zb	0	-0.496
 10184117_2130_HD_2019-10-17	2130_hd	Verstoring	verruiging	zb	1	0.801
-10186545_2023-08-11	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9404
+10186545_2023-08-11	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9398
 10186545_2023-08-11	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10186545_2023-08-11	2130_hd	Verstoring	overbetreding	b	1	1
 10186545_2023-08-11	2130_hd	Verstoring	overige exoten	b	1	1
-10186545_2023-08-11	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10186545_2023-08-11	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10186545_2023-08-11	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10186545_2023-08-11	2130_hd	Verstoring	verbossing	b	1	1
 10186545_2023-08-11	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 10186545_2023-08-11	2130_hd	Verstoring	verruiging	zb	1	1
@@ -462,12 +436,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10186545_2120_2018-09-26	2120	Verstoring	structuurverstoring	b	1	1
 10186545_2120_2018-09-26	2120	Verstoring	vergrassing	zb	0	-1
 10186545_2120_2018-09-26	2120	Verstoring	verruiging	zb	1	1
-10186545_2130_hd_2018-08-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10186545_2130_hd_2018-08-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9778
 10186545_2130_hd_2018-08-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10186545_2130_hd_2018-08-23	2130_hd	Verstoring	overbetreding	b	1	1
 10186545_2130_hd_2018-08-23	2130_hd	Verstoring	overige exoten	b	1	1
-10186545_2130_hd_2018-08-23	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10186545_2130_hd_2018-08-23	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10186545_2130_hd_2018-08-23	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10186545_2130_hd_2018-08-23	2130_hd	Verstoring	verbossing	b	1	1
 10186545_2130_hd_2018-08-23	2130_hd	Verstoring	vergrassing	zb	1	0.6667
 10186545_2130_hd_2018-08-23	2130_hd	Verstoring	verruiging	zb	1	1
@@ -503,12 +476,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1021105_2120_2019-11-04	2120	Verstoring	structuurverstoring	b	1	1
 1021105_2120_2019-11-04	2120	Verstoring	vergrassing	zb	0	-0.5364
 1021105_2120_2019-11-04	2120	Verstoring	verruiging	zb	1	1
-10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8816
+10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.704
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	overbetreding	b	1	1
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	overige exoten	b	1	1
-10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	verbossing	b	1	1
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -516,8 +488,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10219313_2023-08-09	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10219313_2023-08-09	2130_hd	Verstoring	overbetreding	b	1	1
 10219313_2023-08-09	2130_hd	Verstoring	overige exoten	b	1	1
-10219313_2023-08-09	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10219313_2023-08-09	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10219313_2023-08-09	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10219313_2023-08-09	2130_hd	Verstoring	verbossing	b	1	1
 10219313_2023-08-09	2130_hd	Verstoring	vergrassing	zb	1	0.7079
 10219313_2023-08-09	2130_hd	Verstoring	verruiging	zb	1	1
@@ -525,8 +496,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10219313_2130_hd_2018-09-26	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10219313_2130_hd_2018-09-26	2130_hd	Verstoring	overbetreding	b	1	1
 10219313_2130_hd_2018-09-26	2130_hd	Verstoring	overige exoten	b	1	1
-10219313_2130_hd_2018-09-26	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10219313_2130_hd_2018-09-26	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10219313_2130_hd_2018-09-26	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10219313_2130_hd_2018-09-26	2130_hd	Verstoring	verbossing	b	1	1
 10219313_2130_hd_2018-09-26	2130_hd	Verstoring	vergrassing	zb	1	0.4263
 10219313_2130_hd_2018-09-26	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -534,8 +504,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10219313_2170_2018-09-26	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10219313_2170_2018-09-26	2130_hd	Verstoring	overbetreding	b	1	1
 10219313_2170_2018-09-26	2130_hd	Verstoring	overige exoten	b	1	0.9
-10219313_2170_2018-09-26	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10219313_2170_2018-09-26	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10219313_2170_2018-09-26	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10219313_2170_2018-09-26	2130_hd	Verstoring	verbossing	b	1	0.9
 10219313_2170_2018-09-26	2130_hd	Verstoring	vergrassing	zb	1	0.0673
 10219313_2170_2018-09-26	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -544,12 +513,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10219313_2170_2018-09-26	2170	Vegetatie	sleutelsoorten	b	0	-0.6667
 10219313_2170_2018-09-26	2170	Verstoring	verbossing	b	1	0.9
 10219313_2170_2018-09-26	2170	Verstoring	verruiging	zb	0	-0.0998
-10221745_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10221745_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9798
 10221745_2130_hd_2019-10-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10221745_2130_hd_2019-10-24	2130_hd	Verstoring	overbetreding	b	1	1
 10221745_2130_hd_2019-10-24	2130_hd	Verstoring	overige exoten	b	1	1
-10221745_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10221745_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10221745_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10221745_2130_hd_2019-10-24	2130_hd	Verstoring	verbossing	b	1	0.3
 10221745_2130_hd_2019-10-24	2130_hd	Verstoring	vergrassing	zb	1	0.5208
 10221745_2130_hd_2019-10-24	2130_hd	Verstoring	verruiging	zb	1	1
@@ -575,12 +543,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10233009_2120_2019-10-31	2120	Verstoring	structuurverstoring	b	1	1
 10233009_2120_2019-10-31	2120	Verstoring	vergrassing	zb	1	0.5067
 10233009_2120_2019-10-31	2120	Verstoring	verruiging	zb	1	1
-10235441_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8628
+10235441_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8614
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	overbetreding	b	1	1
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	overige exoten	b	1	1
-10235441_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10235441_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10235441_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	verbossing	b	1	1
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -610,17 +577,15 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10252081_2024-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10252081_2024-08-21	2130_hd	Verstoring	overbetreding	b	1	1
 10252081_2024-08-21	2130_hd	Verstoring	overige exoten	b	1	1
-10252081_2024-08-21	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.25
-10252081_2024-08-21	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10252081_2024-08-21	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.25
 10252081_2024-08-21	2130_hd	Verstoring	verbossing	b	1	1
 10252081_2024-08-21	2130_hd	Verstoring	vergrassing	zb	1	0.4333
 10252081_2024-08-21	2130_hd	Verstoring	verruiging	zb	1	1
-10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6407
+10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6334
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	overbetreding	b	1	0.9
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	overige exoten	b	1	1
-10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	verbossing	b	1	1
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	vergrassing	zb	1	0.6
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	verruiging	zb	1	1
@@ -628,26 +593,23 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10260273_2023-08-09	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10260273_2023-08-09	2130_hd	Verstoring	overbetreding	b	1	1
 10260273_2023-08-09	2130_hd	Verstoring	overige exoten	b	1	1
-10260273_2023-08-09	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-10260273_2023-08-09	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+10260273_2023-08-09	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 10260273_2023-08-09	2130_hd	Verstoring	verbossing	b	1	1
 10260273_2023-08-09	2130_hd	Verstoring	vergrassing	zb	1	0.9007
 10260273_2023-08-09	2130_hd	Verstoring	verruiging	zb	1	1
-10260273_2130_hd_2018-07-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8065
+10260273_2130_hd_2018-07-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8046
 10260273_2130_hd_2018-07-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10260273_2130_hd_2018-07-20	2130_hd	Verstoring	overbetreding	b	1	1
 10260273_2130_hd_2018-07-20	2130_hd	Verstoring	overige exoten	b	1	1
-10260273_2130_hd_2018-07-20	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-10260273_2130_hd_2018-07-20	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+10260273_2130_hd_2018-07-20	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 10260273_2130_hd_2018-07-20	2130_hd	Verstoring	verbossing	b	1	1
 10260273_2130_hd_2018-07-20	2130_hd	Verstoring	vergrassing	zb	1	0.9667
 10260273_2130_hd_2018-07-20	2130_hd	Verstoring	verruiging	zb	1	1
-10266801_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+10266801_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9778
 10266801_2130_hd_2019-10-25	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10266801_2130_hd_2019-10-25	2130_hd	Verstoring	overbetreding	b	1	1
 10266801_2130_hd_2019-10-25	2130_hd	Verstoring	overige exoten	b	1	1
-10266801_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10266801_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10266801_2130_hd_2019-10-25	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10266801_2130_hd_2019-10-25	2130_hd	Verstoring	verbossing	b	1	1
 10266801_2130_hd_2019-10-25	2130_hd	Verstoring	vergrassing	zb	1	0.9667
 10266801_2130_hd_2019-10-25	2130_hd	Verstoring	verruiging	zb	1	1
@@ -655,8 +617,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10283825_2023-08-09	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10283825_2023-08-09	2130_hd	Verstoring	overbetreding	b	1	1
 10283825_2023-08-09	2130_hd	Verstoring	overige exoten	b	1	1
-10283825_2023-08-09	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10283825_2023-08-09	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10283825_2023-08-09	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10283825_2023-08-09	2130_hd	Verstoring	verbossing	b	1	1
 10283825_2023-08-09	2130_hd	Verstoring	vergrassing	zb	1	0.379
 10283825_2023-08-09	2130_hd	Verstoring	verruiging	zb	0	-0.0222
@@ -664,8 +625,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10283825_2130_hd_2018-09-27	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10283825_2130_hd_2018-09-27	2130_hd	Verstoring	overbetreding	b	1	1
 10283825_2130_hd_2018-09-27	2130_hd	Verstoring	overige exoten	b	1	1
-10283825_2130_hd_2018-09-27	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-10283825_2130_hd_2018-09-27	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10283825_2130_hd_2018-09-27	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10283825_2130_hd_2018-09-27	2130_hd	Verstoring	verbossing	b	1	0.8
 10283825_2130_hd_2018-09-27	2130_hd	Verstoring	vergrassing	zb	0	-0.2092
 10283825_2130_hd_2018-09-27	2130_hd	Verstoring	verruiging	zb	0	-0.0222
@@ -673,8 +633,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10288565_2130_HD_2019-10-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10288565_2130_HD_2019-10-16	2130_hd	Verstoring	overbetreding	b	1	1
 10288565_2130_HD_2019-10-16	2130_hd	Verstoring	overige exoten	b	1	1
-10288565_2130_HD_2019-10-16	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10288565_2130_HD_2019-10-16	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10288565_2130_HD_2019-10-16	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10288565_2130_HD_2019-10-16	2130_hd	Verstoring	verbossing	b	1	1
 10288565_2130_HD_2019-10-16	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 10288565_2130_HD_2019-10-16	2130_hd	Verstoring	verruiging	zb	1	0.3
@@ -727,12 +686,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1030321_2022-09-28	2160	Verstoring	overige exoten	b	1	1
 1030321_2022-09-28	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 1030321_2022-09-28	2160	Verstoring	verbossing	b	1	1
-10314929_2019-10-31	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8414
+10314929_2019-10-31	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8398
 10314929_2019-10-31	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10314929_2019-10-31	2130_hd	Verstoring	overbetreding	b	1	1
 10314929_2019-10-31	2130_hd	Verstoring	overige exoten	b	1	0.9
-10314929_2019-10-31	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10314929_2019-10-31	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+10314929_2019-10-31	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 10314929_2019-10-31	2130_hd	Verstoring	verbossing	b	1	1
 10314929_2019-10-31	2130_hd	Verstoring	vergrassing	zb	1	0.28
 10314929_2019-10-31	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -801,12 +759,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10342193_2120_2019-10-15	2120	Verstoring	structuurverstoring	b	1	1
 10342193_2120_2019-10-15	2120	Verstoring	vergrassing	zb	1	1
 10342193_2120_2019-10-15	2120	Verstoring	verruiging	zb	1	1
-103425_2023-08-02	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8432
+103425_2023-08-02	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8258
 103425_2023-08-02	2130_hd	Verstoring	invasieve exoten	zb	1	1
 103425_2023-08-02	2130_hd	Verstoring	overbetreding	b	1	1
 103425_2023-08-02	2130_hd	Verstoring	overige exoten	b	1	0.9
-103425_2023-08-02	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-103425_2023-08-02	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+103425_2023-08-02	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 103425_2023-08-02	2130_hd	Verstoring	verbossing	b	1	0.6
 103425_2023-08-02	2130_hd	Verstoring	vergrassing	zb	0	-0.2294
 103425_2023-08-02	2130_hd	Verstoring	verruiging	zb	1	0.3
@@ -814,8 +771,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 103425_2130_hd_2019-10-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 103425_2130_hd_2019-10-17	2130_hd	Verstoring	overbetreding	b	1	1
 103425_2130_hd_2019-10-17	2130_hd	Verstoring	overige exoten	b	1	1
-103425_2130_hd_2019-10-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-103425_2130_hd_2019-10-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+103425_2130_hd_2019-10-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 103425_2130_hd_2019-10-17	2130_hd	Verstoring	verbossing	b	1	1
 103425_2130_hd_2019-10-17	2130_hd	Verstoring	vergrassing	zb	0	-0.0857
 103425_2130_hd_2019-10-17	2130_hd	Verstoring	verruiging	zb	1	0.6
@@ -956,12 +912,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10419637_2120_2019-10-16	2120	Verstoring	structuurverstoring	b	1	1
 10419637_2120_2019-10-16	2120	Verstoring	vergrassing	zb	1	0.3333
 10419637_2120_2019-10-16	2120	Verstoring	verruiging	zb	1	1
-1044273_2120_2018-07-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8442
+1044273_2120_2018-07-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6883
 1044273_2120_2018-07-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1044273_2120_2018-07-23	2130_hd	Verstoring	overbetreding	b	1	1
 1044273_2120_2018-07-23	2130_hd	Verstoring	overige exoten	b	1	0.9
-1044273_2120_2018-07-23	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-1044273_2120_2018-07-23	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+1044273_2120_2018-07-23	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 1044273_2120_2018-07-23	2130_hd	Verstoring	verbossing	b	1	1
 1044273_2120_2018-07-23	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 1044273_2120_2018-07-23	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -1051,8 +1006,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	overbetreding	b	1	1
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	overige exoten	b	1	1
-10547637_2130_hd_2019-10-16	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10547637_2130_hd_2019-10-16	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10547637_2130_hd_2019-10-16	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	verbossing	b	1	1
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	vergrassing	zb	1	0.6667
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	verruiging	zb	1	0.702
@@ -1091,8 +1045,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1060149_2180_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 1060149_2180_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1060149_2180_2020-09-14	2180	Verstoring	overige exoten	b	1	1
-1060149_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1060149_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1060149_2180_2020-09-14	2180	Verstoring	verruiging	zb	1	1
 1060149_2180_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 1060401_2024-09-10	2160	Structuur	horizontale structuur	b	1	0.0117
@@ -1115,8 +1067,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	overbetreding	b	1	1
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	overige exoten	b	1	1
-10642869_2130_hd_2019-10-18	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10642869_2130_hd_2019-10-18	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10642869_2130_hd_2019-10-18	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	verbossing	b	1	1
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	vergrassing	zb	1	0.3333
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	verruiging	zb	0	-0.032
@@ -1177,16 +1128,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 107697_2022-08-31	2180	Verstoring	invasieve exoten	b	1	1
 107697_2022-08-31	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 107697_2022-08-31	2180	Verstoring	overige exoten	b	1	1
-107697_2022-08-31	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-107697_2022-08-31	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 107697_2022-08-31	2180	Verstoring	verruiging	zb	1	0.9333
 107697_2022-08-31	2180	Structuur	verticale structuur	b	NA	NA
 10778801_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 10778801_2130_hd_2019-10-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10778801_2130_hd_2019-10-24	2130_hd	Verstoring	overbetreding	b	1	1
 10778801_2130_hd_2019-10-24	2130_hd	Verstoring	overige exoten	b	1	1
-10778801_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-10778801_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+10778801_2130_hd_2019-10-24	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 10778801_2130_hd_2019-10-24	2130_hd	Verstoring	verbossing	b	1	1
 10778801_2130_hd_2019-10-24	2130_hd	Verstoring	vergrassing	zb	0	-0.4286
 10778801_2130_hd_2019-10-24	2130_hd	Verstoring	verruiging	zb	1	0
@@ -1219,8 +1167,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1090737_2022-08-12	2180	Verstoring	invasieve exoten	b	1	1
 1090737_2022-08-12	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1090737_2022-08-12	2180	Verstoring	overige exoten	b	1	1
-1090737_2022-08-12	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1090737_2022-08-12	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1090737_2022-08-12	2180	Verstoring	verruiging	zb	0	-0.1514
 1090737_2022-08-12	2180	Structuur	verticale structuur	b	NA	NA
 110385_2020-07-15	2160	Structuur	horizontale structuur	b	0	-1
@@ -1262,8 +1208,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1113397_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 1113397_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-1
 1113397_2020-09-14	2180	Verstoring	overige exoten	b	1	1
-1113397_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1113397_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1113397_2020-09-14	2180	Verstoring	verruiging	zb	1	1
 1113397_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 111985_2020-07-20	2120	Structuur	(korst)moslaag	zb	1	0.3333
@@ -1296,8 +1240,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 11530033_2023-11-03	2130_hd	Verstoring	invasieve exoten	zb	1	1
 11530033_2023-11-03	2130_hd	Verstoring	overbetreding	b	1	1
 11530033_2023-11-03	2130_hd	Verstoring	overige exoten	b	1	0.9
-11530033_2023-11-03	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-11530033_2023-11-03	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+11530033_2023-11-03	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 11530033_2023-11-03	2130_hd	Verstoring	verbossing	b	1	1
 11530033_2023-11-03	2130_hd	Verstoring	vergrassing	zb	1	0.803
 11530033_2023-11-03	2130_hd	Verstoring	verruiging	zb	0	-0.0222
@@ -1310,8 +1253,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 11530033_2170_2018-07-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 11530033_2170_2018-07-23	2130_hd	Verstoring	overbetreding	b	1	1
 11530033_2170_2018-07-23	2130_hd	Verstoring	overige exoten	b	1	0.8
-11530033_2170_2018-07-23	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-11530033_2170_2018-07-23	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+11530033_2170_2018-07-23	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 11530033_2170_2018-07-23	2130_hd	Verstoring	verbossing	b	1	1
 11530033_2170_2018-07-23	2130_hd	Verstoring	vergrassing	zb	1	0.6743
 11530033_2170_2018-07-23	2130_hd	Verstoring	verruiging	zb	0	-0.3333
@@ -1328,8 +1270,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 11573_2180_2020-09-09	2180	Verstoring	invasieve exoten	b	1	1
 11573_2180_2020-09-09	2180	Structuur	minimum structuurareaal	zb	0	-1
 11573_2180_2020-09-09	2180	Verstoring	overige exoten	b	1	1
-11573_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-11573_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 11573_2180_2020-09-09	2180	Verstoring	verruiging	zb	1	1
 11573_2180_2020-09-09	2180	Structuur	verticale structuur	b	NA	NA
 1158961_2022-09-27	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1340,16 +1280,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1158961_2022-09-27	2180	Verstoring	invasieve exoten	b	1	1
 1158961_2022-09-27	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 1158961_2022-09-27	2180	Verstoring	overige exoten	b	1	1
-1158961_2022-09-27	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1158961_2022-09-27	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1158961_2022-09-27	2180	Verstoring	verruiging	zb	0	-0.0857
 1158961_2022-09-27	2180	Structuur	verticale structuur	b	NA	NA
-11595569_2170_2018-08-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7677
+11595569_2170_2018-08-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6682
 11595569_2170_2018-08-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 11595569_2170_2018-08-20	2130_hd	Verstoring	overbetreding	b	1	1
 11595569_2170_2018-08-20	2130_hd	Verstoring	overige exoten	b	1	0.801
-11595569_2170_2018-08-20	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-11595569_2170_2018-08-20	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+11595569_2170_2018-08-20	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 11595569_2170_2018-08-20	2130_hd	Verstoring	verbossing	b	1	1
 11595569_2170_2018-08-20	2130_hd	Verstoring	vergrassing	zb	1	0.7357
 11595569_2170_2018-08-20	2130_hd	Verstoring	verruiging	zb	1	1
@@ -1357,8 +1294,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 116849_2024-07-02	2130_hd	Verstoring	invasieve exoten	zb	1	1
 116849_2024-07-02	2130_hd	Verstoring	overbetreding	b	1	1
 116849_2024-07-02	2130_hd	Verstoring	overige exoten	b	1	1
-116849_2024-07-02	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-116849_2024-07-02	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+116849_2024-07-02	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 116849_2024-07-02	2130_hd	Verstoring	verbossing	b	1	1
 116849_2024-07-02	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 116849_2024-07-02	2130_hd	Verstoring	verruiging	zb	0	-0.4444
@@ -1375,8 +1311,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1172657_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 1172657_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1172657_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	1
-1172657_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1172657_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1172657_2180_2020-09-21	2180	Verstoring	verruiging	zb	1	0.6367
 1172657_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 11923249_2024-07-01	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1452,8 +1386,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1240881_2023-10-26	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1240881_2023-10-26	2130_hd	Verstoring	overbetreding	b	1	1
 1240881_2023-10-26	2130_hd	Verstoring	overige exoten	b	1	0.504
-1240881_2023-10-26	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-1240881_2023-10-26	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+1240881_2023-10-26	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 1240881_2023-10-26	2130_hd	Verstoring	verbossing	b	1	1
 1240881_2023-10-26	2130_hd	Verstoring	vergrassing	zb	1	0.5479
 1240881_2023-10-26	2130_hd	Verstoring	verruiging	zb	0	-0.032
@@ -1476,8 +1409,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 12545841_2023-11-06	2130_hd	Verstoring	invasieve exoten	zb	1	1
 12545841_2023-11-06	2130_hd	Verstoring	overbetreding	b	1	1
 12545841_2023-11-06	2130_hd	Verstoring	overige exoten	b	1	1
-12545841_2023-11-06	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-12545841_2023-11-06	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+12545841_2023-11-06	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 12545841_2023-11-06	2130_hd	Verstoring	verbossing	b	1	0.801
 12545841_2023-11-06	2130_hd	Verstoring	vergrassing	zb	1	0.7079
 12545841_2023-11-06	2130_hd	Verstoring	verruiging	zb	1	0.3
@@ -1519,20 +1451,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 126769_2024-08-23	2190_mp	Verstoring	verbossing	b	1	1
 126769_2024-08-23	2190_mp	Verstoring	verdroging	zb	1	0.6033
 126769_2024-08-23	2190_mp	Verstoring	verruiging	zb	1	1
-1276081_2020-08-21	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
-1276081_2020-08-21	2130_had	Verstoring	invasief mos	zb	1	1
-1276081_2020-08-21	2130_had	Verstoring	invasieve exoten	zb	1	1
-1276081_2020-08-21	2130_had	Verstoring	overbetreding	b	1	1
-1276081_2020-08-21	2130_had	Vegetatie	sleutelsoorten	b	0	-1
-1276081_2020-08-21	2130_had	Verstoring	verbossing	b	1	1
-1276081_2020-08-21	2130_had	Verstoring	vergrassing	zb	1	0.8667
-1276081_2020-08-21	2130_had	Verstoring	verruiging	zb	1	1
-1276081_2020-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6727
+1276081_2020-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6555
 1276081_2020-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1276081_2020-08-21	2130_hd	Verstoring	overbetreding	b	1	1
 1276081_2020-08-21	2130_hd	Verstoring	overige exoten	b	1	1
-1276081_2020-08-21	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-1276081_2020-08-21	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+1276081_2020-08-21	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 1276081_2020-08-21	2130_hd	Verstoring	verbossing	b	1	1
 1276081_2020-08-21	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 1276081_2020-08-21	2130_hd	Verstoring	verruiging	zb	1	1
@@ -1544,8 +1467,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1298609_2020-09-01	2180	Verstoring	invasieve exoten	b	1	1
 1298609_2020-09-01	2180	Structuur	minimum structuurareaal	zb	0	-1
 1298609_2020-09-01	2180	Verstoring	overige exoten	b	1	1
-1298609_2020-09-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1298609_2020-09-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1298609_2020-09-01	2180	Verstoring	verruiging	zb	1	1
 1298609_2020-09-01	2180	Structuur	verticale structuur	b	NA	NA
 1303729_2022-08-30	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1556,8 +1477,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1303729_2022-08-30	2180	Verstoring	invasieve exoten	b	0	-0.0298
 1303729_2022-08-30	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1303729_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.2857
-1303729_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1303729_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1303729_2022-08-30	2180	Verstoring	verruiging	zb	1	1
 1303729_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 1306417_2024-08-02	2170	Verstoring	invasieve exoten	zb	1	1
@@ -1569,8 +1488,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 13070129_2024-07-04	2130_hd	Verstoring	invasieve exoten	zb	1	1
 13070129_2024-07-04	2130_hd	Verstoring	overbetreding	b	1	1
 13070129_2024-07-04	2130_hd	Verstoring	overige exoten	b	1	1
-13070129_2024-07-04	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-13070129_2024-07-04	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+13070129_2024-07-04	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 13070129_2024-07-04	2130_hd	Verstoring	verbossing	b	0	-0.2369
 13070129_2024-07-04	2130_hd	Verstoring	vergrassing	zb	1	0.3134
 13070129_2024-07-04	2130_hd	Verstoring	verruiging	zb	0	-0.4667
@@ -1592,8 +1510,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1322293_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1322293_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1322293_2022-08-02	2180	Verstoring	overige exoten	b	1	0.3333
-1322293_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1322293_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1322293_2022-08-02	2180	Verstoring	verruiging	zb	0	-0.12
 1322293_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1354545_2023-08-18	2170	Verstoring	invasieve exoten	zb	1	1
@@ -1655,8 +1571,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1391925_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1391925_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 1391925_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.5714
-1391925_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1391925_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1391925_2022-08-02	2180	Verstoring	verruiging	zb	1	1
 1391925_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1418417_2022-08-11	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1667,8 +1581,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1418417_2022-08-11	2180	Verstoring	invasieve exoten	b	1	1
 1418417_2022-08-11	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1418417_2022-08-11	2180	Verstoring	overige exoten	b	1	1
-1418417_2022-08-11	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1418417_2022-08-11	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1418417_2022-08-11	2180	Verstoring	verruiging	zb	1	1
 1418417_2022-08-11	2180	Structuur	verticale structuur	b	NA	NA
 1421105_2020-07-15	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1676,12 +1588,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1421105_2020-07-15	2190_mp	Verstoring	verbossing	b	1	1
 1421105_2020-07-15	2190_mp	Verstoring	verdroging	zb	1	0.5044
 1421105_2020-07-15	2190_mp	Verstoring	verruiging	zb	1	0.6667
-143153_2020-07-29	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+143153_2020-07-29	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9798
 143153_2020-07-29	2130_hd	Verstoring	invasieve exoten	zb	1	1
 143153_2020-07-29	2130_hd	Verstoring	overbetreding	b	1	0.801
 143153_2020-07-29	2130_hd	Verstoring	overige exoten	b	1	1
-143153_2020-07-29	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-143153_2020-07-29	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+143153_2020-07-29	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 143153_2020-07-29	2130_hd	Verstoring	verbossing	b	1	1
 143153_2020-07-29	2130_hd	Verstoring	vergrassing	zb	1	0.6367
 143153_2020-07-29	2130_hd	Verstoring	verruiging	zb	1	1
@@ -1693,8 +1604,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1434801_2022-08-30	2180	Verstoring	invasieve exoten	b	1	1
 1434801_2022-08-30	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1434801_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.5714
-1434801_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1434801_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1434801_2022-08-30	2180	Verstoring	verruiging	zb	1	0.0427
 1434801_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 143797_2020-07-09	2120	Structuur	(korst)moslaag	zb	1	1
@@ -1716,8 +1625,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1462325_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1462325_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1462325_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.2857
-1462325_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1462325_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1462325_2022-08-02	2180	Verstoring	verruiging	zb	1	1
 1462325_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1484977_2022-09-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1728,8 +1635,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1484977_2022-09-02	2180	Verstoring	invasieve exoten	b	1	1
 1484977_2022-09-02	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1484977_2022-09-02	2180	Verstoring	overige exoten	b	1	1
-1484977_2022-09-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1484977_2022-09-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1484977_2022-09-02	2180	Verstoring	verruiging	zb	1	0.3333
 1484977_2022-09-02	2180	Structuur	verticale structuur	b	NA	NA
 1506613_2022-08-04	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1740,8 +1645,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1506613_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 1506613_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 1506613_2022-08-04	2180	Verstoring	overige exoten	b	1	1
-1506613_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1506613_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1506613_2022-08-04	2180	Verstoring	verruiging	zb	1	1
 1506613_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 152753_2022-09-06	2160	Structuur	horizontale structuur	b	NA	NA
@@ -1757,8 +1660,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1550513_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 1550513_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1550513_2022-09-08	2180	Verstoring	overige exoten	b	0	-0.8143
-1550513_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1550513_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1550513_2022-09-08	2180	Verstoring	verruiging	zb	1	0.7667
 1550513_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 1565873_2022-08-31	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1769,8 +1670,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1565873_2022-08-31	2180	Verstoring	invasieve exoten	b	1	1
 1565873_2022-08-31	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1565873_2022-08-31	2180	Verstoring	overige exoten	b	0	-0.1429
-1565873_2022-08-31	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1565873_2022-08-31	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1565873_2022-08-31	2180	Verstoring	verruiging	zb	1	0.7667
 1565873_2022-08-31	2180	Structuur	verticale structuur	b	NA	NA
 1566897_2022-09-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1781,16 +1680,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1566897_2022-09-02	2180	Verstoring	invasieve exoten	b	1	1
 1566897_2022-09-02	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1566897_2022-09-02	2180	Verstoring	overige exoten	b	0	-0.6
-1566897_2022-09-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1566897_2022-09-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1566897_2022-09-02	2180	Verstoring	verruiging	zb	0	-0.2746
 1566897_2022-09-02	2180	Structuur	verticale structuur	b	NA	NA
-159537_2021-08-09	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9212
+159537_2021-08-09	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9196
 159537_2021-08-09	2130_hd	Verstoring	invasieve exoten	zb	1	1
 159537_2021-08-09	2130_hd	Verstoring	overbetreding	b	1	1
 159537_2021-08-09	2130_hd	Verstoring	overige exoten	b	1	1
-159537_2021-08-09	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-159537_2021-08-09	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+159537_2021-08-09	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 159537_2021-08-09	2130_hd	Verstoring	verbossing	b	0	-0.9667
 159537_2021-08-09	2130_hd	Verstoring	vergrassing	zb	1	1
 159537_2021-08-09	2130_hd	Verstoring	verruiging	zb	1	1
@@ -1802,8 +1698,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1630385_2022-09-30	2180	Verstoring	invasieve exoten	b	1	1
 1630385_2022-09-30	2180	Structuur	minimum structuurareaal	zb	0	-1
 1630385_2022-09-30	2180	Verstoring	overige exoten	b	1	1
-1630385_2022-09-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1630385_2022-09-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1630385_2022-09-30	2180	Verstoring	verruiging	zb	1	0.4841
 1630385_2022-09-30	2180	Structuur	verticale structuur	b	NA	NA
 163633_2023-08-31	2120	Structuur	(korst)moslaag	zb	1	0.9556
@@ -1830,8 +1724,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1670453_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 1670453_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.6606
 1670453_2022-08-04	2180	Verstoring	overige exoten	b	1	1
-1670453_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1670453_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1670453_2022-08-04	2180	Verstoring	verruiging	zb	1	1
 1670453_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 1676465_1_2021-09-16	2170	Verstoring	invasieve exoten	zb	1	1
@@ -1857,8 +1749,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1680561_2022-08-11	2180	Verstoring	invasieve exoten	b	1	1
 1680561_2022-08-11	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1680561_2022-08-11	2180	Verstoring	overige exoten	b	0	-0.5714
-1680561_2022-08-11	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1680561_2022-08-11	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1680561_2022-08-11	2180	Verstoring	verruiging	zb	1	1
 1680561_2022-08-11	2180	Structuur	verticale structuur	b	NA	NA
 169137_2021-08-24	2160	Structuur	horizontale structuur	b	0	-0.5
@@ -1866,12 +1756,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 169137_2021-08-24	2160	Verstoring	overige exoten	b	1	1
 169137_2021-08-24	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 169137_2021-08-24	2160	Verstoring	verbossing	b	1	1
-169137_2024-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.96
+169137_2024-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9429
 169137_2024-07-03	2130_hd	Verstoring	invasieve exoten	zb	1	1
 169137_2024-07-03	2130_hd	Verstoring	overbetreding	b	1	1
 169137_2024-07-03	2130_hd	Verstoring	overige exoten	b	1	0.6
-169137_2024-07-03	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-169137_2024-07-03	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+169137_2024-07-03	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 169137_2024-07-03	2130_hd	Verstoring	verbossing	b	1	1
 169137_2024-07-03	2130_hd	Verstoring	vergrassing	zb	1	1
 169137_2024-07-03	2130_hd	Verstoring	verruiging	zb	1	1
@@ -1888,11 +1777,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1696945_2022-08-30	2180	Verstoring	invasieve exoten	b	1	1
 1696945_2022-08-30	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1696945_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.8571
-1696945_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1696945_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1696945_2022-08-30	2180	Verstoring	verruiging	zb	1	0.8027
 1696945_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
-1700017_2024-08-08	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+1700017_2024-08-08	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9594
 1700017_2024-08-08	2130_had	Verstoring	invasief mos	zb	1	1
 1700017_2024-08-08	2130_had	Verstoring	invasieve exoten	zb	1	1
 1700017_2024-08-08	2130_had	Verstoring	overbetreding	b	1	1
@@ -1936,12 +1823,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1797937_2024-08-02	2170	Vegetatie	sleutelsoorten	b	0	-1
 1797937_2024-08-02	2170	Verstoring	verbossing	b	0	-0.08
 1797937_2024-08-02	2170	Verstoring	verruiging	zb	1	0.216
-180017_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+180017_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9733
 180017_2020-07-30	2130_hd	Verstoring	invasieve exoten	zb	1	1
 180017_2020-07-30	2130_hd	Verstoring	overbetreding	b	1	1
 180017_2020-07-30	2130_hd	Verstoring	overige exoten	b	1	1
-180017_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-180017_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+180017_2020-07-30	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 180017_2020-07-30	2130_hd	Verstoring	verbossing	b	1	1
 180017_2020-07-30	2130_hd	Verstoring	vergrassing	zb	1	0.3333
 180017_2020-07-30	2130_hd	Verstoring	verruiging	zb	1	1
@@ -1953,8 +1839,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1812657_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 1812657_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1812657_2022-09-08	2180	Verstoring	overige exoten	b	0	-0.608
-1812657_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1812657_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1812657_2022-09-08	2180	Verstoring	verruiging	zb	1	0.7047
 1812657_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 1830705_2020-08-17	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1978,8 +1862,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1892529_2022-09-30	2180	Verstoring	invasieve exoten	b	1	1
 1892529_2022-09-30	2180	Structuur	minimum structuurareaal	zb	0	-1
 1892529_2022-09-30	2180	Verstoring	overige exoten	b	0	-0.7143
-1892529_2022-09-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1892529_2022-09-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1892529_2022-09-30	2180	Verstoring	verruiging	zb	0	-0.2363
 1892529_2022-09-30	2180	Structuur	verticale structuur	b	NA	NA
 1896241_2021-08-13	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2031,8 +1913,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1953969_2022-09-30	2180	Verstoring	invasieve exoten	b	1	1
 1953969_2022-09-30	2180	Structuur	minimum structuurareaal	zb	0	-1
 1953969_2022-09-30	2180	Verstoring	overige exoten	b	1	1
-1953969_2022-09-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1953969_2022-09-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1953969_2022-09-30	2180	Verstoring	verruiging	zb	1	0.9007
 1953969_2022-09-30	2180	Structuur	verticale structuur	b	NA	NA
 196021_2020-07-09	2120	Structuur	(korst)moslaag	zb	0	-0.2437
@@ -2054,8 +1934,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1986613_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1986613_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1986613_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.2857
-1986613_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-1986613_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1986613_2022-08-02	2180	Verstoring	verruiging	zb	1	0.9667
 1986613_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1992497_2024-08-05	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8638
@@ -2074,8 +1952,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2003969_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 2003969_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-1
 2003969_2022-08-01	2180	Verstoring	overige exoten	b	1	1
-2003969_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2003969_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2003969_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9667
 2003969_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 2003969_2023-06-06	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2086,42 +1962,29 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2003969_2023-06-06	2180	Verstoring	invasieve exoten	b	1	1
 2003969_2023-06-06	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 2003969_2023-06-06	2180	Verstoring	overige exoten	b	1	1
-2003969_2023-06-06	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2003969_2023-06-06	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2003969_2023-06-06	2180	Verstoring	verruiging	zb	1	0.9333
 2003969_2023-06-06	2180	Structuur	verticale structuur	b	NA	NA
 20081_2023-08-08	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9404
 20081_2023-08-08	2130_hd	Verstoring	invasieve exoten	zb	1	1
 20081_2023-08-08	2130_hd	Verstoring	overbetreding	b	1	1
 20081_2023-08-08	2130_hd	Verstoring	overige exoten	b	1	1
-20081_2023-08-08	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-20081_2023-08-08	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+20081_2023-08-08	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 20081_2023-08-08	2130_hd	Verstoring	verbossing	b	1	1
 20081_2023-08-08	2130_hd	Verstoring	vergrassing	zb	1	0.3333
 20081_2023-08-08	2130_hd	Verstoring	verruiging	zb	1	0.3
-2027313_2020-08-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
-2027313_2020-08-17	2130_had	Verstoring	invasief mos	zb	1	1
-2027313_2020-08-17	2130_had	Verstoring	invasieve exoten	zb	1	1
-2027313_2020-08-17	2130_had	Verstoring	overbetreding	b	1	1
-2027313_2020-08-17	2130_had	Vegetatie	sleutelsoorten	b	0	-1
-2027313_2020-08-17	2130_had	Verstoring	verbossing	b	1	1
-2027313_2020-08-17	2130_had	Verstoring	vergrassing	zb	1	0.9333
-2027313_2020-08-17	2130_had	Verstoring	verruiging	zb	1	0.9
-2027313_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.4454
+2027313_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	1
 2027313_2020-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 2027313_2020-08-17	2130_hd	Verstoring	overbetreding	b	1	1
 2027313_2020-08-17	2130_hd	Verstoring	overige exoten	b	1	1
-2027313_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-2027313_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+2027313_2020-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 2027313_2020-08-17	2130_hd	Verstoring	verbossing	b	1	1
 2027313_2020-08-17	2130_hd	Verstoring	vergrassing	zb	1	0.9333
 2027313_2020-08-17	2130_hd	Verstoring	verruiging	zb	1	0.9
-2057585_2020-07-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.96
+2057585_2020-07-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9596
 2057585_2020-07-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 2057585_2020-07-20	2130_hd	Verstoring	overbetreding	b	1	1
 2057585_2020-07-20	2130_hd	Verstoring	overige exoten	b	1	1
-2057585_2020-07-20	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-2057585_2020-07-20	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+2057585_2020-07-20	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 2057585_2020-07-20	2130_hd	Verstoring	verbossing	b	1	1
 2057585_2020-07-20	2130_hd	Verstoring	vergrassing	zb	1	0.5467
 2057585_2020-07-20	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2141,8 +2004,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2090161_2022-08-30	2180	Verstoring	invasieve exoten	b	0	-0.01
 2090161_2022-08-30	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2090161_2022-08-30	2180	Verstoring	overige exoten	b	1	1
-2090161_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2090161_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2090161_2022-08-30	2180	Verstoring	verruiging	zb	0	-0.6121
 2090161_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 2108725_2022-08-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2153,8 +2014,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2108725_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 2108725_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 2108725_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.2857
-2108725_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2108725_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2108725_2022-08-02	2180	Verstoring	verruiging	zb	1	1
 2108725_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 2135217_2024-09-03	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2170,8 +2029,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2139313_2022-08-30	2180	Verstoring	invasieve exoten	b	1	1
 2139313_2022-08-30	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2139313_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.1
-2139313_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2139313_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 2139313_2022-08-30	2180	Verstoring	verruiging	zb	1	0.0605
 2139313_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 2145589_2022-08-04	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2182,8 +2039,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2145589_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 2145589_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.9865
 2145589_2022-08-04	2180	Verstoring	overige exoten	b	1	1
-2145589_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2145589_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 2145589_2022-08-04	2180	Verstoring	verruiging	zb	0	-0.1461
 2145589_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 2151425_2022-08-01	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2194,16 +2049,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2151425_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 2151425_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 2151425_2022-08-01	2180	Verstoring	overige exoten	b	0	-0.1429
-2151425_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2151425_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2151425_2022-08-01	2180	Verstoring	verruiging	zb	1	1
 2151425_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
-2161_2020-07-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9406
+2161_2020-07-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8812
 2161_2020-07-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 2161_2020-07-10	2130_hd	Verstoring	overbetreding	b	1	1
 2161_2020-07-10	2130_hd	Verstoring	overige exoten	b	1	1
-2161_2020-07-10	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-2161_2020-07-10	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+2161_2020-07-10	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 2161_2020-07-10	2130_hd	Verstoring	verbossing	b	1	0
 2161_2020-07-10	2130_hd	Verstoring	vergrassing	zb	1	0.8347
 2161_2020-07-10	2130_hd	Verstoring	verruiging	zb	1	0.8
@@ -2215,8 +2067,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2178357_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 2178357_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 2178357_2022-08-02	2180	Verstoring	overige exoten	b	1	1
-2178357_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2178357_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2178357_2022-08-02	2180	Verstoring	verruiging	zb	1	0.7357
 2178357_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 2178865_2020-08-24	2160	Structuur	horizontale structuur	b	0	-1
@@ -2232,8 +2082,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2205109_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 2205109_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 2205109_2022-08-01	2180	Verstoring	overige exoten	b	1	0.7667
-2205109_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2205109_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2205109_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9333
 2205109_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 2207537_2022-09-27	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2244,8 +2092,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2207537_2022-09-27	2180	Verstoring	invasieve exoten	b	1	1
 2207537_2022-09-27	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 2207537_2022-09-27	2180	Verstoring	overige exoten	b	1	0
-2207537_2022-09-27	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2207537_2022-09-27	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2207537_2022-09-27	2180	Verstoring	verruiging	zb	0	-0.7714
 2207537_2022-09-27	2180	Structuur	verticale structuur	b	NA	NA
 2221233_2022-08-11	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2256,8 +2102,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2221233_2022-08-11	2180	Verstoring	invasieve exoten	b	1	1
 2221233_2022-08-11	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2221233_2022-08-11	2180	Verstoring	overige exoten	b	1	0.6667
-2221233_2022-08-11	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2221233_2022-08-11	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2221233_2022-08-11	2180	Verstoring	verruiging	zb	0	-0.0172
 2221233_2022-08-11	2180	Structuur	verticale structuur	b	NA	NA
 228977_2020-07-23	2160	Structuur	horizontale structuur	b	1	0
@@ -2273,16 +2117,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2314293_2023-08-25	2180	Verstoring	invasieve exoten	b	1	1
 2314293_2023-08-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 2314293_2023-08-25	2180	Verstoring	overige exoten	b	0	-0.5714
-2314293_2023-08-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2314293_2023-08-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2314293_2023-08-25	2180	Verstoring	verruiging	zb	0	-0.136
 2314293_2023-08-25	2180	Structuur	verticale structuur	b	NA	NA
-23221_2020-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9406
+23221_2020-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.901
 23221_2020-07-03	2130_hd	Verstoring	invasieve exoten	zb	1	1
 23221_2020-07-03	2130_hd	Verstoring	overbetreding	b	1	1
 23221_2020-07-03	2130_hd	Verstoring	overige exoten	b	1	1
-23221_2020-07-03	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-23221_2020-07-03	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+23221_2020-07-03	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 23221_2020-07-03	2130_hd	Verstoring	verbossing	b	1	1
 23221_2020-07-03	2130_hd	Verstoring	vergrassing	zb	1	0.9667
 23221_2020-07-03	2130_hd	Verstoring	verruiging	zb	0	-0.1111
@@ -2294,8 +2135,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2352305_2023-08-21	2180	Verstoring	invasieve exoten	b	0	-0.7149
 2352305_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2352305_2023-08-21	2180	Verstoring	overige exoten	b	1	1
-2352305_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2352305_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2352305_2023-08-21	2180	Verstoring	verruiging	zb	0	-0.5757
 2352305_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 2358709_2023-09-04	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2306,16 +2145,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2358709_2023-09-04	2180	Verstoring	invasieve exoten	b	1	1
 2358709_2023-09-04	2180	Structuur	minimum structuurareaal	zb	0	-0.6584
 2358709_2023-09-04	2180	Verstoring	overige exoten	b	1	1
-2358709_2023-09-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2358709_2023-09-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2358709_2023-09-04	2180	Verstoring	verruiging	zb	1	0.8667
 2358709_2023-09-04	2180	Structuur	verticale structuur	b	NA	NA
-2390193_2020-08-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+2390193_2020-08-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9558
 2390193_2020-08-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
 2390193_2020-08-24	2130_hd	Verstoring	overbetreding	b	1	1
 2390193_2020-08-24	2130_hd	Verstoring	overige exoten	b	1	0.9
-2390193_2020-08-24	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-2390193_2020-08-24	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+2390193_2020-08-24	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 2390193_2020-08-24	2130_hd	Verstoring	verbossing	b	1	1
 2390193_2020-08-24	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 2390193_2020-08-24	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2327,8 +2163,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2401457_2023-08-21	2180	Verstoring	invasieve exoten	b	1	1
 2401457_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2401457_2023-08-21	2180	Verstoring	overige exoten	b	1	0.9667
-2401457_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2401457_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2401457_2023-08-21	2180	Verstoring	verruiging	zb	0	-0.3808
 2401457_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 240433_2180_2020-09-16	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2339,8 +2173,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 240433_2180_2020-09-16	2180	Verstoring	invasieve exoten	b	1	1
 240433_2180_2020-09-16	2180	Structuur	minimum structuurareaal	zb	0	-1
 240433_2180_2020-09-16	2180	Verstoring	overige exoten	b	1	1
-240433_2180_2020-09-16	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-240433_2180_2020-09-16	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 240433_2180_2020-09-16	2180	Verstoring	verruiging	zb	1	0.5413
 240433_2180_2020-09-16	2180	Structuur	verticale structuur	b	NA	NA
 2420529_2020-07-15	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2361,8 +2193,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2456885_1_2023-08-25	2180	Verstoring	invasieve exoten	b	1	1
 2456885_1_2023-08-25	2180	Structuur	minimum structuurareaal	zb	0	-0.6606
 2456885_1_2023-08-25	2180	Verstoring	overige exoten	b	0	-0.6
-2456885_1_2023-08-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2456885_1_2023-08-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2456885_1_2023-08-25	2180	Verstoring	verruiging	zb	0	-0.4309
 2456885_1_2023-08-25	2180	Structuur	verticale structuur	b	NA	NA
 2466993_2023-08-21	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2373,8 +2203,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2466993_2023-08-21	2180	Verstoring	invasieve exoten	b	1	1
 2466993_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2466993_2023-08-21	2180	Verstoring	overige exoten	b	1	1
-2466993_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-2466993_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2466993_2023-08-21	2180	Verstoring	verruiging	zb	1	0.0513
 2466993_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 255153_2180_2020-09-21	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2385,8 +2213,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 255153_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 255153_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 255153_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	0.9667
-255153_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-255153_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 255153_2180_2020-09-21	2180	Verstoring	verruiging	zb	1	0.6
 255153_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 256177_2022-09-07	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2397,8 +2223,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 256177_2022-09-07	2180	Verstoring	invasieve exoten	b	1	1
 256177_2022-09-07	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 256177_2022-09-07	2180	Verstoring	overige exoten	b	1	1
-256177_2022-09-07	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-256177_2022-09-07	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 256177_2022-09-07	2180	Verstoring	verruiging	zb	0	-0.5209
 256177_2022-09-07	2180	Structuur	verticale structuur	b	NA	NA
 25777_2021-08-24	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2436,8 +2260,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 268341_2180_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 268341_2180_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-0.9219
 268341_2180_2020-09-14	2180	Verstoring	overige exoten	b	1	1
-268341_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-268341_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 268341_2180_2020-09-14	2180	Verstoring	verruiging	zb	1	0.6427
 268341_2180_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 273717_2180_2020-09-07	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2448,8 +2270,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 273717_2180_2020-09-07	2180	Verstoring	invasieve exoten	b	1	1
 273717_2180_2020-09-07	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 273717_2180_2020-09-07	2180	Verstoring	overige exoten	b	1	0.3333
-273717_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-273717_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 273717_2180_2020-09-07	2180	Verstoring	verruiging	zb	1	0.4827
 273717_2180_2020-09-07	2180	Structuur	verticale structuur	b	NA	NA
 2741_2021-08-09	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2468,12 +2288,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2780977_2020-07-29	2170	Vegetatie	sleutelsoorten	b	0	-1
 2780977_2020-07-29	2170	Verstoring	verbossing	b	1	1
 2780977_2020-07-29	2170	Verstoring	verruiging	zb	0	-0.3727
-293041_2020-08-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+293041_2020-08-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9798
 293041_2020-08-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
 293041_2020-08-24	2130_hd	Verstoring	overbetreding	b	1	1
 293041_2020-08-24	2130_hd	Verstoring	overige exoten	b	1	0.9
-293041_2020-08-24	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-293041_2020-08-24	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+293041_2020-08-24	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 293041_2020-08-24	2130_hd	Verstoring	verbossing	b	0	-0.2222
 293041_2020-08-24	2130_hd	Verstoring	vergrassing	zb	1	0.5707
 293041_2020-08-24	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2506,8 +2325,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3043121_2020-07-29	2130_hd	Verstoring	invasieve exoten	zb	1	1
 3043121_2020-07-29	2130_hd	Verstoring	overbetreding	b	1	1
 3043121_2020-07-29	2130_hd	Verstoring	overige exoten	b	1	1
-3043121_2020-07-29	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-3043121_2020-07-29	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+3043121_2020-07-29	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 3043121_2020-07-29	2130_hd	Verstoring	verbossing	b	1	1
 3043121_2020-07-29	2130_hd	Verstoring	vergrassing	zb	0	-0.2
 3043121_2020-07-29	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2527,12 +2345,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3069105_1_2021-07-20	2190_mp	Verstoring	verbossing	b	1	1
 3069105_1_2021-07-20	2190_mp	Verstoring	verdroging	zb	1	0.248
 3069105_1_2021-07-20	2190_mp	Verstoring	verruiging	zb	1	0.7387
-3141425_2020-07-08	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8442
+3141425_2020-07-08	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8426
 3141425_2020-07-08	2130_hd	Verstoring	invasieve exoten	zb	1	1
 3141425_2020-07-08	2130_hd	Verstoring	overbetreding	b	1	0.8
 3141425_2020-07-08	2130_hd	Verstoring	overige exoten	b	1	1
-3141425_2020-07-08	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-3141425_2020-07-08	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+3141425_2020-07-08	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 3141425_2020-07-08	2130_hd	Verstoring	verbossing	b	1	0.9
 3141425_2020-07-08	2130_hd	Verstoring	vergrassing	zb	1	0.8683
 3141425_2020-07-08	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -2541,7 +2358,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3168949_2020-07-03	2190_mp	Verstoring	verbossing	b	1	1
 3168949_2020-07-03	2190_mp	Verstoring	verdroging	zb	1	0.3419
 3168949_2020-07-03	2190_mp	Verstoring	verruiging	zb	1	1
-319665_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.572
+319665_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.2866
 319665_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 319665_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 319665_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -2588,12 +2405,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 339505_2021-08-16	2120	Verstoring	structuurverstoring	b	1	1
 339505_2021-08-16	2120	Verstoring	vergrassing	zb	1	0.9444
 339505_2021-08-16	2120	Verstoring	verruiging	zb	1	1
-3403569_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5368
+3403569_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.4853
 3403569_2020-07-30	2130_hd	Verstoring	invasieve exoten	zb	1	1
 3403569_2020-07-30	2130_hd	Verstoring	overbetreding	b	1	1
 3403569_2020-07-30	2130_hd	Verstoring	overige exoten	b	1	1
-3403569_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-3403569_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+3403569_2020-07-30	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 3403569_2020-07-30	2130_hd	Verstoring	verbossing	b	1	0.9
 3403569_2020-07-30	2130_hd	Verstoring	vergrassing	zb	1	0.3067
 3403569_2020-07-30	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -2615,21 +2431,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 358577_2020-08-21	2130_had	Verstoring	verbossing	b	1	1
 358577_2020-08-21	2130_had	Verstoring	vergrassing	zb	1	0.7357
 358577_2020-08-21	2130_had	Verstoring	verruiging	zb	1	1
-358577_2020-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
-358577_2020-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
-358577_2020-08-21	2130_hd	Verstoring	overbetreding	b	1	1
-358577_2020-08-21	2130_hd	Verstoring	overige exoten	b	1	0.801
-358577_2020-08-21	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-358577_2020-08-21	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
-358577_2020-08-21	2130_hd	Verstoring	verbossing	b	1	1
-358577_2020-08-21	2130_hd	Verstoring	vergrassing	zb	1	0.7357
-358577_2020-08-21	2130_hd	Verstoring	verruiging	zb	1	1
 3587889_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.3583
 3587889_2020-07-30	2130_hd	Verstoring	invasieve exoten	zb	1	1
 3587889_2020-07-30	2130_hd	Verstoring	overbetreding	b	1	1
 3587889_2020-07-30	2130_hd	Verstoring	overige exoten	b	1	1
-3587889_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-3587889_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+3587889_2020-07-30	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 3587889_2020-07-30	2130_hd	Verstoring	verbossing	b	1	1
 3587889_2020-07-30	2130_hd	Verstoring	vergrassing	zb	1	0.6
 3587889_2020-07-30	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2664,8 +2470,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3637_2020-09-01	2130_hd	Verstoring	invasieve exoten	zb	1	1
 3637_2020-09-01	2130_hd	Verstoring	overbetreding	b	1	0.9
 3637_2020-09-01	2130_hd	Verstoring	overige exoten	b	1	1
-3637_2020-09-01	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-3637_2020-09-01	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+3637_2020-09-01	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 3637_2020-09-01	2130_hd	Verstoring	verbossing	b	1	1
 3637_2020-09-01	2130_hd	Verstoring	vergrassing	zb	0	-0.12
 3637_2020-09-01	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2692,8 +2497,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 369841_2022-08-12	2180	Verstoring	invasieve exoten	b	1	1
 369841_2022-08-12	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 369841_2022-08-12	2180	Verstoring	overige exoten	b	1	1
-369841_2022-08-12	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-369841_2022-08-12	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 369841_2022-08-12	2180	Verstoring	verruiging	zb	0	-0.0286
 369841_2022-08-12	2180	Structuur	verticale structuur	b	NA	NA
 370101_2021-08-10	2160	Structuur	horizontale structuur	b	1	0.0117
@@ -2721,8 +2524,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 37889_2024-08-19	2130_hd	Verstoring	invasieve exoten	zb	1	1
 37889_2024-08-19	2130_hd	Verstoring	overbetreding	b	1	1
 37889_2024-08-19	2130_hd	Verstoring	overige exoten	b	1	1
-37889_2024-08-19	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-37889_2024-08-19	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+37889_2024-08-19	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 37889_2024-08-19	2130_hd	Verstoring	verbossing	b	1	1
 37889_2024-08-19	2130_hd	Verstoring	vergrassing	zb	0	-0.7771
 37889_2024-08-19	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -2735,8 +2537,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 380529_2020-07-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 380529_2020-07-20	2130_hd	Verstoring	overbetreding	b	1	1
 380529_2020-07-20	2130_hd	Verstoring	overige exoten	b	1	1
-380529_2020-07-20	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-380529_2020-07-20	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+380529_2020-07-20	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 380529_2020-07-20	2130_hd	Verstoring	verbossing	b	1	1
 380529_2020-07-20	2130_hd	Verstoring	vergrassing	zb	0	-0.6
 380529_2020-07-20	2130_hd	Verstoring	verruiging	zb	0	-0.01
@@ -2756,7 +2557,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3812913_2021-08-18	2170	Vegetatie	sleutelsoorten	b	0	-1
 3812913_2021-08-18	2170	Verstoring	verbossing	b	1	0.1238
 3812913_2021-08-18	2170	Verstoring	verruiging	zb	0	-0.2605
-385201_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9212
+385201_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9015
 385201_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	1
 385201_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 385201_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -2841,8 +2642,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 413749_2180_2020-09-09	2180	Verstoring	invasieve exoten	b	1	1
 413749_2180_2020-09-09	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 413749_2180_2020-09-09	2180	Verstoring	overige exoten	b	1	1
-413749_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-413749_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 413749_2180_2020-09-09	2180	Verstoring	verruiging	zb	1	0.8667
 413749_2180_2020-09-09	2180	Structuur	verticale structuur	b	NA	NA
 414897_1_2021-07-26	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2866,12 +2665,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 425269_2020-07-07	2120	Verstoring	structuurverstoring	b	1	1
 425269_2020-07-07	2120	Verstoring	vergrassing	zb	1	0.5963
 425269_2020-07-07	2120	Verstoring	verruiging	zb	1	1
-4255537_2020-08-13	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9406
+4255537_2020-08-13	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9394
 4255537_2020-08-13	2130_hd	Verstoring	invasieve exoten	zb	1	1
 4255537_2020-08-13	2130_hd	Verstoring	overbetreding	b	1	1
 4255537_2020-08-13	2130_hd	Verstoring	overige exoten	b	1	0.9
-4255537_2020-08-13	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-4255537_2020-08-13	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+4255537_2020-08-13	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 4255537_2020-08-13	2130_hd	Verstoring	verbossing	b	1	1
 4255537_2020-08-13	2130_hd	Verstoring	vergrassing	zb	1	0.6
 4255537_2020-08-13	2130_hd	Verstoring	verruiging	zb	1	1
@@ -2894,8 +2692,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 435377_2023-08-21	2180	Verstoring	invasieve exoten	b	1	1
 435377_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 435377_2023-08-21	2180	Verstoring	overige exoten	b	1	1
-435377_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-435377_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 435377_2023-08-21	2180	Verstoring	verruiging	zb	0	-0.4277
 435377_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 435377_2024-09-12	2160	Structuur	horizontale structuur	b	0	-1
@@ -2914,20 +2710,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 438065_2021-08-03	2120	Verstoring	structuurverstoring	b	1	0.4595
 438065_2021-08-03	2120	Verstoring	vergrassing	zb	0	-1
 438065_2021-08-03	2120	Verstoring	verruiging	zb	1	1
-4386609_2020-08-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
-4386609_2020-08-17	2130_had	Verstoring	invasief mos	zb	1	1
-4386609_2020-08-17	2130_had	Verstoring	invasieve exoten	zb	1	1
-4386609_2020-08-17	2130_had	Verstoring	overbetreding	b	1	1
-4386609_2020-08-17	2130_had	Vegetatie	sleutelsoorten	b	0	-1
-4386609_2020-08-17	2130_had	Verstoring	verbossing	b	1	0.408
-4386609_2020-08-17	2130_had	Verstoring	vergrassing	zb	1	0.28
-4386609_2020-08-17	2130_had	Verstoring	verruiging	zb	1	0.9
 4386609_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 4386609_2020-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 4386609_2020-08-17	2130_hd	Verstoring	overbetreding	b	1	1
 4386609_2020-08-17	2130_hd	Verstoring	overige exoten	b	1	1
-4386609_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-4386609_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+4386609_2020-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 4386609_2020-08-17	2130_hd	Verstoring	verbossing	b	1	0.408
 4386609_2020-08-17	2130_hd	Verstoring	vergrassing	zb	1	0.28
 4386609_2020-08-17	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -2992,11 +2779,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 470325_2180_2020-09-09	2180	Verstoring	invasieve exoten	b	1	1
 470325_2180_2020-09-09	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 470325_2180_2020-09-09	2180	Verstoring	overige exoten	b	1	1
-470325_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-470325_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 470325_2180_2020-09-09	2180	Verstoring	verruiging	zb	1	0.9667
 470325_2180_2020-09-09	2180	Structuur	verticale structuur	b	NA	NA
-477809_2020-09-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8432
+477809_2020-09-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8416
 477809_2020-09-16	2130_had	Verstoring	invasief mos	zb	1	1
 477809_2020-09-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 477809_2020-09-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3009,7 +2794,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 4779825_2021-08-13	2190_mp	Verstoring	verbossing	b	1	1
 4779825_2021-08-13	2190_mp	Verstoring	verdroging	zb	1	0.7152
 4779825_2021-08-13	2190_mp	Verstoring	verruiging	zb	1	0.9333
-4837553_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.863
+4837553_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8477
 4837553_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	0.8
 4837553_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 4837553_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3030,8 +2815,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 501937_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 501937_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 501937_2022-09-08	2180	Verstoring	overige exoten	b	1	0.3947
-501937_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-501937_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 501937_2022-09-08	2180	Verstoring	verruiging	zb	1	0.9007
 501937_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 507697_2023-08-11	2120	Structuur	(korst)moslaag	zb	1	1
@@ -3058,8 +2841,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 512177_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 512177_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-0.6818
 512177_2020-09-17	2180	Verstoring	overige exoten	b	1	1
-512177_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-512177_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 512177_2020-09-17	2180	Verstoring	verruiging	zb	1	0.7357
 512177_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
 51313_2020-07-10	2120	Structuur	(korst)moslaag	zb	1	1
@@ -3108,8 +2889,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 517297_2022-08-31	2180	Verstoring	invasieve exoten	b	1	1
 517297_2022-08-31	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 517297_2022-08-31	2180	Verstoring	overige exoten	b	1	0.9333
-517297_2022-08-31	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-517297_2022-08-31	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 517297_2022-08-31	2180	Verstoring	verruiging	zb	0	-0.6681
 517297_2022-08-31	2180	Structuur	verticale structuur	b	NA	NA
 5297_2120_2020-08-27	2120	Structuur	(korst)moslaag	zb	1	1
@@ -3131,8 +2910,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 530485_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 530485_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.9219
 530485_2022-08-04	2180	Verstoring	overige exoten	b	0	-0.72
-530485_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-530485_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 530485_2022-08-04	2180	Verstoring	verruiging	zb	0	-0.5714
 530485_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 532849_2021-08-11	2120	Structuur	(korst)moslaag	zb	1	0.1667
@@ -3174,8 +2951,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 566449_2022-08-12	2180	Verstoring	invasieve exoten	b	1	1
 566449_2022-08-12	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 566449_2022-08-12	2180	Verstoring	overige exoten	b	1	1
-566449_2022-08-12	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-566449_2022-08-12	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 566449_2022-08-12	2180	Verstoring	verruiging	zb	1	0.9667
 566449_2022-08-12	2180	Structuur	verticale structuur	b	NA	NA
 567473_2180_2020-09-25	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3186,11 +2961,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 567473_2180_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 567473_2180_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 567473_2180_2020-09-25	2180	Verstoring	overige exoten	b	1	0.9333
-567473_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-567473_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 567473_2180_2020-09-25	2180	Verstoring	verruiging	zb	0	-0.0647
 567473_2180_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
-57521_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.6274
+57521_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.7131
 57521_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	0.8
 57521_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 57521_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3198,7 +2971,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 57521_2021-08-04	2130_had	Verstoring	verbossing	b	1	1
 57521_2021-08-04	2130_had	Verstoring	vergrassing	zb	1	0.7667
 57521_2021-08-04	2130_had	Verstoring	verruiging	zb	1	1
-581809_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.5007
+581809_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.4906
 581809_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	0.9
 581809_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 581809_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3239,8 +3012,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 606261_2180_2020-09-07	2180	Verstoring	invasieve exoten	b	1	1
 606261_2180_2020-09-07	2180	Structuur	minimum structuurareaal	zb	0	-1
 606261_2180_2020-09-07	2180	Verstoring	overige exoten	b	1	0.7667
-606261_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-606261_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 606261_2180_2020-09-07	2180	Verstoring	verruiging	zb	1	0.7357
 606261_2180_2020-09-07	2180	Structuur	verticale structuur	b	NA	NA
 6094133_2021-08-12	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -3263,8 +3034,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 61233_2020-08-13	2130_hd	Verstoring	invasieve exoten	zb	1	1
 61233_2020-08-13	2130_hd	Verstoring	overbetreding	b	1	1
 61233_2020-08-13	2130_hd	Verstoring	overige exoten	b	1	1
-61233_2020-08-13	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-61233_2020-08-13	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+61233_2020-08-13	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 61233_2020-08-13	2130_hd	Verstoring	verbossing	b	1	1
 61233_2020-08-13	2130_hd	Verstoring	vergrassing	zb	1	0.6129
 61233_2020-08-13	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -3334,8 +3104,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 648369_2180_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 648369_2180_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 648369_2180_2020-09-25	2180	Verstoring	overige exoten	b	1	1
-648369_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-648369_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 648369_2180_2020-09-25	2180	Verstoring	verruiging	zb	0	-0.7714
 648369_2180_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 64949_2020-07-09	2160	Structuur	horizontale structuur	b	1	0
@@ -3453,8 +3221,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 764081_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 764081_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 764081_2022-09-08	2180	Verstoring	overige exoten	b	0	-0.4571
-764081_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-764081_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 764081_2022-09-08	2180	Verstoring	verruiging	zb	1	1
 764081_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 776369_2022-09-30	2160	Structuur	horizontale structuur	b	1	0.3632
@@ -3462,12 +3228,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 776369_2022-09-30	2160	Verstoring	overige exoten	b	1	1
 776369_2022-09-30	2160	Vegetatie	sleutelsoorten	b	0	-1
 776369_2022-09-30	2160	Verstoring	verbossing	b	0	-0.2222
-782129_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5213
+782129_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5115
 782129_2020-07-30	2130_hd	Verstoring	invasieve exoten	zb	1	1
 782129_2020-07-30	2130_hd	Verstoring	overbetreding	b	1	1
 782129_2020-07-30	2130_hd	Verstoring	overige exoten	b	1	0.9
-782129_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-782129_2020-07-30	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+782129_2020-07-30	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 782129_2020-07-30	2130_hd	Verstoring	verbossing	b	0	-0.2222
 782129_2020-07-30	2130_hd	Verstoring	vergrassing	zb	1	0.3667
 782129_2020-07-30	2130_hd	Verstoring	verruiging	zb	1	0.3
@@ -3481,7 +3246,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 802609_2022-09-28	2160	Verstoring	overige exoten	b	1	1
 802609_2022-09-28	2160	Vegetatie	sleutelsoorten	b	1	0.3
 802609_2022-09-28	2160	Verstoring	verbossing	b	1	1
-811185_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.5143
+811185_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3062
 811185_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
 811185_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 811185_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3493,8 +3258,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 81205_2020-09-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 81205_2020-09-10	2130_hd	Verstoring	overbetreding	b	1	1
 81205_2020-09-10	2130_hd	Verstoring	overige exoten	b	1	1
-81205_2020-09-10	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-81205_2020-09-10	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+81205_2020-09-10	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 81205_2020-09-10	2130_hd	Verstoring	verbossing	b	1	1
 81205_2020-09-10	2130_hd	Verstoring	vergrassing	zb	1	0.9333
 81205_2020-09-10	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -3507,8 +3271,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 81973_2020-09-07	2130_hd	Verstoring	invasieve exoten	zb	1	1
 81973_2020-09-07	2130_hd	Verstoring	overbetreding	b	1	1
 81973_2020-09-07	2130_hd	Verstoring	overige exoten	b	1	1
-81973_2020-09-07	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-81973_2020-09-07	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+81973_2020-09-07	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 81973_2020-09-07	2130_hd	Verstoring	verbossing	b	1	1
 81973_2020-09-07	2130_hd	Verstoring	vergrassing	zb	1	1
 81973_2020-09-07	2130_hd	Verstoring	verruiging	zb	1	1
@@ -3537,12 +3300,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 854129_2022-09-21	2160	Verstoring	overige exoten	b	1	1
 854129_2022-09-21	2160	Vegetatie	sleutelsoorten	b	0	-0.2
 854129_2022-09-21	2160	Verstoring	verbossing	b	1	1
-8557745_2022-10-11	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+8557745_2022-10-11	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9572
 8557745_2022-10-11	2130_hd	Verstoring	invasieve exoten	zb	1	1
 8557745_2022-10-11	2130_hd	Verstoring	overbetreding	b	1	1
 8557745_2022-10-11	2130_hd	Verstoring	overige exoten	b	1	1
-8557745_2022-10-11	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-8557745_2022-10-11	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+8557745_2022-10-11	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 8557745_2022-10-11	2130_hd	Verstoring	verbossing	b	0	-0.4667
 8557745_2022-10-11	2130_hd	Verstoring	vergrassing	zb	1	1
 8557745_2022-10-11	2130_hd	Verstoring	verruiging	zb	1	1
@@ -3599,8 +3361,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 88117_2020-09-15	2130_hd	Verstoring	invasieve exoten	zb	0	-0.07
 88117_2020-09-15	2130_hd	Verstoring	overbetreding	b	1	1
 88117_2020-09-15	2130_hd	Verstoring	overige exoten	b	1	1
-88117_2020-09-15	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-88117_2020-09-15	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+88117_2020-09-15	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 88117_2020-09-15	2130_hd	Verstoring	verbossing	b	0	-0.2312
 88117_2020-09-15	2130_hd	Verstoring	vergrassing	zb	1	0.3333
 88117_2020-09-15	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -3619,7 +3380,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 913201_2022-08-05	2160	Verstoring	overige exoten	b	1	1
 913201_2022-08-05	2160	Vegetatie	sleutelsoorten	b	0	-0.2
 913201_2022-08-05	2160	Verstoring	verbossing	b	1	1
-913585_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+913585_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9532
 913585_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
 913585_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 913585_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3627,12 +3388,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 913585_2020-07-17	2130_had	Verstoring	verbossing	b	1	1
 913585_2020-07-17	2130_had	Verstoring	vergrassing	zb	1	0.8347
 913585_2020-07-17	2130_had	Verstoring	verruiging	zb	1	0.6
-91505_2020-07-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+91505_2020-07-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9598
 91505_2020-07-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 91505_2020-07-20	2130_hd	Verstoring	overbetreding	b	1	1
 91505_2020-07-20	2130_hd	Verstoring	overige exoten	b	1	1
-91505_2020-07-20	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-91505_2020-07-20	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+91505_2020-07-20	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 91505_2020-07-20	2130_hd	Verstoring	verbossing	b	1	1
 91505_2020-07-20	2130_hd	Verstoring	vergrassing	zb	0	-0.307
 91505_2020-07-20	2130_hd	Verstoring	verruiging	zb	0	-0.1111
@@ -3654,8 +3414,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 940085_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 940085_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.9878
 940085_2022-08-04	2180	Verstoring	overige exoten	b	1	1
-940085_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-940085_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 940085_2022-08-04	2180	Verstoring	verruiging	zb	1	0.8347
 940085_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 945969_2022-09-27	2160	Structuur	horizontale structuur	b	1	0.0097
@@ -3671,8 +3429,6 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 959925_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 959925_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.9312
 959925_2022-08-01	2180	Verstoring	overige exoten	b	1	0.9667
-959925_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-959925_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 959925_2022-08-01	2180	Verstoring	verruiging	zb	1	1
 959925_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 96433_2021-08-23	2120	Structuur	(korst)moslaag	zb	1	1
@@ -3686,7 +3442,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 96433_2021-08-23	2120	Verstoring	structuurverstoring	b	1	1
 96433_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.9929
 96433_2021-08-23	2120	Verstoring	verruiging	zb	0	-0.2857
-966833_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9212
+966833_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9204
 966833_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
 966833_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 966833_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3699,7 +3455,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 971953_2022-10-07	2160	Verstoring	overige exoten	b	1	0.6
 971953_2022-10-07	2160	Vegetatie	sleutelsoorten	b	1	0
 971953_2022-10-07	2160	Verstoring	verbossing	b	1	1
-975025_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9016
+975025_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8907
 975025_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	1
 975025_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 975025_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3717,20 +3473,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 977713_2022-09-27	2160	Verstoring	overige exoten	b	1	1
 977713_2022-09-27	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 977713_2022-09-27	2160	Verstoring	verbossing	b	1	1
-978737_2020-08-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
-978737_2020-08-17	2130_had	Verstoring	invasief mos	zb	1	1
-978737_2020-08-17	2130_had	Verstoring	invasieve exoten	zb	1	1
-978737_2020-08-17	2130_had	Verstoring	overbetreding	b	1	1
-978737_2020-08-17	2130_had	Vegetatie	sleutelsoorten	b	0	-1
-978737_2020-08-17	2130_had	Verstoring	verbossing	b	0	-0.5733
-978737_2020-08-17	2130_had	Verstoring	vergrassing	zb	1	1
-978737_2020-08-17	2130_had	Verstoring	verruiging	zb	0	-0.0222
 978737_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 978737_2020-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 978737_2020-08-17	2130_hd	Verstoring	overbetreding	b	1	1
 978737_2020-08-17	2130_hd	Verstoring	overige exoten	b	1	1
-978737_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-978737_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+978737_2020-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 978737_2020-08-17	2130_hd	Verstoring	verbossing	b	0	-0.5733
 978737_2020-08-17	2130_hd	Verstoring	vergrassing	zb	1	1
 978737_2020-08-17	2130_hd	Verstoring	verruiging	zb	0	-0.0222
@@ -3752,8 +3499,6 @@ bd_01_2022-06-30	2180	Structuur	horizontale structuur	b	NA	NA
 bd_01_2022-06-30	2180	Verstoring	invasieve exoten	b	1	1
 bd_01_2022-06-30	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 bd_01_2022-06-30	2180	Verstoring	overige exoten	b	0	-0.5757
-bd_01_2022-06-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-bd_01_2022-06-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 bd_01_2022-06-30	2180	Verstoring	verruiging	zb	1	0.2667
 bd_01_2022-06-30	2180	Structuur	verticale structuur	b	NA	NA
 bd_02_2022-08-01	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3764,8 +3509,6 @@ bd_02_2022-08-01	2180	Structuur	horizontale structuur	b	NA	NA
 bd_02_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 bd_02_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.9198
 bd_02_2022-08-01	2180	Verstoring	overige exoten	b	0	-0.232
-bd_02_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-bd_02_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 bd_02_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9337
 bd_02_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 bd_03_2022-08-01	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3776,8 +3519,6 @@ bd_03_2022-08-01	2180	Structuur	horizontale structuur	b	NA	NA
 bd_03_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 bd_03_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 bd_03_2022-08-01	2180	Verstoring	overige exoten	b	1	1
-bd_03_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-bd_03_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 bd_03_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9667
 bd_03_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 BD_06_2180_2020-09-28	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3788,16 +3529,13 @@ BD_06_2180_2020-09-28	2180	Structuur	horizontale structuur	b	NA	NA
 BD_06_2180_2020-09-28	2180	Verstoring	invasieve exoten	b	1	1
 BD_06_2180_2020-09-28	2180	Structuur	minimum structuurareaal	zb	0	-0.8438
 BD_06_2180_2020-09-28	2180	Verstoring	overige exoten	b	1	0.9333
-BD_06_2180_2020-09-28	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-BD_06_2180_2020-09-28	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 BD_06_2180_2020-09-28	2180	Verstoring	verruiging	zb	0	-0.01
 BD_06_2180_2020-09-28	2180	Structuur	verticale structuur	b	NA	NA
 bd_11_2021-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 bd_11_2021-08-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 bd_11_2021-08-10	2130_hd	Verstoring	overbetreding	b	1	1
 bd_11_2021-08-10	2130_hd	Verstoring	overige exoten	b	1	1
-bd_11_2021-08-10	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-bd_11_2021-08-10	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+bd_11_2021-08-10	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 bd_11_2021-08-10	2130_hd	Verstoring	verbossing	b	1	1
 bd_11_2021-08-10	2130_hd	Verstoring	vergrassing	zb	0	-0.1429
 bd_11_2021-08-10	2130_hd	Verstoring	verruiging	zb	1	1
@@ -3806,16 +3544,15 @@ bd_13_2020-07-14	2160	Verstoring	invasieve exoten	zb	1	1
 bd_13_2020-07-14	2160	Verstoring	overige exoten	b	1	1
 bd_13_2020-07-14	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 bd_13_2020-07-14	2160	Verstoring	verbossing	b	1	1
-bd_14_2021-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+bd_14_2021-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8
 bd_14_2021-08-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 bd_14_2021-08-10	2130_hd	Verstoring	overbetreding	b	1	1
 bd_14_2021-08-10	2130_hd	Verstoring	overige exoten	b	1	0.9
-bd_14_2021-08-10	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-bd_14_2021-08-10	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+bd_14_2021-08-10	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 bd_14_2021-08-10	2130_hd	Verstoring	verbossing	b	1	1
 bd_14_2021-08-10	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 bd_14_2021-08-10	2130_hd	Verstoring	verruiging	zb	1	1
-ca_01_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7077
+ca_01_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6753
 ca_01_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	0.8
 ca_01_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_01_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3823,7 +3560,7 @@ ca_01_2020-07-17	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_01_2020-07-17	2130_had	Verstoring	verbossing	b	1	1
 ca_01_2020-07-17	2130_had	Verstoring	vergrassing	zb	1	0.9333
 ca_01_2020-07-17	2130_had	Verstoring	verruiging	zb	1	1
-ca_02_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8818
+ca_02_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8806
 ca_02_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 ca_02_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_02_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3831,7 +3568,7 @@ ca_02_2021-08-04	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_02_2021-08-04	2130_had	Verstoring	verbossing	b	1	1
 ca_02_2021-08-04	2130_had	Verstoring	vergrassing	zb	1	0.8667
 ca_02_2021-08-04	2130_had	Verstoring	verruiging	zb	1	1
-ca_03_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.4826
+ca_03_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.5284
 ca_03_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	0.3
 ca_03_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_03_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3847,11 +3584,9 @@ Ca_04_2180_2020-09-17	2180	Structuur	horizontale structuur	b	NA	NA
 Ca_04_2180_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 Ca_04_2180_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-1
 Ca_04_2180_2020-09-17	2180	Verstoring	overige exoten	b	1	1
-Ca_04_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-Ca_04_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_04_2180_2020-09-17	2180	Verstoring	verruiging	zb	1	1
 Ca_04_2180_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
-ca_05_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7702
+ca_05_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7631
 ca_05_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 ca_05_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_05_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3867,8 +3602,6 @@ Ca_06_2180_2020-09-17	2180	Structuur	horizontale structuur	b	NA	NA
 Ca_06_2180_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 Ca_06_2180_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-0.6818
 Ca_06_2180_2020-09-17	2180	Verstoring	overige exoten	b	1	1
-Ca_06_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-Ca_06_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_06_2180_2020-09-17	2180	Verstoring	verruiging	zb	1	0.9007
 Ca_06_2180_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
 ca_07_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.1079
@@ -3879,7 +3612,7 @@ ca_07_2021-08-04	2130_had	Vegetatie	sleutelsoorten	b	0	-0.25
 ca_07_2021-08-04	2130_had	Verstoring	verbossing	b	1	1
 ca_07_2021-08-04	2130_had	Verstoring	vergrassing	zb	0	-0.1429
 ca_07_2021-08-04	2130_had	Verstoring	verruiging	zb	1	0.9
-ca_08_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0587
+ca_08_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0803
 ca_08_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
 ca_08_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_08_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3887,7 +3620,7 @@ ca_08_2020-07-17	2130_had	Vegetatie	sleutelsoorten	b	0	-0.5
 ca_08_2020-07-17	2130_had	Verstoring	verbossing	b	1	1
 ca_08_2020-07-17	2130_had	Verstoring	vergrassing	zb	1	0.7667
 ca_08_2020-07-17	2130_had	Verstoring	verruiging	zb	1	1
-ca_09_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8259
+ca_09_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8167
 ca_09_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	0.6
 ca_09_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_09_2020-07-16	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -3895,7 +3628,7 @@ ca_09_2020-07-16	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_09_2020-07-16	2130_had	Verstoring	verbossing	b	1	1
 ca_09_2020-07-16	2130_had	Verstoring	vergrassing	zb	1	0.9333
 ca_09_2020-07-16	2130_had	Verstoring	verruiging	zb	1	1
-ca_10_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.1412
+ca_10_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0104
 ca_10_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	0.6
 ca_10_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_10_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3903,7 +3636,7 @@ ca_10_2020-07-16	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_10_2020-07-16	2130_had	Verstoring	verbossing	b	1	1
 ca_10_2020-07-16	2130_had	Verstoring	vergrassing	zb	1	0.6667
 ca_10_2020-07-16	2130_had	Verstoring	verruiging	zb	1	1
-ca_11_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.1155
+ca_11_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.0974
 ca_11_2020-07-16	2130_had	Verstoring	invasief mos	zb	0	-0.2222
 ca_11_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_11_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3919,11 +3652,9 @@ Ca_12_2020-09-17	2180	Structuur	horizontale structuur	b	NA	NA
 Ca_12_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 Ca_12_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-0.6818
 Ca_12_2020-09-17	2180	Verstoring	overige exoten	b	1	1
-Ca_12_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-Ca_12_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_12_2020-09-17	2180	Verstoring	verruiging	zb	1	1
 Ca_12_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
-ca_13_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6941
+ca_13_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6911
 ca_13_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	1
 ca_13_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_13_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3931,7 +3662,7 @@ ca_13_2020-07-16	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_13_2020-07-16	2130_had	Verstoring	verbossing	b	1	1
 ca_13_2020-07-16	2130_had	Verstoring	vergrassing	zb	0	-0.2929
 ca_13_2020-07-16	2130_had	Verstoring	verruiging	zb	1	1
-ca_15_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7331
+ca_15_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7191
 ca_15_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 ca_15_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_15_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3947,7 +3678,7 @@ dh_02_2021-08-02	2130_had	Vegetatie	sleutelsoorten	b	0	-1
 dh_02_2021-08-02	2130_had	Verstoring	verbossing	b	1	1
 dh_02_2021-08-02	2130_had	Verstoring	vergrassing	zb	1	0.7667
 dh_02_2021-08-02	2130_had	Verstoring	verruiging	zb	1	1
-dh_03_2021-07-28	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6824
+dh_03_2021-07-28	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6792
 dh_03_2021-07-28	2130_had	Verstoring	invasief mos	zb	1	1
 dh_03_2021-07-28	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_03_2021-07-28	2130_had	Verstoring	overbetreding	b	1	1
@@ -3968,7 +3699,7 @@ dh_05_2021-08-02	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 dh_05_2021-08-02	2130_had	Verstoring	verbossing	b	1	1
 dh_05_2021-08-02	2130_had	Verstoring	vergrassing	zb	0	-0.1599
 dh_05_2021-08-02	2130_had	Verstoring	verruiging	zb	1	1
-dh_06_2020-07-22	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0441
+dh_06_2020-07-22	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0764
 dh_06_2020-07-22	2130_had	Verstoring	invasief mos	zb	1	0.9
 dh_06_2020-07-22	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_06_2020-07-22	2130_had	Verstoring	overbetreding	b	1	1
@@ -3984,7 +3715,7 @@ dh_07_2021-08-05	2130_had	Vegetatie	sleutelsoorten	b	0	-1
 dh_07_2021-08-05	2130_had	Verstoring	verbossing	b	1	1
 dh_07_2021-08-05	2130_had	Verstoring	vergrassing	zb	1	0.8347
 dh_07_2021-08-05	2130_had	Verstoring	verruiging	zb	1	1
-dh_10_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.179
+dh_10_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.1622
 dh_10_2021-07-14	2130_had	Verstoring	invasief mos	zb	1	1
 dh_10_2021-07-14	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_10_2021-07-14	2130_had	Verstoring	overbetreding	b	1	1
@@ -4000,7 +3731,7 @@ dh_11_2021-08-05	2130_had	Vegetatie	sleutelsoorten	b	0	-0.25
 dh_11_2021-08-05	2130_had	Verstoring	verbossing	b	1	1
 dh_11_2021-08-05	2130_had	Verstoring	vergrassing	zb	1	0.6
 dh_11_2021-08-05	2130_had	Verstoring	verruiging	zb	1	1
-dh_12_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6986
+dh_12_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6956
 dh_12_2021-07-14	2130_had	Verstoring	invasief mos	zb	1	1
 dh_12_2021-07-14	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_12_2021-07-14	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -4008,7 +3739,7 @@ dh_12_2021-07-14	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 dh_12_2021-07-14	2130_had	Verstoring	verbossing	b	1	1
 dh_12_2021-07-14	2130_had	Verstoring	vergrassing	zb	1	1
 dh_12_2021-07-14	2130_had	Verstoring	verruiging	zb	1	1
-dh_14_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3584
+dh_14_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3519
 dh_14_2021-07-14	2130_had	Verstoring	invasief mos	zb	1	1
 dh_14_2021-07-14	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_14_2021-07-14	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -4066,8 +3797,7 @@ dp_08_2021-08-18	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 dp_08_2021-08-18	2130_hd	Verstoring	invasieve exoten	zb	1	1
 dp_08_2021-08-18	2130_hd	Verstoring	overbetreding	b	1	1
 dp_08_2021-08-18	2130_hd	Verstoring	overige exoten	b	1	1
-dp_08_2021-08-18	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-dp_08_2021-08-18	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+dp_08_2021-08-18	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 dp_08_2021-08-18	2130_hd	Verstoring	verbossing	b	1	0.9
 dp_08_2021-08-18	2130_hd	Verstoring	vergrassing	zb	0	-0.04
 dp_08_2021-08-18	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4080,17 +3810,15 @@ dp_10_2021-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 dp_10_2021-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 dp_10_2021-08-17	2130_hd	Verstoring	overbetreding	b	1	0.9
 dp_10_2021-08-17	2130_hd	Verstoring	overige exoten	b	1	1
-dp_10_2021-08-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-dp_10_2021-08-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+dp_10_2021-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 dp_10_2021-08-17	2130_hd	Verstoring	verbossing	b	1	1
 dp_10_2021-08-17	2130_hd	Verstoring	vergrassing	zb	1	0
 dp_10_2021-08-17	2130_hd	Verstoring	verruiging	zb	1	0.3
-dp_11_2021-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6229
+dp_11_2021-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5286
 dp_11_2021-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 dp_11_2021-08-17	2130_hd	Verstoring	overbetreding	b	1	1
 dp_11_2021-08-17	2130_hd	Verstoring	overige exoten	b	1	1
-dp_11_2021-08-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-dp_11_2021-08-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.5
+dp_11_2021-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 dp_11_2021-08-17	2130_hd	Verstoring	verbossing	b	1	1
 dp_11_2021-08-17	2130_hd	Verstoring	vergrassing	zb	1	1
 dp_11_2021-08-17	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4098,8 +3826,7 @@ dp_13_2021-08-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
 dp_13_2021-08-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 dp_13_2021-08-20	2130_hd	Verstoring	overbetreding	b	1	0.9
 dp_13_2021-08-20	2130_hd	Verstoring	overige exoten	b	1	0.9
-dp_13_2021-08-20	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.25
-dp_13_2021-08-20	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+dp_13_2021-08-20	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.25
 dp_13_2021-08-20	2130_hd	Verstoring	verbossing	b	1	1
 dp_13_2021-08-20	2130_hd	Verstoring	vergrassing	zb	1	0.9333
 dp_13_2021-08-20	2130_hd	Verstoring	verruiging	zb	1	0.8
@@ -4111,8 +3838,6 @@ ha_02_2022-08-05	2180	Structuur	horizontale structuur	b	NA	NA
 ha_02_2022-08-05	2180	Verstoring	invasieve exoten	b	1	1
 ha_02_2022-08-05	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 ha_02_2022-08-05	2180	Verstoring	overige exoten	b	1	1
-ha_02_2022-08-05	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-ha_02_2022-08-05	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ha_02_2022-08-05	2180	Verstoring	verruiging	zb	0	-0.1515
 ha_02_2022-08-05	2180	Structuur	verticale structuur	b	NA	NA
 ha_14_2022-08-05	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -4123,8 +3848,6 @@ ha_14_2022-08-05	2180	Structuur	horizontale structuur	b	NA	NA
 ha_14_2022-08-05	2180	Verstoring	invasieve exoten	b	1	1
 ha_14_2022-08-05	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 ha_14_2022-08-05	2180	Verstoring	overige exoten	b	1	1
-ha_14_2022-08-05	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-ha_14_2022-08-05	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ha_14_2022-08-05	2180	Verstoring	verruiging	zb	0	-0.3
 ha_14_2022-08-05	2180	Structuur	verticale structuur	b	NA	NA
 hb_01_2021-08-23	2160	Structuur	horizontale structuur	b	1	0.3632
@@ -4146,8 +3869,7 @@ hs_08_2021-08-19	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	0.406
 hs_08_2021-08-19	2130_hd	Verstoring	invasieve exoten	zb	1	1
 hs_08_2021-08-19	2130_hd	Verstoring	overbetreding	b	1	0.9
 hs_08_2021-08-19	2130_hd	Verstoring	overige exoten	b	1	1
-hs_08_2021-08-19	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-hs_08_2021-08-19	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+hs_08_2021-08-19	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 hs_08_2021-08-19	2130_hd	Verstoring	verbossing	b	1	1
 hs_08_2021-08-19	2130_hd	Verstoring	vergrassing	zb	1	1
 hs_08_2021-08-19	2130_hd	Verstoring	verruiging	zb	1	0.9
@@ -4159,8 +3881,6 @@ hs_09_2022-09-02	2180	Structuur	horizontale structuur	b	NA	NA
 hs_09_2022-09-02	2180	Verstoring	invasieve exoten	b	1	1
 hs_09_2022-09-02	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 hs_09_2022-09-02	2180	Verstoring	overige exoten	b	1	1
-hs_09_2022-09-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-hs_09_2022-09-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.625
 hs_09_2022-09-02	2180	Verstoring	verruiging	zb	1	0.8667
 hs_09_2022-09-02	2180	Structuur	verticale structuur	b	NA	NA
 hs_12_2021-08-19	2160	Structuur	horizontale structuur	b	1	0
@@ -4177,17 +3897,15 @@ hs_17_2021-08-19	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 hs_17_2021-08-19	2130_hd	Verstoring	invasieve exoten	zb	1	1
 hs_17_2021-08-19	2130_hd	Verstoring	overbetreding	b	1	1
 hs_17_2021-08-19	2130_hd	Verstoring	overige exoten	b	1	1
-hs_17_2021-08-19	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-hs_17_2021-08-19	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+hs_17_2021-08-19	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 hs_17_2021-08-19	2130_hd	Verstoring	verbossing	b	1	0.8
 hs_17_2021-08-19	2130_hd	Verstoring	vergrassing	zb	0	-0.0115
 hs_17_2021-08-19	2130_hd	Verstoring	verruiging	zb	0	-0.0222
-ij_02_2020-07-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+ij_02_2020-07-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9778
 ij_02_2020-07-28	2130_hd	Verstoring	invasieve exoten	zb	1	1
 ij_02_2020-07-28	2130_hd	Verstoring	overbetreding	b	1	1
 ij_02_2020-07-28	2130_hd	Verstoring	overige exoten	b	1	1
-ij_02_2020-07-28	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-ij_02_2020-07-28	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+ij_02_2020-07-28	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 ij_02_2020-07-28	2130_hd	Verstoring	verbossing	b	1	1
 ij_02_2020-07-28	2130_hd	Verstoring	vergrassing	zb	1	0.8027
 ij_02_2020-07-28	2130_hd	Verstoring	verruiging	zb	0	-0.6667
@@ -4199,8 +3917,6 @@ KD_05_2180_2020-09-21	2180	Structuur	horizontale structuur	b	NA	NA
 KD_05_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 KD_05_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 KD_05_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	1
-KD_05_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-KD_05_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 KD_05_2180_2020-09-21	2180	Verstoring	verruiging	zb	0	-0.2759
 KD_05_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 nd_03_2021-08-25	2160	Structuur	horizontale structuur	b	1	0.134
@@ -4231,8 +3947,6 @@ OH_01_2180_2020-09-21	2180	Structuur	horizontale structuur	b	NA	NA
 OH_01_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 OH_01_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 OH_01_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	1
-OH_01_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-OH_01_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 OH_01_2180_2020-09-21	2180	Verstoring	verruiging	zb	1	0.2803
 OH_01_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 OH_02_2020-09-25	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -4243,8 +3957,6 @@ OH_02_2020-09-25	2180	Structuur	horizontale structuur	b	NA	NA
 OH_02_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 OH_02_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 OH_02_2020-09-25	2180	Verstoring	overige exoten	b	1	1
-OH_02_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-OH_02_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 OH_02_2020-09-25	2180	Verstoring	verruiging	zb	1	0.9667
 OH_02_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 OH_03_2020-09-25	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -4255,8 +3967,6 @@ OH_03_2020-09-25	2180	Structuur	horizontale structuur	b	NA	NA
 OH_03_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 OH_03_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 OH_03_2020-09-25	2180	Verstoring	overige exoten	b	1	1
-OH_03_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-OH_03_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 OH_03_2020-09-25	2180	Verstoring	verruiging	zb	1	0.7047
 OH_03_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 oh_08_2021-08-26	2160	Structuur	horizontale structuur	b	1	0.134
@@ -4268,8 +3978,7 @@ ov_91_2021-08-09	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	0.0395
 ov_91_2021-08-09	2130_hd	Verstoring	invasieve exoten	zb	1	1
 ov_91_2021-08-09	2130_hd	Verstoring	overbetreding	b	1	1
 ov_91_2021-08-09	2130_hd	Verstoring	overige exoten	b	1	1
-ov_91_2021-08-09	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-ov_91_2021-08-09	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+ov_91_2021-08-09	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 ov_91_2021-08-09	2130_hd	Verstoring	verbossing	b	1	1
 ov_91_2021-08-09	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 ov_91_2021-08-09	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4301,12 +4010,11 @@ ty_01_2020-07-08	2160	Verstoring	invasieve exoten	zb	1	1
 ty_01_2020-07-08	2160	Verstoring	overige exoten	b	1	1
 ty_01_2020-07-08	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 ty_01_2020-07-08	2160	Verstoring	verbossing	b	1	1
-TY_18_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
+TY_18_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9598
 TY_18_2020-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 TY_18_2020-08-17	2130_hd	Verstoring	overbetreding	b	1	1
 TY_18_2020-08-17	2130_hd	Verstoring	overige exoten	b	1	1
-TY_18_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-TY_18_2020-08-17	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+TY_18_2020-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 TY_18_2020-08-17	2130_hd	Verstoring	verbossing	b	1	1
 TY_18_2020-08-17	2130_hd	Verstoring	vergrassing	zb	0	-0.1429
 TY_18_2020-08-17	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4314,8 +4022,7 @@ TY_20_2020-08-13	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9404
 TY_20_2020-08-13	2130_hd	Verstoring	invasieve exoten	zb	1	1
 TY_20_2020-08-13	2130_hd	Verstoring	overbetreding	b	1	1
 TY_20_2020-08-13	2130_hd	Verstoring	overige exoten	b	1	0.801
-TY_20_2020-08-13	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-TY_20_2020-08-13	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+TY_20_2020-08-13	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 TY_20_2020-08-13	2130_hd	Verstoring	verbossing	b	1	1
 TY_20_2020-08-13	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 TY_20_2020-08-13	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4329,21 +4036,19 @@ wn_05_2020-09-02	2170	Verstoring	overige exoten	b	1	1
 wn_05_2020-09-02	2170	Vegetatie	sleutelsoorten	b	0	-0.3333
 wn_05_2020-09-02	2170	Verstoring	verbossing	b	1	0.9
 wn_05_2020-09-02	2170	Verstoring	verruiging	zb	1	0.702
-wn_12_2021-07-15	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	0.1656
+wn_12_2021-07-15	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	0.2017
 wn_12_2021-07-15	2130_hd	Verstoring	invasieve exoten	zb	1	1
 wn_12_2021-07-15	2130_hd	Verstoring	overbetreding	b	1	1
 wn_12_2021-07-15	2130_hd	Verstoring	overige exoten	b	1	0.9
-wn_12_2021-07-15	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-wn_12_2021-07-15	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-0.75
+wn_12_2021-07-15	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 wn_12_2021-07-15	2130_hd	Verstoring	verbossing	b	1	1
 wn_12_2021-07-15	2130_hd	Verstoring	vergrassing	zb	1	0.4333
 wn_12_2021-07-15	2130_hd	Verstoring	verruiging	zb	1	1
-wn_15_2021-07-27	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8638
+wn_15_2021-07-27	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.861
 wn_15_2021-07-27	2130_hd	Verstoring	invasieve exoten	zb	1	1
 wn_15_2021-07-27	2130_hd	Verstoring	overbetreding	b	1	1
 wn_15_2021-07-27	2130_hd	Verstoring	overige exoten	b	1	1
-wn_15_2021-07-27	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.5
-wn_15_2021-07-27	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+wn_15_2021-07-27	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.5
 wn_15_2021-07-27	2130_hd	Verstoring	verbossing	b	1	1
 wn_15_2021-07-27	2130_hd	Verstoring	vergrassing	zb	1	0.9333
 wn_15_2021-07-27	2130_hd	Verstoring	verruiging	zb	1	0.8
@@ -4366,8 +4071,7 @@ wn_24_2021-09-08	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.96
 wn_24_2021-09-08	2130_hd	Verstoring	invasieve exoten	zb	1	1
 wn_24_2021-09-08	2130_hd	Verstoring	overbetreding	b	1	1
 wn_24_2021-09-08	2130_hd	Verstoring	overige exoten	b	1	1
-wn_24_2021-09-08	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-wn_24_2021-09-08	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+wn_24_2021-09-08	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 wn_24_2021-09-08	2130_hd	Verstoring	verbossing	b	1	1
 wn_24_2021-09-08	2130_hd	Verstoring	vergrassing	zb	1	0.9007
 wn_24_2021-09-08	2130_hd	Verstoring	verruiging	zb	1	0.6
@@ -4404,16 +4108,13 @@ wz_08_2022-09-06	2180	Structuur	horizontale structuur	b	NA	NA
 wz_08_2022-09-06	2180	Verstoring	invasieve exoten	b	1	1
 wz_08_2022-09-06	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 wz_08_2022-09-06	2180	Verstoring	overige exoten	b	0	-0.8571
-wz_08_2022-09-06	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-wz_08_2022-09-06	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 wz_08_2022-09-06	2180	Verstoring	verruiging	zb	0	-0.9771
 wz_08_2022-09-06	2180	Structuur	verticale structuur	b	NA	NA
 wz_10_2020-06-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 wz_10_2020-06-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 wz_10_2020-06-16	2130_hd	Verstoring	overbetreding	b	1	1
 wz_10_2020-06-16	2130_hd	Verstoring	overige exoten	b	1	1
-wz_10_2020-06-16	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-wz_10_2020-06-16	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+wz_10_2020-06-16	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 wz_10_2020-06-16	2130_hd	Verstoring	verbossing	b	0	-0.1462
 wz_10_2020-06-16	2130_hd	Verstoring	vergrassing	zb	1	0.5179
 wz_10_2020-06-16	2130_hd	Verstoring	verruiging	zb	1	0.702
@@ -4431,8 +4132,7 @@ WZ_21_2020-09-22	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 WZ_21_2020-09-22	2130_hd	Verstoring	invasieve exoten	zb	1	1
 WZ_21_2020-09-22	2130_hd	Verstoring	overbetreding	b	1	1
 WZ_21_2020-09-22	2130_hd	Verstoring	overige exoten	b	1	1
-WZ_21_2020-09-22	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-WZ_21_2020-09-22	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+WZ_21_2020-09-22	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 WZ_21_2020-09-22	2130_hd	Verstoring	verbossing	b	1	0.216
 WZ_21_2020-09-22	2130_hd	Verstoring	vergrassing	zb	1	0.1467
 WZ_21_2020-09-22	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4440,8 +4140,7 @@ WZ_22_2020-09-22	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
 WZ_22_2020-09-22	2130_hd	Verstoring	invasieve exoten	zb	1	1
 WZ_22_2020-09-22	2130_hd	Verstoring	overbetreding	b	1	1
 WZ_22_2020-09-22	2130_hd	Verstoring	overige exoten	b	1	1
-WZ_22_2020-09-22	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-WZ_22_2020-09-22	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+WZ_22_2020-09-22	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 WZ_22_2020-09-22	2130_hd	Verstoring	verbossing	b	1	0.504
 WZ_22_2020-09-22	2130_hd	Verstoring	vergrassing	zb	1	1
 WZ_22_2020-09-22	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4458,8 +4157,6 @@ WZ_23_2180_2020-09-22	2180	Structuur	horizontale structuur	b	NA	NA
 WZ_23_2180_2020-09-22	2180	Verstoring	invasieve exoten	b	1	1
 WZ_23_2180_2020-09-22	2180	Structuur	minimum structuurareaal	zb	0	-1
 WZ_23_2180_2020-09-22	2180	Verstoring	overige exoten	b	1	1
-WZ_23_2180_2020-09-22	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-WZ_23_2180_2020-09-22	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 WZ_23_2180_2020-09-22	2180	Verstoring	verruiging	zb	0	-0.3277
 WZ_23_2180_2020-09-22	2180	Structuur	verticale structuur	b	NA	NA
 WZ_24_2160_2020-09-22	2160	Structuur	horizontale structuur	b	0	-1
@@ -4490,8 +4187,6 @@ ZW_04_2180_2020-09-01	2180	Structuur	horizontale structuur	b	NA	NA
 ZW_04_2180_2020-09-01	2180	Verstoring	invasieve exoten	b	1	1
 ZW_04_2180_2020-09-01	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 ZW_04_2180_2020-09-01	2180	Verstoring	overige exoten	b	1	1
-ZW_04_2180_2020-09-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-ZW_04_2180_2020-09-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ZW_04_2180_2020-09-01	2180	Verstoring	verruiging	zb	0	-0.0647
 ZW_04_2180_2020-09-01	2180	Structuur	verticale structuur	b	NA	NA
 ZW_05_2020-09-14	2160	Structuur	horizontale structuur	b	0	-1
@@ -4512,8 +4207,6 @@ zw_10_2180_2020-09-10	2180	Structuur	horizontale structuur	b	NA	NA
 zw_10_2180_2020-09-10	2180	Verstoring	invasieve exoten	b	1	1
 zw_10_2180_2020-09-10	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 zw_10_2180_2020-09-10	2180	Verstoring	overige exoten	b	1	1
-zw_10_2180_2020-09-10	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-zw_10_2180_2020-09-10	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 zw_10_2180_2020-09-10	2180	Verstoring	verruiging	zb	1	0.7667
 zw_10_2180_2020-09-10	2180	Structuur	verticale structuur	b	NA	NA
 zw_11_2022-08-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -4524,8 +4217,6 @@ zw_11_2022-08-02	2180	Structuur	horizontale structuur	b	NA	NA
 zw_11_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 zw_11_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 zw_11_2022-08-02	2180	Verstoring	overige exoten	b	1	1
-zw_11_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-zw_11_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 zw_11_2022-08-02	2180	Verstoring	verruiging	zb	1	0.9667
 zw_11_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 zw_15_2021-08-05	2160	Structuur	horizontale structuur	b	0	-1
@@ -4546,16 +4237,13 @@ ZW_17_2020-09-14	2180	Structuur	horizontale structuur	b	NA	NA
 ZW_17_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 ZW_17_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 ZW_17_2020-09-14	2180	Verstoring	overige exoten	b	1	1
-ZW_17_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-ZW_17_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ZW_17_2020-09-14	2180	Verstoring	verruiging	zb	1	0.7667
 ZW_17_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
-ZW_21_2020-09-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+ZW_21_2020-09-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9798
 ZW_21_2020-09-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 ZW_21_2020-09-10	2130_hd	Verstoring	overbetreding	b	1	1
 ZW_21_2020-09-10	2130_hd	Verstoring	overige exoten	b	1	1
-ZW_21_2020-09-10	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-0.75
-ZW_21_2020-09-10	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+ZW_21_2020-09-10	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 ZW_21_2020-09-10	2130_hd	Verstoring	verbossing	b	1	1
 ZW_21_2020-09-10	2130_hd	Verstoring	vergrassing	zb	0	-0.1514
 ZW_21_2020-09-10	2130_hd	Verstoring	verruiging	zb	1	1
@@ -4572,8 +4260,6 @@ zw_28_2022-08-04	2180	Structuur	horizontale structuur	b	NA	NA
 zw_28_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 zw_28_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 zw_28_2022-08-04	2180	Verstoring	overige exoten	b	1	0
-zw_28_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
-zw_28_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 zw_28_2022-08-04	2180	Verstoring	verruiging	zb	1	0.2267
 zw_28_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 ZW_31_2020-09-04	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -4585,8 +4271,7 @@ ZW_95_2020-09-09	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 ZW_95_2020-09-09	2130_hd	Verstoring	invasieve exoten	zb	1	1
 ZW_95_2020-09-09	2130_hd	Verstoring	overbetreding	b	1	1
 ZW_95_2020-09-09	2130_hd	Verstoring	overige exoten	b	1	1
-ZW_95_2020-09-09	2130_hd	Vegetatie	sleutelsoorten van het droog tot vochtig kalkrijk duingrasland	b	0	-1
-ZW_95_2020-09-09	2130_hd	Vegetatie	sleutelsoorten van het kalkrijk mosduin en pionierduingrasland	b	0	-1
+ZW_95_2020-09-09	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 ZW_95_2020-09-09	2130_hd	Verstoring	verbossing	b	1	1
 ZW_95_2020-09-09	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 ZW_95_2020-09-09	2130_hd	Verstoring	verruiging	zb	1	0.8

@@ -1,0 +1,31 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - id
+  - type_analysis
+  hash: 94d22f91540903e121941f63d5e2cdd030414917
+  data_hash: d7f5a0e163a73894ed03ff8d45cb67e00ebcff17
+id:
+  class: character
+type_analysis:
+  class: character
+status:
+  class: logical
+aggregatiemethode:
+  class: character
+index_min_min:
+  class: numeric
+index_min_harm:
+  class: numeric
+index_harm_harm:
+  class: numeric
+n_zb_ongunstig:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+index_mean_ind:
+  class: numeric
+index_mean_crit:
+  class: numeric

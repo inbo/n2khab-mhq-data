@@ -1,0 +1,25 @@
+versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling
+Versie 3	Vlaanderen	1	90	Binnen & Buiten	9110	7	54.96	13.82	90.28	3
+Versie 3	Vlaanderen	2	90	Binnen	9110	6	50	9.39	90.61	3
+Versie 3	Vlaanderen	2	90	Buiten	9110	1	100	NA	NA	3
+Versie 3	Vlaanderen	1	91	Binnen & Buiten	9120	354	21.74	17.73	26.36	2
+Versie 3	Vlaanderen	2	91	Binnen	9120	177	37.29	30.45	44.68	2
+Versie 3	Vlaanderen	2	91	Buiten	9120	177	6.21	3.46	10.9	2
+Versie 3	Vlaanderen	1	93	Binnen & Buiten	9130_end	77	25.51	17	36.39	2
+Versie 3	Vlaanderen	2	93	Binnen	9130_end	49	42.86	29.6	57.23	2
+Versie 3	Vlaanderen	2	93	Buiten	9130_end	28	0	0	0	2
+Versie 3	Vlaanderen	1	97	Binnen & Buiten	9160	73	15.05	8.41	25.46	2
+Versie 3	Vlaanderen	2	97	Binnen	9160	43	25.58	14.56	40.95	2
+Versie 3	Vlaanderen	2	97	Buiten	9160	30	0	0	0	2
+Versie 3	Vlaanderen	1	98	Binnen & Buiten	9190	101	2.57	0.81	7.84	2
+Versie 3	Vlaanderen	2	98	Binnen	9190	47	6.38	2.03	18.31	2
+Versie 3	Vlaanderen	2	98	Buiten	9190	54	0	0	0	2
+Versie 3	Vlaanderen	1	99	Binnen & Buiten	91E0_vc; 91E0_vm; 91E0_vn; 91E0_va; 91E0_sf; 91E0_vo	354	5.43	3.32	8.76	2
+Versie 3	Vlaanderen	2	99	Binnen	91E0_vc; 91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn	210	11.79	7.31	18.46	2
+Versie 3	Vlaanderen	2	99	Buiten	91E0_vm; 91E0_vn; 91E0_vc; 91E0_va; 91E0_vo; 91E0_sf	144	0	0	0	2
+Versie 3	Vlaanderen	3	99	Binnen & Buiten	91E0_sf	51	0	0	0	2
+Versie 3	Vlaanderen	3	99	Binnen & Buiten	91E0_va	93	7.33	3.52	14.64	2
+Versie 3	Vlaanderen	3	99	Binnen & Buiten	91E0_vc	38	4.22	1.04	15.6	2
+Versie 3	Vlaanderen	3	99	Binnen & Buiten	91E0_vm	69	8.2	3.89	16.46	2
+Versie 3	Vlaanderen	3	99	Binnen & Buiten	91E0_vn	73	1.41	0.2	9.41	2
+Versie 3	Vlaanderen	3	99	Binnen & Buiten	91E0_vo	30	0	0	0	2

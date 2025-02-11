@@ -1,0 +1,21 @@
+versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	3260	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	46	aandeel_gunstig	32.1	17.78	49.63	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	3260	Binnen & Buiten	NA	Structuur	verticale structuur	zb	46	aandeel_gunstig	92.59	79.86	98.17	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	3260	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	46	aandeel_gunstig	29.41	16.48	46.34	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	3260	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	46	aandeel_gunstig	89.03	74.65	96.39	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	3260	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	46	aandeel_gunstig	39.33	23.09	57	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	46	aandeel_gunstig	16.19	6.3	30.15	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	46	verschil_aandeel_gunstig_rel	-46.27	-80.81	19.52	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	46	verschil_aandeel_gunstig_abs	-15.91	-35.77	4.49	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Structuur	verticale structuur	zb	46	aandeel_gunstig	87.43	74.07	95.53	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Structuur	verticale structuur	zb	46	verschil_aandeel_gunstig_rel	-5.33	-21.16	10.74	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Structuur	verticale structuur	zb	46	verschil_aandeel_gunstig_abs	-5.16	-20.09	9.15	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	46	aandeel_gunstig	13.21	4.88	27.15	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	46	verschil_aandeel_gunstig_rel	-51.99	-84.44	7.01	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	46	verschil_aandeel_gunstig_abs	-16.19	-34.99	1.43	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	46	aandeel_gunstig	88.47	74.94	95.93	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	46	verschil_aandeel_gunstig_rel	-0.27	-16.83	19.68	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	46	verschil_aandeel_gunstig_abs	-0.57	-15.21	15.05	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	46	aandeel_gunstig	42.57	26.51	59.53	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	46	verschil_aandeel_gunstig_rel	14.12	-38.88	97.63	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3260	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	46	verschil_aandeel_gunstig_abs	3.24	-19.83	25.49	10

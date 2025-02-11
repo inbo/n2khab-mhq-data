@@ -1,0 +1,59 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - habitattype
+  - type_resultaat
+  - sbzh
+  - habitatsubtype
+  - indicator
+  hash: 5544df7e4f9cbcf09144f839b4ead26aca663212
+  data_hash: 2f3e23095ada0ab98f48ce3462fa95b346b71485
+schaal:
+  class: character
+type_resultaat:
+  class: character
+habitattype:
+  class: character
+sbzh:
+  class: character
+habitatsubtype:
+  class: character
+criterium:
+  class: character
+indicator:
+  class: character
+belang:
+  class: character
+index_diff_mean:
+  class: numeric
+index_diff_llci_0.95:
+  class: numeric
+index_diff_ulci_0.95:
+  class: numeric
+klasse:
+  class: factor
+  labels:
+  - ++
+  - +
+  - +~
+  - '~'
+  - -~
+  - '-'
+  - --
+  - ?+
+  - ?-
+  - '?'
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  ordered: no

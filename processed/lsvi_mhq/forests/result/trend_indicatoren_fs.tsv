@@ -1,0 +1,241 @@
+versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	3	aandeel_gunstig	89.86	30.88	99.96	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Structuur	bosconstantie	zb	3	aandeel_gunstig	98.93	99.56	100	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	3	aandeel_gunstig	55.3	9.88	93.79	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	3	aandeel_gunstig	98.62	99.18	100	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Structuur	verticale structuur	b	3	aandeel_gunstig	54.63	9.23	95.96	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	3	aandeel_gunstig	10.49	0.03	65.7	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	3	aandeel_gunstig	1.62	0	8.64	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	3	aandeel_gunstig	98.83	98.21	100	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	3	aandeel_gunstig	98.94	99.08	100	NA
+Versie 3	Vlaanderen	c_1	2010	2010	Habitattype	9110	Binnen & Buiten	NA	Verstoring	verruiging	zb	3	aandeel_gunstig	55.98	7.37	95.54	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	103	aandeel_gunstig	28.73	19.65	39.09	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Structuur	bosconstantie	zb	103	aandeel_gunstig	92.94	86.55	97.03	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	103	aandeel_gunstig	97.68	92.12	99.54	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	103	aandeel_gunstig	34.21	25.24	44.32	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Structuur	verticale structuur	b	103	aandeel_gunstig	79.06	69.57	86.7	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	103	aandeel_gunstig	56.09	46.59	65.98	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	103	aandeel_gunstig	1.72	0.25	6.3	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	103	aandeel_gunstig	61	50.68	71.03	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	103	aandeel_gunstig	99.91	100	100	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9120	Binnen & Buiten	NA	Verstoring	verruiging	zb	103	aandeel_gunstig	57.86	46.61	67.68	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	aandeel dood hout	b	18	aandeel_gunstig	41.73	20.22	67.95	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	bosconstantie	zb	18	aandeel_gunstig	92.04	70.16	99.27	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	18	aandeel_gunstig	99.89	100	100	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	minimum structuurareaal	zb	18	aandeel_gunstig	36.26	14.98	64.97	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	verticale structuur	b	18	aandeel_gunstig	95.2	73.87	99.85	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	18	aandeel_gunstig	53.4	29.35	78.46	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	18	aandeel_gunstig	9.36	1.01	31.94	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	18	aandeel_gunstig	90.78	67.85	98.93	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	18	aandeel_gunstig	95.52	76.39	99.83	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	verruiging	zb	18	aandeel_gunstig	40.34	17.26	66.88	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	24	aandeel_gunstig	48.77	26.28	72.17	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Structuur	bosconstantie	zb	24	aandeel_gunstig	87.59	66.72	97.11	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	24	aandeel_gunstig	99.94	100	100	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	24	aandeel_gunstig	37.78	18.04	62.18	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Structuur	verticale structuur	b	24	aandeel_gunstig	90.54	70.89	98.37	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	24	aandeel_gunstig	60.73	38.51	81.19	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	24	aandeel_gunstig	17	4.91	38.38	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	24	aandeel_gunstig	82.56	61.46	94.48	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	24	aandeel_gunstig	99.9	100	100	NA
+Versie 3	Vlaanderen	c_1	2009	2013	Habitattype	9160	Binnen & Buiten	NA	Verstoring	verruiging	zb	24	aandeel_gunstig	45.53	23.51	69.14	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	37	aandeel_gunstig	44.03	28.42	61.17	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Structuur	bosconstantie	zb	37	aandeel_gunstig	74.17	56.52	86.45	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	37	aandeel_gunstig	97.02	87.78	99.73	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	37	aandeel_gunstig	2.89	0.26	11.63	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Structuur	verticale structuur	b	37	aandeel_gunstig	63.31	47.42	77.86	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	37	aandeel_gunstig	29.92	16.06	47.49	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	37	aandeel_gunstig	42.31	26.79	59.23	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	37	aandeel_gunstig	55.47	38.57	71.89	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	37	aandeel_gunstig	99.9	100	100	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	9190	Binnen & Buiten	NA	Verstoring	verruiging	zb	37	aandeel_gunstig	90	76.94	96.96	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	aandeel dood hout	b	70	aandeel_gunstig	45.69	30.87	62.5	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	bosconstantie	zb	70	aandeel_gunstig	81.52	67.85	91.26	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	horizontale structuur - groeiklassen	b	70	aandeel_gunstig	94.29	84.66	98.75	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	minimum structuurareaal	zb	70	aandeel_gunstig	9	2.9	20.79	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	verticale structuur	b	69	aandeel_gunstig	84.31	69.75	93.24	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	70	aandeel_gunstig	42.58	27.75	58.55	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	70	aandeel_gunstig	6.44	1.65	17.18	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	69	aandeel_gunstig	94.46	82.87	99.01	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	70	aandeel_gunstig	82.45	68.03	92.48	NA
+Versie 3	Vlaanderen	c_1	2009	2014	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	verruiging	zb	70	aandeel_gunstig	30.61	17.79	47.55	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	3	aandeel_gunstig	45.42	4.68	92.1	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	3	verschil_aandeel_gunstig_rel	-41.95	-94.67	42.62	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	3	verschil_aandeel_gunstig_abs	-44.44	-92.06	21.32	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	bosconstantie	zb	3	aandeel_gunstig	98.91	95.95	100	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	bosconstantie	zb	3	verschil_aandeel_gunstig_rel	19486.98	-4.05	0.44	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	bosconstantie	zb	3	verschil_aandeel_gunstig_abs	-0.02	-4.05	0.44	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	3	aandeel_gunstig	98.66	96.88	100	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	3	verschil_aandeel_gunstig_rel	165.76	4.59	911.66	2
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	3	verschil_aandeel_gunstig_abs	43.35	4.39	89.78	2
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	3	aandeel_gunstig	98.91	99.18	100	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	3	verschil_aandeel_gunstig_rel	69287.91	-0.82	0.8	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	3	verschil_aandeel_gunstig_abs	0.29	-0.82	0.79	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	verticale structuur	b	3	aandeel_gunstig	53.62	7.42	94.98	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	verticale structuur	b	3	verschil_aandeel_gunstig_rel	49.79	-86.37	508.34	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Structuur	verticale structuur	b	3	verschil_aandeel_gunstig_abs	-1.01	-69.5	64.03	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	3	aandeel_gunstig	9.29	0.04	59.84	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	3	verschil_aandeel_gunstig_rel	3589.01	-99.64	25534.56	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	3	verschil_aandeel_gunstig_abs	-1.21	-60.63	55.43	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	3	aandeel_gunstig	1.48	0	1	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	3	verschil_aandeel_gunstig_rel	NA	NA	NA	10
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	3	verschil_aandeel_gunstig_abs	-0.14	-8.64	1	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	3	aandeel_gunstig	89.81	31.47	99.96	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	3	verschil_aandeel_gunstig_rel	137.92	-66.78	0.39	9
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	3	verschil_aandeel_gunstig_abs	-9.02	-66.78	0.38	9
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	3	aandeel_gunstig	99.02	99	100	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	3	verschil_aandeel_gunstig_rel	224.68	-0.3	0.91	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	3	verschil_aandeel_gunstig_abs	0.09	-0.3	0.91	4
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	verruiging	zb	3	aandeel_gunstig	98.52	96.79	100	NA
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	verruiging	zb	3	verschil_aandeel_gunstig_rel	174.61	3.16	1230.27	2
+Versie 3	Vlaanderen	c_2	2020	2020	Habitattype	9110	Binnen & Buiten	NA	Verstoring	verruiging	zb	3	verschil_aandeel_gunstig_abs	42.54	3.04	92.1	2
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	103	aandeel_gunstig	41.51	31.53	52.14	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	103	verschil_aandeel_gunstig_rel	49.24	-3.39	129.48	8
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	103	verschil_aandeel_gunstig_abs	12.78	-1.27	27.28	8
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	bosconstantie	zb	103	aandeel_gunstig	92.85	86.08	96.92	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	bosconstantie	zb	103	verschil_aandeel_gunstig_rel	0	-8.88	8.81	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	bosconstantie	zb	103	verschil_aandeel_gunstig_abs	-0.09	-8.49	7.74	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	103	aandeel_gunstig	99.2	96.05	99.96	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	103	verschil_aandeel_gunstig_rel	1.59	-2.17	7.64	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	103	verschil_aandeel_gunstig_abs	1.52	-2.14	7.08	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	103	aandeel_gunstig	34.1	24.63	44.44	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	103	verschil_aandeel_gunstig_rel	1.81	-34.35	48.26	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	103	verschil_aandeel_gunstig_abs	-0.11	-14.47	13.71	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	verticale structuur	b	103	aandeel_gunstig	86.91	78.65	92.75	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	verticale structuur	b	103	verschil_aandeel_gunstig_rel	10.28	-3.36	27.52	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Structuur	verticale structuur	b	103	verschil_aandeel_gunstig_abs	7.85	-2.8	18.95	8
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	103	aandeel_gunstig	53.41	43.54	63.52	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	103	verschil_aandeel_gunstig_rel	-3.92	-27.97	25.54	9
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	103	verschil_aandeel_gunstig_abs	-2.68	-17.88	12.33	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	103	aandeel_gunstig	1.73	0.26	5.99	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	103	verschil_aandeel_gunstig_rel	91.78	-89.46	878.96	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	103	verschil_aandeel_gunstig_abs	0.01	-4.43	4.37	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	103	aandeel_gunstig	61.83	51.14	71.93	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	103	verschil_aandeel_gunstig_rel	2.13	-20.5	28.45	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	103	verschil_aandeel_gunstig_abs	0.83	-13.45	15.13	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	103	aandeel_gunstig	98.83	94.73	99.91	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	103	verschil_aandeel_gunstig_rel	-0.76	-5.27	-0.09	5
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	103	verschil_aandeel_gunstig_abs	-1.08	-5.27	-0.09	5
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	verruiging	zb	103	aandeel_gunstig	61.89	52.13	71.32	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	verruiging	zb	103	verschil_aandeel_gunstig_rel	7.96	-16.7	39.74	8
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9120	Binnen & Buiten	NA	Verstoring	verruiging	zb	103	verschil_aandeel_gunstig_abs	4.03	-10.96	18.94	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	aandeel dood hout	b	18	aandeel_gunstig	51.2	25.25	76.67	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	aandeel dood hout	b	18	verschil_aandeel_gunstig_rel	36.56	-46.68	190.99	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	aandeel dood hout	b	18	verschil_aandeel_gunstig_abs	9.47	-29.91	44.88	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	bosconstantie	zb	18	aandeel_gunstig	91.54	65.77	99.28	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	bosconstantie	zb	18	verschil_aandeel_gunstig_rel	0.92	-28.92	35.14	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	bosconstantie	zb	18	verschil_aandeel_gunstig_abs	-0.5	-26.66	25.52	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	18	aandeel_gunstig	87.04	62.39	97.65	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	18	verschil_aandeel_gunstig_rel	-12.79	-37.47	-2.23	6
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	horizontale structuur - groeiklassen	b	18	verschil_aandeel_gunstig_abs	-12.85	-37.38	-2.23	6
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	minimum structuurareaal	zb	18	aandeel_gunstig	36.55	14.38	61.48	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	minimum structuurareaal	zb	18	verschil_aandeel_gunstig_rel	15.72	-60.34	173.59	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	minimum structuurareaal	zb	18	verschil_aandeel_gunstig_abs	0.29	-33.74	32.92	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	verticale structuur	b	18	aandeel_gunstig	99.58	99.99	100	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	verticale structuur	b	18	verschil_aandeel_gunstig_rel	5.46	0.12	35.38	2
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Structuur	verticale structuur	b	18	verschil_aandeel_gunstig_abs	4.38	0.12	26.13	2
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	18	aandeel_gunstig	44.49	19.77	70.33	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	18	verschil_aandeel_gunstig_rel	-11	-65.94	74.13	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	18	verschil_aandeel_gunstig_abs	-8.91	-45.37	27.33	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	18	aandeel_gunstig	8.76	1	32.75	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	18	verschil_aandeel_gunstig_rel	114.4	-89.85	1004.34	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	18	verschil_aandeel_gunstig_abs	-0.59	-25.11	26.71	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	18	aandeel_gunstig	95.29	74.48	99.84	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	18	verschil_aandeel_gunstig_rel	6.23	-18	45.52	8
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	18	verschil_aandeel_gunstig_abs	4.51	-16.56	30.94	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	18	aandeel_gunstig	99.9	100	100	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	18	verschil_aandeel_gunstig_rel	5.34	0.15	30.84	3
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	18	verschil_aandeel_gunstig_abs	4.38	0.15	23.56	2
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	verruiging	zb	18	aandeel_gunstig	40.55	17.9	68.08	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	verruiging	zb	18	verschil_aandeel_gunstig_rel	14.44	-64.17	173.72	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9130	Binnen & Buiten	9130_end	Verstoring	verruiging	zb	18	verschil_aandeel_gunstig_abs	0.21	-37.72	37.32	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	24	aandeel_gunstig	61.22	37.22	81.58	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	24	verschil_aandeel_gunstig_rel	33.99	-33.41	142.92	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	24	verschil_aandeel_gunstig_abs	12.45	-21.3	44.3	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	bosconstantie	zb	24	aandeel_gunstig	86.86	65.58	97.19	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	bosconstantie	zb	24	verschil_aandeel_gunstig_rel	0.21	-25.91	36.53	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	bosconstantie	zb	24	verschil_aandeel_gunstig_abs	-0.73	-23.74	24.39	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	24	aandeel_gunstig	99.85	100	100	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	24	verschil_aandeel_gunstig_rel	-0.07	0	0	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	24	verschil_aandeel_gunstig_abs	-0.09	0	0	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	24	aandeel_gunstig	38.15	18.68	61.88	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	24	verschil_aandeel_gunstig_rel	11.76	-58.64	134.63	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	24	verschil_aandeel_gunstig_abs	0.37	-30.58	30.92	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	verticale structuur	b	24	aandeel_gunstig	91.03	74.46	98.36	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	verticale structuur	b	24	verschil_aandeel_gunstig_rel	1.33	-18.39	31.83	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Structuur	verticale structuur	b	24	verschil_aandeel_gunstig_abs	0.49	-17.54	22.07	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	24	aandeel_gunstig	57.31	34.32	79.26	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	24	verschil_aandeel_gunstig_rel	-1.67	-46.87	74.06	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	24	verschil_aandeel_gunstig_abs	-3.42	-34.96	29.7	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	24	aandeel_gunstig	16.87	4.96	38.43	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	24	verschil_aandeel_gunstig_rel	33.14	-76.25	330.18	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	24	verschil_aandeel_gunstig_abs	-0.14	-25.14	25.3	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	24	aandeel_gunstig	88.37	68.63	97.4	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	24	verschil_aandeel_gunstig_rel	8.37	-20.14	50.23	8
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	24	verschil_aandeel_gunstig_abs	5.82	-17.8	29.9	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	24	aandeel_gunstig	99.67	100	100	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	24	verschil_aandeel_gunstig_rel	0.47	0	0	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	24	verschil_aandeel_gunstig_abs	-0.24	0	0	4
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	verruiging	zb	24	aandeel_gunstig	39.59	19.07	63.3	NA
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	verruiging	zb	24	verschil_aandeel_gunstig_rel	-6.52	-61.88	82.51	10
+Versie 3	Vlaanderen	c_2	2019	2023	Habitattype	9160	Binnen & Buiten	NA	Verstoring	verruiging	zb	24	verschil_aandeel_gunstig_abs	-5.94	-38.32	24.43	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	37	aandeel_gunstig	63.25	45.63	78.71	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	37	verschil_aandeel_gunstig_rel	49.4	-7.44	129.63	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	aandeel dood hout	b	37	verschil_aandeel_gunstig_abs	19.22	-4.05	40.36	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	bosconstantie	zb	37	aandeel_gunstig	74.41	57.6	87.48	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	bosconstantie	zb	37	verschil_aandeel_gunstig_rel	1.48	-24.72	35.42	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	bosconstantie	zb	37	verschil_aandeel_gunstig_abs	0.23	-20.13	22	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	37	aandeel_gunstig	94.68	84.28	99	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	37	verschil_aandeel_gunstig_rel	-2.29	-13.68	9.02	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	horizontale structuur - groeiklassen	b	37	verschil_aandeel_gunstig_abs	-2.34	-13.45	8.07	9
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	37	aandeel_gunstig	3.14	0.27	13.03	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	37	verschil_aandeel_gunstig_rel	192.44	-92.93	1537.18	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	minimum structuurareaal	zb	37	verschil_aandeel_gunstig_abs	0.25	-10.08	10.58	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	verticale structuur	b	37	aandeel_gunstig	81.75	66.65	92.22	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	verticale structuur	b	37	verschil_aandeel_gunstig_rel	31.37	-3.34	75.05	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Structuur	verticale structuur	b	37	verschil_aandeel_gunstig_abs	18.45	-2.38	38.2	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	37	aandeel_gunstig	33.8	18.73	50.14	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	37	verschil_aandeel_gunstig_rel	22.24	-44.47	141.11	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	37	verschil_aandeel_gunstig_abs	3.89	-18.5	26.91	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	37	aandeel_gunstig	29.06	15.8	46.53	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	37	verschil_aandeel_gunstig_rel	-28.3	-67.13	29.6	9
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Vegetatie	sleutelsoorten van de kruidlaag	b	37	verschil_aandeel_gunstig_abs	-13.25	-36.12	10.03	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	37	aandeel_gunstig	54.58	38.2	70.87	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	37	verschil_aandeel_gunstig_rel	0.91	-35.52	53.19	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de boom- en struiklaag	b	37	verschil_aandeel_gunstig_abs	-0.89	-22.63	21.93	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	37	aandeel_gunstig	99.9	100	100	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	37	verschil_aandeel_gunstig_rel	48.62	0	0	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	invasieve exoten van de kruidlaag	zb	37	verschil_aandeel_gunstig_abs	0	0	0	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	verruiging	zb	37	aandeel_gunstig	83.82	67.64	93.36	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	verruiging	zb	37	verschil_aandeel_gunstig_rel	-6.49	-25.51	13.4	9
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	9190	Binnen & Buiten	NA	Verstoring	verruiging	zb	37	verschil_aandeel_gunstig_abs	-6.18	-23.47	10.54	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	aandeel dood hout	b	70	aandeel_gunstig	60.83	44.71	76.17	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	aandeel dood hout	b	70	verschil_aandeel_gunstig_rel	37.69	-15.19	110.33	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	aandeel dood hout	b	70	verschil_aandeel_gunstig_abs	15.13	-8.73	37.17	8
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	bosconstantie	zb	70	aandeel_gunstig	81.56	66.57	91.7	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	bosconstantie	zb	70	verschil_aandeel_gunstig_rel	0.64	-20.29	25.53	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	bosconstantie	zb	70	verschil_aandeel_gunstig_abs	0.04	-17.31	17.82	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	horizontale structuur - groeiklassen	b	70	aandeel_gunstig	86.09	71.53	94.4	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	horizontale structuur - groeiklassen	b	70	verschil_aandeel_gunstig_rel	-8.53	-24.78	6.19	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	horizontale structuur - groeiklassen	b	70	verschil_aandeel_gunstig_abs	-8.2	-23.2	5.43	9
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	minimum structuurareaal	zb	70	aandeel_gunstig	9.1	2.84	21.77	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	minimum structuurareaal	zb	70	verschil_aandeel_gunstig_rel	31.51	-76.37	313.42	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	minimum structuurareaal	zb	70	verschil_aandeel_gunstig_abs	0.1	-12.87	13.67	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	verticale structuur	b	69	aandeel_gunstig	75.83	60.92	86.6	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	verticale structuur	b	69	verschil_aandeel_gunstig_rel	-9.53	-29.04	14.07	9
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Structuur	verticale structuur	b	69	verschil_aandeel_gunstig_abs	-8.48	-25.3	9.92	9
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	70	aandeel_gunstig	41.21	25.95	56.54	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	70	verschil_aandeel_gunstig_rel	0.46	-44	62.3	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	70	verschil_aandeel_gunstig_abs	-1.38	-22.31	19.94	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	70	aandeel_gunstig	7.17	2.02	18.41	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	70	verschil_aandeel_gunstig_rel	58.43	-76.61	465.77	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	70	verschil_aandeel_gunstig_abs	0.73	-10.89	12.95	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	69	aandeel_gunstig	92.62	80.81	98.01	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	69	verschil_aandeel_gunstig_rel	-1.75	-15.45	12.29	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	69	verschil_aandeel_gunstig_abs	-1.84	-15.03	10.29	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	70	aandeel_gunstig	83.32	68.92	92.46	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	70	verschil_aandeel_gunstig_rel	1.69	-18.71	27.41	4
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	70	verschil_aandeel_gunstig_abs	0.86	-17.17	19.08	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	verruiging	zb	70	aandeel_gunstig	32.76	19.78	48.48	NA
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	verruiging	zb	70	verschil_aandeel_gunstig_rel	13.64	-43.51	100.99	10
+Versie 3	Vlaanderen	c_2	2019	2024	Habitattype	91E0	Binnen & Buiten	91E0_va;91E0_vm;91E0_sf;91E0_vo;91E0_vn;91E0_vc	Verstoring	verruiging	zb	70	verschil_aandeel_gunstig_abs	2.15	-18.64	22.85	10

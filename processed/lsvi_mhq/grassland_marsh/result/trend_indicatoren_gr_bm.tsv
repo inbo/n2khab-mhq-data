@@ -1,509 +1,205 @@
-versie	schaal	periode	year_min	year_max	type_resultaat	n_obs	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	aandeel_gunstig	aandeel_gunstig_llci	aandeelgunstig_ulci
-Versie 3	Vlaanderen	c_1	2015	2022	1	17	8	Binnen & Buiten	1330_hpr	Structuur	dominantie van één soort	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2022	1	17	8	Binnen & Buiten	1330_hpr	Structuur	microreliëf	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2022	1	17	8	Binnen & Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	71.08	41.99	89.3
-Versie 3	Vlaanderen	c_1	2015	2022	1	17	8	Binnen & Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	41.32	16.59	71.37
-Versie 3	Vlaanderen	c_1	2015	2022	1	17	8	Binnen & Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	75.21	46.77	91.29
-Versie 3	Vlaanderen	c_1	2015	2022	1	17	8	Binnen & Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	57.84	22.97	86.33
-Versie 3	Vlaanderen	c_1	2015	2022	2	15	8	Binnen	1330_hpr	Structuur	dominantie van één soort	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2022	2	15	8	Binnen	1330_hpr	Structuur	microreliëf	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2022	2	15	8	Binnen	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	53.33	26.82	78.08
-Versie 3	Vlaanderen	c_1	2015	2022	2	15	8	Binnen	1330_hpr	Vegetatie	sleutelsoorten	b	66.67	37.51	86.95
-Versie 3	Vlaanderen	c_1	2015	2022	2	15	8	Binnen	1330_hpr	Verstoring	overgang naar rbbzil	zb	60	32.03	82.68
-Versie 3	Vlaanderen	c_1	2015	2022	2	15	8	Binnen	1330_hpr	Verstoring	rietontwikkeling	zb	93.33	59.02	99.27
-Versie 3	Vlaanderen	c_1	2015	2022	2	2	8	Buiten	1330_hpr	Structuur	dominantie van één soort	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2022	2	2	8	Buiten	1330_hpr	Structuur	microreliëf	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2022	2	2	8	Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2022	2	2	8	Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2022	2	2	8	Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2022	2	2	8	Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	1	10	49	Binnen & Buiten	6230_hmo	Verstoring	verdroging	zb	81.43	39.72	96.69
-Versie 3	Vlaanderen	c_1	2015	2021	1	10	49	Binnen & Buiten	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	44.75	24.89	66.44
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	sleutelsoorten	b	33.96	15.15	59.68
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	eutrofiëring	zb	86.28	69.65	94.52
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbossing	b	90.14	73.48	96.79
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbraming	b	98.07	86.27	99.76
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	68.46	48.77	83.19
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vermossing	zb	94.37	82.59	98.34
-Versie 3	Vlaanderen	c_1	2015	2021	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	98.15	86.76	99.77
-Versie 3	Vlaanderen	c_1	2015	2021	2	9	49	Binnen	6230_hmo	Verstoring	verdroging	zb	77.78	33.27	96.09
-Versie 3	Vlaanderen	c_1	2015	2021	2	9	49	Binnen	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	40.66	25.2	58.23
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	sleutelsoorten	b	29.07	15.97	46.92
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	eutrofiëring	zb	85.31	68.33	93.99
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbossing	b	91.26	75.18	97.3
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbraming	b	97.03	80.33	99.62
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	70.75	52.86	83.91
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vermossing	zb	91.32	75.33	97.32
-Versie 3	Vlaanderen	c_1	2015	2021	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	97.15	80.99	99.63
-Versie 3	Vlaanderen	c_1	2015	2021	2	1	49	Buiten	6230_hmo	Verstoring	verdroging	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	2	1	49	Buiten	6230_hmo	Verstoring	vernatting	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	bedekking sleutelsoorten	b	52.3	12.88	89.05
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	sleutelsoorten	b	42.98	7.4	87.68
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	eutrofiëring	zb	88.07	41.6	98.71
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbossing	b	88.07	41.6	98.71
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	64.22	21.62	92.12
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Vegetatie	bedekking sleutelsoorten	b	10.16	2.29	35.31
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Vegetatie	sleutelsoorten	b	10.16	2.29	35.31
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	eutrofiëring	zb	73.73	43.66	91.04
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	verbossing	b	83.89	49.68	96.49
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	verbraming	b	94.92	68.86	99.37
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	vergrassing inclusief vervilting	zb	41.51	18.61	68.78
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_ha	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Vegetatie	bedekking sleutelsoorten	b	53.57	23.56	81.2
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Vegetatie	sleutelsoorten	b	27.86	8.47	61.69
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	eutrofiëring	zb	90.71	52.79	98.84
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	verbossing	b	90.71	52.79	98.84
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	72.14	38.31	91.53
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	vermossing	zb	90.71	52.79	98.84
-Versie 3	Vlaanderen	c_1	2015	2021	3	10	49	Binnen & Buiten	6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	90.71	52.79	98.84
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Vegetatie	bedekking sleutelsoorten	b	72.72	40.32	91.32
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Vegetatie	sleutelsoorten	b	59.08	24.77	86.36
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	eutrofiëring	zb	95.45	69.45	99.49
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	verbossing	b	95.45	69.45	99.49
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	vergrassing inclusief vervilting	zb	90.91	64.53	98.21
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	vermossing	zb	90.91	64.53	98.21
-Versie 3	Vlaanderen	c_1	2015	2021	3	15	49	Binnen & Buiten	6230_hn	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	eutrofiëring	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	strooisellaag	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	verbossing	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	verbraming	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	vermossing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2021	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	35.1	19.79	54.23
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	45.94	28.82	64.07
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	30.62	16.5	49.64
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	74.8	55.59	87.56
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	97.29	81.44	99.66
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	61.25	42.63	77.07
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	97.29	81.44	99.66
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	94.58	79.38	98.75
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	77.51	58.2	89.5
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	76.56	58.07	88.51
-Versie 3	Vlaanderen	c_1	2015	2018	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	87.4	69.04	95.57
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Structuur	levensvormen	b	29.63	14.96	50.2
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Vegetatie	bedekking sleutelsoorten	b	44.44	26.4	64.08
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Vegetatie	sleutelsoorten	b	29.63	14.96	50.2
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	eutrofiëring	zb	77.78	57.3	90.13
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	verbossing	b	96.3	75.91	99.54
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	verdroging	zb	59.26	39.26	76.6
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	96.3	75.91	99.54
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	vermossing	zb	92.59	73.18	98.28
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	vernatting	zb	81.48	61.19	92.47
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	74.07	53.5	87.65
-Versie 3	Vlaanderen	c_1	2015	2018	2	27	54	Binnen	6410_mo	Verstoring	verzuring	zb	88.89	69.24	96.6
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Structuur	levensvormen	b	50	15.56	84.44
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	50	15.56	84.44
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Vegetatie	sleutelsoorten	b	33.33	7.68	75.04
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	eutrofiëring	zb	66.67	24.96	92.32
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	verdroging	zb	66.67	24.96	92.32
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	vernatting	zb	66.67	24.96	92.32
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	83.33	34.09	97.97
-Versie 3	Vlaanderen	c_1	2015	2018	2	6	54	Buiten	6410_mo	Verstoring	verzuring	zb	83.33	34.09	97.97
-Versie 3	Vlaanderen	c_1	2014	2018	1	5	62	Binnen & Buiten	6510_hua	Verstoring	verdroging	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	1	5	62	Binnen & Buiten	6510_hua	Verstoring	vernatting	zb	60	8.1	96.23
-Versie 3	Vlaanderen	c_1	2014	2018	1	12	62	Binnen & Buiten	6510_huk	Structuur	levensvormen	b	14.27	2.7	49.93
-Versie 3	Vlaanderen	c_1	2014	2018	1	44	62	Binnen & Buiten	6510_hus; 6510_hu; 6510_hua	Structuur	verticale structuur	b	97.85	91.2	99.5
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Structuur	dominantie van één soort	b	46.24	20.92	73.65
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Vegetatie	bedekking sleutelsoorten	b	0.23	0.03	1.84
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Vegetatie	sleutelsoorten	b	0.84	0.22	3.13
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Verstoring	eutrofiëring	zb	44.58	19.68	72.53
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Verstoring	verbossing	b	98.58	93.54	99.7
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Verstoring	verbraming	b	98.81	93.3	99.8
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Verstoring	vergrassing inclusief vervilting	zb	79.27	49.84	93.64
-Versie 3	Vlaanderen	c_1	2014	2018	1	56	62	Binnen & Buiten	6510_hus; 6510_huk; 6510_hu; 6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	76.76	41	94.01
-Versie 3	Vlaanderen	c_1	2014	2018	2	9	62	Binnen	6510_huk	Structuur	levensvormen	b	22.22	4.23	64.87
-Versie 3	Vlaanderen	c_1	2014	2018	2	31	62	Binnen	6510_hus; 6510_hu	Structuur	verticale structuur	b	89.53	67.3	97.26
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Structuur	dominantie van één soort	b	37.55	20.83	57.88
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Vegetatie	bedekking sleutelsoorten	b	1.04	0.13	7.65
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Vegetatie	sleutelsoorten	b	2.08	0.48	8.61
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Verstoring	eutrofiëring	zb	26.5	12.77	47.05
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Verstoring	verbossing	b	93.51	76.12	98.49
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Verstoring	verbraming	b	94.55	75.42	98.99
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Verstoring	vergrassing inclusief vervilting	zb	75.35	54.46	88.66
-Versie 3	Vlaanderen	c_1	2014	2018	2	40	62	Binnen	6510_hus; 6510_hu; 6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	99.78	98.27	99.97
-Versie 3	Vlaanderen	c_1	2014	2018	2	13	62	Buiten	6510_hu; 6510_hus; 6510_hua	Structuur	verticale structuur	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	2	3	62	Buiten	6510_huk	Structuur	levensvormen	b	0	NA	NA
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Structuur	dominantie van één soort	b	48.68	17.72	80.69
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Vegetatie	bedekking sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Vegetatie	sleutelsoorten	b	0.49	0.06	4.07
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Verstoring	eutrofiëring	zb	49.65	18.31	81.27
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Verstoring	vergrassing inclusief vervilting	zb	80.36	41.16	95.99
-Versie 3	Vlaanderen	c_1	2014	2018	2	16	62	Buiten	6510_huk; 6510_hu; 6510_hus; 6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	70.3	30.81	92.64
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Structuur	dominantie van één soort	b	46.74	19.04	76.6
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Structuur	verticale structuur	b	97.83	90.13	99.55
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Vegetatie	bedekking sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Verstoring	eutrofiëring	zb	44.56	17.53	75.25
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Verstoring	verbossing	b	98.91	91.53	99.87
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Verstoring	verbraming	b	98.91	91.53	99.87
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	81.52	46.42	95.74
-Versie 3	Vlaanderen	c_1	2014	2018	3	26	62	Binnen & Buiten	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	73.92	36.26	93.38
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Structuur	dominantie van één soort	b	40	9.5	80.89
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Structuur	verticale structuur	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Vegetatie	bedekking sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Verstoring	eutrofiëring	zb	40	9.5	80.89
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Verstoring	vergrassing inclusief vervilting	zb	60	19.11	90.5
-Versie 3	Vlaanderen	c_1	2014	2018	3	5	62	Binnen & Buiten	6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Structuur	dominantie van één soort	b	54.74	26.32	80.37
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Vegetatie	bedekking sleutelsoorten	b	7.14	0.91	39.04
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Vegetatie	sleutelsoorten	b	26.2	8.1	58.84
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Verstoring	eutrofiëring	zb	57.19	28.95	81.41
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Verstoring	verbossing	b	85.73	55.38	96.68
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Verstoring	verbraming	b	92.86	60.96	99.09
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	69.01	35.9	89.85
-Versie 3	Vlaanderen	c_1	2014	2018	3	12	62	Binnen & Buiten	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Structuur	dominantie van één soort	b	12.16	2.75	40.35
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Structuur	verticale structuur	b	81.77	52.88	94.71
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Vegetatie	bedekking sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Verstoring	eutrofiëring	zb	36.47	14.8	65.48
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	40.88	16.01	71.51
-Versie 3	Vlaanderen	c_1	2014	2018	3	13	62	Binnen & Buiten	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	93.92	64.8	99.24
-Versie 3	Vlaanderen	c_1	2015	2019	1	16	78	Binnen & Buiten	7140_meso	Structuur	(korst)moslaag	b	37.94	16.4	65.59
-Versie 3	Vlaanderen	c_1	2015	2019	1	16	78	Binnen & Buiten	7140_meso	Structuur	dominantie van één soort	b	62.06	34.41	83.6
-Versie 3	Vlaanderen	c_1	2015	2019	1	16	78	Binnen & Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	55.73	29.33	79.25
-Versie 3	Vlaanderen	c_1	2015	2019	1	16	78	Binnen & Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	41.54	23.62	62.01
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	79.23	57.21	91.59
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	76.39	54.67	89.67
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vergrassing	zb	76.62	56.27	89.3
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verruiging	zb	79.56	57.61	91.77
-Versie 3	Vlaanderen	c_1	2015	2019	1	10	78	Binnen & Buiten	7140_oli	Structuur	veenmossen	zb	20	3.66	62.22
-Versie 3	Vlaanderen	c_1	2015	2019	1	10	78	Binnen & Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	70	31.04	92.36
-Versie 3	Vlaanderen	c_1	2015	2019	2	14	78	Binnen	7140_meso	Structuur	(korst)moslaag	b	42.86	18.48	71.27
-Versie 3	Vlaanderen	c_1	2015	2019	2	14	78	Binnen	7140_meso	Structuur	dominantie van één soort	b	57.14	28.73	81.52
-Versie 3	Vlaanderen	c_1	2015	2019	2	14	78	Binnen	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	50	23.43	76.57
-Versie 3	Vlaanderen	c_1	2015	2019	2	14	78	Binnen	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	45.06	25.68	66.08
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	85.96	62.5	95.74
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	verbossing	zb	74.38	51.6	88.77
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	vergrassing	zb	74.64	53.18	88.4
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	verruiging	zb	77.83	54.74	91.06
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Structuur	(korst)moslaag	b	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Structuur	dominantie van één soort	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	eutrofiëring	zb	0	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	strooisellaag	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	structuurschade	b	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	verbossing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	vergrassing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	vermossing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	2	2	78	Buiten	7140_meso	Verstoring	verruiging	zb	100	NA	NA
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Vegetatie	sleutelsoorten	b	18.97	5.73	47.41
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	eutrofiëring	zb	69.56	42.32	87.68
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	verbossing	zb	74.7	46.69	90.87
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	vergrassing	zb	93.68	62.75	99.24
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	16	78	Binnen & Buiten	7140_meso	Verstoring	verruiging	zb	74.7	46.69	90.87
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Vegetatie	sleutelsoorten	b	90	49.47	98.81
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	eutrofiëring	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	verbossing	zb	80	43.1	95.48
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	vergrassing	zb	40	14.63	72.18
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_1	2015	2019	3	10	78	Binnen & Buiten	7140_oli	Verstoring	verruiging	zb	90	49.47	98.81
-Versie 3	Vlaanderen	c_2	2022	2024	1	17	8	Binnen & Buiten	1330_hpr	Structuur	dominantie van één soort	zb	95.87	70.01	99.57
-Versie 3	Vlaanderen	c_2	2022	2024	1	17	8	Binnen & Buiten	1330_hpr	Structuur	microreliëf	zb	64.46	28.77	89.06
-Versie 3	Vlaanderen	c_2	2022	2024	1	17	8	Binnen & Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	83.47	56.74	95.11
-Versie 3	Vlaanderen	c_2	2022	2024	1	17	8	Binnen & Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	57.84	22.97	86.33
-Versie 3	Vlaanderen	c_2	2022	2024	1	17	8	Binnen & Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	95.87	70.01	99.57
-Versie 3	Vlaanderen	c_2	2022	2024	1	17	8	Binnen & Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	68.59	30.52	91.57
-Versie 3	Vlaanderen	c_2	2022	2024	2	15	8	Binnen	1330_hpr	Structuur	dominantie van één soort	zb	93.33	59.02	99.27
-Versie 3	Vlaanderen	c_2	2022	2024	2	15	8	Binnen	1330_hpr	Structuur	microreliëf	zb	73.33	43.26	90.84
-Versie 3	Vlaanderen	c_2	2022	2024	2	15	8	Binnen	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	73.33	43.26	90.84
-Versie 3	Vlaanderen	c_2	2022	2024	2	15	8	Binnen	1330_hpr	Vegetatie	sleutelsoorten	b	93.33	59.02	99.27
-Versie 3	Vlaanderen	c_2	2022	2024	2	15	8	Binnen	1330_hpr	Verstoring	overgang naar rbbzil	zb	93.33	59.02	99.27
-Versie 3	Vlaanderen	c_2	2022	2024	2	15	8	Binnen	1330_hpr	Verstoring	rietontwikkeling	zb	80	49.2	94.29
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	8	Buiten	1330_hpr	Structuur	dominantie van één soort	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	8	Buiten	1330_hpr	Structuur	microreliëf	zb	50	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	8	Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	8	Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	8	Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	8	Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	50	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	1	11	49	Binnen & Buiten	6230_hmo	Verstoring	verdroging	zb	83.29	44.19	96.91
-Versie 3	Vlaanderen	c_2	2022	2024	1	11	49	Binnen & Buiten	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	57.4	37.2	75.39
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	sleutelsoorten	b	42.63	22.8	65.15
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	eutrofiëring	zb	90.88	74.55	97.14
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbossing	b	85.17	67.53	94.07
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbraming	b	95.96	83.63	99.1
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	76.8	57.26	89.1
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vermossing	zb	92.63	80.19	97.5
-Versie 3	Vlaanderen	c_2	2022	2024	1	41	49	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	10	49	Binnen	6230_hmo	Verstoring	verdroging	zb	80	38	96.31
-Versie 3	Vlaanderen	c_2	2022	2024	2	10	49	Binnen	6230_hmo	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	60.16	42.42	75.57
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	sleutelsoorten	b	42.44	26.24	60.45
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	eutrofiëring	zb	92.4	77.88	97.67
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbossing	b	88.64	72.08	95.93
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbraming	b	93.78	76.74	98.57
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	83.61	66.76	92.84
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vermossing	zb	88.64	72.08	95.93
-Versie 3	Vlaanderen	c_2	2022	2024	2	35	49	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	1	49	Buiten	6230_hmo	Verstoring	verdroging	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	1	49	Buiten	6230_hmo	Verstoring	vernatting	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	bedekking sleutelsoorten	b	52.3	12.88	89.05
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	sleutelsoorten	b	42.98	7.4	87.68
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	eutrofiëring	zb	88.07	41.6	98.71
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbossing	b	78.76	35.34	96.18
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	64.22	21.62	92.12
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	49	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Vegetatie	bedekking sleutelsoorten	b	25.78	10.53	50.64
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Vegetatie	sleutelsoorten	b	4.3	0.53	27.41
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	eutrofiëring	zb	80.37	48.99	94.58
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	verbossing	b	84.67	50.48	96.77
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	verbraming	b	95.7	72.59	99.47
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	vergrassing inclusief vervilting	zb	54.01	27.48	78.44
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	vermossing	zb	95.7	72.59	99.47
-Versie 3	Vlaanderen	c_2	2022	2024	3	17	49	Binnen & Buiten	6230_ha	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Vegetatie	bedekking sleutelsoorten	b	66.57	35.04	88.03
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Vegetatie	sleutelsoorten	b	33.43	11.97	64.96
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	eutrofiëring	zb	91.64	55.88	98.96
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	verbossing	b	66.86	32.18	89.56
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	83.29	49.79	96.16
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	vermossing	zb	83.29	49.79	96.16
-Versie 3	Vlaanderen	c_2	2022	2024	3	11	49	Binnen & Buiten	6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Vegetatie	bedekking sleutelsoorten	b	82.64	50.43	95.7
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Vegetatie	sleutelsoorten	b	82.64	50.43	95.7
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	eutrofiëring	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	verbossing	b	94.21	63.54	99.35
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	verbraming	b	94.21	63.54	99.35
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	vergrassing inclusief vervilting	zb	94.21	63.54	99.35
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	vermossing	zb	94.21	63.54	99.35
-Versie 3	Vlaanderen	c_2	2022	2024	3	12	49	Binnen & Buiten	6230_hn	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	eutrofiëring	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	strooisellaag	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	verbossing	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	verbraming	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	vermossing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	1	49	Binnen & Buiten	6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	16.26	7.06	33.16
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	48.65	31.16	66.47
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	27.91	14.45	47.03
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	79.27	60.84	90.39
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	94.58	79.38	98.75
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	74.8	55.59	87.56
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	97.29	81.44	99.66
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	86.45	69.95	94.59
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	68.56	48.74	83.34
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	77.51	58.2	89.5
-Versie 3	Vlaanderen	c_2	2022	2024	1	33	54	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	89.16	73.11	96.14
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Structuur	levensvormen	b	22.22	9.87	42.7
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Vegetatie	bedekking sleutelsoorten	b	48.15	29.49	67.34
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Vegetatie	sleutelsoorten	b	25.93	12.35	46.5
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	eutrofiëring	zb	77.78	57.3	90.13
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	verbossing	b	92.59	73.18	98.28
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	verdroging	zb	77.78	57.3	90.13
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	96.3	75.91	99.54
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	vermossing	zb	81.48	61.19	92.47
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	vernatting	zb	81.48	61.19	92.47
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	81.48	61.19	92.47
-Versie 3	Vlaanderen	c_2	2022	2024	2	27	54	Binnen	6410_mo	Verstoring	verzuring	zb	85.19	65.19	94.64
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Structuur	levensvormen	b	0	0	0
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	50	15.56	84.44
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Vegetatie	sleutelsoorten	b	33.33	7.68	75.04
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	eutrofiëring	zb	83.33	34.09	97.97
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	verdroging	zb	66.67	24.96	92.32
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	vernatting	zb	33.33	7.68	75.04
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	66.67	24.96	92.32
-Versie 3	Vlaanderen	c_2	2022	2024	2	6	54	Buiten	6410_mo	Verstoring	verzuring	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	1	47	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus	Structuur	verticale structuur	b	81.7	49.57	95.3
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Structuur	dominantie van één soort	b	65.5	36.02	86.49
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Vegetatie	bedekking sleutelsoorten	b	3.11	0.98	9.38
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Vegetatie	sleutelsoorten	b	1.88	0.46	7.35
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Verstoring	eutrofiëring	zb	54.14	26.7	79.28
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Verstoring	verbossing	b	73.65	40.32	92.04
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Verstoring	verbraming	b	98.57	93.61	99.69
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Verstoring	vergrassing inclusief vervilting	zb	79.52	50.13	93.75
-Versie 3	Vlaanderen	c_2	2020	2024	1	56	62	Binnen & Buiten	6510_hu; 6510_hua; 6510_hus; 6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	88.32	48.18	98.4
-Versie 3	Vlaanderen	c_2	2020	2024	1	7	62	Binnen & Buiten	6510_hua	Verstoring	verdroging	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	1	7	62	Binnen & Buiten	6510_hua	Verstoring	vernatting	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	1	9	62	Binnen & Buiten	6510_huk	Structuur	levensvormen	b	27.07	4.53	74.37
-Versie 3	Vlaanderen	c_2	2020	2024	2	33	62	Binnen	6510_hu; 6510_hus	Structuur	verticale structuur	b	74.32	54.64	87.43
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Structuur	dominantie van één soort	b	60.29	42.53	75.69
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Vegetatie	bedekking sleutelsoorten	b	6.94	1.81	23.21
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Vegetatie	sleutelsoorten	b	1.34	0.17	9.57
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Verstoring	eutrofiëring	zb	59.94	42.37	75.29
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Verstoring	verbossing	b	85.6	68.39	94.23
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Verstoring	verbraming	b	93.47	76.59	98.43
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Verstoring	vergrassing inclusief vervilting	zb	79.18	61.35	90.11
-Versie 3	Vlaanderen	c_2	2020	2024	2	40	62	Binnen	6510_hu; 6510_hus; 6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	99.59	96.9	99.95
-Versie 3	Vlaanderen	c_2	2020	2024	2	7	62	Binnen	6510_huk	Structuur	levensvormen	b	14.29	1.1	71.45
-Versie 3	Vlaanderen	c_2	2020	2024	2	14	62	Buiten	6510_hua; 6510_hu; 6510_hus	Structuur	verticale structuur	b	83.61	39.59	97.54
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Structuur	dominantie van één soort	b	66.97	29.55	90.74
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Vegetatie	bedekking sleutelsoorten	b	2.03	0.39	9.89
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Vegetatie	sleutelsoorten	b	2.03	0.39	9.89
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Verstoring	eutrofiëring	zb	52.51	20.04	82.99
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Verstoring	verbossing	b	70.3	30.83	92.63
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Verstoring	vergrassing inclusief vervilting	zb	79.61	41.18	95.61
-Versie 3	Vlaanderen	c_2	2020	2024	2	16	62	Buiten	6510_hua; 6510_hu; 6510_hus; 6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	85.15	39.49	98.05
-Versie 3	Vlaanderen	c_2	2020	2024	2	2	62	Buiten	6510_huk	Structuur	levensvormen	b	50	NA	NA
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Structuur	dominantie van één soort	b	65.06	32.45	87.83
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Structuur	verticale structuur	b	81.32	46.32	95.64
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Vegetatie	bedekking sleutelsoorten	b	1.61	0.34	7.35
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Verstoring	eutrofiëring	zb	52.82	23.19	80.59
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Verstoring	verbossing	b	70.69	35.32	91.42
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Verstoring	verbraming	b	98.39	92.65	99.66
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Verstoring	vergrassing inclusief vervilting	zb	82.13	46.61	96.03
-Versie 3	Vlaanderen	c_2	2020	2024	3	33	62	Binnen & Buiten	6510_hu	Verstoring	verruiging inclusief ruderalisering	zb	86.96	44.01	98.26
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Structuur	dominantie van één soort	b	71.43	31.48	93.15
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Structuur	verticale structuur	b	85.71	39.92	98.19
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Vegetatie	bedekking sleutelsoorten	b	14.29	1.84	59.76
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Vegetatie	sleutelsoorten	b	14.29	1.84	59.76
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Verstoring	eutrofiëring	zb	71.43	31.48	93.15
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Verstoring	vergrassing inclusief vervilting	zb	42.86	13.77	77.88
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Structuur	dominantie van één soort	b	72.93	32.93	93.67
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Vegetatie	bedekking sleutelsoorten	b	17.89	2.46	65.33
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Vegetatie	sleutelsoorten	b	27.07	6.33	67.07
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Verstoring	eutrofiëring	zb	63.31	30.01	87.41
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Verstoring	verbossing	b	90.83	53.29	98.85
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Verstoring	vergrassing inclusief vervilting	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	9	62	Binnen & Buiten	6510_huk	Verstoring	verruiging inclusief ruderalisering	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Structuur	dominantie van één soort	b	33.14	5.27	81.54
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Structuur	verticale structuur	b	88.86	45.72	98.69
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Vegetatie	bedekking sleutelsoorten	b	11.14	1.32	53.95
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Vegetatie	sleutelsoorten	b	0	0	0
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Verstoring	eutrofiëring	zb	11.14	1.32	53.95
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Verstoring	verbossing	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Verstoring	verbraming	b	100	100	100
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Verstoring	vergrassing inclusief vervilting	zb	33.43	8.78	72.36
-Versie 3	Vlaanderen	c_2	2020	2024	3	7	62	Binnen & Buiten	6510_hus	Verstoring	verruiging inclusief ruderalisering	zb	88.86	46.05	98.68
-Versie 3	Vlaanderen	c_2	2022	2024	1	16	78	Binnen & Buiten	7140_meso	Structuur	(korst)moslaag	b	25.3	8.67	54.69
-Versie 3	Vlaanderen	c_2	2022	2024	1	16	78	Binnen & Buiten	7140_meso	Structuur	dominantie van één soort	b	68.38	39.74	87.64
-Versie 3	Vlaanderen	c_2	2022	2024	1	16	78	Binnen & Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	24.7	8.42	53.93
-Versie 3	Vlaanderen	c_2	2022	2024	1	16	78	Binnen & Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	41.54	23.62	62.01
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	78.83	56.63	91.39
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	67.02	45.29	83.3
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vergrassing	zb	90.47	72.31	97.18
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	1	26	78	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verruiging	zb	88.19	67.03	96.48
-Versie 3	Vlaanderen	c_2	2022	2024	1	10	78	Binnen & Buiten	7140_oli	Structuur	veenmossen	zb	50	18.12	81.88
-Versie 3	Vlaanderen	c_2	2022	2024	1	10	78	Binnen & Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	60	24.35	87.49
-Versie 3	Vlaanderen	c_2	2022	2024	2	14	78	Binnen	7140_meso	Structuur	(korst)moslaag	b	28.57	9.74	59.73
-Versie 3	Vlaanderen	c_2	2022	2024	2	14	78	Binnen	7140_meso	Structuur	dominantie van één soort	b	64.29	34.35	86.1
-Versie 3	Vlaanderen	c_2	2022	2024	2	14	78	Binnen	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	21.43	6.05	53.58
-Versie 3	Vlaanderen	c_2	2022	2024	2	14	78	Binnen	7140_meso	Verstoring	invasieve exoten	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	45.06	25.68	66.08
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	81.28	57.76	93.23
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	verbossing	zb	68.47	45.61	84.9
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	vergrassing	zb	89.66	70.25	96.95
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	2	24	78	Binnen	7140_meso; 7140_oli	Verstoring	verruiging	zb	87.19	64.72	96.19
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Structuur	(korst)moslaag	b	0	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Structuur	dominantie van één soort	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Vegetatie	bedekking sleutel- en overige soorten	b	50	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Vegetatie	sleutelsoorten	b	0	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	eutrofiëring	zb	50	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	invasieve exoten	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	strooisellaag	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	structuurschade	b	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	verbossing	zb	50	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	vergrassing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	vermossing	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	2	2	78	Buiten	7140_meso	Verstoring	verruiging	zb	100	NA	NA
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Vegetatie	sleutelsoorten	b	18.97	5.73	47.41
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	eutrofiëring	zb	68.97	41.65	87.38
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	verbossing	zb	56.32	30.85	78.84
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	vergrassing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	16	78	Binnen & Buiten	7140_meso	Verstoring	verruiging	zb	87.35	58.45	97.14
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Vegetatie	sleutelsoorten	b	90	49.47	98.81
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	eutrofiëring	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	strooisellaag	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	structuurschade	b	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	verbossing	zb	90	49.47	98.81
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	vergrassing	zb	70	35.32	90.89
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	vermossing	zb	100	100	100
-Versie 3	Vlaanderen	c_2	2022	2024	3	10	78	Binnen & Buiten	7140_oli	Verstoring	verruiging	zb	90	49.47	98.81
+versie	schaal	periode	year_min	year_max	type_resultaat	n_obs	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	parameter	mean	llci_0.95	ulci_0.95	klasse
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	44.38	13.1	78.29	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	sleutelsoorten	b	aandeel_gunstig	32.97	8.02	69.26	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	eutrofiëring	zb	aandeel_gunstig	86.91	49.39	98.94	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	strooisellaag	b	aandeel_gunstig	99.71	99.84	100	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbossing	b	aandeel_gunstig	90.44	53.14	99.58	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbraming	b	aandeel_gunstig	98.11	84.49	100	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verdroging	zb	aandeel_gunstig	82.13	16.61	99.9	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	aandeel_gunstig	68.8	33.28	92.63	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vermossing	zb	aandeel_gunstig	94.64	66.9	99.94	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vernatting	zb	aandeel_gunstig	98.45	85.92	100	NA
+Versie 3	Vlaanderen	c_1	2015	2021	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	aandeel_gunstig	98.33	82.8	100	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	aandeel_gunstig	34.33	17.22	55.23	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	45.6	26.2	66.81	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	aandeel_gunstig	28.82	11.61	49.09	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	aandeel_gunstig	75.15	54.91	89.64	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	aandeel_gunstig	99.88	100	100	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	aandeel_gunstig	97.38	84.4	99.9	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	aandeel_gunstig	99.83	100	100	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	aandeel_gunstig	61.01	38.78	80	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	aandeel_gunstig	97.55	87.34	99.92	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	aandeel_gunstig	94.87	81.92	99.45	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	aandeel_gunstig	78.18	59.33	91.14	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	aandeel_gunstig	77.05	55.2	90.52	NA
+Versie 3	Vlaanderen	c_1	2015	2018	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	aandeel_gunstig	87.98	70.37	97.12	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	dominantie van één soort	b	aandeel_gunstig	46.44	17.24	76.83	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	12	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	levensvormen	b	aandeel_gunstig	16.39	0	98.85	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	47	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	verticale structuur	b	aandeel_gunstig	97.84	81.89	100	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	0.75	0	0.69	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	sleutelsoorten	b	aandeel_gunstig	1.13	0	8.67	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	eutrofiëring	zb	aandeel_gunstig	43.29	13.67	73.45	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	strooisellaag	b	aandeel_gunstig	99.59	99.98	100	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbossing	b	aandeel_gunstig	98.35	82.47	100	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbraming	b	aandeel_gunstig	98.58	87.01	100	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verdroging	zb	aandeel_gunstig	96.89	25.1	100	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vergrassing inclusief vervilting	zb	aandeel_gunstig	79.84	46.05	96.58	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vernatting	zb	aandeel_gunstig	59.78	1.12	99.74	NA
+Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	aandeel_gunstig	78.22	43	96.33	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	(korst)moslaag	b	aandeel_gunstig	37.62	16.98	62.81	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	dominantie van één soort	b	aandeel_gunstig	62.96	39.75	83.63	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	veenmossen	zb	aandeel_gunstig	19.27	2.78	52.8	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutel- en overige soorten	b	aandeel_gunstig	55.81	32.28	78.76	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	70.33	34.29	93.7	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	sleutelsoorten	b	aandeel_gunstig	41.09	20.65	63.73	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	eutrofiëring	zb	aandeel_gunstig	81.18	63.15	93.71	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.82	100	100	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	strooisellaag	b	aandeel_gunstig	99.87	100	100	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	structuurschade	b	aandeel_gunstig	99.76	100	100	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verbossing	zb	aandeel_gunstig	78.12	59.51	91.96	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vergrassing	zb	aandeel_gunstig	76.97	57.47	91	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vermossing	zb	aandeel_gunstig	99.87	100	100	NA
+Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verruiging	zb	aandeel_gunstig	83.34	65.44	96.39	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	57.66	22.55	85.5	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_rel	63.12	-56.04	396.97	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_abs	13.27	-36.4	58.02	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	sleutelsoorten	b	aandeel_gunstig	42.26	12.41	77.84	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	75.98	-63.92	468.27	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	9.29	-36.88	54.51	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	eutrofiëring	zb	aandeel_gunstig	91.44	59.65	99.62	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_rel	9.48	-33.76	90.83	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_abs	4.53	-29.41	46.12	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	strooisellaag	b	aandeel_gunstig	99.41	99.92	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_rel	1.8	-0.08	0.16	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_abs	-0.3	-0.08	0.16	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbossing	b	aandeel_gunstig	85.59	54.32	98.68	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	-2.32	-43.62	72.72	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	-4.85	-40.04	39.5	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbraming	b	aandeel_gunstig	96.5	77.01	99.97	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbraming	b	verschil_aandeel_gunstig_rel	-0.48	-22.82	15.76	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verbraming	b	verschil_aandeel_gunstig_abs	-1.61	-22.63	13.6	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verdroging	zb	aandeel_gunstig	83.63	22.23	99.93	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verdroging	zb	verschil_aandeel_gunstig_rel	36.56	-74.35	406.91	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verdroging	zb	verschil_aandeel_gunstig_abs	1.5	-68.64	74.18	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	aandeel_gunstig	77.1	37.43	96.43	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	verschil_aandeel_gunstig_rel	20.72	-47.18	146.94	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	verschil_aandeel_gunstig_abs	8.3	-35.29	52.43	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vermossing	zb	aandeel_gunstig	92.53	56.16	99.79	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vermossing	zb	verschil_aandeel_gunstig_rel	0.31	-41.5	43.5	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vermossing	zb	verschil_aandeel_gunstig_abs	-2.11	-39.71	28.75	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vernatting	zb	aandeel_gunstig	97.65	68.01	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vernatting	zb	verschil_aandeel_gunstig_rel	587371960.17	NA	NA	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	11	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	vernatting	zb	verschil_aandeel_gunstig_abs	-0.8	-31.99	14.08	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	aandeel_gunstig	99.13	99.84	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	verschil_aandeel_gunstig_rel	2.69	-0.1	20.77	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	41	6230	Binnen & Buiten	6230_hmo;6230_ha;6230_hn;6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	verschil_aandeel_gunstig_abs	0.8	-0.1	17.2	8
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	aandeel_gunstig	15.01	4.5	34.07	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	verschil_aandeel_gunstig_rel	-52.84	-88.12	23.32	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	verschil_aandeel_gunstig_abs	-19.32	-43.37	5.97	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	48.57	28	68.13	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_rel	12.28	-44.75	101.95	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_abs	2.97	-25.15	30.89	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	aandeel_gunstig	26.35	10.72	49.33	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	2.19	-63.5	134.77	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	-2.47	-27.34	23.65	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	aandeel_gunstig	80.54	62.03	92.66	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_rel	8.91	-21.01	54.14	8
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_abs	5.39	-18.56	30.03	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	aandeel_gunstig	99.88	100	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_rel	0.19	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_abs	0	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	aandeel_gunstig	95.02	81.87	99.38	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	-2.2	-17.1	14.16	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	-2.35	-17.03	12.06	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	aandeel_gunstig	99.94	100	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	verschil_aandeel_gunstig_rel	1.69	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verbraming	b	verschil_aandeel_gunstig_abs	0.11	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	aandeel_gunstig	76.03	56.48	90.41	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	verschil_aandeel_gunstig_rel	28.52	-18.55	96.68	8
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verdroging	zb	verschil_aandeel_gunstig_abs	15.02	-13.23	39.56	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	aandeel_gunstig	97.45	85.15	99.92	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	verschil_aandeel_gunstig_rel	0.1	-12.27	13.11	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vergrassing inclusief vervilting	zb	verschil_aandeel_gunstig_abs	-0.09	-11.85	11.54	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	aandeel_gunstig	87.21	70.57	96.34	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	verschil_aandeel_gunstig_rel	-7.74	-27.44	11.13	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vermossing	zb	verschil_aandeel_gunstig_abs	-7.67	-26.34	9.17	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	aandeel_gunstig	69.23	46.96	85.44	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	verschil_aandeel_gunstig_rel	-10.17	-41.29	28.7	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	vernatting	zb	verschil_aandeel_gunstig_abs	-8.95	-34.47	18.06	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	aandeel_gunstig	78	57.66	91.48	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	verschil_aandeel_gunstig_rel	2.76	-28.39	44.31	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	verschil_aandeel_gunstig_abs	0.95	-24.09	25.67	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	aandeel_gunstig	89.77	73.88	97.74	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	verschil_aandeel_gunstig_rel	2.73	-17.18	31.18	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	33	6410	Binnen & Buiten	6410_mo	Verstoring	verzuring	zb	verschil_aandeel_gunstig_abs	1.79	-16.61	21.65	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	dominantie van één soort	b	aandeel_gunstig	66.13	35.56	89.04	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	dominantie van één soort	b	verschil_aandeel_gunstig_rel	66.89	-36.58	303.94	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	dominantie van één soort	b	verschil_aandeel_gunstig_abs	19.69	-24.35	58.16	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	12	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	levensvormen	b	aandeel_gunstig	27.99	0	99.67	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	12	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	levensvormen	b	verschil_aandeel_gunstig_rel	1756146611.51	NA	NA	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	12	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	levensvormen	b	verschil_aandeel_gunstig_abs	11.6	-94.34	98.71	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	47	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	verticale structuur	b	aandeel_gunstig	82.55	51.08	97.05	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	47	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	verticale structuur	b	verschil_aandeel_gunstig_rel	-12.64	-48.09	7.71	9
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	47	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Structuur	verticale structuur	b	verschil_aandeel_gunstig_abs	-15.3	-47.47	5.78	9
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	3.07	0.02	21.69	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_rel	NA	NA	NA	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_abs	2.32	-0.13	21.01	8
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	sleutelsoorten	b	aandeel_gunstig	1.86	0	18.35	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	1461005.82	-99.81	8797773.39	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	0.72	-8.41	17.93	8
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	eutrofiëring	zb	aandeel_gunstig	53.32	21.45	83.94	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_rel	50.29	-52.32	349.63	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_abs	10.03	-32.17	52.7	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	strooisellaag	b	aandeel_gunstig	99.54	99.99	100	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_rel	6191.43	-0.01	0.02	4
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_abs	-0.05	-0.01	0.02	4
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbossing	b	aandeel_gunstig	74.63	41.59	94.71	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	-23.44	-58.13	-1.65	6
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	-23.72	-57.79	-1.44	6
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbraming	b	aandeel_gunstig	98.62	88.93	100	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbraming	b	verschil_aandeel_gunstig_rel	0.95	-10.5	13.87	4
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verbraming	b	verschil_aandeel_gunstig_abs	0.04	-10.5	12.01	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verdroging	zb	aandeel_gunstig	96.56	6.84	100	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verdroging	zb	verschil_aandeel_gunstig_rel	NA	NA	NA	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verdroging	zb	verschil_aandeel_gunstig_abs	-0.33	-93.16	69.5	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vergrassing inclusief vervilting	zb	aandeel_gunstig	80.65	49.05	96.56	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vergrassing inclusief vervilting	zb	verschil_aandeel_gunstig_rel	4.42	-39.92	80.07	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vergrassing inclusief vervilting	zb	verschil_aandeel_gunstig_abs	0.81	-36.83	37.72	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vernatting	zb	aandeel_gunstig	96.07	4.08	100	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vernatting	zb	verschil_aandeel_gunstig_rel	1765.62	-86.4	8860.04	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	7	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	vernatting	zb	verschil_aandeel_gunstig_abs	36.29	-24.61	98.83	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	aandeel_gunstig	89.77	62.08	99.22	NA
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	verschil_aandeel_gunstig_rel	19.49	-25.35	111.34	10
+Versie 3	Vlaanderen	c_2	2020	2024	Habitattype	56	6510	Binnen & Buiten	6510_hus;6510_hu;6510_huk;6510_hua	Verstoring	verruiging inclusief ruderalisering	zb	verschil_aandeel_gunstig_abs	11.55	-22.4	48.32	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	(korst)moslaag	b	aandeel_gunstig	24.7	8.68	47.95	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	(korst)moslaag	b	verschil_aandeel_gunstig_rel	-27.21	-77.83	78.33	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	(korst)moslaag	b	verschil_aandeel_gunstig_abs	-12.92	-43.33	17.57	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	dominantie van één soort	b	aandeel_gunstig	69.61	45.24	86.86	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	dominantie van één soort	b	verschil_aandeel_gunstig_rel	14.66	-31.6	82.92	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	dominantie van één soort	b	verschil_aandeel_gunstig_abs	6.65	-24.05	35.33	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	veenmossen	zb	aandeel_gunstig	49.64	17.88	79.28	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	veenmossen	zb	verschil_aandeel_gunstig_rel	357.8	-25.87	1648.06	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Structuur	veenmossen	zb	verschil_aandeel_gunstig_abs	30.37	-10.58	67.04	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutel- en overige soorten	b	aandeel_gunstig	23.37	7.82	48.38	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutel- en overige soorten	b	verschil_aandeel_gunstig_rel	-55.98	-86.87	3.74	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutel- en overige soorten	b	verschil_aandeel_gunstig_abs	-32.45	-61.32	1.65	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	59.97	24.81	87.79	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_rel	-8.68	-67.49	77.75	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	10	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_abs	-10.36	-55.94	33.06	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	sleutelsoorten	b	aandeel_gunstig	40.9	19.5	64.6	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	6.88	-52.47	107.06	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	-0.2	-29.25	27.57	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	eutrofiëring	zb	aandeel_gunstig	81.05	61.18	93.71	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_rel	0.81	-27.34	30.96	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	eutrofiëring	zb	verschil_aandeel_gunstig_abs	-0.13	-22.93	20.27	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.27	99.99	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_rel	6.84	-0.01	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	16	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_abs	-0.55	-0.01	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	strooisellaag	b	aandeel_gunstig	99.79	100	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_rel	-0.03	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	strooisellaag	b	verschil_aandeel_gunstig_abs	-0.08	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	structuurschade	b	aandeel_gunstig	99.82	100	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	structuurschade	b	verschil_aandeel_gunstig_rel	1.03	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	structuurschade	b	verschil_aandeel_gunstig_abs	0.06	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verbossing	zb	aandeel_gunstig	68.11	49.08	85.32	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verbossing	zb	verschil_aandeel_gunstig_rel	-11.83	-38.62	21.35	9
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verbossing	zb	verschil_aandeel_gunstig_abs	-10.01	-33.03	13.94	10
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vergrassing	zb	aandeel_gunstig	91.51	77.78	98.14	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_rel	20.53	-5.03	60.51	8
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_abs	14.54	-4.36	35.17	8
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vermossing	zb	aandeel_gunstig	99.77	100	100	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vermossing	zb	verschil_aandeel_gunstig_rel	86.95	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	vermossing	zb	verschil_aandeel_gunstig_abs	-0.1	0	0	4
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verruiging	zb	aandeel_gunstig	91.05	75.5	98.68	NA
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	10.28	-10.19	40.49	8
+Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	26	7140	Binnen & Buiten	7140_meso;7140_oli	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	7.71	-8.86	26.64	8
