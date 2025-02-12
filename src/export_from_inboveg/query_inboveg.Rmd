@@ -81,7 +81,7 @@ coordinates_moneos_91E0_sf <- read_csv2(file.path(path, "raw/coordinates_inbo/Co
   arrange(plot_id) %>%
   filter(str_detect(plot_pl, "a"))
 
-# for some pq's coordinates are missing --> use origonal coordiantes of sampling units based on ranking
+# for some pq's coordinates are missing --> use original coordinates of sampling units based on ranking
 refpoints <- read_vc(root = file.path(fileman_up("n2khab-sample-admin"), "data/mhq_terr/"), file = "mhq_terr_refpoints")
 
 coords_orig <- refpoints %>%
@@ -108,9 +108,11 @@ The structure variables of 1330_da are not in INBOVEG.
 The original data is stored in [this google drive folder](https://drive.google.com/drive/folders/1tl0gtQrFdmMtgupffkX8uuMJ0uJbeWKL).
 
 ```{r}
-structure_1330_da_wide <- read_csv2(file.path(path, "raw/structure_variables/Structuurgegevens_1330_da.csv"))
+structure_1330_da_2018_wide <- read_csv2(file.path(path, "raw/structure_variables/structuurgegevens_1330_da_2018.csv"))
 
-structure_1330_da <- structure_1330_da_wide %>%
+structure_1330_da_2025_wide <- read_csv2(file.path(path, "raw/structure_variables/structuurgegevens_1330_da_2025.csv"))
+
+structure_1330_da_2018 <- structure_1330_da_2018_wide %>%
   gather( starts_with("ZSCPQ"), key = "plot_id", value =  "value") %>%
   mutate(value = ifelse(Voorwaarde %in% c("schorklifvegetaties aanwezig", "habitattype lager dan het klif") & value == "nvt", "nee",
                          value)) %>%
@@ -122,6 +124,22 @@ structure_1330_da <- structure_1330_da_wide %>%
   filter(!value %in% c("", "?", "nvt")) %>%
   rename(structure_var = Voorwaarde) %>%
   mutate(date = as.Date("2018-11-06"))
+
+structure_1330_da_2025 <- structure_1330_da_2025_wide %>%
+  gather( starts_with("ZSCPQ"), key = "plot_id", value =  "value") %>%
+  mutate(value = ifelse(Voorwaarde %in% c("schorklifvegetaties aanwezig", "habitattype lager dan het klif") & value == "nvt", "nee",
+                         value)) %>%
+  filter(!is.na(value)) %>%
+  filter(Versie != "") %>%
+  group_by(plot_id, Voorwaarde) %>%
+  summarise(value = unique(value)) %>%
+  ungroup() %>%
+  filter(!value %in% c("", "?", "nvt")) %>%
+  rename(structure_var = Voorwaarde) %>%
+  mutate(date = as.Date("2024-11-01"))
+
+structure_1330_da <- bind_rows(structure_1330_da_2018,
+                               structure_1330_da_2025)
 
 ```
 
@@ -153,7 +171,7 @@ write_vc(recordings_mhq, "vegetation_mhq_terr", root = path,  sorting = c("recor
 write_vc(site_qualifiers_moneos, "site_qualifiers_moneos", root = path, sorting = c("recording_givid"))
 write_vc(coordinates_moneos_91E0_sf, "coordinates_moneos_91E0_sf", root = path, sorting = c("plot_id", "plot_pl"))
 write_vc(coordinates_moneos_1330_da, "coordinates_moneos_1330_da", root = path, sorting = c("plot_id"))
-write_vc(structure_1330_da, "structure_mhq_1330_da", root = path, sorting = c("plot_id", "structure_var"), strict = FALSE)
+write_vc(structure_1330_da, "structure_mhq_1330_da", root = path, sorting = c("plot_id", "structure_var", "date"), strict = FALSE)
 ```
 
 # Query INBOVEG aquatic habitat types
