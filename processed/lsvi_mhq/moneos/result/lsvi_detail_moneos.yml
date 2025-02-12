@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
@@ -7,7 +7,7 @@
   - type_analysis
   - voorwaarde
   hash: 6c0c355bc79920d94cdd81bfeeee8f404430230a
-  data_hash: 7a6de997178959ef84c4cc7b792de681c4e9bbe3
+  data_hash: 708b9ef8238fb8c4fe9236924217d2220e4e50c6
 id:
   class: character
 survey:

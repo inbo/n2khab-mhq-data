@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
@@ -7,7 +7,7 @@
   - type_analysis
   - indicator
   hash: addf9eef81548de13ebc307d28156c438d693bc8
-  data_hash: 1e68ff427dfe2f47b958e69add37dbb5521b6609
+  data_hash: 3f9773baa0d525c9ac95a8fc8a554bb7de8c7257
 id:
   class: character
 type_analysis:

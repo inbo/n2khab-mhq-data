@@ -1,12 +1,13 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - structure_var
-  hash: 5d4f929b58775c52caf077e780889936f1542647
-  data_hash: 63624863454909612bc254cdb9ddc72a1a0f7f57
+  - date
+  hash: efc29f06dbf12ceec993857484074cbd667228aa
+  data_hash: e9f7c162bab048912d94d9a85bf5cfad2cae40a0
 plot_id:
   class: character
 structure_var:

@@ -1,7 +1,4 @@
 record_id	Vegetatielaag	Kenmerk	TypeKenmerk	Waarde	Type	Eenheid	Invoertype	ID
-IV2014100713420044	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_1995-08-16
-IV2014100713420044	kruidlaag	Carex acuta L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_1995-08-16
-IV2014100713420044	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ007_1995-08-16
 IV2014030314334724	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_2013-10-16
 IV2014030314334724	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_2013-10-16
 IV2014030314334724	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_2013-10-16
@@ -15,7 +12,6 @@ IV2020032317445682	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	
 IV2020032317445682	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ007_2019-10-10
 IV2020032317445682	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_2019-10-10
 IV2020032317445682	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ007_2019-10-10
-IV2014100713541953	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ009_1995-08-20
 IV2014011316535054	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ009_2013-10-14
 IV2014011316535054	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ009_2013-10-14
 IV2014011316535054	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ009_2013-10-14
@@ -23,10 +19,6 @@ IV2014011316535054	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	
 IV2020032413151272	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ009_2019-10-10
 IV2020032413151272	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ009_2019-10-10
 IV2020032413151272	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ009_2019-10-10
-IV2014101309520749	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ158_1995-10-04
-IV2014101309520749	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ158_1995-10-04
-IV2014101309520749	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	12	Percentage	%	NA	ZSCPQ158_1995-10-04
-IV2014101309520749	kruidlaag	Scirpus maritimus L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ158_1995-10-04
 IV2014030312250246	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	2	Percentage	%	NA	ZSCPQ158_2013-10-16
 IV2014030312250246	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ158_2013-10-16
 IV2014030312250246	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	22	Percentage	%	NA	ZSCPQ158_2013-10-16
@@ -35,10 +27,6 @@ IV2014030312250246	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA
 IV2020032310080684	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ158_2019-10-07
 IV2020032310080684	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	7	Percentage	%	NA	ZSCPQ158_2019-10-07
 IV2020032310080684	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ158_2019-10-07
-IV2014101309560024	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ159_1995-10-04
-IV2014101309560024	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ159_1995-10-04
-IV2014101309560024	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	70	Percentage	%	NA	ZSCPQ159_1995-10-04
-IV2014101309560024	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ159_1995-10-04
 IV2014030312272058	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	2	Percentage	%	NA	ZSCPQ159_2013-10-16
 IV2014030312272058	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	17	Percentage	%	NA	ZSCPQ159_2013-10-16
 IV2014030312272058	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ159_2013-10-16
@@ -46,9 +34,6 @@ IV2014030312272058	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA
 IV2020032310110217	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ159_2019-10-07
 IV2020032310110217	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ159_2019-10-07
 IV2020032310110217	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ159_2019-10-07
-IV2014101310092570	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ160_1995-10-04
-IV2014101310092570	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	97	Percentage	%	NA	ZSCPQ160_1995-10-04
-IV2014101310092570	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ160_1995-10-04
 IV2014030312294301	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	4	Percentage	%	NA	ZSCPQ160_2013-10-16
 IV2014030312294301	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	22	Percentage	%	NA	ZSCPQ160_2013-10-16
 IV2014030312294301	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ160_2013-10-16
@@ -57,12 +42,6 @@ IV2020032310134076	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Pe
 IV2020032310134076	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ160_2019-10-07
 IV2020032310134076	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ160_2019-10-07
 IV2020032310134076	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ160_2019-10-07
-IV2014101310230565	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ162_1995-10-04
-IV2014101310230565	kruidlaag	Glaux maritima L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ162_1995-10-04
-IV2014101310230565	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ162_1995-10-04
-IV2014101310230565	kruidlaag	Plantago maritima L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ162_1995-10-04
-IV2014101310230565	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ162_1995-10-04
-IV2014101310230565	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ162_1995-10-04
 IV2014030314313598	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ162_2013-10-16
 IV2014030314313598	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	7	Percentage	%	NA	ZSCPQ162_2013-10-16
 IV2014030314313598	kruidlaag	Festuca rubra L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ162_2013-10-16
@@ -71,8 +50,6 @@ IV2014030314313598	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA
 IV2014030314313598	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ162_2013-10-16
 IV2020032310231060	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ162_2019-10-07
 IV2020032310231060	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ162_2019-10-07
-IV2014101311242728	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ171_1995-10-05
-IV2014101311242728	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	97	Percentage	%	NA	ZSCPQ171_1995-10-05
 IV2014030410161165	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	1	Percentage	%	NA	ZSCPQ171_2013-10-18
 IV2014030410161165	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	30	Percentage	%	NA	ZSCPQ171_2013-10-18
 IV2014030410161165	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ171_2013-10-18
@@ -81,22 +58,10 @@ IV2020032513581265	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	Z
 IV2020032513581265	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ171_2019-10-14
 IV2020032513581265	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	7	Percentage	%	NA	ZSCPQ171_2019-10-14
 IV2020032513581265	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	27	Percentage	%	NA	ZSCPQ171_2019-10-14
-IV2014101311295712	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ172_1995-10-05
-IV2014101311295712	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ172_1995-10-05
-IV2014101311295712	kruidlaag	Salicornia europaea L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ172_1995-10-05
-IV2014101311295712	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	20	Percentage	%	NA	ZSCPQ172_1995-10-05
-IV2014101311295712	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ172_1995-10-05
 IV2014030411215613	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ172_2013-10-19
 IV2014030411215613	kruidlaag	Scirpus maritimus L.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ172_2013-10-19
 IV2020032515314325	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ172_2019-10-15
 IV2020032515314325	kruidlaag	Scirpus maritimus L.	Soort_Latijn	62	Percentage	%	NA	ZSCPQ172_2019-10-15
-IV2014101311375311	kruidlaag	Aster tripolium L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ173_1995-10-05
-IV2014101311375311	kruidlaag	Plantago maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ173_1995-10-05
-IV2014101311375311	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ173_1995-10-05
-IV2014101311375311	kruidlaag	Salicornia europaea L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ173_1995-10-05
-IV2014101311375311	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	20	Percentage	%	NA	ZSCPQ173_1995-10-05
-IV2014101311375311	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ173_1995-10-05
-IV2014101311375311	kruidlaag	Triglochin maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ173_1995-10-05
 IV2014030411242385	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ173_2013-10-19
 IV2014030411242385	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ173_2013-10-19
 IV2014030411242385	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ173_2013-10-19
@@ -104,18 +69,6 @@ IV2014030411242385	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	2	Percenta
 IV2014030411242385	kruidlaag	Scirpus maritimus L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ173_2013-10-19
 IV2020032515283633	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ173_2019-10-15
 IV2020032515283633	kruidlaag	Scirpus maritimus L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ173_2019-10-15
-IV2014101311500760	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	7	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Glaux maritima L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Plantago maritima L.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Salicornia europaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Spartina townsendii H. et J. Groves	Soort_Latijn	2	Percentage	%	NA	ZSCPQ174_1995-10-05
-IV2014101311500760	kruidlaag	Triglochin maritima L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ174_1995-10-05
 IV2014030411281773	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ174_2013-10-19
 IV2014030411281773	kruidlaag	Glaux maritima L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ174_2013-10-19
 IV2014030411281773	kruidlaag	Juncus ambiguus Guss.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_2013-10-19
@@ -140,16 +93,6 @@ IV2020032515092394	kruidlaag	Scirpus maritimus L.	Soort_Latijn	30	Percentage	%	N
 IV2020032515092394	kruidlaag	Spartina townsendii H. et J. Groves	Soort_Latijn	42	Percentage	%	NA	ZSCPQ174_2019-10-15
 IV2020032515092394	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_2019-10-15
 IV2020032515092394	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ174_2019-10-15
-IV2014101311570235	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Glaux maritima L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Plantago maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Salicornia europaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Spartina townsendii H. et J. Groves	Soort_Latijn	2	Percentage	%	NA	ZSCPQ175_1995-10-05
-IV2014101311570235	kruidlaag	Triglochin maritima L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ175_1995-10-05
 IV2014030411305777	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ175_2013-10-19
 IV2014030411305777	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ175_2013-10-19
 IV2014030411305777	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	37	Percentage	%	NA	ZSCPQ175_2013-10-19
@@ -160,14 +103,6 @@ IV2014030411305777	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	
 IV2020032514503255	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ175_2019-10-15
 IV2020032514503255	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ175_2019-10-15
 IV2020032514503255	kruidlaag	Scirpus maritimus L.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ175_2019-10-15
-IV2014101312091315	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	12	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	50	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Plantago maritima L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ176_1995-10-06
-IV2014101312091315	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ176_1995-10-06
 IV2014030411101491	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ176_2013-10-18
 IV2014030411101491	kruidlaag	Aster tripolium L.	Soort_Latijn	17	Percentage	%	NA	ZSCPQ176_2013-10-18
 IV2014030411101491	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ176_2013-10-18
@@ -187,16 +122,6 @@ IV2020032514014501	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	7	Percentage	%
 IV2020032514014501	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ176_2019-10-14
 IV2020032514014501	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ176_2019-10-14
 IV2020032514014501	kruidlaag	Triglochin maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ176_2019-10-14
-IV2014101313400263	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Glaux maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Plantago maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Salicornia europaea L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Spartina townsendii H. et J. Groves	Soort_Latijn	2	Percentage	%	NA	ZSCPQ177_1995-10-06
-IV2014101313400263	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ177_1995-10-06
 IV2014030411130087	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	37	Percentage	%	NA	ZSCPQ177_2013-10-18
 IV2014030411130087	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ177_2013-10-18
 IV2014030411130087	kruidlaag	Festuca rubra L.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ177_2013-10-18
@@ -213,16 +138,6 @@ IV2020032514175395	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	22	Percentage	
 IV2020032514175395	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ177_2019-10-14
 IV2020032514175395	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ177_2019-10-14
 IV2020032514175395	kruidlaag	Triglochin maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ177_2019-10-14
-IV2014101313450186	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	4	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	20	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Plantago maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ178_1995-10-06
-IV2014101313450186	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ178_1995-10-06
 IV2014030411161844	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ178_2013-10-18
 IV2014030411161844	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ178_2013-10-18
 IV2014030411161844	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	22	Percentage	%	NA	ZSCPQ178_2013-10-18
@@ -236,9 +151,6 @@ IV2020032514154342	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	90	
 IV2020032514154342	kruidlaag	Festuca rubra L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ178_2019-10-14
 IV2020032514154342	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ178_2019-10-14
 IV2020032514154342	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ178_2019-10-14
-IV2014101313542398	kruidlaag	Salicornia europaea L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ179_1995-10-06
-IV2014101313542398	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ179_1995-10-06
-IV2014101313542398	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ179_1995-10-06
 IV2014030411195942	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	37	Percentage	%	NA	ZSCPQ179_2013-10-18
 IV2014030411195942	kruidlaag	Aster tripolium L.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ179_2013-10-18
 IV2014030411195942	kruidlaag	Festuca rubra L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ179_2013-10-18
@@ -256,15 +168,6 @@ IV2020032514094179	kruidlaag	Festuca rubra L.	Soort_Latijn	4	Percentage	%	NA	ZSC
 IV2020032514094179	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	87	Percentage	%	NA	ZSCPQ179_2019-10-14
 IV2020032514094179	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ179_2019-10-14
 IV2020032514094179	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ179_2019-10-14
-IV2014101313590723	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	20	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Plantago maritima L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ180_1995-10-06
-IV2014101313590723	kruidlaag	Triglochin maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ180_1995-10-06
 IV2014030411342143	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	47	Percentage	%	NA	ZSCPQ180_2013-10-19
 IV2014030411342143	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ180_2013-10-19
 IV2014030411342143	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	4	Percentage	%	NA	ZSCPQ180_2013-10-19
@@ -281,13 +184,6 @@ IV2020032514270347	kruidlaag	Festuca rubra L.	Soort_Latijn	37	Percentage	%	NA	ZS
 IV2020032514270347	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ180_2019-10-14
 IV2020032514270347	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ180_2019-10-14
 IV2020032514270347	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ180_2019-10-14
-IV2014101314090977	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ181_1995-10-06
-IV2014101314090977	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ181_1995-10-06
-IV2014101314090977	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ181_1995-10-06
-IV2014101314090977	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	60	Percentage	%	NA	ZSCPQ181_1995-10-06
-IV2014101314090977	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ181_1995-10-06
-IV2014101314090977	kruidlaag	Plantago maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ181_1995-10-06
-IV2014101314090977	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ181_1995-10-06
 IV2014030411471814	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	17	Percentage	%	NA	ZSCPQ181_2013-10-19
 IV2014030411471814	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ181_2013-10-19
 IV2014030411471814	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ181_2013-10-19
@@ -307,13 +203,6 @@ IV2020032514400472	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	17	
 IV2020032514400472	kruidlaag	Plantago maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ181_2019-10-14
 IV2020032514400472	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ181_2019-10-14
 IV2020032514400472	kruidlaag	Triglochin maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ181_2019-10-14
-IV2014101314161906	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ182_1995-10-06
-IV2014101314161906	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	60	Percentage	%	NA	ZSCPQ182_1995-10-06
-IV2014101314161906	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	40	Percentage	%	NA	ZSCPQ182_1995-10-06
-IV2014101314161906	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ182_1995-10-06
-IV2014101314161906	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ182_1995-10-06
-IV2014101314161906	kruidlaag	Plantago maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ182_1995-10-06
-IV2014101314161906	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ182_1995-10-06
 IV2014030411513397	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ182_2013-10-19
 IV2014030411513397	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ182_2013-10-19
 IV2014030411513397	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ182_2013-10-19
@@ -329,11 +218,6 @@ IV2020032514422893	kruidlaag	Festuca rubra L.	Soort_Latijn	17	Percentage	%	NA	ZS
 IV2020032514422893	kruidlaag	Glaux maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ182_2019-10-15
 IV2020032514422893	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	10	Percentage	%	NA	ZSCPQ182_2019-10-15
 IV2020032514422893	kruidlaag	Triglochin maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ182_2019-10-15
-IV2014101314244127	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ183_1995-10-06
-IV2014101314244127	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ183_1995-10-06
-IV2014101314244127	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ183_1995-10-06
-IV2014101314244127	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	4	Percentage	%	NA	ZSCPQ183_1995-10-06
-IV2014101314244127	kruidlaag	Scirpus maritimus L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ183_1995-10-06
 IV2014030411544520	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ183_2013-10-19
 IV2014030411544520	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ183_2013-10-19
 IV2014030411544520	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	7	Percentage	%	NA	ZSCPQ183_2013-10-19
@@ -346,34 +230,18 @@ IV2014030411544520	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA
 IV2014030411544520	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ183_2013-10-19
 IV2020032514475391	kruidlaag	Festuca rubra L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ183_2019-10-15
 IV2020032514475391	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ183_2019-10-15
-IV2014101314403398	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ184_1995-10-09
-IV2014101314403398	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	30	Percentage	%	NA	ZSCPQ184_1995-10-09
-IV2014101314403398	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ184_1995-10-09
-IV2014101314403398	kruidlaag	Suaeda maritima (L.) Dum.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ184_1995-10-09
 IV2014030314392874	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ184_2013-10-16
 IV2014030314392874	kruidlaag	Glaux maritima L.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ184_2013-10-16
 IV2020032316554945	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ184_2019-10-10
 IV2020032316554945	kruidlaag	Glaux maritima L.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ184_2019-10-10
 IV2020032316554945	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ184_2019-10-10
 IV2020032316554945	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	2	Percentage	%	NA	ZSCPQ184_2019-10-10
-IV2014101314483585	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ185_1995-10-09
-IV2014101314483585	kruidlaag	Scirpus maritimus L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ185_1995-10-09
-IV2014101314483585	kruidlaag	Suaeda maritima (L.) Dum.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ185_1995-10-09
-IV2014101314483585	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ185_1995-10-09
 IV2014030314421473	kruidlaag	Glaux maritima L.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ185_2013-10-16
 IV2014030314421473	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ185_2013-10-16
 IV2020032317002321	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ185_2019-10-10
 IV2020032317002321	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ185_2019-10-10
 IV2020032317002321	kruidlaag	Glaux maritima L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ185_2019-10-10
 IV2020032317002321	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	4	Percentage	%	NA	ZSCPQ185_2019-10-10
-IV2014101315031728	kruidlaag	Aster tripolium L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Glaux maritima L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Salicornia europaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Scirpus maritimus L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ186_1995-10-09
-IV2014101315031728	kruidlaag	Suaeda maritima (L.) Dum.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ186_1995-10-09
 IV2014030314594355	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ186_2013-10-16
 IV2014030314594355	kruidlaag	Glaux maritima L.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ186_2013-10-16
 IV2014030314594355	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ186_2013-10-16
@@ -384,18 +252,9 @@ IV2020032317234384	kruidlaag	Glaux maritima L.	Soort_Latijn	37	Percentage	%	NA	Z
 IV2020032317234384	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ186_2019-10-10
 IV2020032317234384	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ186_2019-10-10
 IV2020032317234384	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	37	Percentage	%	NA	ZSCPQ186_2019-10-10
-IV2014101315221470	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ188_1995-10-09
-IV2014101315221470	kruidlaag	Glaux maritima L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ188_1995-10-09
-IV2014101315221470	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	2	Percentage	%	NA	ZSCPQ188_1995-10-09
-IV2014101315221470	kruidlaag	Scirpus maritimus L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ188_1995-10-09
-IV2014101315221470	kruidlaag	Suaeda maritima (L.) Dum.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ188_1995-10-09
 IV2014030315031995	kruidlaag	Glaux maritima L.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ188_2013-10-16
 IV2020032317301956	kruidlaag	Glaux maritima L.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ188_2019-10-10
 IV2020032317301956	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	7	Percentage	%	NA	ZSCPQ188_2019-10-10
-IV2014101315294142	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ189_1995-10-09
-IV2014101315294142	kruidlaag	Glaux maritima L.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ189_1995-10-09
-IV2014101315294142	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ189_1995-10-09
-IV2014101315294142	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ189_1995-10-09
 IV2014030315124036	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ189_2013-10-16
 IV2014030315124036	kruidlaag	Apium graveolens L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ189_2013-10-16
 IV2014030315124036	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ189_2013-10-16
@@ -418,17 +277,6 @@ IV2020032316462924	kruidlaag	Plantago maritima L.	Soort_Latijn	2	Percentage	%	NA
 IV2020032316462924	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	47	Percentage	%	NA	ZSCPQ189_2019-10-10
 IV2020032316462924	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	4	Percentage	%	NA	ZSCPQ189_2019-10-10
 IV2020032316462924	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ189_2019-10-10
-IV2014101315323789	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	4	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Festuca rubra subsp. litoralis (G.F.W. Mey.) Auquier	Soort_Latijn	20	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Glaux maritima L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Plantago major L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ190_1995-10-09
-IV2014101315323789	kruidlaag	Triglochin maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ190_1995-10-09
 IV2014030315161557	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ190_2013-10-16
 IV2014030315161557	kruidlaag	Apium graveolens L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ190_2013-10-16
 IV2014030315161557	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ190_2013-10-16
@@ -450,15 +298,10 @@ IV2020032316412576	kruidlaag	Plantago coronopus L.	Soort_Latijn	1	Percentage	%	N
 IV2020032316412576	kruidlaag	Plantago maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ190_2019-10-10
 IV2020032316412576	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ190_2019-10-10
 IV2020032316412576	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	7	Percentage	%	NA	ZSCPQ190_2019-10-10
-IV2014101315450322	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ192_1995-10-10
-IV2014101315450322	kruidlaag	Scirpus maritimus L.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ192_1995-10-10
 IV2014022511574681	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ192_2013-10-15
 IV2014022511574681	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ192_2013-10-15
 IV2014022511574681	kruidlaag	Scirpus maritimus L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ192_2013-10-15
 IV2020032311160617	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ192_2019-10-08
-IV2014101315492411	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ193_1995-10-10
-IV2014101315492411	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ193_1995-10-10
-IV2014101315492411	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ193_1995-10-10
 IV2014022512005570	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ193_2013-10-15
 IV2014022512005570	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ193_2013-10-15
 IV2014022512005570	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ193_2013-10-15
@@ -469,17 +312,12 @@ IV2020032311114951	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	Z
 IV2020032311114951	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ193_2019-10-08
 IV2020032311114951	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ193_2019-10-08
 IV2020032311114951	kruidlaag	Scirpus maritimus L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ193_2019-10-08
-IV2014101315545123	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ194_1995-10-10
-IV2014101315545123	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ194_1995-10-10
-IV2014101315545123	kruidlaag	Scirpus maritimus L.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ194_1995-10-10
 IV2014022512030033	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ194_2013-10-15
 IV2014022512030033	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ194_2013-10-15
 IV2020032311082588	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ194_2019-10-08
 IV2020032311082588	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ194_2019-10-08
 IV2020032311082588	kruidlaag	Cochlearia officinalis L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ194_2019-10-08
 IV2020032311082588	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ194_2019-10-08
-IV2014101315581831	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ195_1995-10-10
-IV2014101315581831	kruidlaag	Scirpus maritimus L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ195_1995-10-10
 IV2014022512060363	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ195_2013-10-15
 IV2014022512060363	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ195_2013-10-15
 IV2014022512060363	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ195_2013-10-15
@@ -489,15 +327,10 @@ IV2020032311204285	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%
 IV2020032311204285	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ195_2019-10-08
 IV2020032311204285	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ195_2019-10-08
 IV2020032311204285	kruidlaag	Scirpus maritimus L.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ195_2019-10-08
-IV2014101316163836	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ199_1995-10-10
-IV2014101316163836	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ199_1995-10-10
-IV2014101316163836	kruidlaag	Scirpus maritimus L.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ199_1995-10-10
 IV2014030311151333	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	92	Percentage	%	NA	ZSCPQ199_2013-10-15
 IV2014030311151333	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ199_2013-10-15
 IV2020032310392633	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ199_2019-10-08
 IV2020032310392633	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ199_2019-10-08
-IV2014101316210292	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	97	Percentage	%	NA	ZSCPQ200_1995-10-13
-IV2014101316210292	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ200_1995-10-13
 IV2014030311211704	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ200_2013-10-15
 IV2014030311211704	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ200_2013-10-15
 IV2014030311211704	kruidlaag	Cochlearia officinalis L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ200_2013-10-15
@@ -513,9 +346,6 @@ IV2020032311280361	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	Z
 IV2020032311280361	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ200_2019-10-08
 IV2020032311280361	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	17	Percentage	%	NA	ZSCPQ200_2019-10-08
 IV2020032311280361	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ200_2019-10-08
-IV2014101316244338	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ201_1995-10-13
-IV2014101316244338	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ201_1995-10-13
-IV2014101316244338	kruidlaag	Scirpus maritimus L.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ201_1995-10-13
 IV2014030311263430	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ201_2013-10-15
 IV2014030311263430	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ201_2013-10-15
 IV2014030311263430	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ201_2013-10-15
@@ -530,18 +360,10 @@ IV2020032311323254	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	7	Pe
 IV2020032311323254	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ201_2019-10-08
 IV2020032311323254	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	62	Percentage	%	NA	ZSCPQ201_2019-10-08
 IV2020032311323254	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ201_2019-10-08
-IV2014101316312845	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ203_1995-10-13
-IV2014101316312845	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ203_1995-10-13
-IV2014101316312845	kruidlaag	Scirpus maritimus L.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ203_1995-10-13
 IV2014030311283135	kruidlaag	Cochlearia officinalis L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ203_2013-10-15
 IV2014030311283135	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ203_2013-10-15
 IV2020032316380707	kruidlaag	Cochlearia officinalis L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ203_2019-10-08
 IV2020032316380707	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	82	Percentage	%	NA	ZSCPQ203_2019-10-08
-IV2013070516275106	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ222_2012-09-26
-IV2013070516275106	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	80	Percentage	%	NA	ZSCPQ222_2012-09-26
-IV2013070516275106	kruidlaag	Glaux maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ222_2012-09-26
-IV2013070516275106	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ222_2012-09-26
-IV2013070516275106	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ222_2012-09-26
 IV2014011315360763	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ222_2013-10-07
 IV2014011315360763	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	92	Percentage	%	NA	ZSCPQ222_2013-10-07
 IV2014011315360763	kruidlaag	Glaux maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ222_2013-10-07
@@ -552,7 +374,6 @@ IV2016120512033460	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	80	
 IV2016120512033460	kruidlaag	Glaux maritima L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ222_2016-10-07
 IV2016120512033460	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ222_2016-10-07
 IV2016120512033460	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ222_2016-10-07
-IV2013070908573073	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ225_2012-09-26
 IV2014011315404492	kruidlaag	Glaux maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ225_2013-10-07
 IV2014011315404492	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	2	Percentage	%	NA	ZSCPQ225_2013-10-07
 IV2016120513593673	kruidlaag	Glaux maritima L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ225_2016-10-07
@@ -564,19 +385,12 @@ IV2023031712114303	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	P
 IV2023031712114303	kruidlaag	Glaux maritima L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ225_2022-10-03
 IV2023031712114303	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ225_2022-10-03
 IV2023031712114303	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ225_2022-10-03
-IV2013070909043060	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2012-09-26
-IV2013070909043060	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2012-09-26
-IV2013070909043060	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ227_2012-09-26
-IV2013070909043060	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ227_2012-09-26
 IV2014011315450812	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2013-10-07
 IV2014011315450812	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ227_2013-10-07
 IV2014011315450812	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2013-10-07
 IV2016120516150711	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2016-10-07
 IV2016120516150711	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2016-10-07
 IV2023031713323978	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ227_2022-10-03
-IV2013070909104301	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ230_2012-09-26
-IV2013070909104301	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ230_2012-09-26
-IV2013070909104301	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ230_2012-09-26
 IV2014011315505423	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ230_2013-10-07
 IV2014011315505423	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ230_2013-10-07
 IV2014011315505423	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	17	Percentage	%	NA	ZSCPQ230_2013-10-07
@@ -615,12 +429,6 @@ IV2023031713462494	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	20	
 IV2023031713462494	kruidlaag	Pulicaria dysenterica (L.) Bernh.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ230_2022-10-03
 IV2023031713462494	kruidlaag	Senecio jacobaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ230_2022-10-03
 IV2023031713462494	kruidlaag	Sonchus arvensis L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ230_2022-10-03
-IV2013070909254090	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ234_2012-09-26
-IV2013070909254090	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ234_2012-09-26
-IV2013070909254090	kruidlaag	Glaux maritima L.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ234_2012-09-26
-IV2013070909254090	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ234_2012-09-26
-IV2013070909254090	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ234_2012-09-26
-IV2013070909254090	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ234_2012-09-26
 IV2014011316053103	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ234_2013-10-09
 IV2014011316053103	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ234_2013-10-09
 IV2014011316053103	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ234_2013-10-09
@@ -647,8 +455,6 @@ IV2023031714024342	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZS
 IV2023031714024342	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ234_2022-10-03
 IV2023031714024342	kruidlaag	Samolus valerandi L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ234_2022-10-03
 IV2023031714024342	kruidlaag	Scirpus maritimus L.	Soort_Latijn	27	Percentage	%	NA	ZSCPQ234_2022-10-03
-IV2013070910074952	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	47	Percentage	%	NA	ZSCPQ240_2012-10-03
-IV2013070910074952	kruidlaag	Scirpus maritimus L.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ240_2012-10-03
 IV2014011316134838	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ240_2013-10-09
 IV2014011316134838	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ240_2013-10-09
 IV2014011316134838	kruidlaag	Scirpus maritimus L.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ240_2013-10-09
@@ -658,10 +464,6 @@ IV2020032512110305	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	
 IV2020032512110305	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ240_2019-10-11
 IV2023031714501536	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ240_2022-10-04
 IV2023031714501536	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ240_2022-10-04
-IV2013070910125132	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ241_2012-10-03
-IV2013070910125132	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ241_2012-10-03
-IV2013070910125132	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ241_2012-10-03
-IV2013070910125132	kruidlaag	Scirpus maritimus L.	Soort_Latijn	82	Percentage	%	NA	ZSCPQ241_2012-10-03
 IV2014011316163049	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ241_2013-10-09
 IV2014011316163049	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ241_2013-10-09
 IV2014011316163049	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ241_2013-10-09
@@ -677,9 +479,6 @@ IV2020032512141521	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	77	
 IV2020032512141521	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ241_2019-10-11
 IV2023031714523366	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ241_2022-10-04
 IV2023031714523366	kruidlaag	Scirpus maritimus L.	Soort_Latijn	10	Percentage	%	NA	ZSCPQ241_2022-10-04
-IV2013070910180541	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ242_2012-10-03
-IV2013070910180541	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	10	Percentage	%	NA	ZSCPQ242_2012-10-03
-IV2013070910180541	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ242_2012-10-03
 IV2014011316205332	kruidlaag	Aster tripolium L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ242_2013-10-09
 IV2014011316205332	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ242_2013-10-09
 IV2014011316205332	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	27	Percentage	%	NA	ZSCPQ242_2013-10-09
@@ -700,7 +499,6 @@ IV2023031715060181	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	Z
 IV2023031715060181	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ242_2022-10-04
 IV2023031715060181	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ242_2022-10-04
 IV2023031715060181	kruidlaag	Scirpus maritimus L.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ242_2022-10-04
-IV2013070910213880	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ243_2012-10-03
 IV2014011316224635	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ243_2013-10-09
 IV2014011316224635	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ243_2013-10-09
 IV2016121213454156	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ243_2016-10-10
@@ -717,10 +515,6 @@ IV2023031715102357	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	40	Percentage	
 IV2023031715102357	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ243_2022-10-04
 IV2023031715102357	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	52	Percentage	%	NA	ZSCPQ243_2022-10-04
 IV2023031715102357	kruidlaag	Scirpus maritimus L.	Soort_Latijn	17	Percentage	%	NA	ZSCPQ243_2022-10-04
-IV2013070910265522	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2012-10-03
-IV2013070910265522	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2012-10-03
-IV2013070910265522	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2012-10-03
-IV2013070910265522	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2012-10-03
 IV2014011316270681	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ244_2013-10-09
 IV2014011316270681	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ244_2013-10-09
 IV2014011316270681	kruidlaag	Glaux maritima L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ244_2013-10-09
@@ -735,13 +529,6 @@ IV2020032516361248	kruidlaag	Glaux maritima L.	Soort_Latijn	42	Percentage	%	NA	Z
 IV2020032516361248	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2019-10-17
 IV2023031715141453	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2022-10-04
 IV2023031715141453	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ244_2022-10-04
-IV2013070910322160	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ245_2012-10-02
-IV2013070910322160	kruidlaag	Apium graveolens L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ245_2012-10-02
-IV2013070910322160	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ245_2012-10-02
-IV2013070910322160	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ245_2012-10-02
-IV2013070910322160	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ245_2012-10-02
-IV2013070910322160	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ245_2012-10-02
-IV2013070910322160	kruidlaag	Scirpus maritimus L.	Soort_Latijn	47	Percentage	%	NA	ZSCPQ245_2012-10-02
 IV2014011316461461	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ245_2013-10-09
 IV2014011316461461	kruidlaag	Apium graveolens L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ245_2013-10-09
 IV2014011316461461	kruidlaag	Aster tripolium L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ245_2013-10-09
@@ -769,21 +556,17 @@ IV2023031715014524	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Pe
 IV2023031715014524	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	42	Percentage	%	NA	ZSCPQ245_2022-10-04
 IV2023031715014524	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ245_2022-10-04
 IV2023031715014524	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ245_2022-10-04
-IV2013070913454269	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ246_2012-10-08
 IV2014011317014960	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ246_2013-10-14
 IV2014011317014960	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ246_2013-10-14
 IV2016121215054565	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ246_2016-10-12
 IV2020032515593373	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ246_2019-10-17
 IV2023031715501696	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ246_2022-10-04
-IV2013070910360565	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ247_2012-10-08
 IV2014011317033027	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ247_2013-10-14
 IV2014011317033027	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ247_2013-10-14
 IV2016121215485360	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ247_2016-10-12
 IV2016121215485360	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ247_2016-10-12
 IV2020032516121938	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ247_2019-10-17
 IV2023031715474252	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ247_2022-10-04
-IV2013070910395841	kruidlaag	Aster tripolium L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ248_2012-10-08
-IV2013070910395841	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ248_2012-10-08
 IV2014011317063744	kruidlaag	Aster tripolium L.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ248_2013-10-14
 IV2014011317063744	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ248_2013-10-14
 IV2014011317063744	kruidlaag	Glaux maritima L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ248_2013-10-14
@@ -805,14 +588,11 @@ IV2023031715440970	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Pe
 IV2023031715440970	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ248_2022-10-04
 IV2023031715440970	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ248_2022-10-04
 IV2023031715440970	kruidlaag	Scirpus maritimus L.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ248_2022-10-04
-IV2013070910520513	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ253_2012-10-08
-IV2013070910520513	kruidlaag	Scirpus maritimus L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ253_2012-10-08
 IV2014011510153321	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ253_2013-10-14
 IV2014011510153321	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ253_2013-10-14
 IV2016121215515500	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ253_2016-10-12
 IV2020032516271471	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ253_2019-10-17
 IV2023031716000861	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ253_2022-10-07
-IV2013070910553571	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ254_2012-10-08
 IV2014011510173858	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ254_2013-10-14
 IV2014011510173858	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ254_2013-10-14
 IV2016121215582563	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ254_2016-10-12
@@ -820,15 +600,12 @@ IV2016121215582563	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA
 IV2020032515522522	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	82	Percentage	%	NA	ZSCPQ254_2019-10-15
 IV2020032515522522	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ254_2019-10-15
 IV2023031715524216	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ254_2022-10-07
-IV2013070911053536	kruidlaag	Apium graveolens L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ256_2012-10-08
-IV2013070911053536	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	82	Percentage	%	NA	ZSCPQ256_2012-10-08
 IV2014011510205166	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	82	Percentage	%	NA	ZSCPQ256_2013-10-14
 IV2014011510205166	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ256_2013-10-14
 IV2016121216204483	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ256_2016-10-12
 IV2016121216204483	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ256_2016-10-12
 IV2020032515362540	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ256_2019-10-15
 IV2023031714402320	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ256_2022-10-04
-IV2013070911110327	kruidlaag	Glaux maritima L.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ258_2012-10-08
 IV2014011510244883	kruidlaag	Cotula coronopifolia L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ258_2013-10-14
 IV2014011510244883	kruidlaag	Glaux maritima L.	Soort_Latijn	87	Percentage	%	NA	ZSCPQ258_2013-10-14
 IV2014011510244883	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	1	Percentage	%	NA	ZSCPQ258_2013-10-14
@@ -842,10 +619,6 @@ IV2020032515405580	kruidlaag	Spergularia marina (L.) Besser	Soort_Latijn	12	Perc
 IV2023031714451823	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ258_2022-10-04
 IV2023031714451823	kruidlaag	Glaux maritima L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ258_2022-10-04
 IV2023031714451823	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ258_2022-10-04
-IV2013070911181376	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ273_2012-10-10
-IV2013070911181376	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ273_2012-10-10
-IV2013070911181376	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ273_2012-10-10
-IV2013070911181376	kruidlaag	Scirpus maritimus L.	Soort_Latijn	42	Percentage	%	NA	ZSCPQ273_2012-10-10
 IV2013112714354557	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ273_2013-10-04
 IV2013112714354557	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ273_2013-10-04
 IV2013112714354557	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	67	Percentage	%	NA	ZSCPQ273_2013-10-04
@@ -856,7 +629,6 @@ IV2016121216420845	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA
 IV2020031815145133	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ273_2019-10-07
 IV2020031815145133	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ273_2019-10-07
 IV2023060611392020	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ273_2022-10-07
-IV2013070514353929	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ274_2012-09-25
 IV2013112714384332	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ274_2013-10-04
 IV2013112714384332	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ274_2013-10-04
 IV2016121216472444	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ274_2016-10-12
@@ -877,14 +649,11 @@ IV2023060611550086	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	Z
 IV2023060611550086	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ274_2022-10-07
 IV2023060611550086	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	32	Percentage	%	NA	ZSCPQ274_2022-10-07
 IV2023060611550086	kruidlaag	Scirpus maritimus L.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ274_2022-10-07
-IV2013070514565804	kruidlaag	Aster tripolium L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ275_2012-09-25
-IV2013070514565804	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	60	Percentage	%	NA	ZSCPQ275_2012-09-25
 IV2013112714403448	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ275_2013-10-04
 IV2013112714403448	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	82	Percentage	%	NA	ZSCPQ275_2013-10-04
 IV2016121311092263	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ275_2016-10-13
 IV2020032309140946	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ275_2019-10-07
 IV2023060612135936	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ275_2022-10-07
-IV2013070515045697	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ276_2012-09-25
 IV2013112714513426	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ276_2013-10-04
 IV2013112714513426	kruidlaag	Salicornia europaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ276_2013-10-04
 IV2016121311132055	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ276_2016-10-13
@@ -902,20 +671,12 @@ IV2023060612110757	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZS
 IV2023060612110757	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ276_2022-10-07
 IV2023060612110757	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	12	Percentage	%	NA	ZSCPQ276_2022-10-07
 IV2023060612110757	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ276_2022-10-07
-IV2013070515115854	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ277_2012-09-25
-IV2013070515115854	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ277_2012-09-25
-IV2013070515115854	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ277_2012-09-25
 IV2013112714553235	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ277_2013-10-04
 IV2013112714553235	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ277_2013-10-04
 IV2013112714553235	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ277_2013-10-04
 IV2016121311161785	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ277_2016-10-13
 IV2020031913223878	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ277_2019-10-07
 IV2023060612024833	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	97	Percentage	%	NA	ZSCPQ277_2022-10-07
-IV2013070515292304	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ278_2012-09-25
-IV2013070515292304	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ278_2012-09-25
-IV2013070515292304	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ278_2012-09-25
-IV2013070515292304	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ278_2012-09-25
-IV2013070515292304	kruidlaag	Scirpus maritimus L.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ278_2012-09-25
 IV2013112714593329	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ278_2013-10-04
 IV2013112714593329	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ278_2013-10-04
 IV2013112714593329	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ278_2013-10-04
@@ -931,10 +692,6 @@ IV2020032309160515	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	50	
 IV2020032309160515	kruidlaag	Scirpus maritimus L.	Soort_Latijn	27	Percentage	%	NA	ZSCPQ278_2019-10-07
 IV2023060612170913	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ278_2022-10-07
 IV2023060612170913	kruidlaag	Scirpus maritimus L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ278_2022-10-07
-IV2013070515363839	kruidlaag	Aster tripolium L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ279_2012-09-25
-IV2013070515363839	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ279_2012-09-25
-IV2013070515363839	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ279_2012-09-25
-IV2013070515363839	kruidlaag	Scirpus maritimus L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ279_2012-09-25
 IV2013112715024820	kruidlaag	Aster tripolium L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ279_2013-10-04
 IV2013112715024820	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ279_2013-10-04
 IV2013112715024820	kruidlaag	Puccinellia maritima (Huds.) Parl.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ279_2013-10-04
@@ -946,7 +703,6 @@ IV2020032309253073	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	67	
 IV2020032309253073	kruidlaag	Scirpus maritimus L.	Soort_Latijn	17	Percentage	%	NA	ZSCPQ279_2019-10-07
 IV2023060613420439	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ279_2022-10-07
 IV2023060613420439	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ279_2022-10-07
-IV2013070515451409	kruidlaag	Aster tripolium L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ281_2012-09-25
 IV2014011314391446	kruidlaag	Aster tripolium L.	Soort_Latijn	12	Percentage	%	NA	ZSCPQ281_2013-10-04
 IV2014011314391446	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ281_2013-10-04
 IV2014011314391446	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ281_2013-10-04
@@ -963,11 +719,6 @@ IV2020032309314297	kruidlaag	Scirpus maritimus L.	Soort_Latijn	50	Percentage	%	N
 IV2023060613494560	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ281_2022-10-07
 IV2023060613494560	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	37	Percentage	%	NA	ZSCPQ281_2022-10-07
 IV2023060613494560	kruidlaag	Scirpus maritimus L.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ281_2022-10-07
-IV2013070515513858	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	4	Percentage	%	NA	ZSCPQ282_2012-09-25
-IV2013070515513858	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	10	Percentage	%	NA	ZSCPQ282_2012-09-25
-IV2013070515513858	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	2	Percentage	%	NA	ZSCPQ282_2012-09-25
-IV2013070515513858	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	72	Percentage	%	NA	ZSCPQ282_2012-09-25
-IV2013070515513858	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ282_2012-09-25
 IV2014011314452030	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	4	Percentage	%	NA	ZSCPQ282_2013-10-04
 IV2014011314452030	kruidlaag	Cirsium arvense (L.) Scop.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ282_2013-10-04
 IV2014011314452030	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	7	Percentage	%	NA	ZSCPQ282_2013-10-04
@@ -988,8 +739,6 @@ IV2023060613575352	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	7	Pe
 IV2023060613575352	kruidlaag	Calystegia sepium (L.) R. Brown	Soort_Latijn	4	Percentage	%	NA	ZSCPQ282_2022-10-07
 IV2023060613575352	kruidlaag	Elymus athericus (Link) Kerguélen	Soort_Latijn	1	Percentage	%	NA	ZSCPQ282_2022-10-07
 IV2023060613575352	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	92	Percentage	%	NA	ZSCPQ282_2022-10-07
-IV2013070515583172	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	40	Percentage	%	NA	ZSCPQ283_2012-09-25
-IV2013070515583172	kruidlaag	Scirpus maritimus L.	Soort_Latijn	67	Percentage	%	NA	ZSCPQ283_2012-09-25
 IV2014011314475087	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ283_2013-10-04
 IV2014011314475087	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	62	Percentage	%	NA	ZSCPQ283_2013-10-04
 IV2014011314475087	kruidlaag	Scirpus maritimus L.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ283_2013-10-04
@@ -1001,7 +750,6 @@ IV2020032310055701	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	72	
 IV2020032310055701	kruidlaag	Scirpus maritimus L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ283_2019-10-07
 IV2023060614070672	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ283_2022-10-07
 IV2023060614070672	kruidlaag	Phragmites australis (Cav.) Steud.	Soort_Latijn	90	Percentage	%	NA	ZSCPQ283_2022-10-07
-IV2013070516010967	kruidlaag	Scirpus maritimus L.	Soort_Latijn	4	Percentage	%	NA	ZSCPQ284_2012-09-25
 IV2014011314530019	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ284_2013-10-04
 IV2014011314530019	kruidlaag	Scirpus maritimus L.	Soort_Latijn	20	Percentage	%	NA	ZSCPQ284_2013-10-04
 IV2016121310255731	kruidlaag	Scirpus maritimus L.	Soort_Latijn	80	Percentage	%	NA	ZSCPQ284_2016-10-13
@@ -1010,13 +758,15 @@ IV2020032310022963	kruidlaag	Scirpus maritimus L.	Soort_Latijn	62	Percentage	%	N
 IV2023060614043673	kruidlaag	Aster tripolium L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ284_2022-10-07
 IV2023060614043673	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ284_2022-10-07
 IV2023060614043673	kruidlaag	Scirpus maritimus L.	Soort_Latijn	70	Percentage	%	NA	ZSCPQ284_2022-10-07
-IV2013070516102904	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ285_2012-09-25
 IV2014011315021084	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ285_2013-10-04
 IV2013101411571056	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ303_2013-10-07
 IV2013101411571056	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ303_2013-10-07
 IV2018111621070692	kruidlaag	Juncus gerardii Loisel.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ303_2016-10-17
 IV2019101609320817	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ303_2019-10-16
 IV2019101609320817	kruidlaag	Salicornia europaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ303_2019-10-16
+IV2024101110402725	kruidlaag	Agrostis stolonifera L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ303_2024-10-11
+IV2024101110402725	kruidlaag	Aster tripolium L.	Soort_Latijn	27	Percentage	%	NA	ZSCPQ303_2024-10-11
+IV2024101110402725	kruidlaag	Scirpus maritimus L.	Soort_Latijn	7	Percentage	%	NA	ZSCPQ303_2024-10-11
 IV2013101412215753	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ306_2013-10-07
 IV2013101412250708	kruidlaag	Aster tripolium L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ307_2013-10-07
 IV2018111621142994	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ307_2016-10-17
@@ -1027,6 +777,10 @@ IV2021102118154919	kruidlaag	Aster tripolium L.	Soort_Latijn	27	Percentage	%	NA	
 IV2021102118154919	kruidlaag	Atriplex prostrata Boucher ex DC.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ307_2021-10-22
 IV2021102118154919	kruidlaag	Salicornia europaea L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ307_2021-10-22
 IV2013101412450936	kruidlaag	Aster tripolium L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ314_2013-10-07
+IV2024101115481644	kruidlaag	Aster tripolium L.	Soort_Latijn	22	Percentage	%	NA	ZSCPQ314_2024-10-11
+IV2024101115481644	kruidlaag	Glaux maritima L.	Soort_Latijn	1	Percentage	%	NA	ZSCPQ314_2024-10-11
+IV2024101115481644	kruidlaag	Salicornia procumbens Smith	Soort_Latijn	1	Percentage	%	NA	ZSCPQ314_2024-10-11
+IV2024101115481644	kruidlaag	Scirpus maritimus L.	Soort_Latijn	2	Percentage	%	NA	ZSCPQ314_2024-10-11
 IV2021120810015003	boomlaag	Salix alba L.	Soort_Latijn	50	Percentage	%	NA	ZSCPQ328_2021-08-11
 IV2021120810015003	kruidlaag	Glechoma hederacea L.	Soort_Latijn	30	Percentage	%	NA	ZSCPQ328_2021-08-11
 IV2021120810015003	kruidlaag	Impatiens glandulifera Royle	Soort_Latijn	1	Percentage	%	NA	ZSCPQ328_2021-08-11

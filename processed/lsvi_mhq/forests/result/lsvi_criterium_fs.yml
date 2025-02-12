@@ -6,8 +6,8 @@
   - id
   - type_analysis
   - criterium
-  hash: 4a2935f257ea0774664c34f651a67a844ab4785d
-  data_hash: 63e36a4a9a67298a118b6932ccb963198c8dc63b
+  hash: 8dda1e18e0c8a706651b964acf242ec9520997b3
+  data_hash: faa5c734846a5602f7a9a84d6e2ca6fe96c48a7c
 id:
   class: character
 type_analysis:
@@ -23,4 +23,6 @@ n_zb_ongunstig:
 aandeel_gunstig:
   class: numeric
 index_mean_ind:
+  class: numeric
+doelbereik_mean_ind:
   class: numeric

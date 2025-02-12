@@ -5,8 +5,8 @@
   sorting:
   - id
   - type_analysis
-  hash: 0f04486dcb959e4e64f4be2f669ddb03a9b37f2e
-  data_hash: b13be96a56509f21fcbf46ece82220d486e58114
+  hash: 954a49722446bfa3de599a8a9adf6e8dabd95d2c
+  data_hash: e13818954ef0c7810f73598c94c3a351f9891c63
 id:
   class: character
 type_analysis:
@@ -22,4 +22,6 @@ aandeel_gunstig:
 index_mean_ind:
   class: numeric
 index_mean_crit:
+  class: numeric
+doelbereik_mean_ind:
   class: numeric

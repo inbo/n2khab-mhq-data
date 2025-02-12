@@ -2487,7 +2487,7 @@ id	survey	record_id_square	record_id_circle	type_observed	type_analysis	criteriu
 1766326_2024-08-07	N2000meetnet_Moeras_BHM	IV2024102917242877	IV2024102917222707	7140_oli	7140_oli	Verstoring	vergrassing	zb	bedekking vergrassing	square	30	30	30	1	100	0
 1766326_2024-08-07	N2000meetnet_Moeras_BHM	IV2024102917242877	IV2024102917222707	7140_oli	7140_oli	Verstoring	vermossing	zb	bedekking vermossing	square	0	0	30	1	100	1
 1766326_2024-08-07	N2000meetnet_Moeras_BHM	IV2024102917242877	IV2024102917222707	7140_oli	7140_oli	Verstoring	verruiging	zb	bedekking verruiging	square	0	0	10	1	100	1
-1785525_2018-07-04	N2000meetnet_Grasland_BHM	IV2019010312172058	IV2019010311595752	1330_hpr	1330_hpr	Vegetatie	sleutelsoorten	b	aantal sleutelsoorten	square	7	7	2	1	6	1.25
+1785525_2018-07-04	N2000meetnet_Grasland_BHM	IV2019010312172058	IV2019010311595752	1330_hpr	1330_hpr	Vegetatie	sleutelsoorten	b	aantal sleutelsoorten	square	7	7	2	1	6	1
 1785525_2018-07-04	N2000meetnet_Grasland_BHM	IV2019010312172058	IV2019010311595752	1330_hpr	1330_hpr	Verstoring	rietontwikkeling	zb	bedekking	square	Afwezig	NA	T	1	1	1
 1785525_2018-07-04	N2000meetnet_Grasland_BHM	IV2019010312172058	IV2019010311595752	1330_hpr	1330_hpr	Verstoring	overgang naar rbbzil	zb	bedekking grasachtigen rbbzil <= som van de bedekking sleutelsoorten	square	1	1	67.416942592	1	100	0.9852
 1785525_2018-07-04	N2000meetnet_Grasland_BHM	IV2019010312172058	IV2019010311595752	1330_hpr	1330_hpr	Structuur	microreliëf	zb	bedekking microrelief	circle	100	100	T	1	100	1
@@ -6125,7 +6125,7 @@ id	survey	record_id_square	record_id_circle	type_observed	type_analysis	criteriu
 419538_2016-09-23	N2000meetnet_Moerassen	IV2017021515052872	IV2017021514542213	7140_oli	7140_oli	Verstoring	vergrassing	zb	bedekking vergrassing	square	7.00000000000001	7	30	1	100	0.7667
 419538_2016-09-23	N2000meetnet_Moerassen	IV2017021515052872	IV2017021514542213	7140_oli	7140_oli	Verstoring	vermossing	zb	bedekking vermossing	square	0	0	30	1	100	1
 419538_2016-09-23	N2000meetnet_Moerassen	IV2017021515052872	IV2017021514542213	7140_oli	7140_oli	Verstoring	verruiging	zb	bedekking verruiging	square	2	2	10	1	100	0.8
-419538_2023-10-12	N2000meetnet_Moeras_BHM	IV2023112210414844	IV2023112210385438	7140_oli	7140_oli	Vegetatie	sleutelsoorten	b	aantal sleutelsoorten	square	10	10	3	1	9	1.1667
+419538_2023-10-12	N2000meetnet_Moeras_BHM	IV2023112210414844	IV2023112210385438	7140_oli	7140_oli	Vegetatie	sleutelsoorten	b	aantal sleutelsoorten	square	10	10	3	1	9	1
 419538_2023-10-12	N2000meetnet_Moeras_BHM	IV2023112210414844	IV2023112210385438	7140_oli	7140_oli	Verstoring	eutrofiëring	zb	bedekking eutrofiëring	square	0	0	10	1	100	1
 419538_2023-10-12	N2000meetnet_Moeras_BHM	IV2023112210414844	IV2023112210385438	7140_oli	7140_oli	Vegetatie	bedekking sleutelsoorten	b	bedekking sleutelsoorten	square	78.5274054652979	78.5274	30	1	100	0.6932
 419538_2023-10-12	N2000meetnet_Moeras_BHM	IV2023112210414844	IV2023112210385438	7140_oli	7140_oli	Verstoring	strooisellaag	b	bedekking strooisellaag	square	0	0	30	1	100	1
@@ -9099,7 +9099,7 @@ id	survey	record_id_square	record_id_circle	type_observed	type_analysis	criteriu
 9087041_2015-07-10	N2000meetnet_Grasland	IV2017021313081237	IV2017021312415166	6410_mo	6410_mo	Verstoring	vernatting	zb	bedekking vernatting	square	70.597	70.597	30	0	100	-0.58
 9087041_2015-07-10	N2000meetnet_Grasland	IV2017021313081237	IV2017021312415166	6410_mo	6410_mo	Verstoring	verruiging inclusief ruderalisering	zb	bedekking verruiging	square	1	1	10	1	100	0.9
 9087041_2015-07-10	N2000meetnet_Grasland	IV2017021313081237	IV2017021312415166	6410_mo	6410_mo	Verstoring	verzuring	zb	bedekking verzuring	square	0	0	30	1	100	1
-908981_2016-09-15	N2000meetnet_Grasland	IV2017010609352959	IV2017010609200485	1330_hpr	1330_hpr	Vegetatie	sleutelsoorten	b	aantal sleutelsoorten	square	7	7	2	1	6	1.25
+908981_2016-09-15	N2000meetnet_Grasland	IV2017010609352959	IV2017010609200485	1330_hpr	1330_hpr	Vegetatie	sleutelsoorten	b	aantal sleutelsoorten	square	7	7	2	1	6	1
 908981_2016-09-15	N2000meetnet_Grasland	IV2017010609352959	IV2017010609200485	1330_hpr	1330_hpr	Verstoring	rietontwikkeling	zb	bedekking	square	Afwezig	NA	T	1	1	1
 908981_2016-09-15	N2000meetnet_Grasland	IV2017010609352959	IV2017010609200485	1330_hpr	1330_hpr	Verstoring	overgang naar rbbzil	zb	bedekking grasachtigen rbbzil <= som van de bedekking sleutelsoorten	square	7.00000000000001	7	55.7218105984	1	100	0.8744
 908981_2016-09-15	N2000meetnet_Grasland	IV2017010609352959	IV2017010609200485	1330_hpr	1330_hpr	Structuur	microreliëf	zb	bedekking microrelief	circle	100	100	T	1	100	1

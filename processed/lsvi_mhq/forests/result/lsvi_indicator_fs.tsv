@@ -10,11 +10,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10354_2015-05-20_9160	9160	Verstoring	verruiging	zb	1	0.409
 10354_2015-05-20_9160	9160	Structuur	verticale structuur	b	1	1
 103609_2015-04-27_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.0648
-103609_2015-04-27_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+103609_2015-04-27_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 103609_2015-04-27_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 103609_2015-04-27_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 103609_2015-04-27_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-103609_2015-04-27_91E0_vc	91E0_vc	Structuur	minimum structuurareaal	zb	1	1.283
+103609_2015-04-27_91E0_vc	91E0_vc	Structuur	minimum structuurareaal	zb	1	1
 103609_2015-04-27_91E0_vc	91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.0045
 103609_2015-04-27_91E0_vc	91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.25
 103609_2015-04-27_91E0_vc	91E0_vc	Verstoring	verruiging	zb	1	1
@@ -54,13 +54,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 11481_2019-04-12_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 11481_2019-04-12_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 11481_2019-04-12_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-11481_2019-04-12_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.6873
+11481_2019-04-12_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 11481_2019-04-12_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.5689
 11481_2019-04-12_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.1429
 11481_2019-04-12_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.2577
 11481_2019-04-12_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 11865_2015-04-29_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.0174
-11865_2015-04-29_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+11865_2015-04-29_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 11865_2015-04-29_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 11865_2015-04-29_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 11865_2015-04-29_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -250,7 +250,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 135083_2_9120	9120	Verstoring	verruiging	zb	1	0.125
 135083_2_9120	9120	Structuur	verticale structuur	b	0	-0.3333
 135083_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-135083_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	3.6667
+135083_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 135083_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 135083_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 135083_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -324,7 +324,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 136113_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 136113_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.1017
 136113_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-136113_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.239
+136113_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 136113_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6097
 136113_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 136113_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -334,7 +334,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 136113_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 136113_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 136113_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-136113_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1.239
+136113_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 136113_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.2053
 136113_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 136113_3_9120	9120	Verstoring	verruiging	zb	1	0.6047
@@ -344,7 +344,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 136114_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 136114_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 136114_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-136114_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.239
+136114_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 136114_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.4674
 136114_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 136114_2_9120	9120	Verstoring	verruiging	zb	1	0.98
@@ -354,7 +354,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 136121_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 136121_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 136121_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-136121_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.239
+136121_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 136121_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 136121_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 136121_2_9120	9120	Verstoring	verruiging	zb	1	0.6088
@@ -380,7 +380,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 136143_2_9120	9120	Verstoring	verruiging	zb	1	1
 136143_2_9120	9120	Structuur	verticale structuur	b	1	1
 136697_2015-05-06_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	0	-0.9
-136697_2015-05-06_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+136697_2015-05-06_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 136697_2015-05-06_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 136697_2015-05-06_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 136697_2015-05-06_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -780,7 +780,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 142137_2_9120	9120	Verstoring	verruiging	zb	1	0.125
 142137_2_9120	9120	Structuur	verticale structuur	b	1	1
 144048_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2171
-144048_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	3.6667
+144048_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 144048_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 144048_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 144048_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -790,7 +790,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 144048_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3056
 144048_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 144048_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0727
-144048_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	3.6667
+144048_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 144048_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 144048_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 144048_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -800,7 +800,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 144048_3_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.125
 144048_3_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 144055_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.227
-144055_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+144055_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 144055_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 144055_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 144055_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -810,7 +810,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 144055_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.7506
 144055_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 144055_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1803
-144055_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+144055_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 144055_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 144055_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 144055_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -860,7 +860,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 147004_2_9120	9120	Verstoring	verruiging	zb	1	0.9
 147004_2_9120	9120	Structuur	verticale structuur	b	1	1
 147049_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-1
-147049_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+147049_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 147049_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0
 147049_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 147049_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1050,7 +1050,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 155024_2_9120	9120	Verstoring	verruiging	zb	1	0.2469
 155024_2_9120	9120	Structuur	verticale structuur	b	1	1
 155133_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0304
-155133_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+155133_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 155133_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 155133_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 155133_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.006
@@ -1108,7 +1108,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156056_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.3788
 156056_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 156064_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0289
-156064_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+156064_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156064_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 156064_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156064_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1118,7 +1118,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156064_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.125
 156064_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 156072_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0517
-156072_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+156072_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156072_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 156072_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156072_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1128,7 +1128,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156072_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.0972
 156072_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 156107_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-156107_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+156107_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156107_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 156107_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156107_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.0361
@@ -1138,7 +1138,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156107_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.2876
 156107_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	0	-0.3333
 156108_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0215
-156108_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+156108_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156108_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 156108_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156108_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.1842
@@ -1158,7 +1158,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156114_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.6779
 156114_2_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 156114_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-156114_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+156114_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156114_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 156114_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156114_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1177,7 +1177,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156117_2_91E0_sf	91E0_sf	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 156117_2_91E0_sf	91E0_sf	Verstoring	verruiging	zb	1	0.955
 156118_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-156118_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+156118_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156118_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	0	-0.3333
 156118_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156118_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1187,7 +1187,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156118_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.5968
 156118_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	0	-0.3333
 156121_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-156121_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+156121_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156121_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 156121_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156121_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1197,7 +1197,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156121_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.8347
 156121_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 156124_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0149
-156124_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+156124_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156124_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 156124_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156124_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1217,7 +1217,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 156125_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.775
 156125_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	0	-0.3333
 156146_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-156146_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+156146_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 156146_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 156146_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 156146_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1287,7 +1287,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 157067_2_9120	9120	Verstoring	verruiging	zb	0	-0.7525
 157067_2_9120	9120	Structuur	verticale structuur	b	1	1
 157083_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0753
-157083_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+157083_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 157083_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 157083_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 157083_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.3866
@@ -1317,7 +1317,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 157091_2_9120	9120	Verstoring	verruiging	zb	0	-0.7512
 157091_2_9120	9120	Structuur	verticale structuur	b	1	1
 15782_2015-05-07_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.289
-15782_2015-05-07_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+15782_2015-05-07_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 15782_2015-05-07_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 15782_2015-05-07_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 15782_2015-05-07_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -1987,7 +1987,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 162129_3_9120	9120	Verstoring	verruiging	zb	1	0.9
 162129_3_9120	9120	Structuur	verticale structuur	b	1	1
 163003_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0285
-163003_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+163003_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 163003_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 163003_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 163003_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2007,7 +2007,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 163006_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.775
 163006_2_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 163006_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-163006_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+163006_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 163006_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 163006_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0995
 163006_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2027,7 +2027,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 163021_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.8611
 163021_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 163021_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.1838
-163021_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+163021_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 163021_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 163021_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.3125
 163021_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2121,7 +2121,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 164793_2015-04-28_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 164793_2015-04-28_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 164793_2015-04-28_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-164793_2015-04-28_91E0_vc	91E0_vc	Structuur	minimum structuurareaal	zb	1	1.283
+164793_2015-04-28_91E0_vc	91E0_vc	Structuur	minimum structuurareaal	zb	1	1
 164793_2015-04-28_91E0_vc	91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8102
 164793_2015-04-28_91E0_vc	91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0
 164793_2015-04-28_91E0_vc	91E0_vc	Verstoring	verruiging	zb	0	-0.4428
@@ -2267,7 +2267,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 166156_3_9120	9120	Verstoring	verruiging	zb	1	0.9
 166156_3_9120	9120	Structuur	verticale structuur	b	1	1
 16633_2015-05-04_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.0391
-16633_2015-05-04_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+16633_2015-05-04_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 16633_2015-05-04_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 16633_2015-05-04_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 16633_2015-05-04_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.006
@@ -2367,7 +2367,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 168147_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.0972
 168147_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 171073_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.0775
-171073_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+171073_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 171073_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 171073_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 171073_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2567,7 +2567,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 175008_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.6669
 175008_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 175066_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0355
-175066_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+175066_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 175066_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 175066_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8611
 175066_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2627,7 +2627,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 175154_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.5821
 175154_2_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 175154_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.1489
-175154_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+175154_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 175154_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 175154_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 175154_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2777,7 +2777,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 181035_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.3125
 181035_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 181060_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.8301
-181060_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+181060_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 181060_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 181060_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.6198
 181060_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2787,7 +2787,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 181060_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.9
 181060_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 181060_2_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	0	-0.8301
-181060_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+181060_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 181060_2_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 181060_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.6198
 181060_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -2841,7 +2841,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 182152_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 182152_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 182152_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-182152_2_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1.0317
+182152_2_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1
 182152_2_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.5767
 182152_2_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de kruidlaag	b	1	-0.3278
 182152_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.0972
@@ -2851,7 +2851,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 182152_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 182152_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 182152_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-182152_3_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1.0317
+182152_3_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1
 182152_3_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.559
 182152_3_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.6406
 182152_3_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3056
@@ -2917,21 +2917,21 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 18290_2019-04-04_9160	9160	Verstoring	verruiging	zb	0	-0.6782
 18290_2019-04-04_9160	9160	Structuur	verticale structuur	b	1	1
 183153_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2524
-183153_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+183153_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 183153_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0
 183153_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 183153_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-183153_2_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1.0317
+183153_2_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1
 183153_2_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.3384
 183153_2_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4342
 183153_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.0841
 183153_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 183153_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.5645
-183153_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+183153_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 183153_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 183153_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 183153_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-183153_3_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1.0317
+183153_3_91E0_vm	91E0_vm	Structuur	minimum structuurareaal	zb	1	1
 183153_3_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7056
 183153_3_91E0_vm	91E0_vm	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 183153_3_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.384
@@ -3037,7 +3037,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 186157_2_9120	9120	Verstoring	verruiging	zb	1	1
 186157_2_9120	9120	Structuur	verticale structuur	b	1	1
 187001_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2518
-187001_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+187001_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 187001_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 187001_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 187001_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3047,7 +3047,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 187001_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.2683
 187001_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 187001_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1964
-187001_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+187001_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 187001_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 187001_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 187001_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3137,7 +3137,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 187124_3_9190	9190	Verstoring	verruiging	zb	1	0.6478
 187124_3_9190	9190	Structuur	verticale structuur	b	1	1
 188022_2015-06-02_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.0748
-188022_2015-06-02_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+188022_2015-06-02_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 188022_2015-06-02_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 188022_2015-06-02_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0972
 188022_2015-06-02_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3281,7 +3281,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 203031_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 203031_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 203031_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-203031_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.1305
+203031_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 203031_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.5656
 203031_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 203031_2_9120	9120	Verstoring	verruiging	zb	0	-0.1197
@@ -3301,7 +3301,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 203039_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 203039_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 203039_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-203039_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.1305
+203039_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 203039_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.5465
 203039_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 203039_2_9120	9120	Verstoring	verruiging	zb	0	-0.1803
@@ -3327,7 +3327,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 204022_2_9120	9120	Verstoring	verruiging	zb	0	-0.8529
 204022_2_9120	9120	Structuur	verticale structuur	b	1	1
 20470_2019-04-04_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0386
-20470_2019-04-04_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+20470_2019-04-04_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 20470_2019-04-04_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 20470_2019-04-04_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 20470_2019-04-04_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3421,7 +3421,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 207033_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 207033_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0972
 207033_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-207033_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2243
+207033_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 207033_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.5821
 207033_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 207033_3_9120	9120	Verstoring	verruiging	zb	0	-0.7525
@@ -3431,7 +3431,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 207049_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 207049_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 207049_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-207049_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2243
+207049_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 207049_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.462
 207049_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 207049_2_9120	9120	Verstoring	verruiging	zb	0	-0.7525
@@ -3441,7 +3441,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 207049_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 207049_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 207049_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-207049_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2243
+207049_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 207049_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.1269
 207049_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 207049_3_9120	9120	Verstoring	verruiging	zb	0	-0.25
@@ -3451,7 +3451,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 207057_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 207057_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 207057_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-207057_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2243
+207057_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 207057_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.6279
 207057_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 207057_2_9120	9120	Verstoring	verruiging	zb	1	0.955
@@ -3461,7 +3461,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 207057_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 207057_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 207057_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-207057_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2243
+207057_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 207057_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.3328
 207057_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 207057_3_9120	9120	Verstoring	verruiging	zb	1	0.625
@@ -3667,7 +3667,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 213050_3_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.775
 213050_3_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 213067_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.4508
-213067_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+213067_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 213067_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 213067_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 213067_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3677,7 +3677,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 213067_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.4829
 213067_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 213067_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0385
-213067_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+213067_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 213067_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 213067_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 213067_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3747,7 +3747,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 218005_2_9120	9120	Verstoring	verruiging	zb	0	-0.276
 218005_2_9120	9120	Structuur	verticale structuur	b	1	1
 218131_3_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-1
-218131_3_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+218131_3_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 218131_3_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 218131_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.0337
 218131_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3807,7 +3807,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 221018_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.186
 221018_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 221018_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-221018_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+221018_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 221018_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 221018_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 221018_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -3827,7 +3827,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 222108_2_9120	9120	Verstoring	verruiging	zb	1	0.1022
 222108_2_9120	9120	Structuur	verticale structuur	b	1	1
 222132_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0418
-222132_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	3.6667
+222132_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 222132_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 222132_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 222132_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4226,7 +4226,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 228133_3_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.724
 228133_3_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 228141_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-0.8595
-228141_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+228141_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 228141_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	1
 228141_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 228141_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.3725
@@ -4236,7 +4236,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 228141_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.775
 228141_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 228141_3_91E0_va	91E0_va	Structuur	aandeel dood hout	b	1	0.629
-228141_3_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+228141_3_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 228141_3_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	1
 228141_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 228141_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4246,7 +4246,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 228141_3_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.3125
 228141_3_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 230930_2015-06-22_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	0	-1
-230930_2015-06-22_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+230930_2015-06-22_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 230930_2015-06-22_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 230930_2015-06-22_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 230930_2015-06-22_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4265,7 +4265,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 231103_2_91E0_sf	91E0_sf	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 231103_2_91E0_sf	91E0_sf	Verstoring	verruiging	zb	1	0.56
 232003_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.4559
-232003_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+232003_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 232003_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 232003_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 232003_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4325,7 +4325,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 232092_2_9120	9120	Verstoring	verruiging	zb	1	0.98
 232092_2_9120	9120	Structuur	verticale structuur	b	0	-0.3333
 232093_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0017
-232093_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+232093_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 232093_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 232093_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 232093_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4349,7 +4349,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 232153_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 232153_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 232153_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-232153_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.5287
+232153_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 232153_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.1955
 232153_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 232153_2_9120	9120	Verstoring	verruiging	zb	0	-0.25
@@ -4359,7 +4359,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 232154_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 232154_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 232154_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-232154_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.5287
+232154_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 232154_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7581
 232154_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 232154_2_9120	9120	Verstoring	verruiging	zb	0	-0.7556
@@ -4369,7 +4369,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 23238_2018-06-29_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 23238_2018-06-29_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8611
 23238_2018-06-29_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-23238_2018-06-29_9160	9160	Structuur	minimum structuurareaal	zb	1	2.8987
+23238_2018-06-29_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 23238_2018-06-29_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.5828
 23238_2018-06-29_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 23238_2018-06-29_9160	9160	Verstoring	verruiging	zb	0	-0.2519
@@ -4545,7 +4545,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 235128_2_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.3173
 235128_2_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 235128_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.4317
-235128_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	3.6667
+235128_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 235128_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 235128_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.1022
 235128_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4625,7 +4625,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 237014_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.775
 237014_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 237029_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-1
-237029_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+237029_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 237029_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 237029_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 237029_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4635,7 +4635,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 237029_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.8298
 237029_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 237029_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-237029_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	3.6667
+237029_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 237029_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 237029_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 237029_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4685,7 +4685,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 237149_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.8924
 237149_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 237153_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.5277
-237153_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+237153_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 237153_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 237153_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 237153_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4745,7 +4745,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 238025_2_9120	9120	Verstoring	verruiging	zb	0	-0.0995
 238025_2_9120	9120	Structuur	verticale structuur	b	1	1
 238025_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1247
-238025_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+238025_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 238025_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 238025_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 238025_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -4809,7 +4809,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 238126_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 238126_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 238126_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-238126_2_9160	9160	Structuur	minimum structuurareaal	zb	1	2.8987
+238126_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 238126_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8217
 238126_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 238126_2_9160	9160	Verstoring	verruiging	zb	1	0.9
@@ -4839,7 +4839,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 238147_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 238147_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 238147_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-238147_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1.4305
+238147_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 238147_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6064
 238147_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8337
 238147_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.0972
@@ -4955,7 +4955,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 242128_2_9120	9120	Verstoring	verruiging	zb	1	0.6088
 242128_2_9120	9120	Structuur	verticale structuur	b	1	1
 243024_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	0	-1
-243024_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+243024_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 243024_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 243024_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 243024_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5015,7 +5015,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 243055_2_9190	9190	Verstoring	verruiging	zb	0	-0.0995
 243055_2_9190	9190	Structuur	verticale structuur	b	1	1
 243055_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	0	-0.8456
-243055_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+243055_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 243055_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 243055_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 243055_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5115,7 +5115,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 243118_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.1566
 243118_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 243118_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.3909
-243118_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+243118_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 243118_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 243118_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.1022
 243118_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5125,7 +5125,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 243118_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.1566
 243118_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 243127_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.8249
-243127_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+243127_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 243127_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 243127_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.1845
 243127_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5135,7 +5135,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 243127_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.0972
 243127_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 243134_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1781
-243134_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+243134_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 243134_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 243134_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 243134_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5235,7 +5235,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 244137_2_9120	9120	Verstoring	verruiging	zb	0	-0.1085
 244137_2_9120	9120	Structuur	verticale structuur	b	1	1
 245010_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0981
-245010_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+245010_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 245010_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 245010_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245010_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5245,7 +5245,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245010_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.4763
 245010_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 245010_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0445
-245010_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+245010_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 245010_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 245010_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245010_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5315,7 +5315,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245086_3_9160	9160	Verstoring	verruiging	zb	0	-0.75
 245086_3_9160	9160	Structuur	verticale structuur	b	1	1
 245100_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-1
-245100_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+245100_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 245100_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 245100_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245100_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5325,7 +5325,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245100_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.9087
 245100_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 245100_3_91E0_va	91E0_va	Structuur	aandeel dood hout	b	1	0.0161
-245100_3_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+245100_3_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 245100_3_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 245100_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245100_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5379,7 +5379,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245133_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 245133_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245133_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-245133_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1.052
+245133_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 245133_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.6063
 245133_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.0714
 245133_2_9160	9160	Verstoring	verruiging	zb	1	0.8753
@@ -5389,7 +5389,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245133_3_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 245133_3_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245133_3_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-245133_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1.052
+245133_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 245133_3_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.5728
 245133_3_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.0714
 245133_3_9160	9160	Verstoring	verruiging	zb	1	0.9
@@ -5399,7 +5399,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245147_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0
 245147_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245147_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-245147_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	2.3639
+245147_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 245147_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.0896
 245147_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9333
 245147_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.1175
@@ -5409,7 +5409,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245147_3_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0
 245147_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245147_3_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-245147_3_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	2.3639
+245147_3_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 245147_3_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.2074
 245147_3_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	1	-0.0728
 245147_3_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.3056
@@ -5449,7 +5449,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245159_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 245159_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245159_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-245159_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1.7256
+245159_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 245159_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.4169
 245159_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	-0.2226
 245159_2_9160	9160	Verstoring	verruiging	zb	1	0.1022
@@ -5459,13 +5459,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 245159_3_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 245159_3_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 245159_3_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-245159_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1.7256
+245159_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 245159_3_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6555
 245159_3_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.0714
 245159_3_9160	9160	Verstoring	verruiging	zb	0	-0.1762
 245159_3_9160	9160	Structuur	verticale structuur	b	1	1
 246058_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.131
-246058_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+246058_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 246058_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 246058_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 246058_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5475,7 +5475,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 246058_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.8909
 246058_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 246058_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.6601
-246058_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+246058_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 246058_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0
 246058_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 246058_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5655,7 +5655,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 247109_2_9190	9190	Verstoring	verruiging	zb	1	0.8602
 247109_2_9190	9190	Structuur	verticale structuur	b	1	1
 247109_2_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.0392
-247109_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	2.4167
+247109_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 247109_2_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 247109_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8733
 247109_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5669,7 +5669,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 247112_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 247112_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 247112_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-247112_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1.6983
+247112_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 247112_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.36
 247112_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 247112_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.5221
@@ -5689,13 +5689,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 247120_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 247120_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 247120_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-247120_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1.6983
+247120_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 247120_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 247120_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 247120_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.125
 247120_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 247120_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0755
-247120_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+247120_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 247120_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 247120_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 247120_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5729,13 +5729,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 247127_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 247127_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.1152
 247127_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-247127_2_9160	9160	Structuur	minimum structuurareaal	zb	1	3.0258
+247127_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 247127_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.35
 247127_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9333
 247127_2_9160	9160	Verstoring	verruiging	zb	1	0.9501
 247127_2_9160	9160	Structuur	verticale structuur	b	1	1
 247127_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1136
-247127_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+247127_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 247127_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 247127_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.1062
 247127_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5759,7 +5759,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 247143_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 247143_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.0337
 247143_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-247143_2_9160	9160	Structuur	minimum structuurareaal	zb	1	3.0258
+247143_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 247143_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.1546
 247143_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.1429
 247143_2_9160	9160	Verstoring	verruiging	zb	1	0.8022
@@ -5795,7 +5795,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 247158_2_9190	9190	Verstoring	verruiging	zb	1	1
 247158_2_9190	9190	Structuur	verticale structuur	b	0	-0.3333
 248026_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-0.9321
-248026_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+248026_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 248026_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 248026_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 248026_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5809,13 +5809,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 248113_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 248113_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 248113_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-248113_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1.6983
+248113_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 248113_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9849
 248113_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 248113_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.9
 248113_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 248113_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	0	-0.3406
-248113_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+248113_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 248113_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 248113_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 248113_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5829,7 +5829,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 248121_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 248121_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.3056
 248121_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-248121_2_9160	9160	Structuur	minimum structuurareaal	zb	1	3.0258
+248121_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 248121_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.9367
 248121_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9667
 248121_2_9160	9160	Verstoring	verruiging	zb	1	0.8753
@@ -5855,7 +5855,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 248135_2_9160	9160	Verstoring	verruiging	zb	1	0.25
 248135_2_9160	9160	Structuur	verticale structuur	b	1	1
 248135_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	1	0.14
-248135_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+248135_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 248135_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	1
 248135_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 248135_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -5995,7 +5995,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 253142_2_9190	9190	Verstoring	verruiging	zb	1	0.2947
 253142_2_9190	9190	Structuur	verticale structuur	b	1	1
 253142_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2789
-253142_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	3.6667
+253142_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 253142_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 253142_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.4428
 253142_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6005,7 +6005,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 253142_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.0972
 253142_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 253151_2_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.0825
-253151_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	3.6667
+253151_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 253151_2_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	1
 253151_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.7402
 253151_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6015,7 +6015,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 253151_2_91E0_vo	91E0_vo	Verstoring	verruiging	zb	0	-0.0085
 253151_2_91E0_vo	91E0_vo	Structuur	verticale structuur	b	0	-0.3333
 253157_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	0	-0.0864
-253157_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+253157_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 253157_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 253157_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 253157_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6035,7 +6035,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 253158_2_9120	9120	Verstoring	verruiging	zb	0	-0.3073
 253158_2_9120	9120	Structuur	verticale structuur	b	1	1
 253593_2017-04-13_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	0	-0.865
-253593_2017-04-13_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+253593_2017-04-13_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 253593_2017-04-13_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 253593_2017-04-13_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 253593_2017-04-13_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6125,7 +6125,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 254129_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3212
 254129_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 255017_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2945
-255017_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+255017_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 255017_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 255017_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 255017_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6135,7 +6135,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 255017_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.7506
 255017_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 255017_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	0	-1
-255017_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+255017_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 255017_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	0	-1
 255017_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 255017_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6365,7 +6365,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 257002_3_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.1022
 257002_3_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 257003_2_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.1352
-257003_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	2.4167
+257003_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 257003_2_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 257003_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.8753
 257003_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6375,7 +6375,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 257003_2_91E0_vo	91E0_vo	Verstoring	verruiging	zb	0	-0.8272
 257003_2_91E0_vo	91E0_vo	Structuur	verticale structuur	b	1	1
 257003_3_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.0818
-257003_3_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	2.4167
+257003_3_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 257003_3_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 257003_3_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0995
 257003_3_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6445,7 +6445,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 257039_2_91E0_vo	91E0_vo	Verstoring	verruiging	zb	0	-0.6198
 257039_2_91E0_vo	91E0_vo	Structuur	verticale structuur	b	1	1
 257045_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.3022
-257045_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+257045_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 257045_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 257045_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.9
 257045_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6505,7 +6505,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 257071_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3056
 257071_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 257081_2015-04-28_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.2473
-257081_2015-04-28_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+257081_2015-04-28_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 257081_2015-04-28_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 257081_2015-04-28_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 257081_2015-04-28_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6665,7 +6665,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 261126_2_9190	9190	Verstoring	verruiging	zb	1	0.9667
 261126_2_9190	9190	Structuur	verticale structuur	b	1	1
 261144_2_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.1265
-261144_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+261144_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 261144_2_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 261144_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 261144_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6815,7 +6815,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 263020_3_9190	9190	Verstoring	verruiging	zb	0	-0.3528
 263020_3_9190	9190	Structuur	verticale structuur	b	1	1
 26393_2017-04-13_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.2629
-26393_2017-04-13_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+26393_2017-04-13_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 26393_2017-04-13_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 26393_2017-04-13_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 26393_2017-04-13_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6835,7 +6835,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 265063_2_9190	9190	Verstoring	verruiging	zb	1	0.9667
 265063_2_9190	9190	Structuur	verticale structuur	b	1	1
 265130_2_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	0	-0.4958
-265130_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+265130_2_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 265130_2_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 265130_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.1762
 265130_2_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -6989,7 +6989,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 26822_2018-06-28_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 26822_2018-06-28_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8733
 26822_2018-06-28_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-26822_2018-06-28_9160	9160	Structuur	minimum structuurareaal	zb	1	1.7256
+26822_2018-06-28_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 26822_2018-06-28_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.1296
 26822_2018-06-28_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 26822_2018-06-28_9160	9160	Verstoring	verruiging	zb	1	0.9
@@ -7005,7 +7005,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 27131_2_9190	9190	Verstoring	verruiging	zb	1	0.975
 27131_2_9190	9190	Structuur	verticale structuur	b	1	1
 271446_2019-05-03_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	0.1691
-271446_2019-05-03_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	2.4167
+271446_2019-05-03_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 271446_2019-05-03_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 271446_2019-05-03_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 271446_2019-05-03_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7319,7 +7319,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 297095_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	1
 297095_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 297095_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-297095_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	3.043
+297095_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 297095_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 297095_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 297095_2_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.25
@@ -7329,7 +7329,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 297095_3_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	1
 297095_3_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 297095_3_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-297095_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	3.043
+297095_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 297095_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 297095_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 297095_3_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.25
@@ -7359,7 +7359,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 297103_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 297103_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 297103_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-297103_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	3.043
+297103_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 297103_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.8265
 297103_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 297103_2_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.755
@@ -7369,7 +7369,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 297103_3_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 297103_3_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 297103_3_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-297103_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	3.043
+297103_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 297103_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.8176
 297103_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 297103_3_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.2575
@@ -7379,7 +7379,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 297104_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 297104_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 297104_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-297104_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	3.043
+297104_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 297104_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 297104_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 297104_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.125
@@ -7389,7 +7389,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 297104_3_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 297104_3_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 297104_3_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-297104_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	3.043
+297104_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 297104_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 297104_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 297104_3_9130_end	9130_end	Verstoring	verruiging	zb	1	1
@@ -7445,7 +7445,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 298100_3_9130_end	9130_end	Verstoring	verruiging	zb	1	0.8045
 298100_3_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 298918_2018-06-27_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.1299
-298918_2018-06-27_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+298918_2018-06-27_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 298918_2018-06-27_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 298918_2018-06-27_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 298918_2018-06-27_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7585,7 +7585,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 304015_3_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.3212
 304015_3_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 304023_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0449
-304023_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	3.6667
+304023_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 304023_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	1
 304023_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 304023_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7595,7 +7595,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 304023_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3512
 304023_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 304023_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0162
-304023_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	3.6667
+304023_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 304023_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	1
 304023_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 304023_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7625,7 +7625,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 304044_3_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.281
 304044_3_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 304051_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-304051_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+304051_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 304051_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 304051_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 304051_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7635,7 +7635,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 304051_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.4144
 304051_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 304051_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-304051_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+304051_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 304051_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 304051_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 304051_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7715,7 +7715,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 305086_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.7506
 305086_2_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 305086_2_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.0129
-305086_2_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+305086_2_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 305086_2_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 305086_2_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 305086_2_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7805,7 +7805,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 306098_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.125
 306098_2_9130_end	9130_end	Structuur	verticale structuur	b	0	-0.3333
 307014_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.1163
-307014_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+307014_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 307014_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 307014_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 307014_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -7839,7 +7839,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 307085_3_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 307085_3_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 307085_3_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-307085_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.6873
+307085_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 307085_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.7958
 307085_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 307085_3_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.3212
@@ -7859,7 +7859,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 307086_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 307086_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 307086_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-307086_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.6873
+307086_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 307086_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.9313
 307086_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 307086_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.9
@@ -8045,7 +8045,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 308101_3_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.2631
 308101_3_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 311027_2_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	0	-0.4237
-311027_2_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+311027_2_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 311027_2_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 311027_2_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 311027_2_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8055,7 +8055,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 311027_2_91E0_vc	91E0_vc	Verstoring	verruiging	zb	0	-0.4864
 311027_2_91E0_vc	91E0_vc	Structuur	verticale structuur	b	1	1
 311027_3_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.0158
-311027_3_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+311027_3_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 311027_3_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 311027_3_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 311027_3_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8075,7 +8075,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 311043_3_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.6983
 311043_3_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 311049_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.0867
-311049_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+311049_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 311049_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 311049_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 311049_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.0186
@@ -8085,7 +8085,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 311049_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.8293
 311049_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 311049_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0147
-311049_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+311049_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 311049_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 311049_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 311049_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.006
@@ -8135,7 +8135,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 311602_2019-04-01_91E0_vo	91E0_vo	Verstoring	verruiging	zb	0	-0.0186
 311602_2019-04-01_91E0_vo	91E0_vo	Structuur	verticale structuur	b	1	1
 312033_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	0	-1
-312033_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+312033_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 312033_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 312033_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 312033_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8215,7 +8215,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 312108_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.1133
 312108_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 313305_2019-03-21_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.2265
-313305_2019-03-21_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+313305_2019-03-21_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 313305_2019-03-21_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 313305_2019-03-21_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 313305_2019-03-21_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8299,7 +8299,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 314152_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 314152_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 314152_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-314152_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+314152_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 314152_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8407
 314152_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 314152_2_9120	9120	Verstoring	verruiging	zb	1	1
@@ -8309,13 +8309,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 314159_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 314159_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 314159_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-314159_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+314159_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 314159_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 314159_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 314159_2_9120	9120	Verstoring	verruiging	zb	0	-0.7525
 314159_2_9120	9120	Structuur	verticale structuur	b	1	1
 315010_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.2064
-315010_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+315010_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 315010_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 315010_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 315010_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8325,7 +8325,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 315010_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.3074
 315010_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 315010_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0229
-315010_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+315010_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 315010_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 315010_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 315010_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8335,7 +8335,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 315010_3_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.5833
 315010_3_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 315018_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.0836
-315018_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	3.6667
+315018_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 315018_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 315018_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 315018_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8345,7 +8345,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 315018_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.8289
 315018_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 315018_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.1781
-315018_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	3.6667
+315018_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 315018_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 315018_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 315018_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8375,7 +8375,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 315062_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.9339
 315062_2_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 315062_2019-04-03_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	0	-0.8575
-315062_2019-04-03_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	2.4167
+315062_2019-04-03_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 315062_2019-04-03_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 315062_2019-04-03_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 315062_2019-04-03_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8469,7 +8469,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317088_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317088_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317088_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317088_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317088_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317088_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.332
 317088_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8909
 317088_2_9120	9120	Verstoring	verruiging	zb	0	-0.0972
@@ -8485,7 +8485,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317090_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.775
 317090_2_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 317090_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	1	0.0638
-317090_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+317090_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 317090_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 317090_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 317090_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -8499,7 +8499,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317095_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317095_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317095_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317095_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317095_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317095_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317095_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7535
 317095_2_9120	9120	Verstoring	verruiging	zb	1	0.7765
@@ -8509,7 +8509,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317096_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	0	-0.6667
 317096_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317096_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317096_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317096_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317096_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 317096_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.6044
 317096_2_9120	9120	Verstoring	verruiging	zb	0	-0.0312
@@ -8519,7 +8519,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317102_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	0	-0.3333
 317102_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317102_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317102_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317102_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317102_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317102_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 317102_2_9120	9120	Verstoring	verruiging	zb	0	-0.9427
@@ -8529,7 +8529,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317103_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 317103_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317103_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317103_2_9160	9160	Structuur	minimum structuurareaal	zb	1	3.6593
+317103_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 317103_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.2006
 317103_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 317103_2_9160	9160	Verstoring	verruiging	zb	1	0.125
@@ -8539,7 +8539,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317104_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317104_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317104_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317104_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317104_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317104_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6872
 317104_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 317104_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -8569,7 +8569,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317110_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317110_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317110_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317110_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317110_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317110_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317110_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 317110_2_9120	9120	Verstoring	verruiging	zb	1	0.775
@@ -8579,7 +8579,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317111_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317111_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317111_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317111_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317111_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317111_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6046
 317111_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 317111_2_9120	9120	Verstoring	verruiging	zb	1	0.125
@@ -8589,7 +8589,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317112_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 317112_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317112_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317112_2_9160	9160	Structuur	minimum structuurareaal	zb	1	3.6593
+317112_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 317112_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317112_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 317112_2_9160	9160	Verstoring	verruiging	zb	1	0.7506
@@ -8599,7 +8599,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317119_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317119_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317119_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317119_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317119_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317119_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317119_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 317119_2_9120	9120	Verstoring	verruiging	zb	0	-0.7525
@@ -8609,7 +8609,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317120_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317120_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317120_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317120_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317120_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317120_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317120_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9672
 317120_2_9120	9120	Verstoring	verruiging	zb	0	-0.1062
@@ -8619,7 +8619,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317126_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 317126_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317126_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317126_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317126_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317126_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317126_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 317126_2_9120	9120	Verstoring	verruiging	zb	1	0.125
@@ -8629,7 +8629,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317127_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317127_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317127_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317127_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317127_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317127_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8958
 317127_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 317127_2_9120	9120	Verstoring	verruiging	zb	1	0.801
@@ -8639,7 +8639,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317128_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 317128_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317128_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317128_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317128_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317128_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317128_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9326
 317128_2_9120	9120	Verstoring	verruiging	zb	1	0.125
@@ -8649,7 +8649,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317135_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 317135_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317135_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317135_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317135_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317135_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317135_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 317135_2_9120	9120	Verstoring	verruiging	zb	0	-0.2738
@@ -8659,7 +8659,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317136_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 317136_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317136_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317136_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317136_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317136_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6047
 317136_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9333
 317136_2_9120	9120	Verstoring	verruiging	zb	0	-0.3309
@@ -8669,7 +8669,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317143_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 317143_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317143_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317143_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317143_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317143_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317143_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 317143_2_9120	9120	Verstoring	verruiging	zb	0	-0.0972
@@ -8679,7 +8679,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 317144_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	0	-0.3333
 317144_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 317144_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-317144_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+317144_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 317144_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 317144_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9004
 317144_2_9120	9120	Verstoring	verruiging	zb	0	-0.7605
@@ -8709,7 +8709,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318011_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318011_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318011_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318011_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.1306
+318011_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318011_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318011_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 318011_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -8719,7 +8719,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318012_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318012_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.9
 318012_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318012_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318012_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318012_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318012_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 318012_2_9120	9120	Verstoring	verruiging	zb	1	0.975
@@ -8729,7 +8729,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318015_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318015_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318015_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318015_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318015_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318015_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8711
 318015_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 318015_2_9120	9120	Verstoring	verruiging	zb	1	0.801
@@ -8739,7 +8739,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318018_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318018_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.3056
 318018_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318018_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.1306
+318018_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318018_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.986
 318018_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 318018_2_9120	9120	Verstoring	verruiging	zb	0	-0.75
@@ -8749,7 +8749,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318019_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318019_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318019_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318019_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.1306
+318019_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318019_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318019_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 318019_2_9120	9120	Verstoring	verruiging	zb	1	0.7628
@@ -8759,7 +8759,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318022_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318022_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.9
 318022_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318022_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318022_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318022_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.6889
 318022_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 318022_2_9120	9120	Verstoring	verruiging	zb	0	-0.7629
@@ -8769,7 +8769,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318027_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 318027_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318027_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318027_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.1306
+318027_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318027_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318027_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 318027_2_9120	9120	Verstoring	verruiging	zb	1	0.7397
@@ -8779,7 +8779,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318028_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318028_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318028_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318028_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318028_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318028_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7347
 318028_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 318028_2_9120	9120	Verstoring	verruiging	zb	1	1
@@ -8789,7 +8789,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318029_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318029_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.7402
 318029_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318029_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318029_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318029_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.7669
 318029_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 318029_2_9120	9120	Verstoring	verruiging	zb	1	0.5927
@@ -8799,7 +8799,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318030_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318030_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.3056
 318030_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318030_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318030_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318030_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 318030_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 318030_2_9120	9120	Verstoring	verruiging	zb	0	-0.0972
@@ -8809,7 +8809,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318035_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318035_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318035_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318035_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318035_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318035_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318035_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 318035_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -8819,7 +8819,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318036_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318036_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318036_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318036_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318036_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318036_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318036_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 318036_2_9120	9120	Verstoring	verruiging	zb	1	0.0337
@@ -8829,7 +8829,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318038_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 318038_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318038_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318038_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318038_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318038_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7167
 318038_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 318038_2_9120	9120	Verstoring	verruiging	zb	0	-0.8438
@@ -8839,7 +8839,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318039_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 318039_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.1022
 318039_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318039_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318039_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318039_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.8308
 318039_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9168
 318039_2_9120	9120	Verstoring	verruiging	zb	0	-0.7724
@@ -8849,7 +8849,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318044_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318044_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318044_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318044_2_9120	9120	Structuur	minimum structuurareaal	zb	1	9.4233
+318044_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318044_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318044_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.851
 318044_2_9120	9120	Verstoring	verruiging	zb	0	-0.854
@@ -8899,7 +8899,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318089_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 318089_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318089_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318089_2_9160	9160	Structuur	minimum structuurareaal	zb	1	3.6593
+318089_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 318089_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 318089_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 318089_2_9160	9160	Verstoring	verruiging	zb	0	-0.3056
@@ -8909,7 +8909,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318089_3_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 318089_3_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318089_3_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318089_3_9160	9160	Structuur	minimum structuurareaal	zb	1	3.6593
+318089_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 318089_3_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.9291
 318089_3_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.3119
 318089_3_9160	9160	Verstoring	verruiging	zb	0	-0.0213
@@ -8949,7 +8949,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318097_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318097_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318097_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318097_2_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+318097_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318097_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318097_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 318097_2_9120	9120	Verstoring	verruiging	zb	1	0.975
@@ -8959,7 +8959,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318097_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318097_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318097_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318097_3_9120	9120	Structuur	minimum structuurareaal	zb	1	10.1523
+318097_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318097_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318097_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 318097_3_9120	9120	Verstoring	verruiging	zb	1	1
@@ -8989,7 +8989,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318106_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 318106_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0972
 318106_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318106_2_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318106_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318106_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.2935
 318106_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7203
 318106_2_9120	9120	Verstoring	verruiging	zb	0	-0.2612
@@ -8999,7 +8999,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318113_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 318113_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318113_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318113_3_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318113_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318113_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318113_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9833
 318113_3_9120	9120	Verstoring	verruiging	zb	0	-0.4358
@@ -9009,7 +9009,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318114_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318114_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318114_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318114_2_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318114_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318114_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318114_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 318114_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -9019,7 +9019,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318114_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318114_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318114_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318114_3_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318114_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318114_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318114_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 318114_3_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -9029,7 +9029,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318121_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318121_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318121_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318121_2_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318121_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318121_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318121_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 318121_2_9120	9120	Verstoring	verruiging	zb	0	-0.3443
@@ -9039,7 +9039,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318121_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318121_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318121_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318121_3_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318121_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318121_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318121_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9028
 318121_3_9120	9120	Verstoring	verruiging	zb	0	-0.0972
@@ -9049,7 +9049,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318122_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318122_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318122_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318122_2_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318122_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318122_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318122_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9202
 318122_2_9120	9120	Verstoring	verruiging	zb	0	-0.3056
@@ -9059,7 +9059,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318122_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 318122_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318122_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318122_3_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318122_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318122_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318122_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8593
 318122_3_9120	9120	Verstoring	verruiging	zb	0	-0.0972
@@ -9069,7 +9069,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318129_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318129_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318129_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318129_2_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318129_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318129_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318129_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 318129_2_9120	9120	Verstoring	verruiging	zb	0	-0.3032
@@ -9079,7 +9079,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318129_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318129_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318129_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318129_3_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318129_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318129_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7825
 318129_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 318129_3_9120	9120	Verstoring	verruiging	zb	1	0.2068
@@ -9089,7 +9089,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 318137_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 318137_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 318137_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-318137_2_9120	9120	Structuur	minimum structuurareaal	zb	1	3.9748
+318137_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 318137_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 318137_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 318137_2_9120	9120	Verstoring	verruiging	zb	0	-0.0089
@@ -9125,7 +9125,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 321007_3_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.3056
 321007_3_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 321036_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0421
-321036_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+321036_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 321036_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 321036_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 321036_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -9135,7 +9135,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 321036_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.5134
 321036_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 321036_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0612
-321036_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+321036_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 321036_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 321036_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 321036_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -9325,7 +9325,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 321082_3_9120	9120	Verstoring	verruiging	zb	1	0.8204
 321082_3_9120	9120	Structuur	verticale structuur	b	1	1
 321120_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1028
-321120_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+321120_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 321120_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	1
 321120_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 321120_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.006
@@ -9335,7 +9335,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 321120_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3056
 321120_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	0	-0.3333
 321120_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1287
-321120_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1.1833
+321120_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 321120_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	1
 321120_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 321120_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.0186
@@ -9425,7 +9425,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 321156_3_9120	9120	Verstoring	verruiging	zb	1	1
 321156_3_9120	9120	Structuur	verticale structuur	b	1	1
 321159_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2419
-321159_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+321159_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 321159_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 321159_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 321159_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -9435,7 +9435,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 321159_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.125
 321159_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 321159_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	1
-321159_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+321159_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 321159_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	0	-0.6667
 321159_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 321159_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -9485,7 +9485,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322056_2_9120	9120	Verstoring	verruiging	zb	1	0.125
 322056_2_9120	9120	Structuur	verticale structuur	b	1	1
 322097_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	0	-0.0952
-322097_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+322097_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 322097_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0
 322097_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 322097_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -9495,7 +9495,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322097_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	1	0.9
 322097_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	0	-0.3333
 322097_3_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1097
-322097_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+322097_3_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 322097_3_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0
 322097_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 322097_3_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -9559,7 +9559,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322131_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 322131_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.7402
 322131_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-322131_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.2182
+322131_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 322131_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 322131_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9796
 322131_2_9120	9120	Verstoring	verruiging	zb	1	1
@@ -9569,7 +9569,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322131_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 322131_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8438
 322131_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-322131_3_9120	9120	Structuur	minimum structuurareaal	zb	1	2.2182
+322131_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 322131_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 322131_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 322131_3_9120	9120	Verstoring	verruiging	zb	1	1
@@ -9579,7 +9579,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322138_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 322138_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8625
 322138_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-322138_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.2182
+322138_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 322138_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 322138_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8673
 322138_2_9120	9120	Verstoring	verruiging	zb	1	1
@@ -9589,7 +9589,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322138_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 322138_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8872
 322138_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-322138_3_9120	9120	Structuur	minimum structuurareaal	zb	1	2.2182
+322138_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 322138_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 322138_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9004
 322138_3_9120	9120	Verstoring	verruiging	zb	1	1
@@ -9599,7 +9599,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322146_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 322146_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.9501
 322146_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-322146_2_9120	9120	Structuur	minimum structuurareaal	zb	1	2.2182
+322146_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 322146_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 322146_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 322146_2_9120	9120	Verstoring	verruiging	zb	1	0.975
@@ -9609,7 +9609,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 322146_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 322146_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0748
 322146_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-322146_3_9120	9120	Structuur	minimum structuurareaal	zb	1	2.2182
+322146_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 322146_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9733
 322146_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 322146_3_9120	9120	Verstoring	verruiging	zb	1	0.775
@@ -9989,7 +9989,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326012_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326012_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0972
 326012_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326012_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326012_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326012_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326012_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 326012_2_9120	9120	Verstoring	verruiging	zb	1	0.8753
@@ -9999,13 +9999,13 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326012_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326012_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 326012_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326012_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326012_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326012_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9664
 326012_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 326012_3_9120	9120	Verstoring	verruiging	zb	0	-0.1175
 326012_3_9120	9120	Structuur	verticale structuur	b	1	1
 326016_2_91E0_va	91E0_va	Structuur	aandeel dood hout	b	1	0.1905
-326016_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1.1667
+326016_2_91E0_va	91E0_va	Structuur	bosconstantie	zb	1	1
 326016_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326016_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326016_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10015,7 +10015,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326016_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.5833
 326016_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 326016_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.1905
-326016_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	3.6667
+326016_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 326016_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326016_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326016_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10029,7 +10029,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326017_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 326017_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.5957
 326017_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326017_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326017_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326017_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 326017_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 326017_2_9120	9120	Verstoring	verruiging	zb	0	-0.0089
@@ -10039,7 +10039,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326017_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326017_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.8457
 326017_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326017_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326017_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326017_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-1
 326017_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9333
 326017_3_9120	9120	Verstoring	verruiging	zb	1	0.7506
@@ -10049,7 +10049,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326020_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 326020_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 326020_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326020_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326020_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326020_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.5414
 326020_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 326020_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -10059,7 +10059,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326020_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 326020_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 326020_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326020_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326020_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326020_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.4297
 326020_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 326020_3_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -10069,7 +10069,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326021_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326021_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.1017
 326021_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326021_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326021_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326021_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.168
 326021_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 326021_2_9120	9120	Verstoring	verruiging	zb	1	0.98
@@ -10089,7 +10089,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326022_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326022_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326022_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326022_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326022_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326022_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326022_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 326022_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -10109,7 +10109,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326026_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326026_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326026_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326026_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326026_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326026_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326026_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.1429
 326026_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -10119,7 +10119,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326026_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326026_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 326026_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326026_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326026_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326026_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.4234
 326026_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 326026_3_9120	9120	Verstoring	verruiging	zb	1	0.6209
@@ -10129,7 +10129,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326027_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326027_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326027_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326027_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326027_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326027_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326027_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 326027_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -10139,7 +10139,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326027_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	0	-0.3333
 326027_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326027_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326027_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326027_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326027_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326027_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 326027_3_9120	9120	Verstoring	verruiging	zb	1	1
@@ -10149,7 +10149,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326028_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326028_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.5833
 326028_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326028_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326028_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326028_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.2539
 326028_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.1667
 326028_2_9120	9120	Verstoring	verruiging	zb	1	0.0337
@@ -10159,7 +10159,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326028_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326028_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0972
 326028_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326028_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326028_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326028_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.0753
 326028_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0
 326028_3_9120	9120	Verstoring	verruiging	zb	1	0.0337
@@ -10169,7 +10169,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326029_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326029_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.3679
 326029_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326029_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326029_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326029_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.4831
 326029_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 326029_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -10179,7 +10179,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326030_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326030_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0995
 326030_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326030_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326030_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326030_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.3815
 326030_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 326030_2_9120	9120	Verstoring	verruiging	zb	1	0.9501
@@ -10209,7 +10209,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326035_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 326035_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326035_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326035_2_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326035_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326035_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326035_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0
 326035_2_9160	9160	Verstoring	verruiging	zb	1	0.7887
@@ -10219,7 +10219,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326035_3_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 326035_3_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326035_3_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326035_3_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326035_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326035_3_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326035_3_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 326035_3_9160	9160	Verstoring	verruiging	zb	1	0.8753
@@ -10229,7 +10229,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326036_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 326036_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326036_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326036_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326036_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326036_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.3692
 326036_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7053
 326036_2_9120	9120	Verstoring	verruiging	zb	0	-0.0972
@@ -10239,7 +10239,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326036_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 326036_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326036_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326036_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326036_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326036_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.0474
 326036_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7214
 326036_3_9120	9120	Verstoring	verruiging	zb	1	0.5372
@@ -10249,7 +10249,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326037_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326037_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326037_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326037_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326037_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326037_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.297
 326037_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7143
 326037_2_9120	9120	Verstoring	verruiging	zb	1	0.6773
@@ -10259,7 +10259,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326038_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326038_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.9
 326038_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326038_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326038_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326038_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9629
 326038_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 326038_2_9120	9120	Verstoring	verruiging	zb	0	-0.2872
@@ -10269,7 +10269,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326041_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326041_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0972
 326041_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326041_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326041_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326041_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.0837
 326041_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 326041_2_9120	9120	Verstoring	verruiging	zb	1	1
@@ -10279,7 +10279,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326041_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326041_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.3056
 326041_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326041_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326041_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326041_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.0753
 326041_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 326041_3_9120	9120	Verstoring	verruiging	zb	1	1
@@ -10289,7 +10289,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326042_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326042_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326042_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326042_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326042_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326042_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326042_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7478
 326042_2_9120	9120	Verstoring	verruiging	zb	1	0.775
@@ -10299,7 +10299,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326042_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 326042_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326042_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326042_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326042_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326042_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326042_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 326042_3_9120	9120	Verstoring	verruiging	zb	1	0.775
@@ -10309,7 +10309,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326043_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326043_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326043_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326043_2_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326043_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326043_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326043_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.2143
 326043_2_9160	9160	Verstoring	verruiging	zb	0	-0.1062
@@ -10319,7 +10319,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326043_3_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 326043_3_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326043_3_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326043_3_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326043_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326043_3_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326043_3_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0
 326043_3_9160	9160	Verstoring	verruiging	zb	1	0.9
@@ -10329,7 +10329,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326044_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 326044_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326044_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326044_2_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326044_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326044_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8813
 326044_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0
 326044_2_9160	9160	Verstoring	verruiging	zb	0	-0.1845
@@ -10339,7 +10339,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326044_3_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 326044_3_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326044_3_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326044_3_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326044_3_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326044_3_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9782
 326044_3_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0
 326044_3_9160	9160	Verstoring	verruiging	zb	1	0.5805
@@ -10349,7 +10349,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326045_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0
 326045_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326045_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326045_2_9160	9160	Structuur	minimum structuurareaal	zb	1	9.036
+326045_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 326045_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.4335
 326045_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 326045_2_9160	9160	Verstoring	verruiging	zb	1	0.2036
@@ -10359,7 +10359,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326051_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 326051_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326051_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326051_2_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326051_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326051_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326051_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 326051_2_9120	9120	Verstoring	verruiging	zb	1	0.8753
@@ -10369,7 +10369,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 326051_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 326051_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 326051_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-326051_3_9120	9120	Structuur	minimum structuurareaal	zb	1	5.8231
+326051_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 326051_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 326051_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.7203
 326051_3_9120	9120	Verstoring	verruiging	zb	0	-0.7711
@@ -10429,7 +10429,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 332096_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 332096_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 332096_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-332096_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2005
+332096_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 332096_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8992
 332096_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 332096_2_9120	9120	Verstoring	verruiging	zb	1	0.9152
@@ -10439,7 +10439,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 332096_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	1
 332096_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 332096_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-332096_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1.2005
+332096_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 332096_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9535
 332096_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 332096_3_9120	9120	Verstoring	verruiging	zb	1	0.2469
@@ -10465,7 +10465,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 332104_3_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.3056
 332104_3_91E0_vm	91E0_vm	Structuur	verticale structuur	b	1	1
 332116_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.3379
-332116_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+332116_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 332116_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 332116_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 332116_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10475,7 +10475,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 332116_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	0	-0.3073
 332116_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 332116_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-332116_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+332116_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 332116_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 332116_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 332116_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10545,7 +10545,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 332138_3_9120	9120	Verstoring	verruiging	zb	1	0.9
 332138_3_9120	9120	Structuur	verticale structuur	b	1	1
 332150_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.0634
-332150_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+332150_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 332150_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 332150_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 332150_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10555,7 +10555,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 332150_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.8602
 332150_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 332150_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-332150_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	2.4167
+332150_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 332150_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 332150_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 332150_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10599,7 +10599,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 334108_2_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	1
 334108_2_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 334108_2_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-334108_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1.796
+334108_2_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 334108_2_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 334108_2_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 334108_2_9160	9160	Verstoring	verruiging	zb	1	0.9
@@ -10615,7 +10615,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 335037_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.8282
 335037_2_91E0_va	91E0_va	Structuur	verticale structuur	b	1	1
 336040_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-1
-336040_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+336040_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 336040_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 336040_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 336040_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.1842
@@ -10625,7 +10625,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 336040_2_91E0_vn	91E0_vn	Verstoring	verruiging	zb	1	0.775
 336040_2_91E0_vn	91E0_vn	Structuur	verticale structuur	b	1	1
 336040_3_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.1141
-336040_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+336040_3_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 336040_3_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 336040_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 336040_3_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	0	-0.3725
@@ -10805,7 +10805,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 345004_2_91E0_va	91E0_va	Verstoring	verruiging	zb	0	-0.8611
 345004_2_91E0_va	91E0_va	Structuur	verticale structuur	b	0	-0.3333
 345004_2_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.2302
-345004_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+345004_2_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 345004_2_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 345004_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 345004_2_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10815,7 +10815,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 345004_2_91E0_vm	91E0_vm	Verstoring	verruiging	zb	0	-0.8611
 345004_2_91E0_vm	91E0_vm	Structuur	verticale structuur	b	0	-0.3333
 346246_2018-06-26_91E0_vm	91E0_vm	Structuur	aandeel dood hout	b	1	0.0947
-346246_2018-06-26_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	2.4167
+346246_2018-06-26_91E0_vm	91E0_vm	Structuur	bosconstantie	zb	1	1
 346246_2018-06-26_91E0_vm	91E0_vm	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 346246_2018-06-26_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 346246_2018-06-26_91E0_vm	91E0_vm	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -10909,7 +10909,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 348125_2_9110	9110	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 348125_2_9110	9110	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 348125_2_9110	9110	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-348125_2_9110	9110	Structuur	minimum structuurareaal	zb	1	1.148
+348125_2_9110	9110	Structuur	minimum structuurareaal	zb	1	1
 348125_2_9110	9110	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.0486
 348125_2_9110	9110	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 348125_2_9110	9110	Verstoring	verruiging	zb	0	-0.7742
@@ -10939,7 +10939,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 348133_2_9110	9110	Structuur	horizontale structuur - groeiklassen	b	1	1
 348133_2_9110	9110	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 348133_2_9110	9110	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-348133_2_9110	9110	Structuur	minimum structuurareaal	zb	1	1.148
+348133_2_9110	9110	Structuur	minimum structuurareaal	zb	1	1
 348133_2_9110	9110	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.2372
 348133_2_9110	9110	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.9333
 348133_2_9110	9110	Verstoring	verruiging	zb	0	-0.0063
@@ -11179,7 +11179,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 391033_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 391033_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 391033_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-391033_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.1519
+391033_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 391033_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.386
 391033_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.1429
 391033_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.95
@@ -11189,7 +11189,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 391033_3_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 391033_3_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 391033_3_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-391033_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.1519
+391033_3_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 391033_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.2286
 391033_3_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	1	0.0714
 391033_3_9130_end	9130_end	Verstoring	verruiging	zb	1	0.0625
@@ -11219,7 +11219,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392014_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	1
 392014_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392014_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392014_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392014_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392014_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.2033
 392014_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.1429
 392014_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.0337
@@ -11229,7 +11229,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392014_2_91E0_va	91E0_va	Structuur	horizontale structuur - groeiklassen	b	1	1
 392014_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392014_2_91E0_va	91E0_va	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392014_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1.283
+392014_2_91E0_va	91E0_va	Structuur	minimum structuurareaal	zb	1	1
 392014_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.1889
 392014_2_91E0_va	91E0_va	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 392014_2_91E0_va	91E0_va	Verstoring	verruiging	zb	1	0.6779
@@ -11239,7 +11239,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392014_2_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 392014_2_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392014_2_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392014_2_91E0_vc	91E0_vc	Structuur	minimum structuurareaal	zb	1	1.283
+392014_2_91E0_vc	91E0_vc	Structuur	minimum structuurareaal	zb	1	1
 392014_2_91E0_vc	91E0_vc	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.1889
 392014_2_91E0_vc	91E0_vc	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 392014_2_91E0_vc	91E0_vc	Verstoring	verruiging	zb	1	0.0337
@@ -11259,7 +11259,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392037_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 392037_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392037_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392037_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392037_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392037_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.9869
 392037_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.1429
 392037_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.8753
@@ -11279,7 +11279,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392040_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 392040_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392040_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392040_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392040_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392040_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 392040_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4868
 392040_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.9
@@ -11289,7 +11289,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392046_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 392046_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392046_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392046_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392046_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392046_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.356
 392046_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 392046_2_9130_end	9130_end	Verstoring	verruiging	zb	0	-0.0972
@@ -11299,7 +11299,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392047_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 392047_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392047_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392047_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392047_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392047_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 392047_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 392047_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.125
@@ -11309,7 +11309,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392054_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 392054_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392054_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392054_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392054_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392054_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.8159
 392054_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 392054_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.9
@@ -11319,7 +11319,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392055_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 392055_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392055_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392055_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392055_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392055_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 392055_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 392055_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.9
@@ -11329,7 +11329,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392059_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 392059_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 392059_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392059_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.2795
+392059_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392059_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	0	-0.1548
 392059_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.5714
 392059_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.775
@@ -11339,7 +11339,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392060_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	1
 392060_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392060_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392060_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.2795
+392060_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392060_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7053
 392060_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 392060_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.9252
@@ -11349,7 +11349,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392063_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 392063_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392063_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392063_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	6.8531
+392063_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392063_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 392063_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 392063_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.9
@@ -11359,7 +11359,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 392067_2_9130_end	9130_end	Structuur	horizontale structuur - groeiklassen	b	1	0
 392067_2_9130_end	9130_end	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 392067_2_9130_end	9130_end	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-392067_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1.2795
+392067_2_9130_end	9130_end	Structuur	minimum structuurareaal	zb	1	1
 392067_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 392067_2_9130_end	9130_end	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 392067_2_9130_end	9130_end	Verstoring	verruiging	zb	1	0.125
@@ -11369,7 +11369,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3970_2015-05-21_9160	9160	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 3970_2015-05-21_9160	9160	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 3970_2015-05-21_9160	9160	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-3970_2015-05-21_9160	9160	Structuur	minimum structuurareaal	zb	1	1.1257
+3970_2015-05-21_9160	9160	Structuur	minimum structuurareaal	zb	1	1
 3970_2015-05-21_9160	9160	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.758
 3970_2015-05-21_9160	9160	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 3970_2015-05-21_9160	9160	Verstoring	verruiging	zb	0	-0.2756
@@ -11415,7 +11415,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 428057_2019-05-27_91E0_vc	91E0_vc	Verstoring	verruiging	zb	0	-0.8786
 428057_2019-05-27_91E0_vc	91E0_vc	Structuur	verticale structuur	b	1	1
 431494_2018-06-25_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	0	-1
-431494_2018-06-25_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+431494_2018-06-25_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 431494_2018-06-25_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0
 431494_2018-06-25_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 431494_2018-06-25_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -11435,7 +11435,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 45305_2021-04-09_9130_end	9130_end	Verstoring	verruiging	zb	1	0.3167
 45305_2021-04-09_9130_end	9130_end	Structuur	verticale structuur	b	1	1
 45526_2015-08-11_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	1	1
-45526_2015-08-11_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+45526_2015-08-11_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 45526_2015-08-11_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0
 45526_2015-08-11_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 45526_2015-08-11_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -11505,7 +11505,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 520582_2018-06-25_9120	9120	Verstoring	verruiging	zb	1	0.9
 520582_2018-06-25_9120	9120	Structuur	verticale structuur	b	1	1
 53561_2015-05-08_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	0	-0.3625
-53561_2015-05-08_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+53561_2015-05-08_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 53561_2015-05-08_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 53561_2015-05-08_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 53561_2015-05-08_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -11565,7 +11565,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 6278_2015-05-07_9160	9160	Verstoring	verruiging	zb	0	-0.1642
 6278_2015-05-07_9160	9160	Structuur	verticale structuur	b	1	1
 642585_2019-02-14_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	1	0.0035
-642585_2019-02-14_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+642585_2019-02-14_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 642585_2019-02-14_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 642585_2019-02-14_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 642585_2019-02-14_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -11819,7 +11819,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 78148_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0
 78148_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 78148_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-78148_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.1595
+78148_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 78148_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	1
 78148_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.8571
 78148_2_9120	9120	Verstoring	verruiging	zb	0	-0.75
@@ -11829,7 +11829,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 78156_2_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 78156_2_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.125
 78156_2_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-78156_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1.1595
+78156_2_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 78156_2_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7513
 78156_2_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.4286
 78156_2_9120	9120	Verstoring	verruiging	zb	1	0.9
@@ -11839,7 +11839,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 78156_3_9120	9120	Structuur	horizontale structuur - groeiklassen	b	1	0.25
 78156_3_9120	9120	Verstoring	invasieve exoten van de boom- en struiklaag	b	0	-0.0748
 78156_3_9120	9120	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
-78156_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1.1595
+78156_3_9120	9120	Structuur	minimum structuurareaal	zb	1	1
 78156_3_9120	9120	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	1	0.7519
 78156_3_9120	9120	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.2857
 78156_3_9120	9120	Verstoring	verruiging	zb	1	0.125
@@ -12045,7 +12045,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 85156_3_9190	9190	Verstoring	verruiging	zb	1	0.7083
 85156_3_9190	9190	Structuur	verticale structuur	b	1	1
 85529_2015-05-26_91E0_vo	91E0_vo	Structuur	aandeel dood hout	b	0	-0.8575
-85529_2015-05-26_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1.1833
+85529_2015-05-26_91E0_vo	91E0_vo	Structuur	bosconstantie	zb	1	1
 85529_2015-05-26_91E0_vo	91E0_vo	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 85529_2015-05-26_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 85529_2015-05-26_91E0_vo	91E0_vo	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -12195,7 +12195,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 87123_2_9120	9120	Verstoring	verruiging	zb	1	0.2375
 87123_2_9120	9120	Structuur	verticale structuur	b	1	1
 87123_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	1	0.308
-87123_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+87123_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 87123_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	0.5
 87123_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	0.975
 87123_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -12225,7 +12225,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 87131_2_9120	9120	Verstoring	verruiging	zb	1	0.1614
 87131_2_9120	9120	Structuur	verticale structuur	b	1	1
 87131_2_91E0_vn	91E0_vn	Structuur	aandeel dood hout	b	0	-0.1719
-87131_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1.1833
+87131_2_91E0_vn	91E0_vn	Structuur	bosconstantie	zb	1	1
 87131_2_91E0_vn	91E0_vn	Structuur	horizontale structuur - groeiklassen	b	1	1
 87131_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 87131_2_91E0_vn	91E0_vn	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
@@ -12565,7 +12565,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 96124_3_9190	9190	Verstoring	verruiging	zb	1	0.5657
 96124_3_9190	9190	Structuur	verticale structuur	b	0	-0.3333
 96217_2015-05-13_91E0_vc	91E0_vc	Structuur	aandeel dood hout	b	0	-1
-96217_2015-05-13_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1.1667
+96217_2015-05-13_91E0_vc	91E0_vc	Structuur	bosconstantie	zb	1	1
 96217_2015-05-13_91E0_vc	91E0_vc	Structuur	horizontale structuur - groeiklassen	b	1	1
 96217_2015-05-13_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de boom- en struiklaag	b	1	1
 96217_2015-05-13_91E0_vc	91E0_vc	Verstoring	invasieve exoten van de kruidlaag	zb	1	1
