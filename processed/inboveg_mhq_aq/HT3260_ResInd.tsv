@@ -1,0 +1,821 @@
+ID	Habitattype	Versie	Criterium	Indicator	Beoordeling	Belang	Kwaliteitsniveau	BeoordelingID	Status_indicator	Verschilscore
+IV2016120512445956	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2016120512445956	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2016120512445956	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120512445956	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.333333333333333
+IV2016120512445956	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0100050025012506
+IV2016120809224601	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	4.5
+IV2016120809224601	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2016120809224601	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120809224601	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016120809224601	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2016120812572168	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.5
+IV2016120812572168	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2016120812572168	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120812572168	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016120812572168	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2016120813184428	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2016120813184428	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2016120813184428	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120813184428	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2016120813184428	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2016120813410051	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2016120813410051	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2016120813410051	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120813410051	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016120813410051	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2016120814151855	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.998
+IV2016120814151855	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2016120814151855	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120814151855	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2016120814151855	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2016120814452463	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9995
+IV2016120814452463	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2016120814452463	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016120814452463	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016120814452463	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2016120916091640	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2016120916091640	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2016120916091640	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0.25
+IV2016120916091640	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016120916091640	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2016121210560857	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2016121210560857	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2016121210560857	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2016121210560857	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016121210560857	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2016121211363938	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	17
+IV2016121211363938	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2016121211363938	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2016121211363938	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2016121211363938	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0495247623811906
+IV2016121212030936	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2016121212030936	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2016121212030936	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016121212030936	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.666666666666667
+IV2016121212030936	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2016121212144933	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2016121212144933	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2016121212144933	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016121212144933	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2016121212144933	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2016121212251275	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2016121212251275	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2016121212251275	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2016121212251275	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.142857142857143
+IV2016121212251275	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017010215025058	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017010215025058	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2017010215025058	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2017010215025058	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2017010215025058	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017010311384515	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.7
+IV2017010311384515	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2017010311384515	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2017010311384515	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017010311384515	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017010312332288	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.7
+IV2017010312332288	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2017010312332288	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2017010312332288	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017010312332288	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017010315000010	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017010315000010	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2017010315000010	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017010315000010	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2017010315000010	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017010315532909	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.5
+IV2017010315532909	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.866666666666667
+IV2017010315532909	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017010315532909	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.866666666666667
+IV2017010315532909	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017010316171032	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017010316171032	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017010316171032	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017010316171032	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2017010316171032	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017010509365223	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.998
+IV2017010509365223	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2017010509365223	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017010509365223	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.166666666666667
+IV2017010509365223	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017010510562127	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017010510562127	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017010510562127	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017010510562127	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.714285714285714
+IV2017010510562127	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000002	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.7
+IV2017103112000002	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2017103112000002	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000002	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2017103112000002	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000004	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1
+IV2017103112000004	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2017103112000004	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2017103112000004	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000004	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000007	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2017103112000007	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2017103112000007	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000007	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000007	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000009	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.97
+IV2017103112000009	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017103112000009	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000009	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2017103112000009	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000011	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.3
+IV2017103112000011	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.933333333333333
+IV2017103112000011	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2017103112000011	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000011	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000020	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2017103112000020	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017103112000020	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000020	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000020	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2017103112000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2017103112000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000022	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2017103112000022	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2017103112000022	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000022	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000022	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000024	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2017103112000024	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017103112000024	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000024	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000024	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000025	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2017103112000025	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2017103112000025	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000025	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2017103112000025	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000027	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017103112000027	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2017103112000027	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000027	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000027	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000028	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017103112000028	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017103112000028	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000028	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000028	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000029	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2017103112000029	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017103112000029	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2017103112000029	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000029	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2017103112000030	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.998
+IV2017103112000030	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0
+IV2017103112000030	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000030	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000030	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000033	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2017103112000033	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2017103112000033	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000033	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.5
+IV2017103112000033	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000034	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2017103112000034	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0
+IV2017103112000034	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000034	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2017103112000034	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0195097548774387
+IV2017103112000035	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017103112000035	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.933333333333333
+IV2017103112000035	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000035	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.8
+IV2017103112000035	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0595297648824412
+IV2017103112000036	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.75
+IV2017103112000036	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2017103112000036	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000036	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.333333333333333
+IV2017103112000036	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0995497748874437
+IV2017103112000037	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017103112000037	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2017103112000037	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000037	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2017103112000037	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0495247623811906
+IV2017103112000038	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	0
+IV2017103112000038	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2017103112000038	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000038	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0
+IV2017103112000038	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.299649824912456
+IV2017103112000039	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2017103112000039	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0
+IV2017103112000039	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2017103112000039	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2017103112000039	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2017103112000040	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2017103112000040	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.933333333333333
+IV2017103112000040	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2017103112000040	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2017103112000040	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0495247623811906
+IV2018120312000001	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2018120312000001	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2018120312000001	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000001	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.166666666666667
+IV2018120312000001	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2018120312000007	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.97
+IV2018120312000007	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2018120312000007	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000007	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.5
+IV2018120312000007	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2018120312000008	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2018120312000008	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2018120312000008	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000008	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.666666666666667
+IV2018120312000008	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2018120312000011	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.995
+IV2018120312000011	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.928571428571428
+IV2018120312000011	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000011	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.866666666666667
+IV2018120312000011	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2018120312000019	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.1
+IV2018120312000019	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000019	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2018120312000019	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0
+IV2018120312000019	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2018120312000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	2
+IV2018120312000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2018120312000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0
+IV2018120312000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2018120312000023	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.4
+IV2018120312000023	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000023	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000023	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.5
+IV2018120312000023	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2018120312000024	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2018120312000024	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000024	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000024	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.666666666666667
+IV2018120312000024	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2018120312000029	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.5
+IV2018120312000029	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000029	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2018120312000029	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0
+IV2018120312000029	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.249624812406203
+IV2018120312000030	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2018120312000030	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000030	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2018120312000030	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.571428571428571
+IV2018120312000030	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2018120312000031	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	0
+IV2018120312000031	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2018120312000031	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2018120312000031	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2018120312000031	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0195097548774387
+IV2018120312000032	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1.75
+IV2018120312000032	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.6
+IV2018120312000032	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2018120312000032	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.285714285714286
+IV2018120312000032	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.349674837418709
+IV2019091112000002	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.6
+IV2019091112000002	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2019091112000002	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2019091112000002	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2019091112000002	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000009	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1.5
+IV2019091112000009	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2019091112000009	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2019091112000009	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2019091112000009	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000011	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2019091112000011	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.714285714285714
+IV2019091112000011	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2019091112000011	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2019091112000011	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000019	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.4
+IV2019091112000019	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2019091112000019	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2019091112000019	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.333333333333333
+IV2019091112000019	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.2
+IV2019091112000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2019091112000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2019091112000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2019091112000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000023	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.4
+IV2019091112000023	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2019091112000023	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2019091112000023	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2019091112000023	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2019091112000027	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	3.5
+IV2019091112000027	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.142857142857143
+IV2019091112000027	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2019091112000027	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2019091112000027	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000039	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9995
+IV2019091112000039	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2019091112000039	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2019091112000039	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.5
+IV2019091112000039	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2019091112000040	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.85
+IV2019091112000040	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2019091112000040	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2019091112000040	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.428571428571429
+IV2019091112000040	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0495247623811906
+IV2019091112000041	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2019091112000041	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2019091112000041	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2019091112000041	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0
+IV2019091112000041	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2019091112000042	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.5
+IV2019091112000042	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2019091112000042	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2019091112000042	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2019091112000042	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000043	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	2
+IV2019091112000043	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2019091112000043	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2019091112000043	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2019091112000043	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2019091112000044	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.85
+IV2019091112000044	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2019091112000044	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2019091112000044	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.714285714285714
+IV2019091112000044	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2019091112000046	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2019091112000046	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2019091112000046	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2019091112000046	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.166666666666667
+IV2019091112000046	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000000	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2020092312000000	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2020092312000000	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000000	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000000	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000002	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2020092312000002	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0
+IV2020092312000002	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000002	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000002	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000003	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.2
+IV2020092312000003	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2020092312000003	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000003	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000003	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000004	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2020092312000004	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2020092312000004	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000004	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000004	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000009	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.5
+IV2020092312000009	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2020092312000009	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000009	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0
+IV2020092312000009	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000013	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2020092312000013	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2020092312000013	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000013	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000013	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000014	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.85
+IV2020092312000014	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2020092312000014	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000014	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000014	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000015	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2020092312000015	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.0714285714285714
+IV2020092312000015	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000015	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2020092312000015	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000016	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2020092312000016	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.571428571428571
+IV2020092312000016	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000016	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.428571428571429
+IV2020092312000016	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000017	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.6
+IV2020092312000017	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.142857142857143
+IV2020092312000017	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000017	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2020092312000017	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000019	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2020092312000019	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2020092312000019	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000019	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000019	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000020	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2020092312000020	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2020092312000020	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000020	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000020	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1
+IV2020092312000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2020092312000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2020092312000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000025	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.925
+IV2020092312000025	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2020092312000025	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000025	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.214285714285714
+IV2020092312000025	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000026	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2020092312000026	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2020092312000026	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000026	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2020092312000026	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.149574787393697
+IV2020092312000028	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.98
+IV2020092312000028	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.571428571428571
+IV2020092312000028	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000028	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000028	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000029	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.6
+IV2020092312000029	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.285714285714286
+IV2020092312000029	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000029	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.766666666666667
+IV2020092312000029	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000030	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2020092312000030	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2020092312000030	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2020092312000030	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000030	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000031	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2020092312000031	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0
+IV2020092312000031	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000031	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000031	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000032	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2020092312000032	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2020092312000032	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000032	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.314285714285714
+IV2020092312000032	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000033	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2020092312000033	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2020092312000033	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000033	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2020092312000033	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000034	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2020092312000034	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.6
+IV2020092312000034	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000034	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2020092312000034	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000036	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2020092312000036	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.933333333333333
+IV2020092312000036	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2020092312000036	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2020092312000036	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2020092312000037	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.7
+IV2020092312000037	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2020092312000037	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000037	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2020092312000037	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000038	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2020092312000038	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2020092312000038	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000038	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.0714285714285714
+IV2020092312000038	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2020092312000039	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2020092312000039	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2020092312000039	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2020092312000039	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2020092312000039	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2021082512000000	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	0
+IV2021082512000000	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2021082512000000	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2021082512000000	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000000	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000001	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.995
+IV2021082512000001	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.928571428571428
+IV2021082512000001	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2021082512000001	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000001	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2021082512000003	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.98
+IV2021082512000003	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2021082512000003	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2021082512000003	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000003	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000004	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.3
+IV2021082512000004	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.142857142857143
+IV2021082512000004	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2021082512000004	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000004	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000005	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2021082512000005	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.142857142857143
+IV2021082512000005	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2021082512000005	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000005	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000010	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2021082512000010	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2021082512000010	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2021082512000010	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000010	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2021082512000012	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2021082512000012	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2021082512000012	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2021082512000012	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2021082512000012	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000014	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2021082512000014	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2021082512000014	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2021082512000014	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.666666666666667
+IV2021082512000014	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000015	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	14.5
+IV2021082512000015	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2021082512000015	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2021082512000015	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.428571428571429
+IV2021082512000015	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.599799899949975
+IV2021082512000020	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.25
+IV2021082512000020	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.5
+IV2021082512000020	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2021082512000020	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.428571428571429
+IV2021082512000020	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2021082512000022	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.5
+IV2021082512000022	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2021082512000022	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2021082512000022	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2021082512000022	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000023	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2021082512000023	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.428571428571429
+IV2021082512000023	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2021082512000023	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000023	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2021082512000026	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2021082512000026	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2021082512000026	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2021082512000026	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2021082512000026	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2021082512000027	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2021082512000027	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.428571428571429
+IV2021082512000027	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2021082512000027	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2021082512000027	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000002	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1
+IV2022082412000002	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2022082412000002	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2022082412000002	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2022082412000002	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2022082412000003	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1
+IV2022082412000003	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2022082412000003	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2022082412000003	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2022082412000003	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000004	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2022082412000004	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2022082412000004	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2022082412000004	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2022082412000004	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000006	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2022082412000006	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2022082412000006	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2022082412000006	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2022082412000006	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2022082412000016	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2022082412000016	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2022082412000016	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2022082412000016	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.866666666666667
+IV2022082412000016	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000017	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2022082412000017	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.928571428571428
+IV2022082412000017	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2022082412000017	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2022082412000017	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000019	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.925
+IV2022082412000019	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.766666666666667
+IV2022082412000019	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2022082412000019	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2022082412000019	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000020	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2022082412000020	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2022082412000020	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2022082412000020	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2022082412000020	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2022082412000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.766666666666667
+IV2022082412000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2022082412000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2022082412000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000023	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.4
+IV2022082412000023	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2022082412000023	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2022082412000023	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2022082412000023	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2022082412000024	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.4
+IV2022082412000024	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2022082412000024	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0.25
+IV2022082412000024	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.0714285714285714
+IV2022082412000024	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2022082412000025	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2022082412000025	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2022082412000025	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2022082412000025	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.0714285714285714
+IV2022082412000025	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0195097548774387
+IV2023082312000000	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.995
+IV2023082312000000	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.857142857142857
+IV2023082312000000	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000000	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.866666666666667
+IV2023082312000000	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000005	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2023082312000005	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2023082312000005	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000005	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000005	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2023082312000008	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	0
+IV2023082312000008	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2023082312000008	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2023082312000008	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000008	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2023082312000010	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2023082312000010	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000010	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000010	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000010	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000011	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.75
+IV2023082312000011	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.0714285714285714
+IV2023082312000011	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000011	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000011	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000012	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.4
+IV2023082312000012	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.571428571428571
+IV2023082312000012	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000012	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.214285714285714
+IV2023082312000012	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000015	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2023082312000015	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2023082312000015	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000015	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2023082312000015	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2023082312000016	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2023082312000016	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2023082312000016	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000016	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000016	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000018	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2023082312000018	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2023082312000018	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000018	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.214285714285714
+IV2023082312000018	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000019	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1.75
+IV2023082312000019	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2023082312000019	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000019	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000019	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000020	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2023082312000020	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2023082312000020	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000020	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.671428571428571
+IV2023082312000020	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2023082312000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2023082312000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.385714285714286
+IV2023082312000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000022	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2023082312000022	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000022	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000022	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000022	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2023082312000023	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2023082312000023	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000023	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000023	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2023082312000023	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000024	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.5
+IV2023082312000024	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000024	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000024	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000024	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2023082312000025	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.998
+IV2023082312000025	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000025	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000025	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.714285714285714
+IV2023082312000025	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2023082312000026	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.975
+IV2023082312000026	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2023082312000026	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000026	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000026	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000027	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.999
+IV2023082312000027	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000027	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000027	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000027	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000029	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.2
+IV2023082312000029	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000029	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000029	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2023082312000029	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000030	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2023082312000030	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000030	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000030	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2023082312000030	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000031	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	4.5
+IV2023082312000031	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2023082312000031	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000031	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.833333333333333
+IV2023082312000031	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.0495247623811906
+IV2023082312000032	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.7
+IV2023082312000032	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000032	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000032	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2023082312000032	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000033	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.6
+IV2023082312000033	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.9
+IV2023082312000033	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2023082312000033	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.933333333333333
+IV2023082312000033	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2023082312000034	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.997
+IV2023082312000034	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2023082312000034	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2023082312000034	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.666666666666667
+IV2023082312000034	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2024091612000002	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	14.5
+IV2024091612000002	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.333333333333333
+IV2024091612000002	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2024091612000002	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2024091612000002	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000003	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.75
+IV2024091612000003	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.933333333333333
+IV2024091612000003	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000003	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.866666666666667
+IV2024091612000003	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.03951975987994
+IV2024091612000006	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2024091612000006	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.5
+IV2024091612000006	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000006	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.733333333333333
+IV2024091612000006	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000007	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.98
+IV2024091612000007	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2024091612000007	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000007	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.666666666666667
+IV2024091612000007	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000008	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.9
+IV2024091612000008	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.933333333333333
+IV2024091612000008	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000008	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2024091612000008	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000010	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.4
+IV2024091612000010	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.866666666666667
+IV2024091612000010	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000010	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000010	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000013	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.2
+IV2024091612000013	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.142857142857143
+IV2024091612000013	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000013	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	0	-0.0714285714285714
+IV2024091612000013	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000015	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.95
+IV2024091612000015	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2024091612000015	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000015	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	1
+IV2024091612000015	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000016	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2024091612000016	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2024091612000016	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000016	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000016	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000019	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.99
+IV2024091612000019	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.833333333333333
+IV2024091612000019	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000019	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.5
+IV2024091612000019	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000020	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	1.75
+IV2024091612000020	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.166666666666667
+IV2024091612000020	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2024091612000020	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000020	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000021	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.4
+IV2024091612000021	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2024091612000021	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	1	0
+IV2024091612000021	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000021	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000022	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.98
+IV2024091612000022	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.666666666666667
+IV2024091612000022	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000022	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000022	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000023	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.98
+IV2024091612000023	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.485714285714286
+IV2024091612000023	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000023	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000023	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2024091612000024	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2024091612000024	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	0	-0.142857142857143
+IV2024091612000024	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000024	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.9
+IV2024091612000024	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000026	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2024091612000026	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.766666666666667
+IV2024091612000026	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000026	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000026	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000027	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	0.1
+IV2024091612000027	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2024091612000027	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000027	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000027	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1
+IV2024091612000028	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	1	7
+IV2024091612000028	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2024091612000028	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-0.5
+IV2024091612000028	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000028	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	0	-0.00950475237618809
+IV2024091612000029	3260	Versie 3	Structuur	horizontale structuur	grootste vegetatievlek > 10 m²	zb	1	1279	0	-0.8
+IV2024091612000029	3260	Versie 3	Structuur	verticale structuur	<= 30 % helofyten (uitgezonderd sleutelsoorten)	zb	1	1278	1	0.966666666666667
+IV2024091612000029	3260	Versie 3	Vegetatie	sleutelsoorten	minstens 1 sleutelsoort minstens laag-abundant aanwezig of minstens 2 sleutelsoorten frequent aanwezig	b	1	1275	0	-1
+IV2024091612000029	3260	Versie 3	Verstoring	eutrofiëring	<= 30 %	zb	1	1282	1	0.966666666666667
+IV2024091612000029	3260	Versie 3	Verstoring	invasieve exoten	hoogstens zeldzaam	zb	1	1274	1	1

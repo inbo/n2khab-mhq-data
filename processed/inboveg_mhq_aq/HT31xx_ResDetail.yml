@@ -1,0 +1,76 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - user_reference
+  - Criterium
+  - Indicator
+  - Voorwaarde
+  hash: 8474cefca0018a4c965e5aa6b0af8a7d0a4e2b21
+  data_hash: 844d114e8ae8c35bef9a729d0e9be7710cecebb9
+ID:
+  class: character
+survey:
+  class: character
+user_reference:
+  class: character
+location:
+  class: character
+date:
+  class: character
+latitude:
+  class: numeric
+longitude:
+  class: numeric
+Habitattype:
+  class: character
+reliability:
+  class: character
+Versie:
+  class: character
+Criterium:
+  class: character
+Indicator:
+  class: character
+Beoordeling:
+  class: character
+Kwaliteitsniveau:
+  class: integer
+Belang:
+  class: character
+BeoordelingID:
+  class: integer
+Combinatie:
+  class: character
+VoorwaardeID:
+  class: integer
+Voorwaarde:
+  class: character
+Referentiewaarde:
+  class: character
+Operator:
+  class: character
+EenheidRefwaarde:
+  class: character
+TypeRefwaarde:
+  class: character
+InvoertypeRevwaarde:
+  class: character
+Waarde:
+  class: character
+TypeWaarde:
+  class: character
+InvoertypeWaarde:
+  class: character
+EenheidWaarde:
+  class: character
+AfkomstWaarde:
+  class: character
+TheoretischMaximum:
+  class: numeric
+Status_voorwaarde:
+  class: logical
+Verschilscore:
+  class: numeric

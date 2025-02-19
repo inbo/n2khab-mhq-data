@@ -1,0 +1,27 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - Criterium
+  hash: 61edb95f0c901684240c6cb64d798f119034f157
+  data_hash: a58dae43838301e6a97c4c01ac8fbd848a1897d8
+ID:
+  class: character
+Habitattype:
+  class: character
+Versie:
+  class: character
+Criterium:
+  class: character
+Kwaliteitsniveau:
+  class: integer
+Status_criterium:
+  class: logical
+Aggregatiemethode:
+  class: character
+Index_min_criterium:
+  class: numeric
+Index_harm_criterium:
+  class: numeric

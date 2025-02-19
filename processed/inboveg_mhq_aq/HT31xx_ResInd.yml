@@ -1,0 +1,32 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - ID
+  - Criterium
+  - Indicator
+  hash: b64ff24a8b93cef4d66d8af96e28796d2bfc42e8
+  data_hash: f5434e8bd218f5ef848c3d800d014fec293e98a2
+ID:
+  class: character
+Habitattype:
+  class: character
+Versie:
+  class: character
+Criterium:
+  class: character
+Indicator:
+  class: character
+Beoordeling:
+  class: character
+Belang:
+  class: character
+Kwaliteitsniveau:
+  class: integer
+BeoordelingID:
+  class: integer
+Status_indicator:
+  class: logical
+Verschilscore:
+  class: numeric
