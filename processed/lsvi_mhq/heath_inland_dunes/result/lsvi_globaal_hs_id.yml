@@ -5,8 +5,8 @@
   sorting:
   - id
   - type_analysis
-  hash: c4cee590c4e62aebe453658550e7b1b6410015ac
-  data_hash: bed690339f3aa1d75f51ccfa1c9dbc8acb11624a
+  hash: 954a49722446bfa3de599a8a9adf6e8dabd95d2c
+  data_hash: 6b16ff1a2b1ecb70e9d80879a02ec5b090e991de
 id:
   class: character
 type_analysis:
@@ -15,13 +15,13 @@ status:
   class: logical
 aggregatiemethode:
   class: character
-index_min_min:
-  class: numeric
-index_min_harm:
-  class: numeric
-index_harm_harm:
-  class: numeric
-versie:
-  class: character
-kwaliteitsniveau:
+n_zb_ongunstig:
   class: integer
+aandeel_gunstig:
+  class: numeric
+index_mean_ind:
+  class: numeric
+index_mean_crit:
+  class: numeric
+doelbereik_mean_ind:
+  class: numeric

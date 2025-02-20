@@ -7,10 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  - criterium
-  - indicator
-  hash: ae04e48b011b702fe0919a17fba4af68b63ebac2
-  data_hash: e5b1db4409a78ed909f2eefeea96999eda696b26
+  hash: db6ae7ec5bf10dcc8ea27e0379d097d01643b094
+  data_hash: c0b00a3c780455fafa0012217737753a2067eee6
 versie:
   class: character
 schaal:
@@ -213,6 +211,7 @@ habitattype:
   - 71
   - 72
   - 73
+  - 74
   - 75
   - 76
   - 77
@@ -249,17 +248,10 @@ habitattype:
   - 108
   - 109
   - 110
-  - 111
   ordered: no
 sbzh:
   class: character
 habitatsubtype:
-  class: character
-criterium:
-  class: character
-indicator:
-  class: character
-belang:
   class: character
 n_obs:
   class: integer
@@ -272,8 +264,8 @@ aandeel_gunstig_ulci:
 beoordeling:
   class: factor
   labels:
-  - Gunstig
-  - Ongunstig
+  - Goed
+  - Niet goed
   - Onbekend
   index:
   - 1

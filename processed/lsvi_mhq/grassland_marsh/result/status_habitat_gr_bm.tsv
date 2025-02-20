@@ -1,25 +1,30 @@
 versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	n_obs	beoordeling
-Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	66.45	58.15	73.86	165	2
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr; 1330_da	25.33	17.82	34.68	125	5
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr; 1330_da	19.77	13.1	28.72	110	5
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	46.67	23.83	70.99	15	5
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_da	0	0	0	67	5
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_hpr	46.57	33.62	60	58	5
+Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	66.45	58.15	73.86	165	5
 Versie 3	Vlaanderen	2	49	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	69.29	60.22	77.08	127	3
 Versie 3	Vlaanderen	2	49	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	61.24	44.62	75.6	38	3
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	62.54	48.2	74.96	56	2
-Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	51.2	38.24	64	59	2
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_ha	62.54	48.2	74.96	56	5
+Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hmo	51.2	38.24	64	59	5
 Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hn	77.99	63.52	87.82	46	3
 Versie 3	Vlaanderen	3	49	Binnen & Buiten	6230_hnk	27.11	NA	NA	4	3
-Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	17.98	11.48	27.03	97	2
-Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	19.52	11.96	30.2	75	2
-Versie 3	Vlaanderen	2	54	Buiten	6410_mo	13.64	4.37	35.3	22	2
-Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	18.49	11.84	27.69	96	2
+Versie 3	Vlaanderen	1	54	Binnen & Buiten	6410_mo; 6410_ve	17.98	11.48	27.03	97	5
+Versie 3	Vlaanderen	2	54	Binnen	6410_mo; 6410_ve	19.52	11.96	30.2	75	5
+Versie 3	Vlaanderen	2	54	Buiten	6410_mo	13.64	4.37	35.3	22	5
+Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_mo	18.49	11.84	27.69	96	5
 Versie 3	Vlaanderen	3	54	Binnen & Buiten	6410_ve	0	NA	NA	1	3
-Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	28.28	16.43	44.15	196	2
-Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	38.31	29.4	48.09	137	2
-Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	25.45	11.76	46.67	59	2
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	29.14	16.03	46.96	103	2
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	15.91	6.26	34.92	27	2
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	33.97	19.44	52.3	33	2
-Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	20.38	9.44	38.6	33	2
-Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	35.49	26.33	45.86	105	2
-Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	34.73	25.42	45.37	99	2
+Versie 3	Vlaanderen	1	62	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	28.28	16.43	44.15	196	5
+Versie 3	Vlaanderen	2	62	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	38.31	29.4	48.09	137	5
+Versie 3	Vlaanderen	2	62	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	25.45	11.76	46.67	59	5
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hu	29.14	16.03	46.96	103	5
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hua	15.91	6.26	34.92	27	5
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_huk	33.97	19.44	52.3	33	5
+Versie 3	Vlaanderen	3	62	Binnen & Buiten	6510_hus	20.38	9.44	38.6	33	5
+Versie 3	Vlaanderen	1	78	Binnen & Buiten	7140_meso; 7140_oli	35.49	26.33	45.86	105	5
+Versie 3	Vlaanderen	2	78	Binnen	7140_meso; 7140_oli	34.73	25.42	45.37	99	5
 Versie 3	Vlaanderen	2	78	Buiten	7140_meso; 7140_oli	43.85	12.6	80.89	6	3
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	42.78	30.34	56.2	56	2
-Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	20.1	11.03	33.79	49	2
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_meso	42.78	30.34	56.2	56	5
+Versie 3	Vlaanderen	3	78	Binnen & Buiten	7140_oli	20.1	11.03	33.79	49	5

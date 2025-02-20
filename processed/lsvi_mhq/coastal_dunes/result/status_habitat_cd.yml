@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: 558ad93fced1f4bb7f24a4f1ede99866401c867d
-  data_hash: 600d92edaa96d90fa9a1fa5b0f18e550e244dfdf
+  hash: 6195b7f4ef817d572e6d0a0398758d3550977d34
+  data_hash: 2d2b86ba653f6bb0af27598c84d0f9a91c84a824
 versie:
   class: character
 schaal:
@@ -264,11 +264,11 @@ n_obs:
 beoordeling:
   class: factor
   labels:
-  - Gunstig
-  - Ongunstig
+  - Goed
+  - Niet goed
   - Onbekend
   index:
-  - 1
-  - 2
+  - 4
+  - 5
   - 3
   ordered: no

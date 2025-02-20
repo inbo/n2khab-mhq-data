@@ -9,18 +9,14 @@
   - sbzh
   - habitatsubtype
   - parameter
-  hash: 3832d38983de0ea98a78179188f81ad3a9f1e832
-  data_hash: 9b3ceb1a55a3c471b41e216b236edf5cfc819571
+  hash: 253db7de20b16b576c3f1e4f6ef47d245ae0f0d3
+  data_hash: 58b88271cb3c88ce3a890fe5d6f8271f5dde01a5
 versie:
   class: character
 schaal:
   class: character
 periode:
   class: character
-year_min:
-  class: numeric
-year_max:
-  class: numeric
 type_resultaat:
   class: character
 habitattype:
@@ -64,3 +60,11 @@ klasse:
   - 9
   - 10
   ordered: no
+periode_ref:
+  class: character
+jaar_min:
+  class: numeric
+jaar_max:
+  class: numeric
+verschil_jaar:
+  class: numeric

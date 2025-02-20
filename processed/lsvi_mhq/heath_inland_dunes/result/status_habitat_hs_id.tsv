@@ -1,15 +1,15 @@
 versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling
-Versie 3	Vlaanderen	1	24	Binnen & Buiten	2310	99	28.37	19.58	39.18	2
-Versie 3	Vlaanderen	2	24	Binnen	2310	94	26.6	18.53	36.6	2
+Versie 3	Vlaanderen	1	24	Binnen & Buiten	2310	99	28.37	19.58	39.18	5
+Versie 3	Vlaanderen	2	24	Binnen	2310	94	26.6	18.53	36.6	5
 Versie 3	Vlaanderen	2	24	Buiten	2310	5	40	9.74	80.46	3
-Versie 3	Vlaanderen	1	25	Binnen & Buiten	2330_bu; 2330_dw	118	21.28	13.71	31.5	2
-Versie 3	Vlaanderen	2	25	Binnen	2330_bu; 2330_dw	106	20.67	13.91	29.58	2
-Versie 3	Vlaanderen	2	25	Buiten	2330_dw; 2330_bu	12	23.33	5.83	59.93	2
-Versie 3	Vlaanderen	3	25	Binnen & Buiten	2330_bu	97	21.38	13.18	32.76	2
-Versie 3	Vlaanderen	3	25	Binnen & Buiten	2330_dw	21	20.49	7.84	43.85	2
-Versie 3	Vlaanderen	1	38	Binnen & Buiten	4010	69	16.99	9.73	27.98	2
-Versie 3	Vlaanderen	2	38	Binnen	4010	68	17.65	10.16	28.89	2
+Versie 3	Vlaanderen	1	25	Binnen & Buiten	2330_bu; 2330_dw	118	21.28	13.71	31.5	5
+Versie 3	Vlaanderen	2	25	Binnen	2330_bu; 2330_dw	106	20.67	13.91	29.58	5
+Versie 3	Vlaanderen	2	25	Buiten	2330_dw; 2330_bu	12	23.33	5.83	59.93	5
+Versie 3	Vlaanderen	3	25	Binnen & Buiten	2330_bu	97	21.38	13.18	32.76	5
+Versie 3	Vlaanderen	3	25	Binnen & Buiten	2330_dw	21	20.49	7.84	43.85	5
+Versie 3	Vlaanderen	1	38	Binnen & Buiten	4010	69	16.99	9.73	27.98	5
+Versie 3	Vlaanderen	2	38	Binnen	4010	68	17.65	10.16	28.89	5
 Versie 3	Vlaanderen	2	38	Buiten	4010	1	0	NA	NA	3
-Versie 3	Vlaanderen	1	39	Binnen & Buiten	4030	121	43.69	34.63	53.19	2
-Versie 3	Vlaanderen	2	39	Binnen	4030	111	38.74	30.03	48.23	2
+Versie 3	Vlaanderen	1	39	Binnen & Buiten	4030	121	43.69	34.63	53.19	5
+Versie 3	Vlaanderen	2	39	Binnen	4030	111	38.74	30.03	48.23	5
 Versie 3	Vlaanderen	2	39	Buiten	4030	10	70	37.17	90.2	3

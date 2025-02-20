@@ -1,0 +1,4 @@
+versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling
+Versie 3	Vlaanderen	1	35	Binnen & Buiten	3260	108	5.79	2.74	11.81	2
+Versie 3	Vlaanderen	2	35	Binnen	3260	81	8.64	4.13	17.21	2
+Versie 3	Vlaanderen	2	35	Buiten	3260	27	0	0	0	2

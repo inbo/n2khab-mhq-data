@@ -1,13 +1,58 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	klasse
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Vegetatie	bedekking sleutelsoorten	b	0.256446245810729	0.0946243676664222	0.418268123955036	2
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	eutrofiëring	zb	0.156785662053133	-0.0729339080807429	0.38650523218701	8
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Vegetatie	sleutelsoorten	b	-0.0956152642232087	-0.203384986672884	0.0121544582264667	9
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	strooisellaag	b	-0.00217139867418137	-0.00809844701791515	0.0037556496695524	4
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	verbossing	b	-0.147963815843016	-0.409415298412279	0.113487666726247	10
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	verbraming	b	-0.0644797313930147	-0.151825778545737	0.0228663157597078	9
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	vergrassing inclusief vervilting	zb	0.0585087658658004	-0.194472701390615	0.311490233122215	10
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	vermossing	zb	0.098791734752865	-0.0718787090276352	0.269462178533365	8
-Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	verruiging inclusief ruderalisering	zb	0.0260076666912467	-0.0100733661427142	0.0620886995252076	4
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Vegetatie	bedekking sleutelsoorten	b	-0.132645454545455	-0.290777321218045	0.0254864121271359	9
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Structuur	horizontale structuur	zb	0.121212121212121	0.00519788275511945	0.237226359669123	2
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Structuur	kreken, oeverwallen en kommen	zb	0	-0.239396288088564	0.239396288088564	10
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Verstoring	rietontwikkeling	zb	-0.0527166666666667	-0.0868470622263136	-0.0185862711070198	5
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Structuur	schorklifvorming/breuksteenbestorting	zb	0.948943939393939	0.745221026345762	1.15266685244212	1
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Vegetatie	sleutelsoorten	b	-0.110172727272727	-0.201227271311036	-0.0191181832344184	6
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Verstoring	verruiging	zb	0.00757424242424243	-0.0871120334532807	0.102260518301766	8
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Structuur	verticale gradiënt	zb	0	0	0	4
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_da	Verstoring	verzoeting	zb	-0.0124045454545455	-0.0439491471467551	0.0191400562376641	4
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	0.327794294530746	0.0772996649178798	0.578288924143612	2
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	Structuur	dominantie van één soort	zb	-0.0613517243518891	-0.167768493183735	0.0450650444799564	9
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	Structuur	microreliëf	zb	-0.645851941110388	-1.12880911264353	-0.162894769577244	7
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	0.377169965506297	0.0874861363470965	0.666853794665498	2
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	-0.0253482618024597	-0.344797368259717	0.294100844654798	10
+Vlaanderen	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	0.0996041415627033	-0.0477205034757858	0.246928786601192	8
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_da	Structuur	horizontale structuur	zb	0.121212121212121	0.00519788275511945	0.237226359669123	2
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_da	Structuur	kreken, oeverwallen en kommen	zb	0	-0.239396288088564	0.239396288088564	10
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_da	Structuur	schorklifvorming/breuksteenbestorting	zb	0.948943939393939	0.745221026345762	1.15266685244212	1
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_da	Verstoring	verruiging	zb	0.00757424242424243	-0.0871120334532807	0.102260518301766	8
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_da	Structuur	verticale gradiënt	zb	0	0	0	4
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_da	Verstoring	verzoeting	zb	-0.0124045454545455	-0.0439491471467551	0.0191400562376641	4
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_hpr	Structuur	dominantie van één soort	zb	-0.0613517243518891	-0.167768493183735	0.0450650444799564	9
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_hpr	Structuur	microreliëf	zb	-0.645851941110388	-1.12880911264353	-0.162894769577244	7
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	0.377169965506297	0.0874861363470965	0.666853794665498	2
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_hpr; 1330_da	Vegetatie	bedekking sleutelsoorten	b	0.117832168154305	-0.0166652139417586	0.25232955025037	8
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_hpr; 1330_da	Verstoring	rietontwikkeling	zb	-0.0378283495714877	-0.140420957357473	0.0647642582144979	9
+Vlaanderen	Habitattype	1330	Binnen & Buiten	1330_hpr; 1330_da	Vegetatie	sleutelsoorten	b	0.00394516004851315	-0.0720212399390463	0.0799115600360726	4
+Vlaanderen	sbzh	1330	Binnen	1330_da	Structuur	horizontale structuur	zb	0.121212121212121	0.00519788275511945	0.237226359669123	2
+Vlaanderen	sbzh	1330	Binnen	1330_da	Structuur	kreken, oeverwallen en kommen	zb	0	-0.239396288088564	0.239396288088564	10
+Vlaanderen	sbzh	1330	Binnen	1330_da	Structuur	schorklifvorming/breuksteenbestorting	zb	0.948943939393939	0.745221026345762	1.15266685244212	1
+Vlaanderen	sbzh	1330	Binnen	1330_da	Verstoring	verruiging	zb	0.00757424242424243	-0.0871120334532807	0.102260518301766	8
+Vlaanderen	sbzh	1330	Binnen	1330_da	Structuur	verticale gradiënt	zb	0	0	0	4
+Vlaanderen	sbzh	1330	Binnen	1330_da	Verstoring	verzoeting	zb	-0.0124045454545455	-0.0439491471467551	0.0191400562376641	4
+Vlaanderen	sbzh	1330	Binnen	1330_hpr	Structuur	dominantie van één soort	zb	-0.0989928571428571	-0.237359334533656	0.0393736202479418	9
+Vlaanderen	sbzh	1330	Binnen	1330_hpr	Structuur	microreliëf	zb	-0.428571428571429	-0.874682832388216	0.0175399752453586	9
+Vlaanderen	sbzh	1330	Binnen	1330_hpr	Verstoring	overgang naar rbbzil	zb	0.533264285714286	0.182470689363208	0.884057882065364	1
+Vlaanderen	sbzh	1330	Binnen	1330_hpr; 1330_da	Vegetatie	bedekking sleutelsoorten	b	0.0926868675117259	-0.0566165333547551	0.241990268378207	8
+Vlaanderen	sbzh	1330	Binnen	1330_hpr; 1330_da	Verstoring	rietontwikkeling	zb	-0.124680520089893	-0.196596139584764	-0.0527649005950219	6
+Vlaanderen	sbzh	1330	Binnen	1330_hpr; 1330_da	Vegetatie	sleutelsoorten	b	0.00497403856199932	-0.0807322212622966	0.0906802983862953	4
+Vlaanderen	sbzh	1330	Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	0.21425	-0.20568	0.63418	10
+Vlaanderen	sbzh	1330	Buiten	1330_hpr	Structuur	dominantie van één soort	zb	0	0	0	4
+Vlaanderen	sbzh	1330	Buiten	1330_hpr	Structuur	microreliëf	zb	-1	-2.96	0.96	10
+Vlaanderen	sbzh	1330	Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	0.12275	-0.289928	0.535428	10
+Vlaanderen	sbzh	1330	Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	0.2952	-1.097968	1.688368	10
+Vlaanderen	sbzh	1330	Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	0	0	0	4
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Vegetatie	bedekking sleutelsoorten	b	0.222704570296941	0.0509787868825784	0.394430353711304	2
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	eutrofiëring	zb	0.168703482572075	-0.0879480947125535	0.425355059856703	8
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Vegetatie	sleutelsoorten	b	-0.115733124653562	-0.236097631466157	0.00463138215903292	9
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	strooisellaag	b	-0.00317729169569903	-0.010118641765429	0.00376405837403093	4
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	verbossing	b	-0.174788970940849	-0.46464776728312	0.115069825401423	10
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	verbraming	b	-0.0966683080815797	-0.1887952659771	-0.0045413501860596	6
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	vergrassing inclusief vervilting	zb	0.120946557497444	-0.122005876535944	0.363898991530833	10
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	vermossing	zb	0.136351780176334	-0.0507486052031582	0.323452165555827	8
+Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_ha	Verstoring	verruiging inclusief ruderalisering	zb	0.0299910030564566	-0.00844527137584901	0.0684272774887622	4
 Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_hmo	Vegetatie	bedekking sleutelsoorten	b	0.0998101609333778	-0.112809013145867	0.312429335012622	10
 Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_hmo	Verstoring	eutrofiëring	zb	0.00296939606715605	-0.0334485017594219	0.039387293893734	4
 Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_hmo	Vegetatie	sleutelsoorten	b	0.0227985441571532	-0.12908684851385	0.174683936828156	10
@@ -39,15 +84,15 @@ Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_hnk	Verstoring	vermossing	zb
 Vlaanderen	Habitatsubtype	6230	Binnen & Buiten	6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	0.1	NA	NA	NA
 Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo	Verstoring	verdroging	zb	-0.0343669718665548	-0.069142329547786	0.000408385814676483	4
 Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo	Verstoring	vernatting	zb	0.00595497973384841	-0.00953058534360166	0.0214405448112985	4
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0.143693991006815	0.0426286322490685	0.244759349764561	2
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	eutrofiëring	zb	0.0923659671083032	-0.000702743406627709	0.185434677623234	8
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	sleutelsoorten	b	-0.00934311120554162	-0.0827250269892746	0.0640388045781914	4
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	strooisellaag	b	-0.00194037103642299	-0.00433121797523238	0.000450475902386394	4
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbossing	b	-0.152259188859056	-0.296469272559711	-0.0080491051584019	6
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbraming	b	-0.0437111691006049	-0.0973511657559647	0.00992882755475489	4
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	0.00194060461512853	-0.14204196435078	0.145923173581037	10
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vermossing	zb	0.0804693685842006	-0.0330702664632447	0.194009003631646	8
-Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	0.00872376171105656	-0.0593934341565246	0.0768409575786378	4
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0.131981715129955	0.0302477011070239	0.233715729152886	2
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	eutrofiëring	zb	0.0965028334506904	-0.00291488708283648	0.195920553984217	8
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	sleutelsoorten	b	-0.0163263427085585	-0.0929192924398039	0.0602666070226869	4
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	strooisellaag	b	-0.00228953261157384	-0.00494003167466378	0.000360966451516107	4
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbossing	b	-0.161570629745179	-0.311331696530748	-0.0118095629596098	6
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verbraming	b	-0.0548843395054318	-0.110041788265216	0.000273109254352387	9
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vergrassing inclusief vervilting	zb	0.0236137619078916	-0.119131169619578	0.166358693435361	10
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	vermossing	zb	0.0935070618003331	-0.0234682762750525	0.210482399875719	8
+Vlaanderen	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	0.0101064415486539	-0.0590222535308017	0.0792351366281095	4
 Vlaanderen	sbzh	6230	Binnen	6230_hmo	Verstoring	verdroging	zb	-0.0346	-0.0751539793581071	0.00595397935810712	4
 Vlaanderen	sbzh	6230	Binnen	6230_hmo	Verstoring	vernatting	zb	0.00725555555555556	-0.0106781502370794	0.0251892613481906	4
 Vlaanderen	sbzh	6230	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	0.102245080300642	-0.0214223572246994	0.225912517825983	8
@@ -61,15 +106,15 @@ Vlaanderen	sbzh	6230	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verm
 Vlaanderen	sbzh	6230	Binnen	6230_hmo; 6230_ha; 6230_hn; 6230_hnk	Verstoring	verruiging inclusief ruderalisering	zb	0.0268915320759487	-0.0581990046495919	0.111982068801489	8
 Vlaanderen	sbzh	6230	Buiten	6230_hmo	Verstoring	verdroging	zb	-0.0333	NA	NA	NA
 Vlaanderen	sbzh	6230	Buiten	6230_hmo	Verstoring	vernatting	zb	0	NA	NA	NA
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	bedekking sleutelsoorten	b	0.22021517829104	0.0395557197267386	0.400874636855342	2
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	eutrofiëring	zb	0.0446412792921642	-0.231150701459324	0.320433260043652	10
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	sleutelsoorten	b	-0.0596261149447654	-0.209375661710386	0.0901234318208554	9
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	strooisellaag	b	-0.00458641403605514	-0.0136860621524633	0.00451323408035307	4
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbossing	b	-0.26296391581465	-0.710213921345666	0.184286089716366	10
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbraming	b	-0.0756571983524678	-0.21920603544493	0.0678916387399948	9
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	0.111842867228574	-0.113130883964581	0.336816618421729	10
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vermossing	zb	0.114425106611906	-0.0782556107061533	0.307105823929965	8
-Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	-0.0248167906205552	-0.137794841485789	0.0881612602446788	9
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	bedekking sleutelsoorten	b	0.186880204962587	-0.0142764623008778	0.388036872226051	8
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	eutrofiëring	zb	0.0564154494565905	-0.295687655207266	0.408518554120447	10
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Vegetatie	sleutelsoorten	b	-0.0795014865930205	-0.266983541585651	0.10798056839961	10
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	strooisellaag	b	-0.00558018261846789	-0.016981070514504	0.00582070527756819	4
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbossing	b	-0.289465736370433	-0.810159287052482	0.231227814311615	10
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verbraming	b	-0.107457792989676	-0.26588072971178	0.050965143732428	9
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vergrassing inclusief vervilting	zb	0.173528070676099	0.0395414780431596	0.307514663309038	2
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	vermossing	zb	0.151532425479198	-0.0832415688124378	0.386306419770834	8
+Vlaanderen	sbzh	6230	Buiten	6230_hn; 6230_ha; 6230_hmo	Verstoring	verruiging inclusief ruderalisering	zb	-0.0208814670342007	-0.14860387722736	0.106840943158958	10
 Vlaanderen	Habitatsubtype	6410	Binnen & Buiten	6410_mo	Vegetatie	bedekking sleutelsoorten	b	0.0195048578420413	-0.125656570507528	0.164666286191611	10
 Vlaanderen	Habitatsubtype	6410	Binnen & Buiten	6410_mo	Verstoring	eutrofiëring	zb	0.186031871447354	0.0146137463152342	0.357449996579474	2
 Vlaanderen	Habitatsubtype	6410	Binnen & Buiten	6410_mo	Structuur	levensvormen	b	-0.100372206974532	-0.210356442777241	0.00961202882817794	9
@@ -215,7 +260,7 @@ Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_meso	Verstoring	vermossing	z
 Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_meso	Verstoring	verruiging	zb	0.179509985507729	-0.064174921359433	0.423194892374891	8
 Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Vegetatie	bedekking sleutelsoorten	b	0.09314	-0.160174145871406	0.346454145871406	10
 Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Verstoring	eutrofiëring	zb	-0.01	-0.0296	0.0096	4
-Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Vegetatie	sleutelsoorten	b	0.10001	-0.0834930778175547	0.283513077817555	8
+Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Vegetatie	sleutelsoorten	b	0.08334	-0.0939155949158164	0.260595594915816	8
 Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Verstoring	strooisellaag	b	0.00132999999999999	-0.00155105184804286	0.00421105184804283	4
 Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Verstoring	structuurschade	b	-0.01	-0.0296	0.0096	4
 Vlaanderen	Habitatsubtype	7140	Binnen & Buiten	7140_oli	Structuur	veenmossen	zb	0.0849	-0.404805740906698	0.574605740906698	10
@@ -228,7 +273,7 @@ Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso	Vegetatie	bedekking sleute
 Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso	Structuur	dominantie van één soort	b	0.0985959910832576	-0.240358151920805	0.43755013408732	10
 Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso	Verstoring	invasieve exoten	zb	0	0	0	4
 Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	0.00325556634824993	-0.17975814484279	0.18626927753929	10
-Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	0.0587412874376113	-0.0641946007825671	0.18167717565779	8
+Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	0.0534449469471621	-0.0681991159085335	0.175089009802858	8
 Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	strooisellaag	b	0.00224212765708799	-0.00118075742763045	0.00566501274180644	4
 Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	structuurschade	b	-0.00188278062063612	-0.00925072598664187	0.00548516474536964	4
 Vlaanderen	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	Verstoring	verbossing	zb	-0.164203347710428	-0.451811303308106	0.123404607887251	10
@@ -242,7 +287,7 @@ Vlaanderen	sbzh	7140	Binnen	7140_meso	Vegetatie	bedekking sleutel- en overige so
 Vlaanderen	sbzh	7140	Binnen	7140_meso	Structuur	dominantie van één soort	b	0.0928642857142857	-0.2929588475081	0.478687418936671	10
 Vlaanderen	sbzh	7140	Binnen	7140_meso	Verstoring	invasieve exoten	zb	0	0	0	4
 Vlaanderen	sbzh	7140	Binnen	7140_meso; 7140_oli	Verstoring	eutrofiëring	zb	-0.0119706310097958	-0.209315062330272	0.18537380031068	10
-Vlaanderen	sbzh	7140	Binnen	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	0.0637269852509951	-0.0695813467219388	0.197035317223929	8
+Vlaanderen	sbzh	7140	Binnen	7140_meso; 7140_oli	Vegetatie	sleutelsoorten	b	0.0579811150625424	-0.0739568547980151	0.1899190849231	8
 Vlaanderen	sbzh	7140	Binnen	7140_meso; 7140_oli	Verstoring	strooisellaag	b	0.00241969809757829	-0.00128190004621358	0.00612129624137015	4
 Vlaanderen	sbzh	7140	Binnen	7140_meso; 7140_oli	Verstoring	structuurschade	b	-0.0020425826207771	-0.0100407028602883	0.00595553761873406	4
 Vlaanderen	sbzh	7140	Binnen	7140_meso; 7140_oli	Verstoring	verbossing	zb	-0.15220647590203	-0.452514865021907	0.148101913217847	10

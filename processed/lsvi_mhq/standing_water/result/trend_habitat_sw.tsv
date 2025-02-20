@@ -1,38 +1,38 @@
-versie	schaal	periode	year_min	year_max	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse
-Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	3110	Binnen & Buiten	NA	1	aandeel_gunstig	1.34	0	4.64	NA
-Versie 3	Vlaanderen	c_1	2014	2020	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	aandeel_gunstig	14.06	0.54	57.17	NA
-Versie 3	Vlaanderen	c_1	2016	2021	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	aandeel_gunstig	28.38	3.61	74.28	NA
-Versie 3	Vlaanderen	c_1	2014	2021	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	aandeel_gunstig	21.51	2.87	62.59	NA
-Versie 3	Vlaanderen	c_1	2014	2021	SBZH	3130	Binnen	3130_aom;3130_na	1	aandeel_gunstig	15.27	1.14	57.22	NA
-Versie 3	Vlaanderen	c_1	2014	2020	Habitattype	3150	Binnen & Buiten	NA	1	aandeel_gunstig	5.04	0	61.31	NA
-Versie 3	Vlaanderen	c_1	2014	2020	SBZH	3150	Binnen	NA	1	aandeel_gunstig	5.3	0	59.19	NA
-Versie 3	Vlaanderen	c_1	2015	2019	Habitattype	3160	Binnen & Buiten	NA	1	aandeel_gunstig	2.46	0	32.46	NA
-Versie 3	Vlaanderen	c_1	2015	2019	SBZH	3160	Binnen	NA	1	aandeel_gunstig	1.87	0	23.68	NA
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3110	Binnen & Buiten	NA	1	aandeel_gunstig	0.94	0	0.75	NA
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3110	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	0	NA	NA	4
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3110	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	NA	NA	NA	10
-Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3110	Binnen	NA	1	verschil_aandeel_gunstig_abs	0	NA	NA	4
-Versie 3	Vlaanderen	c_2	2017	2024	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	aandeel_gunstig	10.56	0.29	52.48	NA
-Versie 3	Vlaanderen	c_2	2017	2024	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	verschil_aandeel_gunstig_abs	-3.5	-47.58	41.22	10
-Versie 3	Vlaanderen	c_2	2017	2024	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	verschil_aandeel_gunstig_rel	177.94	-97.54	2010.07	10
-Versie 3	Vlaanderen	c_2	2022	2024	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	aandeel_gunstig	4.82	0.01	40.48	NA
-Versie 3	Vlaanderen	c_2	2022	2024	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	verschil_aandeel_gunstig_abs	-23.56	-70.49	16.4	10
-Versie 3	Vlaanderen	c_2	2022	2024	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	verschil_aandeel_gunstig_rel	-72.06	-99.96	110.54	10
-Versie 3	Vlaanderen	c_2	2017	2024	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	aandeel_gunstig	7.86	0.36	38.54	NA
-Versie 3	Vlaanderen	c_2	2017	2024	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	verschil_aandeel_gunstig_abs	-13.65	-52.86	20.74	10
-Versie 3	Vlaanderen	c_2	2017	2024	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	verschil_aandeel_gunstig_rel	-42.9	-98.33	231.23	10
-Versie 3	Vlaanderen	c_2	2017	2024	SBZH	3130	Binnen	3130_aom;3130_na	1	aandeel_gunstig	10.09	0.37	45.99	NA
-Versie 3	Vlaanderen	c_2	2017	2024	SBZH	3130	Binnen	3130_aom;3130_na	1	verschil_aandeel_gunstig_abs	-5.19	-46.13	31.32	10
-Versie 3	Vlaanderen	c_2	2017	2024	SBZH	3130	Binnen	3130_aom;3130_na	1	verschil_aandeel_gunstig_rel	41.23	-96.88	735.42	10
-Versie 3	Vlaanderen	c_2	2017	2024	Habitattype	3150	Binnen & Buiten	NA	1	aandeel_gunstig	1.18	0	2.62	NA
-Versie 3	Vlaanderen	c_2	2017	2024	Habitattype	3150	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	-3.87	-61.31	1.8	9
-Versie 3	Vlaanderen	c_2	2017	2024	Habitattype	3150	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	203980.36	-100	3669.63	10
-Versie 3	Vlaanderen	c_2	2017	2024	SBZH	3150	Binnen	NA	1	aandeel_gunstig	2.27	0	22.27	NA
-Versie 3	Vlaanderen	c_2	2017	2024	SBZH	3150	Binnen	NA	1	verschil_aandeel_gunstig_abs	-3.02	-59.19	22.21	10
-Versie 3	Vlaanderen	c_2	2017	2024	SBZH	3150	Binnen	NA	1	verschil_aandeel_gunstig_rel	197793.73	-100	24546.37	10
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3160	Binnen & Buiten	NA	1	aandeel_gunstig	12.71	0.18	63.05	NA
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3160	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	10.25	-22.92	62.3	10
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3160	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	355863177.99	NA	NA	10
-Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3160	Binnen	NA	1	aandeel_gunstig	13	0.18	65.08	NA
-Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3160	Binnen	NA	1	verschil_aandeel_gunstig_abs	11.13	-13.91	63.76	10
-Versie 3	Vlaanderen	c_2	2022	2024	SBZH	3160	Binnen	NA	1	verschil_aandeel_gunstig_rel	62028910.57	-87.17	289948868.85	10
+versie	schaal	periode	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse	periode_ref	jaar_min	jaar_max	verschil_jaar
+Versie 3	Vlaanderen	c_1	Habitattype	3110	Binnen & Buiten	NA	1	aandeel_gunstig	1.55	0	4.18	NA	NA	2015	2019	NA
+Versie 3	Vlaanderen	c_1	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	aandeel_gunstig	11.26	0.44	49.27	NA	NA	2014	2020	NA
+Versie 3	Vlaanderen	c_1	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	aandeel_gunstig	33.64	5.24	79.64	NA	NA	2016	2021	NA
+Versie 3	Vlaanderen	c_1	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	aandeel_gunstig	22.04	3.69	60.15	NA	NA	2014	2021	NA
+Versie 3	Vlaanderen	c_1	SBZH	3130	Binnen	3130_aom;3130_na	1	aandeel_gunstig	16.09	1.9	53.07	NA	NA	2014	2021	NA
+Versie 3	Vlaanderen	c_1	Habitattype	3150	Binnen & Buiten	NA	1	aandeel_gunstig	6.77	0	64.24	NA	NA	2014	2020	NA
+Versie 3	Vlaanderen	c_1	SBZH	3150	Binnen	NA	1	aandeel_gunstig	5.69	0	62.96	NA	NA	2014	2020	NA
+Versie 3	Vlaanderen	c_1	Habitattype	3160	Binnen & Buiten	NA	1	aandeel_gunstig	1.73	0	17.82	NA	NA	2015	2019	NA
+Versie 3	Vlaanderen	c_1	SBZH	3160	Binnen	NA	1	aandeel_gunstig	1.27	0	11.92	NA	NA	2015	2019	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3110	Binnen & Buiten	NA	1	aandeel_gunstig	1.22	0	1.06	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3110	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	0	NA	NA	4	c_1	2015	2024	6
+Versie 3	Vlaanderen	c_2	Habitattype	3110	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	NA	NA	NA	10	c_1	2015	2024	6
+Versie 3	Vlaanderen	c_2	SBZH	3110	Binnen	NA	1	verschil_aandeel_gunstig_abs	0	NA	NA	4	c_1	2015	2024	6
+Versie 3	Vlaanderen	c_2	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	aandeel_gunstig	17.4	1.37	57.81	NA	NA	2021	2024	NA
+Versie 3	Vlaanderen	c_2	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	verschil_aandeel_gunstig_abs	6.14	-30.18	45.35	10	c_1	2014	2024	6.2
+Versie 3	Vlaanderen	c_2	Habitatsubtype	3130	Binnen & Buiten	3130_aom	1	verschil_aandeel_gunstig_rel	387.09	-84.38	2461.92	10	c_1	2014	2024	6.2
+Versie 3	Vlaanderen	c_2	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	aandeel_gunstig	5.99	0.04	44.97	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	verschil_aandeel_gunstig_abs	-27.65	-73.18	15.27	10	c_1	2016	2024	5
+Versie 3	Vlaanderen	c_2	Habitatsubtype	3130	Binnen & Buiten	3130_na	1	verschil_aandeel_gunstig_rel	-72.06	-99.9	82.19	10	c_1	2016	2024	5
+Versie 3	Vlaanderen	c_2	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	aandeel_gunstig	11.7	1.02	42.21	NA	NA	2021	2024	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	verschil_aandeel_gunstig_abs	-10.35	-47.46	21.36	10	c_1	2014	2024	5.8
+Versie 3	Vlaanderen	c_2	Habitattype	3130	Binnen & Buiten	3130_aom;3130_na	1	verschil_aandeel_gunstig_rel	-23.27	-93.54	204.18	10	c_1	2014	2024	5.8
+Versie 3	Vlaanderen	c_2	SBZH	3130	Binnen	3130_aom;3130_na	1	aandeel_gunstig	16.16	1.95	49.84	NA	NA	2021	2024	NA
+Versie 3	Vlaanderen	c_2	SBZH	3130	Binnen	3130_aom;3130_na	1	verschil_aandeel_gunstig_abs	0.07	-33.98	37.75	10	c_1	2014	2024	6
+Versie 3	Vlaanderen	c_2	SBZH	3130	Binnen	3130_aom;3130_na	1	verschil_aandeel_gunstig_rel	81.87	-86.28	862.07	10	c_1	2014	2024	6
+Versie 3	Vlaanderen	c_2	Habitattype	3150	Binnen & Buiten	NA	1	aandeel_gunstig	2.29	0	37.4	NA	NA	2019	2024	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3150	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	-4.49	-64.24	36.78	10	c_1	2014	2024	5.6
+Versie 3	Vlaanderen	c_2	Habitattype	3150	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	117915.5	-100	3854.15	10	c_1	2014	2024	5.6
+Versie 3	Vlaanderen	c_2	SBZH	3150	Binnen	NA	1	aandeel_gunstig	2.46	0	36.51	NA	NA	2019	2024	NA
+Versie 3	Vlaanderen	c_2	SBZH	3150	Binnen	NA	1	verschil_aandeel_gunstig_abs	-3.23	-61.08	26.25	10	c_1	2014	2024	5.8
+Versie 3	Vlaanderen	c_2	SBZH	3150	Binnen	NA	1	verschil_aandeel_gunstig_rel	16096.32	-100	19010.4	10	c_1	2014	2024	5.8
+Versie 3	Vlaanderen	c_2	Habitattype	3160	Binnen & Buiten	NA	1	aandeel_gunstig	18.13	0.83	64.04	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3160	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	16.4	-4.65	63.52	8	c_1	2015	2024	6.7
+Versie 3	Vlaanderen	c_2	Habitattype	3160	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	16270138.64	-54.34	94807085.69	10	c_1	2015	2024	6.7
+Versie 3	Vlaanderen	c_2	SBZH	3160	Binnen	NA	1	aandeel_gunstig	18.19	0.81	69.97	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	SBZH	3160	Binnen	NA	1	verschil_aandeel_gunstig_abs	16.92	-2.07	69.92	8	c_1	2015	2024	6.7
+Versie 3	Vlaanderen	c_2	SBZH	3160	Binnen	NA	1	verschil_aandeel_gunstig_rel	32344464.06	-41.3	94925538.01	10	c_1	2015	2024	6.7

@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: 94c6a56d3deca7013e0f16d74d7a8e0df871cfb1
-  data_hash: 44b74187cf40491d5543c2a97ee16c8a156f8ba4
+  hash: f9b4e2994bd55cb66a879ebf5502919c183beccc
+  data_hash: 30aeb903f69a596ab7a3d64204bbd0665aaed831
 versie:
   class: character
 schaal:
@@ -264,11 +264,11 @@ aandeel_gunstig_ulci:
 beoordeling:
   class: factor
   labels:
-  - Gunstig
-  - Ongunstig
+  - Goed
+  - Niet goed
   - Onbekend
   index:
-  - 1
-  - 2
+  - 4
+  - 5
   - 3
   ordered: no

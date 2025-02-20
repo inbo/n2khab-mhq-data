@@ -1,4 +1,34 @@
 versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_da	Structuur	horizontale structuur	zb	67	100	100	100	1
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_da	Structuur	kreken, oeverwallen en kommen	zb	67	85.07	74.09	91.91	3
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_da	Structuur	schorklifvorming/breuksteenbestorting	zb	67	68.66	56.32	78.82	3
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_da	Structuur	verticale gradiënt	zb	67	94.03	84.81	97.8	1
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_da	Verstoring	verruiging	zb	67	94.03	84.81	97.8	1
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_da	Verstoring	verzoeting	zb	67	98.51	89.69	99.8	1
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Structuur	dominantie van één soort	zb	58	98.56	89.9	99.81	1
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Structuur	microreliëf	zb	58	87.72	75.41	94.33	1
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	58	72.56	58.83	83.04	3
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr; 1330_da	Vegetatie	bedekking sleutelsoorten	b	125	52.83	43.64	61.82	2
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr; 1330_da	Vegetatie	sleutelsoorten	b	125	62.7	53.51	71.06	2
+Versie 3	Vlaanderen	1	8	Binnen & Buiten	1330_hpr; 1330_da	Verstoring	rietontwikkeling	zb	125	64.51	55.5	72.6	2
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Structuur	dominantie van één soort	zb	43	97.67	84.46	99.69	1
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Structuur	microreliëf	zb	43	88.37	74.4	95.21	3
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr	Verstoring	overgang naar rbbzil	zb	43	72.09	56.51	83.7	3
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr; 1330_da	Vegetatie	bedekking sleutelsoorten	b	110	52.69	43.24	61.96	2
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr; 1330_da	Vegetatie	sleutelsoorten	b	110	61.67	52.15	70.36	2
+Versie 3	Vlaanderen	2	8	Binnen	1330_hpr; 1330_da	Verstoring	rietontwikkeling	zb	110	60.47	50.98	69.24	2
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Structuur	dominantie van één soort	zb	15	100	100	100	1
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Structuur	microreliëf	zb	15	86.67	58.34	96.79	3
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	15	53.33	29.01	76.17	3
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	15	66.67	40.24	85.59	3
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Verstoring	overgang naar rbbzil	zb	15	73.33	45.8	89.95	3
+Versie 3	Vlaanderen	2	8	Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	15	80	52.58	93.52	3
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_da	Vegetatie	bedekking sleutelsoorten	b	67	41.79	30.5	54.01	2
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_da	Vegetatie	sleutelsoorten	b	67	52.24	40.22	64.01	2
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_da	Verstoring	rietontwikkeling	zb	67	43.28	31.86	55.47	2
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_hpr	Vegetatie	bedekking sleutelsoorten	b	58	62.08	48.23	74.2	2
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_hpr	Vegetatie	sleutelsoorten	b	58	71.47	57.73	82.13	3
+Versie 3	Vlaanderen	3	8	Binnen & Buiten	1330_hpr	Verstoring	rietontwikkeling	zb	58	82.31	69.41	90.51	3
 Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo	Verstoring	verdroging	zb	59	81.49	68.87	89.76	3
 Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo	Verstoring	vernatting	zb	59	100	100	100	1
 Versie 3	Vlaanderen	1	49	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	Vegetatie	bedekking sleutelsoorten	b	165	56.29	47.74	64.49	2
