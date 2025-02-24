@@ -1,13 +1,13 @@
 versie	schaal	periode	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	parameter	mean	llci_0.95	ulci_0.95	klasse	periode_ref	jaar_min	jaar_max	verschil_jaar
-Versie 3	Vlaanderen	c_1	Habitattype	3260	Binnen & Buiten	NA	1	aandeel_gunstig	6.39	0.81	23.73	NA	NA	2015	2021	NA
-Versie 3	Vlaanderen	c_1	SBZH	3260	Binnen	NA	1	aandeel_gunstig	9.27	1.68	27.68	NA	NA	2015	2020	NA
-Versie 3	Vlaanderen	c_1	SBZH	3260	Buiten	NA	1	aandeel_gunstig	0.24	0	0	NA	NA	2016	2021	NA
-Versie 3	Vlaanderen	c_2	Habitattype	3260	Binnen & Buiten	NA	1	aandeel_gunstig	8.7	1.27	27.01	NA	NA	2022	2024	NA
-Versie 3	Vlaanderen	c_2	Habitattype	3260	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	2.31	-11.27	16.8	10	c_1	2015	2024	5
-Versie 3	Vlaanderen	c_2	Habitattype	3260	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	120.74	-77.26	831.95	10	c_1	2015	2024	5
-Versie 3	Vlaanderen	c_2	SBZH	3260	Binnen	NA	1	aandeel_gunstig	12.59	2.78	37.2	NA	NA	2022	2024	NA
-Versie 3	Vlaanderen	c_2	SBZH	3260	Binnen	NA	1	verschil_aandeel_gunstig_abs	3.33	-11.64	21.11	10	c_1	2015	2024	5
-Versie 3	Vlaanderen	c_2	SBZH	3260	Binnen	NA	1	verschil_aandeel_gunstig_rel	82.86	-63.76	484.73	10	c_1	2015	2024	5
-Versie 3	Vlaanderen	c_2	SBZH	3260	Buiten	NA	1	aandeel_gunstig	0.18	0	0.02	NA	NA	2022	2024	NA
-Versie 3	Vlaanderen	c_2	SBZH	3260	Buiten	NA	1	verschil_aandeel_gunstig_abs	-0.05	0	0.01	4	c_1	2016	2024	5.1
+Versie 3	Vlaanderen	c_1	Habitattype	3260	Binnen & Buiten	NA	1	aandeel_gunstig	6.48	0.84	20.81	NA	NA	2015	2021	NA
+Versie 3	Vlaanderen	c_1	SBZH	3260	Binnen	NA	1	aandeel_gunstig	9.46	1.69	27.62	NA	NA	2015	2020	NA
+Versie 3	Vlaanderen	c_1	SBZH	3260	Buiten	NA	1	aandeel_gunstig	0.16	0	0	NA	NA	2016	2021	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3260	Binnen & Buiten	NA	1	aandeel_gunstig	8.58	1.47	28.36	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	Habitattype	3260	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_abs	2.1	-11.01	19.03	10	c_1	2015	2024	5
+Versie 3	Vlaanderen	c_2	Habitattype	3260	Binnen & Buiten	NA	1	verschil_aandeel_gunstig_rel	103.59	-72.26	672.12	10	c_1	2015	2024	5
+Versie 3	Vlaanderen	c_2	SBZH	3260	Binnen	NA	1	aandeel_gunstig	12.53	2.76	34.12	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	SBZH	3260	Binnen	NA	1	verschil_aandeel_gunstig_abs	3.07	-12.63	21.06	10	c_1	2015	2024	5
+Versie 3	Vlaanderen	c_2	SBZH	3260	Binnen	NA	1	verschil_aandeel_gunstig_rel	76.69	-64.5	443.24	10	c_1	2015	2024	5
+Versie 3	Vlaanderen	c_2	SBZH	3260	Buiten	NA	1	aandeel_gunstig	0.23	0	0.02	NA	NA	2022	2024	NA
+Versie 3	Vlaanderen	c_2	SBZH	3260	Buiten	NA	1	verschil_aandeel_gunstig_abs	0.07	0	0.02	4	c_1	2016	2024	5.1
 Versie 3	Vlaanderen	c_2	SBZH	3260	Buiten	NA	1	verschil_aandeel_gunstig_rel	NA	NA	NA	10	c_1	2016	2024	5.1

@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: 728e22113325975e3443849ecfa594c1843c537e
-  data_hash: e56488dc4d1088bcc15e5779a99768a3ca169056
+  hash: 7b123d9f65806c2a74a9b8519d4a6afe74041358
+  data_hash: 5647c8309d4b0879727c06be24e2c41c7e73d494
 versie:
   class: character
 schaal:
@@ -22,7 +22,7 @@ sbzh:
 habitatsubtype:
   class: character
 n_obs:
-  class: integer
+  class: numeric
 aandeel_gunstig:
   class: numeric
 aandeel_gunstig_llci:
@@ -36,4 +36,6 @@ opp_uitspraak_ha:
 opp_onbekend_ha:
   class: numeric
 opp_totaal_ha:
+  class: numeric
+n_obs_int:
   class: numeric

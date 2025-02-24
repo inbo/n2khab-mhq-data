@@ -9,8 +9,8 @@
   - habitatsubtype
   - criterium
   - indicator
-  hash: ae04e48b011b702fe0919a17fba4af68b63ebac2
-  data_hash: e5b1db4409a78ed909f2eefeea96999eda696b26
+  hash: b47cd1678a909a364d1ec5350e09f76035b1aa17
+  data_hash: d5fda7537b638e6de7110b718136a83af0a3f32d
 versie:
   class: character
 schaal:
@@ -272,11 +272,11 @@ aandeel_gunstig_ulci:
 beoordeling:
   class: factor
   labels:
-  - Gunstig
-  - Ongunstig
+  - Goed
+  - Niet goed
   - Onbekend
   index:
-  - 1
-  - 2
+  - 4
+  - 5
   - 3
   ordered: no
