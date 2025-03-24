@@ -1,13 +1,13 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	index_diff_rel	index_diff_rel_llci_0.95	index_diff_rel_ulci_0.95	klasse
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	0.0173864019878315	-0.0344282094446918	0.0692010134203548	0.033	-0.066	0.133	8
-Vlaanderen	SBZH	2120	Binnen	NA	0.01993	-0.0383983238577154	0.0782583238577153	0.042	-0.081	0.165	8
-Vlaanderen	SBZH	2120	Buiten	NA	0.00649999999999995	NA	NA	0.009	NA	NA	NA
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	0.0173864	-0.0344282	0.069201	0.033	-0.066	0.133	8
+Vlaanderen	SBZH	2120	Binnen	NA	0.01993	-0.0383983	0.0782583	0.042	-0.081	0.165	8
+Vlaanderen	SBZH	2120	Buiten	NA	0.0065	NA	NA	0.009	NA	NA	NA
 Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	0.0893	NA	NA	0.28	NA	NA	NA
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	0.0228529411764706	-0.0125000074874221	0.0582058898403633	0.05	-0.028	0.128	8
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	0.0333944916594777	-0.000316180406518714	0.067105163725474	0.077	-0.001	0.155	8
-Vlaanderen	SBZH	2130	Binnen	2130_hd; 2130_had	0.0333944916594777	-0.000316180406518714	0.067105163725474	0.077	-0.001	0.155	8
-Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	0.0144	-0.0687095469846876	0.0975095469846876	0.041	-0.194	0.276	10
-Vlaanderen	SBZH	2170	Binnen	NA	0.0144	-0.0687095469846876	0.0975095469846876	0.041	-0.194	0.276	10
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	0.0228529	-0.0125	0.0582059	0.05	-0.028	0.128	8
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	0.0333945	-0.00031618	0.0671052	0.077	-0.001	0.155	8
+Vlaanderen	SBZH	2130	Binnen	2130_hd; 2130_had	0.0333945	-0.00031618	0.0671052	0.077	-0.001	0.155	8
+Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	0.0144	-0.0687095	0.0975095	0.041	-0.194	0.276	10
+Vlaanderen	SBZH	2170	Binnen	NA	0.0144	-0.0687095	0.0975095	0.041	-0.194	0.276	10
 Vlaanderen	Habitatsubtype	2190	Binnen & Buiten	2190_mp	-0.03445	NA	NA	-0.061	NA	NA	NA
 Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	-0.03445	-0.11334	0.04444	-0.061	-0.201	0.079	9
 Vlaanderen	SBZH	2190	Binnen	2190_mp	-0.03445	-0.11334	0.04444	-0.061	-0.201	0.079	9

@@ -1,0 +1,20 @@
+schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	trend_local	n	n_adj	mcnemar_p_value	effect
+Vlaanderen	Versie 3	Habitattype	9110	Binnen & Buiten	NA	gunstig - gunstig	2	1.64886	0.24508	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9110	Binnen & Buiten	NA	ongunstig - gunstig	1	1.35114	0.24508	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	gunstig - gunstig	21	18.6136	0.554769	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	gunstig - ongunstig	6	5.23263	0.554769	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	ongunstig - gunstig	4	3.48842	0.554769	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	ongunstig - ongunstig	72	75.6654	0.554769	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9130	Binnen & Buiten	9130_end	gunstig - gunstig	2	1.64811	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9130	Binnen & Buiten	9130_end	gunstig - ongunstig	1	0.824057	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9130	Binnen & Buiten	9130_end	ongunstig - gunstig	1	0.824057	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9130	Binnen & Buiten	9130_end	ongunstig - ongunstig	14	14.7038	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9160	Binnen & Buiten	NA	gunstig - gunstig	2	1.66062	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9160	Binnen & Buiten	NA	gunstig - ongunstig	2	1.66062	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9160	Binnen & Buiten	NA	ongunstig - gunstig	2	1.66062	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9160	Binnen & Buiten	NA	ongunstig - ongunstig	18	19.0181	1	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	9190	Binnen & Buiten	NA	ongunstig - ongunstig	37	37	NA	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	91E0	Binnen & Buiten	91E0_va	gunstig - ongunstig	1	0.770235	0.439624	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	91E0	Binnen & Buiten	91E0_va; 91E0_sf; 91E0_vm; 91E0_vo; 91E0_vn; 91E0_vc	ongunstig - ongunstig	65	66.5047	0.439624	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	91E0	Binnen & Buiten	91E0_vm	gunstig - gunstig	1	0.651623	0.439624	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	91E0	Binnen & Buiten	91E0_vm; 91E0_va	ongunstig - gunstig	3	2.07348	0.439624	geen significant verschil

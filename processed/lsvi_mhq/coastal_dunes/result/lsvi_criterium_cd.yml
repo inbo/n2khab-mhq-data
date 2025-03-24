@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - id
   - type_analysis
   - criterium
-  hash: 8dda1e18e0c8a706651b964acf242ec9520997b3
-  data_hash: b788fddca65ec1bd9345f14e7a04a459f0ce5b03
+  hash: 9e8bbb79de5b468a0de6d99a93e624d66307bee8
+  data_hash: 4222058ce8cca05ddf7847a05091a5300424b689
 id:
   class: character
 type_analysis:
@@ -22,7 +22,10 @@ n_zb_ongunstig:
   class: integer
 aandeel_gunstig:
   class: numeric
+  digits: 6
 index_mean_ind:
   class: numeric
+  digits: 6
 doelbereik_mean_ind:
   class: numeric
+  digits: 6

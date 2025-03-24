@@ -1,83 +1,83 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	klasse
-Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	-0.502048766350326	-1.14866358778759	0.144566055086934	10
-Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	-0.160826316907533	-0.582210605686103	0.260557971871036	10
+Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	-0.502049	-1.14866	0.144566	10
+Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	-0.160826	-0.582211	0.260558	10
 Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.248385829082203	-0.606042007490926	0.109270349326518	10
+Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.248386	-0.606042	0.10927	10
 Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Structuur	verticale structuur	zb	0	0	0	4
-Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Verstoring	verzuring	zb	-0.533183289113175	-1.1927675438043	0.126400965577948	10
-Vlaanderen	sbzh	3110	Binnen	NA	Verstoring	eutrofiëring	zb	-0.502048766350326	-1.14866358778759	0.144566055086934	10
-Vlaanderen	sbzh	3110	Binnen	NA	Structuur	horizontale structuur	zb	-0.160826316907533	-0.582210605686103	0.260557971871036	10
+Vlaanderen	Habitattype	3110	Binnen & Buiten	NA	Verstoring	verzuring	zb	-0.533183	-1.19277	0.126401	10
+Vlaanderen	sbzh	3110	Binnen	NA	Verstoring	eutrofiëring	zb	-0.502049	-1.14866	0.144566	10
+Vlaanderen	sbzh	3110	Binnen	NA	Structuur	horizontale structuur	zb	-0.160826	-0.582211	0.260558	10
 Vlaanderen	sbzh	3110	Binnen	NA	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	sbzh	3110	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.248385829082203	-0.606042007490926	0.109270349326518	10
+Vlaanderen	sbzh	3110	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.248386	-0.606042	0.10927	10
 Vlaanderen	sbzh	3110	Binnen	NA	Structuur	verticale structuur	zb	0	0	0	4
-Vlaanderen	sbzh	3110	Binnen	NA	Verstoring	verzuring	zb	-0.533183289113175	-1.1927675438043	0.126400965577948	10
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Verstoring	eutrofiëring	zb	0.0144857504955796	-0.233068788963382	0.262040289954541	10
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Structuur	horizontale structuur	zb	0.153246422686019	-0.0281798655696824	0.334672710941721	8
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Verstoring	invasieve exoten	zb	0.0518236237723096	-0.0894562958871333	0.193103543431752	8
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Vegetatie	sleutelsoorten	b	0.0609375116264529	-0.0323614667303928	0.154236489983299	8
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Structuur	verticale structuur	zb	-0.010648940859661	-0.267050914784308	0.245753033064986	10
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Verstoring	verzuring	zb	-0.0721990554225926	-0.284233852820772	0.139835741975587	10
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Verstoring	eutrofiëring	zb	-0.301161319863188	-0.632543114323465	0.0302204745970885	9
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Structuur	horizontale structuur	zb	0.130596708565887	-0.0728219334433896	0.334015350575164	8
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Verstoring	invasieve exoten	zb	-0.21460768627405	-0.523771916187633	0.094556543639532	9
+Vlaanderen	sbzh	3110	Binnen	NA	Verstoring	verzuring	zb	-0.533183	-1.19277	0.126401	10
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Verstoring	eutrofiëring	zb	0.000325236	-0.240754	0.241404	10
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Structuur	horizontale structuur	zb	0.162164	-0.0140856	0.338415	8
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Verstoring	invasieve exoten	zb	0.0515894	-0.0920326	0.195211	8
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Vegetatie	sleutelsoorten	b	0.0623353	-0.0304385	0.155109	8
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Structuur	verticale structuur	zb	-0.00179124	-0.250025	0.246443	10
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	Verstoring	verzuring	zb	-0.0482546	-0.264301	0.167792	10
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Verstoring	eutrofiëring	zb	-0.293154	-0.623442	0.0371331	9
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Structuur	horizontale structuur	zb	0.134627	-0.0714823	0.340736	8
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Verstoring	invasieve exoten	zb	-0.226361	-0.542	0.0892778	9
 Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Vegetatie	sleutelsoorten	b	0	0	0	4
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Structuur	verticale structuur	zb	-0.145055800258303	-0.598849797953199	0.308738197436594	10
-Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Verstoring	verzuring	zb	-0.128306031118943	-0.352928353695491	0.096316291457605	9
-Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	-0.14156185717971	-0.340224565747615	0.0571008513881955	9
-Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Structuur	horizontale structuur	zb	0.142048999884158	0.0115732275826671	0.27252477218565	2
-Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	-0.0798930067520036	-0.227967486523426	0.0681814730194188	9
-Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	0.030811608996706	-0.0259883037297237	0.0876115217231358	4
-Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Structuur	verticale structuur	zb	-0.0770961562273432	-0.301698467502189	0.147506155047503	10
-Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Verstoring	verzuring	zb	-0.0999368681682001	-0.250145038125956	0.0502713017895555	9
-Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	-0.19268330692872	-0.426128355427511	0.0407617415700713	9
-Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Structuur	horizontale structuur	zb	0.124208157307496	-0.0158568045982099	0.264273119213202	8
-Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	0.0273038409238552	-0.0750771277913738	0.129684809639084	8
-Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	0.0392485231763972	-0.0283650430972998	0.106862089450094	8
-Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Structuur	verticale structuur	zb	-0.145812524404214	-0.40672791834547	0.115102869537041	10
-Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Verstoring	verzuring	zb	-0.127301838956073	-0.305575129301997	0.050971451389852	9
-Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Verstoring	eutrofiëring	zb	0.0451336676844438	-0.0249908141525877	0.115258149521475	8
-Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Structuur	horizontale structuur	zb	0.207203753617119	-0.243207284023161	0.657614791257399	10
-Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Verstoring	invasieve exoten	zb	-0.471375874293621	-1.21093179913175	0.268180050544512	10
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Structuur	verticale structuur	zb	-0.140382	-0.595567	0.314803	10
+Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	Verstoring	verzuring	zb	-0.119837	-0.338484	0.0988109	9
+Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	-0.133675	-0.328789	0.0614401	9
+Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Structuur	horizontale structuur	zb	0.149591	0.0197548	0.279427	2
+Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	-0.0753199	-0.22491	0.0742706	9
+Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	0.0338737	-0.0245398	0.0922872	4
+Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Structuur	verticale structuur	zb	-0.0650704	-0.285506	0.155365	10
+Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	Verstoring	verzuring	zb	-0.0809383	-0.234495	0.0726183	9
+Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Verstoring	eutrofiëring	zb	-0.186244	-0.417775	0.0452865	9
+Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Structuur	horizontale structuur	zb	0.13713	-0.00353854	0.277799	8
+Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Verstoring	invasieve exoten	zb	0.0302145	-0.0782764	0.138705	8
+Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Vegetatie	sleutelsoorten	b	0.0440774	-0.0260356	0.11419	8
+Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Structuur	verticale structuur	zb	-0.132558	-0.391507	0.12639	10
+Vlaanderen	sbzh	3130	Binnen	3130_aom; 3130_na	Verstoring	verzuring	zb	-0.105319	-0.289869	0.0792302	9
+Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Verstoring	eutrofiëring	zb	0.0408434	-0.0277731	0.10946	8
+Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Structuur	horizontale structuur	zb	0.190959	-0.244372	0.626289	10
+Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Verstoring	invasieve exoten	zb	-0.425667	-1.14986	0.298525	10
 Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Vegetatie	sleutelsoorten	b	0	0	0	4
-Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Structuur	verticale structuur	zb	0.173856007424624	0.00018376016999555	0.347528254679252	2
+Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Structuur	verticale structuur	zb	0.158973	-0.0196485	0.337594	8
 Vlaanderen	sbzh	3130	Buiten	3130_na; 3130_aom	Verstoring	verzuring	zb	0	0	0	4
-Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	-0.00580982457733657	-0.300460270123162	0.288840620968489	10
+Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	-0.00797717	-0.298887	0.282932	10
 Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	0	0	0	4
-Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	-0.39702040239155	-1.08439252084064	0.290351716057539	10
-Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	0.0682121367289075	-0.419315040316431	0.555739313774246	10
-Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Structuur	verticale structuur	zb	-0.044849601655278	-0.134171296094089	0.0444720927835331	9
-Vlaanderen	sbzh	3140	Binnen	NA	Verstoring	eutrofiëring	zb	0.833333333333333	NA	NA	NA
+Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	-0.39771	-1.08466	0.28924	10
+Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	0.0737918	-0.432079	0.579663	10
+Vlaanderen	Habitattype	3140	Binnen & Buiten	NA	Structuur	verticale structuur	zb	-0.0443787	-0.133783	0.0450255	9
+Vlaanderen	sbzh	3140	Binnen	NA	Verstoring	eutrofiëring	zb	0.833333	NA	NA	NA
 Vlaanderen	sbzh	3140	Binnen	NA	Structuur	horizontale structuur	zb	0	NA	NA	NA
-Vlaanderen	sbzh	3140	Binnen	NA	Verstoring	invasieve exoten	zb	-1.00450225112556	NA	NA	NA
+Vlaanderen	sbzh	3140	Binnen	NA	Verstoring	invasieve exoten	zb	-1.0045	NA	NA	NA
 Vlaanderen	sbzh	3140	Binnen	NA	Vegetatie	sleutelsoorten	b	0	NA	NA	NA
-Vlaanderen	sbzh	3140	Binnen	NA	Structuur	verticale structuur	zb	-0.133333333333334	NA	NA	NA
-Vlaanderen	sbzh	3140	Buiten	NA	Verstoring	eutrofiëring	zb	-0.0562256072395088	-0.184832576410811	0.0723813619317931	9
+Vlaanderen	sbzh	3140	Binnen	NA	Structuur	verticale structuur	zb	-0.133333	NA	NA	NA
+Vlaanderen	sbzh	3140	Buiten	NA	Verstoring	eutrofiëring	zb	-0.056805	-0.185992	0.0723815	9
 Vlaanderen	sbzh	3140	Buiten	NA	Structuur	horizontale structuur	zb	0	0	0	4
-Vlaanderen	sbzh	3140	Buiten	NA	Verstoring	invasieve exoten	zb	-0.360522848227795	-1.18554388639426	0.464498189938671	10
-Vlaanderen	sbzh	3140	Buiten	NA	Vegetatie	sleutelsoorten	b	0.072310326921877	-0.538653467573688	0.683274121417442	10
-Vlaanderen	sbzh	3140	Buiten	NA	Structuur	verticale structuur	zb	-0.0395334925464032	-0.145463627511982	0.0663966424191753	9
-Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	-0.056995228484654	-0.42299127842173	0.309000821452422	10
-Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	-0.44995585400712	-0.86237480777071	-0.0375369002435306	6
-Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0.00135563657637031	-0.444877548889276	0.447588822042017	10
-Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.388267804011233	-0.732895974826296	-0.0436396331961704	6
-Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Structuur	verticale structuur	zb	-0.0550144106435277	-0.295646962135388	0.185618140848332	10
-Vlaanderen	sbzh	3150	Binnen	NA	Verstoring	eutrofiëring	zb	-0.0650399173679865	-0.510784588417515	0.380704753681542	10
-Vlaanderen	sbzh	3150	Binnen	NA	Structuur	horizontale structuur	zb	-0.487868532529748	-0.947184963478244	-0.0285521015812529	6
-Vlaanderen	sbzh	3150	Binnen	NA	Verstoring	invasieve exoten	zb	-0.0255365334166138	-0.536518273606376	0.485445206773149	10
-Vlaanderen	sbzh	3150	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.388793272764861	-0.809306558720512	0.0317200131907905	9
-Vlaanderen	sbzh	3150	Binnen	NA	Structuur	verticale structuur	zb	-0.0373791577531782	-0.300142266581538	0.225383951075182	10
-Vlaanderen	sbzh	3150	Buiten	NA	Verstoring	eutrofiëring	zb	0.111426677537537	0.0344266775375379	0.188426677537537	2
-Vlaanderen	sbzh	3150	Buiten	NA	Structuur	horizontale structuur	zb	0.343775969782505	-0.342469030217494	1.03002096978251	10
-Vlaanderen	sbzh	3150	Buiten	NA	Verstoring	invasieve exoten	zb	0.564364423239965	-0.562218868405858	1.69094771488579	10
-Vlaanderen	sbzh	3150	Buiten	NA	Vegetatie	sleutelsoorten	b	-0.3772667012558	-0.622266701255799	-0.1322667012558	7
-Vlaanderen	sbzh	3150	Buiten	NA	Structuur	verticale structuur	zb	-0.424222337519332	-1.240889004186	0.392444329147334	10
-Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	0.30237158085623	0.0478120006202084	0.556931161092251	2
-Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	-0.43263511524254	-0.893935272089048	0.0286650416039672	9
+Vlaanderen	sbzh	3140	Buiten	NA	Verstoring	invasieve exoten	zb	-0.362493	-1.1859	0.460909	10
+Vlaanderen	sbzh	3140	Buiten	NA	Vegetatie	sleutelsoorten	b	0.0780745	-0.553916	0.710065	10
+Vlaanderen	sbzh	3140	Buiten	NA	Structuur	verticale structuur	zb	-0.0392159	-0.145093	0.0666609	9
+Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	-0.0365606	-0.404628	0.331507	10
+Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	-0.42348	-0.830164	-0.0167966	6
+Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0.000813678	-0.461687	0.463315	10
+Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.385641	-0.723235	-0.0480473	6
+Vlaanderen	Habitattype	3150	Binnen & Buiten	NA	Structuur	verticale structuur	zb	-0.066982	-0.308874	0.174911	10
+Vlaanderen	sbzh	3150	Binnen	NA	Verstoring	eutrofiëring	zb	-0.0439285	-0.491321	0.403464	10
+Vlaanderen	sbzh	3150	Binnen	NA	Structuur	horizontale structuur	zb	-0.46168	-0.91549	-0.00787	6
+Vlaanderen	sbzh	3150	Binnen	NA	Verstoring	invasieve exoten	zb	-0.0272442	-0.558522	0.504033	10
+Vlaanderen	sbzh	3150	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.386058	-0.796735	0.0246188	9
+Vlaanderen	sbzh	3150	Binnen	NA	Structuur	verticale structuur	zb	-0.0491958	-0.314518	0.216127	10
+Vlaanderen	sbzh	3150	Buiten	NA	Verstoring	eutrofiëring	zb	0.111427	0.0344267	0.188427	2
+Vlaanderen	sbzh	3150	Buiten	NA	Structuur	horizontale structuur	zb	0.343776	-0.342469	1.03002	10
+Vlaanderen	sbzh	3150	Buiten	NA	Verstoring	invasieve exoten	zb	0.564364	-0.562219	1.69095	10
+Vlaanderen	sbzh	3150	Buiten	NA	Vegetatie	sleutelsoorten	b	-0.377267	-0.622267	-0.132267	7
+Vlaanderen	sbzh	3150	Buiten	NA	Structuur	verticale structuur	zb	-0.424222	-1.24089	0.392444	10
+Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	0.322563	0.0721404	0.572986	2
+Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	-0.42952	-0.891923	0.0328819	9
 Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.021188722919288	-0.208151074258429	0.165773628419853	10
-Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Verstoring	verzuring	zb	-0.123184834946571	-0.416613461734909	0.170243791841768	10
-Vlaanderen	sbzh	3160	Binnen	NA	Verstoring	eutrofiëring	zb	0.30237158085623	0.0478120006202084	0.556931161092251	2
-Vlaanderen	sbzh	3160	Binnen	NA	Structuur	horizontale structuur	zb	-0.43263511524254	-0.893935272089048	0.0286650416039672	9
+Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.0210705	-0.203098	0.160957	10
+Vlaanderen	Habitattype	3160	Binnen & Buiten	NA	Verstoring	verzuring	zb	-0.157274	-0.456903	0.142355	10
+Vlaanderen	sbzh	3160	Binnen	NA	Verstoring	eutrofiëring	zb	0.322563	0.0721404	0.572986	2
+Vlaanderen	sbzh	3160	Binnen	NA	Structuur	horizontale structuur	zb	-0.42952	-0.891923	0.0328819	9
 Vlaanderen	sbzh	3160	Binnen	NA	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	sbzh	3160	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.021188722919288	-0.208151074258429	0.165773628419853	10
-Vlaanderen	sbzh	3160	Binnen	NA	Verstoring	verzuring	zb	-0.123184834946571	-0.416613461734909	0.170243791841768	10
+Vlaanderen	sbzh	3160	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.0210705	-0.203098	0.160957	10
+Vlaanderen	sbzh	3160	Binnen	NA	Verstoring	verzuring	zb	-0.157274	-0.456903	0.142355	10

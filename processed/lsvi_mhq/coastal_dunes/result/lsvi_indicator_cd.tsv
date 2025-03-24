@@ -1045,6 +1045,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1060149_2180_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 1060149_2180_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1060149_2180_2020-09-14	2180	Verstoring	overige exoten	b	1	1
+1060149_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1060149_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1060149_2180_2020-09-14	2180	Verstoring	verruiging	zb	1	1
 1060149_2180_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 1060401_2024-09-10	2160	Structuur	horizontale structuur	b	1	0.0117
@@ -1128,6 +1130,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 107697_2022-08-31	2180	Verstoring	invasieve exoten	b	1	1
 107697_2022-08-31	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 107697_2022-08-31	2180	Verstoring	overige exoten	b	1	1
+107697_2022-08-31	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+107697_2022-08-31	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 107697_2022-08-31	2180	Verstoring	verruiging	zb	1	0.9333
 107697_2022-08-31	2180	Structuur	verticale structuur	b	NA	NA
 10778801_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
@@ -1167,6 +1171,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1090737_2022-08-12	2180	Verstoring	invasieve exoten	b	1	1
 1090737_2022-08-12	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1090737_2022-08-12	2180	Verstoring	overige exoten	b	1	1
+1090737_2022-08-12	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1090737_2022-08-12	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1090737_2022-08-12	2180	Verstoring	verruiging	zb	0	-0.1514
 1090737_2022-08-12	2180	Structuur	verticale structuur	b	NA	NA
 110385_2020-07-15	2160	Structuur	horizontale structuur	b	0	-1
@@ -1208,6 +1214,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1113397_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 1113397_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-1
 1113397_2020-09-14	2180	Verstoring	overige exoten	b	1	1
+1113397_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1113397_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1113397_2020-09-14	2180	Verstoring	verruiging	zb	1	1
 1113397_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 111985_2020-07-20	2120	Structuur	(korst)moslaag	zb	1	0.3333
@@ -1270,6 +1278,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 11573_2180_2020-09-09	2180	Verstoring	invasieve exoten	b	1	1
 11573_2180_2020-09-09	2180	Structuur	minimum structuurareaal	zb	0	-1
 11573_2180_2020-09-09	2180	Verstoring	overige exoten	b	1	1
+11573_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+11573_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 11573_2180_2020-09-09	2180	Verstoring	verruiging	zb	1	1
 11573_2180_2020-09-09	2180	Structuur	verticale structuur	b	NA	NA
 1158961_2022-09-27	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1280,6 +1290,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1158961_2022-09-27	2180	Verstoring	invasieve exoten	b	1	1
 1158961_2022-09-27	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 1158961_2022-09-27	2180	Verstoring	overige exoten	b	1	1
+1158961_2022-09-27	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1158961_2022-09-27	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1158961_2022-09-27	2180	Verstoring	verruiging	zb	0	-0.0857
 1158961_2022-09-27	2180	Structuur	verticale structuur	b	NA	NA
 11595569_2170_2018-08-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6682
@@ -1311,6 +1323,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1172657_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 1172657_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1172657_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	1
+1172657_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1172657_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1172657_2180_2020-09-21	2180	Verstoring	verruiging	zb	1	0.6367
 1172657_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 11923249_2024-07-01	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1467,6 +1481,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1298609_2020-09-01	2180	Verstoring	invasieve exoten	b	1	1
 1298609_2020-09-01	2180	Structuur	minimum structuurareaal	zb	0	-1
 1298609_2020-09-01	2180	Verstoring	overige exoten	b	1	1
+1298609_2020-09-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1298609_2020-09-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1298609_2020-09-01	2180	Verstoring	verruiging	zb	1	1
 1298609_2020-09-01	2180	Structuur	verticale structuur	b	NA	NA
 1303729_2022-08-30	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1477,6 +1493,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1303729_2022-08-30	2180	Verstoring	invasieve exoten	b	0	-0.0298
 1303729_2022-08-30	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1303729_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.2857
+1303729_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1303729_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1303729_2022-08-30	2180	Verstoring	verruiging	zb	1	1
 1303729_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 1306417_2024-08-02	2170	Verstoring	invasieve exoten	zb	1	1
@@ -1510,6 +1528,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1322293_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1322293_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1322293_2022-08-02	2180	Verstoring	overige exoten	b	1	0.3333
+1322293_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1322293_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1322293_2022-08-02	2180	Verstoring	verruiging	zb	0	-0.12
 1322293_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1354545_2023-08-18	2170	Verstoring	invasieve exoten	zb	1	1
@@ -1571,6 +1591,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1391925_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1391925_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 1391925_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.5714
+1391925_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1391925_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1391925_2022-08-02	2180	Verstoring	verruiging	zb	1	1
 1391925_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1418417_2022-08-11	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1581,6 +1603,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1418417_2022-08-11	2180	Verstoring	invasieve exoten	b	1	1
 1418417_2022-08-11	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1418417_2022-08-11	2180	Verstoring	overige exoten	b	1	1
+1418417_2022-08-11	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1418417_2022-08-11	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1418417_2022-08-11	2180	Verstoring	verruiging	zb	1	1
 1418417_2022-08-11	2180	Structuur	verticale structuur	b	NA	NA
 1421105_2020-07-15	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1604,6 +1628,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1434801_2022-08-30	2180	Verstoring	invasieve exoten	b	1	1
 1434801_2022-08-30	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1434801_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.5714
+1434801_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1434801_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1434801_2022-08-30	2180	Verstoring	verruiging	zb	1	0.0427
 1434801_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 143797_2020-07-09	2120	Structuur	(korst)moslaag	zb	1	1
@@ -1625,6 +1651,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1462325_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1462325_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1462325_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.2857
+1462325_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1462325_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1462325_2022-08-02	2180	Verstoring	verruiging	zb	1	1
 1462325_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1484977_2022-09-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1635,6 +1663,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1484977_2022-09-02	2180	Verstoring	invasieve exoten	b	1	1
 1484977_2022-09-02	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1484977_2022-09-02	2180	Verstoring	overige exoten	b	1	1
+1484977_2022-09-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1484977_2022-09-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1484977_2022-09-02	2180	Verstoring	verruiging	zb	1	0.3333
 1484977_2022-09-02	2180	Structuur	verticale structuur	b	NA	NA
 1506613_2022-08-04	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1645,6 +1675,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1506613_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 1506613_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 1506613_2022-08-04	2180	Verstoring	overige exoten	b	1	1
+1506613_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1506613_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1506613_2022-08-04	2180	Verstoring	verruiging	zb	1	1
 1506613_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 152753_2022-09-06	2160	Structuur	horizontale structuur	b	NA	NA
@@ -1660,6 +1692,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1550513_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 1550513_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1550513_2022-09-08	2180	Verstoring	overige exoten	b	0	-0.8143
+1550513_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1550513_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1550513_2022-09-08	2180	Verstoring	verruiging	zb	1	0.7667
 1550513_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 1565873_2022-08-31	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1670,6 +1704,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1565873_2022-08-31	2180	Verstoring	invasieve exoten	b	1	1
 1565873_2022-08-31	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 1565873_2022-08-31	2180	Verstoring	overige exoten	b	0	-0.1429
+1565873_2022-08-31	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1565873_2022-08-31	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1565873_2022-08-31	2180	Verstoring	verruiging	zb	1	0.7667
 1565873_2022-08-31	2180	Structuur	verticale structuur	b	NA	NA
 1566897_2022-09-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1680,6 +1716,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1566897_2022-09-02	2180	Verstoring	invasieve exoten	b	1	1
 1566897_2022-09-02	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1566897_2022-09-02	2180	Verstoring	overige exoten	b	0	-0.6
+1566897_2022-09-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1566897_2022-09-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1566897_2022-09-02	2180	Verstoring	verruiging	zb	0	-0.2746
 1566897_2022-09-02	2180	Structuur	verticale structuur	b	NA	NA
 159537_2021-08-09	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9196
@@ -1698,6 +1736,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1630385_2022-09-30	2180	Verstoring	invasieve exoten	b	1	1
 1630385_2022-09-30	2180	Structuur	minimum structuurareaal	zb	0	-1
 1630385_2022-09-30	2180	Verstoring	overige exoten	b	1	1
+1630385_2022-09-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1630385_2022-09-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1630385_2022-09-30	2180	Verstoring	verruiging	zb	1	0.4841
 1630385_2022-09-30	2180	Structuur	verticale structuur	b	NA	NA
 163633_2023-08-31	2120	Structuur	(korst)moslaag	zb	1	0.9556
@@ -1724,6 +1764,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1670453_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 1670453_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.6606
 1670453_2022-08-04	2180	Verstoring	overige exoten	b	1	1
+1670453_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1670453_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1670453_2022-08-04	2180	Verstoring	verruiging	zb	1	1
 1670453_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 1676465_1_2021-09-16	2170	Verstoring	invasieve exoten	zb	1	1
@@ -1749,6 +1791,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1680561_2022-08-11	2180	Verstoring	invasieve exoten	b	1	1
 1680561_2022-08-11	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1680561_2022-08-11	2180	Verstoring	overige exoten	b	0	-0.5714
+1680561_2022-08-11	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1680561_2022-08-11	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1680561_2022-08-11	2180	Verstoring	verruiging	zb	1	1
 1680561_2022-08-11	2180	Structuur	verticale structuur	b	NA	NA
 169137_2021-08-24	2160	Structuur	horizontale structuur	b	0	-0.5
@@ -1777,6 +1821,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1696945_2022-08-30	2180	Verstoring	invasieve exoten	b	1	1
 1696945_2022-08-30	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 1696945_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.8571
+1696945_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1696945_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1696945_2022-08-30	2180	Verstoring	verruiging	zb	1	0.8027
 1696945_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 1700017_2024-08-08	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9594
@@ -1839,6 +1885,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1812657_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 1812657_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 1812657_2022-09-08	2180	Verstoring	overige exoten	b	0	-0.608
+1812657_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1812657_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 1812657_2022-09-08	2180	Verstoring	verruiging	zb	1	0.7047
 1812657_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 1830705_2020-08-17	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1862,6 +1910,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1892529_2022-09-30	2180	Verstoring	invasieve exoten	b	1	1
 1892529_2022-09-30	2180	Structuur	minimum structuurareaal	zb	0	-1
 1892529_2022-09-30	2180	Verstoring	overige exoten	b	0	-0.7143
+1892529_2022-09-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1892529_2022-09-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1892529_2022-09-30	2180	Verstoring	verruiging	zb	0	-0.2363
 1892529_2022-09-30	2180	Structuur	verticale structuur	b	NA	NA
 1896241_2021-08-13	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -1913,6 +1963,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1953969_2022-09-30	2180	Verstoring	invasieve exoten	b	1	1
 1953969_2022-09-30	2180	Structuur	minimum structuurareaal	zb	0	-1
 1953969_2022-09-30	2180	Verstoring	overige exoten	b	1	1
+1953969_2022-09-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1953969_2022-09-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1953969_2022-09-30	2180	Verstoring	verruiging	zb	1	0.9007
 1953969_2022-09-30	2180	Structuur	verticale structuur	b	NA	NA
 196021_2020-07-09	2120	Structuur	(korst)moslaag	zb	0	-0.2437
@@ -1934,6 +1986,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1986613_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 1986613_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 1986613_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.2857
+1986613_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+1986613_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1986613_2022-08-02	2180	Verstoring	verruiging	zb	1	0.9667
 1986613_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 1992497_2024-08-05	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8638
@@ -1952,6 +2006,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2003969_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 2003969_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-1
 2003969_2022-08-01	2180	Verstoring	overige exoten	b	1	1
+2003969_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2003969_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2003969_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9667
 2003969_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 2003969_2023-06-06	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -1962,6 +2018,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2003969_2023-06-06	2180	Verstoring	invasieve exoten	b	1	1
 2003969_2023-06-06	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 2003969_2023-06-06	2180	Verstoring	overige exoten	b	1	1
+2003969_2023-06-06	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2003969_2023-06-06	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2003969_2023-06-06	2180	Verstoring	verruiging	zb	1	0.9333
 2003969_2023-06-06	2180	Structuur	verticale structuur	b	NA	NA
 20081_2023-08-08	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9404
@@ -2004,6 +2062,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2090161_2022-08-30	2180	Verstoring	invasieve exoten	b	0	-0.01
 2090161_2022-08-30	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2090161_2022-08-30	2180	Verstoring	overige exoten	b	1	1
+2090161_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2090161_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2090161_2022-08-30	2180	Verstoring	verruiging	zb	0	-0.6121
 2090161_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 2108725_2022-08-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2014,6 +2074,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2108725_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 2108725_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 2108725_2022-08-02	2180	Verstoring	overige exoten	b	0	-0.2857
+2108725_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2108725_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2108725_2022-08-02	2180	Verstoring	verruiging	zb	1	1
 2108725_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 2135217_2024-09-03	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2029,6 +2091,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2139313_2022-08-30	2180	Verstoring	invasieve exoten	b	1	1
 2139313_2022-08-30	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2139313_2022-08-30	2180	Verstoring	overige exoten	b	0	-0.1
+2139313_2022-08-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2139313_2022-08-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 2139313_2022-08-30	2180	Verstoring	verruiging	zb	1	0.0605
 2139313_2022-08-30	2180	Structuur	verticale structuur	b	NA	NA
 2145589_2022-08-04	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2039,6 +2103,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2145589_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 2145589_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.9865
 2145589_2022-08-04	2180	Verstoring	overige exoten	b	1	1
+2145589_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2145589_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 2145589_2022-08-04	2180	Verstoring	verruiging	zb	0	-0.1461
 2145589_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 2151425_2022-08-01	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2049,6 +2115,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2151425_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 2151425_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 2151425_2022-08-01	2180	Verstoring	overige exoten	b	0	-0.1429
+2151425_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2151425_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2151425_2022-08-01	2180	Verstoring	verruiging	zb	1	1
 2151425_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 2161_2020-07-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8812
@@ -2067,6 +2135,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2178357_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 2178357_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 2178357_2022-08-02	2180	Verstoring	overige exoten	b	1	1
+2178357_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2178357_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2178357_2022-08-02	2180	Verstoring	verruiging	zb	1	0.7357
 2178357_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 2178865_2020-08-24	2160	Structuur	horizontale structuur	b	0	-1
@@ -2082,6 +2152,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2205109_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 2205109_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 2205109_2022-08-01	2180	Verstoring	overige exoten	b	1	0.7667
+2205109_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2205109_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2205109_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9333
 2205109_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 2207537_2022-09-27	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2092,6 +2164,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2207537_2022-09-27	2180	Verstoring	invasieve exoten	b	1	1
 2207537_2022-09-27	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 2207537_2022-09-27	2180	Verstoring	overige exoten	b	1	0
+2207537_2022-09-27	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2207537_2022-09-27	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2207537_2022-09-27	2180	Verstoring	verruiging	zb	0	-0.7714
 2207537_2022-09-27	2180	Structuur	verticale structuur	b	NA	NA
 2221233_2022-08-11	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2102,6 +2176,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2221233_2022-08-11	2180	Verstoring	invasieve exoten	b	1	1
 2221233_2022-08-11	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2221233_2022-08-11	2180	Verstoring	overige exoten	b	1	0.6667
+2221233_2022-08-11	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2221233_2022-08-11	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2221233_2022-08-11	2180	Verstoring	verruiging	zb	0	-0.0172
 2221233_2022-08-11	2180	Structuur	verticale structuur	b	NA	NA
 228977_2020-07-23	2160	Structuur	horizontale structuur	b	1	0
@@ -2117,6 +2193,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2314293_2023-08-25	2180	Verstoring	invasieve exoten	b	1	1
 2314293_2023-08-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 2314293_2023-08-25	2180	Verstoring	overige exoten	b	0	-0.5714
+2314293_2023-08-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2314293_2023-08-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2314293_2023-08-25	2180	Verstoring	verruiging	zb	0	-0.136
 2314293_2023-08-25	2180	Structuur	verticale structuur	b	NA	NA
 23221_2020-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.901
@@ -2135,6 +2213,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2352305_2023-08-21	2180	Verstoring	invasieve exoten	b	0	-0.7149
 2352305_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2352305_2023-08-21	2180	Verstoring	overige exoten	b	1	1
+2352305_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2352305_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2352305_2023-08-21	2180	Verstoring	verruiging	zb	0	-0.5757
 2352305_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 2358709_2023-09-04	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2145,6 +2225,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2358709_2023-09-04	2180	Verstoring	invasieve exoten	b	1	1
 2358709_2023-09-04	2180	Structuur	minimum structuurareaal	zb	0	-0.6584
 2358709_2023-09-04	2180	Verstoring	overige exoten	b	1	1
+2358709_2023-09-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2358709_2023-09-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2358709_2023-09-04	2180	Verstoring	verruiging	zb	1	0.8667
 2358709_2023-09-04	2180	Structuur	verticale structuur	b	NA	NA
 2390193_2020-08-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9558
@@ -2163,6 +2245,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2401457_2023-08-21	2180	Verstoring	invasieve exoten	b	1	1
 2401457_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2401457_2023-08-21	2180	Verstoring	overige exoten	b	1	0.9667
+2401457_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2401457_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2401457_2023-08-21	2180	Verstoring	verruiging	zb	0	-0.3808
 2401457_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 240433_2180_2020-09-16	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2173,6 +2257,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 240433_2180_2020-09-16	2180	Verstoring	invasieve exoten	b	1	1
 240433_2180_2020-09-16	2180	Structuur	minimum structuurareaal	zb	0	-1
 240433_2180_2020-09-16	2180	Verstoring	overige exoten	b	1	1
+240433_2180_2020-09-16	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+240433_2180_2020-09-16	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 240433_2180_2020-09-16	2180	Verstoring	verruiging	zb	1	0.5413
 240433_2180_2020-09-16	2180	Structuur	verticale structuur	b	NA	NA
 2420529_2020-07-15	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2193,6 +2279,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2456885_1_2023-08-25	2180	Verstoring	invasieve exoten	b	1	1
 2456885_1_2023-08-25	2180	Structuur	minimum structuurareaal	zb	0	-0.6606
 2456885_1_2023-08-25	2180	Verstoring	overige exoten	b	0	-0.6
+2456885_1_2023-08-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2456885_1_2023-08-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2456885_1_2023-08-25	2180	Verstoring	verruiging	zb	0	-0.4309
 2456885_1_2023-08-25	2180	Structuur	verticale structuur	b	NA	NA
 2466993_2023-08-21	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2203,6 +2291,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2466993_2023-08-21	2180	Verstoring	invasieve exoten	b	1	1
 2466993_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 2466993_2023-08-21	2180	Verstoring	overige exoten	b	1	1
+2466993_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+2466993_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2466993_2023-08-21	2180	Verstoring	verruiging	zb	1	0.0513
 2466993_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 255153_2180_2020-09-21	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2213,6 +2303,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 255153_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 255153_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 255153_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	0.9667
+255153_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+255153_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 255153_2180_2020-09-21	2180	Verstoring	verruiging	zb	1	0.6
 255153_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 256177_2022-09-07	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2223,6 +2315,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 256177_2022-09-07	2180	Verstoring	invasieve exoten	b	1	1
 256177_2022-09-07	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 256177_2022-09-07	2180	Verstoring	overige exoten	b	1	1
+256177_2022-09-07	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+256177_2022-09-07	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 256177_2022-09-07	2180	Verstoring	verruiging	zb	0	-0.5209
 256177_2022-09-07	2180	Structuur	verticale structuur	b	NA	NA
 25777_2021-08-24	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2260,6 +2354,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 268341_2180_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 268341_2180_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-0.9219
 268341_2180_2020-09-14	2180	Verstoring	overige exoten	b	1	1
+268341_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+268341_2180_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 268341_2180_2020-09-14	2180	Verstoring	verruiging	zb	1	0.6427
 268341_2180_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 273717_2180_2020-09-07	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2270,6 +2366,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 273717_2180_2020-09-07	2180	Verstoring	invasieve exoten	b	1	1
 273717_2180_2020-09-07	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 273717_2180_2020-09-07	2180	Verstoring	overige exoten	b	1	0.3333
+273717_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+273717_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 273717_2180_2020-09-07	2180	Verstoring	verruiging	zb	1	0.4827
 273717_2180_2020-09-07	2180	Structuur	verticale structuur	b	NA	NA
 2741_2021-08-09	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2497,6 +2595,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 369841_2022-08-12	2180	Verstoring	invasieve exoten	b	1	1
 369841_2022-08-12	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 369841_2022-08-12	2180	Verstoring	overige exoten	b	1	1
+369841_2022-08-12	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+369841_2022-08-12	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 369841_2022-08-12	2180	Verstoring	verruiging	zb	0	-0.0286
 369841_2022-08-12	2180	Structuur	verticale structuur	b	NA	NA
 370101_2021-08-10	2160	Structuur	horizontale structuur	b	1	0.0117
@@ -2642,6 +2742,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 413749_2180_2020-09-09	2180	Verstoring	invasieve exoten	b	1	1
 413749_2180_2020-09-09	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 413749_2180_2020-09-09	2180	Verstoring	overige exoten	b	1	1
+413749_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+413749_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 413749_2180_2020-09-09	2180	Verstoring	verruiging	zb	1	0.8667
 413749_2180_2020-09-09	2180	Structuur	verticale structuur	b	NA	NA
 414897_1_2021-07-26	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -2692,6 +2794,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 435377_2023-08-21	2180	Verstoring	invasieve exoten	b	1	1
 435377_2023-08-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 435377_2023-08-21	2180	Verstoring	overige exoten	b	1	1
+435377_2023-08-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+435377_2023-08-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 435377_2023-08-21	2180	Verstoring	verruiging	zb	0	-0.4277
 435377_2023-08-21	2180	Structuur	verticale structuur	b	NA	NA
 435377_2024-09-12	2160	Structuur	horizontale structuur	b	0	-1
@@ -2779,6 +2883,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 470325_2180_2020-09-09	2180	Verstoring	invasieve exoten	b	1	1
 470325_2180_2020-09-09	2180	Structuur	minimum structuurareaal	zb	0	-0.2953
 470325_2180_2020-09-09	2180	Verstoring	overige exoten	b	1	1
+470325_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+470325_2180_2020-09-09	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 470325_2180_2020-09-09	2180	Verstoring	verruiging	zb	1	0.9667
 470325_2180_2020-09-09	2180	Structuur	verticale structuur	b	NA	NA
 477809_2020-09-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8416
@@ -2815,6 +2921,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 501937_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 501937_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 501937_2022-09-08	2180	Verstoring	overige exoten	b	1	0.3947
+501937_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+501937_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 501937_2022-09-08	2180	Verstoring	verruiging	zb	1	0.9007
 501937_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 507697_2023-08-11	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2841,6 +2949,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 512177_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 512177_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-0.6818
 512177_2020-09-17	2180	Verstoring	overige exoten	b	1	1
+512177_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+512177_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 512177_2020-09-17	2180	Verstoring	verruiging	zb	1	0.7357
 512177_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
 51313_2020-07-10	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2889,6 +2999,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 517297_2022-08-31	2180	Verstoring	invasieve exoten	b	1	1
 517297_2022-08-31	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 517297_2022-08-31	2180	Verstoring	overige exoten	b	1	0.9333
+517297_2022-08-31	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+517297_2022-08-31	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 517297_2022-08-31	2180	Verstoring	verruiging	zb	0	-0.6681
 517297_2022-08-31	2180	Structuur	verticale structuur	b	NA	NA
 5297_2120_2020-08-27	2120	Structuur	(korst)moslaag	zb	1	1
@@ -2910,6 +3022,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 530485_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 530485_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.9219
 530485_2022-08-04	2180	Verstoring	overige exoten	b	0	-0.72
+530485_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+530485_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 530485_2022-08-04	2180	Verstoring	verruiging	zb	0	-0.5714
 530485_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 532849_2021-08-11	2120	Structuur	(korst)moslaag	zb	1	0.1667
@@ -2951,6 +3065,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 566449_2022-08-12	2180	Verstoring	invasieve exoten	b	1	1
 566449_2022-08-12	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 566449_2022-08-12	2180	Verstoring	overige exoten	b	1	1
+566449_2022-08-12	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+566449_2022-08-12	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 566449_2022-08-12	2180	Verstoring	verruiging	zb	1	0.9667
 566449_2022-08-12	2180	Structuur	verticale structuur	b	NA	NA
 567473_2180_2020-09-25	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -2961,6 +3077,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 567473_2180_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 567473_2180_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 567473_2180_2020-09-25	2180	Verstoring	overige exoten	b	1	0.9333
+567473_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+567473_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 567473_2180_2020-09-25	2180	Verstoring	verruiging	zb	0	-0.0647
 567473_2180_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 57521_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.7131
@@ -3012,6 +3130,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 606261_2180_2020-09-07	2180	Verstoring	invasieve exoten	b	1	1
 606261_2180_2020-09-07	2180	Structuur	minimum structuurareaal	zb	0	-1
 606261_2180_2020-09-07	2180	Verstoring	overige exoten	b	1	0.7667
+606261_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+606261_2180_2020-09-07	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 606261_2180_2020-09-07	2180	Verstoring	verruiging	zb	1	0.7357
 606261_2180_2020-09-07	2180	Structuur	verticale structuur	b	NA	NA
 6094133_2021-08-12	2190_mp	Verstoring	invasieve exoten	zb	1	1
@@ -3104,6 +3224,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 648369_2180_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 648369_2180_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 648369_2180_2020-09-25	2180	Verstoring	overige exoten	b	1	1
+648369_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+648369_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 648369_2180_2020-09-25	2180	Verstoring	verruiging	zb	0	-0.7714
 648369_2180_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 64949_2020-07-09	2160	Structuur	horizontale structuur	b	1	0
@@ -3221,6 +3343,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 764081_2022-09-08	2180	Verstoring	invasieve exoten	b	1	1
 764081_2022-09-08	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 764081_2022-09-08	2180	Verstoring	overige exoten	b	0	-0.4571
+764081_2022-09-08	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+764081_2022-09-08	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 764081_2022-09-08	2180	Verstoring	verruiging	zb	1	1
 764081_2022-09-08	2180	Structuur	verticale structuur	b	NA	NA
 776369_2022-09-30	2160	Structuur	horizontale structuur	b	1	0.3632
@@ -3414,6 +3538,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 940085_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 940085_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.9878
 940085_2022-08-04	2180	Verstoring	overige exoten	b	1	1
+940085_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+940085_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 940085_2022-08-04	2180	Verstoring	verruiging	zb	1	0.8347
 940085_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 945969_2022-09-27	2160	Structuur	horizontale structuur	b	1	0.0097
@@ -3429,6 +3555,8 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 959925_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 959925_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.9312
 959925_2022-08-01	2180	Verstoring	overige exoten	b	1	0.9667
+959925_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+959925_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 959925_2022-08-01	2180	Verstoring	verruiging	zb	1	1
 959925_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 96433_2021-08-23	2120	Structuur	(korst)moslaag	zb	1	1
@@ -3499,6 +3627,8 @@ bd_01_2022-06-30	2180	Structuur	horizontale structuur	b	NA	NA
 bd_01_2022-06-30	2180	Verstoring	invasieve exoten	b	1	1
 bd_01_2022-06-30	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 bd_01_2022-06-30	2180	Verstoring	overige exoten	b	0	-0.5757
+bd_01_2022-06-30	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+bd_01_2022-06-30	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 bd_01_2022-06-30	2180	Verstoring	verruiging	zb	1	0.2667
 bd_01_2022-06-30	2180	Structuur	verticale structuur	b	NA	NA
 bd_02_2022-08-01	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3509,6 +3639,8 @@ bd_02_2022-08-01	2180	Structuur	horizontale structuur	b	NA	NA
 bd_02_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 bd_02_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.9198
 bd_02_2022-08-01	2180	Verstoring	overige exoten	b	0	-0.232
+bd_02_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+bd_02_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.75
 bd_02_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9337
 bd_02_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 bd_03_2022-08-01	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3519,6 +3651,8 @@ bd_03_2022-08-01	2180	Structuur	horizontale structuur	b	NA	NA
 bd_03_2022-08-01	2180	Verstoring	invasieve exoten	b	1	1
 bd_03_2022-08-01	2180	Structuur	minimum structuurareaal	zb	0	-0.4887
 bd_03_2022-08-01	2180	Verstoring	overige exoten	b	1	1
+bd_03_2022-08-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+bd_03_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 bd_03_2022-08-01	2180	Verstoring	verruiging	zb	1	0.9667
 bd_03_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
 BD_06_2180_2020-09-28	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3529,6 +3663,8 @@ BD_06_2180_2020-09-28	2180	Structuur	horizontale structuur	b	NA	NA
 BD_06_2180_2020-09-28	2180	Verstoring	invasieve exoten	b	1	1
 BD_06_2180_2020-09-28	2180	Structuur	minimum structuurareaal	zb	0	-0.8438
 BD_06_2180_2020-09-28	2180	Verstoring	overige exoten	b	1	0.9333
+BD_06_2180_2020-09-28	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+BD_06_2180_2020-09-28	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 BD_06_2180_2020-09-28	2180	Verstoring	verruiging	zb	0	-0.01
 BD_06_2180_2020-09-28	2180	Structuur	verticale structuur	b	NA	NA
 bd_11_2021-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
@@ -3584,6 +3720,8 @@ Ca_04_2180_2020-09-17	2180	Structuur	horizontale structuur	b	NA	NA
 Ca_04_2180_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 Ca_04_2180_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-1
 Ca_04_2180_2020-09-17	2180	Verstoring	overige exoten	b	1	1
+Ca_04_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+Ca_04_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_04_2180_2020-09-17	2180	Verstoring	verruiging	zb	1	1
 Ca_04_2180_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
 ca_05_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7631
@@ -3602,6 +3740,8 @@ Ca_06_2180_2020-09-17	2180	Structuur	horizontale structuur	b	NA	NA
 Ca_06_2180_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 Ca_06_2180_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-0.6818
 Ca_06_2180_2020-09-17	2180	Verstoring	overige exoten	b	1	1
+Ca_06_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+Ca_06_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_06_2180_2020-09-17	2180	Verstoring	verruiging	zb	1	0.9007
 Ca_06_2180_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
 ca_07_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.1079
@@ -3652,6 +3792,8 @@ Ca_12_2020-09-17	2180	Structuur	horizontale structuur	b	NA	NA
 Ca_12_2020-09-17	2180	Verstoring	invasieve exoten	b	1	1
 Ca_12_2020-09-17	2180	Structuur	minimum structuurareaal	zb	0	-0.6818
 Ca_12_2020-09-17	2180	Verstoring	overige exoten	b	1	1
+Ca_12_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+Ca_12_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_12_2020-09-17	2180	Verstoring	verruiging	zb	1	1
 Ca_12_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
 ca_13_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6911
@@ -3838,6 +3980,8 @@ ha_02_2022-08-05	2180	Structuur	horizontale structuur	b	NA	NA
 ha_02_2022-08-05	2180	Verstoring	invasieve exoten	b	1	1
 ha_02_2022-08-05	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 ha_02_2022-08-05	2180	Verstoring	overige exoten	b	1	1
+ha_02_2022-08-05	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+ha_02_2022-08-05	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ha_02_2022-08-05	2180	Verstoring	verruiging	zb	0	-0.1515
 ha_02_2022-08-05	2180	Structuur	verticale structuur	b	NA	NA
 ha_14_2022-08-05	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3848,6 +3992,8 @@ ha_14_2022-08-05	2180	Structuur	horizontale structuur	b	NA	NA
 ha_14_2022-08-05	2180	Verstoring	invasieve exoten	b	1	1
 ha_14_2022-08-05	2180	Structuur	minimum structuurareaal	zb	0	-0.1035
 ha_14_2022-08-05	2180	Verstoring	overige exoten	b	1	1
+ha_14_2022-08-05	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+ha_14_2022-08-05	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ha_14_2022-08-05	2180	Verstoring	verruiging	zb	0	-0.3
 ha_14_2022-08-05	2180	Structuur	verticale structuur	b	NA	NA
 hb_01_2021-08-23	2160	Structuur	horizontale structuur	b	1	0.3632
@@ -3881,6 +4027,8 @@ hs_09_2022-09-02	2180	Structuur	horizontale structuur	b	NA	NA
 hs_09_2022-09-02	2180	Verstoring	invasieve exoten	b	1	1
 hs_09_2022-09-02	2180	Structuur	minimum structuurareaal	zb	0	-0.4175
 hs_09_2022-09-02	2180	Verstoring	overige exoten	b	1	1
+hs_09_2022-09-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+hs_09_2022-09-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.625
 hs_09_2022-09-02	2180	Verstoring	verruiging	zb	1	0.8667
 hs_09_2022-09-02	2180	Structuur	verticale structuur	b	NA	NA
 hs_12_2021-08-19	2160	Structuur	horizontale structuur	b	1	0
@@ -3917,6 +4065,8 @@ KD_05_2180_2020-09-21	2180	Structuur	horizontale structuur	b	NA	NA
 KD_05_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 KD_05_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 KD_05_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	1
+KD_05_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+KD_05_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 KD_05_2180_2020-09-21	2180	Verstoring	verruiging	zb	0	-0.2759
 KD_05_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 nd_03_2021-08-25	2160	Structuur	horizontale structuur	b	1	0.134
@@ -3947,6 +4097,8 @@ OH_01_2180_2020-09-21	2180	Structuur	horizontale structuur	b	NA	NA
 OH_01_2180_2020-09-21	2180	Verstoring	invasieve exoten	b	1	1
 OH_01_2180_2020-09-21	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 OH_01_2180_2020-09-21	2180	Verstoring	overige exoten	b	1	1
+OH_01_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+OH_01_2180_2020-09-21	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 OH_01_2180_2020-09-21	2180	Verstoring	verruiging	zb	1	0.2803
 OH_01_2180_2020-09-21	2180	Structuur	verticale structuur	b	NA	NA
 OH_02_2020-09-25	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3957,6 +4109,8 @@ OH_02_2020-09-25	2180	Structuur	horizontale structuur	b	NA	NA
 OH_02_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 OH_02_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 OH_02_2020-09-25	2180	Verstoring	overige exoten	b	1	1
+OH_02_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+OH_02_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 OH_02_2020-09-25	2180	Verstoring	verruiging	zb	1	0.9667
 OH_02_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 OH_03_2020-09-25	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -3967,6 +4121,8 @@ OH_03_2020-09-25	2180	Structuur	horizontale structuur	b	NA	NA
 OH_03_2020-09-25	2180	Verstoring	invasieve exoten	b	1	1
 OH_03_2020-09-25	2180	Structuur	minimum structuurareaal	zb	0	-0.2615
 OH_03_2020-09-25	2180	Verstoring	overige exoten	b	1	1
+OH_03_2020-09-25	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+OH_03_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 OH_03_2020-09-25	2180	Verstoring	verruiging	zb	1	0.7047
 OH_03_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
 oh_08_2021-08-26	2160	Structuur	horizontale structuur	b	1	0.134
@@ -4108,6 +4264,8 @@ wz_08_2022-09-06	2180	Structuur	horizontale structuur	b	NA	NA
 wz_08_2022-09-06	2180	Verstoring	invasieve exoten	b	1	1
 wz_08_2022-09-06	2180	Structuur	minimum structuurareaal	zb	1	0.1983
 wz_08_2022-09-06	2180	Verstoring	overige exoten	b	0	-0.8571
+wz_08_2022-09-06	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+wz_08_2022-09-06	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 wz_08_2022-09-06	2180	Verstoring	verruiging	zb	0	-0.9771
 wz_08_2022-09-06	2180	Structuur	verticale structuur	b	NA	NA
 wz_10_2020-06-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
@@ -4157,6 +4315,8 @@ WZ_23_2180_2020-09-22	2180	Structuur	horizontale structuur	b	NA	NA
 WZ_23_2180_2020-09-22	2180	Verstoring	invasieve exoten	b	1	1
 WZ_23_2180_2020-09-22	2180	Structuur	minimum structuurareaal	zb	0	-1
 WZ_23_2180_2020-09-22	2180	Verstoring	overige exoten	b	1	1
+WZ_23_2180_2020-09-22	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+WZ_23_2180_2020-09-22	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 WZ_23_2180_2020-09-22	2180	Verstoring	verruiging	zb	0	-0.3277
 WZ_23_2180_2020-09-22	2180	Structuur	verticale structuur	b	NA	NA
 WZ_24_2160_2020-09-22	2160	Structuur	horizontale structuur	b	0	-1
@@ -4187,6 +4347,8 @@ ZW_04_2180_2020-09-01	2180	Structuur	horizontale structuur	b	NA	NA
 ZW_04_2180_2020-09-01	2180	Verstoring	invasieve exoten	b	1	1
 ZW_04_2180_2020-09-01	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 ZW_04_2180_2020-09-01	2180	Verstoring	overige exoten	b	1	1
+ZW_04_2180_2020-09-01	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+ZW_04_2180_2020-09-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ZW_04_2180_2020-09-01	2180	Verstoring	verruiging	zb	0	-0.0647
 ZW_04_2180_2020-09-01	2180	Structuur	verticale structuur	b	NA	NA
 ZW_05_2020-09-14	2160	Structuur	horizontale structuur	b	0	-1
@@ -4207,6 +4369,8 @@ zw_10_2180_2020-09-10	2180	Structuur	horizontale structuur	b	NA	NA
 zw_10_2180_2020-09-10	2180	Verstoring	invasieve exoten	b	1	1
 zw_10_2180_2020-09-10	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 zw_10_2180_2020-09-10	2180	Verstoring	overige exoten	b	1	1
+zw_10_2180_2020-09-10	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+zw_10_2180_2020-09-10	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 zw_10_2180_2020-09-10	2180	Verstoring	verruiging	zb	1	0.7667
 zw_10_2180_2020-09-10	2180	Structuur	verticale structuur	b	NA	NA
 zw_11_2022-08-02	2180	Structuur	aandeel dood hout	b	NA	NA
@@ -4217,6 +4381,8 @@ zw_11_2022-08-02	2180	Structuur	horizontale structuur	b	NA	NA
 zw_11_2022-08-02	2180	Verstoring	invasieve exoten	b	1	1
 zw_11_2022-08-02	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 zw_11_2022-08-02	2180	Verstoring	overige exoten	b	1	1
+zw_11_2022-08-02	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+zw_11_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 zw_11_2022-08-02	2180	Verstoring	verruiging	zb	1	0.9667
 zw_11_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
 zw_15_2021-08-05	2160	Structuur	horizontale structuur	b	0	-1
@@ -4237,6 +4403,8 @@ ZW_17_2020-09-14	2180	Structuur	horizontale structuur	b	NA	NA
 ZW_17_2020-09-14	2180	Verstoring	invasieve exoten	b	1	1
 ZW_17_2020-09-14	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 ZW_17_2020-09-14	2180	Verstoring	overige exoten	b	1	1
+ZW_17_2020-09-14	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+ZW_17_2020-09-14	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 ZW_17_2020-09-14	2180	Verstoring	verruiging	zb	1	0.7667
 ZW_17_2020-09-14	2180	Structuur	verticale structuur	b	NA	NA
 ZW_21_2020-09-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9798
@@ -4260,6 +4428,8 @@ zw_28_2022-08-04	2180	Structuur	horizontale structuur	b	NA	NA
 zw_28_2022-08-04	2180	Verstoring	invasieve exoten	b	1	1
 zw_28_2022-08-04	2180	Structuur	minimum structuurareaal	zb	0	-0.3904
 zw_28_2022-08-04	2180	Verstoring	overige exoten	b	1	0
+zw_28_2022-08-04	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	NA
+zw_28_2022-08-04	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 zw_28_2022-08-04	2180	Verstoring	verruiging	zb	1	0.2267
 zw_28_2022-08-04	2180	Structuur	verticale structuur	b	NA	NA
 ZW_31_2020-09-04	2190_mp	Verstoring	invasieve exoten	zb	1	1

@@ -1,0 +1,37 @@
+..generic:
+  git2rdata: 0.5.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - habitattype
+  - type_resultaat
+  - sbzh
+  - habitatsubtype
+  - schaal
+  - mcnemar_p_value
+  hash: dd6b2ed26eab72e387fb50c01d8d342bff6fde08
+  data_hash: f1ee5355c3862cc1bcf12ea7edcc2383b56b5815
+schaal:
+  class: character
+versie:
+  class: character
+type_resultaat:
+  class: character
+habitattype:
+  class: character
+sbzh:
+  class: character
+habitatsubtype:
+  class: character
+trend_local:
+  class: character
+'n':
+  class: integer
+n_adj:
+  class: numeric
+  digits: 6
+mcnemar_p_value:
+  class: numeric
+  digits: 6
+effect:
+  class: character

@@ -1,24 +1,24 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	klasse
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	-0.023633138492571	-0.118270820889405	0.0710045439042629	9
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	0	-0.252372264832264	0.252372264832264	10
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	exoten	b	0.104858893233808	-0.137245086959102	0.346962873426718	10
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	0	-0.252372264832264	0.252372264832264	10
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	0.0908800979103539	-0.149322966206184	0.331083162026892	10
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	-0.0236331	-0.118271	0.0710045	9
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	0	-0.252372	0.252372	10
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	exoten	b	0.104859	-0.137245	0.346963	10
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	0	-0.252372	0.252372	10
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	0.0908801	-0.149323	0.331083	10
 Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	0	0	0	4
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.0607952456505856	-0.219378814268998	0.0977883229678266	9
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	0.010205495236545	-0.0965270134022296	0.11693800387532	8
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.0404200440203679	-0.20371432090692	0.284554408947656	10
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.0119604513276585	-0.0177099122769618	0.0416308149322788	4
-Vlaanderen	sbzh	2120	Binnen	NA	Structuur	(korst)moslaag	zb	-0.029155	-0.13564512497691	0.0773351249769099	9
-Vlaanderen	sbzh	2120	Binnen	NA	Structuur	dynamiek	zb	0	-0.284386690043125	0.284386690043125	10
-Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	exoten	b	0.04618	-0.219813787925025	0.312173787925025	10
-Vlaanderen	sbzh	2120	Binnen	NA	Structuur	horizontale structuur	b	0	-0.284386690043125	0.284386690043125	10
-Vlaanderen	sbzh	2120	Binnen	NA	Structuur	kruidlaag	zb	0.14604	-0.118565681417368	0.410645681417368	10
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.0607952	-0.219379	0.0977883	9
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	0.0102055	-0.096527	0.116938	8
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.04042	-0.203714	0.284554	10
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.0119605	-0.0177099	0.0416308	4
+Vlaanderen	sbzh	2120	Binnen	NA	Structuur	(korst)moslaag	zb	-0.029155	-0.135645	0.0773351	9
+Vlaanderen	sbzh	2120	Binnen	NA	Structuur	dynamiek	zb	0	-0.284387	0.284387	10
+Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	exoten	b	0.04618	-0.219814	0.312174	10
+Vlaanderen	sbzh	2120	Binnen	NA	Structuur	horizontale structuur	b	0	-0.284387	0.284387	10
+Vlaanderen	sbzh	2120	Binnen	NA	Structuur	kruidlaag	zb	0.14604	-0.118566	0.410646	10
 Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	rijshout	b	0	0	0	4
-Vlaanderen	sbzh	2120	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.075	-0.253096809865338	0.103096809865338	10
-Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	structuurverstoring	b	0.01259	-0.10765671495691	0.13283671495691	10
-Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	vergrassing	zb	0.08379	-0.187639711189573	0.355219711189572	10
-Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	verruiging	zb	0.014755	-0.0185542561176872	0.0480642561176872	4
+Vlaanderen	sbzh	2120	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.075	-0.253097	0.103097	10
+Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	structuurverstoring	b	0.01259	-0.107657	0.132837	10
+Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	vergrassing	zb	0.08379	-0.18764	0.35522	10
+Vlaanderen	sbzh	2120	Binnen	NA	Verstoring	verruiging	zb	0.014755	-0.0185543	0.0480643	4
 Vlaanderen	sbzh	2120	Buiten	NA	Structuur	(korst)moslaag	zb	0	NA	NA	NA
 Vlaanderen	sbzh	2120	Buiten	NA	Structuur	dynamiek	zb	0	NA	NA	NA
 Vlaanderen	sbzh	2120	Buiten	NA	Verstoring	exoten	b	0.356	NA	NA	NA
@@ -37,42 +37,42 @@ Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	Vegetatie	sleutelsoorten
 Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	Verstoring	verbossing	b	0	NA	NA	NA
 Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	Verstoring	vergrassing	zb	0.7142	NA	NA	NA
 Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	Verstoring	verruiging	zb	0	NA	NA	NA
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0.0389823529411765	-0.0777435995594116	0.155708305441765	8
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0.0389824	-0.0777436	0.155708	8
 Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	overbetreding	b	0.0117647058823529	-0.00402259136338419	0.0275520031280901	4
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	overige exoten	b	-0.0176470588235294	-0.0427748292039404	0.00748071155688152	4
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Vegetatie	sleutelsoorten	b	0.169117647058824	0.0522578731954242	0.285977420922223	2
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	verbossing	b	-0.012	-0.0972331600755867	0.0732331600755867	4
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	vergrassing	zb	0.0326588235294118	-0.115543564291407	0.180861211350231	10
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	verruiging	zb	-0.0399882352941177	-0.0956124514123531	0.0156359808241178	4
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	overbetreding	b	0.0117647	-0.00402259	0.027552	4
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	overige exoten	b	-0.0176471	-0.0427748	0.00748071	4
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Vegetatie	sleutelsoorten	b	0.169118	0.0522579	0.285977	2
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	verbossing	b	-0.012	-0.0972332	0.0732332	4
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	vergrassing	zb	0.0326588	-0.115544	0.180861	10
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	Verstoring	verruiging	zb	-0.0399882	-0.0956125	0.015636	4
 Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_had	Verstoring	invasief mos	zb	0	NA	NA	NA
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd	Verstoring	overige exoten	b	-0.0176470588235294	-0.0427748292039404	0.00748071155688152	4
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Vegetatie	bedekking sleutelsoorten	b	0.0327979642150001	-0.0719186815317463	0.137514609961747	8
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd	Verstoring	overige exoten	b	-0.0176471	-0.0427748	0.00748071	4
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Vegetatie	bedekking sleutelsoorten	b	0.032798	-0.0719187	0.137515	8
 Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	overbetreding	b	0.00989828405462506	-0.00438344786991832	0.0241800159791684	4
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Vegetatie	sleutelsoorten	b	0.142287833285235	0.03358034217885	0.25099532439162	2
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	verbossing	b	-0.0100962497357176	-0.0864271194531194	0.0662346199816843	4
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	vergrassing	zb	0.140782506431516	-0.0374915625739277	0.319056575436959	8
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	verruiging	zb	-0.0336442675016706	-0.0839276936637066	0.0166391586603654	4
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	overbetreding	b	0.00989828	-0.00438345	0.02418	4
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Vegetatie	sleutelsoorten	b	0.142288	0.0335803	0.250995	2
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	verbossing	b	-0.0100962	-0.0864271	0.0662346	4
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	vergrassing	zb	0.140783	-0.0374916	0.319057	8
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	Verstoring	verruiging	zb	-0.0336443	-0.0839277	0.0166392	4
 Vlaanderen	sbzh	2130	Binnen	2130_had	Verstoring	invasief mos	zb	0	NA	NA	NA
-Vlaanderen	sbzh	2130	Binnen	2130_hd	Verstoring	overige exoten	b	-0.0176470588235294	-0.0427748292039404	0.00748071155688152	4
-Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Vegetatie	bedekking sleutelsoorten	b	0.0327979642150001	-0.0719186815317463	0.137514609961747	8
+Vlaanderen	sbzh	2130	Binnen	2130_hd	Verstoring	overige exoten	b	-0.0176471	-0.0427748	0.00748071	4
+Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Vegetatie	bedekking sleutelsoorten	b	0.032798	-0.0719187	0.137515	8
 Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	invasieve exoten	zb	0	0	0	4
-Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	overbetreding	b	0.00989828405462506	-0.00438344786991832	0.0241800159791684	4
-Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Vegetatie	sleutelsoorten	b	0.142287833285235	0.03358034217885	0.25099532439162	2
-Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	verbossing	b	-0.0100962497357176	-0.0864271194531194	0.0662346199816843	4
-Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	vergrassing	zb	0.140782506431516	-0.0374915625739277	0.319056575436959	8
-Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	verruiging	zb	-0.0336442675016706	-0.0839276936637066	0.0166391586603654	4
-Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0.0671285714285714	-0.0883444745869143	0.222601617444057	8
+Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	overbetreding	b	0.00989828	-0.00438345	0.02418	4
+Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Vegetatie	sleutelsoorten	b	0.142288	0.0335803	0.250995	2
+Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	verbossing	b	-0.0100962	-0.0864271	0.0662346	4
+Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	vergrassing	zb	0.140783	-0.0374916	0.319057	8
+Vlaanderen	sbzh	2130	Binnen	2130_hd; 2130_had	Verstoring	verruiging	zb	-0.0336443	-0.0839277	0.0166392	4
+Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0.0671286	-0.0883445	0.222602	8
 Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	0	0	0	4
-Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	0.0476142857142857	-0.122771247474421	0.217999818902993	10
-Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	-0.242485714285714	-0.43816462461247	-0.0468068039589582	6
-Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.199614285714286	-0.0738233012947671	0.473051872723338	8
-Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	invasieve exoten	zb	0.0671285714285714	-0.0883444745869143	0.222601617444057	8
+Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	0.0476143	-0.122771	0.218	10
+Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	-0.242486	-0.438165	-0.0468068	6
+Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.199614	-0.0738233	0.473052	8
+Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	invasieve exoten	zb	0.0671286	-0.0883445	0.222602	8
 Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	overige exoten	b	0	0	0	4
-Vlaanderen	sbzh	2170	Binnen	NA	Vegetatie	sleutelsoorten	b	0.0476142857142857	-0.122771247474421	0.217999818902993	10
-Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	verbossing	b	-0.242485714285714	-0.43816462461247	-0.0468068039589582	6
-Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	verruiging	zb	0.199614285714286	-0.0738233012947671	0.473051872723338	8
+Vlaanderen	sbzh	2170	Binnen	NA	Vegetatie	sleutelsoorten	b	0.0476143	-0.122771	0.218	10
+Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	verbossing	b	-0.242486	-0.438165	-0.0468068	6
+Vlaanderen	sbzh	2170	Binnen	NA	Verstoring	verruiging	zb	0.199614	-0.0738233	0.473052	8
 Vlaanderen	Habitatsubtype	2190	Binnen & Buiten	2190_mp	Verstoring	invasieve exoten	zb	0	NA	NA	NA
 Vlaanderen	Habitatsubtype	2190	Binnen & Buiten	2190_mp	Vegetatie	sleutelsoorten	b	-0.1667	NA	NA	NA
 Vlaanderen	Habitatsubtype	2190	Binnen & Buiten	2190_mp	Verstoring	verbossing	b	0	NA	NA	NA
@@ -81,10 +81,10 @@ Vlaanderen	Habitatsubtype	2190	Binnen & Buiten	2190_mp	Verstoring	verruiging	zb	
 Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Verstoring	invasieve exoten	zb	0	0	0	4
 Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Vegetatie	sleutelsoorten	b	-0.1667	-0.493432	0.160032	10
 Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Verstoring	verbossing	b	0	0	0	4
-Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Verstoring	verdroging	zb	-0.0219	-0.121468	0.0776680000000001	9
-Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Verstoring	verruiging	zb	0.0163	-0.015648	0.0482480000000001	4
+Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Verstoring	verdroging	zb	-0.0219	-0.121468	0.077668	9
+Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_mp	Verstoring	verruiging	zb	0.0163	-0.015648	0.048248	4
 Vlaanderen	sbzh	2190	Binnen	2190_mp	Verstoring	invasieve exoten	zb	0	0	0	4
 Vlaanderen	sbzh	2190	Binnen	2190_mp	Vegetatie	sleutelsoorten	b	-0.1667	-0.493432	0.160032	10
 Vlaanderen	sbzh	2190	Binnen	2190_mp	Verstoring	verbossing	b	0	0	0	4
-Vlaanderen	sbzh	2190	Binnen	2190_mp	Verstoring	verdroging	zb	-0.0219	-0.121468	0.0776680000000001	9
-Vlaanderen	sbzh	2190	Binnen	2190_mp	Verstoring	verruiging	zb	0.0163	-0.015648	0.0482480000000001	4
+Vlaanderen	sbzh	2190	Binnen	2190_mp	Verstoring	verdroging	zb	-0.0219	-0.121468	0.077668	9
+Vlaanderen	sbzh	2190	Binnen	2190_mp	Verstoring	verruiging	zb	0.0163	-0.015648	0.048248	4

@@ -1,0 +1,4 @@
+schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	trend_local	n	n_adj	mcnemar_p_value	effect
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	gunstig - gunstig	3	2.63051	0.34907	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	ongunstig - gunstig	1	0.876836	0.34907	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	ongunstig - ongunstig	42	42.4927	0.34907	geen significant verschil

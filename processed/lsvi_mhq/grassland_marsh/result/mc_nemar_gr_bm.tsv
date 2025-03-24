@@ -1,0 +1,21 @@
+schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	trend_local	n	n_adj	mcnemar_p_value	effect
+Vlaanderen	Versie 3	Habitattype	1330	Binnen & Buiten	1330_hpr	gunstig - gunstig	6	11.8483	0.417182	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	1330	Binnen & Buiten	1330_hpr	gunstig - ongunstig	2	3.94943	0.417182	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	1330	Binnen & Buiten	1330_hpr	ongunstig - gunstig	1	1.97472	0.417182	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	1330	Binnen & Buiten	1330_hpr; 1330_da	ongunstig - ongunstig	73	64.2275	0.417182	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6230	Binnen & Buiten	6230_ha; 6230_hmo	ongunstig - ongunstig	10	9.7456	0.0593933	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6230	Binnen & Buiten	6230_ha; 6230_hn; 6230_hmo	gunstig - ongunstig	3	2.28079	0.0593933	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_ha; 6230_hn	ongunstig - gunstig	10	8.45918	0.0593933	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	gunstig - gunstig	17	19.5144	0.0593933	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6410	Binnen & Buiten	6410_mo	gunstig - gunstig	1	0.894249	0.834353	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6410	Binnen & Buiten	6410_mo	gunstig - ongunstig	4	4.15863	0.834353	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6410	Binnen & Buiten	6410_mo	ongunstig - gunstig	4	3.577	0.834353	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6410	Binnen & Buiten	6410_mo	ongunstig - ongunstig	24	24.3701	0.834353	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	6510	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus	gunstig - gunstig	7	14.3224	0.0344091	toename habitatkwaliteit
+Vlaanderen	Versie 3	Habitattype	6510	Binnen & Buiten	6510_hu; 6510_hus; 6510_huk; 6510_hua	ongunstig - ongunstig	30	34.5852	0.0344091	toename habitatkwaliteit
+Vlaanderen	Versie 3	Habitattype	6510	Binnen & Buiten	6510_hua; 6510_huk; 6510_hu	ongunstig - gunstig	16	6.36279	0.0344091	toename habitatkwaliteit
+Vlaanderen	Versie 3	Habitattype	6510	Binnen & Buiten	6510_huk; 6510_hu	gunstig - ongunstig	3	0.729575	0.0344091	toename habitatkwaliteit
+Vlaanderen	Versie 3	Habitattype	7140	Binnen & Buiten	7140_meso	gunstig - gunstig	2	2.24361	0.214781	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	ongunstig - gunstig	7	6.56492	0.214781	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	ongunstig - ongunstig	14	14.4175	0.214781	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	7140	Binnen & Buiten	7140_oli; 7140_meso	gunstig - ongunstig	3	2.77393	0.214781	geen significant verschil

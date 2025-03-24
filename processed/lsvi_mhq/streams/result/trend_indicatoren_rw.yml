@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
@@ -10,8 +10,8 @@
   - habitatsubtype
   - criterium
   - indicator
-  hash: 57fa029dd3b0a7cab1ec5e538458d668ca394552
-  data_hash: 238a743098c370f61f5a07a4c738faa110088e98
+  hash: 8239d44c3218a3b59c49b587aafdbf4b51c02a96
+  data_hash: b445fbb100b188acbd46f5d7d1d4f51d38ac1b1b
 versie:
   class: character
 schaal:
@@ -20,8 +20,10 @@ periode:
   class: character
 year_min:
   class: numeric
+  digits: 6
 year_max:
   class: numeric
+  digits: 6
 type_resultaat:
   class: character
 habitattype:
@@ -42,10 +44,13 @@ parameter:
   class: character
 mean:
   class: numeric
+  digits: 6
 llci_0.95:
   class: numeric
+  digits: 6
 ulci_0.95:
   class: numeric
+  digits: 6
 klasse:
   class: factor
   labels:

@@ -1,77 +1,77 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	klasse
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Structuur	dwergstruiken	b	-0.269008333333333	-0.520541926814754	-0.0174747398519131	6
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	0.218983333333333	-0.124153233759439	0.562119900426106	8
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0.201854166666667	-0.0399530182252057	0.443661351558539	8
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Structuur	ouderdomsstructuur Struikheide	b	0.25	-0.000269420043072122	0.500269420043072	8
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.0520833333333333	-0.22899932417082	0.124832657504153	4
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	verbossing	b	0.00648333333333333	-0.153981278662929	0.166947945329596	4
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.627916666666667	0.40588576663779	0.849947566695543	1
-Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	verruiging	zb	-0.0807875	-0.174937124890557	0.0133621248905571	4
-Vlaanderen	sbzh	2310	Binnen	NA	Structuur	dwergstruiken	b	-0.269008333333333	-0.520541926814754	-0.0174747398519131	6
-Vlaanderen	sbzh	2310	Binnen	NA	Structuur	horizontale structuur	zb	0.218983333333333	-0.124153233759439	0.562119900426106	8
-Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	invasieve exoten	zb	0.201854166666667	-0.0399530182252057	0.443661351558539	8
-Vlaanderen	sbzh	2310	Binnen	NA	Structuur	ouderdomsstructuur Struikheide	b	0.25	-0.000269420043072122	0.500269420043072	8
-Vlaanderen	sbzh	2310	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.0520833333333333	-0.22899932417082	0.124832657504153	4
-Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	verbossing	b	0.00648333333333333	-0.153981278662929	0.166947945329596	4
-Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	vergrassing	zb	0.627916666666667	0.40588576663779	0.849947566695543	1
-Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	verruiging	zb	-0.0807875	-0.174937124890557	0.0133621248905571	4
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Structuur	horizontale structuur	zb	0.414236758364482	0.0317058144021708	0.796767702326793	2
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Verstoring	invasieve exoten	zb	-0.274800474402865	-0.574397205707611	0.0247962569018799	9
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Structuur	naakte bodem	zb	-0.203604030970723	-0.475097085349032	0.0678890234075858	9
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Vegetatie	sleutelsoorten	b	0.151509823626459	0.0139688042513647	0.289050843001553	2
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Verstoring	verbossing	b	-0.0796832140223192	-0.26956003349772	0.110193605453082	9
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Verstoring	vergrassing	zb	0.631820785622674	0.295826216685461	0.967815354559886	1
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Structuur	éénjarigen	zb	0.042326159681926	NA	NA	NA
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Verstoring	invasieve exoten	zb	-0.00429483298582673	NA	NA	NA
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Structuur	dwergstruiken	b	-0.269008	-0.520542	-0.0174747	6
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	0.218983	-0.124153	0.56212	8
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	0.201854	-0.039953	0.443661	8
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Structuur	ouderdomsstructuur Struikheide	b	0.25	-0.00026942	0.500269	8
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.0520833	-0.228999	0.124833	4
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	verbossing	b	0.00648333	-0.153981	0.166948	4
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.627917	0.405886	0.849948	1
+Vlaanderen	Habitattype	2310	Binnen & Buiten	NA	Verstoring	verruiging	zb	-0.0807875	-0.174937	0.0133621	4
+Vlaanderen	sbzh	2310	Binnen	NA	Structuur	dwergstruiken	b	-0.269008	-0.520542	-0.0174747	6
+Vlaanderen	sbzh	2310	Binnen	NA	Structuur	horizontale structuur	zb	0.218983	-0.124153	0.56212	8
+Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	invasieve exoten	zb	0.201854	-0.039953	0.443661	8
+Vlaanderen	sbzh	2310	Binnen	NA	Structuur	ouderdomsstructuur Struikheide	b	0.25	-0.00026942	0.500269	8
+Vlaanderen	sbzh	2310	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.0520833	-0.228999	0.124833	4
+Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	verbossing	b	0.00648333	-0.153981	0.166948	4
+Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	vergrassing	zb	0.627917	0.405886	0.849948	1
+Vlaanderen	sbzh	2310	Binnen	NA	Verstoring	verruiging	zb	-0.0807875	-0.174937	0.0133621	4
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Structuur	horizontale structuur	zb	0.414237	0.0317058	0.796768	2
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Verstoring	invasieve exoten	zb	-0.2748	-0.574397	0.0247963	9
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Structuur	naakte bodem	zb	-0.203604	-0.475097	0.067889	9
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Vegetatie	sleutelsoorten	b	0.15151	0.0139688	0.289051	2
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Verstoring	verbossing	b	-0.0796832	-0.26956	0.110194	9
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_bu	Verstoring	vergrassing	zb	0.631821	0.295826	0.967815	1
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Structuur	éénjarigen	zb	0.0423262	NA	NA	NA
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Verstoring	invasieve exoten	zb	-0.00429483	NA	NA	NA
 Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Vegetatie	sleutelsoorten	b	0	NA	NA	NA
-Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Verstoring	verbossing	b	-0.170114631626753	NA	NA	NA
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu	Structuur	horizontale structuur	zb	0.414236758364482	0.0317058144021708	0.796767702326793	2
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu	Structuur	naakte bodem	zb	-0.203604030970723	-0.475097085349032	0.0678890234075858	9
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu	Verstoring	vergrassing	zb	0.631820785622674	0.295826216685461	0.967815354559886	1
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu; 2330_dw	Verstoring	invasieve exoten	zb	-0.163495063546548	-0.478970146602396	0.151980019509301	9
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu; 2330_dw	Vegetatie	sleutelsoorten	b	0.133571942975279	0.0130668677436384	0.254077018206919	2
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu; 2330_dw	Verstoring	verbossing	b	-0.0970867183145214	-0.266307158645255	0.0721337220162125	9
-Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_dw	Structuur	éénjarigen	zb	0.042326159681926	-0.0900718403180739	0.174724159681926	4
-Vlaanderen	sbzh	2330	Binnen	2330_bu	Structuur	horizontale structuur	zb	0.6037	0.207985998673453	0.999414001326547	2
-Vlaanderen	sbzh	2330	Binnen	2330_bu	Structuur	naakte bodem	zb	-0.0474066666666666	-0.213252538880009	0.118439205546676	4
-Vlaanderen	sbzh	2330	Binnen	2330_bu	Verstoring	vergrassing	zb	0.74602	0.359356017142739	1.13268398285726	1
-Vlaanderen	sbzh	2330	Binnen	2330_bu; 2330_dw	Verstoring	invasieve exoten	zb	-0.2465963822142	-0.611774142822392	0.118581378393992	9
-Vlaanderen	sbzh	2330	Binnen	2330_bu; 2330_dw	Vegetatie	sleutelsoorten	b	0.173249407402322	0.0299735407713554	0.316525274033288	2
-Vlaanderen	sbzh	2330	Binnen	2330_bu; 2330_dw	Verstoring	verbossing	b	-0.0541930777065161	-0.249842668809043	0.141456513396011	4
+Vlaanderen	Habitatsubtype	2330	Binnen & Buiten	2330_dw	Verstoring	verbossing	b	-0.170115	NA	NA	NA
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu	Structuur	horizontale structuur	zb	0.414237	0.0317058	0.796768	2
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu	Structuur	naakte bodem	zb	-0.203604	-0.475097	0.067889	9
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu	Verstoring	vergrassing	zb	0.631821	0.295826	0.967815	1
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu; 2330_dw	Verstoring	invasieve exoten	zb	-0.163495	-0.47897	0.15198	9
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu; 2330_dw	Vegetatie	sleutelsoorten	b	0.133572	0.0130669	0.254077	2
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_bu; 2330_dw	Verstoring	verbossing	b	-0.0970867	-0.266307	0.0721337	9
+Vlaanderen	Habitattype	2330	Binnen & Buiten	2330_dw	Structuur	éénjarigen	zb	0.0423262	-0.0900718	0.174724	4
+Vlaanderen	sbzh	2330	Binnen	2330_bu	Structuur	horizontale structuur	zb	0.6037	0.207986	0.999414	2
+Vlaanderen	sbzh	2330	Binnen	2330_bu	Structuur	naakte bodem	zb	-0.0474067	-0.213253	0.118439	4
+Vlaanderen	sbzh	2330	Binnen	2330_bu	Verstoring	vergrassing	zb	0.74602	0.359356	1.13268	1
+Vlaanderen	sbzh	2330	Binnen	2330_bu; 2330_dw	Verstoring	invasieve exoten	zb	-0.246596	-0.611774	0.118581	9
+Vlaanderen	sbzh	2330	Binnen	2330_bu; 2330_dw	Vegetatie	sleutelsoorten	b	0.173249	0.0299735	0.316525	2
+Vlaanderen	sbzh	2330	Binnen	2330_bu; 2330_dw	Verstoring	verbossing	b	-0.0541931	-0.249843	0.141457	4
 Vlaanderen	sbzh	2330	Binnen	2330_dw	Structuur	éénjarigen	zb	0.0732	NA	NA	NA
-Vlaanderen	sbzh	2330	Buiten	2330_bu	Structuur	horizontale structuur	zb	-0.17775	-1.146872	0.791372	10
-Vlaanderen	sbzh	2330	Buiten	2330_bu	Structuur	naakte bodem	zb	-0.69165	-2.243284	0.859984	10
+Vlaanderen	sbzh	2330	Buiten	2330_bu	Structuur	horizontale structuur	zb	-0.17775	-1.14687	0.791372	10
+Vlaanderen	sbzh	2330	Buiten	2330_bu	Structuur	naakte bodem	zb	-0.69165	-2.24328	0.859984	10
 Vlaanderen	sbzh	2330	Buiten	2330_bu	Verstoring	vergrassing	zb	0.275	-0.166	0.716	8
-Vlaanderen	sbzh	2330	Buiten	2330_bu; 2330_dw	Verstoring	invasieve exoten	zb	0.116260832111964	-0.488468103971688	0.720989768195616	10
+Vlaanderen	sbzh	2330	Buiten	2330_bu; 2330_dw	Verstoring	invasieve exoten	zb	0.116261	-0.488468	0.72099	10
 Vlaanderen	sbzh	2330	Buiten	2330_bu; 2330_dw	Vegetatie	sleutelsoorten	b	0	0	0	4
-Vlaanderen	sbzh	2330	Buiten	2330_bu; 2330_dw	Verstoring	verbossing	b	-0.241485736750528	-0.577740306366481	0.0947688328654251	9
+Vlaanderen	sbzh	2330	Buiten	2330_bu; 2330_dw	Verstoring	verbossing	b	-0.241486	-0.57774	0.0947688	9
 Vlaanderen	sbzh	2330	Buiten	2330_dw	Structuur	éénjarigen	zb	-0.0619	NA	NA	NA
-Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Structuur	dwergstruiken	b	-0.17646	-0.387130957787605	0.0342109577876046	9
+Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Structuur	dwergstruiken	b	-0.17646	-0.387131	0.034211	9
 Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	0	0	0	4
-Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Verstoring	verbossing	b	0.004976	-0.169379614538453	0.179331614538453	4
-Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.3052	0.0268797239437988	0.583520276056201	2
-Vlaanderen	sbzh	4010	Binnen	NA	Structuur	dwergstruiken	b	-0.17646	-0.387130957787605	0.0342109577876046	9
+Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Verstoring	verbossing	b	0.004976	-0.16938	0.179332	4
+Vlaanderen	Habitattype	4010	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.3052	0.0268797	0.58352	2
+Vlaanderen	sbzh	4010	Binnen	NA	Structuur	dwergstruiken	b	-0.17646	-0.387131	0.034211	9
 Vlaanderen	sbzh	4010	Binnen	NA	Vegetatie	sleutelsoorten	b	0	0	0	4
-Vlaanderen	sbzh	4010	Binnen	NA	Verstoring	verbossing	b	0.004976	-0.169379614538453	0.179331614538453	4
-Vlaanderen	sbzh	4010	Binnen	NA	Verstoring	vergrassing	zb	0.3052	0.0268797239437988	0.583520276056201	2
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Structuur	dwergstruiken	b	-0.0150284709314614	-0.171839400826099	0.141782458963176	4
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	-0.0183293306668774	-0.199482022166127	0.162823360832372	4
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Structuur	ouderdomsstructuur Struikheide	b	0.17571764108262	0.031162505236677	0.320272776928564	2
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.00155272005695726	-0.222694512360093	0.219589072246178	4
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	verbossing	b	0.116100682799616	-0.0477264029356303	0.279927768534862	8
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.215322681355541	-0.0186761055915745	0.449321468302656	8
-Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.0282123875977109	-0.0538102068766989	0.110234982072121	4
-Vlaanderen	sbzh	4030	Binnen	NA	Structuur	dwergstruiken	b	0.0239290322580645	-0.144797672336306	0.192655736852435	4
-Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	invasieve exoten	zb	-0.018641935483871	-0.225504686156026	0.188220815188285	4
-Vlaanderen	sbzh	4030	Binnen	NA	Structuur	ouderdomsstructuur Struikheide	b	0.17741935483871	0.0164313370668528	0.338407372610567	2
-Vlaanderen	sbzh	4030	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.0645161290322581	-0.2995313645883	0.170499106523783	9
-Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	verbossing	b	0.106593548387097	-0.0749458557721363	0.28813295254633	8
-Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	vergrassing	zb	0.255806451612903	-0.00894887310410347	0.52056177632991	8
-Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	verruiging	zb	0.0397838709677419	-0.053026635890995	0.132594377826479	4
-Vlaanderen	sbzh	4030	Buiten	NA	Structuur	dwergstruiken	b	-0.222233333333333	-0.657810666666667	0.213344	9
-Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	invasieve exoten	zb	-0.0166666666666667	-0.0493333333333334	0.016	4
-Vlaanderen	sbzh	4030	Buiten	NA	Structuur	ouderdomsstructuur Struikheide	b	0.166666666666667	-0.16	0.493333333333333	8
-Vlaanderen	sbzh	4030	Buiten	NA	Vegetatie	sleutelsoorten	b	0.333333333333333	-0.32	0.986666666666667	10
-Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	verbossing	b	0.166666666666667	-0.230740485312817	0.56407381864615	8
-Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	vergrassing	zb	0	-0.0113160652761167	0.0113160652761167	4
-Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	verruiging	zb	-0.0333333333333333	-0.0986666666666666	0.032	4
+Vlaanderen	sbzh	4010	Binnen	NA	Verstoring	verbossing	b	0.004976	-0.16938	0.179332	4
+Vlaanderen	sbzh	4010	Binnen	NA	Verstoring	vergrassing	zb	0.3052	0.0268797	0.58352	2
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Structuur	dwergstruiken	b	-0.0150285	-0.171839	0.141782	4
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	-0.0183293	-0.199482	0.162823	4
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Structuur	ouderdomsstructuur Struikheide	b	0.175718	0.0311625	0.320273	2
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	-0.00155272	-0.222695	0.219589	4
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	verbossing	b	0.116101	-0.0477264	0.279928	8
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	vergrassing	zb	0.215323	-0.0186761	0.449321	8
+Vlaanderen	Habitattype	4030	Binnen & Buiten	NA	Verstoring	verruiging	zb	0.0282124	-0.0538102	0.110235	4
+Vlaanderen	sbzh	4030	Binnen	NA	Structuur	dwergstruiken	b	0.023929	-0.144798	0.192656	4
+Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	invasieve exoten	zb	-0.0186419	-0.225505	0.188221	4
+Vlaanderen	sbzh	4030	Binnen	NA	Structuur	ouderdomsstructuur Struikheide	b	0.177419	0.0164313	0.338407	2
+Vlaanderen	sbzh	4030	Binnen	NA	Vegetatie	sleutelsoorten	b	-0.0645161	-0.299531	0.170499	9
+Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	verbossing	b	0.106594	-0.0749459	0.288133	8
+Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	vergrassing	zb	0.255806	-0.00894887	0.520562	8
+Vlaanderen	sbzh	4030	Binnen	NA	Verstoring	verruiging	zb	0.0397839	-0.0530266	0.132594	4
+Vlaanderen	sbzh	4030	Buiten	NA	Structuur	dwergstruiken	b	-0.222233	-0.657811	0.213344	9
+Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	invasieve exoten	zb	-0.0166667	-0.0493333	0.016	4
+Vlaanderen	sbzh	4030	Buiten	NA	Structuur	ouderdomsstructuur Struikheide	b	0.166667	-0.16	0.493333	8
+Vlaanderen	sbzh	4030	Buiten	NA	Vegetatie	sleutelsoorten	b	0.333333	-0.32	0.986667	10
+Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	verbossing	b	0.166667	-0.23074	0.564074	8
+Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	vergrassing	zb	0	-0.0113161	0.0113161	4
+Vlaanderen	sbzh	4030	Buiten	NA	Verstoring	verruiging	zb	-0.0333333	-0.0986667	0.032	4

@@ -1,11 +1,11 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - ID
   - Habitattype
-  hash: 53b2c528ee3abe2294ecbda3eea1e794cc2e6c1e
+  hash: 06f94fcd08d0f95315867d57c33cd35243f0674c
   data_hash: f6f07638362805bc7bfced3f64eeac245e8f4110
 ID:
   class: character
@@ -24,6 +24,7 @@ subtype_defined:
   class: logical
 type_cover:
   class: numeric
+  digits: 6
 type_cover_all:
   class: character
 is_type_target:
@@ -36,6 +37,7 @@ n_type_target:
   class: integer
 cover_target:
   class: numeric
+  digits: 6
 Habitattype:
   class: character
 link_mhq:

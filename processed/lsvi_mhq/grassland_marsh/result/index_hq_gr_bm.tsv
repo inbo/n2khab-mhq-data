@@ -1,30 +1,30 @@
 schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	index_hq_mean	index_hq_llci_0.95	index_hq_ulci_0.95
-Vlaanderen	Versie 3	Habitatsubtype	1330	Binnen & Buiten	1330_da	67	0.499089552238806	0.465426373925372	0.53275273055224
-Vlaanderen	Versie 3	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	58	0.477613436997668	0.418071871000901	0.537155002994435
-Vlaanderen	Versie 3	Habitattype	1330	Binnen & Buiten	1330_hpr; 1330_da	125	0.487406620213022	0.453280176907746	0.521533063518298
-Vlaanderen	Versie 3	SBZH	1330	Binnen	1330_hpr; 1330_da	110	0.500684557299811	0.466016930612404	0.535352183987217
-Vlaanderen	Versie 3	SBZH	1330	Buiten	1330_hpr	15	0.436493333333333	0.322199928892229	0.550786737774437
-Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_ha	56	0.496507250364449	0.457578361193662	0.535436139535236
-Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_hmo	59	0.574560405307276	0.530593839514989	0.618526971099563
-Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_hn	46	0.637299301782644	0.593190985348695	0.681407618216592
-Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_hnk	4	0.3707016064791	NA	NA
-Vlaanderen	Versie 3	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	165	0.56962652008739	0.544110373637281	0.595142666537499
-Vlaanderen	Versie 3	SBZH	6230	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	127	0.597652542306413	0.567935631834776	0.62736945277805
-Vlaanderen	Versie 3	SBZH	6230	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	38	0.518069489365579	0.470771155417486	0.565367823313672
-Vlaanderen	Versie 3	Habitatsubtype	6410	Binnen & Buiten	6410_mo	96	0.453626282090037	0.427366022629871	0.479886541550204
+Vlaanderen	Versie 3	Habitatsubtype	1330	Binnen & Buiten	1330_da	67	0.49909	0.465426	0.532753
+Vlaanderen	Versie 3	Habitatsubtype	1330	Binnen & Buiten	1330_hpr	58	0.477613	0.418072	0.537155
+Vlaanderen	Versie 3	Habitattype	1330	Binnen & Buiten	1330_hpr; 1330_da	125	0.487407	0.45328	0.521533
+Vlaanderen	Versie 3	SBZH	1330	Binnen	1330_hpr; 1330_da	110	0.500685	0.466017	0.535352
+Vlaanderen	Versie 3	SBZH	1330	Buiten	1330_hpr	15	0.436493	0.3222	0.550787
+Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_ha	56	0.496507	0.457578	0.535436
+Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_hmo	59	0.57456	0.530594	0.618527
+Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_hn	45	0.639026	0.594069	0.683983
+Vlaanderen	Versie 3	Habitatsubtype	6230	Binnen & Buiten	6230_hnk	4	0.370702	NA	NA
+Vlaanderen	Versie 3	Habitattype	6230	Binnen & Buiten	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	164	0.570343	0.544635	0.596051
+Vlaanderen	Versie 3	SBZH	6230	Binnen	6230_hmo; 6230_hn; 6230_ha; 6230_hnk	127	0.597653	0.567936	0.627369
+Vlaanderen	Versie 3	SBZH	6230	Buiten	6230_ha; 6230_hn; 6230_hmo; 6230_hnk	37	0.520104	0.471152	0.569056
+Vlaanderen	Versie 3	Habitatsubtype	6410	Binnen & Buiten	6410_mo	96	0.453626	0.427366	0.479887
 Vlaanderen	Versie 3	Habitatsubtype	6410	Binnen & Buiten	6410_ve	1	0.3756	NA	NA
-Vlaanderen	Versie 3	Habitattype	6410	Binnen & Buiten	6410_mo; 6410_ve	97	0.451483072355096	0.425591370972243	0.47737477373795
-Vlaanderen	Versie 3	SBZH	6410	Binnen	6410_mo; 6410_ve	75	0.452387199710072	0.420901625627784	0.48387277379236
-Vlaanderen	Versie 3	SBZH	6410	Buiten	6410_mo	22	0.448922727272727	0.405908998027633	0.491936456517821
-Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_hu	103	0.218799762459711	0.192915215701346	0.244684309218075
-Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_hua	27	0.386720277752836	0.339446719773868	0.433993835731804
-Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_huk	33	0.17015368918169	0.102766950438095	0.237540427925286
-Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_hus	33	0.250134172602837	0.20417768536561	0.296090659840064
-Vlaanderen	Versie 3	Habitattype	6510	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	196	0.229489718163047	0.209503035069082	0.249476401257012
-Vlaanderen	Versie 3	SBZH	6510	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	137	0.253051810705487	0.227848001509308	0.278255619901666
-Vlaanderen	Versie 3	SBZH	6510	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	59	0.222860475212793	0.186997907705926	0.25872304271966
-Vlaanderen	Versie 3	Habitatsubtype	7140	Binnen & Buiten	7140_meso	56	0.430536218566852	0.395436994523287	0.465635442610418
-Vlaanderen	Versie 3	Habitatsubtype	7140	Binnen & Buiten	7140_oli	49	0.577387347288816	0.532002317593395	0.622772376984236
-Vlaanderen	Versie 3	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	105	0.477728461623184	0.447361928373451	0.508094994872917
-Vlaanderen	Versie 3	SBZH	7140	Binnen	7140_meso; 7140_oli	99	0.485482552756618	0.453774788473023	0.517190317040214
-Vlaanderen	Versie 3	SBZH	7140	Buiten	7140_meso; 7140_oli	6	0.392237976082904	0.306528565909363	0.477947386256446
+Vlaanderen	Versie 3	Habitattype	6410	Binnen & Buiten	6410_mo; 6410_ve	97	0.451483	0.425591	0.477375
+Vlaanderen	Versie 3	SBZH	6410	Binnen	6410_mo; 6410_ve	75	0.452387	0.420902	0.483873
+Vlaanderen	Versie 3	SBZH	6410	Buiten	6410_mo	22	0.448923	0.405909	0.491936
+Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_hu	100	0.218463	0.191613	0.245313
+Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_hua	26	0.384846	0.335822	0.43387
+Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_huk	32	0.172658	0.103563	0.241752
+Vlaanderen	Versie 3	Habitatsubtype	6510	Binnen & Buiten	6510_hus	32	0.250891	0.202956	0.298825
+Vlaanderen	Versie 3	Habitattype	6510	Binnen & Buiten	6510_hu; 6510_huk; 6510_hus; 6510_hua	190	0.229142	0.208482	0.249803
+Vlaanderen	Versie 3	SBZH	6510	Binnen	6510_hu; 6510_hus; 6510_huk; 6510_hua	134	0.256436	0.230924	0.281947
+Vlaanderen	Versie 3	SBZH	6510	Buiten	6510_hu; 6510_huk; 6510_hua; 6510_hus	56	0.221463	0.183844	0.259083
+Vlaanderen	Versie 3	Habitatsubtype	7140	Binnen & Buiten	7140_meso	56	0.430536	0.395437	0.465635
+Vlaanderen	Versie 3	Habitatsubtype	7140	Binnen & Buiten	7140_oli	49	0.577387	0.532002	0.622772
+Vlaanderen	Versie 3	Habitattype	7140	Binnen & Buiten	7140_meso; 7140_oli	105	0.477728	0.447362	0.508095
+Vlaanderen	Versie 3	SBZH	7140	Binnen	7140_meso; 7140_oli	99	0.485483	0.453775	0.51719
+Vlaanderen	Versie 3	SBZH	7140	Buiten	7140_meso; 7140_oli	6	0.392238	0.306529	0.477947

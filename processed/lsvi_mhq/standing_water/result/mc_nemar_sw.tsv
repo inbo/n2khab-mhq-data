@@ -1,0 +1,11 @@
+schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	trend_local	n	n_adj	mcnemar_p_value	effect
+Vlaanderen	Versie 3	Habitattype	3110	Binnen & Buiten	NA	ongunstig - ongunstig	3	3	NA	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3130	Binnen & Buiten	3130_aom	gunstig - gunstig	2	0.783508	0.482103	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	gunstig - ongunstig	3	4.62652	0.482103	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	ongunstig - gunstig	4	2.72114	0.482103	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	ongunstig - ongunstig	19	19.8688	0.482103	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3150	Binnen & Buiten	NA	gunstig - ongunstig	1	0.4492	0.502715	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3150	Binnen & Buiten	NA	ongunstig - ongunstig	7	7.5508	0.502715	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3160	Binnen & Buiten	NA	gunstig - gunstig	1	0.235557	0.152434	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3160	Binnen & Buiten	NA	ongunstig - gunstig	2	2.04773	0.152434	geen significant verschil
+Vlaanderen	Versie 3	Habitattype	3160	Binnen & Buiten	NA	ongunstig - ongunstig	11	11.7167	0.152434	geen significant verschil

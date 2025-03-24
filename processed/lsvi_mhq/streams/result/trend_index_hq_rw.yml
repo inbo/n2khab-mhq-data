@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: ee1cd71f01510874eb8fa0cedb199b2aeb03f6ae
-  data_hash: 92d5b62c66bfe09cb44100955e651c92786c9006
+  hash: 85d0931305b915e64a777b4b24a61f371badb492
+  data_hash: ba6c9d1112f970165037c59b26c443d58641dcd4
 schaal:
   class: character
 type_resultaat:
@@ -30,16 +30,22 @@ habitatsubtype:
   class: logical
 index_diff_mean:
   class: numeric
+  digits: 6
 index_diff_llci_0.95:
   class: numeric
+  digits: 6
 index_diff_ulci_0.95:
   class: numeric
+  digits: 6
 index_diff_rel:
   class: numeric
+  digits: 6
 index_diff_rel_llci_0.95:
   class: numeric
+  digits: 6
 index_diff_rel_ulci_0.95:
   class: numeric
+  digits: 6
 klasse:
   class: factor
   labels:

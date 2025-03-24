@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - id
   - type_analysis
   - indicator
-  hash: addf9eef81548de13ebc307d28156c438d693bc8
-  data_hash: b9d2674488fb632191450a6db6039fd37ca5cb95
+  hash: c972afee25d10b1716aa46567dd30f8258f8a6a8
+  data_hash: 53642adfc82541c7964ff07ee04c00c1ea285837
 id:
   class: character
 type_analysis:
@@ -22,3 +22,4 @@ status_indicator:
   class: logical
 verschilscore:
   class: numeric
+  digits: 6

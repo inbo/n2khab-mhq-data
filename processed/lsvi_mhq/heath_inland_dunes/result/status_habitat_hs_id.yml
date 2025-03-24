@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
@@ -7,8 +7,8 @@
   - type_resultaat
   - sbzh
   - habitatsubtype
-  hash: f9b4e2994bd55cb66a879ebf5502919c183beccc
-  data_hash: 30aeb903f69a596ab7a3d64204bbd0665aaed831
+  hash: 710167c0f883684ddb39354531cd28215e2c2771
+  data_hash: 121c9e6b300cd7fe5c0df576e1a98458143627db
 versie:
   class: character
 schaal:
@@ -257,10 +257,13 @@ n_obs:
   class: integer
 aandeel_gunstig:
   class: numeric
+  digits: 6
 aandeel_gunstig_llci:
   class: numeric
+  digits: 6
 aandeel_gunstig_ulci:
   class: numeric
+  digits: 6
 beoordeling:
   class: factor
   labels:

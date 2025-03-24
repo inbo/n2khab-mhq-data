@@ -1,19 +1,19 @@
 versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling	opp_uitspraak_ha	opp_onbekend_ha	opp_totaal_ha	n_obs_int
-Versie 3	Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_a	41	72.7	45.79	87.42	Onbekend	24.41	1.47	25.88	2
-Versie 3	Vlaanderen	SBZH	2190	Binnen	2190_a	41	72.7	45.79	87.42	Onbekend	24.41	1.47	25.88	2
-Versie 3	Vlaanderen	Habitattype	3110	Binnen & Buiten	3110	3	0	NA	NA	Niet goed	2.43	0	2.43	3
-Versie 3	Vlaanderen	SBZH	3110	Binnen	3110	3	0	NA	NA	Niet goed	2.43	0	2.43	3
-Versie 3	Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	111	5.72	2.75	11.51	Niet goed	658.51	35.29	693.8	1
-Versie 3	Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	95	16.45	7	33.69	Niet goed	682.4	35.29	717.69	2
-Versie 3	Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	205	11.18	5.65	20.87	Niet goed	1340.92	70.58	1411.5	2
-Versie 3	Vlaanderen	SBZH	3130	Binnen	3130_aom; 3130_na	178	9.52	5.59	15.74	Niet goed	1014.58	0	1014.58	1
-Versie 3	Vlaanderen	SBZH	3130	Buiten	3130_aom; 3130_na	27	16.34	3.02	55.06	Niet goed	326.34	70.58	396.92	1
-Versie 3	Vlaanderen	Habitattype	3140	Binnen & Buiten	3140	48	5.37	0.69	29.18	Niet goed	553.66	60.14	613.8	4
-Versie 3	Vlaanderen	SBZH	3140	Binnen	3140	27	0	0	0	Niet goed	164.17	0	164.17	1
-Versie 3	Vlaanderen	SBZH	3140	Buiten	3140	21	7.63	0.94	37.82	Niet goed	389.49	60.14	449.63	3
-Versie 3	Vlaanderen	Habitattype	3150	Binnen & Buiten	3150	67	0.92	0.27	3	Niet goed	643.34	91.39	734.73	5
-Versie 3	Vlaanderen	SBZH	3150	Binnen	3150	50	1.19	0.31	4.44	Niet goed	445.75	0	445.75	2
-Versie 3	Vlaanderen	SBZH	3150	Buiten	3150	17	0.29	0.03	2.48	Niet goed	197.59	91.39	288.98	3
-Versie 3	Vlaanderen	Habitattype	3160	Binnen & Buiten	3160	48	6.99	2.1	20.87	Niet goed	224.3	0	224.3	0
-Versie 3	Vlaanderen	SBZH	3160	Binnen	3160	46	7.16	2.14	21.42	Niet goed	218.96	0	218.96	0
+Versie 3	Vlaanderen	Habitattype	2190	Binnen & Buiten	2190_a	43	72.92	45.93	87.69	Onbekend	25.96	4.85	30.81	4
+Versie 3	Vlaanderen	SBZH	2190	Binnen	2190_a	43	72.92	45.93	87.69	Onbekend	25.96	4.85	30.81	4
+Versie 3	Vlaanderen	Habitattype	3110	Binnen & Buiten	3110	5	0	NA	NA	Niet goed	3.23	0	3.23	5
+Versie 3	Vlaanderen	SBZH	3110	Binnen	3110	5	0	NA	NA	Niet goed	3.23	0	3.23	5
+Versie 3	Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_aom	110	6.38	2.99	13.12	Niet goed	773.49	35.29	808.78	1
+Versie 3	Vlaanderen	Habitatsubtype	3130	Binnen & Buiten	3130_na	95	16.57	6.85	34.55	Niet goed	686.46	35.29	721.75	2
+Versie 3	Vlaanderen	Habitattype	3130	Binnen & Buiten	3130_aom; 3130_na	204	11.17	5.7	20.7	Niet goed	1459.95	70.58	1530.53	2
+Versie 3	Vlaanderen	SBZH	3130	Binnen	3130_aom; 3130_na	177	9.46	5.58	15.58	Niet goed	1076.08	0	1076.08	1
+Versie 3	Vlaanderen	SBZH	3130	Buiten	3130_aom; 3130_na	27	15.96	3.23	51.92	Niet goed	383.87	70.58	454.45	1
+Versie 3	Vlaanderen	Habitattype	3140	Binnen & Buiten	3140	46	4.96	0.64	27.8	Niet goed	579.53	60.14	639.67	4
+Versie 3	Vlaanderen	SBZH	3140	Binnen	3140	25	0	0	0	Niet goed	199.49	0	199.49	1
+Versie 3	Vlaanderen	SBZH	3140	Buiten	3140	21	7.55	0.93	37.5	Niet goed	380.03	60.14	440.17	3
+Versie 3	Vlaanderen	Habitattype	3150	Binnen & Buiten	3150	65	0.9	0.27	2.95	Niet goed	706.93	91.39	798.32	5
+Versie 3	Vlaanderen	SBZH	3150	Binnen	3150	48	1.3	0.34	4.75	Niet goed	445.61	0	445.61	2
+Versie 3	Vlaanderen	SBZH	3150	Buiten	3150	17	0.23	0.02	2.14	Niet goed	261.32	91.39	352.71	3
+Versie 3	Vlaanderen	Habitattype	3160	Binnen & Buiten	3160	48	6.63	1.94	20.28	Niet goed	236.41	0	236.41	0
+Versie 3	Vlaanderen	SBZH	3160	Binnen	3160	46	6.78	1.98	20.81	Niet goed	231.06	0	231.06	0
 Versie 3	Vlaanderen	SBZH	3160	Buiten	3160	2	0	NA	NA	Onbekend	5.34	0	5.34	0

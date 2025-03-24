@@ -1,4 +1,4 @@
 schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	index_hq_mean	index_hq_llci_0.95	index_hq_ulci_0.95
-Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	108	0.0932001767236939	0.0443162435624873	0.1420841098849
-Vlaanderen	Versie 3	SBZH	3	Binnen	NA	81	0.107060913580247	0.0527805760260304	0.161341251134463
-Vlaanderen	Versie 3	SBZH	3	Buiten	NA	27	0.0650700740740741	-0.0408073994700316	0.17094754761818
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	97	0.100497	0.0472858	0.153709
+Vlaanderen	Versie 3	SBZH	3	Binnen	NA	76	0.108022	0.0504268	0.165618
+Vlaanderen	Versie 3	SBZH	3	Buiten	NA	21	0.0854138	-0.0402815	0.211109

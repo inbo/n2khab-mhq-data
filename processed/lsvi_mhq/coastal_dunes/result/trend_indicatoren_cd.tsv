@@ -1,97 +1,97 @@
 versie	schaal	periode	year_min	year_max	type_resultaat	n_obs	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	parameter	mean	llci_0.95	ulci_0.95	klasse
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	aandeel_gunstig	95.96	65.34	99.99	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	aandeel_gunstig	91.61	48.85	99.81	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	aandeel_gunstig	70.95	28.5	95.2	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	aandeel_gunstig	67.03	28.03	93.01	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	55.07	19.09	88.78	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	aandeel_gunstig	65.97	27.89	92.21	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	aandeel_gunstig	99.54	99.86	100	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	aandeel_gunstig	88.38	48.42	99.43	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	aandeel_gunstig	55.34	17.48	87.49	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	95.25	53.92	99.99	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	0.44	0	0.06	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.57	0	0.05	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	aandeel_gunstig	98.53	88.24	100	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.25	99.95	100	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	aandeel_gunstig	99.71	99.96	100	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	aandeel_gunstig	99.31	99.88	100	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	aandeel_gunstig	99.17	99.82	100	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	aandeel_gunstig	70.76	34.07	93.75	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	aandeel_gunstig	90.47	55.14	99.59	NA
-Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.49	0	0.03	NA
-Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	aandeel_gunstig	86.78	53.25	99.1	NA
-Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	aandeel_gunstig	99.63	99.92	100	NA
-Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	aandeel_gunstig	86.76	50.57	98.82	NA
-Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	42.67	12.78	76.7	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	aandeel_gunstig	92.65	56.66	99.85	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	verschil_aandeel_gunstig_rel	0.23	-42.18	48.51	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	verschil_aandeel_gunstig_abs	-3.31	-41.11	30.31	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	aandeel_gunstig	92.24	59.78	99.85	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	verschil_aandeel_gunstig_rel	6.14	-36.48	88.07	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	verschil_aandeel_gunstig_abs	0.62	-34.33	44.35	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	aandeel_gunstig	72.73	32.66	95.62	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	verschil_aandeel_gunstig_rel	14.15	-56.7	168.67	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	verschil_aandeel_gunstig_abs	1.78	-47.77	51.55	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	aandeel_gunstig	72.24	31.94	95.4	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	verschil_aandeel_gunstig_rel	19.49	-54.17	156.98	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	verschil_aandeel_gunstig_abs	5.21	-44.04	51.31	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	51.01	16.07	85.56	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	8.9	-72.83	194.94	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	-4.05	-54.9	45.2	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	aandeel_gunstig	88.44	49.44	99.48	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	verschil_aandeel_gunstig_rel	47.62	-28.17	230.58	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	verschil_aandeel_gunstig_abs	22.46	-23.43	65.69	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	aandeel_gunstig	99.46	99.93	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	verschil_aandeel_gunstig_rel	4.12	-0.07	0.14	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	verschil_aandeel_gunstig_abs	-0.08	-0.07	0.14	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	aandeel_gunstig	92.12	54.86	99.82	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	verschil_aandeel_gunstig_rel	8.84	-39.91	89.66	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	verschil_aandeel_gunstig_abs	3.75	-37.38	44.89	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	aandeel_gunstig	55.26	18.79	87.13	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_rel	19.08	-67.87	243	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_abs	-0.08	-51.32	49.93	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	95.65	67.19	99.99	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	3.24	-31.42	79.92	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	0.39	-29.74	44.28	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	0.39	0	0.03	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	aandeel_gunstig	96.08	66.62	99.99	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	aandeel_gunstig	92.16	58.03	99.82	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	aandeel_gunstig	72.43	33.03	94.85	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	aandeel_gunstig	67.58	27.48	93.74	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	54.08	17.93	86.9	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	aandeel_gunstig	63.87	25.17	92.48	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	aandeel_gunstig	99.27	99.7	100	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	aandeel_gunstig	88.57	51.14	99.53	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	aandeel_gunstig	54.38	18.19	87.86	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	96.02	67.7	99.99	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	0.59	0	0.19	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.58	0	0.11	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	aandeel_gunstig	97.76	66.03	100	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.27	99.93	100	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	aandeel_gunstig	99.62	99.98	100	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	aandeel_gunstig	99.5	99.81	100	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	aandeel_gunstig	99.73	99.97	100	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	aandeel_gunstig	70.33	34.52	94.24	NA
+Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	aandeel_gunstig	90.2	56.33	99.58	NA
+Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.36	0	0.13	NA
+Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	aandeel_gunstig	86.45	51.26	99.17	NA
+Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	aandeel_gunstig	99.66	99.97	100	NA
+Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	aandeel_gunstig	86.4	52.25	98.9	NA
+Versie 3	Vlaanderen	c_1	2018	2018	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	41.34	11.75	79.52	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	aandeel_gunstig	91.98	56.63	99.84	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	verschil_aandeel_gunstig_rel	-1.11	-42.26	37.39	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	(korst)moslaag	zb	verschil_aandeel_gunstig_abs	-4.1	-42.14	26.57	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	aandeel_gunstig	91.93	58.13	99.85	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	verschil_aandeel_gunstig_rel	2.17	-37.91	60.02	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	dynamiek	zb	verschil_aandeel_gunstig_abs	-0.24	-35.83	35.8	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	aandeel_gunstig	71.32	31.6	95.06	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	verschil_aandeel_gunstig_rel	6.69	-58.57	124.24	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	horizontale structuur	b	verschil_aandeel_gunstig_abs	-1.11	-48.2	47.35	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	aandeel_gunstig	72.2	33.86	94.81	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	verschil_aandeel_gunstig_rel	18.24	-54.46	169.34	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Structuur	kruidlaag	zb	verschil_aandeel_gunstig_abs	4.62	-44.68	51.98	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	50.17	15.89	85.01	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	11.39	-74.35	224.92	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	-3.92	-53.07	49.2	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	aandeel_gunstig	88.62	48.54	99.37	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	verschil_aandeel_gunstig_rel	56.18	-28.99	249.99	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	exoten	b	verschil_aandeel_gunstig_abs	24.75	-21.46	68.24	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	aandeel_gunstig	99.14	99.81	100	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	verschil_aandeel_gunstig_rel	39.07	-0.17	0.3	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	rijshout	b	verschil_aandeel_gunstig_abs	-0.12	-0.17	0.3	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	aandeel_gunstig	91.82	51.95	99.84	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	verschil_aandeel_gunstig_rel	7.25	-38.5	79.49	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	structuurverstoring	b	verschil_aandeel_gunstig_abs	3.25	-35.38	41.39	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	aandeel_gunstig	55.65	20.84	88.26	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_rel	21.25	-67.14	222.7	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_abs	1.27	-47.24	49.82	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	95.65	65.66	99.99	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	3.09	-32.2	39.73	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	-0.37	-29.73	28.01	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	0.42	0	0.02	NA
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_rel	NA	NA	NA	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_abs	-0.04	-0.04	0.03	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	aandeel_gunstig	10.33	0.47	45.46	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	verschil_aandeel_gunstig_abs	-0.16	-0.19	0.02	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	aandeel_gunstig	9.56	0.52	41.63	NA
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	NA	NA	NA	1
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	9.77	0.39	43.77	2
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	aandeel_gunstig	97.52	62.15	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	verschil_aandeel_gunstig_rel	884.76	-37.85	13.33	9
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	verschil_aandeel_gunstig_abs	-1.01	-37.85	11.76	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.71	99.98	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_rel	NA	NA	NA	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_abs	0.46	-0.02	0.05	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	aandeel_gunstig	99.47	99.97	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	verschil_aandeel_gunstig_rel	17.86	-0.03	0.04	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	verschil_aandeel_gunstig_abs	-0.24	-0.03	0.04	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	aandeel_gunstig	99.54	99.93	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	verschil_aandeel_gunstig_rel	1040.2	-0.07	0.12	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	verschil_aandeel_gunstig_abs	0.24	-0.07	0.12	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	aandeel_gunstig	99.67	99.94	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	168.46	-0.06	0.18	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	0.49	-0.06	0.18	4
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	aandeel_gunstig	75.14	37.74	95.67	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_rel	14.49	-49.01	130.28	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_abs	4.38	-39.44	48.42	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	aandeel_gunstig	90.08	55.61	99.57	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	2.6	-39.84	73.38	10
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	-0.39	-38.43	40.51	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.79	0	0.07	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	8.98	0.31	41.63	2
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	aandeel_gunstig	97.77	77.41	100	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	verschil_aandeel_gunstig_rel	124351	-22.59	51.46	8
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	verschil_aandeel_gunstig_abs	0.01	-22.59	33.97	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.38	99.88	100	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_rel	4322.46	-0.12	0.07	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_abs	0.12	-0.12	0.07	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	aandeel_gunstig	99.5	99.96	100	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	verschil_aandeel_gunstig_rel	6856.67	-0.04	0.02	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	verschil_aandeel_gunstig_abs	-0.12	-0.04	0.02	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	aandeel_gunstig	99.17	99.83	100	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	verschil_aandeel_gunstig_rel	11153.8	-0.13	0.19	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	verschil_aandeel_gunstig_abs	-0.33	-0.13	0.19	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	aandeel_gunstig	99.8	99.98	100	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	37845.6	-0.02	0.03	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	0.07	-0.02	0.03	4
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	aandeel_gunstig	75.84	39.22	96.15	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_rel	16.11	-51.05	123.71	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	vergrassing	zb	verschil_aandeel_gunstig_abs	5.5	-41.09	48.32	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	aandeel_gunstig	90.52	60.54	99.6	NA
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	2.82	-34.2	62.36	10
+Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	0.32	-32.07	35.28	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.68	0	0.08	NA
 Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	NA	NA	NA	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	0.3	-0.02	0.06	4
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	aandeel_gunstig	73.06	34.9	95.17	NA
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_rel	-13.2	-60.13	45.42	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_abs	-13.71	-53.3	26.77	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	aandeel_gunstig	98.93	99.24	100	NA
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	verschil_aandeel_gunstig_rel	3	-0.76	0.05	4
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	verschil_aandeel_gunstig_abs	-0.69	-0.76	0.05	4
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	aandeel_gunstig	72.48	36.59	94.1	NA
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	-14	-58.51	45.24	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	-14.28	-53.49	24.66	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	72.69	36.21	94.93	NA
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	111.44	-26.4	495.35	10
-Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	30.02	-16.76	69.83	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	0.33	-0.13	0.08	4
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	aandeel_gunstig	71.71	35.74	94.74	NA
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_rel	-14.15	-58.16	48.41	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_abs	-14.75	-54.3	26.48	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	aandeel_gunstig	99.52	99.96	100	NA
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	verschil_aandeel_gunstig_rel	79.89	-0.04	0.03	4
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	overige exoten	b	verschil_aandeel_gunstig_abs	-0.14	-0.04	0.03	4
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	aandeel_gunstig	71.54	32.63	94.58	NA
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	verschil_aandeel_gunstig_rel	-15	-63.89	42.75	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verbossing	b	verschil_aandeel_gunstig_abs	-14.87	-59.02	23.53	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	72.7	33.87	94.84	NA
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	132.31	-29.39	567.41	10
+Versie 3	Vlaanderen	c_2	2023	2023	Habitattype	7	2170	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	31.37	-19.67	71.19	10
