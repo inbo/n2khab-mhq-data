@@ -1,0 +1,31 @@
+..generic:
+  git2rdata: 0.5.0
+  optimize: yes
+  NA string: NA
+  sorting: type_resultaat
+  hash: af49f4c45bede6ee89cc2bbdec1102c0c6bb456b
+  data_hash: 5533d5b601bc1a22ad63e0a89be1386b69c4bddf
+versie:
+  class: character
+schaal:
+  class: character
+type_resultaat:
+  class: character
+habitattype:
+  class: character
+sbzh:
+  class: character
+beoordeling:
+  class: character
+opp_gunstig_ha:
+  class: numeric
+  digits: 6
+opp_ongunstig_ha:
+  class: numeric
+  digits: 6
+opp_onbekend_ha:
+  class: numeric
+  digits: 6
+aandeel_gunstig:
+  class: numeric
+  digits: 6
