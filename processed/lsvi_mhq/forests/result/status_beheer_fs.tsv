@@ -1,0 +1,13 @@
+type_resultaat	versie	habitattype	sbzh	passend_beheer	habitatsubtype	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	p_waarde_beheer	effect_beheer	beoordeling	n_obs
+Passend beheer	Versie 3	9110	Binnen & Buiten	ja	9110	50	9.39	90.61	NA	NA	3	6
+Passend beheer	Versie 3	9110	Binnen & Buiten	nee	9110	100	NA	NA	NA	NA	3	1
+Passend beheer	Versie 3	9120	Binnen & Buiten	ja	9120	32.81	26.56	39.74	0	significant	2	195
+Passend beheer	Versie 3	9120	Binnen & Buiten	nee	9120	8.17	4.79	13.6	0	significant	2	159
+Passend beheer	Versie 3	9130	Binnen & Buiten	ja	9130_end	32.47	19.13	49.44	0.20581	niet significant	2	36
+Passend beheer	Versie 3	9130	Binnen & Buiten	nee	9130_end	19.83	10.4	34.53	0.20581	niet significant	2	41
+Passend beheer	Versie 3	9160	Binnen & Buiten	ja	9160	30.74	15.91	51.02	0.01319	significant	2	26
+Passend beheer	Versie 3	9160	Binnen & Buiten	nee	9160	6.37	2.01	18.4	0.01319	significant	2	47
+Passend beheer	Versie 3	9190	Binnen & Buiten	ja	9190	5.21	1.65	15.24	0	significant	2	53
+Passend beheer	Versie 3	9190	Binnen & Buiten	nee	9190	0	0	0	0	significant	2	48
+Passend beheer	Versie 3	91E0	Binnen & Buiten	ja	91E0_vc; 91E0_vm; 91E0_va; 91E0_vo; 91E0_vn; 91E0_sf	11.35	6.64	18.74	0.00258	significant	2	145
+Passend beheer	Versie 3	91E0	Binnen & Buiten	nee	91E0_vc; 91E0_vm; 91E0_vn; 91E0_va; 91E0_sf; 91E0_vo	1.71	0.55	5.22	0.00258	significant	2	209

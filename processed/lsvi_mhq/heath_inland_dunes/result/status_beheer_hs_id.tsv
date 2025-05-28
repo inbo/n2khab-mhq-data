@@ -1,0 +1,8 @@
+type_resultaat	versie	habitattype	sbzh	passend_beheer	habitatsubtype	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	p_waarde_beheer	effect_beheer	beoordeling	n_obs
+Passend beheer	Versie 3	2310	Binnen & Buiten	ja	2310	26.96	18.46	37.58	NA	NA	2	94
+Passend beheer	Versie 3	2310	Binnen & Buiten	nee	2310	57.56	NA	NA	NA	NA	3	3
+Passend beheer	Versie 3	2330	Binnen & Buiten	ja	2330_bu; 2330_dw	20.93	13.47	31.04	0.88633	niet significant	2	107
+Passend beheer	Versie 3	2330	Binnen & Buiten	nee	2330_bu; 2330_dw	23.3	4.67	65.32	0.88633	niet significant	2	11
+Passend beheer	Versie 3	4010	Binnen & Buiten	ja	4010	16.99	9.73	27.98	NA	NA	2	69
+Passend beheer	Versie 3	4030	Binnen & Buiten	ja	4030	42.52	33.28	52.32	0.33054	niet significant	2	111
+Passend beheer	Versie 3	4030	Binnen & Buiten	nee	4030	62.12	25.54	88.69	0.33054	niet significant	3	7

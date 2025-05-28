@@ -1,0 +1,45 @@
+..generic:
+  git2rdata: 0.5.0
+  optimize: yes
+  NA string: NA
+  hash: 35813e46d20614a10700ffd0d2cdddc9a30c255d
+  data_hash: 045327a535d6b4b58dc7cdfd2e0e88e55e1f89f5
+type_resultaat:
+  class: character
+versie:
+  class: character
+habitattype:
+  class: character
+sbzh:
+  class: character
+passend_beheer:
+  class: character
+habitatsubtype:
+  class: character
+aandeel_gunstig:
+  class: numeric
+  digits: 6
+aandeel_gunstig_llci:
+  class: numeric
+  digits: 6
+aandeel_gunstig_ulci:
+  class: numeric
+  digits: 6
+beoordeling:
+  class: factor
+  labels:
+  - Goed
+  - Niet goed
+  - Onbekend
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+p_waarde_beheer:
+  class: numeric
+  digits: 6
+effect_beheer:
+  class: character
+n_obs:
+  class: integer
