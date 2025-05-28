@@ -1,0 +1,13 @@
+versie	schaal	type_resultaat	habitattype	sbzh	criterium	indicator	aandeel_gunstig_min	aandeel_gunstig_max	beoordeling	opp_gunstig_ha	opp_ongunstig_ha	opp_onbekend_ha
+Versie 3	Vlaanderen	Habitattype	5130	Binnen & Buiten	Structuur	populatiegrootte	89.06	89.06	Goed	18.57	2.28	0
+Versie 3	Vlaanderen	Habitattype	5130	Binnen & Buiten	Structuur	sexratio	99.28	100	Goed	20.7	0	0.15
+Versie 3	Vlaanderen	Habitattype	5130	Binnen & Buiten	Verstoring	verbossing	89.06	100	Goed	18.57	0	2.28
+Versie 3	Vlaanderen	Habitattype	5130	Binnen & Buiten	Verstoring	vergrassing	89.06	100	Goed	18.57	0	2.28
+Versie 3	Vlaanderen	Habitattype	5130	Binnen & Buiten	Structuur	verjonging	54.92	61.92	Niet goed	11.45	7.94	1.46
+Versie 3	Vlaanderen	Habitattype	5130	Binnen & Buiten	Verstoring	verruiging	81.25	92.18	Goed	16.94	1.63	2.28
+Versie 3	Vlaanderen	SBZH	5130	Binnen	Structuur	populatiegrootte	82.34	82.34	Goed	10.63	2.28	0
+Versie 3	Vlaanderen	SBZH	5130	Binnen	Structuur	sexratio	98.84	100	Goed	12.76	0	0.15
+Versie 3	Vlaanderen	SBZH	5130	Binnen	Verstoring	verbossing	82.34	100	Goed	10.63	0	2.28
+Versie 3	Vlaanderen	SBZH	5130	Binnen	Verstoring	vergrassing	82.34	100	Goed	10.63	0	2.28
+Versie 3	Vlaanderen	SBZH	5130	Binnen	Structuur	verjonging	88.69	100	Goed	11.45	0	1.46
+Versie 3	Vlaanderen	SBZH	5130	Binnen	Verstoring	verruiging	69.71	87.37	Onbekend	9	1.63	2.28
