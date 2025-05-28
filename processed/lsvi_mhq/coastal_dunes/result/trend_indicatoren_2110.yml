@@ -3,52 +3,27 @@
   optimize: yes
   NA string: NA
   sorting:
-  - periode
-  - habitattype
   - type_resultaat
-  - sbzh
-  - habitatsubtype
-  - criterium
   - indicator
-  hash: 9f72901d2c66b2d6e2edbd045a902c8efea0f3c7
-  data_hash: d85968e1742320636c7038c77853ca4c86708103
+  hash: d161cc44e29e5b561b9df597a99004baea0e536c
+  data_hash: 1d45d71f297e5330f416e0f535504ff948fba163
 versie:
   class: character
 schaal:
   class: character
-periode:
-  class: character
-year_min:
-  class: numeric
-  digits: 6
-year_max:
-  class: numeric
-  digits: 6
 type_resultaat:
   class: character
-n_obs:
-  class: integer
 habitattype:
   class: character
 sbzh:
-  class: character
-habitatsubtype:
   class: character
 criterium:
   class: character
 indicator:
   class: character
-belang:
-  class: character
 parameter:
   class: character
 mean:
-  class: numeric
-  digits: 6
-llci_0.95:
-  class: numeric
-  digits: 6
-ulci_0.95:
   class: numeric
   digits: 6
 klasse:
@@ -76,3 +51,14 @@ klasse:
   - 9
   - 10
   ordered: no
+jaar_min:
+  class: numeric
+  digits: 6
+jaar_max:
+  class: numeric
+  digits: 6
+verschil_jaar:
+  class: numeric
+  digits: 6
+belang:
+  class: character

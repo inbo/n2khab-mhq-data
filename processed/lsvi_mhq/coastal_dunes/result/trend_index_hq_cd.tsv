@@ -1,11 +1,11 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	index_diff_rel	index_diff_rel_llci_0.95	index_diff_rel_ulci_0.95	klasse
-Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	0.0173864	-0.0344282	0.069201	0.033	-0.066	0.133	8
-Vlaanderen	SBZH	2120	Binnen	NA	0.01993	-0.0383983	0.0782583	0.042	-0.081	0.165	8
-Vlaanderen	SBZH	2120	Buiten	NA	0.0065	NA	NA	0.009	NA	NA	NA
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	0.0893	NA	NA	0.28	NA	NA	NA
-Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	0.0228529	-0.0125	0.0582059	0.05	-0.028	0.128	8
-Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	0.0333945	-0.00031618	0.0671052	0.077	-0.001	0.155	8
-Vlaanderen	SBZH	2130	Binnen	2130_hd; 2130_had	0.0333945	-0.00031618	0.0671052	0.077	-0.001	0.155	8
+Vlaanderen	Habitattype	2120	Binnen & Buiten	NA	0.00578349	-0.0448798	0.0564468	0.01	-0.074	0.093	8
+Vlaanderen	SBZH	2120	Binnen	NA	0.02085	-0.0340768	0.0757768	0.037	-0.061	0.135	8
+Vlaanderen	SBZH	2120	Buiten	NA	-0.0587	NA	NA	-0.074	NA	NA	NA
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_had	0.0697	NA	NA	0.219	NA	NA	NA
+Vlaanderen	Habitatsubtype	2130	Binnen & Buiten	2130_hd	0.0223882	-0.0130796	0.057856	0.049	-0.029	0.128	8
+Vlaanderen	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	0.0298941	-0.00291566	0.0627038	0.069	-0.007	0.145	8
+Vlaanderen	SBZH	2130	Binnen	2130_hd; 2130_had	0.0298941	-0.00291566	0.0627038	0.069	-0.007	0.145	8
 Vlaanderen	Habitattype	2170	Binnen & Buiten	NA	0.0144	-0.0687095	0.0975095	0.041	-0.194	0.276	10
 Vlaanderen	SBZH	2170	Binnen	NA	0.0144	-0.0687095	0.0975095	0.041	-0.194	0.276	10
 Vlaanderen	Habitatsubtype	2190	Binnen & Buiten	2190_mp	-0.03445	NA	NA	-0.061	NA	NA	NA

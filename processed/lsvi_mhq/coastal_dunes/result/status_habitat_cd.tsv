@@ -1,6 +1,6 @@
 versie	schaal	type_resultaat	habitattype	sbzh	habitatsubtype	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	n_obs	beoordeling	opp_uitspraak_ha	opp_onbekend_ha	opp_totaal_ha	n_obs_int
-Versie 3	Vlaanderen	1	2120	Binnen & Buiten	2120	45.1	33.56	57.2	80	2	NA	NA	NA	NA
-Versie 3	Vlaanderen	2	2120	Binnen	2120	35.62	25.32	47.44	73	2	NA	NA	NA	NA
+Versie 3	Vlaanderen	1	2120	Binnen & Buiten	2120	52.88	41.15	64.3	80	2	NA	NA	NA	NA
+Versie 3	Vlaanderen	2	2120	Binnen	2120	45.21	34	56.92	73	2	NA	NA	NA	NA
 Versie 3	Vlaanderen	2	2120	Buiten	2120	85.71	40.8	98.12	7	3	NA	NA	NA	NA
 Versie 3	Vlaanderen	1	2130	Binnen & Buiten	2130_hd; 2130_had	69.35	59.02	78.05	115	3	NA	NA	NA	NA
 Versie 3	Vlaanderen	2	2130	Binnen	2130_hd; 2130_had	72.97	63.12	80.99	110	3	NA	NA	NA	NA

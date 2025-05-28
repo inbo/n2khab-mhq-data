@@ -1,11 +1,11 @@
 schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	n_obs	index_hq_mean	index_hq_llci_0.95	index_hq_ulci_0.95
-Vlaanderen	Versie 3	Habitattype	2120	Binnen & Buiten	NA	80	0.538077	0.489267	0.586887
-Vlaanderen	Versie 3	SBZH	2120	Binnen	NA	73	0.520014	0.471883	0.568144
-Vlaanderen	Versie 3	SBZH	2120	Buiten	NA	7	0.615386	0.411298	0.819474
-Vlaanderen	Versie 3	Habitatsubtype	2130	Binnen & Buiten	2130_had	40	0.491967	0.456371	0.527564
-Vlaanderen	Versie 3	Habitatsubtype	2130	Binnen & Buiten	2130_hd	75	0.425955	0.397377	0.454534
-Vlaanderen	Versie 3	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	115	0.435927	0.412794	0.45906
-Vlaanderen	Versie 3	SBZH	2130	Binnen	2130_hd; 2130_had	110	0.45083	0.428815	0.472845
+Vlaanderen	Versie 3	Habitattype	2120	Binnen & Buiten	NA	80	0.579908	0.530337	0.629478
+Vlaanderen	Versie 3	SBZH	2120	Binnen	NA	73	0.569285	0.519979	0.61859
+Vlaanderen	Versie 3	SBZH	2120	Buiten	NA	7	0.625371	0.415483	0.83526
+Vlaanderen	Versie 3	Habitatsubtype	2130	Binnen & Buiten	2130_had	40	0.489719	0.453957	0.525482
+Vlaanderen	Versie 3	Habitatsubtype	2130	Binnen & Buiten	2130_hd	75	0.425734	0.397179	0.454289
+Vlaanderen	Versie 3	Habitattype	2130	Binnen & Buiten	2130_hd; 2130_had	115	0.4354	0.412294	0.458506
+Vlaanderen	Versie 3	SBZH	2130	Binnen	2130_hd; 2130_had	110	0.450254	0.428259	0.472249
 Vlaanderen	Versie 3	SBZH	2130	Buiten	2130_hd; 2130_had	5	0.274798	0.173342	0.376254
 Vlaanderen	Versie 3	Habitattype	2160	Binnen & Buiten	NA	93	0.335408	0.295697	0.37512
 Vlaanderen	Versie 3	SBZH	2160	Binnen	NA	90	0.337877	0.296384	0.379369

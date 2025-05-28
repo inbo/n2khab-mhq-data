@@ -2,20 +2,12 @@
   git2rdata: 0.5.0
   optimize: yes
   NA string: NA
-  sorting:
-  - periode
-  - habitattype
-  - type_resultaat
-  - sbzh
-  - habitatsubtype
-  - parameter
-  hash: b90fbab57caa4f8cfca0af6eddb45f0692cf57c6
-  data_hash: 27e0069b4948144ca113ce4361e66144621a927d
+  sorting: type_resultaat
+  hash: f32b711030a9d84bad3c9f5a6be73a2c7c2e0520
+  data_hash: de217b3b9d644be309d24dedd766dd231d5c92af
 versie:
   class: character
 schaal:
-  class: character
-periode:
   class: character
 type_resultaat:
   class: character
@@ -23,19 +15,9 @@ habitattype:
   class: character
 sbzh:
   class: character
-habitatsubtype:
-  class: character
-n_obs:
-  class: integer
 parameter:
   class: character
 mean:
-  class: numeric
-  digits: 6
-llci_0.95:
-  class: numeric
-  digits: 6
-ulci_0.95:
   class: numeric
   digits: 6
 klasse:
@@ -63,8 +45,6 @@ klasse:
   - 9
   - 10
   ordered: no
-periode_ref:
-  class: character
 jaar_min:
   class: numeric
   digits: 6

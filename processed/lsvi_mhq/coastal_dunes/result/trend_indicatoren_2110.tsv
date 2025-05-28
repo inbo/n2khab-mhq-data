@@ -1,0 +1,11 @@
+versie	schaal	type_resultaat	habitattype	sbzh	criterium	indicator	parameter	mean	klasse	jaar_min	jaar_max	verschil_jaar	belang
+Versie 3	Vlaanderen	Habitattype	2110	Binnen & Buiten	Vegetatie	aanvullende sleutelsoorten	verschil_aandeel_gunstig_abs	-18.29	7	2017	2023	6	b
+Versie 3	Vlaanderen	Habitattype	2110	Binnen & Buiten	Structuur	dynamiek	verschil_aandeel_gunstig_abs	0.68	3	2017	2023	6	zb
+Versie 3	Vlaanderen	Habitattype	2110	Binnen & Buiten	Structuur	oppervlakte	verschil_aandeel_gunstig_abs	-1.22	5	2017	2023	6	zb
+Versie 3	Vlaanderen	Habitattype	2110	Binnen & Buiten	Verstoring	recreatie	verschil_aandeel_gunstig_abs	-26.29	7	2017	2023	6	b
+Versie 3	Vlaanderen	Habitattype	2110	Binnen & Buiten	Vegetatie	structuurvormende sleutelsoorten	verschil_aandeel_gunstig_abs	NA	NA	2017	2023	6	b
+Versie 3	Vlaanderen	SBZH	2110	Binnen	Vegetatie	aanvullende sleutelsoorten	verschil_aandeel_gunstig_abs	-44.87	7	2017	2023	6	b
+Versie 3	Vlaanderen	SBZH	2110	Binnen	Structuur	dynamiek	verschil_aandeel_gunstig_abs	1.15	3	2017	2023	6	zb
+Versie 3	Vlaanderen	SBZH	2110	Binnen	Structuur	oppervlakte	verschil_aandeel_gunstig_abs	-2.22	5	2017	2023	6	zb
+Versie 3	Vlaanderen	SBZH	2110	Binnen	Verstoring	recreatie	verschil_aandeel_gunstig_abs	-11.64	5	2017	2023	6	b
+Versie 3	Vlaanderen	SBZH	2110	Binnen	Vegetatie	structuurvormende sleutelsoorten	verschil_aandeel_gunstig_abs	NA	NA	2017	2023	6	b

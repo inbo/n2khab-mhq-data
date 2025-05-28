@@ -3,12 +3,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10010417_2023-08-11	2120	Structuur	dynamiek	zb	1	1
 10010417_2023-08-11	2120	Verstoring	exoten	b	0	-0.1111
 10010417_2023-08-11	2120	Structuur	horizontale structuur	b	1	1
-10010417_2023-08-11	2120	Structuur	kruidlaag	zb	0	-0.4229
+10010417_2023-08-11	2120	Structuur	kruidlaag	zb	0	-0.3143
 10010417_2023-08-11	2120	Structuur	naakte bodem	b	NA	NA
 10010417_2023-08-11	2120	Verstoring	rijshout	b	1	1
-10010417_2023-08-11	2120	Vegetatie	sleutelsoorten	b	0	-1
+10010417_2023-08-11	2120	Vegetatie	sleutelsoorten	b	1	0
 10010417_2023-08-11	2120	Verstoring	structuurverstoring	b	1	1
-10010417_2023-08-11	2120	Verstoring	vergrassing	zb	0	-1
+10010417_2023-08-11	2120	Verstoring	vergrassing	zb	0	-0.6489
 10010417_2023-08-11	2120	Verstoring	verruiging	zb	1	1
 10010417_2120_2019-10-24	2120	Structuur	(korst)moslaag	zb	1	1
 10010417_2120_2019-10-24	2120	Structuur	dynamiek	zb	1	1
@@ -17,7 +17,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10010417_2120_2019-10-24	2120	Structuur	kruidlaag	zb	0	-1
 10010417_2120_2019-10-24	2120	Structuur	naakte bodem	b	NA	NA
 10010417_2120_2019-10-24	2120	Verstoring	rijshout	b	1	1
-10010417_2120_2019-10-24	2120	Vegetatie	sleutelsoorten	b	0	-1
+10010417_2120_2019-10-24	2120	Vegetatie	sleutelsoorten	b	1	0
 10010417_2120_2019-10-24	2120	Verstoring	structuurverstoring	b	1	1
 10010417_2120_2019-10-24	2120	Verstoring	vergrassing	zb	0	-1
 10010417_2120_2019-10-24	2120	Verstoring	verruiging	zb	1	1
@@ -28,9 +28,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10038833_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.9583
 10038833_2023-08-31	2120	Structuur	naakte bodem	b	NA	NA
 10038833_2023-08-31	2120	Verstoring	rijshout	b	1	1
-10038833_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0
+10038833_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10038833_2023-08-31	2120	Verstoring	structuurverstoring	b	1	1
-10038833_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.5932
+10038833_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.8766
 10038833_2023-08-31	2120	Verstoring	verruiging	zb	1	1
 10038833_2120_2019-10-23	2120	Structuur	(korst)moslaag	zb	1	1
 10038833_2120_2019-10-23	2120	Structuur	dynamiek	zb	1	1
@@ -39,9 +39,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10038833_2120_2019-10-23	2120	Structuur	kruidlaag	zb	1	0.9444
 10038833_2120_2019-10-23	2120	Structuur	naakte bodem	b	NA	NA
 10038833_2120_2019-10-23	2120	Verstoring	rijshout	b	1	1
-10038833_2120_2019-10-23	2120	Vegetatie	sleutelsoorten	b	1	0
+10038833_2120_2019-10-23	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10038833_2120_2019-10-23	2120	Verstoring	structuurverstoring	b	1	1
-10038833_2120_2019-10-23	2120	Verstoring	vergrassing	zb	1	0.3944
+10038833_2120_2019-10-23	2120	Verstoring	vergrassing	zb	1	0.9444
 10038833_2120_2019-10-23	2120	Verstoring	verruiging	zb	1	1
 10048689_1_2021-07-27	2190_mp	Verstoring	invasieve exoten	zb	1	1
 10048689_1_2021-07-27	2190_mp	Vegetatie	sleutelsoorten	b	1	0
@@ -65,7 +65,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10057905_2120_2019-10-25	2120	Verstoring	rijshout	b	1	1
 10057905_2120_2019-10-25	2120	Vegetatie	sleutelsoorten	b	0	-1
 10057905_2120_2019-10-25	2120	Verstoring	structuurverstoring	b	1	1
-10057905_2120_2019-10-25	2120	Verstoring	vergrassing	zb	0	-1
+10057905_2120_2019-10-25	2120	Verstoring	vergrassing	zb	0	-0.8171
 10057905_2120_2019-10-25	2120	Verstoring	verruiging	zb	1	1
 10057905_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9008
 10057905_2130_hd_2019-10-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -79,25 +79,25 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10071601_2023-08-31	2120	Structuur	dynamiek	zb	1	1
 10071601_2023-08-31	2120	Verstoring	exoten	b	1	0.2727
 10071601_2023-08-31	2120	Structuur	horizontale structuur	b	1	1
-10071601_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.416
+10071601_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.4334
 10071601_2023-08-31	2120	Structuur	naakte bodem	b	NA	NA
 10071601_2023-08-31	2120	Verstoring	rijshout	b	1	1
-10071601_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0
+10071601_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10071601_2023-08-31	2120	Verstoring	structuurverstoring	b	1	1
-10071601_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.4137
+10071601_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.6462
 10071601_2023-08-31	2120	Verstoring	verruiging	zb	1	1
 10071601_2120_2019-10-23	2120	Structuur	(korst)moslaag	zb	0	-0.0476
 10071601_2120_2019-10-23	2120	Structuur	dynamiek	zb	1	1
 10071601_2120_2019-10-23	2120	Verstoring	exoten	b	1	0.3333
 10071601_2120_2019-10-23	2120	Structuur	horizontale structuur	b	1	1
-10071601_2120_2019-10-23	2120	Structuur	kruidlaag	zb	0	-0.1607
+10071601_2120_2019-10-23	2120	Structuur	kruidlaag	zb	0	-0.0964
 10071601_2120_2019-10-23	2120	Structuur	naakte bodem	b	NA	NA
 10071601_2120_2019-10-23	2120	Verstoring	rijshout	b	1	1
-10071601_2120_2019-10-23	2120	Vegetatie	sleutelsoorten	b	1	0
+10071601_2120_2019-10-23	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10071601_2120_2019-10-23	2120	Verstoring	structuurverstoring	b	1	1
-10071601_2120_2019-10-23	2120	Verstoring	vergrassing	zb	0	-0.219
+10071601_2120_2019-10-23	2120	Verstoring	vergrassing	zb	1	0.5556
 10071601_2120_2019-10-23	2120	Verstoring	verruiging	zb	1	1
-10082417_2023-08-07	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5351
+10082417_2023-08-07	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5352
 10082417_2023-08-07	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10082417_2023-08-07	2130_hd	Verstoring	overbetreding	b	1	1
 10082417_2023-08-07	2130_hd	Verstoring	overige exoten	b	1	1
@@ -133,25 +133,25 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1009077_2023-08-02	2120	Structuur	dynamiek	zb	1	1
 1009077_2023-08-02	2120	Verstoring	exoten	b	1	0.2727
 1009077_2023-08-02	2120	Structuur	horizontale structuur	b	1	1
-1009077_2023-08-02	2120	Structuur	kruidlaag	zb	1	0.5248
+1009077_2023-08-02	2120	Structuur	kruidlaag	zb	1	0.5328
 1009077_2023-08-02	2120	Structuur	naakte bodem	b	NA	NA
 1009077_2023-08-02	2120	Verstoring	rijshout	b	1	1
 1009077_2023-08-02	2120	Vegetatie	sleutelsoorten	b	1	0
 1009077_2023-08-02	2120	Verstoring	structuurverstoring	b	1	1
-1009077_2023-08-02	2120	Verstoring	vergrassing	zb	1	0.5248
+1009077_2023-08-02	2120	Verstoring	vergrassing	zb	1	0.5328
 1009077_2023-08-02	2120	Verstoring	verruiging	zb	1	1
 1009077_2120_2019-10-17	2120	Structuur	(korst)moslaag	zb	1	1
 1009077_2120_2019-10-17	2120	Structuur	dynamiek	zb	1	1
 1009077_2120_2019-10-17	2120	Verstoring	exoten	b	0	-0.0833
 1009077_2120_2019-10-17	2120	Structuur	horizontale structuur	b	1	1
-1009077_2120_2019-10-17	2120	Structuur	kruidlaag	zb	1	0.67
+1009077_2120_2019-10-17	2120	Structuur	kruidlaag	zb	1	0.675
 1009077_2120_2019-10-17	2120	Structuur	naakte bodem	b	NA	NA
 1009077_2120_2019-10-17	2120	Verstoring	rijshout	b	1	1
-1009077_2120_2019-10-17	2120	Vegetatie	sleutelsoorten	b	1	0
+1009077_2120_2019-10-17	2120	Vegetatie	sleutelsoorten	b	1	0.5
 1009077_2120_2019-10-17	2120	Verstoring	structuurverstoring	b	1	1
-1009077_2120_2019-10-17	2120	Verstoring	vergrassing	zb	1	0.67
+1009077_2120_2019-10-17	2120	Verstoring	vergrassing	zb	1	0.8333
 1009077_2120_2019-10-17	2120	Verstoring	verruiging	zb	1	1
-10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6386
+10102837_2130_hd_2019-10-28	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6395
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	overbetreding	b	1	1
 10102837_2130_hd_2019-10-28	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -180,7 +180,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1011505_2022-09-27	2160	Verstoring	overige exoten	b	1	1
 1011505_2022-09-27	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 1011505_2022-09-27	2160	Verstoring	verbossing	b	0	-0.1111
-101169_2023-08-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8787
+101169_2023-08-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8788
 101169_2023-08-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
 101169_2023-08-16	2130_hd	Verstoring	overbetreding	b	1	1
 101169_2023-08-16	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -195,9 +195,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10129201_2023-08-10	2120	Structuur	kruidlaag	zb	1	1
 10129201_2023-08-10	2120	Structuur	naakte bodem	b	NA	NA
 10129201_2023-08-10	2120	Verstoring	rijshout	b	1	1
-10129201_2023-08-10	2120	Vegetatie	sleutelsoorten	b	0	-1
+10129201_2023-08-10	2120	Vegetatie	sleutelsoorten	b	1	0
 10129201_2023-08-10	2120	Verstoring	structuurverstoring	b	1	1
-10129201_2023-08-10	2120	Verstoring	vergrassing	zb	1	0.5933
+10129201_2023-08-10	2120	Verstoring	vergrassing	zb	1	0.641
 10129201_2023-08-10	2120	Verstoring	verruiging	zb	1	1
 10129201_2120_2019-10-21	2120	Structuur	(korst)moslaag	zb	1	1
 10129201_2120_2019-10-21	2120	Structuur	dynamiek	zb	1	1
@@ -208,29 +208,29 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10129201_2120_2019-10-21	2120	Verstoring	rijshout	b	1	1
 10129201_2120_2019-10-21	2120	Vegetatie	sleutelsoorten	b	1	0
 10129201_2120_2019-10-21	2120	Verstoring	structuurverstoring	b	1	1
-10129201_2120_2019-10-21	2120	Verstoring	vergrassing	zb	0	-0.2321
+10129201_2120_2019-10-21	2120	Verstoring	vergrassing	zb	1	0.5833
 10129201_2120_2019-10-21	2120	Verstoring	verruiging	zb	1	1
 10130609_2023-08-30	2120	Structuur	(korst)moslaag	zb	1	0.4444
 10130609_2023-08-30	2120	Structuur	dynamiek	zb	1	1
 10130609_2023-08-30	2120	Verstoring	exoten	b	1	1
 10130609_2023-08-30	2120	Structuur	horizontale structuur	b	1	1
-10130609_2023-08-30	2120	Structuur	kruidlaag	zb	0	-1
+10130609_2023-08-30	2120	Structuur	kruidlaag	zb	0	-0.719
 10130609_2023-08-30	2120	Structuur	naakte bodem	b	NA	NA
 10130609_2023-08-30	2120	Verstoring	rijshout	b	1	1
 10130609_2023-08-30	2120	Vegetatie	sleutelsoorten	b	1	0
 10130609_2023-08-30	2120	Verstoring	structuurverstoring	b	1	1
-10130609_2023-08-30	2120	Verstoring	vergrassing	zb	0	-0.7776
+10130609_2023-08-30	2120	Verstoring	vergrassing	zb	1	0.1156
 10130609_2023-08-30	2120	Verstoring	verruiging	zb	1	1
 10130609_2120_2019-11-04	2120	Structuur	(korst)moslaag	zb	1	1
 10130609_2120_2019-11-04	2120	Structuur	dynamiek	zb	1	1
 10130609_2120_2019-11-04	2120	Verstoring	exoten	b	1	0
 10130609_2120_2019-11-04	2120	Structuur	horizontale structuur	b	1	1
-10130609_2120_2019-11-04	2120	Structuur	kruidlaag	zb	0	-0.6833
+10130609_2120_2019-11-04	2120	Structuur	kruidlaag	zb	0	-0.4376
 10130609_2120_2019-11-04	2120	Structuur	naakte bodem	b	NA	NA
 10130609_2120_2019-11-04	2120	Verstoring	rijshout	b	1	1
 10130609_2120_2019-11-04	2120	Vegetatie	sleutelsoorten	b	1	0
 10130609_2120_2019-11-04	2120	Verstoring	structuurverstoring	b	1	1
-10130609_2120_2019-11-04	2120	Verstoring	vergrassing	zb	0	-0.7043
+10130609_2120_2019-11-04	2120	Verstoring	vergrassing	zb	1	0.6667
 10130609_2120_2019-11-04	2120	Verstoring	verruiging	zb	1	1
 10137393_2024-08-22	2190_mp	Verstoring	invasieve exoten	zb	1	1
 10137393_2024-08-22	2190_mp	Vegetatie	sleutelsoorten	b	0	-0.6667
@@ -244,22 +244,22 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10138801_2023-09-12	2120	Structuur	kruidlaag	zb	1	0.7619
 10138801_2023-09-12	2120	Structuur	naakte bodem	b	NA	NA
 10138801_2023-09-12	2120	Verstoring	rijshout	b	1	1
-10138801_2023-09-12	2120	Vegetatie	sleutelsoorten	b	1	0
+10138801_2023-09-12	2120	Vegetatie	sleutelsoorten	b	1	1
 10138801_2023-09-12	2120	Verstoring	structuurverstoring	b	1	1
-10138801_2023-09-12	2120	Verstoring	vergrassing	zb	0	-0.0776
+10138801_2023-09-12	2120	Verstoring	vergrassing	zb	1	0.0476
 10138801_2023-09-12	2120	Verstoring	verruiging	zb	1	1
 10138801_2120_2019-10-31	2120	Structuur	(korst)moslaag	zb	1	1
 10138801_2120_2019-10-31	2120	Structuur	dynamiek	zb	1	1
 10138801_2120_2019-10-31	2120	Verstoring	exoten	b	1	0.3333
 10138801_2120_2019-10-31	2120	Structuur	horizontale structuur	b	1	1
-10138801_2120_2019-10-31	2120	Structuur	kruidlaag	zb	1	0.3378
+10138801_2120_2019-10-31	2120	Structuur	kruidlaag	zb	1	0.363
 10138801_2120_2019-10-31	2120	Structuur	naakte bodem	b	NA	NA
 10138801_2120_2019-10-31	2120	Verstoring	rijshout	b	1	1
-10138801_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	0.5
+10138801_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	1
 10138801_2120_2019-10-31	2120	Verstoring	structuurverstoring	b	1	1
-10138801_2120_2019-10-31	2120	Verstoring	vergrassing	zb	1	0.3378
+10138801_2120_2019-10-31	2120	Verstoring	vergrassing	zb	1	0.7778
 10138801_2120_2019-10-31	2120	Verstoring	verruiging	zb	1	1
-1013937_2023-08-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6501
+1013937_2023-08-14	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6508
 1013937_2023-08-14	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1013937_2023-08-14	2130_hd	Verstoring	overbetreding	b	1	1
 1013937_2023-08-14	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -278,7 +278,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1013937_2120_2019-10-25	2120	Verstoring	structuurverstoring	b	1	1
 1013937_2120_2019-10-25	2120	Verstoring	vergrassing	zb	0	-1
 1013937_2120_2019-10-25	2120	Verstoring	verruiging	zb	1	1
-1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.733
+1013937_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7334
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	overbetreding	b	1	1
 1013937_2130_hd_2019-10-25	2130_hd	Verstoring	overige exoten	b	1	1
@@ -309,9 +309,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10153777_2023-08-22	2120	Structuur	kruidlaag	zb	1	1
 10153777_2023-08-22	2120	Structuur	naakte bodem	b	NA	NA
 10153777_2023-08-22	2120	Verstoring	rijshout	b	1	1
-10153777_2023-08-22	2120	Vegetatie	sleutelsoorten	b	0	-1
+10153777_2023-08-22	2120	Vegetatie	sleutelsoorten	b	1	0
 10153777_2023-08-22	2120	Verstoring	structuurverstoring	b	1	0.7297
-10153777_2023-08-22	2120	Verstoring	vergrassing	zb	0	-0.14
+10153777_2023-08-22	2120	Verstoring	vergrassing	zb	1	0.3333
 10153777_2023-08-22	2120	Verstoring	verruiging	zb	1	1
 10153777_2120_2018-07-16	2120	Structuur	(korst)moslaag	zb	1	1
 10153777_2120_2018-07-16	2120	Structuur	dynamiek	zb	0	-1
@@ -320,7 +320,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10153777_2120_2018-07-16	2120	Structuur	kruidlaag	zb	1	1
 10153777_2120_2018-07-16	2120	Structuur	naakte bodem	b	NA	NA
 10153777_2120_2018-07-16	2120	Verstoring	rijshout	b	1	1
-10153777_2120_2018-07-16	2120	Vegetatie	sleutelsoorten	b	0	-1
+10153777_2120_2018-07-16	2120	Vegetatie	sleutelsoorten	b	1	0
 10153777_2120_2018-07-16	2120	Verstoring	structuurverstoring	b	1	1
 10153777_2120_2018-07-16	2120	Verstoring	vergrassing	zb	1	1
 10153777_2120_2018-07-16	2120	Verstoring	verruiging	zb	1	1
@@ -340,7 +340,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	verbossing	b	1	1
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	vergrassing	zb	1	0.8347
 10157365_2130_hd_2019-10-28	2130_hd	Verstoring	verruiging	zb	0	-0.3333
-10157493_2023-08-01	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8175
+10157493_2023-08-01	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8176
 10157493_2023-08-01	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157493_2023-08-01	2130_hd	Verstoring	overbetreding	b	1	1
 10157493_2023-08-01	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -356,7 +356,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	verbossing	b	1	1
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	vergrassing	zb	1	0.6667
 10157493_2130_hd_2019-10-17	2130_hd	Verstoring	verruiging	zb	1	1
-10157873_2023-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.1716
+10157873_2023-08-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.174
 10157873_2023-08-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157873_2023-08-10	2130_hd	Verstoring	overbetreding	b	1	1
 10157873_2023-08-10	2130_hd	Verstoring	overige exoten	b	1	1
@@ -364,7 +364,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10157873_2023-08-10	2130_hd	Verstoring	verbossing	b	1	1
 10157873_2023-08-10	2130_hd	Verstoring	vergrassing	zb	1	0.8667
 10157873_2023-08-10	2130_hd	Verstoring	verruiging	zb	1	1
-10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7563
+10157873_2130_hd_2019-10-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.7568
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	overbetreding	b	1	1
 10157873_2130_hd_2019-10-23	2130_hd	Verstoring	overige exoten	b	1	1
@@ -458,25 +458,25 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1021105_2023-08-30	2120	Structuur	dynamiek	zb	1	1
 1021105_2023-08-30	2120	Verstoring	exoten	b	1	0.6667
 1021105_2023-08-30	2120	Structuur	horizontale structuur	b	0	-1
-1021105_2023-08-30	2120	Structuur	kruidlaag	zb	0	-0.1603
+1021105_2023-08-30	2120	Structuur	kruidlaag	zb	0	-0.0954
 1021105_2023-08-30	2120	Structuur	naakte bodem	b	NA	NA
 1021105_2023-08-30	2120	Verstoring	rijshout	b	1	1
 1021105_2023-08-30	2120	Vegetatie	sleutelsoorten	b	0	-1
 1021105_2023-08-30	2120	Verstoring	structuurverstoring	b	1	1
-1021105_2023-08-30	2120	Verstoring	vergrassing	zb	0	-0.3507
+1021105_2023-08-30	2120	Verstoring	vergrassing	zb	1	0.4593
 1021105_2023-08-30	2120	Verstoring	verruiging	zb	1	1
 1021105_2120_2019-11-04	2120	Structuur	(korst)moslaag	zb	1	1
 1021105_2120_2019-11-04	2120	Structuur	dynamiek	zb	1	1
 1021105_2120_2019-11-04	2120	Verstoring	exoten	b	1	0.5
 1021105_2120_2019-11-04	2120	Structuur	horizontale structuur	b	0	-1
-1021105_2120_2019-11-04	2120	Structuur	kruidlaag	zb	0	-0.7205
+1021105_2120_2019-11-04	2120	Structuur	kruidlaag	zb	0	-0.4839
 1021105_2120_2019-11-04	2120	Structuur	naakte bodem	b	NA	NA
 1021105_2120_2019-11-04	2120	Verstoring	rijshout	b	1	1
 1021105_2120_2019-11-04	2120	Vegetatie	sleutelsoorten	b	0	-1
 1021105_2120_2019-11-04	2120	Verstoring	structuurverstoring	b	1	1
-1021105_2120_2019-11-04	2120	Verstoring	vergrassing	zb	0	-0.5364
+1021105_2120_2019-11-04	2120	Verstoring	vergrassing	zb	0	-0.0714
 1021105_2120_2019-11-04	2120	Verstoring	verruiging	zb	1	1
-10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.704
+10213553_2130_hd_2019-10-25	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.71
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	overbetreding	b	1	1
 10213553_2130_hd_2019-10-25	2130_hd	Verstoring	overige exoten	b	1	1
@@ -525,23 +525,23 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10233009_2023-09-06	2120	Structuur	dynamiek	zb	1	1
 10233009_2023-09-06	2120	Verstoring	exoten	b	1	0.0909
 10233009_2023-09-06	2120	Structuur	horizontale structuur	b	1	1
-10233009_2023-09-06	2120	Structuur	kruidlaag	zb	1	0.6627
+10233009_2023-09-06	2120	Structuur	kruidlaag	zb	1	0.6653
 10233009_2023-09-06	2120	Structuur	naakte bodem	b	NA	NA
 10233009_2023-09-06	2120	Verstoring	rijshout	b	1	1
-10233009_2023-09-06	2120	Vegetatie	sleutelsoorten	b	1	0
+10233009_2023-09-06	2120	Vegetatie	sleutelsoorten	b	1	1
 10233009_2023-09-06	2120	Verstoring	structuurverstoring	b	1	1
-10233009_2023-09-06	2120	Verstoring	vergrassing	zb	1	0.829
+10233009_2023-09-06	2120	Verstoring	vergrassing	zb	1	0.8713
 10233009_2023-09-06	2120	Verstoring	verruiging	zb	1	1
 10233009_2120_2019-10-31	2120	Structuur	(korst)moslaag	zb	1	0.5833
 10233009_2120_2019-10-31	2120	Structuur	dynamiek	zb	1	1
 10233009_2120_2019-10-31	2120	Verstoring	exoten	b	0	-0.0833
 10233009_2120_2019-10-31	2120	Structuur	horizontale structuur	b	1	1
-10233009_2120_2019-10-31	2120	Structuur	kruidlaag	zb	1	0.273
+10233009_2120_2019-10-31	2120	Structuur	kruidlaag	zb	1	0.3065
 10233009_2120_2019-10-31	2120	Structuur	naakte bodem	b	NA	NA
 10233009_2120_2019-10-31	2120	Verstoring	rijshout	b	1	1
-10233009_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	0	-1
+10233009_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	0
 10233009_2120_2019-10-31	2120	Verstoring	structuurverstoring	b	1	1
-10233009_2120_2019-10-31	2120	Verstoring	vergrassing	zb	1	0.5067
+10233009_2120_2019-10-31	2120	Verstoring	vergrassing	zb	1	0.5167
 10233009_2120_2019-10-31	2120	Verstoring	verruiging	zb	1	1
 10235441_2130_hd_2019-10-24	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8614
 10235441_2130_hd_2019-10-24	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -560,7 +560,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10239793_2023-08-14	2120	Verstoring	rijshout	b	1	1
 10239793_2023-08-14	2120	Vegetatie	sleutelsoorten	b	0	-1
 10239793_2023-08-14	2120	Verstoring	structuurverstoring	b	0	-0.0525
-10239793_2023-08-14	2120	Verstoring	vergrassing	zb	0	-1
+10239793_2023-08-14	2120	Verstoring	vergrassing	zb	1	1
 10239793_2023-08-14	2120	Verstoring	verruiging	zb	1	1
 10239793_2120_2019-10-24	2120	Structuur	(korst)moslaag	zb	1	1
 10239793_2120_2019-10-24	2120	Structuur	dynamiek	zb	1	1
@@ -571,9 +571,9 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10239793_2120_2019-10-24	2120	Verstoring	rijshout	b	1	1
 10239793_2120_2019-10-24	2120	Vegetatie	sleutelsoorten	b	0	-1
 10239793_2120_2019-10-24	2120	Verstoring	structuurverstoring	b	0	-0.0321
-10239793_2120_2019-10-24	2120	Verstoring	vergrassing	zb	0	-1
+10239793_2120_2019-10-24	2120	Verstoring	vergrassing	zb	1	1
 10239793_2120_2019-10-24	2120	Verstoring	verruiging	zb	1	1
-10252081_2024-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9404
+10252081_2024-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 10252081_2024-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10252081_2024-08-21	2130_hd	Verstoring	overbetreding	b	1	1
 10252081_2024-08-21	2130_hd	Verstoring	overige exoten	b	1	1
@@ -581,7 +581,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10252081_2024-08-21	2130_hd	Verstoring	verbossing	b	1	1
 10252081_2024-08-21	2130_hd	Verstoring	vergrassing	zb	1	0.4333
 10252081_2024-08-21	2130_hd	Verstoring	verruiging	zb	1	1
-10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6334
+10252081_2130_hd_2018-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6338
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	overbetreding	b	1	0.9
 10252081_2130_hd_2018-08-21	2130_hd	Verstoring	overige exoten	b	1	1
@@ -641,45 +641,45 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10291313_2120_2019-10-18	2120	Structuur	dynamiek	zb	1	1
 10291313_2120_2019-10-18	2120	Verstoring	exoten	b	1	1
 10291313_2120_2019-10-18	2120	Structuur	horizontale structuur	b	1	1
-10291313_2120_2019-10-18	2120	Structuur	kruidlaag	zb	1	0.5611
+10291313_2120_2019-10-18	2120	Structuur	kruidlaag	zb	1	0.5738
 10291313_2120_2019-10-18	2120	Structuur	naakte bodem	b	NA	NA
 10291313_2120_2019-10-18	2120	Verstoring	rijshout	b	1	1
 10291313_2120_2019-10-18	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10291313_2120_2019-10-18	2120	Verstoring	structuurverstoring	b	1	1
-10291313_2120_2019-10-18	2120	Verstoring	vergrassing	zb	1	0.2222
+10291313_2120_2019-10-18	2120	Verstoring	vergrassing	zb	1	1
 10291313_2120_2019-10-18	2120	Verstoring	verruiging	zb	1	1
 10291313_2120_2024-07-02	2120	Structuur	(korst)moslaag	zb	1	1
 10291313_2120_2024-07-02	2120	Structuur	dynamiek	zb	1	1
 10291313_2120_2024-07-02	2120	Verstoring	exoten	b	1	0.6
 10291313_2120_2024-07-02	2120	Structuur	horizontale structuur	b	1	1
-10291313_2120_2024-07-02	2120	Structuur	kruidlaag	zb	1	0.4159
+10291313_2120_2024-07-02	2120	Structuur	kruidlaag	zb	1	0.4316
 10291313_2120_2024-07-02	2120	Structuur	naakte bodem	b	NA	NA
 10291313_2120_2024-07-02	2120	Verstoring	rijshout	b	1	1
 10291313_2120_2024-07-02	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10291313_2120_2024-07-02	2120	Verstoring	structuurverstoring	b	1	1
-10291313_2120_2024-07-02	2120	Verstoring	vergrassing	zb	1	0.606
+10291313_2120_2024-07-02	2120	Verstoring	vergrassing	zb	1	0.868
 10291313_2120_2024-07-02	2120	Verstoring	verruiging	zb	1	1
 10300977_2023-09-07	2120	Structuur	(korst)moslaag	zb	1	0.4444
 10300977_2023-09-07	2120	Structuur	dynamiek	zb	0	-1
 10300977_2023-09-07	2120	Verstoring	exoten	b	1	0.2222
 10300977_2023-09-07	2120	Structuur	horizontale structuur	b	1	1
-10300977_2023-09-07	2120	Structuur	kruidlaag	zb	1	0.6769
+10300977_2023-09-07	2120	Structuur	kruidlaag	zb	1	0.678
 10300977_2023-09-07	2120	Structuur	naakte bodem	b	NA	NA
 10300977_2023-09-07	2120	Verstoring	rijshout	b	1	1
 10300977_2023-09-07	2120	Vegetatie	sleutelsoorten	b	1	0
 10300977_2023-09-07	2120	Verstoring	structuurverstoring	b	1	1
-10300977_2023-09-07	2120	Verstoring	vergrassing	zb	1	0.5368
+10300977_2023-09-07	2120	Verstoring	vergrassing	zb	1	0.7811
 10300977_2023-09-07	2120	Verstoring	verruiging	zb	1	1
 10300977_2120_2019-10-23	2120	Structuur	(korst)moslaag	zb	1	0.4444
 10300977_2120_2019-10-23	2120	Structuur	dynamiek	zb	0	-1
 10300977_2120_2019-10-23	2120	Verstoring	exoten	b	0	-0.0185
 10300977_2120_2019-10-23	2120	Structuur	horizontale structuur	b	1	1
-10300977_2120_2019-10-23	2120	Structuur	kruidlaag	zb	1	0.6738
+10300977_2120_2019-10-23	2120	Structuur	kruidlaag	zb	1	0.6785
 10300977_2120_2019-10-23	2120	Structuur	naakte bodem	b	NA	NA
 10300977_2120_2019-10-23	2120	Verstoring	rijshout	b	1	1
 10300977_2120_2019-10-23	2120	Vegetatie	sleutelsoorten	b	1	0
 10300977_2120_2019-10-23	2120	Verstoring	structuurverstoring	b	1	1
-10300977_2120_2019-10-23	2120	Verstoring	vergrassing	zb	0	-0.3354
+10300977_2120_2019-10-23	2120	Verstoring	vergrassing	zb	1	0.8352
 10300977_2120_2019-10-23	2120	Verstoring	verruiging	zb	1	1
 1030321_2022-09-28	2160	Structuur	horizontale structuur	b	0	-0.9459
 1030321_2022-09-28	2160	Verstoring	invasieve exoten	zb	1	1
@@ -696,12 +696,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10314929_2019-10-31	2130_hd	Verstoring	verruiging	zb	1	0.9
 10323381_2023-06-16	2120	Structuur	(korst)moslaag	zb	1	1
 10323381_2023-06-16	2120	Structuur	dynamiek	zb	1	1
-10323381_2023-06-16	2120	Verstoring	exoten	b	1	0.4772
+10323381_2023-06-16	2120	Verstoring	exoten	b	1	0.4798
 10323381_2023-06-16	2120	Structuur	horizontale structuur	b	1	1
 10323381_2023-06-16	2120	Structuur	kruidlaag	zb	1	0.883
 10323381_2023-06-16	2120	Structuur	naakte bodem	b	NA	NA
 10323381_2023-06-16	2120	Verstoring	rijshout	b	1	1
-10323381_2023-06-16	2120	Vegetatie	sleutelsoorten	b	0	-1
+10323381_2023-06-16	2120	Vegetatie	sleutelsoorten	b	1	0
 10323381_2023-06-16	2120	Verstoring	structuurverstoring	b	1	1
 10323381_2023-06-16	2120	Verstoring	vergrassing	zb	1	0.5906
 10323381_2023-06-16	2120	Verstoring	verruiging	zb	1	1
@@ -712,7 +712,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10323381_2120_2019-10-17	2120	Structuur	kruidlaag	zb	1	1
 10323381_2120_2019-10-17	2120	Structuur	naakte bodem	b	NA	NA
 10323381_2120_2019-10-17	2120	Verstoring	rijshout	b	1	1
-10323381_2120_2019-10-17	2120	Vegetatie	sleutelsoorten	b	0	-1
+10323381_2120_2019-10-17	2120	Vegetatie	sleutelsoorten	b	1	0
 10323381_2120_2019-10-17	2120	Verstoring	structuurverstoring	b	1	1
 10323381_2120_2019-10-17	2120	Verstoring	vergrassing	zb	1	0.6667
 10323381_2120_2019-10-17	2120	Verstoring	verruiging	zb	1	1
@@ -725,23 +725,23 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10333745_2023-08-31	2120	Structuur	dynamiek	zb	0	-1
 10333745_2023-08-31	2120	Verstoring	exoten	b	1	0.5
 10333745_2023-08-31	2120	Structuur	horizontale structuur	b	1	1
-10333745_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.5981
+10333745_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.6017
 10333745_2023-08-31	2120	Structuur	naakte bodem	b	NA	NA
 10333745_2023-08-31	2120	Verstoring	rijshout	b	1	1
 10333745_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0
 10333745_2023-08-31	2120	Verstoring	structuurverstoring	b	1	1
-10333745_2023-08-31	2120	Verstoring	vergrassing	zb	0	-0.1052
+10333745_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.8354
 10333745_2023-08-31	2120	Verstoring	verruiging	zb	1	1
 10333745_2120_2019-10-23	2120	Structuur	(korst)moslaag	zb	1	1
 10333745_2120_2019-10-23	2120	Structuur	dynamiek	zb	1	1
 10333745_2120_2019-10-23	2120	Verstoring	exoten	b	1	0.6
 10333745_2120_2019-10-23	2120	Structuur	horizontale structuur	b	1	1
-10333745_2120_2019-10-23	2120	Structuur	kruidlaag	zb	1	0.672
+10333745_2120_2019-10-23	2120	Structuur	kruidlaag	zb	1	0.6772
 10333745_2120_2019-10-23	2120	Structuur	naakte bodem	b	NA	NA
 10333745_2120_2019-10-23	2120	Verstoring	rijshout	b	1	1
 10333745_2120_2019-10-23	2120	Vegetatie	sleutelsoorten	b	1	0
 10333745_2120_2019-10-23	2120	Verstoring	structuurverstoring	b	1	1
-10333745_2120_2019-10-23	2120	Verstoring	vergrassing	zb	1	0.4713
+10333745_2120_2019-10-23	2120	Verstoring	vergrassing	zb	1	0.9333
 10333745_2120_2019-10-23	2120	Verstoring	verruiging	zb	1	1
 10334001_2190_2018-08-14	2190_mp	Verstoring	invasieve exoten	zb	1	1
 10334001_2190_2018-08-14	2190_mp	Vegetatie	sleutelsoorten	b	0	-0.3333
@@ -759,7 +759,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10342193_2120_2019-10-15	2120	Verstoring	structuurverstoring	b	1	1
 10342193_2120_2019-10-15	2120	Verstoring	vergrassing	zb	1	1
 10342193_2120_2019-10-15	2120	Verstoring	verruiging	zb	1	1
-103425_2023-08-02	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8258
+103425_2023-08-02	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8262
 103425_2023-08-02	2130_hd	Verstoring	invasieve exoten	zb	1	1
 103425_2023-08-02	2130_hd	Verstoring	overbetreding	b	1	1
 103425_2023-08-02	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -779,12 +779,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10350385_2023-08-22	2120	Structuur	dynamiek	zb	1	1
 10350385_2023-08-22	2120	Verstoring	exoten	b	1	0.8462
 10350385_2023-08-22	2120	Structuur	horizontale structuur	b	0	-1
-10350385_2023-08-22	2120	Structuur	kruidlaag	zb	1	0.8979
+10350385_2023-08-22	2120	Structuur	kruidlaag	zb	1	0.8982
 10350385_2023-08-22	2120	Structuur	naakte bodem	b	NA	NA
 10350385_2023-08-22	2120	Verstoring	rijshout	b	1	1
 10350385_2023-08-22	2120	Vegetatie	sleutelsoorten	b	0	-1
 10350385_2023-08-22	2120	Verstoring	structuurverstoring	b	1	1
-10350385_2023-08-22	2120	Verstoring	vergrassing	zb	1	0.4045
+10350385_2023-08-22	2120	Verstoring	vergrassing	zb	1	0.5953
 10350385_2023-08-22	2120	Verstoring	verruiging	zb	0	-0.8901
 10350385_2120_2018-07-16	2120	Structuur	(korst)moslaag	zb	1	1
 10350385_2120_2018-07-16	2120	Structuur	dynamiek	zb	1	1
@@ -795,29 +795,29 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10350385_2120_2018-07-16	2120	Verstoring	rijshout	b	1	1
 10350385_2120_2018-07-16	2120	Vegetatie	sleutelsoorten	b	0	-1
 10350385_2120_2018-07-16	2120	Verstoring	structuurverstoring	b	0	-0.0321
-10350385_2120_2018-07-16	2120	Verstoring	vergrassing	zb	1	0.6066
+10350385_2120_2018-07-16	2120	Verstoring	vergrassing	zb	1	0.6486
 10350385_2120_2018-07-16	2120	Verstoring	verruiging	zb	0	-0.9048
 10353973_2120_2019-10-28	2120	Structuur	(korst)moslaag	zb	1	0.6667
 10353973_2120_2019-10-28	2120	Structuur	dynamiek	zb	1	1
-10353973_2120_2019-10-28	2120	Verstoring	exoten	b	1	0.404
+10353973_2120_2019-10-28	2120	Verstoring	exoten	b	1	0.408
 10353973_2120_2019-10-28	2120	Structuur	horizontale structuur	b	1	1
 10353973_2120_2019-10-28	2120	Structuur	kruidlaag	zb	1	0.8667
 10353973_2120_2019-10-28	2120	Structuur	naakte bodem	b	NA	NA
 10353973_2120_2019-10-28	2120	Verstoring	rijshout	b	1	1
-10353973_2120_2019-10-28	2120	Vegetatie	sleutelsoorten	b	1	0
+10353973_2120_2019-10-28	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10353973_2120_2019-10-28	2120	Verstoring	structuurverstoring	b	1	1
-10353973_2120_2019-10-28	2120	Verstoring	vergrassing	zb	1	0.672
+10353973_2120_2019-10-28	2120	Verstoring	vergrassing	zb	1	0.8027
 10353973_2120_2019-10-28	2120	Verstoring	verruiging	zb	1	1
 103601_2023-08-30	2120	Structuur	(korst)moslaag	zb	1	0.9735
 103601_2023-08-30	2120	Structuur	dynamiek	zb	1	1
 103601_2023-08-30	2120	Verstoring	exoten	b	1	1
 103601_2023-08-30	2120	Structuur	horizontale structuur	b	0	-1
-103601_2023-08-30	2120	Structuur	kruidlaag	zb	1	0.8429
+103601_2023-08-30	2120	Structuur	kruidlaag	zb	1	0.8438
 103601_2023-08-30	2120	Structuur	naakte bodem	b	NA	NA
 103601_2023-08-30	2120	Verstoring	rijshout	b	1	1
 103601_2023-08-30	2120	Vegetatie	sleutelsoorten	b	0	-1
 103601_2023-08-30	2120	Verstoring	structuurverstoring	b	1	1
-103601_2023-08-30	2120	Verstoring	vergrassing	zb	1	0.3457
+103601_2023-08-30	2120	Verstoring	vergrassing	zb	1	0.4082
 103601_2023-08-30	2120	Verstoring	verruiging	zb	1	0.9471
 103601_2120_2019-11-04	2120	Structuur	(korst)moslaag	zb	1	1
 103601_2120_2019-11-04	2120	Structuur	dynamiek	zb	1	1
@@ -862,23 +862,23 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10392753_2120_2019-10-31	2120	Structuur	dynamiek	zb	1	1
 10392753_2120_2019-10-31	2120	Verstoring	exoten	b	1	0.5
 10392753_2120_2019-10-31	2120	Structuur	horizontale structuur	b	1	1
-10392753_2120_2019-10-31	2120	Structuur	kruidlaag	zb	0	-0.5891
+10392753_2120_2019-10-31	2120	Structuur	kruidlaag	zb	0	-0.3966
 10392753_2120_2019-10-31	2120	Structuur	naakte bodem	b	NA	NA
 10392753_2120_2019-10-31	2120	Verstoring	rijshout	b	1	1
-10392753_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	0
+10392753_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10392753_2120_2019-10-31	2120	Verstoring	structuurverstoring	b	1	1
-10392753_2120_2019-10-31	2120	Verstoring	vergrassing	zb	0	-1
+10392753_2120_2019-10-31	2120	Verstoring	vergrassing	zb	0	-0.2571
 10392753_2120_2019-10-31	2120	Verstoring	verruiging	zb	1	1
 10398513_2120_2018-09-27	2120	Structuur	(korst)moslaag	zb	1	1
 10398513_2120_2018-09-27	2120	Structuur	dynamiek	zb	1	1
 10398513_2120_2018-09-27	2120	Verstoring	exoten	b	1	0.3333
 10398513_2120_2018-09-27	2120	Structuur	horizontale structuur	b	1	1
-10398513_2120_2018-09-27	2120	Structuur	kruidlaag	zb	1	0.0166
+10398513_2120_2018-09-27	2120	Structuur	kruidlaag	zb	1	0.0547
 10398513_2120_2018-09-27	2120	Structuur	naakte bodem	b	NA	NA
 10398513_2120_2018-09-27	2120	Verstoring	rijshout	b	1	1
-10398513_2120_2018-09-27	2120	Vegetatie	sleutelsoorten	b	0	-1
+10398513_2120_2018-09-27	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10398513_2120_2018-09-27	2120	Verstoring	structuurverstoring	b	0	-0.2868
-10398513_2120_2018-09-27	2120	Verstoring	vergrassing	zb	0	-0.2928
+10398513_2120_2018-09-27	2120	Verstoring	vergrassing	zb	0	-0.1774
 10398513_2120_2018-09-27	2120	Verstoring	verruiging	zb	1	1
 10399281_2120_2019-10-23	2120	Structuur	(korst)moslaag	zb	1	1
 10399281_2120_2019-10-23	2120	Structuur	dynamiek	zb	1	1
@@ -908,11 +908,11 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10419637_2120_2019-10-16	2120	Structuur	kruidlaag	zb	1	1
 10419637_2120_2019-10-16	2120	Structuur	naakte bodem	b	NA	NA
 10419637_2120_2019-10-16	2120	Verstoring	rijshout	b	1	0.999
-10419637_2120_2019-10-16	2120	Vegetatie	sleutelsoorten	b	0	-1
+10419637_2120_2019-10-16	2120	Vegetatie	sleutelsoorten	b	1	0
 10419637_2120_2019-10-16	2120	Verstoring	structuurverstoring	b	1	1
-10419637_2120_2019-10-16	2120	Verstoring	vergrassing	zb	1	0.3333
+10419637_2120_2019-10-16	2120	Verstoring	vergrassing	zb	1	1
 10419637_2120_2019-10-16	2120	Verstoring	verruiging	zb	1	1
-1044273_2120_2018-07-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6883
+1044273_2120_2018-07-23	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6965
 1044273_2120_2018-07-23	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1044273_2120_2018-07-23	2130_hd	Verstoring	overbetreding	b	1	1
 1044273_2120_2018-07-23	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -929,78 +929,78 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10458289_2120_2019-11-04	2120	Structuur	dynamiek	zb	1	1
 10458289_2120_2019-11-04	2120	Verstoring	exoten	b	1	0.6667
 10458289_2120_2019-11-04	2120	Structuur	horizontale structuur	b	1	1
-10458289_2120_2019-11-04	2120	Structuur	kruidlaag	zb	0	-0.5996
+10458289_2120_2019-11-04	2120	Structuur	kruidlaag	zb	0	-0.555
 10458289_2120_2019-11-04	2120	Structuur	naakte bodem	b	NA	NA
 10458289_2120_2019-11-04	2120	Verstoring	rijshout	b	1	1
 10458289_2120_2019-11-04	2120	Vegetatie	sleutelsoorten	b	1	0
 10458289_2120_2019-11-04	2120	Verstoring	structuurverstoring	b	1	1
-10458289_2120_2019-11-04	2120	Verstoring	vergrassing	zb	0	-0.0476
+10458289_2120_2019-11-04	2120	Verstoring	vergrassing	zb	1	1
 10458289_2120_2019-11-04	2120	Verstoring	verruiging	zb	1	1
 10462645_2120_2019-10-17	2120	Structuur	(korst)moslaag	zb	1	0.6491
 10462645_2120_2019-10-17	2120	Structuur	dynamiek	zb	1	1
 10462645_2120_2019-10-17	2120	Verstoring	exoten	b	1	1
 10462645_2120_2019-10-17	2120	Structuur	horizontale structuur	b	1	1
-10462645_2120_2019-10-17	2120	Structuur	kruidlaag	zb	1	0.8614
+10462645_2120_2019-10-17	2120	Structuur	kruidlaag	zb	1	0.8615
 10462645_2120_2019-10-17	2120	Structuur	naakte bodem	b	NA	NA
 10462645_2120_2019-10-17	2120	Verstoring	rijshout	b	1	1
 10462645_2120_2019-10-17	2120	Vegetatie	sleutelsoorten	b	0	-1
 10462645_2120_2019-10-17	2120	Verstoring	structuurverstoring	b	1	1
-10462645_2120_2019-10-17	2120	Verstoring	vergrassing	zb	1	0.8954
+10462645_2120_2019-10-17	2120	Verstoring	vergrassing	zb	1	0.9298
 10462645_2120_2019-10-17	2120	Verstoring	verruiging	zb	1	0.7544
 1047861_2023-08-25	2120	Structuur	(korst)moslaag	zb	1	0.8925
 1047861_2023-08-25	2120	Structuur	dynamiek	zb	1	1
 1047861_2023-08-25	2120	Verstoring	exoten	b	1	0.6774
 1047861_2023-08-25	2120	Structuur	horizontale structuur	b	0	-1
-1047861_2023-08-25	2120	Structuur	kruidlaag	zb	0	-0.8351
+1047861_2023-08-25	2120	Structuur	kruidlaag	zb	0	-0.5364
 1047861_2023-08-25	2120	Structuur	naakte bodem	b	NA	NA
 1047861_2023-08-25	2120	Verstoring	rijshout	b	1	1
 1047861_2023-08-25	2120	Vegetatie	sleutelsoorten	b	0	-1
 1047861_2023-08-25	2120	Verstoring	structuurverstoring	b	0	-0.0321
-1047861_2023-08-25	2120	Verstoring	vergrassing	zb	0	-0.664
+1047861_2023-08-25	2120	Verstoring	vergrassing	zb	0	-0.2983
 1047861_2023-08-25	2120	Verstoring	verruiging	zb	1	1
 1047861_2120_2019-10-28	2120	Structuur	(korst)moslaag	zb	1	0.6667
 1047861_2120_2019-10-28	2120	Structuur	dynamiek	zb	1	1
 1047861_2120_2019-10-28	2120	Verstoring	exoten	b	1	0
 1047861_2120_2019-10-28	2120	Structuur	horizontale structuur	b	0	-1
-1047861_2120_2019-10-28	2120	Structuur	kruidlaag	zb	0	-0.8177
+1047861_2120_2019-10-28	2120	Structuur	kruidlaag	zb	0	-0.5063
 1047861_2120_2019-10-28	2120	Structuur	naakte bodem	b	NA	NA
 1047861_2120_2019-10-28	2120	Verstoring	rijshout	b	1	1
 1047861_2120_2019-10-28	2120	Vegetatie	sleutelsoorten	b	0	-1
 1047861_2120_2019-10-28	2120	Verstoring	structuurverstoring	b	0	-0.083
-1047861_2120_2019-10-28	2120	Verstoring	vergrassing	zb	0	-0.5515
+1047861_2120_2019-10-28	2120	Verstoring	vergrassing	zb	0	-0.3143
 1047861_2120_2019-10-28	2120	Verstoring	verruiging	zb	1	0.6667
 10517813_2120_2019-10-28	2120	Structuur	(korst)moslaag	zb	1	0.7222
 10517813_2120_2019-10-28	2120	Structuur	dynamiek	zb	1	1
-10517813_2120_2019-10-28	2120	Verstoring	exoten	b	1	0.6683
+10517813_2120_2019-10-28	2120	Verstoring	exoten	b	1	0.6694
 10517813_2120_2019-10-28	2120	Structuur	horizontale structuur	b	1	1
 10517813_2120_2019-10-28	2120	Structuur	kruidlaag	zb	1	0.9444
 10517813_2120_2019-10-28	2120	Structuur	naakte bodem	b	NA	NA
 10517813_2120_2019-10-28	2120	Verstoring	rijshout	b	1	1
 10517813_2120_2019-10-28	2120	Vegetatie	sleutelsoorten	b	1	0
 10517813_2120_2019-10-28	2120	Verstoring	structuurverstoring	b	1	1
-10517813_2120_2019-10-28	2120	Verstoring	vergrassing	zb	0	-0.0667
+10517813_2120_2019-10-28	2120	Verstoring	vergrassing	zb	1	0.9444
 10517813_2120_2019-10-28	2120	Verstoring	verruiging	zb	1	1
 1053873_2023-09-12	2120	Structuur	(korst)moslaag	zb	1	0.7222
 1053873_2023-09-12	2120	Structuur	dynamiek	zb	1	1
 1053873_2023-09-12	2120	Verstoring	exoten	b	1	1
 1053873_2023-09-12	2120	Structuur	horizontale structuur	b	0	-1
-1053873_2023-09-12	2120	Structuur	kruidlaag	zb	0	-0.3075
+1053873_2023-09-12	2120	Structuur	kruidlaag	zb	0	-0.1996
 1053873_2023-09-12	2120	Structuur	naakte bodem	b	NA	NA
 1053873_2023-09-12	2120	Verstoring	rijshout	b	1	1
 1053873_2023-09-12	2120	Vegetatie	sleutelsoorten	b	0	-1
 1053873_2023-09-12	2120	Verstoring	structuurverstoring	b	1	1
-1053873_2023-09-12	2120	Verstoring	vergrassing	zb	0	-0.093
+1053873_2023-09-12	2120	Verstoring	vergrassing	zb	1	0.3287
 1053873_2023-09-12	2120	Verstoring	verruiging	zb	1	1
 1053873_2120_2019-10-31	2120	Structuur	(korst)moslaag	zb	1	0.7778
 1053873_2120_2019-10-31	2120	Structuur	dynamiek	zb	1	1
 1053873_2120_2019-10-31	2120	Verstoring	exoten	b	0	-0.037
 1053873_2120_2019-10-31	2120	Structuur	horizontale structuur	b	1	1
-1053873_2120_2019-10-31	2120	Structuur	kruidlaag	zb	0	-1
+1053873_2120_2019-10-31	2120	Structuur	kruidlaag	zb	0	-0.7703
 1053873_2120_2019-10-31	2120	Structuur	naakte bodem	b	NA	NA
 1053873_2120_2019-10-31	2120	Verstoring	rijshout	b	1	1
-1053873_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	0
+1053873_2120_2019-10-31	2120	Vegetatie	sleutelsoorten	b	1	1
 1053873_2120_2019-10-31	2120	Verstoring	structuurverstoring	b	1	1
-1053873_2120_2019-10-31	2120	Verstoring	vergrassing	zb	0	-0.2248
+1053873_2120_2019-10-31	2120	Verstoring	vergrassing	zb	0	-0.0222
 1053873_2120_2019-10-31	2120	Verstoring	verruiging	zb	1	1
 10547637_2130_hd_2019-10-16	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 10547637_2130_hd_2019-10-16	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -1014,12 +1014,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10578737_2023-08-18	2120	Structuur	dynamiek	zb	1	1
 10578737_2023-08-18	2120	Verstoring	exoten	b	0	-0.1111
 10578737_2023-08-18	2120	Structuur	horizontale structuur	b	1	1
-10578737_2023-08-18	2120	Structuur	kruidlaag	zb	0	-0.42
+10578737_2023-08-18	2120	Structuur	kruidlaag	zb	0	-0.2686
 10578737_2023-08-18	2120	Structuur	naakte bodem	b	NA	NA
 10578737_2023-08-18	2120	Verstoring	rijshout	b	1	1
-10578737_2023-08-18	2120	Vegetatie	sleutelsoorten	b	0	-1
+10578737_2023-08-18	2120	Vegetatie	sleutelsoorten	b	1	0
 10578737_2023-08-18	2120	Verstoring	structuurverstoring	b	1	0.4595
-10578737_2023-08-18	2120	Verstoring	vergrassing	zb	0	-0.14
+10578737_2023-08-18	2120	Verstoring	vergrassing	zb	1	0.3333
 10578737_2023-08-18	2120	Verstoring	verruiging	zb	1	1
 10578737_2120_2018-09-27	2120	Structuur	(korst)moslaag	zb	1	1
 10578737_2120_2018-09-27	2120	Structuur	dynamiek	zb	1	1
@@ -1058,12 +1058,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10606705_2120_2019-10-18	2120	Structuur	dynamiek	zb	1	1
 10606705_2120_2019-10-18	2120	Verstoring	exoten	b	0	-0.0794
 10606705_2120_2019-10-18	2120	Structuur	horizontale structuur	b	1	1
-10606705_2120_2019-10-18	2120	Structuur	kruidlaag	zb	1	0.8586
+10606705_2120_2019-10-18	2120	Structuur	kruidlaag	zb	1	0.8592
 10606705_2120_2019-10-18	2120	Structuur	naakte bodem	b	NA	NA
 10606705_2120_2019-10-18	2120	Verstoring	rijshout	b	1	1
 10606705_2120_2019-10-18	2120	Vegetatie	sleutelsoorten	b	1	0
 10606705_2120_2019-10-18	2120	Verstoring	structuurverstoring	b	1	1
-10606705_2120_2019-10-18	2120	Verstoring	vergrassing	zb	1	0.6667
+10606705_2120_2019-10-18	2120	Verstoring	vergrassing	zb	1	1
 10606705_2120_2019-10-18	2120	Verstoring	verruiging	zb	1	1
 10642869_2130_hd_2019-10-18	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 10642869_2130_hd_2019-10-18	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -1077,45 +1077,45 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10654897_2120_2019-11-04	2120	Structuur	dynamiek	zb	1	1
 10654897_2120_2019-11-04	2120	Verstoring	exoten	b	1	0.5
 10654897_2120_2019-11-04	2120	Structuur	horizontale structuur	b	1	1
-10654897_2120_2019-11-04	2120	Structuur	kruidlaag	zb	1	0.6683
+10654897_2120_2019-11-04	2120	Structuur	kruidlaag	zb	1	0.675
 10654897_2120_2019-11-04	2120	Structuur	naakte bodem	b	NA	NA
 10654897_2120_2019-11-04	2120	Verstoring	rijshout	b	1	1
 10654897_2120_2019-11-04	2120	Vegetatie	sleutelsoorten	b	1	0
 10654897_2120_2019-11-04	2120	Verstoring	structuurverstoring	b	1	1
-10654897_2120_2019-11-04	2120	Verstoring	vergrassing	zb	0	-1
+10654897_2120_2019-11-04	2120	Verstoring	vergrassing	zb	1	1
 10654897_2120_2019-11-04	2120	Verstoring	verruiging	zb	1	1
 10665777_2023-08-11	2120	Structuur	(korst)moslaag	zb	1	0.9167
 10665777_2023-08-11	2120	Structuur	dynamiek	zb	1	1
 10665777_2023-08-11	2120	Verstoring	exoten	b	1	1
 10665777_2023-08-11	2120	Structuur	horizontale structuur	b	0	-1
-10665777_2023-08-11	2120	Structuur	kruidlaag	zb	0	-0.1932
+10665777_2023-08-11	2120	Structuur	kruidlaag	zb	0	-0.1157
 10665777_2023-08-11	2120	Structuur	naakte bodem	b	NA	NA
 10665777_2023-08-11	2120	Verstoring	rijshout	b	1	1
 10665777_2023-08-11	2120	Vegetatie	sleutelsoorten	b	0	-1
 10665777_2023-08-11	2120	Verstoring	structuurverstoring	b	1	1
-10665777_2023-08-11	2120	Verstoring	vergrassing	zb	0	-0.464
+10665777_2023-08-11	2120	Verstoring	vergrassing	zb	1	0.0733
 10665777_2023-08-11	2120	Verstoring	verruiging	zb	1	1
 10665777_2120_2018-08-23	2120	Structuur	(korst)moslaag	zb	1	0.3333
 10665777_2120_2018-08-23	2120	Structuur	dynamiek	zb	1	1
 10665777_2120_2018-08-23	2120	Verstoring	exoten	b	1	1
 10665777_2120_2018-08-23	2120	Structuur	horizontale structuur	b	0	-1
-10665777_2120_2018-08-23	2120	Structuur	kruidlaag	zb	0	-0.14
+10665777_2120_2018-08-23	2120	Structuur	kruidlaag	zb	0	-0.0857
 10665777_2120_2018-08-23	2120	Structuur	naakte bodem	b	NA	NA
 10665777_2120_2018-08-23	2120	Verstoring	rijshout	b	1	1
 10665777_2120_2018-08-23	2120	Vegetatie	sleutelsoorten	b	0	-1
 10665777_2120_2018-08-23	2120	Verstoring	structuurverstoring	b	1	1
-10665777_2120_2018-08-23	2120	Verstoring	vergrassing	zb	0	-0.9773
+10665777_2120_2018-08-23	2120	Verstoring	vergrassing	zb	0	-0.3143
 10665777_2120_2018-08-23	2120	Verstoring	verruiging	zb	1	1
 10672241_2120_2019-10-18	2120	Structuur	(korst)moslaag	zb	1	0.4444
 10672241_2120_2019-10-18	2120	Structuur	dynamiek	zb	1	1
 10672241_2120_2019-10-18	2120	Verstoring	exoten	b	1	0.6667
 10672241_2120_2019-10-18	2120	Structuur	horizontale structuur	b	1	1
-10672241_2120_2019-10-18	2120	Structuur	kruidlaag	zb	1	0.7277
+10672241_2120_2019-10-18	2120	Structuur	kruidlaag	zb	1	0.7313
 10672241_2120_2019-10-18	2120	Structuur	naakte bodem	b	NA	NA
 10672241_2120_2019-10-18	2120	Verstoring	rijshout	b	1	1
-10672241_2120_2019-10-18	2120	Vegetatie	sleutelsoorten	b	1	0
+10672241_2120_2019-10-18	2120	Vegetatie	sleutelsoorten	b	1	0.5
 10672241_2120_2019-10-18	2120	Verstoring	structuurverstoring	b	1	1
-10672241_2120_2019-10-18	2120	Verstoring	vergrassing	zb	0	-0.1042
+10672241_2120_2019-10-18	2120	Verstoring	vergrassing	zb	1	0.8361
 10672241_2120_2019-10-18	2120	Verstoring	verruiging	zb	1	1
 1069233_2024-09-03	2160	Structuur	horizontale structuur	b	0	-0.4595
 1069233_2024-09-03	2160	Verstoring	invasieve exoten	zb	1	1
@@ -1147,7 +1147,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 10809137_2190_mp_2018-08-14	2190_mp	Verstoring	verbossing	b	1	1
 10809137_2190_mp_2018-08-14	2190_mp	Verstoring	verdroging	zb	1	0.6905
 10809137_2190_mp_2018-08-14	2190_mp	Verstoring	verruiging	zb	1	0.8667
-10839857_2024-08-07	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8432
+10839857_2024-08-07	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
 10839857_2024-08-07	2130_had	Verstoring	invasief mos	zb	1	1
 10839857_2024-08-07	2130_had	Verstoring	invasieve exoten	zb	1	1
 10839857_2024-08-07	2130_had	Verstoring	overbetreding	b	1	1
@@ -1222,12 +1222,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 111985_2020-07-20	2120	Structuur	dynamiek	zb	1	1
 111985_2020-07-20	2120	Verstoring	exoten	b	1	0.8667
 111985_2020-07-20	2120	Structuur	horizontale structuur	b	1	1
-111985_2020-07-20	2120	Structuur	kruidlaag	zb	0	-0.2337
+111985_2020-07-20	2120	Structuur	kruidlaag	zb	0	-0.22
 111985_2020-07-20	2120	Structuur	naakte bodem	b	NA	NA
 111985_2020-07-20	2120	Verstoring	rijshout	b	1	1
 111985_2020-07-20	2120	Vegetatie	sleutelsoorten	b	0	-1
 111985_2020-07-20	2120	Verstoring	structuurverstoring	b	1	1
-111985_2020-07-20	2120	Verstoring	vergrassing	zb	0	-0.4283
+111985_2020-07-20	2120	Verstoring	vergrassing	zb	0	-0.3816
 111985_2020-07-20	2120	Verstoring	verruiging	zb	1	1
 11375793_2021-08-31	2190_mp	Verstoring	invasieve exoten	zb	1	1
 11375793_2021-08-31	2190_mp	Vegetatie	sleutelsoorten	b	0	-1
@@ -1294,7 +1294,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1158961_2022-09-27	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1158961_2022-09-27	2180	Verstoring	verruiging	zb	0	-0.0857
 1158961_2022-09-27	2180	Structuur	verticale structuur	b	NA	NA
-11595569_2170_2018-08-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6682
+11595569_2170_2018-08-20	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6729
 11595569_2170_2018-08-20	2130_hd	Verstoring	invasieve exoten	zb	1	1
 11595569_2170_2018-08-20	2130_hd	Verstoring	overbetreding	b	1	1
 11595569_2170_2018-08-20	2130_hd	Verstoring	overige exoten	b	1	0.801
@@ -1302,7 +1302,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 11595569_2170_2018-08-20	2130_hd	Verstoring	verbossing	b	1	1
 11595569_2170_2018-08-20	2130_hd	Verstoring	vergrassing	zb	1	0.7357
 11595569_2170_2018-08-20	2130_hd	Verstoring	verruiging	zb	1	1
-116849_2024-07-02	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.96
+116849_2024-07-02	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 116849_2024-07-02	2130_hd	Verstoring	invasieve exoten	zb	1	1
 116849_2024-07-02	2130_hd	Verstoring	overbetreding	b	1	1
 116849_2024-07-02	2130_hd	Verstoring	overige exoten	b	1	1
@@ -1351,12 +1351,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 120945_2020-07-14	2120	Structuur	dynamiek	zb	0	-1
 120945_2020-07-14	2120	Verstoring	exoten	b	1	0.5789
 120945_2020-07-14	2120	Structuur	horizontale structuur	b	1	1
-120945_2020-07-14	2120	Structuur	kruidlaag	zb	1	0.7596
+120945_2020-07-14	2120	Structuur	kruidlaag	zb	1	0.7599
 120945_2020-07-14	2120	Structuur	naakte bodem	b	NA	NA
 120945_2020-07-14	2120	Verstoring	rijshout	b	1	1
 120945_2020-07-14	2120	Vegetatie	sleutelsoorten	b	0	-1
 120945_2020-07-14	2120	Verstoring	structuurverstoring	b	1	1
-120945_2020-07-14	2120	Verstoring	vergrassing	zb	0	-0.2857
+120945_2020-07-14	2120	Verstoring	vergrassing	zb	0	-0.2815
 120945_2020-07-14	2120	Verstoring	verruiging	zb	1	0.826
 121525_2020-07-02	2120	Structuur	(korst)moslaag	zb	1	1
 121525_2020-07-02	2120	Structuur	dynamiek	zb	NA	NA
@@ -1442,7 +1442,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 12545841_2170_2018-09-20	2170	Vegetatie	sleutelsoorten	b	0	-0.6667
 12545841_2170_2018-09-20	2170	Verstoring	verbossing	b	1	1
 12545841_2170_2018-09-20	2170	Verstoring	verruiging	zb	0	-0.0222
-1264241_2024-08-07	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.98
+1264241_2024-08-07	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
 1264241_2024-08-07	2130_had	Verstoring	invasief mos	zb	1	1
 1264241_2024-08-07	2130_had	Verstoring	invasieve exoten	zb	1	1
 1264241_2024-08-07	2130_had	Verstoring	overbetreding	b	1	1
@@ -1465,7 +1465,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 126769_2024-08-23	2190_mp	Verstoring	verbossing	b	1	1
 126769_2024-08-23	2190_mp	Verstoring	verdroging	zb	1	0.6033
 126769_2024-08-23	2190_mp	Verstoring	verruiging	zb	1	1
-1276081_2020-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6555
+1276081_2020-08-21	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.6562
 1276081_2020-08-21	2130_hd	Verstoring	invasieve exoten	zb	1	1
 1276081_2020-08-21	2130_hd	Verstoring	overbetreding	b	1	1
 1276081_2020-08-21	2130_hd	Verstoring	overige exoten	b	1	1
@@ -1551,12 +1551,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 136885_2021-08-09	2120	Structuur	dynamiek	zb	0	-1
 136885_2021-08-09	2120	Verstoring	exoten	b	1	0.8889
 136885_2021-08-09	2120	Structuur	horizontale structuur	b	1	1
-136885_2021-08-09	2120	Structuur	kruidlaag	zb	1	0.4088
+136885_2021-08-09	2120	Structuur	kruidlaag	zb	1	0.413
 136885_2021-08-09	2120	Structuur	naakte bodem	b	NA	NA
 136885_2021-08-09	2120	Verstoring	rijshout	b	1	1
 136885_2021-08-09	2120	Vegetatie	sleutelsoorten	b	0	-1
 136885_2021-08-09	2120	Verstoring	structuurverstoring	b	1	1
-136885_2021-08-09	2120	Verstoring	vergrassing	zb	1	0.6722
+136885_2021-08-09	2120	Verstoring	vergrassing	zb	1	0.6728
 136885_2021-08-09	2120	Verstoring	verruiging	zb	1	1
 1371953_2020-07-15	2190_mp	Verstoring	invasieve exoten	zb	1	1
 1371953_2020-07-15	2190_mp	Vegetatie	sleutelsoorten	b	0	-0.6667
@@ -1744,12 +1744,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 163633_2023-08-31	2120	Structuur	dynamiek	zb	1	1
 163633_2023-08-31	2120	Verstoring	exoten	b	1	0.4667
 163633_2023-08-31	2120	Structuur	horizontale structuur	b	1	1
-163633_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.6537
+163633_2023-08-31	2120	Structuur	kruidlaag	zb	1	0.6567
 163633_2023-08-31	2120	Structuur	naakte bodem	b	NA	NA
 163633_2023-08-31	2120	Verstoring	rijshout	b	1	1
-163633_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0
+163633_2023-08-31	2120	Vegetatie	sleutelsoorten	b	1	0.5
 163633_2023-08-31	2120	Verstoring	structuurverstoring	b	1	1
-163633_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.7373
+163633_2023-08-31	2120	Verstoring	vergrassing	zb	1	0.9117
 163633_2023-08-31	2120	Verstoring	verruiging	zb	1	0.9556
 1660081_2020-09-02	2190_mp	Verstoring	invasieve exoten	zb	1	1
 1660081_2020-09-02	2190_mp	Vegetatie	sleutelsoorten	b	0	-0.3333
@@ -1847,12 +1847,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 174897_2020-07-28	2120	Structuur	dynamiek	zb	1	1
 174897_2020-07-28	2120	Verstoring	exoten	b	1	0.7778
 174897_2020-07-28	2120	Structuur	horizontale structuur	b	1	1
-174897_2020-07-28	2120	Structuur	kruidlaag	zb	1	0.611
+174897_2020-07-28	2120	Structuur	kruidlaag	zb	1	0.613
 174897_2020-07-28	2120	Structuur	naakte bodem	b	NA	NA
 174897_2020-07-28	2120	Verstoring	rijshout	b	1	1
 174897_2020-07-28	2120	Vegetatie	sleutelsoorten	b	1	0
 174897_2020-07-28	2120	Verstoring	structuurverstoring	b	1	1
-174897_2020-07-28	2120	Verstoring	vergrassing	zb	1	0.7473
+174897_2020-07-28	2120	Verstoring	vergrassing	zb	1	0.7481
 174897_2020-07-28	2120	Verstoring	verruiging	zb	1	1
 175921_2020-08-13	2190_mp	Verstoring	invasieve exoten	zb	1	1
 175921_2020-08-13	2190_mp	Vegetatie	sleutelsoorten	b	0	-1
@@ -1943,7 +1943,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 192625_2020-07-14	2120	Verstoring	rijshout	b	1	1
 192625_2020-07-14	2120	Vegetatie	sleutelsoorten	b	0	-1
 192625_2020-07-14	2120	Verstoring	structuurverstoring	b	1	1
-192625_2020-07-14	2120	Verstoring	vergrassing	zb	1	0.0933
+192625_2020-07-14	2120	Verstoring	vergrassing	zb	1	0.12
 192625_2020-07-14	2120	Verstoring	verruiging	zb	1	1
 1938609_2021-08-27	2190_mp	Verstoring	invasieve exoten	zb	1	1
 1938609_2021-08-27	2190_mp	Vegetatie	sleutelsoorten	b	0	-1
@@ -1971,12 +1971,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 196021_2020-07-09	2120	Structuur	dynamiek	zb	1	1
 196021_2020-07-09	2120	Verstoring	exoten	b	1	0.5294
 196021_2020-07-09	2120	Structuur	horizontale structuur	b	1	1
-196021_2020-07-09	2120	Structuur	kruidlaag	zb	1	0.8835
+196021_2020-07-09	2120	Structuur	kruidlaag	zb	1	0.8837
 196021_2020-07-09	2120	Structuur	naakte bodem	b	NA	NA
 196021_2020-07-09	2120	Verstoring	rijshout	b	1	1
 196021_2020-07-09	2120	Vegetatie	sleutelsoorten	b	0	-1
 196021_2020-07-09	2120	Verstoring	structuurverstoring	b	1	1
-196021_2020-07-09	2120	Verstoring	vergrassing	zb	1	0.4684
+196021_2020-07-09	2120	Verstoring	vergrassing	zb	1	0.4715
 196021_2020-07-09	2120	Verstoring	verruiging	zb	1	0.8431
 1986613_2022-08-02	2180	Structuur	aandeel dood hout	b	NA	NA
 1986613_2022-08-02	2180	Structuur	bosconstantie	zb	NA	NA
@@ -1990,7 +1990,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 1986613_2022-08-02	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 1986613_2022-08-02	2180	Verstoring	verruiging	zb	1	0.9667
 1986613_2022-08-02	2180	Structuur	verticale structuur	b	NA	NA
-1992497_2024-08-05	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8638
+1992497_2024-08-05	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
 1992497_2024-08-05	2130_had	Verstoring	invasief mos	zb	1	1
 1992497_2024-08-05	2130_had	Verstoring	invasieve exoten	zb	1	1
 1992497_2024-08-05	2130_had	Verstoring	overbetreding	b	1	1
@@ -2046,7 +2046,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2057585_2020-07-20	2130_hd	Verstoring	verbossing	b	1	1
 2057585_2020-07-20	2130_hd	Verstoring	vergrassing	zb	1	0.5467
 2057585_2020-07-20	2130_hd	Verstoring	verruiging	zb	1	1
-2085041_2024-08-08	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9208
+2085041_2024-08-08	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
 2085041_2024-08-08	2130_had	Verstoring	invasief mos	zb	1	1
 2085041_2024-08-08	2130_had	Verstoring	invasieve exoten	zb	1	1
 2085041_2024-08-08	2130_had	Verstoring	overbetreding	b	1	1
@@ -2119,7 +2119,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2151425_2022-08-01	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 2151425_2022-08-01	2180	Verstoring	verruiging	zb	1	1
 2151425_2022-08-01	2180	Structuur	verticale structuur	b	NA	NA
-2161_2020-07-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8812
+2161_2020-07-10	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.8824
 2161_2020-07-10	2130_hd	Verstoring	invasieve exoten	zb	1	1
 2161_2020-07-10	2130_hd	Verstoring	overbetreding	b	1	1
 2161_2020-07-10	2130_hd	Verstoring	overige exoten	b	1	1
@@ -2197,7 +2197,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 2314293_2023-08-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-0.875
 2314293_2023-08-25	2180	Verstoring	verruiging	zb	0	-0.136
 2314293_2023-08-25	2180	Structuur	verticale structuur	b	NA	NA
-23221_2020-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.901
+23221_2020-07-03	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9017
 23221_2020-07-03	2130_hd	Verstoring	invasieve exoten	zb	1	1
 23221_2020-07-03	2130_hd	Verstoring	overbetreding	b	1	1
 23221_2020-07-03	2130_hd	Verstoring	overige exoten	b	1	1
@@ -2339,12 +2339,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 259889_2021-08-06	2120	Structuur	dynamiek	zb	1	1
 259889_2021-08-06	2120	Verstoring	exoten	b	1	0.5789
 259889_2021-08-06	2120	Structuur	horizontale structuur	b	1	1
-259889_2021-08-06	2120	Structuur	kruidlaag	zb	1	0.6942
+259889_2021-08-06	2120	Structuur	kruidlaag	zb	1	0.6948
 259889_2021-08-06	2120	Structuur	naakte bodem	b	NA	NA
 259889_2021-08-06	2120	Verstoring	rijshout	b	1	1
 259889_2021-08-06	2120	Vegetatie	sleutelsoorten	b	1	0
 259889_2021-08-06	2120	Verstoring	structuurverstoring	b	1	1
-259889_2021-08-06	2120	Verstoring	vergrassing	zb	1	0.3671
+259889_2021-08-06	2120	Verstoring	vergrassing	zb	1	0.7595
 259889_2021-08-06	2120	Verstoring	verruiging	zb	1	0.5789
 268341_2180_2020-09-14	2180	Structuur	aandeel dood hout	b	NA	NA
 268341_2180_2020-09-14	2180	Structuur	bosconstantie	zb	NA	NA
@@ -2456,7 +2456,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3168949_2020-07-03	2190_mp	Verstoring	verbossing	b	1	1
 3168949_2020-07-03	2190_mp	Verstoring	verdroging	zb	1	0.3419
 3168949_2020-07-03	2190_mp	Verstoring	verruiging	zb	1	1
-319665_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.2866
+319665_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3207
 319665_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 319665_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 319665_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -2503,7 +2503,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 339505_2021-08-16	2120	Verstoring	structuurverstoring	b	1	1
 339505_2021-08-16	2120	Verstoring	vergrassing	zb	1	0.9444
 339505_2021-08-16	2120	Verstoring	verruiging	zb	1	1
-3403569_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.4853
+3403569_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.4874
 3403569_2020-07-30	2130_hd	Verstoring	invasieve exoten	zb	1	1
 3403569_2020-07-30	2130_hd	Verstoring	overbetreding	b	1	1
 3403569_2020-07-30	2130_hd	Verstoring	overige exoten	b	1	1
@@ -2546,23 +2546,23 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 360241_2021-08-16	2120	Structuur	dynamiek	zb	1	1
 360241_2021-08-16	2120	Verstoring	exoten	b	1	0.898
 360241_2021-08-16	2120	Structuur	horizontale structuur	b	1	1
-360241_2021-08-16	2120	Structuur	kruidlaag	zb	1	0.7363
+360241_2021-08-16	2120	Structuur	kruidlaag	zb	1	0.7364
 360241_2021-08-16	2120	Structuur	naakte bodem	b	NA	NA
 360241_2021-08-16	2120	Verstoring	rijshout	b	1	1
 360241_2021-08-16	2120	Vegetatie	sleutelsoorten	b	0	-1
 360241_2021-08-16	2120	Verstoring	structuurverstoring	b	1	1
-360241_2021-08-16	2120	Verstoring	vergrassing	zb	0	-0.172
+360241_2021-08-16	2120	Verstoring	vergrassing	zb	0	-0.1718
 360241_2021-08-16	2120	Verstoring	verruiging	zb	1	1
 363313_2023-08-18	2120	Structuur	(korst)moslaag	zb	1	1
 363313_2023-08-18	2120	Structuur	dynamiek	zb	1	1
 363313_2023-08-18	2120	Verstoring	exoten	b	1	0.7333
 363313_2023-08-18	2120	Structuur	horizontale structuur	b	1	1
-363313_2023-08-18	2120	Structuur	kruidlaag	zb	1	0.7373
+363313_2023-08-18	2120	Structuur	kruidlaag	zb	1	0.7386
 363313_2023-08-18	2120	Structuur	naakte bodem	b	NA	NA
 363313_2023-08-18	2120	Verstoring	rijshout	b	1	1
-363313_2023-08-18	2120	Vegetatie	sleutelsoorten	b	1	0
+363313_2023-08-18	2120	Vegetatie	sleutelsoorten	b	1	0.5
 363313_2023-08-18	2120	Verstoring	structuurverstoring	b	0	-0.3377
-363313_2023-08-18	2120	Verstoring	vergrassing	zb	1	0.7796
+363313_2023-08-18	2120	Verstoring	vergrassing	zb	1	0.9556
 363313_2023-08-18	2120	Verstoring	verruiging	zb	1	1
 3637_2020-09-01	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 3637_2020-09-01	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -2608,12 +2608,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 371505_2020-07-28	2120	Structuur	dynamiek	zb	0	-1
 371505_2020-07-28	2120	Verstoring	exoten	b	1	0.7143
 371505_2020-07-28	2120	Structuur	horizontale structuur	b	1	1
-371505_2020-07-28	2120	Structuur	kruidlaag	zb	1	0.5868
+371505_2020-07-28	2120	Structuur	kruidlaag	zb	1	0.5933
 371505_2020-07-28	2120	Structuur	naakte bodem	b	NA	NA
 371505_2020-07-28	2120	Verstoring	rijshout	b	1	1
-371505_2020-07-28	2120	Vegetatie	sleutelsoorten	b	0	-1
+371505_2020-07-28	2120	Vegetatie	sleutelsoorten	b	1	0
 371505_2020-07-28	2120	Verstoring	structuurverstoring	b	1	0.4595
-371505_2020-07-28	2120	Verstoring	vergrassing	zb	0	-0.0908
+371505_2020-07-28	2120	Verstoring	vergrassing	zb	0	-0.0777
 371505_2020-07-28	2120	Verstoring	verruiging	zb	1	1
 3740849_1_2021-09-09	2170	Verstoring	invasieve exoten	zb	1	1
 3740849_1_2021-09-09	2170	Verstoring	overige exoten	b	1	1
@@ -2657,7 +2657,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 3812913_2021-08-18	2170	Vegetatie	sleutelsoorten	b	0	-1
 3812913_2021-08-18	2170	Verstoring	verbossing	b	1	0.1238
 3812913_2021-08-18	2170	Verstoring	verruiging	zb	0	-0.2605
-385201_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9015
+385201_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9019
 385201_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	1
 385201_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 385201_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -2672,7 +2672,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 388405_2020-07-02	2160	Verstoring	verbossing	b	1	1
 388913_2021-08-03	2120	Structuur	(korst)moslaag	zb	1	1
 388913_2021-08-03	2120	Structuur	dynamiek	zb	1	1
-388913_2021-08-03	2120	Verstoring	exoten	b	0	-0.2563
+388913_2021-08-03	2120	Verstoring	exoten	b	0	-0.2395
 388913_2021-08-03	2120	Structuur	horizontale structuur	b	1	1
 388913_2021-08-03	2120	Structuur	kruidlaag	zb	1	1
 388913_2021-08-03	2120	Structuur	naakte bodem	b	NA	NA
@@ -2706,18 +2706,18 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 396597_2020-07-06	2120	Verstoring	rijshout	b	1	1
 396597_2020-07-06	2120	Vegetatie	sleutelsoorten	b	0	-1
 396597_2020-07-06	2120	Verstoring	structuurverstoring	b	1	1
-396597_2020-07-06	2120	Verstoring	vergrassing	zb	1	0.5972
+396597_2020-07-06	2120	Verstoring	vergrassing	zb	1	0.5981
 396597_2020-07-06	2120	Verstoring	verruiging	zb	1	1
 399281_2021-08-23	2120	Structuur	(korst)moslaag	zb	1	1
 399281_2021-08-23	2120	Structuur	dynamiek	zb	1	1
 399281_2021-08-23	2120	Verstoring	exoten	b	1	1
 399281_2021-08-23	2120	Structuur	horizontale structuur	b	0	-1
-399281_2021-08-23	2120	Structuur	kruidlaag	zb	0	-0.2687
+399281_2021-08-23	2120	Structuur	kruidlaag	zb	0	-0.2039
 399281_2021-08-23	2120	Structuur	naakte bodem	b	NA	NA
 399281_2021-08-23	2120	Verstoring	rijshout	b	1	1
 399281_2021-08-23	2120	Vegetatie	sleutelsoorten	b	0	-1
 399281_2021-08-23	2120	Verstoring	structuurverstoring	b	1	1
-399281_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.898
+399281_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.5563
 399281_2021-08-23	2120	Verstoring	verruiging	zb	1	1
 4013365_2021-08-12	2190_mp	Verstoring	invasieve exoten	zb	1	1
 4013365_2021-08-12	2190_mp	Vegetatie	sleutelsoorten	b	0	-1
@@ -2760,12 +2760,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 425269_2020-07-07	2120	Structuur	dynamiek	zb	1	1
 425269_2020-07-07	2120	Verstoring	exoten	b	1	0.8889
 425269_2020-07-07	2120	Structuur	horizontale structuur	b	1	1
-425269_2020-07-07	2120	Structuur	kruidlaag	zb	1	0.8896
+425269_2020-07-07	2120	Structuur	kruidlaag	zb	1	0.8897
 425269_2020-07-07	2120	Structuur	naakte bodem	b	NA	NA
 425269_2020-07-07	2120	Verstoring	rijshout	b	1	1
 425269_2020-07-07	2120	Vegetatie	sleutelsoorten	b	0	-1
 425269_2020-07-07	2120	Verstoring	structuurverstoring	b	1	1
-425269_2020-07-07	2120	Verstoring	vergrassing	zb	1	0.5963
+425269_2020-07-07	2120	Verstoring	vergrassing	zb	1	0.5967
 425269_2020-07-07	2120	Verstoring	verruiging	zb	1	1
 4255537_2020-08-13	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9394
 4255537_2020-08-13	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -2779,7 +2779,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 431281_2021-08-24	2120	Structuur	dynamiek	zb	1	1
 431281_2021-08-24	2120	Verstoring	exoten	b	0	-0.1481
 431281_2021-08-24	2120	Structuur	horizontale structuur	b	1	1
-431281_2021-08-24	2120	Structuur	kruidlaag	zb	0	-0.0793
+431281_2021-08-24	2120	Structuur	kruidlaag	zb	0	-0.0437
 431281_2021-08-24	2120	Structuur	naakte bodem	b	NA	NA
 431281_2021-08-24	2120	Verstoring	rijshout	b	1	1
 431281_2021-08-24	2120	Vegetatie	sleutelsoorten	b	1	0
@@ -2807,12 +2807,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 438065_2021-08-03	2120	Structuur	dynamiek	zb	1	1
 438065_2021-08-03	2120	Verstoring	exoten	b	1	0.5
 438065_2021-08-03	2120	Structuur	horizontale structuur	b	0	-1
-438065_2021-08-03	2120	Structuur	kruidlaag	zb	1	0.6683
+438065_2021-08-03	2120	Structuur	kruidlaag	zb	1	0.675
 438065_2021-08-03	2120	Structuur	naakte bodem	b	NA	NA
 438065_2021-08-03	2120	Verstoring	rijshout	b	1	1
 438065_2021-08-03	2120	Vegetatie	sleutelsoorten	b	0	-1
 438065_2021-08-03	2120	Verstoring	structuurverstoring	b	1	0.4595
-438065_2021-08-03	2120	Verstoring	vergrassing	zb	0	-1
+438065_2021-08-03	2120	Verstoring	vergrassing	zb	1	0.5246
 438065_2021-08-03	2120	Verstoring	verruiging	zb	1	1
 4386609_2020-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-1
 4386609_2020-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -2829,14 +2829,14 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 4543665_2024-09-17	2170	Verstoring	verruiging	zb	0	-0.3333
 454449_2021-08-03	2120	Structuur	(korst)moslaag	zb	1	1
 454449_2021-08-03	2120	Structuur	dynamiek	zb	1	1
-454449_2021-08-03	2120	Verstoring	exoten	b	0	-0.0267
+454449_2021-08-03	2120	Verstoring	exoten	b	0	-0.025
 454449_2021-08-03	2120	Structuur	horizontale structuur	b	1	1
-454449_2021-08-03	2120	Structuur	kruidlaag	zb	1	0.7525
+454449_2021-08-03	2120	Structuur	kruidlaag	zb	1	0.7562
 454449_2021-08-03	2120	Structuur	naakte bodem	b	NA	NA
 454449_2021-08-03	2120	Verstoring	rijshout	b	1	1
 454449_2021-08-03	2120	Vegetatie	sleutelsoorten	b	1	0
 454449_2021-08-03	2120	Verstoring	structuurverstoring	b	1	1
-454449_2021-08-03	2120	Verstoring	vergrassing	zb	1	0.5867
+454449_2021-08-03	2120	Verstoring	vergrassing	zb	1	0.9167
 454449_2021-08-03	2120	Verstoring	verruiging	zb	1	1
 456817_2021-08-11	2120	Structuur	(korst)moslaag	zb	1	1
 456817_2021-08-11	2120	Structuur	dynamiek	zb	1	1
@@ -2873,7 +2873,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 461493_2021-08-09	2120	Verstoring	rijshout	b	1	1
 461493_2021-08-09	2120	Vegetatie	sleutelsoorten	b	1	0.5
 461493_2021-08-09	2120	Verstoring	structuurverstoring	b	1	1
-461493_2021-08-09	2120	Verstoring	vergrassing	zb	0	-0.0991
+461493_2021-08-09	2120	Verstoring	vergrassing	zb	0	-0.0982
 461493_2021-08-09	2120	Verstoring	verruiging	zb	1	1
 470325_2180_2020-09-09	2180	Structuur	aandeel dood hout	b	NA	NA
 470325_2180_2020-09-09	2180	Structuur	bosconstantie	zb	NA	NA
@@ -2900,7 +2900,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 4779825_2021-08-13	2190_mp	Verstoring	verbossing	b	1	1
 4779825_2021-08-13	2190_mp	Verstoring	verdroging	zb	1	0.7152
 4779825_2021-08-13	2190_mp	Verstoring	verruiging	zb	1	0.9333
-4837553_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8477
+4837553_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8481
 4837553_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	0.8
 4837553_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 4837553_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -2929,12 +2929,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 507697_2023-08-11	2120	Structuur	dynamiek	zb	1	1
 507697_2023-08-11	2120	Verstoring	exoten	b	1	1
 507697_2023-08-11	2120	Structuur	horizontale structuur	b	0	-1
-507697_2023-08-11	2120	Structuur	kruidlaag	zb	0	-0.42
+507697_2023-08-11	2120	Structuur	kruidlaag	zb	0	-0.2686
 507697_2023-08-11	2120	Structuur	naakte bodem	b	NA	NA
 507697_2023-08-11	2120	Verstoring	rijshout	b	1	1
 507697_2023-08-11	2120	Vegetatie	sleutelsoorten	b	0	-1
 507697_2023-08-11	2120	Verstoring	structuurverstoring	b	1	1
-507697_2023-08-11	2120	Verstoring	vergrassing	zb	0	-1
+507697_2023-08-11	2120	Verstoring	vergrassing	zb	0	-0.6255
 507697_2023-08-11	2120	Verstoring	verruiging	zb	1	1
 511793_2160_2020-09-28	2160	Structuur	horizontale structuur	b	0	-1
 511793_2160_2020-09-28	2160	Verstoring	invasieve exoten	zb	1	1
@@ -2962,7 +2962,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 51313_2020-07-10	2120	Verstoring	rijshout	b	1	1
 51313_2020-07-10	2120	Vegetatie	sleutelsoorten	b	0	-1
 51313_2020-07-10	2120	Verstoring	structuurverstoring	b	1	1
-51313_2020-07-10	2120	Verstoring	vergrassing	zb	0	-0.4732
+51313_2020-07-10	2120	Verstoring	vergrassing	zb	0	-0.471
 51313_2020-07-10	2120	Verstoring	verruiging	zb	1	0.7083
 513461_2021-08-10	2120	Structuur	(korst)moslaag	zb	1	1
 513461_2021-08-10	2120	Structuur	dynamiek	zb	1	1
@@ -2984,12 +2984,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 514741_2021-08-09	2120	Structuur	dynamiek	zb	1	1
 514741_2021-08-09	2120	Verstoring	exoten	b	1	0.7778
 514741_2021-08-09	2120	Structuur	horizontale structuur	b	1	1
-514741_2021-08-09	2120	Structuur	kruidlaag	zb	1	0.6448
+514741_2021-08-09	2120	Structuur	kruidlaag	zb	1	0.6465
 514741_2021-08-09	2120	Structuur	naakte bodem	b	NA	NA
 514741_2021-08-09	2120	Verstoring	rijshout	b	1	1
 514741_2021-08-09	2120	Vegetatie	sleutelsoorten	b	0	-1
 514741_2021-08-09	2120	Verstoring	structuurverstoring	b	1	0.4595
-514741_2021-08-09	2120	Verstoring	vergrassing	zb	1	0.1419
+514741_2021-08-09	2120	Verstoring	vergrassing	zb	1	0.1453
 514741_2021-08-09	2120	Verstoring	verruiging	zb	1	0.963
 517297_2022-08-31	2180	Structuur	aandeel dood hout	b	NA	NA
 517297_2022-08-31	2180	Structuur	bosconstantie	zb	NA	NA
@@ -3007,12 +3007,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 5297_2120_2020-08-27	2120	Structuur	dynamiek	zb	1	1
 5297_2120_2020-08-27	2120	Verstoring	exoten	b	1	0.75
 5297_2120_2020-08-27	2120	Structuur	horizontale structuur	b	1	1
-5297_2120_2020-08-27	2120	Structuur	kruidlaag	zb	1	0.8342
+5297_2120_2020-08-27	2120	Structuur	kruidlaag	zb	1	0.8354
 5297_2120_2020-08-27	2120	Structuur	naakte bodem	b	NA	NA
 5297_2120_2020-08-27	2120	Verstoring	rijshout	b	1	1
 5297_2120_2020-08-27	2120	Vegetatie	sleutelsoorten	b	0	-1
 5297_2120_2020-08-27	2120	Verstoring	structuurverstoring	b	1	1
-5297_2120_2020-08-27	2120	Verstoring	vergrassing	zb	1	0.5867
+5297_2120_2020-08-27	2120	Verstoring	vergrassing	zb	1	0.5917
 5297_2120_2020-08-27	2120	Verstoring	verruiging	zb	1	1
 530485_2022-08-04	2180	Structuur	aandeel dood hout	b	NA	NA
 530485_2022-08-04	2180	Structuur	bosconstantie	zb	NA	NA
@@ -3081,7 +3081,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 567473_2180_2020-09-25	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 567473_2180_2020-09-25	2180	Verstoring	verruiging	zb	0	-0.0647
 567473_2180_2020-09-25	2180	Structuur	verticale structuur	b	NA	NA
-57521_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.7131
+57521_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.6823
 57521_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	0.8
 57521_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 57521_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3089,7 +3089,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 57521_2021-08-04	2130_had	Verstoring	verbossing	b	1	1
 57521_2021-08-04	2130_had	Verstoring	vergrassing	zb	1	0.7667
 57521_2021-08-04	2130_had	Verstoring	verruiging	zb	1	1
-581809_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.4906
+581809_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.4917
 581809_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	0.9
 581809_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 581809_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3143,12 +3143,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 611505_2023-08-30	2120	Structuur	dynamiek	zb	1	1
 611505_2023-08-30	2120	Verstoring	exoten	b	1	0.7917
 611505_2023-08-30	2120	Structuur	horizontale structuur	b	1	1
-611505_2023-08-30	2120	Structuur	kruidlaag	zb	1	0.6597
+611505_2023-08-30	2120	Structuur	kruidlaag	zb	1	0.6669
 611505_2023-08-30	2120	Structuur	naakte bodem	b	NA	NA
 611505_2023-08-30	2120	Verstoring	rijshout	b	1	1
 611505_2023-08-30	2120	Vegetatie	sleutelsoorten	b	1	0
 611505_2023-08-30	2120	Verstoring	structuurverstoring	b	1	0.7297
-611505_2023-08-30	2120	Verstoring	vergrassing	zb	1	0.7257
+611505_2023-08-30	2120	Verstoring	vergrassing	zb	1	0.8626
 611505_2023-08-30	2120	Verstoring	verruiging	zb	1	1
 61233_2020-08-13	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.9602
 61233_2020-08-13	2130_hd	Verstoring	invasieve exoten	zb	1	1
@@ -3167,23 +3167,23 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 61877_2020-07-09	2120	Structuur	dynamiek	zb	1	1
 61877_2020-07-09	2120	Verstoring	exoten	b	1	1
 61877_2020-07-09	2120	Structuur	horizontale structuur	b	1	1
-61877_2020-07-09	2120	Structuur	kruidlaag	zb	1	0.7373
+61877_2020-07-09	2120	Structuur	kruidlaag	zb	1	0.7412
 61877_2020-07-09	2120	Structuur	naakte bodem	b	NA	NA
 61877_2020-07-09	2120	Verstoring	rijshout	b	1	1
 61877_2020-07-09	2120	Vegetatie	sleutelsoorten	b	0	-1
 61877_2020-07-09	2120	Verstoring	structuurverstoring	b	1	1
-61877_2020-07-09	2120	Verstoring	vergrassing	zb	0	-0.4684
+61877_2020-07-09	2120	Verstoring	vergrassing	zb	0	-0.4512
 61877_2020-07-09	2120	Verstoring	verruiging	zb	1	0.8667
 627889_1_2024-07-03	2120	Structuur	(korst)moslaag	zb	1	0.955
 627889_1_2024-07-03	2120	Structuur	dynamiek	zb	1	1
 627889_1_2024-07-03	2120	Verstoring	exoten	b	1	1
 627889_1_2024-07-03	2120	Structuur	horizontale structuur	b	1	1
-627889_1_2024-07-03	2120	Structuur	kruidlaag	zb	1	0.2192
+627889_1_2024-07-03	2120	Structuur	kruidlaag	zb	1	0.2675
 627889_1_2024-07-03	2120	Structuur	naakte bodem	b	NA	NA
 627889_1_2024-07-03	2120	Verstoring	rijshout	b	1	1
 627889_1_2024-07-03	2120	Vegetatie	sleutelsoorten	b	1	0
 627889_1_2024-07-03	2120	Verstoring	structuurverstoring	b	1	1
-627889_1_2024-07-03	2120	Verstoring	vergrassing	zb	1	0.1327
+627889_1_2024-07-03	2120	Verstoring	vergrassing	zb	1	0.4925
 627889_1_2024-07-03	2120	Verstoring	verruiging	zb	1	1
 627889_1_2024-07-03	2160	Structuur	horizontale structuur	b	NA	NA
 627889_1_2024-07-03	2160	Verstoring	invasieve exoten	zb	1	1
@@ -3204,12 +3204,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 634417_2021-08-16	2120	Structuur	dynamiek	zb	1	1
 634417_2021-08-16	2120	Verstoring	exoten	b	1	0.7895
 634417_2021-08-16	2120	Structuur	horizontale structuur	b	1	1
-634417_2021-08-16	2120	Structuur	kruidlaag	zb	0	-0.0015
+634417_2021-08-16	2120	Structuur	kruidlaag	zb	1	0.0024
 634417_2021-08-16	2120	Structuur	naakte bodem	b	NA	NA
 634417_2021-08-16	2120	Verstoring	rijshout	b	1	1
 634417_2021-08-16	2120	Vegetatie	sleutelsoorten	b	0	-1
 634417_2021-08-16	2120	Verstoring	structuurverstoring	b	1	1
-634417_2021-08-16	2120	Verstoring	vergrassing	zb	0	-0.1436
+634417_2021-08-16	2120	Verstoring	vergrassing	zb	0	-0.1391
 634417_2021-08-16	2120	Verstoring	verruiging	zb	1	1
 6389361_2021-08-11	2190_mp	Verstoring	invasieve exoten	zb	1	1
 6389361_2021-08-11	2190_mp	Vegetatie	sleutelsoorten	b	0	-1
@@ -3237,12 +3237,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 651057_1_2023-08-22	2120	Structuur	dynamiek	zb	1	1
 651057_1_2023-08-22	2120	Verstoring	exoten	b	1	1
 651057_1_2023-08-22	2120	Structuur	horizontale structuur	b	1	1
-651057_1_2023-08-22	2120	Structuur	kruidlaag	zb	0	-0.3882
+651057_1_2023-08-22	2120	Structuur	kruidlaag	zb	0	-0.246
 651057_1_2023-08-22	2120	Structuur	naakte bodem	b	NA	NA
 651057_1_2023-08-22	2120	Verstoring	rijshout	b	1	1
 651057_1_2023-08-22	2120	Vegetatie	sleutelsoorten	b	1	0
 651057_1_2023-08-22	2120	Verstoring	structuurverstoring	b	1	-0.0015
-651057_1_2023-08-22	2120	Verstoring	vergrassing	zb	0	-0.3243
+651057_1_2023-08-22	2120	Verstoring	vergrassing	zb	0	-0.0079
 651057_1_2023-08-22	2120	Verstoring	verruiging	zb	1	1
 6579569_2021-08-11	2170	Verstoring	invasieve exoten	zb	1	1
 6579569_2021-08-11	2170	Verstoring	overige exoten	b	1	1
@@ -3253,12 +3253,12 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 661425_2120_2020-08-24	2120	Structuur	dynamiek	zb	1	1
 661425_2120_2020-08-24	2120	Verstoring	exoten	b	1	0.3333
 661425_2120_2020-08-24	2120	Structuur	horizontale structuur	b	0	-1
-661425_2120_2020-08-24	2120	Structuur	kruidlaag	zb	1	0.34
+661425_2120_2020-08-24	2120	Structuur	kruidlaag	zb	1	0.3768
 661425_2120_2020-08-24	2120	Structuur	naakte bodem	b	NA	NA
 661425_2120_2020-08-24	2120	Verstoring	rijshout	b	1	1
 661425_2120_2020-08-24	2120	Vegetatie	sleutelsoorten	b	0	-1
 661425_2120_2020-08-24	2120	Verstoring	structuurverstoring	b	1	1
-661425_2120_2020-08-24	2120	Verstoring	vergrassing	zb	0	-0.2184
+661425_2120_2020-08-24	2120	Verstoring	vergrassing	zb	0	-0.1186
 661425_2120_2020-08-24	2120	Verstoring	verruiging	zb	1	1
 665653_2021-08-09	2160	Structuur	horizontale structuur	b	1	0.0117
 665653_2021-08-09	2160	Verstoring	invasieve exoten	zb	1	0.4595
@@ -3352,7 +3352,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 776369_2022-09-30	2160	Verstoring	overige exoten	b	1	1
 776369_2022-09-30	2160	Vegetatie	sleutelsoorten	b	0	-1
 776369_2022-09-30	2160	Verstoring	verbossing	b	0	-0.2222
-782129_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5115
+782129_2020-07-30	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5119
 782129_2020-07-30	2130_hd	Verstoring	invasieve exoten	zb	1	1
 782129_2020-07-30	2130_hd	Verstoring	overbetreding	b	1	1
 782129_2020-07-30	2130_hd	Verstoring	overige exoten	b	1	0.9
@@ -3370,7 +3370,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 802609_2022-09-28	2160	Verstoring	overige exoten	b	1	1
 802609_2022-09-28	2160	Vegetatie	sleutelsoorten	b	1	0.3
 802609_2022-09-28	2160	Verstoring	verbossing	b	1	1
-811185_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3062
+811185_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3369
 811185_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
 811185_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 811185_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3446,7 +3446,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 857265_2022-09-13	2120	Verstoring	rijshout	b	1	1
 857265_2022-09-13	2120	Vegetatie	sleutelsoorten	b	0	-1
 857265_2022-09-13	2120	Verstoring	structuurverstoring	b	1	1
-857265_2022-09-13	2120	Verstoring	vergrassing	zb	0	-0.0458
+857265_2022-09-13	2120	Verstoring	vergrassing	zb	0	-0.0423
 857265_2022-09-13	2120	Verstoring	verruiging	zb	1	0.6416
 857265_2022-09-13	2160	Structuur	horizontale structuur	b	NA	NA
 857265_2022-09-13	2160	Verstoring	invasieve exoten	zb	1	1
@@ -3458,7 +3458,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 861361_2022-09-09	2160	Verstoring	overige exoten	b	1	1
 861361_2022-09-09	2160	Vegetatie	sleutelsoorten	b	0	-0.8
 861361_2022-09-09	2160	Verstoring	verbossing	b	1	1
-862321_2024-08-19	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.808
+862321_2024-08-19	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-1
 862321_2024-08-19	2130_had	Verstoring	invasief mos	zb	1	1
 862321_2024-08-19	2130_had	Verstoring	invasieve exoten	zb	1	1
 862321_2024-08-19	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -3568,7 +3568,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 96433_2021-08-23	2120	Verstoring	rijshout	b	1	1
 96433_2021-08-23	2120	Vegetatie	sleutelsoorten	b	0	-1
 96433_2021-08-23	2120	Verstoring	structuurverstoring	b	1	1
-96433_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.9929
+96433_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.6429
 96433_2021-08-23	2120	Verstoring	verruiging	zb	0	-0.2857
 966833_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.9204
 966833_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
@@ -3583,7 +3583,7 @@ id	type_analysis	criterium	indicator	belang	status_indicator	verschilscore
 971953_2022-10-07	2160	Verstoring	overige exoten	b	1	0.6
 971953_2022-10-07	2160	Vegetatie	sleutelsoorten	b	1	0
 971953_2022-10-07	2160	Verstoring	verbossing	b	1	1
-975025_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8907
+975025_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8909
 975025_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	1
 975025_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 975025_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3688,7 +3688,7 @@ bd_14_2021-08-10	2130_hd	Vegetatie	sleutelsoorten	b	0	-1
 bd_14_2021-08-10	2130_hd	Verstoring	verbossing	b	1	1
 bd_14_2021-08-10	2130_hd	Verstoring	vergrassing	zb	1	0.7667
 bd_14_2021-08-10	2130_hd	Verstoring	verruiging	zb	1	1
-ca_01_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6753
+ca_01_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6762
 ca_01_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	0.8
 ca_01_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_01_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3704,7 +3704,7 @@ ca_02_2021-08-04	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_02_2021-08-04	2130_had	Verstoring	verbossing	b	1	1
 ca_02_2021-08-04	2130_had	Verstoring	vergrassing	zb	1	0.8667
 ca_02_2021-08-04	2130_had	Verstoring	verruiging	zb	1	1
-ca_03_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.5284
+ca_03_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.5087
 ca_03_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	0.3
 ca_03_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_03_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3724,7 +3724,7 @@ Ca_04_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b
 Ca_04_2180_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_04_2180_2020-09-17	2180	Verstoring	verruiging	zb	1	1
 Ca_04_2180_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
-ca_05_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7631
+ca_05_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7634
 ca_05_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 ca_05_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_05_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3752,7 +3752,7 @@ ca_07_2021-08-04	2130_had	Vegetatie	sleutelsoorten	b	0	-0.25
 ca_07_2021-08-04	2130_had	Verstoring	verbossing	b	1	1
 ca_07_2021-08-04	2130_had	Verstoring	vergrassing	zb	0	-0.1429
 ca_07_2021-08-04	2130_had	Verstoring	verruiging	zb	1	0.9
-ca_08_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0803
+ca_08_2020-07-17	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0759
 ca_08_2020-07-17	2130_had	Verstoring	invasief mos	zb	1	1
 ca_08_2020-07-17	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_08_2020-07-17	2130_had	Verstoring	overbetreding	b	1	1
@@ -3760,7 +3760,7 @@ ca_08_2020-07-17	2130_had	Vegetatie	sleutelsoorten	b	0	-0.5
 ca_08_2020-07-17	2130_had	Verstoring	verbossing	b	1	1
 ca_08_2020-07-17	2130_had	Verstoring	vergrassing	zb	1	0.7667
 ca_08_2020-07-17	2130_had	Verstoring	verruiging	zb	1	1
-ca_09_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8167
+ca_09_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.8171
 ca_09_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	0.6
 ca_09_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_09_2020-07-16	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -3768,7 +3768,7 @@ ca_09_2020-07-16	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_09_2020-07-16	2130_had	Verstoring	verbossing	b	1	1
 ca_09_2020-07-16	2130_had	Verstoring	vergrassing	zb	1	0.9333
 ca_09_2020-07-16	2130_had	Verstoring	verruiging	zb	1	1
-ca_10_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0104
+ca_10_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.002
 ca_10_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	0.6
 ca_10_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_10_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3776,7 +3776,7 @@ ca_10_2020-07-16	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_10_2020-07-16	2130_had	Verstoring	verbossing	b	1	1
 ca_10_2020-07-16	2130_had	Verstoring	vergrassing	zb	1	0.6667
 ca_10_2020-07-16	2130_had	Verstoring	verruiging	zb	1	1
-ca_11_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.0974
+ca_11_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.1004
 ca_11_2020-07-16	2130_had	Verstoring	invasief mos	zb	0	-0.2222
 ca_11_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_11_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3796,7 +3796,7 @@ Ca_12_2020-09-17	2180	Vegetatie	sleutelsoorten van de boom- en struiklaag	b	NA	N
 Ca_12_2020-09-17	2180	Vegetatie	sleutelsoorten van de kruidlaag	b	0	-1
 Ca_12_2020-09-17	2180	Verstoring	verruiging	zb	1	1
 Ca_12_2020-09-17	2180	Structuur	verticale structuur	b	NA	NA
-ca_13_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6911
+ca_13_2020-07-16	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6912
 ca_13_2020-07-16	2130_had	Verstoring	invasief mos	zb	1	1
 ca_13_2020-07-16	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_13_2020-07-16	2130_had	Verstoring	overbetreding	b	1	1
@@ -3804,7 +3804,7 @@ ca_13_2020-07-16	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 ca_13_2020-07-16	2130_had	Verstoring	verbossing	b	1	1
 ca_13_2020-07-16	2130_had	Verstoring	vergrassing	zb	0	-0.2929
 ca_13_2020-07-16	2130_had	Verstoring	verruiging	zb	1	1
-ca_15_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7191
+ca_15_2021-08-04	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.7198
 ca_15_2021-08-04	2130_had	Verstoring	invasief mos	zb	1	1
 ca_15_2021-08-04	2130_had	Verstoring	invasieve exoten	zb	1	1
 ca_15_2021-08-04	2130_had	Verstoring	overbetreding	b	1	1
@@ -3820,7 +3820,7 @@ dh_02_2021-08-02	2130_had	Vegetatie	sleutelsoorten	b	0	-1
 dh_02_2021-08-02	2130_had	Verstoring	verbossing	b	1	1
 dh_02_2021-08-02	2130_had	Verstoring	vergrassing	zb	1	0.7667
 dh_02_2021-08-02	2130_had	Verstoring	verruiging	zb	1	1
-dh_03_2021-07-28	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6792
+dh_03_2021-07-28	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6794
 dh_03_2021-07-28	2130_had	Verstoring	invasief mos	zb	1	1
 dh_03_2021-07-28	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_03_2021-07-28	2130_had	Verstoring	overbetreding	b	1	1
@@ -3841,7 +3841,7 @@ dh_05_2021-08-02	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 dh_05_2021-08-02	2130_had	Verstoring	verbossing	b	1	1
 dh_05_2021-08-02	2130_had	Verstoring	vergrassing	zb	0	-0.1599
 dh_05_2021-08-02	2130_had	Verstoring	verruiging	zb	1	1
-dh_06_2020-07-22	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0764
+dh_06_2020-07-22	2130_had	Vegetatie	bedekking sleutelsoorten	b	1	0.0706
 dh_06_2020-07-22	2130_had	Verstoring	invasief mos	zb	1	0.9
 dh_06_2020-07-22	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_06_2020-07-22	2130_had	Verstoring	overbetreding	b	1	1
@@ -3857,7 +3857,7 @@ dh_07_2021-08-05	2130_had	Vegetatie	sleutelsoorten	b	0	-1
 dh_07_2021-08-05	2130_had	Verstoring	verbossing	b	1	1
 dh_07_2021-08-05	2130_had	Verstoring	vergrassing	zb	1	0.8347
 dh_07_2021-08-05	2130_had	Verstoring	verruiging	zb	1	1
-dh_10_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.1622
+dh_10_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.1653
 dh_10_2021-07-14	2130_had	Verstoring	invasief mos	zb	1	1
 dh_10_2021-07-14	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_10_2021-07-14	2130_had	Verstoring	overbetreding	b	1	1
@@ -3873,7 +3873,7 @@ dh_11_2021-08-05	2130_had	Vegetatie	sleutelsoorten	b	0	-0.25
 dh_11_2021-08-05	2130_had	Verstoring	verbossing	b	1	1
 dh_11_2021-08-05	2130_had	Verstoring	vergrassing	zb	1	0.6
 dh_11_2021-08-05	2130_had	Verstoring	verruiging	zb	1	1
-dh_12_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6956
+dh_12_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.6958
 dh_12_2021-07-14	2130_had	Verstoring	invasief mos	zb	1	1
 dh_12_2021-07-14	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_12_2021-07-14	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -3881,7 +3881,7 @@ dh_12_2021-07-14	2130_had	Vegetatie	sleutelsoorten	b	0	-0.75
 dh_12_2021-07-14	2130_had	Verstoring	verbossing	b	1	1
 dh_12_2021-07-14	2130_had	Verstoring	vergrassing	zb	1	1
 dh_12_2021-07-14	2130_had	Verstoring	verruiging	zb	1	1
-dh_14_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3519
+dh_14_2021-07-14	2130_had	Vegetatie	bedekking sleutelsoorten	b	0	-0.3521
 dh_14_2021-07-14	2130_had	Verstoring	invasief mos	zb	1	1
 dh_14_2021-07-14	2130_had	Verstoring	invasieve exoten	zb	1	1
 dh_14_2021-07-14	2130_had	Verstoring	overbetreding	b	1	0.9
@@ -3903,12 +3903,12 @@ double_358577_2021-08-23	2120	Structuur	(korst)moslaag	zb	1	1
 double_358577_2021-08-23	2120	Structuur	dynamiek	zb	1	1
 double_358577_2021-08-23	2120	Verstoring	exoten	b	1	1
 double_358577_2021-08-23	2120	Structuur	horizontale structuur	b	0	-1
-double_358577_2021-08-23	2120	Structuur	kruidlaag	zb	1	0.0067
+double_358577_2021-08-23	2120	Structuur	kruidlaag	zb	1	0.0667
 double_358577_2021-08-23	2120	Structuur	naakte bodem	b	NA	NA
 double_358577_2021-08-23	2120	Verstoring	rijshout	b	1	1
 double_358577_2021-08-23	2120	Vegetatie	sleutelsoorten	b	0	-1
 double_358577_2021-08-23	2120	Verstoring	structuurverstoring	b	1	0.4595
-double_358577_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.9547
+double_358577_2021-08-23	2120	Verstoring	vergrassing	zb	0	-0.5886
 double_358577_2021-08-23	2120	Verstoring	verruiging	zb	1	1
 double_514225_2020-08-19	2160	Structuur	horizontale structuur	b	0	-1
 double_514225_2020-08-19	2160	Verstoring	invasieve exoten	zb	1	1
@@ -3956,7 +3956,7 @@ dp_10_2021-08-17	2130_hd	Vegetatie	sleutelsoorten	b	0	-0.75
 dp_10_2021-08-17	2130_hd	Verstoring	verbossing	b	1	1
 dp_10_2021-08-17	2130_hd	Verstoring	vergrassing	zb	1	0
 dp_10_2021-08-17	2130_hd	Verstoring	verruiging	zb	1	0.3
-dp_11_2021-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5286
+dp_11_2021-08-17	2130_hd	Vegetatie	bedekking sleutelsoorten	b	0	-0.5355
 dp_11_2021-08-17	2130_hd	Verstoring	invasieve exoten	zb	1	1
 dp_11_2021-08-17	2130_hd	Verstoring	overbetreding	b	1	1
 dp_11_2021-08-17	2130_hd	Verstoring	overige exoten	b	1	1
@@ -4192,7 +4192,7 @@ wn_05_2020-09-02	2170	Verstoring	overige exoten	b	1	1
 wn_05_2020-09-02	2170	Vegetatie	sleutelsoorten	b	0	-0.3333
 wn_05_2020-09-02	2170	Verstoring	verbossing	b	1	0.9
 wn_05_2020-09-02	2170	Verstoring	verruiging	zb	1	0.702
-wn_12_2021-07-15	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	0.2017
+wn_12_2021-07-15	2130_hd	Vegetatie	bedekking sleutelsoorten	b	1	0.2006
 wn_12_2021-07-15	2130_hd	Verstoring	invasieve exoten	zb	1	1
 wn_12_2021-07-15	2130_hd	Verstoring	overbetreding	b	1	1
 wn_12_2021-07-15	2130_hd	Verstoring	overige exoten	b	1	0.9
