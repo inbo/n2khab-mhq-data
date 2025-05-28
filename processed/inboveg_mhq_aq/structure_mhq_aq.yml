@@ -1,0 +1,25 @@
+..generic:
+  git2rdata: 0.4.1
+  optimize: yes
+  NA string: NA
+  sorting:
+  - recording_givid
+  - var
+  hash: a0d5040625c5f4a7e843bf61049491942a4c74fa
+  data_hash: 4221c6e1b461c5e5d2e6932ee5ba3aa28e02b5be
+survey:
+  class: character
+recording_givid:
+  class: character
+user_reference:
+  class: character
+var_code:
+  class: character
+var:
+  class: character
+var_value_code:
+  class: character
+var_description_or_value:
+  class: character
+value:
+  class: character
