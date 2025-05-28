@@ -1,0 +1,41 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - vbi_cycle
+  - segment_id
+  - tree_id
+  hash: 2477f1bda9b48718bf1b411e3c95754441285c15
+  data_hash: 6ad6dd6be58398f642a5acab3f64fe8aba103ec8
+plot_id:
+  class: numeric
+segment_id:
+  class: numeric
+tree_id:
+  class: numeric
+perimeter_cm:
+  class: numeric
+dbh_mm:
+  class: numeric
+height_m:
+  class: numeric
+name_nl:
+  class: character
+name_sc:
+  class: character
+status_tree:
+  class: character
+coppice_individual:
+  class: character
+intact_tree:
+  class: character
+basalarea_m2:
+  class: numeric
+vol_stem_m3:
+  class: numeric
+vol_tot_m3:
+  class: numeric
+vbi_cycle:
+  class: numeric

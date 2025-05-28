@@ -1,0 +1,310 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting: tree_species_id
+  hash: e93570defad7d1db02b7fdb7a09cd391e54f8d99
+  data_hash: b07171350b3f81a1a83f66fb9fc4edae8a163d9c
+tree_species_id:
+  class: numeric
+name_nl:
+  class: factor
+  labels:
+  - _ANDERE SOORT
+  - Amandelwilg
+  - Amerikaans krentenboompje
+  - Amerikaanse eik
+  - Amerikaanse vogelkers
+  - ander loofhout
+  - ander naaldhout
+  - Appel (G)
+  - Berk
+  - Beuk
+  - Bittere wilg
+  - Boskers
+  - Boswilg
+  - Cipres
+  - Corsicaanse den
+  - Den
+  - Douglas
+  - Eenstijlige meidoorn
+  - Es/Esdoorn
+  - Europese lork
+  - Fijnspar
+  - Fladderiep
+  - Gagel
+  - Gelderse roos
+  - Gele kornoelje
+  - Geoorde wilg
+  - Gewone es
+  - Gewone esdoorn
+  - Gewone vlier
+  - Gladde iep
+  - Goudenregen
+  - Grauwe abeel
+  - Grauwe wilg
+  - Grove den
+  - Haagbeuk
+  - Hartbladige els
+  - Hazelaar
+  - Hemelboom
+  - Hemlockspar
+  - Hopboom
+  - Hulst
+  - Inlandse eik
+  - Japanse lork
+  - Katwilg
+  - Koraalmeidoorn
+  - Kornoelje
+  - Kraakwilg
+  - Kruidvlier
+  - Kruipwilg
+  - Laurierkers
+  - Liguster
+  - Linde
+  - Lork species
+  - Meelbes
+  - Meidoorn species
+  - Mispel
+  - Moerascipres
+  - Moeraseik
+  - Noorse esdoorn
+  - Olm
+  - Oosterse karmozijnbes
+  - Paardekastanje
+  - Peer (G)
+  - Plataan
+  - Pontische azalea
+  - Pontische rhododendron
+  - Populier
+  - Ratelpopulier
+  - Reuzenzilverspar
+  - Robinia (gewone)
+  - Rode kornoelje
+  - Rood peperboompje
+  - Rossige wilg
+  - Ruwe berk
+  - Ruwe iep
+  - Schietwilg
+  - Sequoia
+  - Sleedoorn
+  - Sneeuwbes
+  - Spaanse aak
+  - Spar species
+  - Sporkehout
+  - Tamme kastanje
+  - Taxus
+  - Trosvlier
+  - Tweestijlige meidoorn
+  - Vederesdoorn
+  - Vlinderstruik
+  - Vogelkers (europese)
+  - Vuurdoorn
+  - Walnoot
+  - Wegedoorn
+  - Weymouthden
+  - Wilde appel
+  - Wilde kardinaalsmuts
+  - Wilde liguster
+  - Wilde lijsterbes
+  - Wilde peer
+  - Wilg breedbladige species
+  - Wilg smalbladige species
+  - Wilg species
+  - Wintereik
+  - Winterlinde
+  - Witte abeel
+  - Witte els (grauwe)
+  - Witte en Grauwe abeel
+  - Witte kornoelje
+  - Wollige sneeuwbal
+  - Zachte berk
+  - Zeeden
+  - Zilverspar
+  - Zomereik
+  - Zomerlinde
+  - Zure kers
+  - Zwarte els
+  - Zwarte populier
+  - Zwarte walnoot
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 66
+  - 67
+  - 68
+  - 69
+  - 70
+  - 71
+  - 72
+  - 73
+  - 74
+  - 75
+  - 76
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  - 82
+  - 83
+  - 84
+  - 85
+  - 86
+  - 87
+  - 88
+  - 89
+  - 90
+  - 91
+  - 92
+  - 93
+  - 94
+  - 95
+  - 96
+  - 97
+  - 98
+  - 99
+  - 100
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 108
+  - 109
+  - 110
+  - 111
+  - 112
+  - 113
+  - 114
+  - 115
+  - 116
+  - 117
+  ordered: no
+tarief:
+  class: factor
+  labels:
+  - Berben
+  - Dagnelie
+  - Dik
+  - Quataert
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  ordered: no
+tree_species_group:
+  class: factor
+  labels:
+  - Amerikaanse eik
+  - Berk
+  - Beuk
+  - Boskers
+  - Corsicaanse den
+  - Douglas
+  - Es
+  - Esdoorn
+  - Fijnspar
+  - Gewone den
+  - Inlandse eik
+  - Lork
+  - Olm
+  - Populier
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  ordered: no
+a:
+  class: numeric
+b:
+  class: numeric
+c:
+  class: numeric
+d:
+  class: numeric
+e:
+  class: numeric
+f:
+  class: numeric
+g:
+  class: numeric
+formule_type:
+  class: numeric

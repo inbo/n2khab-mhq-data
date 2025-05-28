@@ -1,0 +1,27 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - vbi_cycle
+  - layer
+  - name_sc
+  hash: 4710b1b993994445a2bf39b26ba598739bbdc4f4
+  data_hash: 4718f64159253895c2d6facd878ec597ad5c4233
+plot_id:
+  class: numeric
+vbi_cycle:
+  class: numeric
+layer:
+  class: character
+name_nl:
+  class: character
+name_sc:
+  class: character
+cover_mean:
+  class: numeric
+cover_description:
+  class: character
+is_tree:
+  class: logical

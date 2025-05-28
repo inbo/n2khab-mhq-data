@@ -1,0 +1,22 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  - vbi_cycle
+  hash: 6abdec2abe11c33e932758a08f3157796e62e86b
+  data_hash: c6c311fe3366f16e8e711bf145f92d53c4147615
+plot_id:
+  class: numeric
+segment_id:
+  class: numeric
+vbi_cycle:
+  class: numeric
+dendro_missing_value:
+  class: logical
+reg_missing_value:
+  class: logical
+herb_missing_value:
+  class: logical

@@ -1,0 +1,28 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - segment_id
+  - vbi_cycle
+  hash: c7dd8b41dc53b193f17ce100115f72ea40b2a55f
+  data_hash: fa25171973d5f80591ab44d3652b1aefe3ff6206
+plot_id:
+  class: numeric
+segment_id:
+  class: numeric
+vbi_cycle:
+  class: numeric
+plot_weight:
+  class: numeric
+segment_weight:
+  class: numeric
+area_a4_m2:
+  class: numeric
+area_a3_m2:
+  class: numeric
+area_a3_m2_plot:
+  class: numeric
+area_a4_m2_plot:
+  class: numeric

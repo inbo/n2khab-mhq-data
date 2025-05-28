@@ -1,0 +1,24 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - plot_id
+  - periode
+  - type
+  hash: 1383bb5901741dd3f394d02d64321906fa57c38e
+  data_hash: 527cde58aadc2cde2d5ea61122b55bb3a4b6d8db
+plot_id:
+  class: numeric
+periode:
+  class: numeric
+date_dendro:
+  class: integer
+type:
+  class: character
+source:
+  class: character
+note_manual_check:
+  class: character
+phab:
+  class: numeric
