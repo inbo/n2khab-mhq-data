@@ -11,7 +11,6 @@ Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstor
 Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	21	2120	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	95.83	64.37	99.99	NA
 Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	bedekking sleutelsoorten	b	aandeel_gunstig	0.73	0	0.28	NA
 Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	aandeel_gunstig	0.34	0	0.06	NA
-Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	aandeel_gunstig	97.85	79.1	100	NA
 Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.76	99.86	100	NA
 Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overbetreding	b	aandeel_gunstig	99.06	99.06	100	NA
 Versie 3	Vlaanderen	c_1	2018	2019	Habitattype	17	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	overige exoten	b	aandeel_gunstig	99.45	99.95	100	NA
@@ -59,9 +58,6 @@ Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;21
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	aandeel_gunstig	9.32	0.38	43.67	NA
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_rel	NA	NA	NA	1
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Vegetatie	sleutelsoorten	b	verschil_aandeel_gunstig_abs	8.98	0.35	43.67	2
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	aandeel_gunstig	97.5	64.03	100	NA
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	verschil_aandeel_gunstig_rel	537.41	-35.97	26.42	9
-Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	1	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasief mos	zb	verschil_aandeel_gunstig_abs	-0.34	-35.97	20.9	10
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	aandeel_gunstig	99.48	99.9	100	NA
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_rel	0.65	-0.1	0.14	4
 Versie 3	Vlaanderen	c_2	2023	2024	Habitattype	18	2130	Binnen & Buiten	2130_hd;2130_had	Verstoring	invasieve exoten	zb	verschil_aandeel_gunstig_abs	-0.28	-0.1	0.14	4

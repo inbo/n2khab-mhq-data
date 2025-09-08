@@ -7,7 +7,6 @@ Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	24	2310	Binnen & Buiten	NA	Verstor
 Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	24	2310	Binnen & Buiten	NA	Verstoring	verbossing	b	aandeel_gunstig	77.64	52.78	94.8	NA
 Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	24	2310	Binnen & Buiten	NA	Verstoring	vergrassing	zb	aandeel_gunstig	19.01	6.62	38.35	NA
 Versie 3	Vlaanderen	c_1	2014	2018	Habitattype	24	2310	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	96.46	85.6	99.75	NA
-Versie 3	Vlaanderen	c_1	2014	2017	Habitattype	3	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	éénjarigen	zb	aandeel_gunstig	2.57	0	48.17	NA
 Versie 3	Vlaanderen	c_1	2014	2017	Habitattype	18	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	horizontale structuur	zb	aandeel_gunstig	72.29	39.87	93.33	NA
 Versie 3	Vlaanderen	c_1	2014	2017	Habitattype	18	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	naakte bodem	zb	aandeel_gunstig	50.53	19.31	80.45	NA
 Versie 3	Vlaanderen	c_1	2014	2017	Habitattype	20	2330	Binnen & Buiten	2330_bu;2330_dw	Vegetatie	sleutelsoorten	b	aandeel_gunstig	3.92	0.05	28.47	NA
@@ -49,9 +48,6 @@ Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	24	2310	Binnen & Buiten	NA	Verstor
 Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	24	2310	Binnen & Buiten	NA	Verstoring	verruiging	zb	aandeel_gunstig	88.44	69.88	97.55	NA
 Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	24	2310	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_rel	-8.14	-27.73	4.75	9
 Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	24	2310	Binnen & Buiten	NA	Verstoring	verruiging	zb	verschil_aandeel_gunstig_abs	-8.02	-26.65	4.32	9
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	éénjarigen	zb	aandeel_gunstig	2.06	0	21.77	NA
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	éénjarigen	zb	verschil_aandeel_gunstig_rel	NA	NA	NA	10
-Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	3	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	éénjarigen	zb	verschil_aandeel_gunstig_abs	-0.52	-48.17	19.88	10
 Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	18	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	horizontale structuur	zb	aandeel_gunstig	99.55	99.95	100	NA
 Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	18	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	horizontale structuur	zb	verschil_aandeel_gunstig_rel	45.28	6.78	150.84	2
 Versie 3	Vlaanderen	c_2	2022	2024	Habitattype	18	2330	Binnen & Buiten	2330_bu;2330_dw	Structuur	horizontale structuur	zb	verschil_aandeel_gunstig_abs	27.25	6.35	60.13	2
