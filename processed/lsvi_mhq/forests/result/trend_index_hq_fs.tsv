@@ -1,7 +1,4 @@
 schaal	type_resultaat	habitattype	sbzh	habitatsubtype	index_diff_mean	index_diff_llci_0.95	index_diff_ulci_0.95	index_diff_rel	index_diff_rel_llci_0.95	index_diff_rel_ulci_0.95	klasse
-Vlaanderen	Habitattype	9110	Binnen & Buiten	NA	0.0844765	-0.052628	0.221581	0.288	-0.179	0.754	8
-Vlaanderen	SBZH	9110	Binnen	NA	0.09385	-0.088332	0.276032	0.332	-0.312	0.976	8
-Vlaanderen	SBZH	9110	Buiten	NA	-6e-04	NA	NA	-0.002	NA	NA	NA
 Vlaanderen	Habitattype	9120	Binnen & Buiten	NA	0.0217477	0.000493023	0.0430023	0.106	0.002	0.209	3
 Vlaanderen	SBZH	9120	Binnen	NA	0.0216475	-0.00722463	0.0505195	0.073	-0.024	0.171	4
 Vlaanderen	SBZH	9120	Buiten	NA	0.0218477	-0.0100659	0.0537614	0.188	-0.087	0.463	4

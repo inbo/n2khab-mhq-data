@@ -1,6 +1,4 @@
 schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	trend_local	n	n_adj	mcnemar_p_value	effect
-Vlaanderen	Versie 3	Habitattype	9110	Binnen & Buiten	NA	gunstig - gunstig	2	1.64886	0.24508	geen significant verschil
-Vlaanderen	Versie 3	Habitattype	9110	Binnen & Buiten	NA	ongunstig - gunstig	1	1.35114	0.24508	geen significant verschil
 Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	gunstig - gunstig	21	18.6136	0.554769	geen significant verschil
 Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	gunstig - ongunstig	6	5.23263	0.554769	geen significant verschil
 Vlaanderen	Versie 3	Habitattype	9120	Binnen & Buiten	NA	ongunstig - gunstig	4	3.48842	0.554769	geen significant verschil
