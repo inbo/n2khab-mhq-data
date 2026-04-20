@@ -93,6 +93,18 @@ connect_db <-   odbcConnectAccess2007(db_meetproces)
 coordinaten_orig <- sqlFetch(connect_db, "tblcoordinaten")
 odbcClose(connect_db)
 
+check_coordinates <- coordinaten_orig %>%
+  filter(periode > 1) %>%
+  group_by(idplots) %>%
+  filter(n_distinct(periode) >= 2) %>%
+  ungroup() %>%
+  filter(!is.na(idgroup))
+
+check_coordinates_paired <- check_coordinates %>%
+  select(idplots, idgroup, periode, type, x, y) %>%
+  pivot_wider(names_from = periode, values_from = c(x, y, type)) %>%
+  mutate(distance = sqrt((x_2 - x_3) ^ 2 + (y_2 - y_3) ^ 2))
+
 coordinates_vbi <- coordinaten_orig %>%
   select(plot_id = idplots, periode, x, y)
 
