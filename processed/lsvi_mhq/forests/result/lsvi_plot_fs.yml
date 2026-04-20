@@ -1,0 +1,45 @@
+..generic:
+  git2rdata: 0.5.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - habitattype
+  - habitatsubtype
+  - date
+  - point_code
+  hash: 7d89f5024df06f26f209600044940bf755fd2820
+  data_hash: 177c58a269466c638b53aa73b31c42fdd5b5f5d7
+id:
+  class: character
+date:
+  class: Date
+  origin: '1970-01-01'
+point_code:
+  class: character
+x:
+  class: numeric
+  digits: 20
+'y':
+  class: numeric
+  digits: 20
+in_sac:
+  class: logical
+habitattype:
+  class: character
+habitatsubtype:
+  class: character
+lsvi:
+  class: character
+aggregatiemethode:
+  class: character
+n_zb_ongunstig:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+  digits: 20
+index_mean_ind:
+  class: numeric
+  digits: 20
+doelbereik_mean_ind:
+  class: numeric
+  digits: 20

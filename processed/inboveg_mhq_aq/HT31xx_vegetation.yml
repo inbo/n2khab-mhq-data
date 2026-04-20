@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - recording_givid
   - name
   - phenology_code
-  hash: a5621f53da3c9306686e4aa30bbf0ff6431b6787
-  data_hash: 939cc73432349cbb437565a897d078e56e1c645a
+  hash: 4e106a8695d0d45cbf0d5dbee90dca427de26547
+  data_hash: 3a5170ec3a9534b2a487eca9fe0741e793e4e530
 survey:
   class: character
 recording_givid:
@@ -20,5 +20,6 @@ species_cover_code:
   class: character
 species_cover:
   class: numeric
+  digits: 6
 scale:
   class: character

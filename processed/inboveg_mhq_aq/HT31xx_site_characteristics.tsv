@@ -9011,7 +9011,7 @@ HT31xx_LSVI_StilstaandeWateren	IV2024101009350936	LIMGNK0064_3150_24	Secch	secch
 HT31xx_LSVI_StilstaandeWateren	IV2024101009350936	LIMGNK0064_3150_24	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	Seccd	diepte van secchibepaling	0,70	0.7	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
-HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	Eutro	eutrofiëring	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	Eutro	eutrofiëring	10	10	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	Invas	invasieve exoten	0	0	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	ANTKAL0004_3160_24	diepte_max	maximale diepte	1,20	1.2	0	0	1	m	NA
@@ -9094,13 +9094,13 @@ HT31xx_LSVI_StilstaandeWateren	IV2024101107401086	LIMZNH0619_3130a_24	Vzuur	verz
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Helo	bedekking helofyten	0-x-1	1	1	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	boom	boom	booev	NA	0	0	0	class	bomen tot op de oever
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Seccd	diepte van secchibepaling	1,15	1.15	0	0	1	m	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	diept	diepteklasse	2-4m	NA	0	0	0	class	>= 2m - < 4m
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Eutro	eutrofiëring	1	1	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Invas	invasieve exoten	0-x-1	0.5	0	0	1	%	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	diepte_max	maximale diepte	1,70	1.7	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	diepte_max	maximale diepte	3,40	3.4	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	peil	peil	uhoog	NA	0	0	0	class	Uitzonderlijk hoog
-HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Schom	schommeling winter/zomer	0,50	0.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Schom	schommeling winter/zomer	0,30	0.3	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Secch	secchi-diepte	0,40	0.4	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	SleSo	sleutelsoorten	0	0	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024101108064028	ANTARE0069_gh_24	Vzuur	verzuring	0	0	0	0	1	%	NA
@@ -9624,7 +9624,7 @@ HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	HabVl	opga
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	peil	peil	droog	NA	0	0	0	class	Droogstaand (groot deel)
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	Schom	schommeling winter/zomer	0,50	0.5	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	Secch	secchi-diepte	0,07	0.07	0	0	1	m	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	SleSo	sleutelsoorten	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	SleSo	sleutelsoorten	6	6	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	LIMGNK0182_3130n_24	Vzuur	verzuring	2	2	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024102115490522	ANTKAS0501_3160_24	Seccd	diepte van secchibepaling	0,75	0.75	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024102115490522	ANTKAS0501_3160_24	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
@@ -10167,19 +10167,19 @@ HT31xx_LSVI_StilstaandeWateren	IV2024120316140532	ANTHTS0151_3160_24	Schom	schom
 HT31xx_LSVI_StilstaandeWateren	IV2024120316140532	ANTHTS0151_3160_24	Secch	secchi-diepte	0,45	0.45	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024120316140532	ANTHTS0151_3160_24	SleSo	sleutelsoorten	60	60	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024120316140532	ANTHTS0151_3160_24	VZuSS	verzuring_3160	0-x-1	0.5	0	0	1	%	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	Seccd	diepte van secchibepaling	0,55	0.55	0	0	1	m	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	Eutro	eutrofiëring	25	25	0	0	1	%	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	Invas	invasieve exoten	0	0	0	0	1	%	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	diepte_max	maximale diepte	0,55	0.55	0	0	1	m	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	peil	peil	norm	NA	0	0	0	class	Normaal
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	7140o	rechtstreeks contact 7140_oli (3160)	nee	NA	0	0	0	class	rechtstreeks contact 7140_oli (3160)
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	Schom	schommeling winter/zomer	0,40	0.4	0	0	1	m	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	Secch	secchi-diepte	0,55	0.55	0	0	1	m	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	SleSo	sleutelsoorten	75	75	0	0	1	%	NA
-HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0610_3160_24	VZuSS	verzuring_3160	2	2	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	Seccd	diepte van secchibepaling	0,55	0.55	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	Eutro	eutrofiëring	25	25	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	diepte_max	maximale diepte	0,55	0.55	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	7140o	rechtstreeks contact 7140_oli (3160)	nee	NA	0	0	0	class	rechtstreeks contact 7140_oli (3160)
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	Schom	schommeling winter/zomer	0,40	0.4	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	Secch	secchi-diepte	0,55	0.55	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	SleSo	sleutelsoorten	75	75	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2024120317285656	ANTKAS0616_3160_24	VZuSS	verzuring_3160	2	2	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024120317370208	LIMZUT0080_3130a_24	Helo	bedekking helofyten	60	60	0	0	1	%	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024120317370208	LIMZUT0080_3130a_24	Seccd	diepte van secchibepaling	0,40	0.4	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2024120317370208	LIMZUT0080_3130a_24	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
@@ -10538,3 +10538,461 @@ HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	WVLHAR0329_3140_22	peil	peil	n
 HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	WVLHAR0329_3140_22	Schom	schommeling winter/zomer	0	0	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	WVLHAR0329_3140_22	Secch	secchi-diepte	2,40	2.4	0	0	1	m	NA
 HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	WVLHAR0329_3140_22	SleSo	sleutelsoorten	45	45	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	Helo	bedekking helofyten	60	60	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	chara	chara	51ss	NA	0	0	0	class	> 50% bestaat uit sleutelsoorten
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	Seccd	diepte van secchibepaling	1,50	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	Eutro	eutrofiëring	10	10	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	horst	horizontalestructuur	10m2	NA	0	0	0	class	> 1m& - < 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	diepte_max	maximale diepte	1,50	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	Schom	schommeling winter/zomer	1,50	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	Secch	secchi-diepte	1,50	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	LI_DKV_001_3140_18	SleSo	sleutelsoorten	7	7	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	Seccd	diepte van secchibepaling	1,1	1.1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	Eutro	eutrofiëring	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	diepte_max	maximale diepte	1,5	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	OverS	overige soorten	55	55	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	Schom	schommeling winter/zomer	0,5	0.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	Secch	secchi-diepte	1,1	1.1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	OVLBLE0280_3150_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Seccd	diepte van secchibepaling	1,05	1.05	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Eutro	eutrofiëring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	helde	helderheid	mahtr	NA	0	0	0	class	matig helder tot troebel
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Isoet	isoetiden_3110		NA	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	diepte_max	maximale diepte	1,50	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Schom	schommeling winter/zomer	0,20	0.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Secch	secchi-diepte	0,47	0.47	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	verst	vertikalestructuur	kisoe	NA	0	0	0	class	aandeel Isoe <= aandeel andere groeiv (3110)
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	LIMHHE0002_3110_25	Vzuur	verzuring	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	Seccd	diepte van secchibepaling	0,86	0.86	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	Eutro	eutrofiëring	25	25	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	helde	helderheid	trsub	NA	0	0	0	class	Troebel door substraat
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	Invas	invasieve exoten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	diepte_max	maximale diepte	1,12	1.12	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	HabVl	opgaande vegetatie > 15 cm	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	OverS	overige soorten		NA	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	Schom	schommeling winter/zomer	0,20	0.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	Secch	secchi-diepte	0,49	0.49	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	LIMGNK0066_3130n_25	Vzuur	verzuring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Helo	bedekking helofyten	70	70	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Seccd	diepte van secchibepaling	0,86	0.86	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Eutro	eutrofiëring	30	30	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	helde	helderheid	mahtr	NA	0	0	0	class	matig helder tot troebel
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	horst	horizontalestructuur	10m2	NA	0	0	0	class	> 1m& - < 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Invas	invasieve exoten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	diepte_max	maximale diepte	1,12	1.12	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	OverS	overige soorten		NA	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Schom	schommeling winter/zomer	0,20	0.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Secch	secchi-diepte	0,49	0.49	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	LIMGNK0066_3130a_25	Vzuur	verzuring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	Helo	bedekking helofyten	70	70	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	Seccd	diepte van secchibepaling	0,86	0.86	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	Eutro	eutrofiëring	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	helde	helderheid	trsub	NA	0	0	0	class	Troebel door substraat
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	Invas	invasieve exoten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	diepte_max	maximale diepte	1,12	1.12	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	OverS	overige soorten		NA	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	Schom	schommeling winter/zomer	0,20	0.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	Secch	secchi-diepte	0,49	0.49	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	LIMGNK0066_3150_25	SleSo	sleutelsoorten	1	1	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	Seccd	diepte van secchibepaling	1,10	1.1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	Eutro	eutrofiëring	35	35	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	helde	helderheid	trsub	NA	0	0	0	class	Troebel door substraat
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	horst	horizontalestructuur	10m2	NA	0	0	0	class	> 1m& - < 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	diepte_max	maximale diepte	1,5	1.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	OverS	overige soorten	20	20	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	Schom	schommeling winter/zomer	1	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	Secch	secchi-diepte	0,25	0.25	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	VBRSZI0277_3150_25	SleSo	sleutelsoorten	15	15	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Helo	bedekking helofyten	15	15	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Seccd	diepte van secchibepaling	2,5	2.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	diept	diepteklasse	2-4m	NA	0	0	0	class	>= 2m - < 4m
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Eutro	eutrofiëring	2	2	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	helde	helderheid	gboz	NA	0	0	0	class	Vrij helder, geen bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	diepte_max	maximale diepte	2,5	2.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	OverS	overige soorten	25	25	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Schom	schommeling winter/zomer	1	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Secch	secchi-diepte	0,94	0.94	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Vgras	vergrassing	1	1	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	ANTMAL0136_3130n_25	Vzuur	verzuring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	Seccd	diepte van secchibepaling	0,33	0.33	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	Eutro	eutrofiëring	15	15	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	horst	horizontalestructuur	10m2	NA	0	0	0	class	> 1m& - < 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	diepte_max	maximale diepte	0,38	0.38	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	OverS	overige soorten	35	35	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	Secch	secchi-diepte	0,33	0.33	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	ANTARE0286_3150_25	SleSo	sleutelsoorten	3	3	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	permw	2190a-permanentie	semip	NA	0	0	0	class	semipermanent
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	helde	31xx-helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	peil	31xx-peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	subst	31xx-substraat	klei	NA	0	0	0	class	Klei
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Boom	boomlaag	7	7	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	BooOv	boomlaag overhangend	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Seccd	diepte van secchibepaling	0,15	0.15	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Eutro	eutrofiëring	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Chara	kranswieren	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	diepte_max	maximale diepte	0,15	0.15	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	OverS	overige soorten	33	33	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	MonoR	robuuste monocotyl	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Secch	secchi-diepte	0,15	0.15	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	SlSH	sleutelsoorten hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	15	15	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	WVLKNO0058_2190a_25	Subm	submers	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	permw	2190a-permanentie	perm	NA	0	0	0	class	permanent nooit droogvallend
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	helde	31xx-helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	peil	31xx-peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Boom	boomlaag	4	4	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	BooOv	boomlaag overhangend	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Seccd	diepte van secchibepaling	0,48	0.48	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Eutro	eutrofiëring	2	2	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Chara	kranswieren	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	diepte_max	maximale diepte	0,48	0.48	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	OverS	overige soorten	45	45	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	MonoR	robuuste monocotyl	15	15	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Secch	secchi-diepte	0,48	0.48	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	SlSH	sleutelsoorten hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	16	16	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	WVLBRD0077_2190a_25	Subm	submers	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	permw	2190a-permanentie	perm	NA	0	0	0	class	permanent nooit droogvallend
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	helde	31xx-helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	peil	31xx-peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Boom	boomlaag	4	4	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	BooOv	boomlaag overhangend	5	5	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Seccd	diepte van secchibepaling	0,54	0.54	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Eutro	eutrofiëring	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Chara	kranswieren	5	5	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	diepte_max	maximale diepte	0,54	0.54	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	OverS	overige soorten	25	25	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	MonoR	robuuste monocotyl	17	17	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Secch	secchi-diepte	0,54	0.54	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	SlSH	sleutelsoorten hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	0-x-1	0.5	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	WVLDEP0070_2190a_25	Subm	submers	7	7	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	Seccd	diepte van secchibepaling	0,28	0.28	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	Eutro	eutrofiëring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	helde	helderheid	mahtr	NA	0	0	0	class	matig helder tot troebel
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	diepte_max	maximale diepte	0,28	0.28	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	OverS	overige soorten	10	10	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	Secch	secchi-diepte	0,17	0.17	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	WVLBRU1212_GH_25	SleSo	sleutelsoorten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	permw	2190a-permanentie	perm	NA	0	0	0	class	permanent nooit droogvallend
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	helde	31xx-helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	peil	31xx-peil	norm	NA	0	0	0	class	Normaal
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Boom	boomlaag	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	BooOv	boomlaag overhangend	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Seccd	diepte van secchibepaling	0,45	0.45	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Eutro	eutrofiëring	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Chara	kranswieren	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	diepte_max	maximale diepte	0,45	0.45	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	OverS	overige soorten		NA	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	MonoR	robuuste monocotyl	3	3	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Secch	secchi-diepte	0,45	0.45	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	SlSH	sleutelsoorten hydrofyt	40	40	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	8	8	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	WVLDEH0220_2190a_25	Subm	submers	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	permw	2190a-permanentie	perm	NA	0	0	0	class	permanent nooit droogvallend
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	helde	31xx-helderheid	mahtr	NA	0	0	0	class	matig helder tot troebel
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	peil	31xx-peil	norm	NA	0	0	0	class	Normaal
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Boom	boomlaag		NA	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	BooOv	boomlaag overhangend	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Seccd	diepte van secchibepaling	0,53	0.53	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Eutro	eutrofiëring	1	1	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Chara	kranswieren	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	diepte_max	maximale diepte	1,2	1.2	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	OverS	overige soorten		NA	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	MonoR	robuuste monocotyl	22	22	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Schom	schommeling winter/zomer	0,10	0.1	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Secch	secchi-diepte	0,48	0.48	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	SlSH	sleutelsoorten hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	SlSNH	sleutelsoorten niet-hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	WVLKNO0126_GH_25	Subm	submers	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	Seccd	diepte van secchibepaling	0,72	0.72	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	Eutro	eutrofiëring	1	1	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	helde	helderheid	mahtr	NA	0	0	0	class	matig helder tot troebel
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	diepte_max	maximale diepte	1	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	OverS	overige soorten	26	26	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	Schom	schommeling winter/zomer	0,20	0.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	Secch	secchi-diepte	0,34	0.34	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	OVLBLE0077_GH_25	SleSo	sleutelsoorten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	Eutro	eutrofiëring	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	Invas	invasieve exoten	87	87	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	diepte_max	maximale diepte	1,2	1.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	OverS	overige soorten	13	13	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	peil	peil	droog	NA	0	0	0	class	Droogstaand (groot deel)
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	WVLDIK0110_GH_25	SleSo	sleutelsoorten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	permw	2190a-permanentie	semip	NA	0	0	0	class	semipermanent
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	helde	31xx-helderheid	fytbl	NA	0	0	0	class	Gekleurd door fytoplankton - blauw
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	peil	31xx-peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Boom	boomlaag	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	BooOv	boomlaag overhangend	10	10	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Seccd	diepte van secchibepaling	0,19	0.19	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Eutro	eutrofiëring	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Chara	kranswieren	17	17	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	diepte_max	maximale diepte	0,5	0.5	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	OverS	overige soorten	46	46	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	MonoR	robuuste monocotyl	12	12	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Schom	schommeling winter/zomer	1	1	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Secch	secchi-diepte	0,19	0.19	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	SlSH	sleutelsoorten hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	8	8	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	WVLNWP0032_2190a_25	Subm	submers	7	7	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	Seccd	diepte van secchibepaling	0,69	0.69	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	Eutro	eutrofiëring	15	15	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	helde	helderheid	trsub	NA	0	0	0	class	Troebel door substraat
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	diepte_max	maximale diepte	1,2	1.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	OverS	overige soorten	45	45	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	Schom	schommeling winter/zomer	1,3	1.3	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	Secch	secchi-diepte	0,36	0.36	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	SleSo	sleutelsoorten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	WVLZED0215_GH_25	Vzuur	verzuring	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Seccd	diepte van secchibepaling	0,55	0.55	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Eutro	eutrofiëring	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	helde	helderheid	trsub	NA	0	0	0	class	Troebel door substraat
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	horst	horizontalestructuur	g10m²	NA	0	0	0	class	>= 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	diepte_max	maximale diepte	1	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	OverS	overige soorten	22	22	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Schom	schommeling winter/zomer	1	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Secch	secchi-diepte	0,15	0.15	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	SleSo	sleutelsoorten	8	8	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Vgras	vergrassing	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	OVLALT0344_3130n_25	Vzuur	verzuring	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	permw	2190a-permanentie	perm	NA	0	0	0	class	permanent nooit droogvallend
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	helde	31xx-helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	Boom	boomlaag	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	BooOv	boomlaag overhangend	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	Seccd	diepte van secchibepaling	0,80	0.8	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	Chara	kranswieren	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	diepte_max	maximale diepte	0,80	0.8	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	OverS	overige soorten	30	30	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	MonoR	robuuste monocotyl	35	35	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	Secch	secchi-diepte	0,80	0.8	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	SlSH	sleutelsoorten hydrofyt	20	20	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	10	10	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	WVLDEP0075_2190a_25	Subm	submers	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	permw	2190a-permanentie	semip	NA	0	0	0	class	semipermanent
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	diept	31xx-diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	helde	31xx-helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	peil	31xx-peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	subst	31xx-substraat	zand	NA	0	0	0	class	Zand
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Boom	boomlaag	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	BooOv	boomlaag overhangend	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Seccd	diepte van secchibepaling	0,65	0.65	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Eutro	eutrofiëring	1	1	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Chara	kranswieren	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	diepte_max	maximale diepte	0,65	0.65	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	OverS	overige soorten	40	40	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	MonoR	robuuste monocotyl	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Secch	secchi-diepte	0,65	0.65	0	0	1	m	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	SlSH	sleutelsoorten hydrofyt	30	30	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	SlSNH	sleutelsoorten niet-hydrofyt	0	0	0	0	1	%	NA
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	WVLNWP0028_2190a_25	Subm	submers	7	7	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Helo	bedekking helofyten	7,5	7.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Seccd	diepte van secchibepaling	0,55	0.55	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Eutro	eutrofiëring	6	6	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	helde	helderheid	trsub	NA	0	0	0	class	Troebel door substraat
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	diepte_max	maximale diepte	1	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	OverS	overige soorten	20	20	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Schom	schommeling winter/zomer	1,00	1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Secch	secchi-diepte	0,15	0.15	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Vgras	vergrassing	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	OVLALT0344_3130a_25	Vzuur	verzuring	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	Seccd	diepte van secchibepaling	0,35	0.35	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	EutSS	eutrofiering_3160	30	30	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	diepte_max	maximale diepte	0,40	0.4	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	OverS	overige soorten	8	8	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	7140o	rechtstreeks contact 7140_oli (3160)	nee	NA	0	0	0	class	rechtstreeks contact 7140_oli (3160)
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	Schom	schommeling winter/zomer	0,25	0.25	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	Secch	secchi-diepte	0,32	0.32	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	SleSo	sleutelsoorten	40	40	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	ANTBCT0508_3160_25	VZuSS	verzuring_3160	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	Seccd	diepte van secchibepaling	0,40	0.4	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	EutSS	eutrofiering_3160	4	4	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	diepte_max	maximale diepte	0,5	0.5	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	OverS	overige soorten	34	34	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	7140o	rechtstreeks contact 7140_oli (3160)	ja	NA	0	0	0	class	rechtstreeks contact 7140_oli (3160)
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	Schom	schommeling winter/zomer	0,10	0.1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	Secch	secchi-diepte	0,40	0.4	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	SleSo	sleutelsoorten	34	34	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	LIMHHE0375_3160_25	VZuSS	verzuring_3160	23	23	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	Seccd	diepte van secchibepaling	18,00	18	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	diept	diepteklasse	6m	NA	0	0	0	class	>= 6m
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	Eutro	eutrofiëring	2	2	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	helde	helderheid	gboz	NA	0	0	0	class	Vrij helder, geen bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	horst	horizontalestructuur	g10m²	NA	0	0	0	class	>= 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	Invas	invasieve exoten	7	7	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	diepte_max	maximale diepte	19,00	19	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	OverS	overige soorten	11	11	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	Schom	schommeling winter/zomer	0,30	0.3	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	Secch	secchi-diepte	9,60	9.6	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	ANTANT0297_3150_25	SleSo	sleutelsoorten	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	chara	chara	51ss	NA	0	0	0	class	> 50% bestaat uit sleutelsoorten
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	Seccd	diepte van secchibepaling	18,00	18	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	diept	diepteklasse	6m	NA	0	0	0	class	>= 6m
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	Eutro	eutrofiëring	2	2	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	helde	helderheid	gboz	NA	0	0	0	class	Vrij helder, geen bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	Invas	invasieve exoten	7	7	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	diepte_max	maximale diepte	19,00	19	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	OverS	overige soorten	16	16	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	Schom	schommeling winter/zomer	0,30	0.3	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	Secch	secchi-diepte	9,60	9.6	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	ANTANT0297_3140_25	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	Seccd	diepte van secchibepaling	0,42	0.42	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	EutSS	eutrofiering_3160	19	19	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	helde	helderheid	humuz	NA	0	0	0	class	Gekleurd door humuszuren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	diepte_max	maximale diepte	0,42	0.42	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	OverS	overige soorten	29	29	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	7140o	rechtstreeks contact 7140_oli (3160)	nee	NA	0	0	0	class	rechtstreeks contact 7140_oli (3160)
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	Schom	schommeling winter/zomer	0,30	0.3	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	Secch	secchi-diepte	0,42	0.42	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	SleSo	sleutelsoorten	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	LIMHHE0001_3160_25	VZuSS	verzuring_3160	12	12	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	Seccd	diepte van secchibepaling	4,10	4.1	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	diept	diepteklasse	4-6m	NA	0	0	0	class	>= 4m - < 6m
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	Eutro	eutrofiëring	1	1	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	helde	helderheid	fytog	NA	0	0	0	class	Gekleurd door fytoplankton - groen
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	horst	horizontalestructuur	1m2	NA	0	0	0	class	<= 1m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	Invas	invasieve exoten	2	2	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	diepte_max	maximale diepte	5,20	5.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	OverS	overige soorten		NA	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	Schom	schommeling winter/zomer	0,40	0.4	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	Secch	secchi-diepte	1,20	1.2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	SleSo	sleutelsoorten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	OVLGNT0211_GH_25	Vzuur	verzuring	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	boom	boom	booev	NA	0	0	0	class	bomen tot op de oever
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	diept	diepteklasse	2-4m	NA	0	0	0	class	>= 2m - < 4m
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	Eutro	eutrofiëring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	helde	helderheid	fytog	NA	0	0	0	class	Gekleurd door fytoplankton - groen
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	helde	helderheid	mahtr	NA	0	0	0	class	matig helder tot troebel
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	horst	horizontalestructuur	10m2	NA	0	0	0	class	> 1m& - < 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	Invas	invasieve exoten	0	0	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	HabVl	opgaande vegetatie > 15 cm	<1	1	1	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	Schom	schommeling winter/zomer	0,30	0.3	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	Vgras	vergrassing	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	AN_KOO_001_3130n_22	Vzuur	verzuring	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Helo	bedekking helofyten	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	boom	boom	booev	NA	0	0	0	class	bomen tot op de oever
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Seccd	diepte van secchibepaling	2,00	2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Eutro	eutrofiëring	10	10	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	horst	horizontalestructuur	g10m²	NA	0	0	0	class	>= 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Invas	invasieve exoten	3	3	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	diepte_max	maximale diepte	2,00	2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Schom	schommeling winter/zomer	0,35	0.35	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Secch	secchi-diepte	2,00	2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	SleSo	sleutelsoorten	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Vgras	vergrassing	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	AN_DVH_010_3130a_22	Vzuur	verzuring	25	25	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	boom	boom	booev	NA	0	0	0	class	bomen tot op de oever
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	Seccd	diepte van secchibepaling	2,00	2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	diept	diepteklasse	0-2m	NA	0	0	0	class	0 - < 2m
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	Eutro	eutrofiëring	10	10	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	helde	helderheid	bozi	NA	0	0	0	class	Bodemzicht
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	horst	horizontalestructuur	g10m²	NA	0	0	0	class	>= 10m²
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	Invas	invasieve exoten	3	3	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	diepte_max	maximale diepte	2,00	2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	HabVl	opgaande vegetatie > 15 cm	5	5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	peil	peil	norm	NA	0	0	0	class	Normaal
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	peil	peil	ulaag	NA	0	0	0	class	Uitzonderlijk laag
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	Secch	secchi-diepte	2,00	2	0	0	1	m	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	SleSo	sleutelsoorten	20	20	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	Vgras	vergrassing	0-x-1	0.5	0	0	1	%	NA
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	AN_DVH_010_3130n_22	Vzuur	verzuring	25	25	0	0	1	%	NA

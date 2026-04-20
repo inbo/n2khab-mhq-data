@@ -1,10 +1,10 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting: recording_givid
-  hash: c94f71bee48ab6f4d4fa50a61361c232fb290204
-  data_hash: 3978eb5d0f1ad18a04b48d8bdef33ce73bc89227
+  hash: 59c27b1e4e291f65fad9e61f63a04bceadded821
+  data_hash: c11eed8f7fb13695eb0818a670345790923ec066
 recording_givid:
   class: character
 survey:
@@ -17,8 +17,10 @@ date:
   class: character
 latitude:
   class: numeric
+  digits: 6
 longitude:
   class: numeric
+  digits: 6
 type_observed:
   class: factor
   labels:

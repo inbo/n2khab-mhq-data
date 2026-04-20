@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - recording_givid
   - layer_code
   - name_scientific
-  hash: 2b3e14cd4e6ec425aee0b98f7d27a99e7cd135f6
-  data_hash: 68d21ea8335b75d87f11a4072d1e3f35dc83c286
+  hash: 4ed5da5a453cf659ea4c3d5817b9909711e76386
+  data_hash: ea585754637f77d6bd9545133c2b8088c71bb03f
 survey:
   class: character
 recording_givid:
@@ -26,5 +26,6 @@ species_cover_code:
   class: character
 species_cover:
   class: numeric
+  digits: 6
 scale:
   class: character

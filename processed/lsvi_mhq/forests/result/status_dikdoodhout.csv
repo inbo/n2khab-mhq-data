@@ -1,0 +1,12 @@
+versie;type_resultaat;schaal;indicator;voorwaarde;habitattype;habitatsubtype;sbzh;n_obs;gemiddelde;gemiddelde_llci;gemiddelde_ulci
+Versie 3;Habitattype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;9120;9120;Binnen & Buiten;354;1,6114;1,0281;2,1946
+Versie 3;Habitattype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;9130;9130_end;Binnen & Buiten;77;2,3223;1,0156;3,6289
+Versie 3;Habitattype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;9160;9160;Binnen & Buiten;73;2,4355;1,2903;3,5806
+Versie 3;Habitattype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;9190;9190;Binnen & Buiten;101;1,3856;0,4406;2,3306
+Versie 3;Habitattype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;"91E0_vc; 91E0_vm; 91E0_vn; 91E0_va; 91E0_sf; 91E0_vo";Binnen & Buiten;354;3,1329;1,7715;4,4943
+Versie 3;Habitatsubtype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;91E0_sf;Binnen & Buiten;51;1,9153;1,1099;2,7207
+Versie 3;Habitatsubtype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;91E0_va;Binnen & Buiten;93;3,3068;1,2742;5,3394
+Versie 3;Habitatsubtype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;91E0_vc;Binnen & Buiten;38;1,8682;0,2565;3,4800
+Versie 3;Habitatsubtype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;91E0_vm;Binnen & Buiten;69;4,0737;0,4361;7,7114
+Versie 3;Habitatsubtype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;91E0_vn;Binnen & Buiten;73;2,7381;0,5347;4,9414
+Versie 3;Habitatsubtype;Vlaanderen;hoeveelheid dik dood hout;aantal exemplaren dik dood hout per ha;91E0;91E0_vo;Binnen & Buiten;30;0,0000;0,0000;0,0000

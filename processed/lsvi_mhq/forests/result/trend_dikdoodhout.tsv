@@ -1,0 +1,12 @@
+versie	type_resultaat	schaal	indicator	voorwaarde	habitattype	habitatsubtype	sbzh	n_obs	verschil	verschil_llci	verschil_ulci
+Versie 3.0	Habitattype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	9120	9120	Binnen & Buiten	103	1.6972	0.3344	3.0599
+Versie 3.0	Habitattype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	9130	9130_end	Binnen & Buiten	18	3.1906	-0.4046	6.7857
+Versie 3.0	Habitattype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	9160	9160	Binnen & Buiten	24	1.3385	-0.71	3.387
+Versie 3.0	Habitattype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	9190	9190	Binnen & Buiten	37	1.4669	-0.8887	3.8225
+Versie 3.0	Habitatsubtype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_sf	Binnen & Buiten	1	0	NA	NA
+Versie 3.0	Habitatsubtype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_va	Binnen & Buiten	25	3.2812	-2.755	9.3174
+Versie 3.0	Habitatsubtype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_vc	Binnen & Buiten	4	8.2083	NA	NA
+Versie 3.0	Habitatsubtype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_vm	Binnen & Buiten	24	3.8617	-0.3448	8.0682
+Versie 3.0	Habitatsubtype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_vn	Binnen & Buiten	14	3.3322	-2.6205	9.2849
+Versie 3.0	Habitatsubtype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_vo	Binnen & Buiten	2	0	NA	NA
+Versie 3.0	Habitattype	Vlaanderen	hoeveelheid dik dood hout	aantal exemplaren dik dood hout per ha	91E0	91E0_va; 91E0_vm; 91E0_sf; 91E0_vo; 91E0_vn; 91E0_vc	Binnen & Buiten	70	3.426	0.4457	6.4064

@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - recording_givid
   - var
   - value
-  hash: 6c2d68a42e624b59d967f30a74923805dbdd8cdd
-  data_hash: 0f3f1003d76789f99b7f94dff2eb8b06e75407ef
+  hash: b0da81b5a543e7185e5ec32a82773008b171165d
+  data_hash: 8887d9b26cf567f46bf4d09f645f928b3ad38659
 survey:
   class: character
 recording_givid:
@@ -22,6 +22,7 @@ value:
   class: character
 value_numeric:
   class: numeric
+  digits: 6
 is_below_LOQ:
   class: logical
 is_above_LOQ:

@@ -5109,7 +5109,7 @@ HT31xx_LSVI_StilstaandeWateren	IV2024101009350936	Utricularia australis R. Brown
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Eleocharis multicaulis (Smith) Desv.	-	o	3	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Juncus bulbosus L.	-	f	7	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Juncus effusus L.	-	r	1	Tansley Meren
-HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Molinia caerulea (L.) Moench	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Molinia caerulea (L.) Moench	-	f	7	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Rhynchospora alba (L.) Vahl	-	r	1	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Rhynchospora fusca (L.) Ait. f.	-	r	1	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024101010441028	Sphagnum cuspidatum Ehrh. ex Hoffm.	-	a	30	Tansley Meren
@@ -5460,7 +5460,8 @@ HT31xx_LSVI_StilstaandeWateren	IV2024102115133564	Warnstorfia fluitans (Hedw.) L
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Agrostis stolonifera L.	-	f	7	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Bidens	-	o	3	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Calamagrostis canescens (Weber) Roth	-	o	3	Tansley Meren
-HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Elatine hexandra (Lapierre) DC.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Elatine hexandra (Lapierre) DC.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Elatine hydropiper L.	-	o	3	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Eleocharis acicularis (L.) Roem. et Schult.	-	f	7	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Eleocharis ovata (Roth) Roem. et Schult.	-	o	3	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2024102115233855	Juncus bulbosus L.	-	o	3	Tansley Meren
@@ -6048,3 +6049,592 @@ HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	Draadwier	-	f	7	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	Elodea nuttallii (Planch.) St John	-	o	3	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	Nitellopsis obtusa (Desv.) J. Groves	-	a	30	Tansley Meren
 HT31xx_LSVI_StilstaandeWateren	IV2025020511155513	Ulva spec.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	Lemna	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025100109075626	Tolypella intricata (Trentep. ex Roth) Leonh.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Alnus glutinosa (L.) Gaertn.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Betula	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Carduus crispus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Carex paniculata L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Carex remota Jusl. ex L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Corylus avellana L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Equisetum arvense L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Eupatorium	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Glyceria maxima (Hartm.) Holmberg	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Hydrocharis morsus-ranae L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Iris pseudacorus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Lemna	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Lycopus europaeus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Lysimachia vulgaris L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Mentha aquatica L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Nuphar lutea (L.) Smith	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Phalaris arundinacea L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Phragmites australis (Cav.) Steud.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Prunella vulgaris L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Prunus spinosa L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Rumex sanguineus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Salix caprea groep	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Tussilago farfara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Urtica	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025110711042001	Viburnum opulus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Agrostis canina L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Bidens	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Eleocharis multicaulis (Smith) Desv.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Glyceria fluitans (L.) R. Brown	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Juncus bulbosus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Littorella uniflora (L.) Aschers.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Lobelia dortmanna L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Luronium natans (L.) Rafin.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Molinia caerulea (L.) Moench	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111209383424	Sphagnum	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Alnus glutinosa (L.) Gaertn.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Bidens cernua L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Calystegia sepium (L.) R. Brown	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Carex pseudocyperus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Cicuta virosa L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Elatine hexandra (Lapierre) DC.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Eleocharis acicularis (L.) Roem. et Schult.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Hydrocharis morsus-ranae L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Hypericum elodes L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Juncus bulbosus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Lemna minor L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Lotus pedunculatus Cav.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Ludwigia grandiflora (Michaux) Greuter et Burdet	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Lycopus europaeus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Nymphaea alba L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Phragmites australis (Cav.) Steud.	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Potamogeton natans L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Potamogeton obtusifolius Mert. et Koch	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Riccia fluitans L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Salix cinerea (incl. kruisingen)	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Solanum dulcamara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Typha angustifolia L.	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Typha latifolia L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210023950	Utricularia australis R. Brown	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Alnus glutinosa (L.) Gaertn.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Bidens cernua L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Calystegia sepium (L.) R. Brown	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Carex pseudocyperus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Cicuta virosa L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Elatine hexandra (Lapierre) DC.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Eleocharis acicularis (L.) Roem. et Schult.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Hydrocharis morsus-ranae L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Hypericum elodes L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Juncus bulbosus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Lemna minor L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Lotus pedunculatus Cav.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Ludwigia grandiflora (Michaux) Greuter et Burdet	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Lycopus europaeus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Nymphaea alba L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Phragmites australis (Cav.) Steud.	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Potamogeton natans L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Potamogeton obtusifolius Mert. et Koch	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Riccia fluitans L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Salix cinerea (incl. kruisingen)	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Solanum dulcamara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Typha angustifolia L.	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Typha latifolia L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210432950	Utricularia australis R. Brown	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Alnus glutinosa (L.) Gaertn.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Bidens cernua L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Calystegia sepium (L.) R. Brown	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Carex pseudocyperus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Cicuta virosa L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Elatine hexandra (Lapierre) DC.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Eleocharis acicularis (L.) Roem. et Schult.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Hydrocharis morsus-ranae L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Hypericum elodes L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Juncus bulbosus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Lemna minor L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Lotus pedunculatus Cav.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Ludwigia grandiflora (Michaux) Greuter et Burdet	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Lycopus europaeus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Nymphaea alba L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Phragmites australis (Cav.) Steud.	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Potamogeton natans L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Potamogeton obtusifolius Mert. et Koch	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Riccia fluitans L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Salix cinerea (incl. kruisingen)	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Solanum dulcamara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Typha angustifolia L.	-	cd	62	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Typha latifolia L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111210583774	Utricularia australis R. Brown	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Ceratophyllum demersum L.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Draadwier	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Hydrocharis morsus-ranae L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Lemna	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Lysimachia vulgaris L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Phragmites australis (Cav.) Steud.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Salix aurita L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Scutellaria galericulata L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Solanum dulcamara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Typha latifolia L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111211504838	Utricularia australis R. Brown	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Betula	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Bidens	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Bidens tripartita L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Callitriche brutia Petagna	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Elatine hexandra (Lapierre) DC.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Hydrocotyle vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Juncus bulbosus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Lythrum salicaria L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Menyanthes trifoliata L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Molinia caerulea (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Persicaria maculosa S.F. Gray	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Phragmites australis (Cav.) Steud.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Pilularia globulifera L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Quercus	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Salix cinerea L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215042442	Sphagnum	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Alisma plantago-aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Alnus glutinosa (L.) Gaertn.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Berula erecta (Huds.) Coville	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Bidens frondosa L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Ceratophyllum demersum L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Draadwier	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Eupatorium cannabinum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Hydrocharis morsus-ranae L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Juncus acutiflorus Ehrh. ex Hoffmann	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Juncus bufonius L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Lemna	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Lemna trisulca L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Lotus pedunculatus Cav.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Mentha aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Najas marina L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Nymphaea	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Peucedanum palustre (L.) Moench	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Phalaris arundinacea L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Phragmites australis (Cav.) Steud.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Ranunculus repens L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Rumex hydrolapathum Huds.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Salix cinerea L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Stachys palustris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Typha latifolia L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111215491883	Utricularia australis R. Brown	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Carex viridula Michaux	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Eleocharis palustris (L.) Roem. et Schult.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Hydrocotyle vulgaris L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Juncus articulatus L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Juncus bufonius L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Juncus bulbosus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Mentha aquatica L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Potentilla anserina L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Ranunculus flammula L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Salix repens L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111313494984	Samolus valerandi L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Agrostis stolonifera L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Carex hirta L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Draadwier	-	a	30	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Equisetum fluviatile L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Euphrasia stricta J.P. Wolff ex Lehm.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Juncus articulatus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Juncus bufonius L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Juncus subnodulosus Schrank	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Lemna	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Linum catharticum L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Lotus pedunculatus Cav.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Mentha aquatica L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Myosotis laxa Lehm.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Odontites vernus (Bellardi) Dum.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Rhinanthus angustifolius C.C. Gmel.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Salix alba L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Salix repens L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Samolus valerandi L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Senecio inaequidens DC.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314203598	Typha latifolia L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Alisma plantago-aquatica L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Carex riparia Curt.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Chara vulgaris L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Draadwier	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Hydrocotyle vulgaris L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Juncus effusus L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Juncus subnodulosus Schrank	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Lycopus europaeus L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Mentha aquatica L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Phragmites australis (Cav.) Steud.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Potamogeton pectinatus L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Salix cinerea L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Salix repens L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Schoenoplectus lacustris (L.) Palla	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Schoenoplectus tabernaemontani (C.C. Gmel.) Palla	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Sparganium erectum L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111314551659	Typha angustifolia L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Alnus glutinosa (L.) Gaertn.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Carex pseudocyperus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Glyceria fluitans (L.) R. Brown	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Lemna	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Mentha aquatica L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Phalaris arundinacea L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111315501585	Salix alba L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Carex panicea L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Carex viridula Michaux	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Chara contraria A. Braun ex Kütz.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Chara hispida	-	a	30	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Comarum palustre L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Draadwier	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Eleocharis palustris (L.) Roem. et Schult.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Eleocharis uniglumis (Link) Schult.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Hydrocotyle vulgaris L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Juncus articulatus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Mentha aquatica L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Phragmites australis (Cav.) Steud.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Potamogeton coloratus Hornem.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411130413	Samolus valerandi L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Alnus glutinosa (L.) Gaertn.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Betula	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Carex pendula Huds.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Lemna	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Pontederia cordata L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Schoenoplectus lacustris (L.) Palla	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Typha angustifolia L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111411450542	Typha latifolia L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Alnus glutinosa (L.) Gaertn.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Bidens frondosa L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Carex elata All.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Carex rostrata Stokes	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Cirsium arvense (L.) Scop.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Epilobium hirsutum L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Glyceria maxima (Hartm.) Holmberg	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Lemna	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Mentha aquatica L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Nuphar lutea (L.) Smith	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Persicaria amphibia (L.) S.F. Gray	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Peucedanum palustre (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Rumex hydrolapathum Huds.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Salix	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Scutellaria galericulata L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Sparganium emersum Rehm.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Sparganium erectum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111412072618	Typha latifolia L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Bidens cernua L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Bidens frondosa L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Galium palustre L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Hottonia palustris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Ludwigia grandiflora (Michaux) Greuter et Burdet	-	d	87	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Mentha aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Molinia caerulea (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Persicaria lapathifolia (L.) Delarbre	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111414291818	Typha angustifolia L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Agrostis stolonifera var. stolonifera	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Carex disticha Huds.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Chara globularis Thuill.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Draadwier	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Eleocharis palustris (L.) Roem. et Schult.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Equisetum fluviatile L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Juncus inflexus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Juncus subnodulosus Schrank	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Lemna trisulca L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Mentha aquatica L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Nuphar lutea (L.) Smith	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Persicaria amphibia (L.) S.F. Gray	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Phalaris arundinacea L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Potentilla anserina L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Salix cinerea L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111414450976	Typha angustifolia L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Betula	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Calluna vulgaris (L.) Hull	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Draadwier	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Equisetum fluviatile L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Erica cinerea L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Galium palustre L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Glyceria fluitans (L.) R. Brown	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Hydrocotyle vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Juncus acutiflorus Ehrh. ex Hoffmann	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Juncus bulbosus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Juncus conglomeratus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Lemna	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Lythrum salicaria L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Molinia caerulea (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Potamogeton natans L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Potentilla erecta (L.) Räuschel	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Ranunculus flammula L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Sphagnum	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111415225705	Typha latifolia L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Alisma plantago-aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Alnus glutinosa (L.) Gaertn.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Bidens	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Bidens cernua L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Bidens frondosa L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Calamagrostis epigejos (L.) Roth	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Callitriche	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Draadwier	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Elatine hexandra (Lapierre) DC.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Eleocharis acicularis (L.) Roem. et Schult.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Epilobium	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Erigeron canadensis L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Gnaphalium luteoalbum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Gnaphalium uliginosum L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Hydrocotyle vulgaris L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Hypericum elodes L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Juncus bufonius L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Juncus tenuis Willd.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Lemna minor L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Lythrum portula (L.) D.A. Webb	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Lythrum salicaria L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Mentha aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Myosotis laxa Lehm.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Persicaria maculosa S.F. Gray	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Phragmites australis (Cav.) Steud.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Pilularia globulifera L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Rorippa amphibia (L.) Besser	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Rubus	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Rumex crispus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Rumex maritimus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Salix cinerea L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Schoenoplectus lacustris (L.) Palla	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Solanum dulcamara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Typha	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111710465158	Urtica	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Carex panicea L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Carex viridula Michaux	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Chara hispida	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Eleocharis multicaulis (Smith) Desv.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Eleocharis palustris (L.) Roem. et Schult.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Hydrocotyle vulgaris L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Lysimachia vulgaris L.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Lythrum salicaria L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Mentha aquatica L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Phragmites australis (Cav.) Steud.	-	a	30	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Salix repens L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711322010	Samolus valerandi L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Agrostis stolonifera L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Carex arenaria L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Chara contraria A. Braun ex Kütz.	-	cd	62	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Draadwier	-	cd	62	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Eleocharis palustris (L.) Roem. et Schult.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Epilobium hirsutum L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Juncus bufonius L.	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Lemna	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Potamogeton trichoides Cham. et Schlecht.	-	f	7	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Ranunculus sceleratus L.	-	r	1	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Ranunculus trichophyllus Chaix	-	o	3	Tansley Meren
+HT2190_a_LSVI_StilstaandeWateren	IV2025111711513512	Senecio jacobaea L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Alisma plantago-aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Alnus glutinosa (L.) Gaertn.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Bidens	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Calamagrostis epigejos (L.) Roth	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Callitriche	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Draadwier	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Elatine hexandra (Lapierre) DC.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Eleocharis acicularis (L.) Roem. et Schult.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Epilobium	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Erigeron canadensis L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Gnaphalium luteoalbum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Gnaphalium uliginosum L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Hydrocotyle vulgaris L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Hypericum elodes L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Juncus bufonius L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Juncus tenuis Willd.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Lemna minor L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Lysimachia vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Lythrum portula (L.) D.A. Webb	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Lythrum salicaria L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Mentha aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Myosotis laxa Lehm.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Persicaria maculosa S.F. Gray	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Phragmites australis (Cav.) Steud.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Pilularia globulifera L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Rorippa amphibia (L.) Besser	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Rubus	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Rumex crispus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Rumex maritimus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Salix cinerea L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Schoenoplectus lacustris (L.) Palla	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Solanum dulcamara L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Typha	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111712201229	Urtica	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Betula pubescens Ehrh.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Eleocharis palustris (L.) Roem. et Schult.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Glyceria fluitans (L.) R. Brown	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Juncus bulbosus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Juncus effusus L.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Molinia caerulea (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715372928	Sphagnum cuspidatum Ehrh. ex Hoffm.	-	d	87	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Betula pendula Roth	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Calluna vulgaris (L.) Hull	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Drosera intermedia Hayne	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Drosera rotundifolia L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Eleocharis multicaulis (Smith) Desv.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Erica tetralix L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Eriophorum angustifolium Honck.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Juncus bulbosus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Molinia caerulea (L.) Moench	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Narthecium ossifragum (L.) Huds.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Pinus sylvestris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Potamogeton polygonifolius Pourr.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Rhynchospora alba (L.) Vahl	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Salix aurita L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Salix cinerea L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Sphagnum denticulatum Brid.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Sphagnum palustre L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Sphagnum papillosum Lindb.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Utricularia minor L.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111715534228	Vaccinium oxycoccos L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Ceratophyllum	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Chara contraria A. Braun ex Kütz.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Chara globularis Thuill.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Draadwier	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Elodea nuttallii (Planch.) St John	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Fontinalis antipyretica Hedw.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Fraxinus excelsior L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Myriophyllum spicatum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Phragmites australis (Cav.) Steud.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Potamogeton crispus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Potamogeton lucens L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Potamogeton pectinatus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Potamogeton pusillus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Potamogeton trichoides Cham. et Schlecht.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Ranunculus circinatus Sibth.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Rumex hydrolapathum Huds.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Scutellaria galericulata L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Sparganium erectum L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810132931	Typha latifolia L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Ceratophyllum	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Chara contraria A. Braun ex Kütz.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Chara globularis Thuill.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Draadwier	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Elodea nuttallii (Planch.) St John	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Fontinalis antipyretica Hedw.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Fraxinus excelsior L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Myriophyllum spicatum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Phragmites australis (Cav.) Steud.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Potamogeton crispus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Potamogeton lucens L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Potamogeton pectinatus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Potamogeton pusillus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Ranunculus circinatus Sibth.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Rumex aquaticus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Scutellaria galericulata L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Sparganium erectum L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111810293270	Typha latifolia L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Eleocharis multicaulis (Smith) Desv.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Eleocharis palustris (L.) Roem. et Schult.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Eriophorum angustifolium Honck.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Glyceria fluitans (L.) R. Brown	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Hydrocotyle vulgaris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Juncus bulbosus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Juncus effusus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Molinia caerulea (L.) Moench	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Pinus sylvestris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Rhynchospora alba (L.) Vahl	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Rhynchospora fusca (L.) Ait. f.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Sphagnum cuspidatum Ehrh. ex Hoffm.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Sphagnum denticulatum Brid.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Sphagnum fallax (H.Klinggr.) H.Klinggr.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812091433	Warnstorfia fluitans (Hedw.) Loeske	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Acorus calamus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Bidens	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Carex riparia Curt.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Chara vulgaris L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Convolvulus sepium L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Crassula helmsii (T. Kirk) Cock.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Epilobium ciliatum Rafin.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Epilobium hirsutum L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Iris pseudacorus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Juncus inflexus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Lemna minor L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Limosella aquatica L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Lycopus europaeus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Lysimachia thyrsiflora L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Lysimachia vulgaris L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Lythrum salicaria L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Mentha aquatica L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Menyanthes trifoliata L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Myosotis laxa Lehm.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Myosotis scorpioides L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Nymphoides peltata (S.G. Gmel.) O. Kuntze	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Phragmites australis (Cav.) Steud.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Rorippa sylvestris (L.) Besser	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Rumex maritimus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Salix alba L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Salix cinerea L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Salix triandra L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Salix viminalis L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Salix x rubens Schrank	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Solanum dulcamara L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Sparganium erectum L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Typha	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Veronica catenata Pennell	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111812332793	Zannichellia palustris L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	Eleocharis acicularis (L.) Roem. et Schult.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	Juncus bulbosus L.	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	Juncus effusus L.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	Molinia caerulea (L.) Moench	-	r	1	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025111908561648	Typha	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Agrostis stolonifera L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Bidens	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Crassula helmsii (T. Kirk) Cock.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Draadwier	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Elodea nuttallii (Planch.) St John	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Juncus bulbosus L.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Juncus effusus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Molinia caerulea (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Pilularia globulifera L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Sphagnum	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108364078	Typha	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Agrostis stolonifera L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Bidens	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Crassula helmsii (T. Kirk) Cock.	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Elatine hexandra (Lapierre) DC.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Eleocharis acicularis (L.) Roem. et Schult.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Elodea nuttallii (Planch.) St John	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Juncus bulbosus L.	-	a	30	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Juncus effusus L.	-	f	7	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Molinia caerulea (L.) Moench	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Sphagnum	-	o	3	Tansley Meren
+HT31xx_LSVI_StilstaandeWateren	IV2025112108444415	Typha latifolia L.	-	o	3	Tansley Meren

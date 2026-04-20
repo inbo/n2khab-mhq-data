@@ -5,8 +5,8 @@
   sorting:
   - type_resultaat
   - indicator
-  hash: 052f3fb555c46450562c996af9e38ab2d791e9a9
-  data_hash: 186a71c66c5ee0da2d78f7bb3612d89a2e2cb785
+  hash: 234a74219062a991f4b1ee02fcdfb6c7c7fd13f3
+  data_hash: cf42525065d00d9101f2d8f5bfe57aa8974969e5
 versie:
   class: character
 schaal:
@@ -21,12 +21,6 @@ criterium:
   class: character
 indicator:
   class: character
-aandeel_gunstig_min:
-  class: numeric
-  digits: 6
-aandeel_gunstig_max:
-  class: numeric
-  digits: 6
 beoordeling:
   class: character
 opp_gunstig_ha:
@@ -36,5 +30,16 @@ opp_ongunstig_ha:
   class: numeric
   digits: 6
 opp_onbekend_ha:
+  class: numeric
+  digits: 6
+belang:
+  class: character
+aandeel_gunstig:
+  class: numeric
+  digits: 6
+aandeel_gunstig_llci:
+  class: numeric
+  digits: 6
+aandeel_gunstig_ulci:
   class: numeric
   digits: 6

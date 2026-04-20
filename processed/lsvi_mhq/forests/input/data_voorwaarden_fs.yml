@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting:
   - ID
   - Voorwaarde
-  hash: acedff7dc91ef58df51ca3001ad0d04bab043a81
-  data_hash: 9c5bf89138b71398d13f172cfbe4dbb56d4abe9c
+  hash: 37fb5560a916355c39ce7a0b4af5e20b13c9de17
+  data_hash: c767bb14f30730b06c3690bf1498b3922d8fe6fc
 ID:
   class: character
 record_id:
@@ -19,6 +19,7 @@ Voorwaarde:
   class: character
 Waarde:
   class: numeric
+  digits: 6
 Type:
   class: character
 Invoertype:

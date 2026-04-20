@@ -1,10 +1,10 @@
 ..generic:
-  git2rdata: 0.4.1
+  git2rdata: 0.5.0
   optimize: yes
   NA string: NA
   sorting: recording_givid
   hash: 3feef6135b1e6d9ce1073acf7d5bb56928b80c79
-  data_hash: 46ed8e2a5aeccc8656038292306f22b471a8bbd3
+  data_hash: 51fa736230916ac22c9702a6f4e31391975e98eb
 survey:
   class: character
 recording_givid:
