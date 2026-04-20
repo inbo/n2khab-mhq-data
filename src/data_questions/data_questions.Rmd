@@ -1,0 +1,261 @@
+---
+title: "Data questions"
+output: html_document
+date: "2024-01-22"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(git2rdata)
+library(tidyverse)
+library(sf)
+library(kableExtra)
+```
+
+## Data anb
+
+```{r}
+type_observed <- read_vc(root = "../../processed/fieldmap_mhq", file = "type_observed")
+
+assessments <- read_vc(root = "../../processed/fieldmap_mhq", file = "assessments")
+
+coordinates <- read_vc(root = "../../processed/fieldmap_mhq/", file = "coordinates")
+
+cover_species <- read_vc(root = "../../processed/fieldmap_mhq", file = "cover_species")
+
+cover_veglayers <- read_vc(root = "../../processed/fieldmap_mhq/", file = "cover_veglayers")
+
+structure_vars <- read_vc(root = "../../processed/fieldmap_mhq/", file = "structure_vars")
+```
+
+### Forest
+
+```{r}
+data_anb_forest <- type_observed %>%
+  filter(segment_id == 1) %>%
+  distinct(plot_id, mon_cycle, type_observed_square, type_observed_circle, date_assessment) %>%
+  left_join(coordinates, by = c("plot_id", "date_assessment", "mon_cycle")) %>%
+  select(plot_id, mon_cycle, type_observed_square, type_observed_circle, date_assessment, x_measured, y_measured) %>%
+  left_join(cover_veglayers, by = c("plot_id", "date_assessment", "mon_cycle")) %>%
+  rename(cover_veglayer = cover, cover_mean_veglayer = cover_mean, cover_description_veglayer = cover_description) %>%
+  inner_join(cover_species, by = c("plot_id", "date_assessment", "layer", "mon_cycle")) %>%
+  arrange(plot_id) %>%
+  select(plot_id, x_measured, y_measured, date_assessment, type_observed = type_observed_circle, layer, cover_mean_veglayer, cover_description_veglayer, name_nl, name_sc, coverscale_name, cover_description, cover_mean) %>%
+  filter(str_sub(type_observed, 1, 2) == "91")
+
+data_anb_visits <- data_anb_forest %>%
+  distinct(plot_id, type_observed, date_assessment, x_measured, y_measured) %>%
+  arrange(plot_id) %>%
+  filter(!is.na(x_measured)) %>%
+  arrange(plot_id)
+
+data_anb_vegdata <- data_anb_forest %>%
+  select(-x_measured, -y_measured) %>%
+  semi_join(data_anb_visits, by = "plot_id") %>%
+  arrange(plot_id)
+
+write_csv2(data_anb_visits, "../../output/data_mhq_bos_coordinaten.csv")
+
+write_csv2(data_anb_vegdata, "../../output/data_mhq_bos_vegdata.csv")
+
+check_paired <- data_anb_visits %>%
+  group_by(plot_id, type_observed) %>%
+  summarise(n_visits = n_distinct(date_assessment)) %>%
+  ungroup() %>%
+  group_by(type_observed) %>%
+  summarise(n_records = sum(n_visits),
+            n_plots = n_distinct(plot_id),
+            n_repetated_plots = sum(n_visits >= 2)
+            ) %>%
+  ungroup()
+```
+
+```{r}
+check_paired %>%
+  kable() %>%
+  kable_styling()
+```
+
+### Open habitat
+
+```{r}
+data_anb_open <- type_observed %>%
+  filter(segment_id == 1) %>%
+  distinct(plot_id, mon_cycle, type_observed_square, type_observed_circle, date_assessment) %>%
+  left_join(coordinates, by = c("plot_id", "date_assessment", "mon_cycle")) %>%
+  select(plot_id, mon_cycle, type_observed_square, type_observed_circle, date_assessment, x_measured, y_measured) %>%
+  left_join(cover_veglayers, by = c("plot_id", "date_assessment", "mon_cycle")) %>%
+  rename(cover_veglayer = cover, cover_mean_veglayer = cover_mean, cover_description_veglayer = cover_description) %>%
+  inner_join(cover_species, by = c("plot_id", "date_assessment", "layer", "mon_cycle")) %>%
+  arrange(plot_id) %>%
+  select(plot_id, x_measured, y_measured, date_assessment, type_observed = type_observed_circle, layer, cover_veglayer, name_nl, name_sc, coverscale_name, cover_description, cover_mean) %>%
+  filter(str_sub(type_observed, 1, 2) %in% c("23", "40", "65"))
+
+data_anb_visits <- data_anb_open %>%
+  distinct(plot_id, type_observed, date_assessment, x_measured, y_measured) %>%
+  arrange(plot_id) %>%
+  filter(!is.na(x_measured)) %>%
+  arrange(plot_id)
+
+data_anb_vegdata <- data_anb_open %>%
+  select(-x_measured, -y_measured) %>%
+  semi_join(data_anb_visits, by = "plot_id") %>%
+  arrange(plot_id)
+
+write_csv2(data_anb_visits, "../../output/data_mhq_openhab_coordinaten.csv")
+
+write_csv2(data_anb_vegdata, "../../output/data_mhq_openhab_vegdata.csv")
+
+check_paired <- data_anb_visits %>%
+  group_by(plot_id, type_observed) %>%
+  summarise(n_visits = n_distinct(date_assessment)) %>%
+  ungroup() %>%
+  group_by(type_observed) %>%
+  summarise(n_records = sum(n_visits),
+            n_plots = n_distinct(plot_id),
+            n_repetated_plots = sum(n_visits >= 2)
+            ) %>%
+  ungroup()
+
+check_year <- data_anb_visits %>%
+  filter(str_sub(type_observed, 1, 2) %in% c("40", "23")) %>%
+  mutate(jaar = year(date_assessment)) %>%
+  group_by(jaar) %>%
+  summarise(n_plots = n_distinct(plot_id)) %>%
+  ungroup()
+
+```
+
+### Data heide
+
+```{r}
+data_anb_visits_heide_2023 <- data_anb_visits %>%
+  filter(str_sub(type_observed, 1, 2) %in% c("40", "23")) %>%
+  filter(year(date_assessment) == 2023)
+
+data_anb_vegdata_heide_2023 <- data_anb_vegdata %>%
+  filter(str_sub(type_observed, 1, 2) %in% c("40", "23")) %>%
+  filter(year(date_assessment) == 2023)
+
+data_anb_structuredata_heide_2023 <- structure_vars %>%
+  semi_join(data_anb_visits_heide_2023, by = c("plot_id", "date_assessment")) %>%
+  select(plot_id, date_assessment, structure_var, coverscale_name, cover_description, cover_mean, cover)
+
+write_csv2(data_anb_visits_heide_2023, "../../output/mhq_anb_heide_coordinaten_2023.csv")
+write_csv2(data_anb_vegdata_heide_2023, "../../output/mhq_anb_heide_veg_2023.csv")
+write_csv2(data_anb_structuredata_heide_2023, "../../output/mhq_anb_heide_structure_2023.csv")
+```
+
+
+## Data INBOVEG
+
+```{r}
+header_mhq <- read_vc(root = "../../processed/inboveg_mhq_terr", file = "header_mhq_terr")
+
+header_mhq_aq <- read_vc(root = "../../processed/inboveg_mhq_aq", file = "header_mhq_aq")
+
+head_mhq_sf <- st_as_sf(header_mhq, coords = c("longitude", "latitude"), crs = 4326) %>%
+  st_transform(31370) 
+
+header_mhq <- head_mhq_sf %>%
+  st_drop_geometry() %>%
+  mutate(x_measured = st_coordinates(head_mhq_sf)[,1],
+                   y_measured = st_coordinates(head_mhq_sf)[,2]) %>%
+  select(survey, recording_givid, user_reference, date_assessment = vague_date_end, area, x_measured, y_measured)
+
+classif_mhq_terr <- read_vc(root = "../../processed/inboveg_mhq_terr", file = "classif_mhq_terr")
+
+vegetation_mhq_terr <- read_vc(root = "../../processed/inboveg_mhq_terr", file = "vegetation_mhq_terr")
+
+structure_mhq_terr <- read_vc(root = "../../processed/inboveg_mhq_terr", file = "structure_mhq_terr")
+
+header_mhq_square <- header_mhq %>%
+  left_join(classif_mhq_terr, by = c("survey", "recording_givid")) %>%
+  filter(!str_detect(user_reference, "double")) %>%
+  mutate(survey = str_to_lower(survey),
+         remove_grasland = str_detect(survey, "grasland") & (!str_sub(type_observed, 1, 1) %in% c("1","6")),
+         remove_moeras = str_detect(survey, "moeras") & (!str_sub(type_observed, 1, 1) %in% c("7"))) %>%
+  filter(!remove_grasland, !remove_moeras, !(type_observed) == "-9")
+
+data_inbo_visits_square <- header_mhq_square %>%
+  filter(area == 9) %>%
+  select(survey, recording_givid, plot_id = user_reference, date_assessment, type_observed, x_measured, y_measured) %>%
+  arrange(date_assessment)
+
+data_inbo_visits_circle <- header_mhq_square %>%
+  filter(area > 9) %>%
+  select(survey, recording_givid, plot_id = user_reference, date_assessment, type_observed, x_measured, y_measured) %>%
+  arrange(date_assessment)
+  
+```
+
+
+### Heide
+
+```{r}
+data_inbo_visits_heide_square <- data_inbo_visits_square %>%
+  filter(str_detect(survey, "heide")) %>%
+  arrange(date_assessment)
+
+data_inbo_visits_heide_circle <- data_inbo_visits_circle %>%
+  filter(str_detect(survey, "heide")) %>%
+  arrange(date_assessment)
+
+data_inbo_veg_heide <- vegetation_mhq_terr %>%
+  left_join(select(data_inbo_visits_heide_square, recording_givid, plot_id), by = "recording_givid") %>%
+  semi_join(data_inbo_visits_heide_square, by = "recording_givid") %>%
+  select(survey, recording_givid, plot_id, everything())
+
+data_inbo_structure_heide <- structure_mhq_terr %>%
+  rename(plot_id = user_reference) %>%
+  semi_join(data_inbo_visits_heide_circle, by = "recording_givid")
+
+write_csv2(data_inbo_visits_heide_square, "../../output/mhq_heide_inbo_coordinaten.csv")
+write_csv2(data_inbo_veg_heide, "../../output/mhq_heide_inbo_veg.csv")
+write_csv2(data_inbo_structure_heide, "../../output/mhq_heide_inbo_structure.csv")
+  
+```
+
+
+
+
+
+
+
+
+
+```{r}
+mhq_measurements <- read_vc(root = "../../../n2khab-sample-admin/data/mhq_terr", file = "mhq_terr_measurements")
+
+mhq_measurements_only_square <- mhq_measurements %>%
+  filter(!str_detect(recording_givid, "circle")) %>%
+  mutate(recording_givid = str_remove(recording_givid, "square: "))
+
+mhq_measurements_also_circle <- mhq_measurements %>%
+  filter(str_detect(recording_givid, "circle")) %>%
+  separate(recording_givid, sep = ";", into = c("record1", "record2")) %>%
+  mutate(recording_givid = ifelse(str_detect(record1, "square"), record1, record2),
+         recording_givid = str_remove(recording_givid, "square: "),
+         recording_givid = str_trim(recording_givid)) %>%
+  filter(!is.na(recording_givid))
+
+mhq_measurements <- mhq_measurements_only_square %>%
+  bind_rows(mhq_measurements_also_circle) %>%
+  left_join(header_mhq, by = "recording_givid")
+
+data_inbo_visits <- mhq_measurements %>%
+  select(plot_id = point_code, type_observed = type, date_assessment, x_measured, y_measured)
+
+check_paired <- data_inbo_visits %>%
+  group_by(plot_id, type_observed) %>%
+  summarise(n_visits = n_distinct(date_assessment)) %>%
+  ungroup() %>%
+  group_by(type_observed) %>%
+  summarise(n_records = sum(n_visits),
+            n_plots = n_distinct(plot_id),
+            n_repetated_plots = sum(n_visits >= 2)
+            ) %>%
+  ungroup()
+```
+
+
