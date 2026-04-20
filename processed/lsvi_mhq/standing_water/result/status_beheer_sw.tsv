@@ -1,0 +1,12 @@
+type_resultaat	versie	habitattype	sbzh	passend_beheer	habitatsubtype	n_obs_sample	n_obs_int	n_obs	aandeel_gunstig	aandeel_gunstig_llci	aandeel_gunstig_ulci	beoordeling	opp_uitspraak_ha	opp_onbekend_ha	opp_totaal_ha
+Passend beheer	Versie 3	2190	Binnen & Buiten	ja	2190_a	27	4	31	42.98	23.3	55.63	Niet goed	3.13	4.85	7.98
+Passend beheer	Versie 3	2190	Binnen & Buiten	nee	2190_a	12	0	12	88.81	50.71	98.39	Onbekend	1.17	0	1.17
+Passend beheer	Versie 3	3110	Binnen & Buiten	ja	3110	0	5	5	0	NA	NA	Niet goed	3.23	0	3.23
+Passend beheer	Versie 3	3130	Binnen & Buiten	ja	3130_na; 3130_aom	149	2	151	8.7	4.89	15	Niet goed	710.51	70.58	781.09
+Passend beheer	Versie 3	3130	Binnen & Buiten	nee	3130_aom; 3130_na	53	0	53	16.14	4.32	45.09	Niet goed	229.28	0	229.28
+Passend beheer	Versie 3	3140	Binnen & Buiten	ja	3140	22	1	23	0	0	0	Niet goed	208.3	0	208.3
+Passend beheer	Versie 3	3140	Binnen & Buiten	nee	3140	20	3	23	7.03	0.84	34.04	Niet goed	261.6	60.14	321.74
+Passend beheer	Versie 3	3150	Binnen & Buiten	ja	3150	41	2	43	1.02	0.27	3.79	Niet goed	281.32	0	281.32
+Passend beheer	Versie 3	3150	Binnen & Buiten	nee	3150	19	3	22	0.1	0.01	0.89	Niet goed	146.57	91.39	237.96
+Passend beheer	Versie 3	3160	Binnen & Buiten	ja	3160	41	0	41	4.81	1.14	18.11	Niet goed	121.93	0	121.93
+Passend beheer	Versie 3	3160	Binnen & Buiten	nee	3160	7	0	7	19.5	2.25	71.8	Niet goed	10.31	0	10.31

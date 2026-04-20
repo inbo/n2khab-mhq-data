@@ -1,0 +1,56 @@
+..generic:
+  git2rdata: 0.5.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - habitattype
+  - habitatsubtype
+  - date
+  - code_watersurfaces
+  hash: 93c903e452b11c88b32d2b10529bf83491d2b239
+  data_hash: 4bf241c42d8ddcff0b23d93c9202979874a05fc3
+id:
+  class: character
+date:
+  class: character
+code_watersurfaces:
+  class: character
+in_sac:
+  class: logical
+habitattype:
+  class: character
+habitatsubtype:
+  class: factor
+  labels:
+  - gh
+  - '2190'
+  - 2190_a
+  - '3110'
+  - 3130_aom
+  - 3130_na
+  - '3140'
+  - '3150'
+  - '3160'
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  ordered: no
+lsvi:
+  class: character
+aggregatiemethode:
+  class: character
+n_zb_ongunstig:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+  digits: 20
+index_mean_ind:
+  class: numeric
+  digits: 20

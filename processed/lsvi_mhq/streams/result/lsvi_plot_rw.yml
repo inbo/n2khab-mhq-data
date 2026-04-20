@@ -1,0 +1,59 @@
+..generic:
+  git2rdata: 0.5.0
+  optimize: yes
+  NA string: NA
+  sorting:
+  - habitattype
+  - habitatsubtype
+  - date
+  - segment_id
+  hash: 2c28c7d1d2d20487230638e5854361d2c12680b1
+  data_hash: 3e5cca8e14a3f2573d1179e357c1b6d7d544f9aa
+id:
+  class: character
+date:
+  class: character
+segment_id:
+  class: character
+x:
+  class: numeric
+  digits: 20
+'y':
+  class: numeric
+  digits: 20
+in_sac:
+  class: logical
+habitattype:
+  class: factor
+  labels:
+  - gh
+  - unknown
+  - '3260'
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+habitatsubtype:
+  class: factor
+  labels:
+  - gh
+  - unknown
+  - '3260'
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+lsvi:
+  class: character
+aggregatiemethode:
+  class: character
+n_zb_ongunstig:
+  class: integer
+aandeel_gunstig:
+  class: numeric
+  digits: 20
+index_mean_ind:
+  class: numeric
+  digits: 20

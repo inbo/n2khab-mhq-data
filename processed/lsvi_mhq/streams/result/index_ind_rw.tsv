@@ -1,0 +1,16 @@
+schaal	versie	type_resultaat	habitattype	sbzh	habitatsubtype	criterium	indicator	belang	n_obs	index_ind_mean	index_ind_llci_0.95	index_ind_ulci_0.95
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	Verstoring	eutrofiëring	zb	97	0.6831	0.5883	0.778
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	Structuur	horizontale structuur	zb	97	-0.5596	-0.6916	-0.4276
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	Verstoring	invasieve exoten	zb	97	0.4695	0.3654	0.5735
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	Vegetatie	sleutelsoorten	b	97	-0.6656	-0.7455	-0.5857
+Vlaanderen	Versie 3	Habitattype	3	Binnen & Buiten	NA	Structuur	verticale structuur	zb	97	0.5751	0.4731	0.677
+Vlaanderen	Versie 3	SBZH	3	Binnen	NA	Verstoring	eutrofiëring	zb	76	0.6859	0.5772	0.7946
+Vlaanderen	Versie 3	SBZH	3	Binnen	NA	Structuur	horizontale structuur	zb	76	-0.6387	-0.7736	-0.5039
+Vlaanderen	Versie 3	SBZH	3	Binnen	NA	Verstoring	invasieve exoten	zb	76	0.5073	0.3929	0.6218
+Vlaanderen	Versie 3	SBZH	3	Binnen	NA	Vegetatie	sleutelsoorten	b	76	-0.7007	-0.7868	-0.6145
+Vlaanderen	Versie 3	SBZH	3	Binnen	NA	Structuur	verticale structuur	zb	76	0.6863	0.5884	0.7841
+Vlaanderen	Versie 3	SBZH	3	Buiten	NA	Verstoring	eutrofiëring	zb	21	0.6776	0.4755	0.8796
+Vlaanderen	Versie 3	SBZH	3	Buiten	NA	Structuur	horizontale structuur	zb	21	-0.401	-0.7283	-0.0737
+Vlaanderen	Versie 3	SBZH	3	Buiten	NA	Verstoring	invasieve exoten	zb	21	0.3936	0.1572	0.63
+Vlaanderen	Versie 3	SBZH	3	Buiten	NA	Vegetatie	sleutelsoorten	b	21	-0.5952	-0.7819	-0.4086
+Vlaanderen	Versie 3	SBZH	3	Buiten	NA	Structuur	verticale structuur	zb	21	0.3522	0.1003	0.604
