@@ -62,7 +62,7 @@ strata <- strata_orig %>%
   select(-stand_type)
 
 coordinaten <- coordinaten_orig %>%
-  select(plot_id = idplots, x, y, type_coord = type, periode, plotweight)
+  select(plot_id = idplots, x, y, type_coord = type, vbi_cycle = periode, plotweight)
 # 
 # coord_recent <- coordinaten %>%
 #   semi_join(cover_species_vbi, by = c("plot_id")) %>%
@@ -296,6 +296,7 @@ write_vc(type_observed, "type_observed", root = path, sorting = c("plot_id", "vb
 write_vc(vbi_av, "analysis_variable", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
 write_vc(bestandskarakt, "stand_description", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle", "variable"), strict = FALSE)
 write_vc(plot_weight, "plot_weight", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
+write_vc(coordinaten, "coordinates", root = path, sorting = c("plot_id", "vbi_cycle"), strict = FALSE)
 write_vc(missing_values, "missing_values", root = path, sorting = c("plot_id", "segment_id", "vbi_cycle"), strict = FALSE)
 write_vc(vol_parameters_2input, "vol_parameters_2input", root = path, sorting = c("tree_species_id"), strict = FALSE)
 write_vc(vol_parameters_1input, "vol_parameters_1input", root = path, sorting = c("tree_species_id"), strict = FALSE)
