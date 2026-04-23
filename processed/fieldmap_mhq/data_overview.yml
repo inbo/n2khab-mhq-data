@@ -1,10 +1,10 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting: plot_id
-  hash: 092af78f53fe56e7edc6fe363f3b2e02779da2e1
-  data_hash: 183df33970fe4c00b2277633eb892a6e997cbb21
+  hash: 223d4107287a5e8820a2a5340c1a05ccf8cae050
+  data_hash: 6fcdecea725879a705415d2d48f0ff880fca12d2
 plot_id:
   class: character
 sampling_unit_code:
@@ -72,6 +72,7 @@ segment_id:
   class: integer
 type_observed_cover_circle:
   class: numeric
+  digits: 6
 type_observed_circle_description:
   class: character
 mixed_plot:
@@ -82,5 +83,6 @@ not_measurable:
   class: character
 mon_cycle:
   class: numeric
+  digits: 6
 type_target_all:
   class: character

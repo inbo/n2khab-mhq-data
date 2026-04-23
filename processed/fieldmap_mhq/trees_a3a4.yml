@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
@@ -7,8 +7,8 @@
   - segment_id
   - tree_id
   - date_assessment
-  hash: c5058842e9b73e4792374898bf14166b82ecb35f
-  data_hash: eea660dd0984906daf53a7fb1595f5c47dc267b8
+  hash: ff12215538222528d52e555a0a50b0f160306bf6
+  data_hash: 8c176e7ef3b62a27bb6203eccccb605853f61e04
 plot_id:
   class: integer
 segment_id:
@@ -19,6 +19,7 @@ dbh_mm:
   class: integer
 height_m:
   class: numeric
+  digits: 6
 name_nl:
   class: character
 status_tree:
@@ -34,12 +35,16 @@ date_assessment:
   origin: '1970-01-01'
 basalarea_m2:
   class: numeric
+  digits: 6
 vol_stem_m3:
   class: numeric
+  digits: 6
 vol_tot_m3:
   class: numeric
+  digits: 6
 mon_cycle:
   class: numeric
+  digits: 6
 name_sc:
   class: character
 tree_species_id:

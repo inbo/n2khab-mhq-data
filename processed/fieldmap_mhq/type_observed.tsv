@@ -24,6 +24,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 5046	NA	NA	NA	2	100	16318	1
 5330	2310	2310	NA	1	100	16329	1
 5422	4 : heide- en struikvegetaties	4030	NA	1	100	17102	1
+5422	4010	4010	NA	1	100	20258	2
 5702	geen habitat 	NA	bos	1	100	16573	1
 6110	geen habitat 	NA	NA	1	100	17074	1
 6182	6510	6510_hua	NA	1	100	16226	1
@@ -135,6 +136,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 28658	4030	4030	NA	1	100	19235	2
 28902	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16217	1
 29202	NA	NA	NA	1	100	16190	1
+29302	4030	4030	NA	1	100	20210	2
 29406	2310	2330_bu	NA	1	100	16303	1
 29406	2310	2310	NA	1	100	19249	2
 29558	geen habitat 	NA	NA	1	100	17989	1
@@ -152,7 +154,9 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 32466	2310	2310	NA	1	100	16324	1
 32466	2310	2310	NA	1	100	19241	2
 32681	NA	NA	NA	1	100	16542	1
+33398	2310	2310	NA	1	100	20210	2
 33502	4030	4030	NA	1	100	17094	1
+33502	4030	4030	NA	1	100	20256	2
 33718	2330_bu	2330_bu	NA	1	100	16315	1
 34002	geen habitat (akker, houtkant, tuin,...)	onbekend	NA	1	100	16330	1
 34361	9130_end	NA	BOS	1	100	18733	1
@@ -165,7 +169,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 35794	2310	2310	NA	1	79	16324	1
 35794	4030	4030	NA	1	76	19607	2
 35794	infrastructuur	2310	NA	2	21	16324	1
-35794	onbekend	4030	NA	2	23	19607	2
+35794	geen doelhabitat (meer)	4030	NA	2	23	19607	2
 35794	9 : bossen	4030	NA	3	1	19607	2
 36774	9120	NA	bos	1	100	17708	1
 37033	NA	NA	NA	1	100	16542	1
@@ -206,6 +210,8 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 45790	2310	2310	NA	1	100	19248	2
 46006	4030	4030	NA	1	100	16322	1
 46006	NA	NA	NA	1	100	19125	2
+46662	6510_hu	6510_hu	NA	1	69	20241	2
+46662	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	31	20241	2
 46662	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	3	28	16968	1
 46662	6510_hu	6510_hu	NA	4	72	16968	1
 47446	6510_hu	6510_hu	NA	1	54	16234	1
@@ -228,6 +234,8 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 55670	NA	NA	NA	1	100	19859	2
 55734	91E0_vn	NA	BOS	1	100	18758	1
 57398	4030	4030	NA	1	100	19898	2
+57974	4030	4030	NA	1	100	20210	2
+58014	4030	4030	NA	1	100	20307	2
 58198	rbbsf - vochtig wilgenstruweel op voedselrijke bodem	NA	BOS	1	100	18774	1
 59858	2310	2310	NA	1	100	16587	1
 60894	4030	4010	NA	1	100	17126	1
@@ -235,9 +243,11 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 61522	onbekend	onbekend	NA	1	100	16232	1
 61814	infrastructuur	geen habitat (akker, houtkant, tuin,...)	NA	1	100	19598	2
 62141	4010	4010	NA	1	80	17100	1
+62141	4010	4010	NA	1	100	20250	2
 62141	onbekend	4010	NA	2	20	17100	1
 62174	2310	2310	NA	1	100	16316	1
 62174	2310	2310	NA	1	100	19249	2
+62390	4030	4030	NA	1	100	20217	2
 62697	onbekend	onbekend	NA	1	100	16212	1
 63270	6510_hu	6510_hu	NA	1	58	16227	1
 63270	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	42	16227	1
@@ -249,6 +259,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 66006	2310	2310	NA	1	100	16339	1
 66006	2310	2310	NA	1	100	19620	2
 66270	4010	4010	NA	1	100	17099	1
+66270	4010	4010	NA	1	100	20250	2
 67161	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16213	1
 67282	4030	4030	NA	1	100	19909	2
 68562	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16587	1
@@ -263,6 +274,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 71238	geen habitat (akker, houtkant, tuin,...)	4030	NA	2	5	19899	2
 71478	91E0_vm	NA	BOS	1	100	18774	1
 71902	4010	4010	NA	1	100	17081	1
+71902	4010	4010	NA	1	100	20311	2
 72690	4030	4030	NA	1	100	16302	1
 72690	4030	4030	NA	1	100	19236	2
 75126	onbekend	NA	NA	1	100	16687	1
@@ -276,10 +288,11 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 76754	2310	2310	NA	1	100	16323	1
 76754	2310	2310	NA	1	100	19251	2
 77278	4010	4010	NA	1	100	17135	1
+77278	4010	4010	NA	1	100	20318	2
 77394	4030	4030	NA	1	100	16304	1
 77394	NA	NA	NA	1	100	19125	2
 78294	6510_hu	6510_hu	NA	1	100	16955	1
-78294	6510_hu	6510_hu	NA	1	100	19879	2
+78294	6510_hu	NA	NA	1	100	19879	2
 78558	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16293	1
 79089	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16232	1
 79986	6510_hu	6510_hu	NA	1	69	16224	1
@@ -287,11 +300,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 79986	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	31	16224	1
 80662	9130_end	NA	BOS	1	100	18775	1
 81374	4010	4010	NA	1	100	17101	1
+81374	4010	4010	NA	1	100	20319	2
 81638	geen habitat 	NA	NA	1	100	16601	1
 81985	2330	2310	NA	1	100	16293	1
 82222	4030	4030	NA	1	92	17095	1
+82222	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	100	20244	2
 82222	infrastructuur	4030	NA	2	8	17095	1
 82654	4010	4010	NA	1	100	17130	1
+82654	4010	4010	NA	1	100	20255	2
 82870	9 : bossen	9 : bossen	NA	1	100	17403	1
 83318	geen habitat en geen rbb	NA	BOS	1	100	18773	1
 84598	4010	4010	NA	1	100	19894	2
@@ -304,12 +320,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 85890	geen habitat 	NA	water (poel, vijver, beek)	3	2	16576	1
 85890	geen habitat 	NA	grasland	4	5	16576	1
 87250	4010	4010	NA	1	100	17364	1
+87250	4030	4030	NA	1	100	20220	2
 88274	9190	NA	bos	1	67	16588	1
 88274	geen habitat 	NA	bos	2	33	16588	1
 89310	NA	NA	NA	1	100	17343	1
 90846	2310	2310	NA	1	100	16301	1
 90846	2310	2310	NA	1	100	19248	2
 91122	4030	4030	NA	1	57	17350	1
+91122	4030	4030	NA	1	100	19907	2
 91122	infrastructuur	4030	NA	2	10	17350	1
 91122	9 : bossen	4030	NA	3	32	17350	1
 91410	4030	4030	NA	1	100	17071	1
@@ -318,8 +336,10 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 91510	2330_bu	2330_bu	NA	1	100	16687	1
 91510	2330_bu	2330_dw	NA	1	100	19597	2
 91614	4010	4010	NA	1	100	17788	1
+91614	4010	4010	NA	1	100	20320	2
 92126	4030	4030	NA	1	100	17760	1
 92382	4030	4030	NA	1	91	17081	1
+92382	4030	4030	NA	1	100	20313	2
 92382	3 : zoetwaterhabitats	4030	NA	2	9	17081	1
 93138	2310	2310	NA	1	100	16322	1
 93138	4030	4030	NA	1	100	19608	2
@@ -330,9 +350,11 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 95158	infrastructuur	2310	NA	2	28	16322	1
 95218	4030	4030	NA	1	100	17283	1
 95710	4010	4010	NA	1	98	17140	1
+95710	4010	4010	NA	1	100	20269	2
 95710	onbekend	4010	NA	2	2	17140	1
 96217	91E0_vc	NA	bos	1	5	16568	1
 96217	9130_end	NA	bos	2	95	16568	1
+96466	2310	2310	NA	1	100	20216	2
 96978	2310	2310	NA	1	100	16314	1
 96978	2310	2310	NA	1	100	19226	2
 98002	2310	2310	NA	1	100	16324	1
@@ -363,6 +385,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 105682	2310	2310	NA	1	100	16321	1
 105682	9 : bossen	9 : bossen	NA	1	100	19242	2
 106614	4010	4010	NA	1	100	17122	1
+106614	4 : heide- en struikvegetaties	geen habitat (akker, houtkant, tuin,...)	NA	1	100	20304	2
 111326	4010	4010	NA	1	100	16301	1
 111326	4030	4030	NA	1	100	19248	2
 111918	4030	4030	NA	1	100	17779	1
@@ -375,6 +398,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 115422	2310	2310	NA	1	100	16609	1
 115422	9 : bossen	9 : bossen	NA	1	100	19523	2
 115638	4030	4030	NA	1	100	17401	1
+115638	4030	4030	NA	1	100	20215	2
 116434	2310	2310	NA	1	100	17751	1
 116434	2310	2310	NA	1	100	19909	2
 116946	9 : bossen	NA	NA	1	100	16324	1
@@ -401,11 +425,15 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 124278	2310	2310	NA	1	100	16336	1
 124278	2310	2330	NA	1	100	19265	2
 124382	4010	4010	NA	1	100	17086	1
+124382	4010	4010	NA	1	100	20314	2
+124718	4030	4030	NA	1	100	20257	2
 125394	2310	2310	NA	1	100	16587	1
 125394	4030	4030	NA	1	100	19607	2
 125998	4030	4030	NA	1	87	17098	1
+125998	4030	4030	NA	1	100	20258	2
 125998	onbekend	4030	NA	2	13	17098	1
 126430	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17085	1
+126622	2310	2310	NA	1	100	20263	2
 127218	6510_hu	6510_hu	NA	1	100	16209	1
 127218	NA	NA	NA	1	100	19117	2
 127710	4 : heide- en struikvegetaties	2310	NA	1	100	17121	1
@@ -416,6 +444,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 128786	4030	4030	NA	1	100	17730	1
 129234	4010	4010	NA	1	100	16324	1
 131806	4010	4010	NA	1	100	17094	1
+131806	4010	4010	NA	1	100	20252	2
 131958	2330_bu	2330_bu	NA	1	100	19613	2
 132818	91E0_vm	NA	bos	1	77	18374	1
 132818	geen habitat 	NA	heide	2	23	18374	1
@@ -429,10 +458,13 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 137042	NA	NA	BOS	1	100	18765	1
 137401	91E0_va	NA	bos	1	100	16560	1
 138226	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17351	1
+139190	NA	NA	NA	1	100	20220	2
 139577	geen habitat 	NA	bos	1	100	16563	1
 140006	9190	NA	bos	1	100	16597	1
 140374	geen habitat 	NA	NA	1	100	16609	1
 141778	4010	4010	NA	1	100	17745	1
+141778	4010	4010	NA	1	100	20213	2
+143150	9 : bossen	9 : bossen	NA	1	100	20257	2
 143382	6510_hu	6510_hu	NA	0	92	16951	1
 143382	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	8	16951	1
 143382	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	19509	2
@@ -445,6 +477,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 147062	2330_bu	2330_bu	NA	1	100	19613	2
 147174	9190	NA	bos	1	100	16596	1
 148406	4030	4030	NA	1	100	17402	1
+148406	2330_bu	2330_bu	NA	1	100	20215	2
 149225	NA	NA	NA	1	100	16542	1
 150902	91F0	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17078	1
 150962	onbekend	onbekend	NA	1	100	16212	1
@@ -478,6 +511,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 162898	onbekend	onbekend	NA	1	100	16211	1
 163513	geen habitat 	NA	bos	1	100	16562	1
 163538	2310	2310	NA	1	100	17742	1
+163538	2310	2310	NA	1	100	20214	2
 164793	91E0_vc	NA	bos	1	18	16553	1
 164793	9130_end	NA	bos	2	80	16553	1
 164793	geen habitat 	NA	akker	3	2	16553	1
@@ -485,11 +519,13 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 165913	91E0_vc	NA	bos	1	78	16932	1
 165913	geen habitat 	NA	NA	2	22	16932	1
 166102	2310	2310	NA	1	100	17777	1
+166102	23 : oude, ontkalkte landduinen	2330_bu	NA	1	100	20259	2
 167286	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17074	1
 167606	geen habitat 	NA	NA	1	100	16609	1
 168886	4030	4030	NA	1	100	17767	1
 169170	4030	4030	NA	1	100	17745	1
 170206	4030	4030	NA	1	100	17416	1
+170206	4010	4030	NA	1	100	20311	2
 170834	2330_bu	2330_bu	NA	1	100	17354	1
 170834	2330_bu	2330_bu	NA	1	100	19905	2
 174302	4010	4010	NA	1	100	19524	2
@@ -498,18 +534,22 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 175698	4030	4030	NA	1	100	17372	1
 175698	4030	4030	NA	1	100	19906	2
 176862	4010	4010	NA	1	100	17414	1
+176862	4010	4010	NA	1	100	20255	2
 177078	2330_bu	2330_bu	NA	1	100	16323	1
 177778	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16224	1
 179922	2330_dw	2330_dw	NA	1	100	17744	1
+179922	2330_dw	2330_dw	NA	1	100	20213	2
 179922	2310	2330_dw	NA	2	NA	17744	1
 181234	4030	4030	NA	1	100	17350	1
 181234	4030	4030	NA	1	100	19907	2
 182054	6510_hu	6510_hu	NA	1	100	17674	1
+182054	6510_hu	6510_hu	NA	1	100	20321	2
 182482	4030	4030	NA	1	100	17737	1
 183593	NA	NA	NA	1	100	16542	1
 183734	6510_hu	6510_hu	NA	1	100	17688	1
 183734	6510_hu	NA	NA	1	100	19877	2
 186850	6510_hu	6510_hu	NA	1	100	17702	1
+186850	6510_hu	6510_hu	NA	1	100	20231	2
 187382	9190	NA	BOS	1	100	18779	1
 188022	91E0_vo	NA	bos	1	100	16588	1
 190162	4030	4030	NA	1	100	17374	1
@@ -526,6 +566,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 191966	4030	4030	NA	1	100	17781	1
 193206	9190	NA	BOS	1	100	18801	1
 193246	4010	4010	NA	1	100	18116	1
+193462	2310	2310	NA	1	100	20217	2
 194294	2330	2330	NA	1	100	19593	2
 195046	9120	NA	NA	1	100	16575	1
 196022	91E0_vo	NA	bos	1	100	17983	1
@@ -539,12 +580,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 201938	NA	NA	NA	1	100	17738	1
 205113	9130_end	NA	bos	1	100	16566	1
 205501	4030	4030	NA	1	100	17394	1
+205501	4030	4030	NA	1	100	20252	2
 206134	6510_hu	6510_hu	NA	1	80	16233	1
 206134	infrastructuur	6510_hu	NA	2	20	16233	1
 206546	2310	2310	NA	1	100	17752	1
 207314	2310	2310	NA	1	100	17746	1
 208134	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16210	1
 208350	4010	4010	NA	1	100	17416	1
+208350	4010	4010	NA	1	100	20314	2
 211193	91E0_vc	NA	bos	1	100	16573	1
 212062	4030	4030	NA	1	100	17814	1
 212446	4010	4010	NA	1	100	19536	2
@@ -552,6 +595,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 213302	onbekend	onbekend	NA	1	100	16234	1
 213366	2330_bu	2330_bu	NA	1	100	19599	2
 213726	4 : heide- en struikvegetaties	4010	NA	1	100	18109	1
+213726	4010	4010	NA	1	100	20256	2
 213942	2330_bu	2330_bu	NA	1	100	16318	1
 216018	4010	4010	NA	1	100	17745	1
 216018	4010	4010	NA	1	100	19895	2
@@ -564,10 +608,11 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 217014	4030	4030	NA	1	100	17750	1
 217049	geen habitat 	NA	NA	1	100	16917	1
 218038	infrastructuur	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17753	1
+218070	2310	2310	NA	1	100	20312	2
 218086	6510_hu	6510	NA	1	100	18059	1
-218086	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	61	19880	2
+218086	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	61	19880	2
 218086	9 : bossen	6510	NA	2	40	18059	1
-218086	infrastructuur	6510_hu	NA	2	39	19880	2
+218086	9 : bossen	geen doelhabitat (meer)	NA	2	39	19880	2
 218162	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16972	1
 218322	4030	4030	NA	1	100	16332	1
 218322	NA	NA	NA	1	100	19125	2
@@ -576,11 +621,13 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 219694	91E0_vo	NA	bos	1	100	17666	1
 220786	6510_huk	6510_huk	NA	1	100	16969	1
 222194	4030	4030	NA	1	100	17361	1
+222194	4030	4030	NA	1	100	19906	2
 222377	NA	NA	NA	1	100	16542	1
 222418	2330_dw	2330_dw	NA	1	61	19544	2
 222418	9 : bossen	2330_dw	NA	2	39	19544	2
 223570	onbekend	onbekend	NA	1	100	16210	1
 224726	9160	NA	NA	1	100	16548	1
+224734	4010	4010	NA	1	100	20314	2
 224850	4030	4030	NA	1	100	17372	1
 224850	4030	4030	NA	1	100	19906	2
 225334	2310	2310	NA	1	75	19898	2
@@ -590,12 +637,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 226230	2330_bu	2330_bu	NA	1	26	16321	1
 226230	4030	2330_bu	NA	2	74	16321	1
 226606	4030	4030	NA	1	100	17798	1
+226782	4010	4010	NA	1	100	20266	2
 227286	9190	NA	BOS	1	100	18778	1
 229074	4010	4010	NA	1	100	17744	1
 229074	2310	4010	NA	2	39	17744	1
 229362	2330_dw	2330_dw	NA	1	100	19263	2
 230110	4010	4010	NA	1	100	17757	1
-230774	onbekend	NA	NA	1	100	19892	2
+230326	infrastructuur	NA	NA	1	100	20216	2
+230774	geen doelhabitat (meer)	NA	NA	1	100	19892	2
 230930	91E0_vo	NA	bos	1	100	16608	1
 231702	6510_hus	6510_hus	NA	1	89	16217	1
 231702	NA	NA	NA	1	100	19117	2
@@ -631,13 +680,16 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 243698	4010	4010	NA	1	100	17351	1
 243698	4010	4010	NA	1	100	19908	2
 243846	6510_hu	6510_hu	NA	1	100	16212	1
+243922	2310	2310	NA	1	100	20217	2
 245458	2310	2310	NA	1	100	17744	1
 248402	geen habitat 	NA	infrastructuur (wegen, spoorwegen, kanalen)	1	100	16603	1
 248946	9160	NA	NA	1	100	16575	1
 249846	91E0_vm	NA	NA	1	100	17070	1
 251090	4010	4010	NA	1	100	17785	1
+251358	4 : heide- en struikvegetaties	4 : heide- en struikvegetaties	NA	1	100	20318	2
 253593	91E0_vc	NA	bos	1	100	17269	1
 255350	2330_bu	2330_dw	NA	1	100	19597	2
+255454	4 : heide- en struikvegetaties	4030	NA	1	100	20320	2
 255826	6 : (half) natuurlijke graslanden	NA	NA	1	100	17361	1
 256978	2310	2310	NA	1	100	17749	1
 257081	91E0_vc	NA	bos	1	100	16553	1
@@ -645,6 +697,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 258782	2310	2310	NA	1	100	17756	1
 260082	91E0_vo	NA	bos	1	100	17997	1
 260306	4030	4030	NA	1	100	17739	1
+261750	NA	NA	NA	1	100	19859	2
 261854	4010	4010	NA	1	100	18113	1
 262038	geen habitat 	NA	NA	1	100	17074	1
 262130	91E0_vo	NA	NA	1	100	18002	1
@@ -665,6 +718,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 272569	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17997	1
 272630	4030	4030	NA	1	100	19599	2
 272850	4030	4030	NA	1	100	17745	1
+273886	4010	4010	NA	1	100	20313	2
 274002	2330_dw	2330_dw	NA	1	100	19264	2
 275382	2310	2310	NA	1	100	17752	1
 275830	4030	4030	NA	1	100	17360	1
@@ -673,6 +727,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 277225	NA	NA	NA	1	100	16542	1
 279146	2310	2310	NA	1	100	19894	2
 279478	4010	4030	NA	1	100	16316	1
+280854	NA	NA	NA	1	100	20322	2
 281177	6510_hu	6510_hu	NA	1	100	19503	2
 281554	2310	2310	NA	1	100	17745	1
 281554	2330_bu	2310	NA	2	24	17745	1
@@ -693,6 +748,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 290870	2310	2310	NA	1	100	17788	1
 291550	2310	2310	NA	1	100	19893	2
 292585	NA	NA	NA	1	100	16542	1
+292822	2310	2310	NA	1	100	20249	2
 293598	4010	4010	NA	1	100	18120	1
 294610	2310	2310	NA	1	73	17742	1
 294610	2330	2310	NA	2	14	17742	1
@@ -723,7 +779,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 306130	2310	2310	NA	1	100	16323	1
 306130	2310	2310	NA	1	100	19251	2
 306870	91E0*	NA	BOS	1	100	18752	1
-307574	onbekend	NA	NA	1	100	19892	2
+307574	geen doelhabitat (meer)	NA	NA	1	100	19892	2
 308098	6510_huk	6510_huk	NA	1	83	16212	1
 308098	6510_hu	6510_hu	NA	1	64	19146	2
 308098	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	17	16212	1
@@ -740,6 +796,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 315705	onbekend - niet toegankelijk/weigering	NA	NA	1	100	18284	1
 316114	91E0_vm	NA	NA	1	100	18002	1
 316601	onbekend - niet toegankelijk/weigering	NA	NA	1	100	17948	1
+316614	NA	NA	NA	1	100	20242	2
 316626	4030	4030	NA	1	100	17751	1
 316646	6510_hu	6510_hu	NA	1	100	19880	2
 317202	2330_bu	2330_bu	NA	1	100	17736	1
@@ -778,6 +835,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 343314	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	19894	2
 344798	4010	4010	NA	1	100	18109	1
 345014	2330_bu	2330_bu	NA	1	100	17408	1
+345014	2330_bu	2330_bu	NA	1	100	20216	2
 346246	91E0_vm	NA	bos	1	100	17708	1
 347090	2310	2310	NA	1	100	17745	1
 347090	4010	2310	NA	2	10	17745	1
@@ -821,6 +879,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 391154	4010	4010	NA	1	100	17350	1
 391154	4010	4010	NA	1	100	19908	2
 392342	2330_bu	2330_bu	NA	1	100	17417	1
+392342	2330_bu	2330_bu	NA	1	100	20263	2
 392617	NA	NA	NA	1	100	16542	1
 393950	4010	4010	NA	1	100	18067	1
 394962	4010	4010	NA	1	100	17381	1
@@ -831,6 +890,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 398529	6510_hu	6510_hu	NA	3	31	16223	1
 398546	2310	2310	NA	1	100	16328	1
 398921	geen habitat (akker, houtkant, tuin,...)	onbekend	NA	1	100	16224	1
+402390	6 : (half) natuurlijke graslanden	6 : (half) natuurlijke graslanden	NA	1	100	20304	2
 402418	9 : bossen	NA	NA	1	100	17372	1
 404306	9190	NA	BOS	1	100	18765	1
 409654	6510_hu	6510_hu	NA	1	84	16217	1
@@ -847,6 +907,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 430713	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16210	1
 431314	2330_bu	2330_bu	NA	1	100	16330	1
 431494	91E0_vo	NA	bos	1	100	17707	1
+432610	6510_hu	6510_hu	NA	1	100	20231	2
 433362	2310	2310	NA	1	100	16321	1
 439922	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16224	1
 442354	onbekend	onbekend	NA	1	100	16209	1
@@ -869,6 +930,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 459798	6510_hu	6510_hu	NA	1	100	19873	2
 463798	2310	2310	NA	1	100	16322	1
 463833	91E0_vc	NA	bos	1	100	18011	1
+466614	NA	NA	NA	1	100	19884	2
 466745	91E0_vc	NA	bos	1	100	17680	1
 467257	onbekend - niet toegankelijk/weigering	NA	NA	1	100	18005	1
 468953	geen habitat 	NA	NA	1	100	17976	1
@@ -891,6 +953,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 501046	6510_hu	6510_hu	NA	1	100	16217	1
 502610	2310	2310	NA	1	100	17357	1
 503414	2330_bu	2330_bu	NA	1	100	17079	1
+503414	2330_bu	2330_bu	NA	1	100	20306	2
 504542	2310	2310	NA	1	100	17063	1
 515737	geen habitat 	NA	NA	1	100	17976	1
 516441	91E0_vc	NA	bos	1	100	17687	1
@@ -913,20 +976,24 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 552537	91E0_vc	NA	bos	1	100	17668	1
 556006	6510	6510_hu	NA	1	100	16213	1
 558006	2330_bu	2330_bu	NA	1	76	17401	1
+558006	2330_bu	2330_bu	NA	1	100	20216	2
 558006	onbekend	2330_bu	NA	2	24	17401	1
 568146	9 : bossen	NA	NA	1	100	17357	1
+568582	6510_hu	6510_hu	NA	1	56	20241	2
+568582	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	44	20241	2
 570886	9130	NA	bos	1	100	17716	1
 572934	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16210	1
 576033	6510_hu	6510_hu	NA	1	54	16976	1
 576033	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	46	16976	1
 577849	onbekend - niet toegankelijk/weigering	NA	NA	1	100	18284	1
 579958	2310	2310	NA	1	100	17072	1
+580082	6510_hu	6510_hu	NA	1	100	20230	2
 583030	2330_bu	2330_bu	NA	1	100	17073	1
 583030	2330_bu	2330_bu	NA	1	100	19892	2
 585810	onbekend	onbekend	NA	1	100	16211	1
 589110	6510_hu	6510_hu	NA	1	100	16233	1
 589698	6510	6510	NA	1	59	16225	1
-589698	onbekend	NA	NA	1	100	19150	2
+589698	geen doelhabitat (meer)	NA	NA	1	100	19150	2
 589698	onbekend	6510	NA	2	41	16225	1
 594870	4030	4030	NA	1	100	17764	1
 602846	2330_bu	2330_bu	NA	1	100	17077	1
@@ -936,7 +1003,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 605493	6510_hu	6510_hu	NA	1	100	19146	2
 605493	infrastructuur	6510_hu	NA	2	47	16227	1
 608550	6510_hu	6510_hu	NA	1	100	16975	1
-608550	onbekend	6510_hu	NA	1	100	19887	2
+608550	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	100	19887	2
 612246	91E0_vm	NA	bos	1	100	18024	1
 616665	91E0_vc	NA	bos	1	100	17673	1
 618646	6510_hu	6510_hu	NA	1	100	19877	2
@@ -956,6 +1023,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 656246	2330_bu	2330_bu	NA	1	100	17079	1
 659330	onbekend	onbekend	NA	1	100	16223	1
 659382	2330_bu	2330_bu	NA	1	100	17367	1
+659382	2330_bu	2330_bu	NA	1	100	20220	2
 659794	6510_hu	6510_hu	NA	1	55	16210	1
 659794	onbekend	6510_hu	NA	2	31	16210	1
 659794	infrastructuur	6510_hu	NA	3	14	16210	1
@@ -968,17 +1036,23 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 695122	9 : bossen	NA	NA	1	100	17354	1
 697062	9190	NA	BOS	1	100	18801	1
 714198	2330_bu	2330_bu	NA	1	100	17088	1
+714198	2330_bu	2330_bu	NA	1	100	20249	2
+714198	9 : bossen	2330_bu	NA	2	NA	20249	2
 714230	2330_bu	2330_bu	NA	1	100	17072	1
+714230	2330_bu	2330_bu	NA	1	100	20265	2
 720369	6510_hua	6510_hua	NA	1	100	16232	1
 720369	6510_hua	6510_hua	NA	1	100	19166	2
 735033	91E0_vc	NA	BOS	1	100	18738	1
 738230	2330_bu	2330_bu	NA	1	100	17407	1
+738230	2330_bu	2330_bu	NA	1	100	20216	2
 738265	91E0_va	NA	BOS	1	100	18766	1
 742610	2330_bu	2330_bu	NA	1	100	17364	1
+742610	2330_bu	2330_bu	NA	1	100	20220	2
 744742	6510_huk	6510_huk	NA	1	99	16974	1
 744742	91F0	6510_huk	NA	2	1	16974	1
 750198	2330_bu	2330_bu	NA	1	100	17732	1
 750518	2330_bu	2330_bu	NA	1	100	17408	1
+750518	2330_bu	2330_bu	NA	1	100	20216	2
 750646	6 : (half) natuurlijke graslanden	NA	NA	1	100	17354	1
 751337	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16968	1
 760793	NA	NA	NA	1	100	18766	1
@@ -990,11 +1064,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 792209	6510_hua	6510_hua	NA	1	100	19143	2
 797785	NA	NA	NA	1	100	18766	1
 803766	2330_bu	2330_bu	NA	1	100	17403	1
+803766	2330_bu	2330_bu	NA	1	100	20215	2
 808146	2330_bu	2330_bu	NA	1	100	17364	1
+808146	NA	NA	NA	1	100	20220	2
 808722	2330_bu	2330_bu	NA	1	100	17731	1
 816054	2310	2310	NA	1	100	17767	1
 818673	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16239	1
 821462	2330_bu	2330_bu	NA	1	100	17095	1
+821462	2330_bu	2330_bu	NA	1	100	20259	2
 828626	9 : bossen	NA	NA	1	100	17364	1
 830290	2310	NA	NA	1	100	17357	1
 830770	6510_hu	6510_hu	NA	1	100	19887	2
@@ -1013,11 +1090,12 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 863826	2330_dw	2330_dw	NA	1	100	19264	2
 870694	6510_huk	6510_huk	NA	1	100	16974	1
 877942	2330	2330_bu	NA	1	100	17074	1
-877942	2330_bu	2330_bu	NA	1	100	19892	2
+877942	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	100	19892	2
 881590	2330	2330	NA	1	100	17756	1
 884022	6510_hu	6510_hu	NA	1	100	17680	1
 884022	6510_hu	6510_hu	NA	1	100	19884	2
 884342	2330_bu	2330_bu	NA	1	100	17079	1
+884342	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	100	20306	2
 886994	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17077	1
 901945	6510	NA	NA	1	100	17660	1
 905190	6510_hu	6510_hu	NA	1	100	17688	1
@@ -1027,6 +1105,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 923209	6510_hu	6510_hu	NA	1	100	17695	1
 934506	9 : bossen	9 : bossen	NA	1	100	17354	1
 934838	2330_bu	2330_bu	NA	1	100	17401	1
+934838	2330_bu	2330_bu	NA	1	100	20215	2
 937682	2330_bu	4030	NA	1	100	17375	1
 938262	6510_hu	6510_hu	NA	1	100	17690	1
 941682	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16223	1
@@ -1049,6 +1128,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1003230	2330_bu	2330_bu	NA	1	100	17059	1
 1003230	2330_bu	2330_bu	NA	1	100	19895	2
 1007490	6510	6510	NA	1	100	16226	1
+1008850	geen doelhabitat (meer)	NA	NA	1	100	20215	2
 1012662	4030	4030	NA	1	100	17765	1
 1018841	6510_hu	6510_hu	NA	1	100	18408	1
 1020370	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	17353	1
@@ -1057,9 +1137,12 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1027026	2310	NA	NA	1	100	17375	1
 1042034	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16223	1
 1043410	2330_bu	2330_bu	NA	1	100	17375	1
+1043410	2330_bu	2330_bu	NA	1	100	20214	2
 1048049	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16239	1
+1048566	2330_bu	2330_bu	NA	1	100	20262	2
 1052582	6510_hu	6510_hu	NA	1	100	17682	1
 1053622	2330_bu	2330_bu	NA	1	100	17407	1
+1053622	2330_bu	2330_bu	NA	1	100	20216	2
 1056722	9 : bossen	NA	NA	1	100	17354	1
 1062514	6510_hu	6510_hu	NA	1	100	18409	1
 1065910	2330_bu	2330_bu	NA	1	100	17378	1
@@ -1128,6 +1211,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1303926	2330_bu	2330_bu	NA	1	100	17361	1
 1311190	9 : bossen	9 : bossen	NA	1	100	17778	1
 1313142	2330_bu	2330_bu	NA	1	100	17374	1
+1315118	NA	NA	NA	1	100	20244	2
 1315766	4030	4010	NA	1	100	17409	1
 1328054	2330_bu	2330_bu	NA	1	100	17400	1
 1328710	6510_hu	6510_hu	NA	1	100	17688	1
@@ -1137,6 +1221,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1350866	2330_bu	2330_bu	NA	1	100	17743	1
 1353078	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	17374	1
 1355014	6510_hu	6510_hu	NA	1	100	17688	1
+1365202	2330_dw	2330_dw	NA	1	100	20217	2
 1365778	NA	NA	NA	1	100	17736	1
 1375542	6510_hu	6510_hu	NA	1	100	17680	1
 1380278	2310	2310	NA	1	100	17743	1
@@ -1177,12 +1262,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1512374	4030	4030	NA	1	100	17756	1
 1512530	6510_hu	6510_hu	NA	1	100	17701	1
 1529025	6510_hu	6510_hu	NA	1	100	17689	1
+1533138	geen doelhabitat (meer)	NA	NA	1	100	20215	2
 1533266	6510_hu	6510_hu	NA	1	100	17700	1
 1533266	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	2	35	17700	1
 1535001	6510_hu	6510_hu	NA	1	100	18408	1
 1536630	2330_bu	2330_bu	NA	1	100	17732	1
 1536950	4030	4030	NA	1	100	17766	1
 1542626	6510_hu	6510_hus	NA	1	100	17702	1
+1542626	6510_hus	6510_hus	NA	1	100	20231	2
 1547090	2330_bu	2330_bu	NA	1	100	17360	1
 1547570	6510_hu	6510_hu	NA	1	100	17693	1
 1549622	6510_hu	6510_hu	NA	1	100	17680	1
@@ -1196,7 +1283,9 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1569666	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	35	16213	1
 1569666	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	43	19150	2
 1584722	2330_dw	2330_dw	NA	1	100	19907	2
+1587934	NA	NA	NA	1	100	20266	2
 1590198	4030	4030	NA	1	100	17375	1
+1594294	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	100	20217	2
 1594578	2330_bu	2330_bu	NA	1	100	17744	1
 1599794	4010	4010	NA	1	100	17346	1
 1606582	2330_bu	2330_bu	NA	1	100	17400	1
@@ -1221,13 +1310,14 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 1786806	2330_bu	2330_bu	NA	1	100	17406	1
 1789878	4010	4010	NA	1	100	17750	1
 1793318	6510_huk	6510_huk	NA	1	61	16974	1
-1793318	NA	NA	NA	1	100	19835	2
+1793318	NA	NA	NA	1	100	20230	2
 1793318	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	39	16974	1
 1820185	6510_hu	6510_hu	NA	1	100	17693	1
 1835906	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	16212	1
-1861942	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	19895	2
+1861942	2330_dw	geen habitat (akker, houtkant, tuin,...)	NA	1	100	19895	2
 1875842	onbekend	NA	NA	1	100	16225	1
 1885721	6510_hua	6510_hua	NA	1	100	18051	1
+1886422	2330_dw	2330_dw	NA	1	100	20259	2
 1905938	6510	6510	NA	1	64	16961	1
 1905938	6510_hus	6510_hus	NA	1	100	19517	2
 1905938	geen habitat (akker, houtkant, tuin,...)	6510	NA	2	36	16961	1
@@ -1258,7 +1348,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 2645426	6510_hu	6510_hu	NA	1	100	19886	2
 2733713	6510_hua	6510_hua	NA	1	100	18052	1
 2841894	6510_huk	6510_huk	NA	1	100	17673	1
-2841894	NA	NA	NA	1	100	19835	2
+2841894	NA	NA	NA	1	100	20230	2
 2867990	6510_hus	6510_hus	NA	1	93	16212	1
 2867990	6510_hus	6510_hus	NA	1	97	19145	2
 2867990	onbekend	6510_hus	NA	2	7	16212	1
@@ -1280,6 +1370,7 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 3163010	6510_huk	6510_huk	NA	1	100	17709	1
 3163010	6510_huk	6510_huk	NA	1	100	19886	2
 3170178	6510_huk	6510_huk	NA	1	100	18066	1
+3170178	6510_hu	6510_hu	NA	1	100	20229	2
 3173042	6510_huk	6510_huk	NA	1	100	18415	1
 3366786	6510_huk	6510_huk	NA	1	100	18066	1
 3432322	6510	6510	NA	1	74	18066	1
@@ -1287,19 +1378,25 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 3511922	geen habitat (akker, houtkant, tuin,...)	geen habitat (akker, houtkant, tuin,...)	NA	1	100	18408	1
 3564894	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16197	1
 3612546	6510_huk	6510_huk	NA	1	100	17718	1
+3612546	NA	NA	NA	1	100	19835	2
 3612546	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	5	17718	1
 3811458	6510_huk	6510_huk	NA	1	100	17690	1
+3811458	6510_huk	6510_huk	NA	1	100	20228	2
 3821746	6510_huk	6510_huk	NA	1	100	17694	1
+3821746	6510_huk	6510_huk	NA	1	100	20229	2
 3829634	6510	6510	NA	1	100	18065	1
+3893938	geen doelhabitat (meer)	NA	NA	1	100	20228	2
 3906994	6510_huk	6510_huk	NA	1	100	17690	1
 3906994	6510_huk	6510_huk	NA	1	100	19886	2
 3956146	6510_huk	6510_huk	NA	1	100	17693	1
 4003090	6510_hus	6510_hus	NA	1	93	16961	1
-4003090	geen habitat (akker, houtkant, tuin,...)	6510_hu	NA	1	100	19885	2
+4003090	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	83	19885	2
 4003090	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	7	16961	1
+4003090	geen habitat (akker, houtkant, tuin,...)	geen doelhabitat (meer)	NA	2	17	19885	2
 4122918	6510_huk	6510_huk	NA	1	100	17669	1
 4122918	6510_huk	6510_huk	NA	1	85	19887	2
 4122918	geen habitat (akker, houtkant, tuin,...)	6510_huk	NA	2	15	19887	2
+4230578	NA	NA	NA	1	100	20229	2
 4256642	6510_huk	6510_huk	NA	1	100	17710	1
 4330770	6510_hus	6510_hus	NA	1	100	18409	1
 4346754	6510_hu	6510	NA	1	57	18065	1
@@ -1313,16 +1410,18 @@ plot_id	type_observed_circle	type_observed_square	landuse	segment_id	type_observ
 4502402	infrastructuur	6510_huk	NA	2	NA	17710	1
 4633474	6510_huk	6510_huk	NA	1	100	17710	1
 4868374	6510_hus	6510_hus	NA	1	100	17690	1
+4868374	6510_hus	6510_hus	NA	1	100	20241	2
 5313810	6510_hus	6510_hus	NA	1	100	18401	1
 5474582	6510_hus	6510_hus	NA	1	100	18031	1
 5474582	geen habitat (akker, houtkant, tuin,...)	6510_hus	NA	2	100	18031	1
+5736726	NA	NA	NA	1	100	20241	2
 6151006	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	16958	1
 6165778	6510_hus	6510_hus	NA	1	100	18401	1
 6201542	6510_hus	6510_hus	NA	1	100	18039	1
 6201542	geen habitat (akker, houtkant, tuin,...)	NA	NA	1	100	19891	2
 6427922	6510_hus	6510_hus	NA	1	100	18051	1
 6448478	6510_hus	6510_hus	NA	1	100	17675	1
-6448478	6510_hus	6510_hus	NA	1	100	19880	2
+6448478	geen doelhabitat (meer)	geen doelhabitat (meer)	NA	1	100	19880	2
 6523158	6510_hu	6510_hus	NA	1	100	18032	1
 6690066	6510_hus	6510_hua	NA	1	100	18052	1
 7062294	6510_hus	6510_hus	NA	1	100	18031	1

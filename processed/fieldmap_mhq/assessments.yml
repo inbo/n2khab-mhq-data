@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - date_assessment
   - mon_cycle
-  hash: 588d3bac79293dd43e870157dce3d8fb7fd9a70e
-  data_hash: c573d213dcee0e0f1acf4b11e87ee190bf41837d
+  hash: 74b23bd44ae869607c1748b3340d18cc19ba5e94
+  data_hash: 3cd8e616f89941c51fd660935a50824fd1d670d9
 plot_id:
   class: character
 sampling_unit_code:
@@ -41,5 +41,6 @@ dendro_record:
   class: logical
 mon_cycle:
   class: numeric
+  digits: 6
 type_target_all:
   class: character

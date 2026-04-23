@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - date_assessment
   - idline_intersect_method
-  hash: 3aadd2e743c2a17b187448fbe23b2df7f39bbb54
+  hash: cd29da4cf6997ec55b0c40441754579d852024c0
   data_hash: e6f6a7c8cfbdabd662d6b3f6665a604471e589c3
 plot_id:
   class: integer
@@ -23,3 +23,4 @@ idline_intersect_method_3:
   class: integer
 mon_cycle:
   class: numeric
+  digits: 6

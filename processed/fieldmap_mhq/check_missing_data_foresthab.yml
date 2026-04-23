@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - mon_cycle
-  hash: 4428a3a7079be12874e1624126172166db709a02
-  data_hash: 1ed1131b251c839287e8a59c6ef3f20eed3ac5ca
+  hash: b509ff1f6d56b9d63bffa524a750d700018fe221
+  data_hash: ec86b14548ed5da9f7f61feac8e0007442bdad0d
 plot_id:
   class: character
 status_fieldwork:
@@ -30,3 +30,4 @@ a3a4_record:
   class: logical
 mon_cycle:
   class: numeric
+  digits: 6

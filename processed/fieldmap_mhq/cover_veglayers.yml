@@ -1,13 +1,13 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - date_assessment
   - layer
-  hash: 09455b738c19091f1fdb47771a9093ee85443127
-  data_hash: 5223105f71d90684a492bccef881178a45d24e49
+  hash: 6999e3b7a7fb1b50273500d10e6a14958819b3db
+  data_hash: 1a92ab77e0b010a6d665dcdaf0e5e5d930c7c7d1
 plot_id:
   class: integer
 layer:
@@ -18,8 +18,10 @@ cover_description:
   class: character
 cover_mean:
   class: numeric
+  digits: 6
 date_assessment:
   class: Date
   origin: '1970-01-01'
 mon_cycle:
   class: numeric
+  digits: 6

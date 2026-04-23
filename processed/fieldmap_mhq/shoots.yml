@@ -1,17 +1,18 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - tree_id
   - shoot_id
-  hash: 27bd7713ed8b56b18d3647f15a2716675477bcdc
+  hash: 111a2f37815b0095f78462e249aa562a832877f0
   data_hash: 68192d0dec80e5197b803de90f694a8101219118
 plot_id:
   class: integer
 mon_cycle:
   class: numeric
+  digits: 6
 date_assessment:
   class: Date
   origin: '1970-01-01'
@@ -21,6 +22,7 @@ perimeter_cm:
   class: integer
 height_shoot_m:
   class: numeric
+  digits: 6
 dbh_mm:
   class: integer
 tree_id:

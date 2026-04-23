@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - date_assessment
   - name_nl
-  hash: 1af4ca6e8b0702ef8c1d0f7934e0d065645fed9a
+  hash: 9361e70a441ddeb6d5558bf4a167bb9ac1affccf
   data_hash: 2841ebdf58033a05711c7bb237991936ddff0b96
 plot_id:
   class: integer
@@ -19,3 +19,4 @@ date_assessment:
   origin: '1970-01-01'
 mon_cycle:
   class: numeric
+  digits: 6

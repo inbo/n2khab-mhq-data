@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
@@ -7,8 +7,8 @@
   - segment_id
   - date_assessment
   - structure_var
-  hash: 2e6512bd6b644a1e2bf8a6844624cb4bfecb8a5a
-  data_hash: d9b9a03d8dfdc71f6090cf17c632f935c4b5612d
+  hash: ba236ca84d7ee0ba6f00a6b318a03cb002db645a
+  data_hash: 785b0a289142d055ec8cb0dc9beaa01ca8a235fb
 plot_id:
   class: integer
 segment_id:
@@ -21,12 +21,16 @@ cover_description:
   class: character
 cover_mean:
   class: numeric
+  digits: 6
 cover:
   class: numeric
+  digits: 6
 date_assessment:
   class: Date
   origin: '1970-01-01'
 mon_cycle:
   class: numeric
+  digits: 6
 area_m2:
   class: numeric
+  digits: 6

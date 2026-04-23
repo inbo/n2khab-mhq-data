@@ -1,12 +1,12 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
   - plot_id
   - mon_cycle
-  hash: 0daf56d27880d032f167e08c06215f6ad4bb11d4
-  data_hash: 5c6a4516bd8cad2f2eeb1d4a334046fe4657cdea
+  hash: 31e73ac03e4d8d58968b408e08728ebbbf34cb7f
+  data_hash: 565d31d0eb28643507c38282b07fb7147a3029cd
 plot_id:
   class: character
 status_fieldwork:
@@ -28,3 +28,4 @@ structure_openhab_record:
   class: logical
 mon_cycle:
   class: numeric
+  digits: 6

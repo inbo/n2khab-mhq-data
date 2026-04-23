@@ -1,5 +1,5 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.5.1
   optimize: yes
   NA string: NA
   sorting:
@@ -7,8 +7,8 @@
   - date_assessment
   - layer
   - name_nl
-  hash: 5dd3ee6e417b02c38dea6dd6311d471a6a47a06d
-  data_hash: 90e57113f096a9c2a4164ae2dd2d04fcc9d88bcc
+  hash: bd40a30164e8cdc6e1b90a9529a68c374caad015
+  data_hash: 6b1f807b2505aa9e27b91e973406c0c694e19cf5
 plot_id:
   class: integer
 layer:
@@ -23,8 +23,10 @@ cover_description:
   class: character
 cover_mean:
   class: numeric
+  digits: 6
 date_assessment:
   class: Date
   origin: '1970-01-01'
 mon_cycle:
   class: numeric
+  digits: 6
