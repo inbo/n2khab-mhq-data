@@ -31,16 +31,15 @@ The fieldmap databases can be found in [this google drive folder](https://drive.
 
 An overview of the different versions of the fieldmap databases can be found in [this google sheet](https://docs.google.com/spreadsheets/d/1Ty_xH0hGVhVgAxZDAah3hsxXkdgmcdWhQZQY5AfUskM/edit#gid=0). 
 
-
 ```{r dbINBO}
 
 db_fieldmap_foresthab_past2020 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2023.FDB")
 db_fieldmap_foresthab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_foresthab/fieldmap_foresthab_v2020.FDB")
-db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7.FDB")
+db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7_2023.FDB")
+db_fieldmap_openhab_2021 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7_2021_fb3.FDB")
 # db_fieldmap_openhab_2 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v8_cycle2.FDB")
 # db_fieldmap_openhab_2024 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/access_openhab_v2024.accdb")
 db_fieldmap_openhab_2 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v8_cycle2_2025.accdb")
-
 
 # check if database is in project folder
 
@@ -63,7 +62,6 @@ if (!file.exists(db_fieldmap_openhab_2)) {
 }
 
 ```
-
 
 ```{r dbANB, eval = FALSE}
 #In formaat, compatibel met FM
@@ -1305,10 +1303,64 @@ get_standdescription_past2020 <- function(db = db_fieldmap_foresthab_past2020){
 
 ```
 
+# Compare openhab db's cycle 1
+
+```{r}
+db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7_2023.FDB")
+db_fieldmap_openhab_2021 <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7_2021_fb3.FDB")
+
+sample_status_openhab_2023 <- get_status_openhab() %>%
+  mutate(db = "openhab_2023") 
+
+sample_status_openhab_2023 <- sample_status_openhab_2023 %>%
+  filter(date_status == max(date_status), .by = sampling_unit_code)
+
+sample_status_openhab_2021 <- get_status_openhab(db = db_fieldmap_openhab_2021) %>%
+    mutate(db = "openhab_2021")
+
+sample_status_openhab_2021 <- sample_status_openhab_2021 %>%
+  filter(date_status == max(date_status), .by = sampling_unit_code)
+
+compare_status <- sample_status_openhab_2023 %>%
+  bind_rows(sample_status_openhab_2021) %>%
+  select(db, plot_id, date_status, sampling_unit_code, status = info_status_fieldwork) %>%
+  pivot_wider(names_from = db,
+              values_from = c(status, date_status)) %>%
+  mutate(check = status_openhab_2023 != status_openhab_2021)
+
+type_observed <- get_type_observed_openhab() %>%
+  mutate(db = "openhab_2023") %>%
+    bind_rows(get_type_observed_openhab(db = db_fieldmap_openhab_2021) %>%
+                mutate(db = "openhab_2021"))
+
+compare_type <- type_observed %>%
+  filter(plot_id != 659794) %>%
+  select(plot_id, segment_id, type_observed_circle, db) %>%
+  pivot_wider(names_from = db,
+              values_from = c( type_observed_circle)) %>%
+  mutate(check = openhab_2021 != openhab_2023)
+
+check <- type_observed %>%
+  group_by(plot_id, segment_id, type_observed_circle, db) %>%
+  filter(n() > 1)
+
+cover_species <- get_cover_species_openhab(db = db_fieldmap_openhab) %>%
+  mutate(db_name = "openhab_2023") %>%
+    bind_rows(get_cover_species_openhab(db = db_fieldmap_openhab_2021) %>%
+                mutate(db_name = "openhab_2021")) 
+
+compare_species <- cover_species %>%
+  select(plot_id, layer, name_nl, cover_mean, db_name) %>%
+  pivot_wider(names_from = db_name,
+              values_from = c(cover_mean)) %>%
+  mutate(check = openhab_2021 != openhab_2023)
+
+```
 
 # Access data
 
 ```{r AccessData}
+db_fieldmap_openhab <- file.path(fileman_up("n2khab-mhq-data"), "raw/fieldmap_openhab/fieldmap_openhab_v7_2021_fb3.FDB")
 
 # sample_status
 sample_status_openhab <- get_status_openhab() %>%
@@ -1546,7 +1598,6 @@ check <- coordinates %>%
   filter(n > 1) # check plot 12710
 ```
 
-
 # Check type observed
 
 The type in the centre of the plot determines if the sampling unit should be measured or not.
@@ -1603,8 +1654,6 @@ check_unique_type %>%
             rownames = FALSE)
 ```
 
-
-
 In the table below we check the cases when the cover in the square plot is not recorded and when the circle plot is mixed.
 
 ```{r}
@@ -1613,8 +1662,6 @@ check_type %>%
     datatable(filter = "top",
             rownames = FALSE)
 ```
-
-
 
 # Check missing data
 
@@ -1702,7 +1749,6 @@ check_missing_data_openhab <- check_missing_data %>%
 check_missing_data_openhab %>%
     datatable(filter = "top",
             rownames = FALSE, options = list(pageLength = 30))
-
 
 ```
 
@@ -1962,7 +2008,7 @@ write_vc(cover_veglayers_date, "cover_veglayers", root = path,  sorting = c("plo
 write_vc(cover_species_date, "cover_species", root = path,  sorting = c("plot_id", "date_assessment", "layer", "name_nl"), strict = FALSE)
 write_vc(structure_vars_date, "structure_vars", root = path,  sorting = c("plot_id", "segment_id", "date_assessment",  "structure_var"), strict = FALSE)
 write_vc(date_assessment, "date_assessment", root = path,  sorting = c("plot_id", "mon_cycle"), strict = FALSE)
-write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE)
+write_vc(coordinates_date, "coordinates", root = path,  sorting = c("plot_id", "date_assessment"), strict = FALSE, digits = 20)
 write_vc(trees_a3a4_date, "trees_a3a4", root = path,  sorting = c("plot_id", "segment_id", "tree_id", "date_assessment"), strict = FALSE)
 write_vc(trees_a2_date, "trees_a2", root = path,  sorting = c("plot_id", "date_assessment", "name_nl"), strict = FALSE)
 write_vc(standdescription_date, "standdescription", root = path,  sorting = c("plot_id", "segment_id", "date_assessment", "variable"), strict = FALSE)
